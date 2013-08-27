@@ -124,7 +124,29 @@
           $("li", '#nav').not(".act_item").find("dd").stop().slideUp(200);
         }
       }
-    })  
+    }) 
+ /*Language switcher
+
+      $('#lang_icon').toggle(function(){
+        $('#lang_icon > i').find('i').removeClass('icon-angle-down').addClass('icon-angle-up');
+        $('#lang_list').slideDown(200);
+      }, function(){
+        $('#lang_list').slideUp(200);
+        $('#lang_icon > i').find('i').addClass('icon-angle-down').removeClass('icon-angle-up');
+      })
+
+      $('#lang_list li').click(function(){
+        $('#lang_list').slideUp(200);
+        $('#lang_icon > i').find('i').addClass('icon-angle-down').removeClass('icon-angle-up');
+      })
+      $(document).click(function() { 
+        $('#lang_list').slideUp(200);
+        $('#lang_icon > i').find('i').addClass('icon-angle-down').removeClass('icon-angle-up');
+       }); 
+      $('#lang_icon').click(function(e){ 
+          e.stopPropagation(); 
+      });
+*/ 
     !function ($) {
       $(function(){	
         var $window = $(window)		
@@ -157,10 +179,23 @@
 <header class="header">
   <div class="container">
   <div class="row">
-  <article class="span4"><a class="brand" href="http://templatemonster.com" target="_blank"></a></article>
- <article class="span8">
+  <article class="span3"><a class="brand" href="/help/" target="_blank"></a></article>
+ <article class="span7">
  <h1><img alt="" src="img/wordpress_logo.png"> WordPress Documentation</h1>
+  </article>  
+  <!-- languages switcher
+   <article class="span2">
+    <div class="languages pull-right">
+      <span class="lang_label">Language: </span><div id="lang_icon"><b>En</b><i class="icon-angle-down"></i></div>
+      <ul id="lang_list">
+        <li class="active"><a href="index_en.html"><span>English </span><img src="img/flags/gb.png" height="14" width="22" alt="en"></a></li>
+        <li><a href="index_es.html"><span>Español </span><img src="img/flags/es.png" height="14" width="22" alt="es"></a></li>
+        <li><a href="index_de.html"><span>Deutsch </span><img src="img/flags/de.png" height="14" width="22" alt="de"></a></li>
+        <li><a href="index_ru.html"><span>Русский </span><img src="img/flags/ru.png" height="14" width="22" alt="ru"></a></li>
+      </ul>
+    </div>
   </article>   
+   --> 
   </div>  	
   </div>
 </header>
