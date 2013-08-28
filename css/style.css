@@ -198,12 +198,12 @@ header h1 {
 header h1 a {
   color: #3a3a3a;
 }
-header .brand {
-  text-indent: -1000px;
-  background: url(../img/logo-monster.jpg) no-repeat 0 0;
-  width: 274px;
-  height: 48px;
-  display: block;
+header .brand{
+  text-indent:-1000px;
+  background:url(/help/wp-content/logo.png) no-repeat 0 0;
+  width:375px;
+  height:85px;
+  display:block
 }
 /*------ content ------- */
 #content {
