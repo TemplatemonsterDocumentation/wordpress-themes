@@ -1174,23 +1174,15 @@
         <div class="span6"><pre class="prettyprint">[check_list] List here ... [/check_list] </pre></div>
         <div class="span6"><p><span class="label">Description:</span> shortcodes set used to display various lists stylizations. Each shortcode implements it's own marker for the list items.</p></div>
       </div>
-      <br>
-      <h5>Audio</h5>
-      <figure class="img-paraloid"><img src="img/wordpress/shortcode_audio.jpg" alt=""></figure>
-      <div class="row-fluid">
-        <div class="span6"><pre class="prettyprint">[audio type="mp3" file="#" title="Title"]</pre></div>
-        <div class="span6"><p><span class="label">Description:</span> used to insert audio content.</p></div>
-      </div>
-      <br>
-      <h5>Video</h5>
-      <figure class="img-paraloid"><img src="img/wordpress/shortcode_video.jpg" alt=""></figure>
-      <div class="row-fluid">
-        <div class="span6"><pre class="prettyprint">[video m4v="#" ogv="#" width="400" height="300"]</pre></div>
-        <div class="span6"><p><span class="label">Description:</span> used to insert video content, which can be loaded from the off-site services (youtube, vimeo) or from your website (self hosted).</p></div>
-      </div>
     </article>
     <article id="other_shortcodes">
       <h4>Other</h4>
+      <h5>Video Preview</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_video_preview.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[video_preview post_url="http://demolink.org/blog/video-post-type/" title="yes" date="yes" author="yes"]</pre></div>
+        <div class="span6"><p><span class="label">Description:</span> used to insert video preview, which can be loaded from the off-site services (youtube, vimeo) or from your website (self hosted).</p></div>
+      </div>
       <h5>Alert Boxes (message, info, success, danger)</h5>
       <figure class="img-paraloid"><img src="img/wordpress/shortcode_alert.jpg" alt=""></figure>
       <div class="row-fluid">
@@ -1247,10 +1239,37 @@
         <div class="span6"><pre class="prettyprint">[map src="#" width="300" height="200"]  </pre></div>
         <div class="span6"><p><span class="label">Description:</span> used to display Google maps. To make the shortcode work, you need to insert the desired location link from <a href="https://maps.google.com/">Google</a></div>
       </div>
-    </article>
-
-      <br>
-      <p>Feel free to check out the following tutorial on how <a target="_blank" href="/help/wordpress-how-to-insert-google-map-using-shortcode.html" target="_blank">to insert Google map using shortcode</a>.</p>
+       <br>
+    <h5>Audio / Video</h5>
+    <p><span class="label">Description:</span> WordPress 3.6 has great support for embedding YouTube and Vimeo videos, but if you wanted to play a video or audio file, like an MP3 or MP4 file, that has been uploaded to a server, you needed to implement some kind of player so that the file would appear as media rather than a link on your site. <a href="http://make.wordpress.org/core/2013/04/08/audio-video-support-in-core/" target="_blank">Read More</a></p>
+    The process is similar to inserting an image into your post content:
+    <ol class="clearfix">
+      <li>Add or edit a page or post</li>
+      <li>
+        <p>Click in your content where you want the player to appear then hit <strong style="color:#666">Add Media</strong> above the content editor</p>
+        <figure class="img-paraloid pull-left"><img src="img/audio_video_1.jpg" height="35" width="107" alt=""></figure>
+        <div class="clear"></div>
+      </li>
+      <li>Click <strong>Upload Files</strong></li>
+      <li>Upload an audio or video file</li>
+      <li>
+        <p>Make sure the file you uploaded is selected then under <em>Attachment Display Settings</em> set <em>Embed or Link</em> to &quot;Embed Media Player&quot;</p>
+        <figure class="img-paraloid pull-left"><img src="img/audio_video_2.jpg" height="92" width="268" alt=""></figure>
+        <div class="clear"></div>
+      </li>
+      <li>Click <strong>Insert into page</strong></li>
+    </ol>
+    <p>WordPress will have inserted a shortcode for your audio or video that will be replaced with the player.</p>
+    <p>Maybe you uploaded an audio or video file to another server, say Amazon S3 or a file hosting service. Just enter the URL to your media file (unlinked) on a line of its own. For example, you want to embed a YouTube video. Simply paste that into your content on a line of its own and the YouTube player will show in its place when you publish. Be sure that the URL is not linked.</p>
+    <div class="row-fluid">
+      <div class="span6">
+        <pre class="prettyprint prettyprinted">http://www.youtube.com/watch?v=mmRPSoDrrFU</pre>
+      </div>
+      <div class="span6">
+        <p>That simple line above becomes this:</p>
+        <iframe width="390" height="260" src="http://www.youtube.com/embed/2kodXWejuy0" frameborder="0" allowfullscreen=""></iframe>
+      </div>
+    </div>
     </article>
   </section>  
 <!-- Shortcodes end --> 

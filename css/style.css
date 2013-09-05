@@ -11,6 +11,14 @@
 .clearfix:after {
   clear: both;
 }
+.clear {
+  clear:both;
+  display:block;
+  overflow:hidden;
+  visibility:hidden;
+  width:0;
+  height:0;
+}
 .hide-text {
   font: 0/0 a;
   color: transparent;
