@@ -96,12 +96,12 @@
                          <dd>
                            <ul class="list">          
                             <li><a href="#engine-installation">Engine installation</a></li>
-                            <li><a href="#theme-installation">Theme installation</a></li>
-                            <li><a href="#plugins_intstall">Plugin Installation</a></li>
+                            <li><a href="#theme-installation">Theme installation</a></li>                            
                             <li><a href="#theme_sample_data">Sample Data Install</a></li>
                             <li><a href="#manual_install">Manual installation</a></li>
                             <li><a href="#permilinks_settings">Permalinks settings</a></li>
                             <li><a href="#menu_settings">Menu setup</a></li>
+                            <li><a href="#plugins_intstall">Plugin Installation</a></li>
                            </ul> 
                        </dd>
                      </dl> 
@@ -292,7 +292,7 @@
 
     <h2><i class="icon-play"></i> Getting Started</h2>
 
-      <!-- Engine installation -->
+    <!-- Engine installation -->
 
     <article id="engine-installation">
       <h4>Engine installation</h4>
@@ -413,199 +413,207 @@
     </article>
     <!-- Theme installation -->
 
-    <article>
-        <h4 id="theme-installation">Theme installation</h4>
-              <p>There are two ways to install the theme: via the WordPress admin panel or via FTP. If one way does not work for you for some reason, you can always try the other one. </p>
-              <h5>Upload via WordPress admin:</h5>
-              <p>The installation process includes two steps: the framework installation and the child theme installation. Both steps are basically identical and  easy to follow.</p>
-              <ol style="margin-bottom:.5em;">
-                <li>Log in to your WordPress admin panel (add /wp-admin to your domain name in the browser address bar).</li>                                             
-                <li>Go to the menu <strong>Appearance</strong> > <strong>Themes</strong> and click the <strong>Install Themes </strong>tab.</li>
-                <li>Click the <strong>Browse</strong> button and navigate to the unzipped template package on your computer.</li>
-                <li>Look for a file called  <strong>CherryFramework.zip</strong>. Click on it to select, then click <strong>OK</strong>.</li>
-                <li>Click the <strong>Install Now</strong> button and wait until the installation is complete.</li>
-                <li>Click the <strong>Activate</strong> theme link.</li>
-              </ol>
+    <article id="theme-installation">
+      <h4>Theme installation</h4>
+        <p>There are two ways to install the theme: via the WordPress admin panel or via FTP. If one way does not work for you for some reason, you can always try the other one. </p>
+        <h5>Upload via WordPress admin:</h5>
+        <p>The installation process includes two steps: the framework installation and the child theme installation. Both steps are basically identical and easy to follow.</p>
+        <ol style="margin-bottom:.5em;">
+          <li>Log in to your WordPress admin panel (add /wp-admin to your domain name in the browser address bar).</li>                                             
+          <li>Go to the menu <strong>Appearance</strong> > <strong>Themes</strong> and click the <strong>Install Themes </strong>tab.</li>
+          <li>Click the <strong>Browse</strong> button and navigate to the unzipped template package on your computer.</li>
+          <li>Look for a file called  <strong>CherryFramework.zip</strong>. Click on it to select, then click <strong>OK</strong>.</li>
+          <li>Click the <strong>Install Now</strong> button and wait until the installation is complete.</li>
+          <li>Click the <strong>Activate</strong> theme link.</li>
+        </ol>
 
-            <figure class="img-paraloid"><img src="img/wordpress/install.jpg" alt=""></figure>
-            <p class="muted text-center"></p>
+      <figure class="img-paraloid"><img src="img/wordpress/install.jpg" alt=""></figure>
+      <p class="muted text-center"></p>
 
-              <p>For more information, feel free to check the detailed video tutorial on <a target="_blank" href="/help/how-install-wordpress-theme-via-admin-panel.html">How to install a WordPress theme via admin panel</a> and <a target="_blank" href="/help/wordpress-how-to-install-cherry-framework-template.html">How to install Cherry framework template</a>.</p>
-              <p>Congratulations, you have just installed the framework. Now you can proceed to installing  the child theme: <strong>theme####.zip</strong>. The steps are the same:</p>
-              <ol style="margin-bottom:.5em;">
-                <li>Go to the menu <strong>Appearance</strong> > <strong>Themes</strong> and click the <strong>Install Themes </strong>tab.</li>
-                <li>Click the <strong>Browse</strong> button and navigate to the unzipped template package on your computer.</li>
-                <li>Look for a file called <strong>theme####.zip </strong>(where <strong>XXXX</strong> is the unique number of your theme). Click on it to select, then click <strong>OK</strong>.</li>
-                <li>Click the <strong>Install Now</strong> button and wait until the installation is complete.</li>
-                <li>Click the <strong>Activate</strong> link to change the current layout of the site to the theme your purchased.</li>
-              </ol>
+        <p>For more information, feel free to check the detailed video tutorial on <a target="_blank" href="/help/how-install-wordpress-theme-via-admin-panel.html">How to install a WordPress theme via admin panel</a> and <a target="_blank" href="/help/wordpress-how-to-install-cherry-framework-template.html">How to install Cherry framework template</a>.</p>
+        <p>Congratulations, you have just installed the framework. Now you can proceed to installing  the child theme: <strong>theme####.zip</strong>. The steps are the same:</p>
+        <ol style="margin-bottom:.5em;">
+          <li>Go to the menu <strong>Appearance</strong> > <strong>Themes</strong> and click the <strong>Install Themes </strong>tab.</li>
+          <li>Click the <strong>Browse</strong> button and navigate to the unzipped template package on your computer.</li>
+          <li>Look for a file called <strong>theme####.zip </strong>(where <strong>XXXX</strong> is the unique number of your theme). Click on it to select, then click <strong>OK</strong>.</li>
+          <li>Click the <strong>Install Now</strong> button and wait until the installation is complete.</li>
+          <li>Click the <strong>Activate</strong> link to change the current layout of the site to the theme your purchased.</li>
+        </ol>
 
-            <figure class="img-paraloid"><img src="img/wordpress/theme_activate.jpg" alt=""></figure>
-            <p class="muted text-center"></p>
+      <figure class="img-paraloid"><img src="img/wordpress/theme_activate.jpg" alt=""></figure>
+      <p class="muted text-center"></p>
 
-              <p>Congratulations, both the framework and theme have been successfully installed!</p>
-            <br>
-              <div class="box-info"><span>If there are problems with installing them via the admin panel, here's the alternative way to do it.</span></div>
-              <h5>Upload via ftp:</h5>
-              <p>To use this method, you need to have access to your WordPress site files on FTP through the File  Manager of your hosting control panel or an FTP client like Filezilla,  CuteFTP, Total Commander, etc.</p>
-            <ol>
-              <li>Unzip the <strong>CherryFramework.zip</strong> and <strong>theme####.zip</strong> files to any folder on your hard drive (fist, right-click each of the .zip files, select <strong>Unzip  to… CherryFramework</strong> and <strong>theme####</strong> accordingly, so you get the two folders called CherryFramework and theme####).
-              </li>
-              <li>Upload the <strong>CherryFramework</strong> and <strong>theme####</strong> folders to the <strong>/wp-content/themes/</strong> directory on your FTP server.</li>
-              <li>Log in to your WordPress admin panel (add /wp-admin after your domain name in the browser address bar).</li>
-              <li>Go to the menu <strong>Appearance</strong> > <strong>Themes</strong>.</li>
-              <li>Under the <strong>Available Themes</strong> section find <strong>theme####</strong> and activate it by clicking the <strong>Activate</strong> button.</li>
-            </ol>
-              <br />
-              <h4 id="plugins_intstall">Plugin Installation</h4>
-              <p>Once the  theme is installed and activated, you will need to install its plugins:</p>              
-              <ol>
-                <li>In your WordPress admin panel,  go to the menu <strong>Plugins -&gt; Add New.</strong></li>
-                <li>Click <strong>Upload</strong>.</li>
-                <li>Click <strong>Browse</strong>.</li>
-                <li>Navigate to the <strong>theme####.zip\includes\plugins</strong> folder in your template package (theme####.zip should be unzipped).</li>
-                <li>Select one of the .zip files in this  directory and click <strong>OK</strong>.</li>
-                <li>Click<strong> Install Now.</strong></li>
-                <li>When the plugin is installed, click <strong>Activate</strong>.</li>
-                <li>If there is more than one plugin in the /plugins/ folder, repeat the steps to install and activate all of them.
-                </li>
-              </ol>
-              <ul class="unstyled">
-                <li><i class="icon-film"> </i> <a target="_blank" href="/help/files/wordpress/how-to-install-plugin.swf">How to install a Plugin</a></li>
-              </ul>
-
-            <figure class="img-paraloid"><img src="img/wordpress/plugins_install.jpg" alt=""></figure>
-            <p class="muted text-center"></p>
-
-            <article id="plugins">
-              <h4>Theme Plugins:</h4>
-              <h5>Cherry Plugin</h5>
-              <p><span class="label label-important">Attention:</span> Installation and activation of Cherry Plugin is required for the correct work of shortcodes and widgets.</p>
-              <p><span class="label label-info">Download:</span> <a href="https://github.com/CherryFramework/CherryFramework/raw/master/includes/plugins/cherry-plugin.zip">https://github.com/CherryFramework/CherryFramework/raw/master/includes/plugins/cherry-plugin.zip</a><br />
-              <span class="label">Description:</span> The Cherry team has already created a Cherry framework that can be reasonably called perfect, but we are always looking for more improvements. Meet the Cherry Plugin. This is an extension for our Cherry framework where we've included all the shortcodes and widgets you will ever need. The plugin is fully compatible with any WordPress theme powered by Cherry Framework. So far, the plugin is a beta release, but we're going to keep on improving it to deliver even more cool features.</p>
-              <h5>Contact Form 7</h5>
-              <p><span class="label label-info">Download:</span> <a href="http://wordpress.org/extend/plugins/contact-form-7/">http://wordpress.org/extend/plugins/contact-form-7/</a><br />
-              <span class="label">Description:</span> Contact form for contact page.</p>
-            </article>
-
-            <article id="compat_plugins">
-              <h4>Compatible Plugins:</h4>
-              <h5 class="indent_top">WPML</h5>
-              <p><span class="label label-info">Download:</span> <a href="http://wpml.org/">http://wpml.org/</a><br />
-              <span class="label">Description:</span> WPML makes it easy to build multilingual sites and run them.</p>
-
-              <h5 class="indent_top">JigoShop</h5>
-              <p><span class="label label-info">Download:</span> <a href="http://wordpress.org/plugins/jigoshop/">http://wordpress.org/plugins/jigoshop/</a><br />
-              <span class="label">Description:</span> A feature-packed eCommerce plugin built upon WordPress core functionality ensuring excellent performance and customizability.</p>
-
-              <h5 class="indent_top">WooCommerce</h5>
-              <p><span class="label label-info">Download:</span> <a href="http://wordpress.org/plugins/woocommerce/">http://wordpress.org/plugins/woocommerce/</a><br />
-              <span class="label">Description:</span> WooCommerce is a powerful, extendable eCommerce plugin that helps you sell anything. Beautifully.</p>
-
-              <h5 class="indent_top">BuddyPress</h5>
-              <p><span class="label label-info">Download:</span> <a href="http://wordpress.org/plugins/buddypress/">http://wordpress.org/plugins/buddypress/</a><br />
-              <span class="label">Description:</span> Social networking in a box. Build a social network for your company, school, sports team or niche community.</p>
-
-              <h5 class="indent_top">bbpress</h5>
-              <p><span class="label label-info">Download:</span> <a href="http://wordpress.org/plugins/bbpress/">http://wordpress.org/plugins/bbpress/</a><br />
-              <span class="label">Description:</span> bbPress is forum software made the WordPress way.</p>
-
-              <h5 class="indent_top">Mingle Forum</h5>
-              <p><span class="label label-info">Download:</span> <a href="http://wordpress.org/plugins/mingle-forum/">http://wordpress.org/plugins/mingle-forum/</a><br />
-              <span class="label">Description:</span> Mingle Forum allows you to easily and quickly put a Forum on your WordPress site/blog.</p>
-
-              <h5 class="indent_top">WP Forum Server</h5>
-              <p><span class="label label-info">Download:</span> <a href="http://wordpress.org/plugins/forum-server/">http://wordpress.org/plugins/forum-server/</a><br />
-              <span class="label">Description:</span> This WordPress plugin is a complete forum system for your wordpress blog.</p>
-            </article>
-              <br />
-              <h4 id="theme_sample_data">Sample Data Install</h4>
-              <p>To make your WordPress website look like our live demo, please follow the instructions below. We also  suggest you always have a backup .sql file <a target="_blank" href="/help/phpmyadmin-how-to-backup-a-database.html">exported</a> from your database.  </p>
-            <ol>
-            <li>Go to the menu <strong>Cherry Options &gt; Import.</strong></li>
-                <li>Follow the steps there. On <strong>Step One</strong> you will be prompted to upload the file with <strong>sample_data.xml</strong> extension, which contains all template sample data (posts, pages, categories, etc.). Once you have selected the file, click the <strong>Upload File and Import</strong> button (If you do not want to install sample data from live demo, you need to <strong>skip</strong> this step.)
-                  <p>&nbsp;</p>
-            <figure class="img-paraloid"><img src="img/wordpress/import_1st_step.jpg" alt=""></figure>
-                </li>
-                <li> <span>After this you will need to select the author for the posts and pages you are importing. Click the <strong>Next</strong> button to run the process.</span>
-                  <p>Sample data import process usually takes around 2 minutes, so be patient and wait a bit. Please, <strong>don't terminate this process</strong>.</p>
-            <figure class="img-paraloid"><img src="img/wordpress/import_2nd_step.jpg" alt=""></figure>
-
-                </li>
-                <li><span>On the third step, you will be prompted to upload <strong>widgets.json</strong> (This file, located in  the <strong>/theme/sample_data/</strong> folder of the template package, contains widgets settings. Before  importing the file, make sure there are no widgets already added to your site:  go to the menu <strong>Appearance &gt; Widgets, </strong>open  the widget areas on the right and if there are any widgets, drag and drop  them to the left side under Inactive Widgets so that all these widget areas are  empty). Once you have selected the file, click the <strong>Next</strong> button (If you do not want to install widgets settings from live demo, you need to skip this step).</span>
-           
-            <figure class="img-paraloid"><img src="img/wordpress/import_3d_step.jpg" alt=""></figure>
-                </li>
-                <li><span>This will allow you to choose what widgets you would like to install from the list. All widgets  should be checked if you would like to install them all. Сlick <strong>Next </strong>to proceed to the next step.</span>
-            <figure class="img-paraloid"><img src="img/wordpress/import_4nd_step.jpg" alt=""></figure>
-                  
-                </li>
-                <li>
-                  <span>Click the<strong> Save Changes</strong> button to activate the SEO-optimized permalinks structure.</span>
-   
-            <figure class="img-paraloid"><img src="img/wordpress/import_permalinks.jpg" alt=""></figure>
-                </li>
-                <li>
-                  <span><strong>Congratulations!</strong> You have successfully installed your Cherry WordPress Theme. You can look at the theme now.</span>
-   
-            <figure class="img-paraloid"><img src="img/wordpress/import_5nd_step.jpg" alt=""></figure>
-                </li>
-              </ol>
-              <h4 id="manual_install">Manual installation</h4>
-              <p>If you are having problems with installing the sample data, please follow the instructions  below.</p>
-            <div class="box-notification"><span>ATTENTION: Importing the SQL file to your database will overwrite your existing content and website settings. DO NOT import the SQL file if you want to keep the existing content.</span></div>
-                <div class="box-info"><span>NOTE: Always back up your database before performing any modifications.</span></div>
-                <div class="box-info"><span>Please note that the prefix of WordPress database tables should be <strong>wp_</strong>.</span></div>
-   
-            <figure class="img-paraloid"><img src="img/wordpress/wp_prefix.jpg" alt=""></figure>
-            <p class="muted text-center"></p>        
-              <p>If the  database prefix is different, it should be changed according to this <a target="_blank" href="/help/wordpress-how-to-change-database-tables-prefix-in-sql-file.html">manual</a>.</p>
-            <p>To make your WordPress look like our live demo, please follow the instructions below.</p>
-              <ol>
-                <li>Make sure the theme has been installed according to the <a href="#theme-installation">following directions.</a></li>
-                <li>Copy the"<strong>uploads</strong>" folder (that is located under the<strong> theme/manual_install/</strong> folder of your template package) to the<strong> /wp-content/ </strong> folder on your FTP.</li>
-                <li>Open the <strong>theme####.sql</strong> file that is located in the <strong>theme/manual_install/</strong> folder in any text editor (preferably Dreamweaver or Notepad) and replace all instances of "<strong>your_website_url_here</strong>" with your website URL in the entire document using the <strong>Find and Replace</strong> tool (hit Ctrl+H hot keys to open this window). E.g.: http://www.mywebsite.com</li> 
-                <li>Please, make sure that you do not have the forward slash "/" sign at the end of the address and the url starts with http://www.</li>
-                <li>Save your changes and close the file.</li>
-                <li>Now  you can <a target="_blank" href="/help/phpmyadmin-how-to-import-sample-data-dump-file-phpmyadmin.html">import</a> the dump file with the <strong>phpMyAdmin</strong> tool or some other database management tool.            </li>
-              </ol>
-              <p>If you have problems with manual installation, please read this <a target="_blank" href="/help/wordpress-how-to-install-cherry-framework-theme-sample-data-manually.html">manual</a>.</p>
-              <div class="box-info"><span>If you have installed the theme with the sample data install or manual install and the theme is displayed differently from the Live demo, please open Cherry Options and click "Restore Defaults."</span></div>
-              
-              <h4 id="permilinks_settings" style="font-size:16px">Permalinks settings</h4>
-              <div class="box-info"><span>NOTE: Congifure the given settings right after the installation of the theme.</span></div>
-              <p>In this template custom Permalinks are used, so the standard paths like <strong>http://demolink.org/?p=1</strong> are replaced with <strong>http://demolink.org/home</strong>, etc. This type of links configuration not only improves the blog followers' experience, but also helps with SEO-optimisation of your site. The advantages and the main features of this link configuration method are covered at <a href="http://codex.wordpress.org/Using_Permalinks">http://codex.wordpress.org/Using_Permalinks</a></p>
-                Please follow the steps below:
-                <ol>
-                  <li>Log in to your WordPress Administration Panel (Dashboard).</li>
-                  <li>Go to the menu   <strong>Settings</strong> &gt; <strong>Permalinks</strong>.</li>
-                  <li>On the  permalinks settings page, please check <strong>Custom structure</strong>, then copy and paste the following settings <strong>/%category%/%postname%/</strong></li>
-                  <li>With that done, click the <strong>Save changes</strong> button.</li>
-                </ol>
-
-            <figure class="img-paraloid"><img src="img/wordpress/permalinks.jpg" alt=""></figure>
-            <p class="muted text-center"></p>   
-              <p>If you install the theme with the dump.sql file, the settings will be configured automatically. However, you need to save the current settings by clicking <strong>Save changes</strong>. Otherwise, some links may not work.</p>
-              <br />
-              <h4 id="menu_settings" style="font-size:14px">Menu setup</h4>
-              <div class="row">
-            <div class="pull-left">
-            <figure class="img-paraloid"><img src="img/wordpress/menu.jpg" alt=""></figure>
-            <p class="muted text-center"></p></div>
-                <div class="extra-wrap">
-                  <p>WordPress 3.0 comes with a new menu management panel, which makes building your site’s navigation very easy and flexible.</p>
-                  <h4>This theme is registered with two menu locations:</h4>
-                  <ul>
-                    <li><i class="icon-angle-right"></i> Header Menu - in the Header</li>
-                    <li><i class="icon-angle-right"></i> Footer Menu - in the Footer</li>
-                  </ul>
-                  For more info on how to set up your menu in wp 3.0, see <a href="http://codex.wordpress.org/Appearance_Menus_SubPanel">http://codex.wordpress.org/Appearance_Menus_SubPanel</a>.
-                </div>
-              </div>
-               <div class="box-info"><span>Note! If the menu does not appear as the live demo, go to Appearance > Menus and select the dropdown "Header Menu."</span></div>
+        <p>Congratulations, both the framework and theme have been successfully installed!</p>
+      <br>
+        <div class="box-info"><span>If there are problems with installing them via the admin panel, here's the alternative way to do it.</span></div>
+        <h5>Upload via ftp:</h5>
+        <p>To use this method, you need to have access to your WordPress site files on FTP through the File  Manager of your hosting control panel or an FTP client like Filezilla,  CuteFTP, Total Commander, etc.</p>
+      <ol>
+        <li>Unzip the <strong>CherryFramework.zip</strong> and <strong>theme####.zip</strong> files to any folder on your hard drive (fist, right-click each of the .zip files, select <strong>Unzip  to… CherryFramework</strong> and <strong>theme####</strong> accordingly, so you get the two folders called CherryFramework and theme####).
+        </li>
+        <li>Upload the <strong>CherryFramework</strong> and <strong>theme####</strong> folders to the <strong>/wp-content/themes/</strong> directory on your FTP server.</li>
+        <li>Log in to your WordPress admin panel (add /wp-admin after your domain name in the browser address bar).</li>
+        <li>Go to the menu <strong>Appearance</strong> > <strong>Themes</strong>.</li>
+        <li>Under the <strong>Available Themes</strong> section find <strong>theme####</strong> and activate it by clicking the <strong>Activate</strong> button.</li>
+      </ol>
     </article>
+
+    <article id="theme_sample_data">
+      <h4>Sample Data Install</h4>
+        <p>To make your WordPress website look like our live demo, please follow the instructions below. We also suggest you always have a backup .sql file <a target="_blank" href="/help/phpmyadmin-how-to-backup-a-database.html">exported</a> from your database.</p>
+      <ol>
+        <li>Go to the menu <strong>Cherry Plugin &gt; Import Content.</strong></li>
+        <li></li>
+
+
+
+        <li>Follow the steps there. On <strong>Step One</strong> you will be prompted to upload the file with <strong>sample_data.xml</strong> extension, which contains all template sample data (posts, pages, categories, etc.). Once you have selected the file, click the <strong>Upload File and Import</strong> button (If you do not want to install sample data from live demo, you need to <strong>skip</strong> this step.)<p>&nbsp;</p>
+        <figure class="img-paraloid"><img src="img/wordpress/import_1st_step.png" alt=""></figure>
+        </li>
+        <li> <span>After this you will need to select the author for the posts and pages you are importing. Click the <strong>Next</strong> button to run the process.</span>
+          <p>Sample data import process usually takes around 2 minutes, so be patient and wait a bit. Please, <strong>don't terminate this process</strong>.</p>
+          <figure class="img-paraloid"><img src="img/wordpress/import_2nd_step.png" alt=""></figure>
+        </li>
+        <li><span>On the third step, you will be prompted to upload <strong>widgets.json</strong> (This file, located in  the <strong>/theme/sample_data/</strong> folder of the template package, contains widgets settings. Before  importing the file, make sure there are no widgets already added to your site:  go to the menu <strong>Appearance &gt; Widgets, </strong>open  the widget areas on the right and if there are any widgets, drag and drop  them to the left side under Inactive Widgets so that all these widget areas are  empty). Once you have selected the file, click the <strong>Next</strong> button (If you do not want to install widgets settings from live demo, you need to skip this step).</span>       
+        <figure class="img-paraloid"><img src="img/wordpress/import_3d_step.png" alt=""></figure>
+        </li>
+        <li><span>This will allow you to choose what widgets you would like to install from the list. All widgets  should be checked if you would like to install them all. Сlick <strong>Next </strong>to proceed to the next step.</span>
+        <figure class="img-paraloid"><img src="img/wordpress/import_4nd_step.png" alt=""></figure>
+        </li>
+        <li><span>Click the<strong> Save Changes</strong> button to activate the SEO-optimized permalinks structure.</span>
+        <figure class="img-paraloid"><img src="img/wordpress/import_permalinks.jpg" alt=""></figure>
+        </li>
+        <li><span><strong>Congratulations!</strong> You have successfully installed your Cherry WordPress Theme. You can look at the theme now.</span>
+        <figure class="img-paraloid"><img src="img/wordpress/import_5nd_step.jpg" alt=""></figure>
+        </li>
+      </ol>      
+    </article>
+
+    <article id="manual_install">
+      <h4>Manual installation</h4>
+        <p>If you are having problems with installing the sample data, please follow the instructions  below.</p>
+        <div class="box-notification"><span>ATTENTION: Importing the SQL file to your database will overwrite your existing content and website settings. DO NOT import the SQL file if you want to keep the existing content.</span></div>
+        <div class="box-info"><span>NOTE: Always back up your database before performing any modifications.</span></div>
+        <div class="box-info"><span>Please note that the prefix of WordPress database tables should be <strong>wp_</strong>.</span></div>
+
+      <figure class="img-paraloid"><img src="img/wordpress/wp_prefix.jpg" alt=""></figure>
+      <p class="muted text-center"></p>        
+        <p>If the  database prefix is different, it should be changed according to this <a target="_blank" href="/help/wordpress-how-to-change-database-tables-prefix-in-sql-file.html">manual</a>.</p>
+      <p>To make your WordPress look like our live demo, please follow the instructions below.</p>
+        <ol>
+          <li>Make sure the theme has been installed according to the <a href="#theme-installation">following directions.</a></li>
+          <li>Copy the"<strong>uploads</strong>" folder (that is located under the<strong> theme/manual_install/</strong> folder of your template package) to the<strong> /wp-content/ </strong> folder on your FTP.</li>
+          <li>Open the <strong>theme####.sql</strong> file that is located in the <strong>theme/manual_install/</strong> folder in any text editor (preferably Dreamweaver or Notepad) and replace all instances of "<strong>your_website_url_here</strong>" with your website URL in the entire document using the <strong>Find and Replace</strong> tool (hit Ctrl+H hot keys to open this window). E.g.: http://www.mywebsite.com</li> 
+          <li>Please, make sure that you do not have the forward slash "/" sign at the end of the address and the url starts with http://www.</li>
+          <li>Save your changes and close the file.</li>
+          <li>Now  you can <a target="_blank" href="/help/phpmyadmin-how-to-import-sample-data-dump-file-phpmyadmin.html">import</a> the dump file with the <strong>phpMyAdmin</strong> tool or some other database management tool.            </li>
+        </ol>
+      <p>If you have problems with manual installation, please read this <a target="_blank" href="/help/wordpress-how-to-install-cherry-framework-theme-sample-data-manually.html">manual</a>.</p>
+      <div class="box-info"><span>If you have installed the theme with the sample data install or manual install and the theme is displayed differently from the Live demo, please open Cherry Options and click "Restore Defaults."</span></div>
+    </article>
+
+    <article id="permilinks_settings">
+      <h4>Permalinks settings</h4>
+      <div class="box-info"><span>NOTE: Congifure the given settings right after the installation of the theme.</span></div>
+      <p>In this template custom Permalinks are used, so the standard paths like <strong>http://demolink.org/?p=1</strong> are replaced with <strong>http://demolink.org/home</strong>, etc. This type of links configuration not only improves the blog followers' experience, but also helps with SEO-optimisation of your site. The advantages and the main features of this link configuration method are covered at <a href="http://codex.wordpress.org/Using_Permalinks">http://codex.wordpress.org/Using_Permalinks</a></p>
+        Please follow the steps below:
+        <ol>
+          <li>Log in to your WordPress Administration Panel (Dashboard).</li>
+          <li>Go to the menu   <strong>Settings</strong> &gt; <strong>Permalinks</strong>.</li>
+          <li>On the  permalinks settings page, please check <strong>Custom structure</strong>, then copy and paste the following settings <strong>/%category%/%postname%/</strong></li>
+          <li>With that done, click the <strong>Save changes</strong> button.</li>
+        </ol>
+      <figure class="img-paraloid"><img src="img/wordpress/permalinks.jpg" alt=""></figure>
+      <p class="muted text-center"></p>   
+        <p>If you install the theme with the dump.sql file, the settings will be configured automatically. However, you need to save the current settings by clicking <strong>Save changes</strong>. Otherwise, some links may not work.</p>
+    </article>
+  
+    <article id="menu_settings">
+      <h4>Menu setup</h4>
+      <div class="row">
+      <div class="pull-left">
+      <figure class="img-paraloid"><img src="img/wordpress/menu.jpg" alt=""></figure>
+      <p class="muted text-center"></p></div>
+          <div class="extra-wrap">
+            <p>WordPress 3.0 comes with a new menu management panel, which makes building your site’s navigation very easy and flexible.</p>
+            <h4>This theme is registered with two menu locations:</h4>
+            <ul>
+              <li><i class="icon-angle-right"></i> Header Menu - in the Header</li>
+              <li><i class="icon-angle-right"></i> Footer Menu - in the Footer</li>
+            </ul>
+            For more info on how to set up your menu in wp 3.0, see <a href="http://codex.wordpress.org/Appearance_Menus_SubPanel">http://codex.wordpress.org/Appearance_Menus_SubPanel</a>.
+          </div>
+        </div>
+         <div class="box-info"><span>Note! If the menu does not appear as the live demo, go to Appearance > Menus and select the dropdown "Header Menu."</span></div>      
+    </article>
+
+    <article id="plugins_intstall"> 
+        <h4>Plugin Installation</h4>
+        <p>Once the theme is installed and activated, you may need to install its plugins:</p>
+        <ol>
+          <li>In your WordPress admin panel, go to the menu <strong>Plugins -&gt; Add New.</strong></li>
+          <li>Click <strong>Upload</strong>.</li>
+          <li>Click <strong>Browse</strong>.</li>
+          <li>Navigate to the <strong>theme####.zip\includes\plugins</strong> folder in your template package (theme####.zip should be unzipped).</li>
+          <li>Select one of the .zip files in this  directory and click <strong>OK</strong>.</li>
+          <li>Click<strong> Install Now.</strong></li>
+          <li>When the plugin is installed, click <strong>Activate</strong>.</li>
+          <li>If there is more than one plugin in the /plugins/ folder, repeat the steps to install and activate all of them.
+          </li>
+        </ol>
+        <ul class="unstyled">
+          <li><i class="icon-film"> </i> <a target="_blank" href="/help/files/wordpress/how-to-install-plugin.swf">How to install a Plugin</a></li>
+        </ul>
+
+      <figure class="img-paraloid"><img src="img/wordpress/plugins_install.jpg" alt=""></figure>
+      <p class="muted text-center"></p>
+    </article>
+
+    <article id="plugins">
+      <h4>Theme Plugins:</h4>
+      <h5>Cherry Plugin</h5>
+      <p><span class="label label-important">Attention:</span> Installation and activation of Cherry Plugin is required for the correct work of shortcodes and widgets. Cherry Plugin is installed and activated by default on installing Cherry Framework.</p>
+      <p><span class="label label-info">Download:</span> <a href="https://github.com/CherryFramework/CherryFramework/raw/master/includes/plugins/cherry-plugin.zip">https://github.com/CherryFramework/CherryFramework/raw/master/includes/plugins/cherry-plugin.zip</a><br />
+      <span class="label">Description:</span> The Cherry team has already created a Cherry framework that can be reasonably called perfect, but we are always looking for more improvements. Meet the Cherry Plugin. This is an extension for our Cherry framework where we've included all the shortcodes and widgets you will ever need. The plugin is fully compatible with any WordPress theme powered by Cherry Framework. So far, the plugin is a beta release, but we're going to keep on improving it to deliver even more cool features.</p>
+      <h5>Contact Form 7</h5>
+      <p><span class="label label-info">Download:</span> <a href="http://wordpress.org/extend/plugins/contact-form-7/">http://wordpress.org/extend/plugins/contact-form-7/</a><br />
+      <span class="label">Description:</span> Contact form for contact page.</p>
+    </article>
+
+    <article id="compat_plugins">
+      <h4>Compatible Plugins:</h4>
+      <h5 class="indent_top">WPML</h5>
+      <p><span class="label label-info">Download:</span> <a href="http://wpml.org/">http://wpml.org/</a><br />
+      <span class="label">Description:</span> WPML makes it easy to build multilingual sites and run them.</p>
+
+      <h5 class="indent_top">JigoShop</h5>
+      <p><span class="label label-info">Download:</span> <a href="http://wordpress.org/plugins/jigoshop/">http://wordpress.org/plugins/jigoshop/</a><br />
+      <span class="label">Description:</span> A feature-packed eCommerce plugin built upon WordPress core functionality ensuring excellent performance and customizability.</p>
+
+      <h5 class="indent_top">WooCommerce</h5>
+      <p><span class="label label-info">Download:</span> <a href="http://wordpress.org/plugins/woocommerce/">http://wordpress.org/plugins/woocommerce/</a><br />
+      <span class="label">Description:</span> WooCommerce is a powerful, extendable eCommerce plugin that helps you sell anything. Beautifully.</p>
+
+      <h5 class="indent_top">BuddyPress</h5>
+      <p><span class="label label-info">Download:</span> <a href="http://wordpress.org/plugins/buddypress/">http://wordpress.org/plugins/buddypress/</a><br />
+      <span class="label">Description:</span> Social networking in a box. Build a social network for your company, school, sports team or niche community.</p>
+
+      <h5 class="indent_top">bbpress</h5>
+      <p><span class="label label-info">Download:</span> <a href="http://wordpress.org/plugins/bbpress/">http://wordpress.org/plugins/bbpress/</a><br />
+      <span class="label">Description:</span> bbPress is forum software made the WordPress way.</p>
+
+      <h5 class="indent_top">Mingle Forum</h5>
+      <p><span class="label label-info">Download:</span> <a href="http://wordpress.org/plugins/mingle-forum/">http://wordpress.org/plugins/mingle-forum/</a><br />
+      <span class="label">Description:</span> Mingle Forum allows you to easily and quickly put a Forum on your WordPress site/blog.</p>
+
+      <h5 class="indent_top">WP Forum Server</h5>
+      <p><span class="label label-info">Download:</span> <a href="http://wordpress.org/plugins/forum-server/">http://wordpress.org/plugins/forum-server/</a><br />
+      <span class="label">Description:</span> This WordPress plugin is a complete forum system for your wordpress blog.</p>
+    </article>     
+
   </section>
-<!-- Getting started end --> 
+<!-- Getting started end -->
+
 <!--Backup and Update started --> 
   <section class="block-templates" id="backup_update">  
 
@@ -641,6 +649,7 @@
     </div>
   </section>
 <!--Backup and Update end --> 
+
 <!-- Page Templates and Sidebars begin -->
   <section class="block-templates" id="page_templates_sidebars">  
 
