@@ -157,7 +157,6 @@
                   <li class="nav-item item9">
                     <dl class="slide-down">
                       <dt><a href="#plugins_widgets" class="icon-magnet">Plugins and Custom Widgets</a></dt>
-                      <dd></dd>
                      </dl> 
                   </li> 
                   <li class="nav-item item10">
@@ -295,8 +294,8 @@
 
     <!-- Engine installation -->
 
-    <article >
-      <h4 id="engine-installation">Engine installation</h4>
+    <article id="engine-installation">
+      <h4>Engine installation</h4>
       <div class="box-info"><span>Download the correct WordPress engine version. At the template preview page, in the requirements section, you can see the required WordPress version. Please make sure you are downloading the correct one.</span></div>
       <ol>
         <li>The WordPress engine can be downloaded from the official website at WordPress.org <a href="http://wordpress.org/download/" target="_blank"><strong>Download WordPress</strong></a>. In case you need an earlier release, you can click the <a href="http://wordpress.org/download/release-archive/" target="_blank"><strong>Release Archive</strong></a> link.
@@ -502,8 +501,8 @@
       <div class="box-info"><span>If you have installed the theme with the sample data install or manual install and the theme is displayed differently from the Live demo, please open Cherry Options and click "Restore Defaults."</span></div>
     </article>
   
-    <article> 
-        <h4 id="plugins_intstall">Plugin Installation</h4>
+    <article id="plugins_intstall"> 
+        <h4>Plugin Installation</h4>
         <p>Once the theme is installed and activated, you may need to install its plugins:</p>
         <ol>
           <li>In your WordPress admin panel, go to the menu <strong>Plugins -&gt; Add New.</strong></li>
@@ -524,7 +523,7 @@
       <p class="muted text-center"></p>
     </article>
 
-    <article id="theme_plugins">
+    <article id="plugins">
       <h4>Theme Plugins:</h4>
       <h5>Cherry Plugin</h5>
       <p><span class="label label-important">Attention:</span> Installation and activation of Cherry Plugin is required for the correct work of shortcodes and widgets. Cherry Plugin is installed and activated by default on installing Cherry Framework.</p>
@@ -1327,7 +1326,7 @@
       </div>
       <div class="span6">
         <p>That simple line above becomes this:</p>
-        <iframe width="390" height="260" src="http://www.youtube.com/embed/2kodXWejuy0" allowfullscreen=""></iframe>
+        <iframe width="390" height="260" src="http://www.youtube.com/embed/2kodXWejuy0" frameborder="0" allowfullscreen=""></iframe>
       </div>
     </div>
     </article>
@@ -1545,9 +1544,8 @@
             <li><em>Character Sets (Latin, Greek, Cyrillic, etc.)</em></li>
             <li><em>Color</em></li>
           </ol>
-          <p><span class="label label-warning">Note:</span> Font marked with an asterisk (*) means that it will be loaded from the Google Web Fonts library.</p>
         </li>
-        
+        <p><span class="label label-warning">Note:</span> Font marked with an asterisk (*) means that it will be loaded from the Google Web Fonts library.</p>
         <li><i class="icon-angle-right"></i> <strong>H1-H6 Headings</strong> - You can choose your preferred font for headings and titles. The following options are available for editing the fonts:          <ol style="margin-bottom:0; padding-left:20px; overflow:hidden;">
             <li><em>Font size</em></li>
             <li><em>Line height</em></li>
@@ -1556,9 +1554,8 @@
             <li><em>Character Sets (Latin, Greek, Cyrillic, etc.)</em></li>
             <li><em>Color</em></li>
           </ol>
-           <p><span class="label label-warning">Note:</span> Font marked with * means that it will be loaded from the Google Web Fonts library.</p>
         </li>
-       
+        <p><span class="label label-warning">Note:</span> Font marked with * means that it will be loaded from the Google Web Fonts library.</p>
         <li><i class="icon-angle-right"></i> <strong>Display search box?</strong> - show/hide the search bar in the header.</li>
         <li><i class="icon-angle-right"></i> <strong>Display breadcrumbs?</strong> - show/hide the breadcrumbs in the pages.</li>
         <li><i class="icon-angle-right"></i> <strong>Custom CSS</strong> - if you need to add some CSS rules, but you don't want to mess with the main css file, you can use this field. Just insert your new css rules.</li>
@@ -1583,9 +1580,8 @@
             <li><em>Character Sets (Latin, Greek, Cyrillic, etc.)</em></li>
             <li><em>Color</em></li>
           </ol>
-          <p><span class="label label-warning">Note:</span> an asterisk <strong>*</strong> near the font means that the font will be loaded from the Google Web Fonts library.</p>
         </li>
-        
+        <p><span class="label label-warning">Note:</span> an asterisk <strong>*</strong> near the font means that the font will be loaded from the Google Web Fonts library.</p>
         <li><i class="icon-angle-right"></i> <strong>Favicon</strong> - you can upload the new favicon with the help of the 'upload' feature or use any picture from the Media Library.</li>
       </ul>
       </div>
