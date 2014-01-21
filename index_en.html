@@ -427,7 +427,7 @@
           <li>Click the <strong>Activate</strong> theme link.</li>
         </ol>
 
-      <figure class="img-paraloid"><img src="img/wordpress/install.jpg" alt=""></figure>
+      <figure class="img-paraloid"><img src="img/wordpress/theme_install.png" alt=""></figure>
       <p class="muted text-center"></p>
 
         <p>For more information, feel free to check the detailed video tutorial on <a target="_blank" href="/help/how-install-wordpress-theme-via-admin-panel.html">How to install a WordPress theme via admin panel</a> and <a target="_blank" href="/help/wordpress-how-to-install-cherry-framework-template.html">How to install Cherry framework template</a>.</p>
@@ -440,7 +440,7 @@
           <li>Click the <strong>Activate</strong> link to change the current layout of the site to the theme your purchased.</li>
         </ol>
 
-      <figure class="img-paraloid"><img src="img/wordpress/theme_activate.jpg" alt=""></figure>
+      <figure class="img-paraloid"><img src="img/wordpress/theme_activate.png" alt=""></figure>
       <p class="muted text-center"></p>
 
         <p>Congratulations, both the framework and theme have been successfully installed!</p>
@@ -460,31 +460,20 @@
 
     <article id="theme_sample_data">
       <h4>Sample Data Install</h4>
-        <p>To make your WordPress website look like our live demo, please follow the instructions below. We also suggest you always have a backup .sql file <a target="_blank" href="/help/phpmyadmin-how-to-backup-a-database.html">exported</a> from your database.</p>
+      <p>To make your WordPress website look like our live demo, please follow the instructions below. We also suggest you always have a backup .sql file <a target="_blank" href="/help/phpmyadmin-how-to-backup-a-database.html">exported</a> from your database.</p>
       <ol>
         <li>Go to the menu <strong>Cherry Plugin &gt; Import Content.</strong></li>
-        <li></li>
-
-
-
-        <li>Follow the steps there. On <strong>Step One</strong> you will be prompted to upload the file with <strong>sample_data.xml</strong> extension, which contains all template sample data (posts, pages, categories, etc.). Once you have selected the file, click the <strong>Upload File and Import</strong> button (If you do not want to install sample data from live demo, you need to <strong>skip</strong> this step.)<p>&nbsp;</p>
-        <figure class="img-paraloid"><img src="img/wordpress/import_1st_step.png" alt=""></figure>
-        </li>
-        <li> <span>After this you will need to select the author for the posts and pages you are importing. Click the <strong>Next</strong> button to run the process.</span>
-          <p>Sample data import process usually takes around 2 minutes, so be patient and wait a bit. Please, <strong>don't terminate this process</strong>.</p>
-          <figure class="img-paraloid"><img src="img/wordpress/import_2nd_step.png" alt=""></figure>
-        </li>
-        <li><span>On the third step, you will be prompted to upload <strong>widgets.json</strong> (This file, located in  the <strong>/theme/sample_data/</strong> folder of the template package, contains widgets settings. Before  importing the file, make sure there are no widgets already added to your site:  go to the menu <strong>Appearance &gt; Widgets, </strong>open  the widget areas on the right and if there are any widgets, drag and drop  them to the left side under Inactive Widgets so that all these widget areas are  empty). Once you have selected the file, click the <strong>Next</strong> button (If you do not want to install widgets settings from live demo, you need to skip this step).</span>       
-        <figure class="img-paraloid"><img src="img/wordpress/import_3d_step.png" alt=""></figure>
-        </li>
-        <li><span>This will allow you to choose what widgets you would like to install from the list. All widgets  should be checked if you would like to install them all. Сlick <strong>Next </strong>to proceed to the next step.</span>
-        <figure class="img-paraloid"><img src="img/wordpress/import_4nd_step.png" alt=""></figure>
-        </li>
-        <li><span>Click the<strong> Save Changes</strong> button to activate the SEO-optimized permalinks structure.</span>
-        <figure class="img-paraloid"><img src="img/wordpress/import_permalinks.jpg" alt=""></figure>
-        </li>
+        <li>First of all you may see requirements table that shows if you hosting server meets Cherry Plugin requirements. Please contact your hosting provider if there are any warnings.
+        <figure class="img-paraloid"><img src="img/wordpress/import_1st_step.png" alt=""></figure></li>
+        <li>If all server settings are OK you'll see uploading screen. Open <b>"theme/sample_data"</b> directory from the template package and upload all files to WordPress. You can upload all files selecting them in the <b>"theme/sample_data"</b> directory (CTRL+A or Command+A) and dragging them to the uploading area.
+        <figure class="img-paraloid"><img src="img/wordpress/import_2nd_step.png" alt=""></figure></li>
+        <li>Make sure to upload all files from the sample_data directory including .JSON and .XML files. When upload is done click "Continue Install" button to proceed. <br><br>
+        <div class="box-notification"><span>ATTENTION: .JSON and .XML are required to proceed with the sample data installation. Continue Install button will be available only in case both .XML and .JSON files have been uploaded.</span></div>
+        <figure class="img-paraloid"><img src="img/wordpress/import_3d_step.png" alt=""></figure></li>
+        <li>Clicking "Continue Install" button will activate sample data installation process. Installation steps may take some time depending on your server settings. Please be patient.
+        <figure class="img-paraloid"><img src="img/wordpress/import_4th_step.png" alt=""></figure></li>
         <li><span><strong>Congratulations!</strong> You have successfully installed your Cherry WordPress Theme. You can look at the theme now.</span>
-        <figure class="img-paraloid"><img src="img/wordpress/import_5nd_step.jpg" alt=""></figure>
+        <figure class="img-paraloid"><img src="img/wordpress/import_5th_step.png" alt=""></figure>
         </li>
       </ol>      
     </article>
@@ -511,42 +500,7 @@
       <p>If you have problems with manual installation, please read this <a target="_blank" href="/help/wordpress-how-to-install-cherry-framework-theme-sample-data-manually.html">manual</a>.</p>
       <div class="box-info"><span>If you have installed the theme with the sample data install or manual install and the theme is displayed differently from the Live demo, please open Cherry Options and click "Restore Defaults."</span></div>
     </article>
-
-    <article id="permilinks_settings">
-      <h4>Permalinks settings</h4>
-      <div class="box-info"><span>NOTE: Congifure the given settings right after the installation of the theme.</span></div>
-      <p>In this template custom Permalinks are used, so the standard paths like <strong>http://demolink.org/?p=1</strong> are replaced with <strong>http://demolink.org/home</strong>, etc. This type of links configuration not only improves the blog followers' experience, but also helps with SEO-optimisation of your site. The advantages and the main features of this link configuration method are covered at <a href="http://codex.wordpress.org/Using_Permalinks">http://codex.wordpress.org/Using_Permalinks</a></p>
-        Please follow the steps below:
-        <ol>
-          <li>Log in to your WordPress Administration Panel (Dashboard).</li>
-          <li>Go to the menu   <strong>Settings</strong> &gt; <strong>Permalinks</strong>.</li>
-          <li>On the  permalinks settings page, please check <strong>Custom structure</strong>, then copy and paste the following settings <strong>/%category%/%postname%/</strong></li>
-          <li>With that done, click the <strong>Save changes</strong> button.</li>
-        </ol>
-      <figure class="img-paraloid"><img src="img/wordpress/permalinks.jpg" alt=""></figure>
-      <p class="muted text-center"></p>   
-        <p>If you install the theme with the dump.sql file, the settings will be configured automatically. However, you need to save the current settings by clicking <strong>Save changes</strong>. Otherwise, some links may not work.</p>
-    </article>
   
-    <article id="menu_settings">
-      <h4>Menu setup</h4>
-      <div class="row">
-      <div class="pull-left">
-      <figure class="img-paraloid"><img src="img/wordpress/menu.jpg" alt=""></figure>
-      <p class="muted text-center"></p></div>
-          <div class="extra-wrap">
-            <p>WordPress 3.0 comes with a new menu management panel, which makes building your site’s navigation very easy and flexible.</p>
-            <h4>This theme is registered with two menu locations:</h4>
-            <ul>
-              <li><i class="icon-angle-right"></i> Header Menu - in the Header</li>
-              <li><i class="icon-angle-right"></i> Footer Menu - in the Footer</li>
-            </ul>
-            For more info on how to set up your menu in wp 3.0, see <a href="http://codex.wordpress.org/Appearance_Menus_SubPanel">http://codex.wordpress.org/Appearance_Menus_SubPanel</a>.
-          </div>
-        </div>
-         <div class="box-info"><span>Note! If the menu does not appear as the live demo, go to Appearance > Menus and select the dropdown "Header Menu."</span></div>      
-    </article>
-
     <article id="plugins_intstall"> 
         <h4>Plugin Installation</h4>
         <p>Once the theme is installed and activated, you may need to install its plugins:</p>
@@ -565,7 +519,7 @@
           <li><i class="icon-film"> </i> <a target="_blank" href="/help/files/wordpress/how-to-install-plugin.swf">How to install a Plugin</a></li>
         </ul>
 
-      <figure class="img-paraloid"><img src="img/wordpress/plugins_install.jpg" alt=""></figure>
+     <!--  <figure class="img-paraloid"><img src="img/wordpress/plugins_install.jpg" alt=""></figure> -->
       <p class="muted text-center"></p>
     </article>
 
@@ -619,34 +573,24 @@
 
     <h2><i class="icon-refresh"></i> Back up and Update</h2>
 
-    <div class="box-notification"><span>Before updating Cherry Framework, we strongly recommend you make a backup of the current version.</span></div>
+    <div class="box-notification"><span>Before updating Cherry Framework, we strongly recommend to make a backup of the current version.</span></div>
     <h4>Backup</h4>
-    <div class="row">
-      <figure class="img-paraloid pull-left"><img src="img/wordpress/backup.jpg" alt=""></figure>
-      <p>To do everything correctly, you need to follow a few simple steps:</p>
-      <ol>
-        <li>In your admin panel, open the tab Appearance => Themes.</li>
-        <li>Then you need to find Cherry Framework in the Available Themes section.</li>
-        <li>Press the Backup button which is under the Cherry Framework thumbnail.</li>
-        <li>Wait till the process begins.</li>
-        <li>…And it’s done.</li>
-      </ol>
-      <p>Now you can find the archive with your framework or child theme in the wordpress/wp-content/themes_backup/ folder.</p>
-      <p>If some difficulties occur, you can download the archive and re-install the framework via tabs Appearance -> Themes -> Install Themes -> Upload.</p>
-    </div>
+      <p>You can create a Backup for both CherryFramework and child theme. This can be done in <b>"Cherry Options > Data management"</b> section in WordPress admin panel. </p>
+      <figure class="img-paraloid"><img src="img/wordpress/backup-child.png" alt=""></figure>
+      <figure class="img-paraloid"><img src="img/wordpress/backup-framework.png" alt=""></figure>
+      <p>Backup can be easily done clicking <b>"Backup"</b> buttons under Cherry Framework and child theme blocks. <br>
+      Now you can find the archive with your framework or child theme in the <b>/wp-content/themes_backup/</b> folder.</p>
+      <p>You can also download it clicking <b>"Download backup"</b> button. If some difficulties occur, you can re-install the framework via tabs <b>Appearance -> Themes -> Install Themes -> Upload</b>.</p>
 
     <h4>Update</h4>
-    <div class="row">
-      <figure class="img-paraloid pull-left"><img src="img/wordpress/update.jpg" alt=""></figure>
-      <p>To update Cherry Framework, you need to follow these simple steps:</p>
+      <p>To update Cherry Framework, you need to the following:</p>
       <ol>
-        <li>In your admin panel, open the tab Appearance => Themes.</li>
-        <li>Find Cherry Framework in the Available Themes section.</li>
-        <li>Press the button Update Now which is under the Cherry Framework links.</li>
+        <li>In your admin panel, open the tab <b>"Cherry Options > Data management"</b>.</li>
+        <li>Click Update button under Cherry Framework block
+        <figure class="img-paraloid"><img src="img/wordpress/backup-child.png" alt=""></figure></li>
         <li>Wait till the process begins.</li>
-        <li>…And it’s done.</li>
+        <li>Rest Cherry Framework will do by itself. </li>
       </ol>
-    </div>
   </section>
 <!--Backup and Update end --> 
 
@@ -686,7 +630,7 @@
       <h4>Adding category</h4>
       <p>Review the following article for more information on adding categories: <a href="http://codex.wordpress.org/Manage_Categories_SubPanel">http://codex.wordpress.org/Manage_Categories_SubPanel</a></p>
       <div class="row">
-        <figure class="img-paraloid pull-left"><img src="img/wordpress/cat1.jpg" alt=""></figure>
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/cat1.png" alt=""></figure>
         <p class="muted text-center"></p>   
         <ol>
         <li>Log into your WordPress Administration Panel (Dashboard).</li>
@@ -703,7 +647,7 @@
     <article id="blog_post">
       <h4>Creating a Blog post</h4>
       <div class="row">
-        <figure class="img-paraloid pull-left"><img src="img/wordpress/cat3.jpg" alt=""></figure>
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/cat2.png" alt=""></figure>
         <p class="muted text-center"></p>   
         <ol>
           <li>Log into your WordPress Administration Panel (Dashboard).</li>
@@ -719,8 +663,7 @@
       <h4>Choosing a Post Format</h4>
       <p>Please review the following link for more information on different post formats: <a href="http://codex.wordpress.org/Post_Formats">http://codex.wordpress.org/Post_Formats</a>.</p>
       <div class="row">
-        <figure class="img-paraloid pull-left"><img src="img/wordpress/post_format.jpg" alt=""></figure>
-        <p class="muted text-center"></p>   
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/post_format.png" alt=""></figure>
         <ol>
           <li>Log into your WordPress Administration Panel (Dashboard).</li>
           <li>Click the <strong>Posts</strong> tab.</li>
@@ -729,83 +672,98 @@
         <span class="label label-info">Note:</span> Some of these formats have their own options. Their settings will appear under the post editor.
       </div>
       <p>Below is the list of available post formats with their descriptions and settings.</p>
+
       <h4>Standard Post Format</h4>
-        <figure class="img-paraloid"><img src="img/wordpress/post_format_standard.jpg" alt=""></figure>
-        <p class="muted text-center">Standard Post Format</p>     
-        <p>A regular, standard post has the following fields:</p>
-        <ul>
-          <li><i class="icon-angle-right"></i> <strong>Post title</strong> - post title</li>
-          <li><i class="icon-angle-right"></i> <strong>Post content</strong> - post content</li>
-          <li><i class="icon-angle-right"></i> <strong>Categories</strong> - post category(-ies)</li>
-          <li><i class="icon-angle-right"></i> <strong>Tags</strong> - post tags</li>
-          <li><i class="icon-angle-right"></i> <strong>Featured Image</strong> - post image</li>
-          <li><i class="icon-angle-right"></i> and other fields which can be enabled under the <strong>Screen Options</strong> section located at the top right corner.</li>
-        </ul>
-        <h4>Aside Post Format</h4>
-        <figure class="img-paraloid"><img src="img/wordpress/post_format_standard.jpg" alt=""></figure>
-        <p class="muted text-center">Aside Post Format</p>    
-        <p>This is a simplified regular post version. In other words, it comes with a post content field only and you don't need to fill in the post title and other fields. This is a so called post-note. </p>
-        <h4>Gallery Post Format</h4>
-        <p>The main feature of this post format is the ability to maintain unlimited number of attached images.</p>
-        <p>Adding a Gallery Post Format:</p>
-        <ol>
-          <li>Click the<strong> Add Media</strong> button.<br><span class="img-paraloid"><img src="img/wordpress/add_media.png" alt=""></span></li>
-          <li>To add images from your hard drive, drag and drop your files into the box that appears or click <strong>Select Files</strong> to choose a picture from your computer to upload.
-            <figure class="img-paraloid"><img src="img/wordpress/insert-media.jpg" alt=""></figure></li>
-          <li>After the images have finished uploading, you will be shown all the images in your Media Library. Select <strong>Uploaded to this post</strong> to see attached images.
-            <figure class="img-paraloid"><img src="img/wordpress/uploaded-images.jpg" alt=""></figure>
-          </li>
-          <li>When you’ve finished editing, you may close Media Library. The uploaded images will be attached automatically.</li>
-        </ol>
-        <p>The gallery post format has all the standard fields (like title, content, categories, etc.) just like the regular post format.</p>
-        <h4>Link Post Format</h4>   
-        <figure class="img-paraloid"><img src="img/wordpress/post_format_link.jpg" alt=""></figure>
-        <p class="muted text-center">Link Post Format</p>  
-        <p>After selecting the <strong>Link</strong> post format, you will get an additional <strong>URL </strong>field where you need to specify the link (URL) for the target page/resource. The <strong>Post title </strong>will be used as your link text.</p>
-        <p>If you fill in the post content field, it will be used as the target page/source description.</p>
-        <h4>Image Post Format</h4>
-        <figure class="img-paraloid"><img src="img/wordpress/post_format_image.jpg" alt=""></figure>
-        <p class="muted text-center">Image Post Format</p>  
-        <p>An<strong> Image</strong> post format is a post format based on a single image uploaded via the <strong>Featured Image</strong> option.<br> Upon selecting the Image Post Format, you will be able to disable the lightbox image feature by selecting the corresponding setting in the <strong>Enable Lightbox</strong> image option.</p>
-        <h4>Quote Post Format</h4>
-        <figure class="img-paraloid"><img src="img/wordpress/post_format_quote.jpg" alt=""></figure>
-        <p class="muted text-center">Quote Post Format</p>  
-        <p>A<strong> Quote Post Format</strong> serves as a so-called post-citation. It's used to publish quotes.</p>
-        <p>Upon selecting this post format, you will get an additional <strong>The Quote</strong> field - basically the body of the quotation and an<strong> Author</strong> field - the quotation author name.</p>
-        <h4>Audio Post Format</h4>
-        <figure class="img-paraloid"><img src="img/wordpress/post_format_audio.jpg" alt=""></figure>
-        <p class="muted text-center">Audio Post Format</p>  
-        <p><strong>Audio Post Format</strong> is used for publishing audio content.</p>
-        <p>Upon selecting this post format, you will get the following additional options:</p>
-        <ul>
-          <li><i class="icon-angle-right"></i> <strong>Title</strong> - a track title</li>
-          <li><i class="icon-angle-right"></i> <strong>Artist</strong> - an audio track performer</li>
-          <li><i class="icon-angle-right"></i> <strong>Audio Format</strong> - an audio track format</li>
-          <li><i class="icon-angle-right"></i> <strong>Audio URL</strong> - a direct link to the audio track</li>
-        </ul>
-        <h4>Video Post Format</h4>
-        <figure class="img-paraloid"><img src="img/wordpress/post_format_video.jpg" alt=""></figure>
-        <p class="muted text-center">Video Post Format</p>  
-        <p>A<strong> Video Post Format</strong> is used for publishing video content.</p>
-        <p>Upon selecting this post format, you will get the following additional options:</p>
-        <ul>
-          <li><i class="icon-angle-right"></i> <strong>Title</strong> - a video clip title</li>
-          <li><i class="icon-angle-right"></i> <strong>Artist</strong> - a video clip performer</li>
-          <li><i class="icon-angle-right"></i> <strong>URL #1</strong> - a direct link to a video clip in m4v format</li>
-          <li><i class="icon-angle-right"></i> <strong>URL #2</strong> - a direct link to a video clip in ogv format</li>
-          <li><i class="icon-angle-right"></i> <strong>Embedded Code</strong> - used for off-site video embedding, e.g. via youtube, vimeo, etc.</li>
-        </ul>
-        <p>Manual: <a target="_blank" href="/help/wordpress-how-to-create-audiovideo-post.html">How to create audio/video post</a></p>
+      <p>A regular, standard post has the following fields:</p>
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Post title</strong> - post title</li>
+        <li><i class="icon-angle-right"></i> <strong>Post content</strong> - post content</li>
+        <li><i class="icon-angle-right"></i> <strong>Categories</strong> - post category(-ies)</li>
+        <li><i class="icon-angle-right"></i> <strong>Tags</strong> - post tags</li>
+        <li><i class="icon-angle-right"></i> <strong>Featured Image</strong> - post image</li>
+        <li><i class="icon-angle-right"></i> and other fields which can be enabled under the <strong>Screen Options</strong> section located at the top right corner.</li>
+      </ul>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_standard.png" alt=""></figure>
+      <p class="muted text-center">Standard Post Format</p>     
+      
+
+      <h4>Aside Post Format</h4>
+      <p>This is a simplified regular post version. In other words, it comes with a post content field only and you don't need to fill in the post title and other fields. This is a so called post-note.</p>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_standard.png" alt=""></figure>
+      <p class="muted text-center">Aside Post Format</p> 
+
+
+      <h4>Gallery Post Format</h4>
+      <p>The main feature of this post format is the ability to maintain unlimited number of attached images.</p>
+      <p>Adding a Gallery Post Format:</p>
+      <ol>
+        <li>Click the<strong> Add Media</strong> button.<br><span class="img-paraloid"><img src="img/wordpress/add_media.png" alt=""></span></li>
+        <li>To add images from your hard drive, drag and drop your files into the box that appears or click <strong>Select Files</strong> to choose a picture from your computer to upload.
+        <figure class="img-paraloid"><img src="img/wordpress/insert-media.png" alt=""></figure></li>
+        <li>After the images have finished uploading, you will be shown all the images in your Media Library. Select <strong>Uploaded to this post</strong> to see attached images.
+        <figure class="img-paraloid"><img src="img/wordpress/uploaded-images.png" alt=""></figure>
+        </li>
+        <li>When you’ve finished editing, you may close Media Library. The uploaded images will be attached automatically.</li>
+      </ol>
+      <p>The gallery post format has all the standard fields (like title, content, categories, etc.) just like the regular post format.</p>
+      
+
+      <h4>Link Post Format</h4>   
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_link.png" alt=""></figure>
+      <p class="muted text-center">Link Post Format</p>  
+      <p>After selecting the <strong>Link</strong> post format, you will get an additional <strong>URL </strong>field where you need to specify the link (URL) for the target page/resource. The <strong>Post title </strong>will be used as your link text.</p>
+      <p>If you fill in the post content field, it will be used as the target page/source description.</p>
+      
+
+      <h4>Image Post Format</h4>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_image.png" alt=""></figure>
+      <p class="muted text-center">Image Post Format</p>  
+      <p>An<strong> Image</strong> post format is a post format based on a single image uploaded via the <strong>Featured Image</strong> option.<br> Upon selecting the Image Post Format, you will be able to disable the lightbox image feature by selecting the corresponding setting in the <strong>Enable Lightbox</strong> image option.</p>
+      
+
+      <h4>Quote Post Format</h4>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_quote.png" alt=""></figure>
+      <p class="muted text-center">Quote Post Format</p>  
+      <p>A<strong> Quote Post Format</strong> serves as a so-called post-citation. It's used to publish quotes.</p>
+      <p>Upon selecting this post format, you will get an additional <strong>The Quote</strong> field - basically the body of the quotation and an<strong> Author</strong> field - the quotation author name.</p>
+      
+
+      <h4>Audio Post Format</h4>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_audio.png" alt=""></figure>
+      <p class="muted text-center">Audio Post Format</p>  
+      <p><strong>Audio Post Format</strong> is used for publishing audio content.</p>
+      <p>Upon selecting this post format, you will get the following additional options:</p>
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Title</strong> - a track title</li>
+        <li><i class="icon-angle-right"></i> <strong>Artist</strong> - an audio track performer</li>
+        <li><i class="icon-angle-right"></i> <strong>Audio Format</strong> - an audio track format</li>
+        <li><i class="icon-angle-right"></i> <strong>Audio URL</strong> - a direct link to the audio track</li>
+      </ul>
+      
+
+      <h4>Video Post Format</h4>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_video.png" alt=""></figure>
+      <p class="muted text-center">Video Post Format</p>  
+      <p>A<strong> Video Post Format</strong> is used for publishing video content.</p>
+      <p>Upon selecting this post format, you will get the following additional options:</p>
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Title</strong> - a video clip title</li>
+        <li><i class="icon-angle-right"></i> <strong>Artist</strong> - a video clip performer</li>
+        <li><i class="icon-angle-right"></i> <strong>URL #1</strong> - a direct link to a video clip in m4v format</li>
+        <li><i class="icon-angle-right"></i> <strong>URL #2</strong> - a direct link to a video clip in ogv format</li>
+        <li><i class="icon-angle-right"></i> <strong>Embedded Code</strong> - used for off-site video embedding, e.g. via youtube, vimeo, etc.</li>
+      </ul>
+      <p>Manual: <a target="_blank" href="/help/wordpress-how-to-create-audiovideo-post.html">How to create audio/video post</a></p>
     </article>
 
     <!-- Creating a slider post -->
     <article id="slider_post">
       <h4>Creating a slider post</h4>
       <div class="row">
-        <figure class="img-paraloid pull-left"><img src="img/wordpress/slide_new.jpg" alt=""></figure>
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/slide_new.png" alt=""></figure>
         <p>Slides are essentially a <a href="http://codex.wordpress.org/Post_Types#Custom_Types">custom post type</a> which means that they are different from common posts, such as blog posts. That allows us to manage the content of the site really easily. </p>
       </div>
-      <figure class="img-paraloid"><img src="img/wordpress/slider.jpg" alt=""></figure>
+      <figure class="img-paraloid"><img src="img/wordpress/slider.png" alt=""></figure>
       <p class="muted text-center">Creating a slider post</p>  
       <ol>
         <li>Log into your WordPress Administration Panel (Dashboard).</li>
@@ -822,14 +780,15 @@
         <li>When you are done, click the <strong>Publish</strong> button.</li>
       </ol>
     </article>
+
     <!-- Creating a Portfolio post -->
     <article id="portfolio_post">
       <h4>Adding a Portfolio post</h4>
       <div class="row">
-        <figure class="img-paraloid pull-left"><img src="img/wordpress/folio_panel.jpg" alt=""></figure>
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/folio_panel.png" alt=""></figure>
         <p>Portfolio items are essentially a custom post type <a href="http://codex.wordpress.org/Post_Types#Custom_Types">http://codex.wordpress.org/Post_Types#Custom_Types</a> which means that they are different from common posts. That allows us to manage the content of the site really easily. </p>
       </div>
-      <figure class="img-paraloid"><img src="img/wordpress/folio.jpg" alt=""></figure>
+      <figure class="img-paraloid"><img src="img/wordpress/folio.png" alt=""></figure>
       <p class="muted text-center">Adding a portfolio post</p>
       <ol>
         <li>Log into your WordPress Administration Panel (Dashboard).</li>
@@ -841,7 +800,7 @@
       </ol>
       <h4>Choosing Portfolio post format</h4>
       <div class="row">
-        <figure class="img-paraloid pull-left"><img src="img/wordpress/folio_format.jpg" alt=""></figure>
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/folio_format.png" alt=""></figure>
         <p>Creating a portfolio post in this theme allows you to select one of the available post types.</p>
         <ul>
           <li><i class="icon-angle-right"></i> <strong>Image</strong> - a default gallery post format. Displays only the <em>featured image</em>.</li>
@@ -852,10 +811,11 @@
         </ul>
       </div>
     </article>
+
     <!-- Creating a Testimonials post -->
     <article id="testimonial_post">
       <h4>Adding a Testimonials post</h4>
-      <figure class="img-paraloid"><img src="img/wordpress/testi.jpg" alt=""></figure>
+      <figure class="img-paraloid"><img src="img/wordpress/testi.png" alt=""></figure>
       <p class="muted text-center">Adding a Testimonials post</p>
       <ol>
         <li>Log into your WordPress Administration Panel (Dashboard).</li>
@@ -873,10 +833,11 @@
         <li>Hit the <strong>Publish</strong> button.</li>
       </ol>
     </article>
+
     <!-- Creating a Portfolio post -->
     <article id="faq_post">
       <h4>Adding a FAQs post</h4>
-      <figure class="img-paraloid"><img src="img/wordpress/faq.jpg" alt=""></figure>
+      <figure class="img-paraloid"><img src="img/wordpress/faq.png" alt=""></figure>
       <p class="muted text-center">Adding a FAQs post</p>
       <ol>
         <li>Log into your WordPress Administration Panel (Dashboard).</li>
@@ -886,10 +847,11 @@
         <li>Click <strong>Publish.</strong></li>
       </ol>
     </article>
+
     <!-- Creating a Portfolio post -->
     <article id="team_post">
       <h4>Adding an Our Team post</h4>
-      <figure class="img-paraloid"><img src="img/wordpress/our_team.jpg" alt=""></figure>
+      <figure class="img-paraloid"><img src="img/wordpress/our_team.png" alt=""></figure>
       <p class="muted text-center">Adding an Our Team post</p>
       <ol>
         <li>Log into your WordPress Administration Panel (Dashboard).</li>
@@ -907,8 +869,8 @@
       </ol>
     </article>
 
-      <!-- Creating a Client post -->
-    <article id="clients_post">
+    <!-- Creating a Client post -->
+    <!-- <article id="clients_post">
       <h4>Adding a Clients post</h4>
       <p class="alert">The Clients post type is optional. Your theme may not include it.</p>      
       <figure class="img-paraloid"><img src="img/wordpress/clients.jpg" alt=""></figure>
@@ -927,7 +889,7 @@
         </li>
         <li>Click <strong>Publish</strong>.</li>
       </ol>
-    </article>
+    </article> -->
 
   </section>   
 <!-- Posts, Categories and Post Formats end --> 
@@ -1260,7 +1222,7 @@
       <br>
       <h5>Tabs</h5>
       <div class="row-fluid">
-        <div class="span6"><pre class="prettyprint">[tabs tab1="Title #1" tab2="Title #2" tab3="Title #3"] [tab1] Tab 1 content... [/tab1] [tab2] Tab 2 content... [/tab2] [tab3] Tab 3 content... [/tab3][/tabs]</pre></div>
+        <div class="span6"><pre class="prettyprint">[tabs direction="top" tab1="Title #1" tab2="Title #2" tab3="Title #3"] [tab1] Tab 1 content... [/tab1] [tab2] Tab 2 content... [/tab2] [tab3] Tab 3 content... [/tab3] [/tabs]</pre></div>
         <div class="span6"><p><span class="label">Description:</span> used to display content arranged into tabs. Tabs may contain static and dynamic content.</p></div>
       </div>
       <br>
@@ -1282,6 +1244,60 @@
         <div class="span6"><pre class="prettyprint">[map src="#" width="300" height="200"]  </pre></div>
         <div class="span6"><p><span class="label">Description:</span> used to display Google maps. To make the shortcode work, you need to insert the desired location link from <a href="https://maps.google.com/">Google</a>.</div>
       </div>
+       <br>
+       <h5>Pricing table</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_pr_table.png" alt=""></figure>
+        <pre class="prettyprint">
+
+[chp_pricing_table columns="3" labelled="yes"] 
+
+[chp_pricing_column_label title="Features"]
+[chp_pricing_row_label odd="true"] Label 1 [/chp_pricing_row_label]
+[chp_pricing_row_label] Label 2 [/chp_pricing_row_label]
+[chp_pricing_row_label odd="true"] Label 3 [/chp_pricing_row_label]
+[chp_pricing_row_label] Label 4 [/chp_pricing_row_label]
+[/chp_pricing_column_label]
+
+[chp_pricing_column title="Column 1" price="100" currency_symbol="$" interval="Per Month"]
+[chp_pricing_row_label] Label 1 [/chp_pricing_row_label]
+[chp_pricing_row odd="true"] Your text here [/chp_pricing_row]
+[chp_pricing_row_label] Label 2 [/chp_pricing_row_label]
+[chp_pricing_row] Your text here [/chp_pricing_row]
+[chp_pricing_row_label] Label 3 [/chp_pricing_row_label]
+[chp_pricing_row odd="true"] Your text here [/chp_pricing_row]
+[chp_pricing_row_label] Label 4 [/chp_pricing_row_label]
+[chp_pricing_row] Your text here [/chp_pricing_row]
+[button text="Sign Up" link="#" style="default" size="normal" target="_self" display="inline" icon="no"]
+[/chp_pricing_column]
+
+[chp_pricing_column title="Column 2" highlight="true" highlight_reason="Most Popular" price="200" currency_symbol="$" interval="Per Month"]
+[chp_pricing_row_label] Label 1 [/chp_pricing_row_label]
+[chp_pricing_row odd="true"] Your text here [/chp_pricing_row]
+[chp_pricing_row_label] Label 2 [/chp_pricing_row_label]
+[chp_pricing_row] Your text here [/chp_pricing_row]
+[chp_pricing_row_label] Label 3 [/chp_pricing_row_label]
+[chp_pricing_row odd="true"] Your text here [/chp_pricing_row]
+[chp_pricing_row_label] Label 4 [/chp_pricing_row_label]
+[chp_pricing_row] Your text here [/chp_pricing_row]
+[button text="Sign Up" link="#" style="default" size="normal" target="_self" display="inline" icon="no"]
+[/chp_pricing_column]
+
+[chp_pricing_column title="Column 3" price="300" currency_symbol="$" interval="Per Month"]
+[chp_pricing_row_label] Label 1 [/chp_pricing_row_label]
+[chp_pricing_row odd="true"] Your text here [/chp_pricing_row]
+[chp_pricing_row_label] Label 2 [/chp_pricing_row_label]
+[chp_pricing_row] Your text here [/chp_pricing_row]
+[chp_pricing_row_label] Label 3 [/chp_pricing_row_label]
+[chp_pricing_row odd="true"] Your text here [/chp_pricing_row]
+[chp_pricing_row_label] Label 4 [/chp_pricing_row_label]
+[chp_pricing_row] Your text here [/chp_pricing_row]
+[button text="Sign Up" link="#" style="default" size="normal" target="_self" display="inline" icon="no"]
+[/chp_pricing_column]
+
+[/chp_pricing_table]
+
+        </pre>
+        <p><span class="label">Description:</span> used to display Pricing tables.</p>
        <br>
     <h5>Audio / Video</h5>
     <p><span class="label">Description:</span> WordPress 3.6 has great support for embedding YouTube and Vimeo videos, but if you want to play a video or audio file, like an MP3 or MP4 file, that has been uploaded to a server, you need to implement some kind of player so that the file would appear as media rather than a link on your site. <a href="http://make.wordpress.org/core/2013/04/08/audio-video-support-in-core/" target="_blank">Read More</a></p>
@@ -1462,16 +1478,43 @@
       <div class="row"> 
         <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_vcard.jpg" alt=""></figure>
         <div class="clearfix">
-	        <h5>Cherry - vCard</h5>
+          <h5>Cherry - vCard</h5>
+          <p>This widget allows you to display information about your company or about you. It contains the following options:</p>
+          <ul>
+            <li><i class="icon-angle-right"></i> <strong>Title (optional):</strong> - Widget Title</li>
+            <li><i class="icon-angle-right"></i> <strong>Street Address:</strong> - put your street address here</li>
+            <li><i class="icon-angle-right"></i> <strong>City/Locality:</strong> - enter your city or location here</li>
+            <li><i class="icon-angle-right"></i> <strong>State/Region:</strong> - enter your state or region here</li>
+            <li><i class="icon-angle-right"></i> <strong>Zipcode/Postal Code:</strong> - enter your zipcode or postal code here</li>
+            <li><i class="icon-angle-right"></i> <strong>Telephone:</strong> - telephone number</li>
+            <li><i class="icon-angle-right"></i> <strong>Email:</strong> - your email.</li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <div class="row"> 
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_post_cycle.png" alt=""></figure>
+        <div class="clearfix">
+	        <h5>Cherry - Post Cycle</h5>
 	        <p>This widget allows you to display information about your company or about you. It contains the following options:</p>
 	        <ul>
-	          <li><i class="icon-angle-right"></i> <strong>Title (optional):</strong> - Widget Title</li>
-	          <li><i class="icon-angle-right"></i> <strong>Street Address:</strong> - put your street address here</li>
-	          <li><i class="icon-angle-right"></i> <strong>City/Locality:</strong> - enter your city or location here</li>
-	          <li><i class="icon-angle-right"></i> <strong>State/Region:</strong> - enter your state or region here</li>
-	          <li><i class="icon-angle-right"></i> <strong>Zipcode/Postal Code:</strong> - enter your zipcode or postal code here</li>
-	          <li><i class="icon-angle-right"></i> <strong>Telephone:</strong> - telephone number</li>
-	          <li><i class="icon-angle-right"></i> <strong>Email:</strong> - your email.</li>
+            <li><i class="icon-angle-right"></i> <strong>Title (optional):</strong> - Widget Title</li>
+            <li><i class="icon-angle-right"></i> <strong>Post type:</strong> - Select post format</li>
+            <li><i class="icon-angle-right"></i> <strong>Categories:</strong> - Select categories to display posts from</li>
+            <li><i class="icon-angle-right"></i> <strong>Posts count:</strong> - number of displayed post</li>
+            <li><i class="icon-angle-right"></i> <strong>Thumbnail Width (in pixels):</strong> - width of post thumbnail</li>
+            <li><i class="icon-angle-right"></i> <strong>Thumbnail Height (in pixels):</strong> - height of post thumbnail</li>
+            <li><i class="icon-angle-right"></i> <strong>Show titles: </strong> - display post titles</li>
+            <li><i class="icon-angle-right"></i> <strong>Show date: </strong> - display post date</li>
+            <li><i class="icon-angle-right"></i> <strong>Show author: </strong> - display author </li>
+            <li><i class="icon-angle-right"></i> <strong>Show comments: </strong> - display post comments</li>
+            <li><i class="icon-angle-right"></i> <strong>Show excerpt: </strong> - display post excerpt</li>
+            <li><i class="icon-angle-right"></i> <strong>Excerpt word count: </strong> - number of words displayed in excerpt</li>
+            <li><i class="icon-angle-right"></i> <strong>More Button Text: </strong> - text for the more button</li>
+            <li><i class="icon-angle-right"></i> <strong>Slideshow cycling speed (in sec.):</strong> - slideshow speed in milliseconds</li>
+            <li><i class="icon-angle-right"></i> <strong>Arrows:</strong> - display slider arrows</li>
+            <li><i class="icon-angle-right"></i> <strong>Pagination:</strong> - display slider pagination</li>
+	          <li><i class="icon-angle-right"></i> <strong>Custom CSS class: </strong> - widget custom class</li>
 	        </ul>
         </div>
       </div>
