@@ -7,7 +7,12 @@
   		  prevText: "",
   		  nextText: "",
   		  controlNav: true,
-  		}) 			
+  		}) 
+
+
+      // current year
+      var date = new Date();
+      $("#date").html(date.getFullYear());
 
   // hide #back-top first
   $("#back-top").hide();
