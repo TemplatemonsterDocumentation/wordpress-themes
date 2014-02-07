@@ -152,4 +152,9 @@
           }
         })
       })
-    }(window.jQuery)  
+    }(window.jQuery) 
+
+    $(document).ready(function() { 
+      var currentYear = (new Date).getFullYear();  
+      $("#copyright-year").text( (new Date).getFullYear() );
+    }); 
