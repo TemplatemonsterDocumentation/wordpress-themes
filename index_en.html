@@ -96,7 +96,8 @@
                          <dd>
                            <ul class="list">          
                             <li><a href="#engine_installation">Engine installation</a></li>
-                            <li><a href="#theme_installation">Theme installation</a></li>                            
+                            <li><a href="#cherryframework_installation">CherryFramework installation</a></li>
+                            <li><a href="#theme_installation">Theme installation</a></li>                             
                             <li><a href="#theme_sample_data">Sample Data Install</a></li>                            
                             <li><a href="#manual_install">Manual installation</a></li>
                             <li><a href="#plugins_intstall">Plugin Installation</a></li>
@@ -216,21 +217,21 @@
       <p>The template package you have downloaded consists of several folders. Let's see what each folder contains:</p>
       <ul class="files_structure">
 
-        <li class="folder"><i class="icon-folder-close"></i> <b>Documentation</b><small class="muted"> - contains documentation files.</small>
+        <li class="folder"><i class="icon-folder-close"></i> <b>documentation</b><small class="muted"> - contains documentation files.</small>
           <ul>
-            <li class="file"><i class="icon-file"></i> template_instructions.html<small class="muted"> - the main documentation file. You are right here :)</small></li>
+            <li class="file"><i class="icon-file"></i> documentation.html<small class="muted"> - the main documentation file. You are right here :)</small></li>
           </ul>
         </li>
 
-        <li class="folder"><b>Screenshots</b><small class="muted"> - contains template screenshots. Not for production.</small></li>
+        <li class="folder"><b>screenshots</b><small class="muted"> - contains template screenshots. Not for production.</small></li>
 
-        <li class="folder"><b>Sources</b><small class="muted"> - contains template source files.</small>
+        <li class="folder"><b>sources.zip</b><small class="muted"> - contains template source files.</small>
           <ul>
             <li class="folder"><i class="icon-folder-close"></i> psd<small class="muted"> - template Adobe Photoshop source files (.psd).</small></li>
           </ul>
         </li>
 
-        <li class="folder"><i class="icon-folder-close"></i> <b>Theme</b><small class="muted"> - contains WordPress theme files.</small>
+        <li class="folder"><i class="icon-folder-close"></i> <b>theme</b><small class="muted"> - contains WordPress theme files.</small>
           <ul>
             <li class="file"><i class="icon-file"></i> CherryFramework.zip<small class="muted"> - Cherry Framework theme archive. Contains all theme files. Should be installed through WordPress  extension manager.</small></li>
             <li class="file"><i class="icon-file"></i> theme####.zip<small class="muted"> - theme(child-theme) archive. Contains all theme files. Should be installed through WordPress extension manager.</small></li>
@@ -246,11 +247,10 @@
                 <li class="file"><i class="icon-folder-close"></i> uploads<small class="muted"> - contains theme images.</small></li>
                 <li class="file"><i class="icon-file"></i> theme#####.sql<small class="muted"> - database backup file (contains theme content).</small></li>
               </ul>
-            </li>
-            <li class="file"><i class="icon-file"></i> license.txt<small class="muted"> - contains license details.</small></li>
+            </li>           
           </ul>
         </li>
-
+        <li class="file"><i class="icon-file"></i> license.txt<small class="muted"> - contains license details.</small></li>
         <li class="file"><i class="icon-file"></i> fonts_info.txt<small class="muted"> - contains links where the template custom fonts can be downloaded.</small></li>
         <li class="file"><i class="icon-file"></i> info.txt<small class="muted"> - contains instructions on how to extract source files.</small></li>
       </ul>
@@ -412,16 +412,17 @@
         <li class="last"><i class="icon-info-sign"></i> <a target="_blank" href="/help/wordpress-how-to-install-the-engine-to-just-host-server-manual-installation.html">How to install the engine to Just Host server (manual installation)</a></li>
       </ul>
     </article>
-    <!-- Theme installation -->
+    <!-- CherryFramework installation -->
 
     <article>
-      <h4 id="theme_installation">Theme installation</h4>
+      <h4 id="cherryframework_installation">CherryFramework installation</h4>
         <p>There are two ways to install the theme: via the WordPress admin panel or via FTP. If one way does not work for you for some reason, you can always try the other one. </p>
         <h5>Upload via WordPress admin:</h5>
         <p>The installation process includes two steps: the framework installation and the child theme installation. Both steps are basically identical and easy to follow.</p>
         <ol style="margin-bottom:.5em;">
           <li>Log in to your WordPress admin panel (add /wp-admin to your domain name in the browser address bar).</li>                                             
-          <li>Go to the menu <strong>Appearance</strong> > <strong>Themes</strong> and click the <strong>Install Themes </strong>tab.</li>
+          <li>Go to the menu <strong>Appearance</strong> > <strong>Themes</strong> and click the <strong>Add New Theme </strong>button.</li>
+          <li>Click the <strong>Upload</strong> link.</li>
           <li>Click the <strong>Browse</strong> button and navigate to the unzipped template package on your computer.</li>
           <li>Look for a file called  <strong>CherryFramework.zip</strong>. Click on it to select, then click <strong>OK</strong>.</li>
           <li>Click the <strong>Install Now</strong> button and wait until the installation is complete.</li>
@@ -432,9 +433,16 @@
       <p class="muted text-center"></p>
 
         <p>For more information, feel free to check the detailed video tutorial on <a target="_blank" href="/help/how-install-wordpress-theme-via-admin-panel.html">How to install a WordPress theme via admin panel</a> and <a target="_blank" href="/help/wordpress-how-to-install-cherry-framework-template.html">How to install Cherry framework template</a>.</p>
-        <p>Congratulations, you have just installed the framework. Now you can proceed to installing  the child theme: <strong>theme####.zip</strong>. The steps are the same:</p>
+        <p>Congratulations, you have just installed the framework.</p> 
+        
+        <!-- Theme installation -->
+
+    <article>
+      <h4 id="theme_installation">Theme installation</h4>
+        <p>Now you can proceed to installing  the child theme: <strong>theme####.zip</strong>. The steps are the same:</p>
         <ol style="margin-bottom:.5em;">
-          <li>Go to the menu <strong>Appearance</strong> > <strong>Themes</strong> and click the <strong>Install Themes </strong>tab.</li>
+          <li>Go to the menu <strong>Appearance</strong> > <strong>Themes</strong> and click the <strong>Add New Theme </strong>button.</li>
+          <li>Click the <strong>Upload</strong> link.</li>
           <li>Click the <strong>Browse</strong> button and navigate to the unzipped template package on your computer.</li>
           <li>Look for a file called <strong>theme####.zip </strong>(where <strong>XXXX</strong> is the unique number of your theme). Click on it to select, then click <strong>OK</strong>.</li>
           <li>Click the <strong>Install Now</strong> button and wait until the installation is complete.</li>
@@ -494,7 +502,7 @@
         <p>If the  database prefix is different, it should be changed according to this <a target="_blank" href="/help/wordpress-how-to-change-database-tables-prefix-in-sql-file.html">manual</a>.</p>
       <p>To make your WordPress look like our live demo, please follow the instructions below.</p>
         <ol>
-          <li>Make sure the theme has been installed according to the <a href="#theme-installation">following directions.</a></li>
+          <li>Make sure the theme has been installed according to the <a href="#cherryframework_installation">following directions</a>.</li>
           <li>Copy the"<strong>uploads</strong>" folder (that is located under the<strong> theme/manual_install/</strong> folder of your template package) to the<strong> /wp-content/ </strong> folder on your FTP.</li>
           <li>Open the <strong>theme####.sql</strong> file that is located in the <strong>theme/manual_install/</strong> folder in any text editor (preferably Dreamweaver or Notepad) and replace all instances of "<strong>your_website_url_here</strong>" with your website URL in the entire document using the <strong>Find and Replace</strong> tool (hit Ctrl+H hot keys to open this window). E.g.: http://www.mywebsite.com</li> 
           <li>Please, make sure that you do not have the forward slash "/" sign at the end of the address and the url starts with http://www.</li>
@@ -519,9 +527,7 @@
           <li>If there is more than one plugin in the /plugins/ folder, repeat the steps to install and activate all of them.
           </li>
         </ol>
-        <ul class="unstyled">
-          <li><i class="icon-film"> </i> <a target="_blank" href="/help/files/wordpress/how-to-install-plugin.swf">How to install a Plugin</a></li>
-        </ul>
+        
 
        <!--  <figure class="img-paraloid"><img src="img/wordpress/plugins_install.jpg" alt=""></figure> -->
         <p class="muted text-center"></p>
@@ -755,7 +761,6 @@
         <li><i class="icon-angle-right"></i> <strong>URL #2</strong> - a direct link to a video clip in ogv format</li>
         <li><i class="icon-angle-right"></i> <strong>Embedded Code</strong> - used for off-site video embedding, e.g. via youtube, vimeo, etc.</li>
       </ul>
-      <p>Manual: <a target="_blank" href="/help/wordpress-how-to-create-audiovideo-post.html">How to create audio/video post</a></p>
     </article>
 
     <!-- Creating a slider post -->
@@ -917,7 +922,7 @@
       </ol>
       <p>You can create a category portfolio page using the <strong>Category Include</strong> field. You need to write the slug of the category which you want to be displayed.</p>
       <figure class="img-paraloid"><img src="img/wordpress/category_in.jpg" alt=""></figure>
-      <p>Feel free to check out the following tutorial on <a target="_blank" href="/help/wordpress-how-to-add-portfolio-page.html">how to add portfolio page</a> and <a target="_blank" href="/help/wordpress-how-to-work-with-portfolio-page.html">how to work with portfolio page</a>.</p>
+      
     </article>
   </section>   
 <!-- Portfolio page end -->
@@ -1302,7 +1307,7 @@
         <p><span class="label">Description:</span> used to display Pricing tables.</p>
        <br>
     <h5>Audio / Video</h5>
-    <p><span class="label">Description:</span> WordPress 3.6 has great support for embedding YouTube and Vimeo videos, but if you want to play a video or audio file, like an MP3 or MP4 file, that has been uploaded to a server, you need to implement some kind of player so that the file would appear as media rather than a link on your site. <a href="http://make.wordpress.org/core/2013/04/08/audio-video-support-in-core/" target="_blank">Read More</a></p>
+    <p><span class="label">Description:</span> WordPress 3.6+ has great support for embedding YouTube and Vimeo videos, but if you want to play a video or audio file, like an MP3 or MP4 file, that has been uploaded to a server, you need to implement some kind of player so that the file would appear as media rather than a link on your site. <a href="http://make.wordpress.org/core/2013/04/08/audio-video-support-in-core/" target="_blank">Read More</a></p>
     The process is similar to inserting an image into your post content:
     <ol class="clearfix">
       <li>Add or edit a page or post.</li>
@@ -1432,8 +1437,7 @@
 	              <li><i class="icon-angle-right"></i> <em>Both</em> - icons and text.</li>
 	            </ul>
 	          </li>
-	        </ul>
-	        <p>Manual: <a target="_blank" href="/help/wordpress-how-to-work-with-the-social-icons-widget.html">How to work with the social icons widget</a></p>
+	        </ul>        
       	</div>
       </div>
       <br />
