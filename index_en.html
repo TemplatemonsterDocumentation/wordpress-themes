@@ -20,6 +20,7 @@
   <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
   <link href="google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
   <script type="text/javascript" src="google-code-prettify/prettify.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css">
 
     <!--[if lt IE 8]>
   		<div style='text-align:center'>
@@ -39,22 +40,37 @@
   <div class="container">
   <div class="row">
   <article class="span3"><a class="brand" href="/help/" target="_blank"></a></article>
- <article class="span7">
- <h1>Cherry WordPress Documentation</h1>
+  <article class="span7">
+   <h1>Cherry WordPress Documentation</h1>
   </article>  
-  <!-- languages switcher
-   <article class="span2">
-    <div class="languages pull-right">
-      <span class="lang_label">Language: </span><div id="lang_icon"><b>En</b><i class="icon-angle-down"></i></div>
-      <ul id="lang_list">
-        <li class="active"><a href="index_en.html"><span>English </span><img src="img/flags/gb.png" height="14" width="22" alt="en"></a></li>
-        <li><a href="index_es.html"><span>Español </span><img src="img/flags/es.png" height="14" width="22" alt="es"></a></li>
-        <li><a href="index_de.html"><span>Deutsch </span><img src="img/flags/de.png" height="14" width="22" alt="de"></a></li>
-        <li><a href="index_ru.html"><span>Русский </span><img src="img/flags/ru.png" height="14" width="22" alt="ru"></a></li>
-      </ul>
-    </div>
-  </article>   
-   --> 
+    <article class="span2">
+
+<!--       <div id="languages" class="select-menu pull-right">
+        <div class="select-menu_icon"><b>En</b><i class="icon-angle-down"></i></div>
+        <ul class="select-menu_list">
+          <li class="active"><a href="index_en.html"><span>English </span><img src="img/flags/gb.png" height="14" width="22" alt="en"></a></li>
+          <li><a href="index_es.html"><span>Español </span><img src="img/flags/es.png" height="14" width="22" alt="es"></a></li>
+          <li><a href="index_de.html"><span>Deutsch </span><img src="img/flags/de.png" height="14" width="22" alt="de"></a></li>
+          <li><a href="index_ru.html"><span>Русский </span><img src="img/flags/ru.png" height="14" width="22" alt="ru"></a></li>
+          <li><a href="index_fr.html"><span>Français</span><img src="img/flags/fr.png" height="14" width="22" alt="fr"></a></li>
+          <li><a href="index_pl.html"><span>Polski</span><img src="img/flags/pl.png" height="14" width="22" alt="pl"></a></li>
+          <li><a href="index_pt_br.html"><span>Português</span><img src="img/flags/pt.png" height="14" width="22" alt="pt"></a></li>
+          <li><a href="index_tr.html"><span>Türk</span><img src="img/flags/tr.png" height="14" width="22" alt="tr"></a></li>
+          <li><a href="index_it.html"><span>Italiano</span><img src="img/flags/it.png" height="14" width="22" alt="it"></a></li>
+        </ul>
+      </div>
+ -->
+      <div id="versions" class="select-menu pull-right">
+        <div class="select-menu_icon"><b>v3-1</b><i class="icon-angle-down"></i></div>
+        <ul class="select-menu_list">
+          <li class="active"><a href="/help/quick-start-guide/wordpress-themes/v3-1/index_en.html"><span>v3-1</span></a></li>
+          <li><a href="/help/quick-start-guide/wordpress-themes/v3-0/index_en.html"><span>v3-0</span></a></li>
+          <li><a href="/help/quick-start-guide/wordpress-themes/v2-4/index_en.html"><span>v2-4</span></a></li>
+          <li><a href="/help/quick-start-guide/wordpress-themes/v2-3/index_en.html"><span>v2-3</span></a></li>
+        </ul>
+      </div>
+    </article>   
+   
   </div>  	
   </div>
 </header>
@@ -96,11 +112,13 @@
                          <dd>
                            <ul class="list">          
                             <li><a href="#engine_installation">Engine installation</a></li>
-                            <li><a href="#theme_installation">Theme installation</a></li>                            
+                            <li><a href="#cherryframework_installation">CherryFramework installation</a></li>
+                            <li><a href="#theme_installation">Theme installation</a></li>                             
                             <li><a href="#theme_sample_data">Sample Data Install</a></li>                            
                             <li><a href="#manual_install">Manual installation</a></li>
                             <li><a href="#plugins_intstall">Plugin Installation</a></li>
                             <li><a href="#theme_plugins">Theme Plugins</a></li>
+                            <li><a href="#cookie_policy">Cookie Policy</a></li>
                            </ul> 
                        </dd>
                      </dl> 
@@ -216,21 +234,21 @@
       <p>The template package you have downloaded consists of several folders. Let's see what each folder contains:</p>
       <ul class="files_structure">
 
-        <li class="folder"><i class="icon-folder-close"></i> <b>Documentation</b><small class="muted"> - contains documentation files.</small>
+        <li class="folder"><i class="icon-folder-close"></i> <b>documentation</b><small class="muted"> - contains documentation files.</small>
           <ul>
-            <li class="file"><i class="icon-file"></i> template_instructions.html<small class="muted"> - the main documentation file. You are right here :)</small></li>
+            <li class="file"><i class="icon-file"></i> documentation.html<small class="muted"> - the main documentation file. You are right here :)</small></li>
           </ul>
         </li>
 
-        <li class="folder"><b>Screenshots</b><small class="muted"> - contains template screenshots. Not for production.</small></li>
+        <li class="folder"><b>screenshots</b><small class="muted"> - contains template screenshots. Not for production.</small></li>
 
-        <li class="folder"><b>Sources</b><small class="muted"> - contains template source files.</small>
+        <li class="folder"><b>sources.zip</b><small class="muted"> - contains template source files.</small>
           <ul>
             <li class="folder"><i class="icon-folder-close"></i> psd<small class="muted"> - template Adobe Photoshop source files (.psd).</small></li>
           </ul>
         </li>
 
-        <li class="folder"><i class="icon-folder-close"></i> <b>Theme</b><small class="muted"> - contains WordPress theme files.</small>
+        <li class="folder"><i class="icon-folder-close"></i> <b>theme</b><small class="muted"> - contains WordPress theme files.</small>
           <ul>
             <li class="file"><i class="icon-file"></i> CherryFramework.zip<small class="muted"> - Cherry Framework theme archive. Contains all theme files. Should be installed through WordPress  extension manager.</small></li>
             <li class="file"><i class="icon-file"></i> theme####.zip<small class="muted"> - theme(child-theme) archive. Contains all theme files. Should be installed through WordPress extension manager.</small></li>
@@ -246,11 +264,10 @@
                 <li class="file"><i class="icon-folder-close"></i> uploads<small class="muted"> - contains theme images.</small></li>
                 <li class="file"><i class="icon-file"></i> theme#####.sql<small class="muted"> - database backup file (contains theme content).</small></li>
               </ul>
-            </li>
-            <li class="file"><i class="icon-file"></i> license.txt<small class="muted"> - contains license details.</small></li>
+            </li>           
           </ul>
         </li>
-
+        <li class="file"><i class="icon-file"></i> license.txt<small class="muted"> - contains license details.</small></li>
         <li class="file"><i class="icon-file"></i> fonts_info.txt<small class="muted"> - contains links where the template custom fonts can be downloaded.</small></li>
         <li class="file"><i class="icon-file"></i> info.txt<small class="muted"> - contains instructions on how to extract source files.</small></li>
       </ul>
@@ -412,16 +429,17 @@
         <li class="last"><i class="icon-info-sign"></i> <a target="_blank" href="/help/wordpress-how-to-install-the-engine-to-just-host-server-manual-installation.html">How to install the engine to Just Host server (manual installation)</a></li>
       </ul>
     </article>
-    <!-- Theme installation -->
+    <!-- CherryFramework installation -->
 
     <article>
-      <h4 id="theme_installation">Theme installation</h4>
+      <h4 id="cherryframework_installation">CherryFramework installation</h4>
         <p>There are two ways to install the theme: via the WordPress admin panel or via FTP. If one way does not work for you for some reason, you can always try the other one. </p>
         <h5>Upload via WordPress admin:</h5>
         <p>The installation process includes two steps: the framework installation and the child theme installation. Both steps are basically identical and easy to follow.</p>
         <ol style="margin-bottom:.5em;">
           <li>Log in to your WordPress admin panel (add /wp-admin to your domain name in the browser address bar).</li>                                             
-          <li>Go to the menu <strong>Appearance</strong> > <strong>Themes</strong> and click the <strong>Install Themes </strong>tab.</li>
+          <li>Go to the menu <strong>Appearance</strong> > <strong>Themes</strong> and click the <strong>Add New Theme </strong>button.</li>
+          <li>Click the <strong>Upload</strong> link.</li>
           <li>Click the <strong>Browse</strong> button and navigate to the unzipped template package on your computer.</li>
           <li>Look for a file called  <strong>CherryFramework.zip</strong>. Click on it to select, then click <strong>OK</strong>.</li>
           <li>Click the <strong>Install Now</strong> button and wait until the installation is complete.</li>
@@ -431,10 +449,17 @@
       <figure class="img-paraloid"><img src="img/wordpress/theme_install.png" alt=""></figure>
       <p class="muted text-center"></p>
 
-        <p>For more information, feel free to check the detailed video tutorial on <a target="_blank" href="/help/how-install-wordpress-theme-via-admin-panel.html">How to install a WordPress theme via admin panel</a> and <a target="_blank" href="/help/wordpress-how-to-install-cherry-framework-template.html">How to install Cherry framework template</a>.</p>
-        <p>Congratulations, you have just installed the framework. Now you can proceed to installing  the child theme: <strong>theme####.zip</strong>. The steps are the same:</p>
+        <p>For more information, feel free to check the detailed video tutorial on <!--<a target="_blank" href="/help/how-install-wordpress-theme-via-admin-panel.html">How to install a WordPress theme via admin panel</a> and--> <a target="_blank" href="/help/wordpress-how-to-install-cherry-framework-template-starting-with-version-3-1.html">How to install Cherry framework template</a>.</p>
+        <p>Congratulations, you have just installed the framework.</p> 
+        
+        <!-- Theme installation -->
+
+    <article>
+      <h4 id="theme_installation">Theme installation</h4>
+        <p>Now you can proceed to installing  the child theme: <strong>theme####.zip</strong>. The steps are the same:</p>
         <ol style="margin-bottom:.5em;">
-          <li>Go to the menu <strong>Appearance</strong> > <strong>Themes</strong> and click the <strong>Install Themes </strong>tab.</li>
+          <li>Go to the menu <strong>Appearance</strong> > <strong>Themes</strong> and click the <strong>Add New Theme </strong>button.</li>
+          <li>Click the <strong>Upload</strong> link.</li>
           <li>Click the <strong>Browse</strong> button and navigate to the unzipped template package on your computer.</li>
           <li>Look for a file called <strong>theme####.zip </strong>(where <strong>XXXX</strong> is the unique number of your theme). Click on it to select, then click <strong>OK</strong>.</li>
           <li>Click the <strong>Install Now</strong> button and wait until the installation is complete.</li>
@@ -491,17 +516,17 @@
 
       <figure class="img-paraloid"><img src="img/wordpress/wp_prefix.jpg" alt=""></figure>
       <p class="muted text-center"></p>        
-        <p>If the  database prefix is different, it should be changed according to this <a target="_blank" href="/help/wordpress-how-to-change-database-tables-prefix-in-sql-file.html">manual</a>.</p>
+        <!--<p>If the  database prefix is different, it should be changed according to this <a target="_blank" href="/help/wordpress-how-to-change-database-tables-prefix-in-sql-file.html">manual</a>.</p>-->
       <p>To make your WordPress look like our live demo, please follow the instructions below.</p>
         <ol>
-          <li>Make sure the theme has been installed according to the <a href="#theme-installation">following directions.</a></li>
+          <li>Make sure the theme has been installed according to the <a href="#cherryframework_installation">following directions</a>.</li>
           <li>Copy the"<strong>uploads</strong>" folder (that is located under the<strong> theme/manual_install/</strong> folder of your template package) to the<strong> /wp-content/ </strong> folder on your FTP.</li>
           <li>Open the <strong>theme####.sql</strong> file that is located in the <strong>theme/manual_install/</strong> folder in any text editor (preferably Dreamweaver or Notepad) and replace all instances of "<strong>your_website_url_here</strong>" with your website URL in the entire document using the <strong>Find and Replace</strong> tool (hit Ctrl+H hot keys to open this window). E.g.: http://www.mywebsite.com</li> 
           <li>Please, make sure that you do not have the forward slash "/" sign at the end of the address and the url starts with http://www.</li>
           <li>Save your changes and close the file.</li>
-          <li>Now  you can <a target="_blank" href="/help/phpmyadmin-how-to-import-sample-data-dump-file-phpmyadmin.html">import</a> the dump file with the <strong>phpMyAdmin</strong> tool or some other database management tool.            </li>
+          <li>Now  you can <!--<a target="_blank" href="/help/phpmyadmin-how-to-import-sample-data-dump-file-phpmyadmin.html">-->import<!--</a>--> the dump file with the <strong>phpMyAdmin</strong> tool or some other database management tool.            </li>
         </ol>
-      <p>If you have problems with manual installation, please read this <a target="_blank" href="/help/wordpress-how-to-install-cherry-framework-theme-sample-data-manually.html">manual</a>.</p>
+      <!--<p>If you have problems with manual installation, please read this <a target="_blank" href="/help/wordpress-how-to-install-cherry-framework-theme-sample-data-manually.html">manual</a>.</p>-->
       <div class="box-info"><span>If you have installed the theme with the sample data install or manual install and the theme is displayed differently from the Live demo, please open Cherry Options and click "Restore Defaults."</span></div>
     </article>
   
@@ -518,10 +543,7 @@
           <li>When the plugin is installed, click <strong>Activate</strong>.</li>
           <li>If there is more than one plugin in the /plugins/ folder, repeat the steps to install and activate all of them.
           </li>
-        </ol>
-        <ul class="unstyled">
-          <li><i class="icon-film"> </i> <a target="_blank" href="/help/files/wordpress/how-to-install-plugin.swf">How to install a Plugin</a></li>
-        </ul>
+        </ol>   
 
        <!--  <figure class="img-paraloid"><img src="img/wordpress/plugins_install.jpg" alt=""></figure> -->
         <p class="muted text-center"></p>
@@ -567,6 +589,22 @@
       <span class="label">Description:</span> This WordPress plugin is a complete forum system for your wordpress blog.</p>
     </article>     
 
+    <article> 
+        <h4 id="cookie_policy">Cookie Policy</h4>
+        <p>Cookies are small text files which websites place on visitors’ computers. They’re typically used to identify that particular visitor and provide them with a better experience. Cookies are a crucial part of many website functions which we take for granted.</p>
+
+        <p>For instance, it’s usually cookies which allow online shops to remember what items you have in your shopping trolley. They’re also used to keep you logged in to a website, or to provide valuable usage statistics and information to website owners.</p>
+
+        <p>If you run a website, it almost certainly uses cookies. Their most likely function is to monitor visitor numbers and behaviours through tools like Google Analytics. They may also be used to display relevant adverts to visitors, or – if you sell online – to power key parts of your online shopping system.</p>
+
+        <p>26th May 2012 - The ICO released a change to the enforcement, "implied consent" is now allowed as long as you make it clear where your privacy/cookie policy is.</p>
+        
+        <p>Following the Cookie Law conditions you can add sufficient modules to your website. Module will display a warning message about the cookies used on your website. You can use the following ones: <a href="https://wordpress.org/plugins/cookie-banner/">Cookie Banner</a>, <a href="http://wordpress.org/plugins/cookie-notice/">Cookie Notice</a></p>
+        
+
+    </article>
+    
+    
   </section>
 <!-- Getting started end -->
 
@@ -755,7 +793,6 @@
         <li><i class="icon-angle-right"></i> <strong>URL #2</strong> - a direct link to a video clip in ogv format</li>
         <li><i class="icon-angle-right"></i> <strong>Embedded Code</strong> - used for off-site video embedding, e.g. via youtube, vimeo, etc.</li>
       </ul>
-      <p>Manual: <a target="_blank" href="/help/wordpress-how-to-create-audiovideo-post.html">How to create audio/video post</a></p>
     </article>
 
     <!-- Creating a slider post -->
@@ -917,7 +954,7 @@
       </ol>
       <p>You can create a category portfolio page using the <strong>Category Include</strong> field. You need to write the slug of the category which you want to be displayed.</p>
       <figure class="img-paraloid"><img src="img/wordpress/category_in.jpg" alt=""></figure>
-      <p>Feel free to check out the following tutorial on <a target="_blank" href="/help/wordpress-how-to-add-portfolio-page.html">how to add portfolio page</a> and <a target="_blank" href="/help/wordpress-how-to-work-with-portfolio-page.html">how to work with portfolio page</a>.</p>
+      
     </article>
   </section>   
 <!-- Portfolio page end -->
@@ -1302,7 +1339,7 @@
         <p><span class="label">Description:</span> used to display Pricing tables.</p>
        <br>
     <h5>Audio / Video</h5>
-    <p><span class="label">Description:</span> WordPress 3.6 has great support for embedding YouTube and Vimeo videos, but if you want to play a video or audio file, like an MP3 or MP4 file, that has been uploaded to a server, you need to implement some kind of player so that the file would appear as media rather than a link on your site. <a href="http://make.wordpress.org/core/2013/04/08/audio-video-support-in-core/" target="_blank">Read More</a></p>
+    <p><span class="label">Description:</span> WordPress 3.6+ has great support for embedding YouTube and Vimeo videos, but if you want to play a video or audio file, like an MP3 or MP4 file, that has been uploaded to a server, you need to implement some kind of player so that the file would appear as media rather than a link on your site. <a href="http://make.wordpress.org/core/2013/04/08/audio-video-support-in-core/" target="_blank">Read More</a></p>
     The process is similar to inserting an image into your post content:
     <ol class="clearfix">
       <li>Add or edit a page or post.</li>
@@ -1432,8 +1469,7 @@
 	              <li><i class="icon-angle-right"></i> <em>Both</em> - icons and text.</li>
 	            </ul>
 	          </li>
-	        </ul>
-	        <p>Manual: <a target="_blank" href="/help/wordpress-how-to-work-with-the-social-icons-widget.html">How to work with the social icons widget</a></p>
+	        </ul>        
       	</div>
       </div>
       <br />
@@ -1621,6 +1657,8 @@
     </article>
     <article id="slider_option">
       <h4>Slider</h4>
+      <p>Slider height can be defined in <b>"wp-content/themes/theme###/slider.php"</b>. Edit "height" value in $slider_default_params array.</p>
+
       <h5>Disable Slider</h5>
       <div class="row"> 
         <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_slider_none.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_slider_none.jpg" alt=""><i class="icon-search"></i></a></figure>
@@ -1628,24 +1666,24 @@
       </div>
       <h5>Slideshow</h5>
       <div class="row"> 
-      <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_slider_camera.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_slider_camera.jpg" alt=""><i class="icon-search"></i></a></figure>
-      <div class="clearfix">
-      <ul>
-        <li><i class="icon-angle-right"></i> <strong>Sliding effect</strong> - slider transition effect</li>
-        <li><i class="icon-angle-right"></i> <strong>Number of columns</strong> - number of columns</li>
-        <li><i class="icon-angle-right"></i> <strong>Number of rows</strong> - number of rows</li>
-        <li><i class="icon-angle-right"></i> <strong>Banner effect</strong> - select your banner animation type</li>
-        <li><i class="icon-angle-right"></i> <strong>Pause time</strong> - pause time (ms)</li>
-        <li><i class="icon-angle-right"></i> <strong>Animation speed</strong> - animation speed (ms)</li>
-        <li><i class="icon-angle-right"></i> <strong>Slideshow</strong> - Animate slider automatically?</li>
-        <li><i class="icon-angle-right"></i> <strong>Thumbnails</strong> - Display thumbnails?</li>
-        <li><i class="icon-angle-right"></i> <strong>Pagination</strong> - Display pagination?</li>
-        <li><i class="icon-angle-right"></i> <strong>Next &amp; Prev navigation</strong> - Display next & prev navigation?</li>
-        <li><i class="icon-angle-right"></i> <strong>Display next &amp; prev navigation only on hover?</strong> - If 'yes,' the navigation button (prev, next and play/stop buttons) will be visible on hover state only, if 'no,' they will always be visible.</li>
-        <li><i class="icon-angle-right"></i> <strong>Play/Pause button</strong> - Display Play/Pause button?</li>
-        <li><i class="icon-angle-right"></i> <strong>Loader</strong> - slider loader.</li>
-      </ul>
-      </div>
+        <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_slider_camera.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_slider_camera.jpg" alt=""><i class="icon-search"></i></a></figure>
+        <div class="clearfix">
+        <ul>
+          <li><i class="icon-angle-right"></i> <strong>Sliding effect</strong> - slider transition effect</li>
+          <li><i class="icon-angle-right"></i> <strong>Number of columns</strong> - number of columns</li>
+          <li><i class="icon-angle-right"></i> <strong>Number of rows</strong> - number of rows</li>
+          <li><i class="icon-angle-right"></i> <strong>Banner effect</strong> - select your banner animation type</li>
+          <li><i class="icon-angle-right"></i> <strong>Pause time</strong> - pause time (ms)</li>
+          <li><i class="icon-angle-right"></i> <strong>Animation speed</strong> - animation speed (ms)</li>
+          <li><i class="icon-angle-right"></i> <strong>Slideshow</strong> - Animate slider automatically?</li>
+          <li><i class="icon-angle-right"></i> <strong>Thumbnails</strong> - Display thumbnails?</li>
+          <li><i class="icon-angle-right"></i> <strong>Pagination</strong> - Display pagination?</li>
+          <li><i class="icon-angle-right"></i> <strong>Next &amp; Prev navigation</strong> - Display next & prev navigation?</li>
+          <li><i class="icon-angle-right"></i> <strong>Display next &amp; prev navigation only on hover?</strong> - If 'yes,' the navigation button (prev, next and play/stop buttons) will be visible on hover state only, if 'no,' they will always be visible.</li>
+          <li><i class="icon-angle-right"></i> <strong>Play/Pause button</strong> - Display Play/Pause button?</li>
+          <li><i class="icon-angle-right"></i> <strong>Loader</strong> - slider loader.</li>
+        </ul>
+        </div>
       </div>
       <h5>Accordion</h5>
       <div class="row"> 
@@ -1843,14 +1881,13 @@
 </div>
    <!-- Footer
     ================================================== -->
+    
     <footer>
       <div class="container">        
-       <div class="span12">
-        <span>WordPress Theme Documentation</span><br />
-        &copy; <span id="date"></span> <span id="copyright">Template Monster</span>
-       </div>
+       WordPress Theme Documentation<br>
+      &copy; <span id="copyright-year"></span> <span id="copyright">Template Monster</span>
       </div>
-    </footer>
+    </footer>   
 
   <div id="back-top">
     <a href="#"><i class="icon-double-angle-up"></i></a>
