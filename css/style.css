@@ -200,9 +200,9 @@ header h1 a {
 }
 header .brand {
   text-indent: -1000px;
-  background: url(../img/logo-monster.jpg) no-repeat 0 0;
-  width: 274px;
-  height: 48px;
+  background: url(/help/wp-content/logo.png) no-repeat 0 0;
+  width: 375px;
+  height: 85px;
   display: block;
 }
 /*------ content ------- */
@@ -742,7 +742,6 @@ footer {
   width: 51px;
   display: block;
   /* transition */
-
   -webkit-transition: 0.1s;
   -moz-transition: 0.1s;
   transition: 0.1s;
