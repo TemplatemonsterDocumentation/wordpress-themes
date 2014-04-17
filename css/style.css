@@ -11,14 +11,6 @@
 .clearfix:after {
   clear: both;
 }
-.clear {
-  clear:both;
-  display:block;
-  overflow:hidden;
-  visibility:hidden;
-  width:0;
-  height:0;
-}
 .hide-text {
   font: 0/0 a;
   color: transparent;
@@ -201,17 +193,17 @@ header {
   padding: 14px 0 17px;
 }
 header h1 {
-  margin: 2px 0 0 80px;
+  margin: 2px 0 0 67px;
 }
 header h1 a {
   color: #3a3a3a;
 }
-header .brand{
-  text-indent:-1000px;
-  background:url(/help/wp-content/logo.png) no-repeat 0 0;
-  width:375px;
-  height:68px;
-  display:block
+header .brand {
+  text-indent: -1000px;
+  background: url(../img/logo-monster.jpg) no-repeat 0 0;
+  width: 274px;
+  height: 48px;
+  display: block;
 }
 /*------ content ------- */
 #content {
@@ -684,7 +676,6 @@ footer {
   width: 51px;
   display: block;
   /* transition */
-
   -webkit-transition: 0.1s;
   -moz-transition: 0.1s;
   transition: 0.1s;
