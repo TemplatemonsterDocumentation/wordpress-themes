@@ -141,6 +141,77 @@ header{
 	background:url(../img/logo-monster.jpg) no-repeat 0 0;.size(48px,274px);display:block}
 }
 
+
+.select-menu_label {
+display: inline-block;
+padding-right: 6px;
+position: relative;
+top: 8px;
+}
+
+.select-menu_icon{
+  border: 1px solid #dfdfdf;
+  display: inline-block;
+  background: #fff;
+  padding: 6px 12px;
+  cursor: pointer;
+  position: relative;
+  top: 8px;
+  b{
+    display: inline-block;
+    margin-right: 6px;
+  }
+  &:hover{
+    background: #f5f5f5;
+  }
+}
+
+.select-menu_list{
+  display: none;
+  position: absolute;
+  top: 43px;
+  right: 0;
+  background: #f5f5f5;
+  border: 1px solid #dfdfdf;
+}
+
+.select-menu{
+  position: relative;
+  margin-left: 4px;
+  ul{
+    li{
+      list-style: none;
+      display: block;
+      width: 90px;
+      padding: 6px 12px;
+      font-size: 12px;
+      line-height: 20px;
+      margin-bottom: 1px;
+      &.active, &:hover{
+        background: #fff;
+        a{
+          color: #df152b;
+        }
+      }
+      a{
+        display: block;
+        overflow: hidden;
+        clear: both;
+      }
+      span{
+        display: block;
+        float: left;
+      }
+      img{
+        display: block;
+        float: right;
+        position: relative;
+        top: 3px;
+      }
+    }
+  }
+}
+
 /*------ content ------- */
 #content {
 	background:url(../img/tail-content.gif);

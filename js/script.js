@@ -107,25 +107,56 @@
       }
       /*Language switcher*/
 
-      $('#lang_icon').toggle(function(){
-        $('#lang_icon > i').find('i').removeClass('icon-angle-down').addClass('icon-angle-up');
-        $('#lang_list').slideDown(200);
-      }, function(){
-        $('#lang_list').slideUp(200);
-        $('#lang_icon > i').find('i').addClass('icon-angle-down').removeClass('icon-angle-up');
-      })
+      function select_menu(id){
+        var icon = $(id).find('.select-menu_icon');
+        var list = $(id).find('.select-menu_list');
 
-      $('#lang_list li').click(function(){
-        $('#lang_list').slideUp(200);
-        $('#lang_icon > i').find('i').addClass('icon-angle-down').removeClass('icon-angle-up');
-      })
-      $(document).click(function() { 
-        $('#lang_list').slideUp(200);
-        $('#lang_icon > i').find('i').addClass('icon-angle-down').removeClass('icon-angle-up');
-       }); 
-      $('#lang_icon').click(function(e){ 
+        $(icon).toggle(function(){
+          console.log('clicked');
+          $(icon).find('i').removeClass('icon-angle-down').addClass('icon-angle-up');
+          $(list).slideDown(200);
+        }, function(){
+          $(list).slideUp(200);
+          $(icon).find('i').addClass('icon-angle-down').removeClass('icon-angle-up');
+        })
+
+        $(list).find('li').click(function(){
+          $(list).slideUp(200);
+          $(icon).find('i').addClass('icon-angle-down').removeClass('icon-angle-up');
+        })
+
+        $(document).click(function() { 
+          $(list).slideUp(200);
+          $(icon).find('i').addClass('icon-angle-down').removeClass('icon-angle-up');
+        })
+
+        $(icon).click(function(e){ 
           e.stopPropagation(); 
-      });
+        });      
+      }
+
+      select_menu("#languages");
+      select_menu("#versions");
+      
+      // $('#lang_icon').toggle(function(){
+      //   $('#lang_icon > i').find('i').removeClass('icon-angle-down').addClass('icon-angle-up');
+      //   $('#lang_list').slideDown(200);
+      // }, function(){
+      //   $('#lang_list').slideUp(200);
+      //   $('#lang_icon > i').find('i').addClass('icon-angle-down').removeClass('icon-angle-up');
+      // })
+
+      // $('#lang_list li').click(function(){
+      //   $('#lang_list').slideUp(200);
+      //   $('#lang_icon > i').find('i').addClass('icon-angle-down').removeClass('icon-angle-up');
+      // })
+      // $(document).click(function() { 
+      //   $('#lang_list').slideUp(200);
+      //   $('#lang_icon > i').find('i').addClass('icon-angle-down').removeClass('icon-angle-up');
+      //  }); 
+      // $('#lang_icon').click(function(e){ 
+      //     e.stopPropagation(); 
+      // });
 
     })  
     !function ($) {
