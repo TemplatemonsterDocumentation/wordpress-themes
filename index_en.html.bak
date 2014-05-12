@@ -640,7 +640,11 @@
     <h2><i class="icon-file-alt"></i> Page Templates and Sidebars</h2>
     <br>
     <div class="box-notification"><span>ATTENTION: It is necessary to edit styles in the style.less file. Because of options styles are compiled anew and the main-style.css file is rewritten after saving. </span></div> 
+<<<<<<< HEAD
+    
+=======
 
+>>>>>>> cdb92333365a4658de9bc7888a03bf2515142b7d
     <h4>Page Templates</h4>
       <ul>
         <li><i class="icon-angle-right"></i> <strong>Default Template</strong> (the default page template with a sidebar position)</li>
@@ -1750,9 +1754,12 @@
         <div class="clearfix">
         <ul>
           <li><i class="icon-angle-right"></i> <strong>Sliding effect</strong> - slider transition effect</li>
+<<<<<<< HEAD
+=======
           <li><i class="icon-angle-right"></i> <strong>Sort by parameter</strong> - sort retrieved posts by parameter (order by)</li>
           <li><i class="icon-angle-right"></i> <strong>Sort order</strong> - sort order for posts</li>
           <li><i class="icon-angle-right"></i> <strong>Sliding effect</strong> - select your animation type.</li>
+>>>>>>> cdb92333365a4658de9bc7888a03bf2515142b7d
           <li><i class="icon-angle-right"></i> <strong>Number of columns</strong> - number of columns</li>
           <li><i class="icon-angle-right"></i> <strong>Number of rows</strong> - number of rows</li>
           <li><i class="icon-angle-right"></i> <strong>Banner effect</strong> - select your banner animation type</li>
