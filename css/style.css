@@ -1,4 +1,5 @@
 /*Core variables and mixins*/
+
 .clearfix {
   *zoom: 1;
 }
@@ -43,6 +44,7 @@ a:focus {
   margin-left: 0;
 }
 /*------ template stylization ------*/
+
 body {
   min-width: 767px;
   color: #666666;
@@ -74,7 +76,7 @@ h1 {
   color: #3a3a3a;
 }
 h2 {
-  color: #000000;
+  color: black;
   font-size: 27px;
   font-weight: normal;
   padding: 39px 0 19px;
@@ -91,7 +93,7 @@ h3 {
 h4 {
   font-size: 16px;
   line-height: 18px;
-  color: #000000;
+  color: black;
   font-weight: normal;
   padding: 30px 0 18px;
 }
@@ -109,7 +111,7 @@ h5 {
 }
 code.prettyprint,
 pre.prettyprint {
-  background: #f5f5f5 !important;
+  background: whitesmoke !important;
   border: 1px solid #cecece !important;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -132,9 +134,9 @@ ol {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), inset 0px 0px 1px #ffffff;
-  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), inset 0px 0px 1px #ffffff;
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), inset 0px 0px 1px #ffffff;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), inset 0px 0px 1px white;
+  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), inset 0px 0px 1px white;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), inset 0px 0px 1px white;
   font-size: 13px;
   line-height: 1em;
   color: #3a3a3a;
@@ -188,6 +190,7 @@ p strong {
   color: #010101;
 }
 /*------ header ------- */
+
 header {
   background: #fcfcfc;
   padding: 14px 0 17px;
@@ -214,7 +217,7 @@ header .brand {
 .select-menu_icon {
   border: 1px solid #dfdfdf;
   display: inline-block;
-  background: #fff;
+  background: white;
   padding: 6px 12px;
   cursor: pointer;
   position: relative;
@@ -225,14 +228,14 @@ header .brand {
   margin-right: 6px;
 }
 .select-menu_icon:hover {
-  background: #f5f5f5;
+  background: whitesmoke;
 }
 .select-menu_list {
   display: none;
   position: absolute;
   top: 43px;
   right: 0;
-  background: #f5f5f5;
+  background: whitesmoke;
   border: 1px solid #dfdfdf;
 }
 .select-menu {
@@ -250,7 +253,7 @@ header .brand {
 }
 .select-menu ul li.active,
 .select-menu ul li:hover {
-  background: #fff;
+  background: white;
 }
 .select-menu ul li.active a,
 .select-menu ul li:hover a {
@@ -272,6 +275,7 @@ header .brand {
   top: 3px;
 }
 /*------ content ------- */
+
 #content {
   background: url(../img/tail-content.gif);
   border-top: 1px solid #e1e1e1;
@@ -286,9 +290,10 @@ header .brand {
   list-style: none;
 }
 /*------ bs-docs-sidenav ------- */
+
 #nav_container {
-  background: #ffffff;
-  border-top: 1px solid #ccc;
+  background: white;
+  border-top: 1px solid #cccccc;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -335,7 +340,7 @@ header .brand {
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: #ffffff;
+  background-color: white;
 }
 .bs-docs-sidenav > li {
   border-top: 1px solid #dfdfdf;
@@ -351,7 +356,7 @@ header .brand {
   position: relative;
 }
 .bs-docs-sidenav li dt:hover {
-  background: #f5f5f5;
+  background: whitesmoke;
 }
 .bs-docs-sidenav li dt a {
   font-family: Arial, Helvetica, sans-serif;
@@ -381,7 +386,7 @@ header .brand {
   float: left;
 }
 .bs-docs-sidenav li.act_item dt {
-  background: #f5f5f5;
+  background: whitesmoke;
 }
 .bs-docs-sidenav li.act_item dt a:before {
   color: #0179c6;
@@ -449,16 +454,16 @@ header .brand {
 }
 .bs-docs-sidenav .list li.current a:hover,
 .bs-docs-sidenav .list li.current i:before:hover {
-  color: #000;
+  color: black;
 }
 .bs-docs-sidenav .list a {
   color: #3a3a3a;
 }
 .bs-docs-sidenav .list a:hover {
-  color: #000;
+  color: black;
 }
 .bs-docs-sidenav .list a:hover i:before {
-  color: #000;
+  color: black;
 }
 #content .bs-docs-sidenav li a {
   text-align: left;
@@ -469,9 +474,10 @@ header .brand {
   right: 0;
 }
 /*------ box-conten ------- */
+
 .box-content {
-  border-top: 1px solid #ccc;
-  background-color: #ffffff;
+  border-top: 1px solid #cccccc;
+  background-color: white;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -490,7 +496,7 @@ header .brand {
   padding: 10px;
 }
 #mod_table .module:nth-child(even) {
-  background: #f5f5f5;
+  background: whitesmoke;
 }
 .files_structure li i {
   color: #999999;
@@ -501,7 +507,7 @@ header .brand {
 .img-paraloid {
   text-align: center;
   padding: 5px;
-  background: #f5f5f5;
+  background: whitesmoke;
   border: 1px solid #cecece;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -548,7 +554,7 @@ span.img-paraloid {
 .box-success span {
   font-size: 15px;
   line-height: 20px;
-  color: #ffffff;
+  color: white;
   vertical-align: middle;
   display: table-cell;
   height: 40px;
@@ -568,7 +574,7 @@ span.img-paraloid {
 .box-error a,
 .box-notification a,
 .box-success a {
-  color: #fff;
+  color: white;
   text-decoration: underline;
 }
 .box-info a:hover,
@@ -630,7 +636,7 @@ span.img-paraloid {
 }
 .box-success:before {
   content: "\f00c";
-  color: #fff;
+  color: white;
   font-size: 44px;
   font-family: FontAwesome;
   margin-top: 10px;
@@ -684,7 +690,7 @@ footer {
   text-align: center;
   font-size: 13px;
   line-height: 20px;
-  background: #ffffff;
+  background: white;
   padding: 30px 0 40px;
 }
 .list-2 {
@@ -732,6 +738,7 @@ footer {
   padding-top: 8px;
 }
 /*======================= SCROLL TO TOP =======================*/
+
 #back-top {
   position: fixed;
   bottom: 20px;
@@ -746,13 +753,13 @@ footer {
   -moz-transition: 0.1s;
   transition: 0.1s;
   color: #666666;
-  background: #fff;
+  background: white;
   text-align: center;
   border: 1px solid #dfdfdf;
   height: 51px;
 }
 #back-top a:hover {
-  background: #f5f5f5;
+  background: whitesmoke;
 }
 #back-top a i {
   line-height: 51px;
