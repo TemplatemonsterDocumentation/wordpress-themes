@@ -41,7 +41,7 @@ console.log(doc_language);
 	        ['en', 'English', true], 
 	        ['ru', 'Русский', true], 
 	        ['es', 'Español', false], 
-	        ['de', 'Deutsch', false], 
+	        ['de', 'Deutsch', true], 
 	        ['fr', 'Français', false],
 	        ['pl', 'Polski', false], 
 	        ['pt', 'Português', false], 
