@@ -1,0 +1,2025 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Vorlagendokumentation Cherry WordPress</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+  <link rel="stylesheet" href="css/responsive.css" media="screen">
+  <link rel="stylesheet" href="css/style.css" media="screen">
+  <link rel="stylesheet" href="css/flexslider.css"  media="screen">
+  <link rel="stylesheet" href="css/prettify.css"  media="screen">
+   <link rel="stylesheet" href="css/prettyPhoto.css"  media="screen">
+   <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/wordpress-themes/master/index_en.html"/>
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/jquery-migrate-1.1.0.js"></script>
+  <script src="js/prettify.js"></script>
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/bootstrap-affix.js"></script>
+  <script src="js/script.js"></script>
+  <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+  <link href="google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
+  <script type="text/javascript" src="google-code-prettify/prettify.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css">
+
+    <!--[if lt IE 8]>
+  		<div style='text-align:center'>
+        <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" alt="" /></a>
+      </div>  
+ 	  <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>  
+<!-- Cherry Version 3-1-->
+<!-- header
+================================================== -->
+<header class="header">
+  <div class="container">
+  <div class="row">
+  <article class="span3"><a class="brand" href="/help/de/" target="_blank"></a></article>
+  <article class="span7">
+   <h1>Dokumentation Cherry WordPress </h1>
+  </article>  
+    <article class="span2">
+
+    <div id="languages" class="select-menu pull-right">
+        <div class="select-menu_icon"><b>De</b><i class="icon-angle-down"></i></div>
+        <ul class="select-menu_list">
+          
+        </ul>
+      </div>
+      <div id="versions" class="select-menu pull-right">
+        <div class="select-menu_icon"><b>v3-1</b><i class="icon-angle-down"></i></div>
+        <ul class="select-menu_list">
+          <li class="active"><a href="/help/quick-start-guide/wordpress-themes/v3-1/index_en.html"><span>v3-1</span></a></li>
+          <li><a href="/help/quick-start-guide/wordpress-themes/v3-0/index_en.html"><span>v3-0</span></a></li>
+          <li><a href="/help/quick-start-guide/wordpress-themes/v2-4/index_en.html"><span>v2-4</span></a></li>
+          <li><a href="/help/quick-start-guide/wordpress-themes/v2-3/index_en.html"><span>v2-3</span></a></li>
+        </ul>
+      </div>
+    </article>   
+   
+  </div>  	
+  </div>
+</header>
+<div id="content"> 
+<div class="bg-content-top">
+<div class="container">
+
+<!-- Docs nav
+    ================================================== -->
+  <div class="row">
+      <div class="span3"> 
+
+        <div id="nav_container">
+          <a href="javascript:;" id="affect_all">
+            <span class="expand">
+              <i class="icon-angle-down"></i>
+            </span>            
+            <span class="close">
+              <i class="icon-angle-up"></i>
+            </span>
+          </a>
+            <div class="row-fluid"></div>    
+                <ul class="nav nav-list bs-docs-sidenav"  id="nav">
+                  <li class="nav-item item1">
+                    <dl class="slide-down">
+                       <dt><a href="#introduction" class="icon-info-sign">Einführung</a></dt>
+                       <dd></dd>
+                     </dl>   
+                  </li>
+                  <li class="nav-item item2">
+                    <dl class="slide-down">
+                       <dt><a href="#prepare" class="icon-check">Vorbereitung </a></dt>  
+                       <dd></dd>                       
+                     </dl> 
+                  </li>           
+                  <li class="nav-item item3">
+                    <dl class="slide-down">
+                       <dt><a href="#getting_started" class="icon-play">Arbeitsbeginn </a> <i class="icon-sample"></i></dt>
+                         <dd>
+                           <ul class="list">          
+                            <li><a href="#engine_installation">Installation der Engine</a></li>
+                            <li><a href="#cherryframework_installation">CherryFramework Installation </a></li>
+                            <li><a href="#theme_installation">Installation des Themas</a></li>                             
+                            <li><a href="#theme_sample_data">Installation der Demodaten</a></li>                            
+                            <li><a href="#manual_install">Manuelle Installation</a></li>
+                            <li><a href="#plugins_intstall">Installation der Plugins</a></li>
+                            <li><a href="#theme_plugins">Plugins des Themas</a></li>
+                            <li><a href="#cookie_policy">Cookie-Politik</a></li>
+                           </ul> 
+                       </dd>
+                     </dl> 
+                  </li>          
+                  <li class="nav-item item4">
+                    <dl class="slide-down">
+                      <dt><a href="#backup_update" class="icon-refresh">Reservekopieren und Update</a></dt>
+                      <dd></dd>
+                     </dl> 
+                  </li>
+                  <li class="nav-item item5">
+                    <dl class="slide-down">
+                      <dt><a href="#page_templates_sidebars" class="icon-file-alt">Seitenvorlagen und Seitenleisten</a></dt>
+                      <dd></dd>
+                     </dl> 
+                  </li> 
+                  <li class="nav-item item6">
+                    <dl class="slide-down">
+                      <dt><a href="#posts_categories" class="icon-edit">Posts, Kategorien und Postformate</a><i class="icon-sample"></i></dt>
+                      <dd>
+                        <ul class="list">
+                          <li><a href="#adding-category">Hinzufügen der Kategorien</a></li>
+                          <li><a href="#blog_post">Erstellen der Blogposts</a></li>
+                          <li><a href="#post-formats">Wahl des Postformates</a></li>
+                          <li><a href="#slider_post">Erstellen der Posts für einen Slider</a></li>
+                          <li><a href="#portfolio_post">Hinzufügen der Posts fürs Portfolio</a></li>
+                          <li><a href="#testimonial_post">Weitere Posts von Empfehlungen (Testimonials)</a></li>
+                          <li><a href="#faq_post">Weitere Posts in den FAQs </a></li>
+                          <li><a href="#team_post">Hinzufügen der Post "Unser Team" (Our Team)</a></li>
+                          <!-- <li><a href="#clients_post">Hinzufügen der Post "Kunden" (Clients)</a></li> -->
+                        </ul>
+                      </dd>
+                    </dl>
+                  </li>                  
+                  <li class="nav-item item7">
+                    <dl class="slide-down">
+                       <dt><a href="#portfolio_page" class="icon-picture">Portfolioseite</a></dt>
+                         <dd></dd>
+                     </dl> 
+                  </li> 
+                  <li class="nav-item item8">
+                    <dl class="slide-down">
+                       <dt><a href="#shortcodes" class="icon-file">Shortcodes</a> <i class="icon-sample"></i></dt>
+                         <dd>
+                           <ul class="list">          
+                            <li><a href="#dynamic_shortcodes">Dynamische</a></li>
+                            <li><a href="#columns_shortcodes">Spalten</a></li>     
+                            <li><a href="#elements_shortcodes">Elemente</a></li>  
+                            <li><a href="#other_shortcodes">Andere</a></li>                
+                           </ul> 
+                       </dd>
+                     </dl> 
+                  </li> 
+                  <li class="nav-item item9">
+                    <dl class="slide-down">
+                      <dt><a href="#plugins_widgets" class="icon-magnet">Plugins und benutzerdefinierte Widgets </a></dt>
+                      <dd></dd>
+                     </dl> 
+                  </li> 
+                  <li class="nav-item item10">
+                    <dl class="slide-down">
+                      <dt><a href="#theme_options" class="icon-cogs">Optionen Cherry </a><i class="icon-sample"></i></dt>
+                     <dd>
+                         <ul class="list">          
+                          <li><a href="#general_option">Hauptoptionen</a></li>
+                          <li><a href="#logo_option">Logo und Favicon</a></li>    
+                          <li><a href="#navigation_option">Navigation</a></li>    
+                          <li><a href="#slider_option">Slider</a></li>    
+                          <li><a href="#blog_option">Blog</a></li>    
+                          <li><a href="#portfolio_option">Portfolio</a></li>  
+                          <li><a href="#footer_option">Footer</a></li>  
+                          <li><a href="#footer_logo_option">Logo des Footers</a></li>                  
+                          <li><a href="#contacts_option">Kontakte</a></li>                  
+                          <li><a href="#social_option">Soziale Netzwerke</a></li>                     
+                         </ul> 
+                      </dd>
+                     </dl> 
+                  </li> 
+                  <li class="nav-item item11">
+                    <dl class="slide-down">
+                      <dt><a href="#shop_kit" class="icon-shopping-cart">Shop Beginners Kit </a></dt>
+                      <dd></dd>
+                     </dl> 
+                  </li> 
+                </ul>
+            </div>
+      </div> 
+
+      
+<div class="span9">
+
+<!-- box-content
+================================================== -->
+<div class="box-content">
+  <!-- block-started
+  ================================================== -->
+  <section class="block-started"  id="introduction">
+    <h2><i class="icon-info-sign"></i> Einführung</h2>
+    <p>Vielen Dank, dass Sie WordPress Vorlage gekauft haben. Die jeweilige Dokumentation besteht aus einigen Teilen und umfasst den ganzen Installationsprozess und alle Einstellungen WordPress Webseite bei Null.</p>
+    <p>&nbsp;</p>
+    <div id="wordpress_cms_desc">
+      <h4>Was ist denn WordPress CMS?</h4>
+      <p>WordPress ist eine kostenlose Software mit dem offenen Quellcode zum Erstellen   des Blogs und Control Panels (CMS) auf der Basis von PHP und MySQL. Sie ermöglicht sowohl Webseiten als auch mächtige Online-Anwendugen   zu erstellen. Dafür benötigt man weder technische Fähigkeiten noch Steuerungskenntnisse. WordPress enthält viele Eigenschaften und ist einfach in der Handhabung, deswegen ist es das populärste Programm zum Erstellen der Webseiten. <a href="http://wordpress.org/about/" target="_blank">Details</a></p>
+      </div>
+
+    <div id="wordpress_template_desc">
+      <h4>Was ist  WordPress Vorlage</h4>
+      <p>WordPress Vorlage ist ein Thema für WordPress CMS Plattform. Sie können einfach das Aussehen WordPress Webseite ändern, indem Sie eine neue Vorlage installieren und einige einfachen Schritte machen. Zwar ist   WordPress Vorlage einfach, aber sie enthält alle notwendigen Quelldateien, die Sie nach Ihren Zwecken bearbeiten können.</p>
+      </div>
+
+    <div id="file_structure">
+      <h4>Vorlagenstruktur</h4>
+      <p>Die Vorlage besteht aus einigen Ordnern. Prüfen wir jetzt den Inhalt jedes Ordners:</p>
+      <ul>
+        <li></li>
+      </ul>
+      <ul class="files_structure">
+
+        <li class="folder"><i class="icon-folder-close"></i> <b>documentation</b><small class="muted"> - enthält die Dokumentationsdateien.</small>
+          <ul>
+            <li class="file"><i class="icon-file"></i> documentation.html<small class="muted"> - enthält die Hauptdokumentationsdatei. Sie können sie jetzt lesen :)</small></li>
+          </ul>
+        </li>
+
+        <li class="folder"><b>screenshots</b><small class="muted"> - enthält die Bildschirmfotos der Vorlage. Sie benötigen sie zur Arbeit mit der Vorlge nicht.</small></li>
+
+        <li class="folder"><b>sources.zip</b><small class="muted"> - enthält die Quelldateien des Themas.</small>
+          <ul>
+            <li class="folder"><i class="icon-folder-close"></i> psd<small class="muted"> -  sind die Quelldateien der Vorlage für Adobe Photoshop(.psd).</small></li>
+          </ul>
+        </li>
+
+        <li class="folder"><i class="icon-folder-close"></i> <b>theme</b><small class="muted"> - enthält die Dateien des WordPress Themas.</small>
+          <ul>
+            <li class="file"><i class="icon-file"></i> CherryFramework.zip<small class="muted"> - ist das Archiv mit dem Cherry Framework Thema. Es enthält alle Dateien des Themas. Sie müssen es per Erweiterungsmanager  WordPress installieren.</small></li>
+            <li class="file"><i class="icon-file"></i> theme####.zip<small class="muted"> - ist das Archiv mit dem Thema (Unterthema). Es enthält alle Dateien des Themas. </small> <small class="muted">Sie müssen es per Erweiterungsmanager  WordPress installieren.</small></li>
+            <li class="folder"><i class="icon-folder-close"></i> sample_data<small class="muted"> - enthält die Dateien, die ermöglichen, Wordpress Webseite gleich wie unsere Demoversion zu machen.</small>
+              <ul> 
+                <li class="file"><i class="icon-file"></i> sample_data.xml<small class="muted"> - enthält alle Demodaten der Vorlage  (Posts, Seiten, Kategorien usw.).</small></li>
+                <li class="file"><i class="icon-file"></i> widgets.json<small class="muted"> - ist die Einstellungsdatei der Widgets.</small></li>
+                <li class="file"><i class="icon-file"></i> sind verschiedene Bilder und andere Mediadateien<small class="muted"></small></li>
+              </ul>
+            </li>
+            <li class="folder"><i class="icon-folder-close"></i> manuall_install<small class="muted"> - enthält die Dateien, die ermöglichen, Wordpress Webseite gleich wie unsere Demoversion zu machen.</small>
+              <ul> 
+                <li class="file"><i class="icon-folder-close"></i> uploads<small class="muted"> - enthält die Bilder des Themas.</small></li>
+                <li class="file"><i class="icon-file"></i> theme#####.sql<small class="muted"> - ist die Datei der Datenbank  (sie enthält den Inhalt des Themas).</small></li>
+              </ul>
+            </li>           
+          </ul>
+        </li>
+        <li class="file"><i class="icon-file"></i> license.txt<small class="muted"> - ist die Datei mit der Information über die Lizenz.</small></li>
+        <li class="file"><i class="icon-file"></i> fonts_info.txt<small class="muted"> - ist die Datei mit den Links zum Herunterladen der Schriften, die in der Vorlage benutzt werden.</small></li>
+        <li class="file"><i class="icon-file"></i> info.txt<small class="muted"> - sind Anleitungen zum Entpacken der Quelldateien.</small></li>
+      </ul>
+    </div>
+  </section>
+  <!-- prepare started --> 
+  <section class="block-templates" id="prepare">  
+    <h2><i class="icon-check"></i> Vorbereitung</h2>
+    <p>Bevor Sie WordPress Webseite installieren, müssen Sie alles fertig machen. Wir empfehlen Ihnen die folgenden vorbereitenden Schritte zu machen:</p>
+    <div id="software">
+      <h4>Software</h4>
+      <p>Für vollwertige Arbeit mit der WordPress Vorlage empfehlen wir Ihnen alle notwendigen Anwendungen herunterzuladen. Die Softwareliste können Sie auf der Vorschauseite der Vorlage finden. <br>
+Die Anforderungen für verschiedene Vorlagen können sich unterscheiden, deswegen nennen wir nur die wichtigsten:</p>
+      <ol>
+        <li>Vor allem benötigen Sie die richtigen Anwendugen zum Entpacken des Archivs, das mit dem Passwort  sources_#########.zip geschützt ist. Sie können   WinZip 9+ (Windows) und Stuffit Expander 10+ (Mac) nutzen.</li>
+        <li>Sie können auch das Programm Adobe Photoshop benötigen. Es wird zur Bearbeitung der Quelldateien benutzt. PSD benötigt man, wenn das Grafik-Design und das Bild für die Vorlage geändert werden müssen.</li>
+        <li>Um den Quellcode der Vorlagendateien zu bearbeiten, sollen Sie den Code-Editor nutzen, zum Beispiel Adobe Dreamweaver, Notepad++, Sublime Text usw.</li>
+        <li>Um die Dateien auf den Hosting-Server hochzuladen, benötigen Sie  FTP Manager, zum Beispiel Total Commander, FileZilla, CuteFTP usw.</li>
+      </ol>
+      </div>
+
+    <div id="hosting">
+      <div id="hosting2">
+        <h4>Hosting</h4>
+        <p>WordPress CMS ist PHP/MySQL Anwendung, deswegen muss der Hosting-Server vorbereitet werden.</p>
+        <p>Wenn Sie den aktiven Server haben, müssen Sie prüfen, ob er <a href="http://wordpress.org/about/requirements/" target="_blank"> WordPress Anforderungen entspricht </a> und mit WordPress Webseiten kompatibel ist.</p>
+        <p>Auch kann WordPress auf dem Computer mittels des lokalen Servers installiert werden. Um den lokalen Hosting-Server zu erstellen, müssen Sie die Software <strong>WAMP</strong>, <strong>AppServ</strong>, <strong>MAMP</strong> usw. nutzen. Jede von ihnen wird wie ein Programm installiert, das WordPress unterstützt. </p>
+        <p>Sie können die folgenden Tutorials nutzen, um den lokalen Server einzustellen:</p>
+        <ul class="unstyled">
+			<li><i class="icon-film"> </i><a href="/help/de/how-to-install-appserv-web-development-environment.html" target="_blank"> Wie installiert man die Entwicklungsumgebung AppServ</a></li>
+			<li><i class="icon-film"> </i><a href="/help/de/how-to-install-wamp-web-development-environment.html" target="_blank"> Wie installiert man die Entwicklungsumgebung WAMP</a></li>
+			<li><i class="icon-film"> </i><a href="/help/de/how-to-install-xamp-web-development-environment.html" target="_blank"> Wie installiert man die Entwicklungsumgebung XAMP</a></li>
+		</ul>
+      </div>
+      </div>
+  </section>
+<!-- prepare started --> 
+
+<!-- Getting started --> 
+  <section class="block-templates" id="getting_started">  
+
+    <h2><i class="icon-play"></i> Arbeitsbeginn</h2>
+
+    <!-- Engine installation -->
+
+    <article >
+      <h4 id="engine_installation">Installation der Engine</h4>
+      <div class="box-info"><span>Laden Sie die notwendige Version der WordPress Engine herunter. Sie können sie auf der Vorschauseite der Vorlage in der Anforderungsliste sehen. Überzeugen Sie sich, dass Sie die notwendige Version herunterladen.</span></div>
+      <ol>
+        <li>WordPress Engine kann man auf der offiziellen Webseite WordPress.org herunterladen <a href="http://wordpress.org/download/" target="_blank"><strong>Herunterladen WordPress</strong></a>. Wenn Sie frühere Version benötigen, drücken Sie den Link <a href="http://wordpress.org/download/release-archive/" target="_blank"><strong>Archiv-Versionen</strong></a>.        </li>
+        <li>Nach dem Herunterladen sollen Sie die Dateien der Engine und Vorlage entpacken. Um die Datei <strong>ZIP</strong> der WordPress Engine zu entpacken, können Sie jeglichen Archivierer nutzen, der das Format  ZIP unterstützt.
+          <p>Die folgenden Tutorials zeigen, wie entpackt man die Dateien in Betriebssystemen  <a target="_blank" href="/help/de/unzipping-your-template.html"><strong>Windows(WinZip)</strong></a> und <a target="_blank" href="/help/de/how-unzip-template-mac.html"><strong>MAC(StuffitExpander)</strong></a>.</p>
+          <ul class="list-2">
+            <li><i class="icon-info-sign"></i> <a target="_blank" href="/help/de/extract-archived-files-mac-os.html">Entpacken der Archive (MAC OS)</a></li>
+            <li><i class="icon-info-sign"></i> <a target="_blank" href="/help/de/extract-archived-files-windows-os.html">Entpacken der Archive (Windows OS)</a></li>
+            <li><i class="icon-info-sign"></i> <a target="_blank" href="/help/de/downloading-and-installing-winzip.html">Wie kann man WinZip herunterladen und installieren</a></li>
+            <li><i class="icon-info-sign"></i> <a target="_blank" href="/help/de/how-unzip-template-mac.html">Wie entpackt man die Vorlage (MAC OS)</a></li>
+            <li><i class="icon-info-sign"></i> <a target="_blank" href="/help/de/how-unzip-template-mac.html">Wie entpackt man die Vorlage</a><a target="_blank" href="/help/de/unzipping-your-template.html"> (Windows OS)</a></li>
+          </ul>
+        </li>
+        <li>Nach dem Entpacken sollen Sie die Dateien und Ordner der  WordPress Engine auf den Hosting-Server hochladen.
+          <p>Alle Dateien und Ordner müssen ins Inhaltsverzeichnis  <strong>PUBLIC_HTML</strong> oder <strong>WWW</strong>hochgeladen werden.</p>
+
+          <div class="box-info"><span>Wenn Sie Inhaltsverzeichnis PUBLIC_HTML oder WWW auf dem Hosting-Server nicht finden können, wenden Sie sich an den Hosting-Anbieter und präzisieren Sie, wohin die Dateien der Webseite hochgeladen werden müssen.</span></div>
+
+          <p>Sie können auch die jeweiligen Tutorials nutzen, um die Dateien auf den Sever hochzuladen:</p>
+          <ul class="list-2">
+            <li><i class="icon-info-sign"></i> <a target="_blank" href="/help/de/how-upload-files-server-2.html">Wie lädt man die Dateien auf den Server hoch</a>
+            <li><i class="icon-info-sign"></i> <a target="_blank" href="/help/de/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html">Wie lädt man die Dateien auf den Server mittels cPanel (WebHost Manager, WHM) hoch</a> </li>
+          </ul>
+        </li>
+        <li>Im nächsten Schritt sollen Sie die Datenbank für WordPress Engine erstellen.
+
+          <p>Sie können sie mittels des Datenbank-Verwaltungswerkzeuges im Control Panel des Hostings (<em>gewöhnlich PhpMyAdmin</em>) erstellen.</p>
+
+          <p>Mittels phpMyAdmin können Sie eine neue Datenbank in  3 einfachen Schritten erstellen: (schauen Sie die folgenden Dias an):</p>
+
+          <ol class="list">
+                    <li>Klicken Sie den Button Database (Datenbank) in dem oberen  Navigationsmenü, um zur Liste der Datenbanken zu gelangen.</li>
+                    <li>Geben Sie den Namen der Datenbank ins Feld "Create new database (Neue Datenbank erstellen)" ein.</li>
+                    <li>Drücken Sie auf den Button rechts Create (Erstellen).</li>
+                    </ol>
+
+          <p>Die Datenbank gibt es schon in der Liste. Klicken Sie auf den Namen, um den Zugriff auf sie zu bekommen.</p>
+
+          <div class="flexslider clearfix img-polaroid">
+            <ul class="slides">
+              <li>
+                <img src="img/database-create-1.jpg" alt="" />
+                <div class="flex-caption">
+                  <p>1. Klicken Sie den Button "Databases (Datenbank)", um die ganze Liste der Datenbanken zu öffnen.</p>
+                </div>
+              </li>                   
+              <li>
+                <img src="img/database-create-2.jpg" alt="" />
+                <div class="flex-caption">
+                  <p>2. Geben Sie den Namen der Datenbank ein. <br>
+                  3. Drücken Sie den Button "Create (Erstellen)".</p>
+                </div>
+              </li>
+              <li>
+                <img src="img/database-create-3.jpg" alt="" />
+                <div class="flex-caption">
+                  <p>4. Die Datenbank gibt es schon in der Liste. Klicken Sie auf den Namen, um den Zugriff auf sie zu bekommen.</p>
+                </div>
+              </li> 
+            </ul>    
+          </div>
+            <br>     
+          <p>Sie können auch das ausführliche Video-Tutorial nutzen <a href="/help/de/how-to-create-a-database.html" target="_blank">Wie erstellt man eine Datenbank</a></p>
+       <br />   
+          <div class="box-notification"><span>Wenn Sie beim Erstellen der Datenbank Schwierigkeiten auftreten, sollen Sie sich an den Hosting-Anbieter wenden.</span></div>
+
+          <p>Sie können auch die folgenden Tutorials nutzen:</p>
+          <ul class="list-2">
+            <li class="first"><i class="icon-info-sign"></i> <a target="_blank" href="/help/de/how-create-database.html">Wie erstellt man eine Datenbank</a></li>
+            <li class="last"><i class="icon-info-sign"></i> <a target="_blank" href="/help/de/how-to-create-mysql-database-with-godaddy.html">Wie erstellt man MySQL Datenbank im Hosting GoDaddy </a></li>
+          </ul>
+        </li>
+        <li>Geben Sie den Pfad zum Inhaltsverzeichnis  WordPress in der Adresszeile des Browsers ein und drücken Sie die Taste Enter. Danach fängt der Installationsprozess an.        </li>
+        <li><strong>Erstellen der Konfigurationsdatei. </strong> Auf dem Installationsbildschirm WordPress wird eine Mitteilung angezeigt, die sagt, dass die Konfigurationsdatei fehlt. Drücken Sie auf den Button &quot;Create Configuration File (Konfigurationsdatei erstellen)&quot;, um sie zu erstellen.
+
+            <figure class="img-paraloid"><img src="img/wordpress/wp-install-1-b.jpg" alt="Creating configuration file."></figure>
+            <p class="muted text-center"></p>
+        </li>
+        <li><strong>Details der Datenbank.</strong> Hier sollen Sie die Verbindungsdetails zur Datenbank  WordPress eingeben.
+
+            <figure class="img-paraloid"><img src="img/wordpress/wp-install-3-b.jpg" alt="Inserting database details."></figure>
+            <p class="muted text-center"></p>
+        </li>
+        <li><strong>Details der Webseite.</strong> In jeweiligem Bildschirm sollen Sie die folgenden Details eingeben:
+          <ul>
+            <li><i class="icon-angle-right"></i>Namen der Webseite.</li>
+            <li><i class="icon-angle-right"></i>Namen und Passwort des Administrators.</li>
+            <li><i class="icon-angle-right"></i>E-Mail-Adresse der Webseite.</li>
+          </ul>
+
+            <figure class="img-paraloid"><img src="img/wordpress/wp-install-6-b.jpg" alt="Inserting website details."></figure>
+            <p class="muted text-center"></p>
+        </li>
+        <li>Klicken Sie den Button &quot;Install WordPress (WordPress installieren)&quot;.
+
+            <figure class="img-paraloid"><img src="img/wordpress/wp-install-7-b.jpg" alt="Install WordPress button."></figure>
+            <p class="muted text-center"></p>
+
+          <p>Wenn Sie die richtigen Details eingegeben haben, werden die Mitteilung über erfolgreiche Installation und der Login-Button ins Control Panel  WordPress angezeigt.</p>
+        </li>
+      </ol>     
+      <p>Sie können auch die ausführlichen Video-Tutorials nutzen:</p>
+      <ul class="list-2">
+        <li class="first"><i class="icon-info-sign"></i> <a href="/help/de/wordpress-how-to-install-the-engine-to-hostgator-server-manual-installation.html" target="_blank">Wie installiert man die Engine auf den Server HostGator (manuelle Installation)</a></li>
+        <li><i class="icon-info-sign"></i> <a href="/help/de/wordpress-how-to-install-the-engine-to-bluehost-server-manual-installation.html" target="_blank">Wie installiert man die Engine auf den Server Bluehost (manuelle Installation)</a></li>
+        <li><i class="icon-info-sign"></i> <a href="/help/de/wordpress-how-to-install-the-engine-to-siteground-server-manual-installation.html" target="_blank">Wie installiert man die Engine auf den Server SiteGround (manuelle Installation)</a></li>
+        <li><i class="icon-info-sign"></i> <a href="/help/de/how-to-install-wordpress-to-godaddy-server-manual-installation.html" target="_blank"> Wie installiert man die Engine auf den Server GoDaddy (manuelle Installation)</a></li>
+        <li class="last"><i class="icon-info-sign"></i> <a href="/help/de/wordpress-how-to-install-the-engine-to-just-host-server-manual-installation.html" target="_blank">Wie installiert man die Engine auf den Server Just Host (manuelle Installation)</a></li>
+      </ul>
+    </article>
+    <!-- CherryFramework installation -->
+
+    <article>
+      <h4 id="cherryframework_installation">CherryFramework Installation</h4>
+        <p>Es gibt zwei Weisen, um ein Thema zu installieren: per Control Panel WordPress oder per FTP. Wenn eine Weise nicht funktioniert, kann man die andere ausprobieren. </p>
+        <h5>Hochladen per WordPress:</h5>
+        <p>Die Installation besteht aus zwei Schritten: Installation des Frameworks und Unterthemas. Diese zwei Schritte sind gleich und einfach.</p>
+        <ol style="margin-bottom:.5em;">
+          <li>Loggen Sie sich ins Control Panel  WordPress  (fügen Sie /wp-admin zum Domainnamen der Webseite in der Adresszeile des Browsers hinzu) ein.</li>                                             
+          <li>Gehen Sie zum Menü <strong>Appearance (Aussehen)</strong> > <strong>Themes (Themen)</strong> und klicken Sie den Button  <strong>Add New Theme (Neues Thema hinzufügen)</strong>.</li>
+          <li>Öffnen Sie den Tab  <strong>Upload (Hochladen)</strong>. </li>
+          <li>Drücken Sie den Button <strong>Browse (Übersicht)</strong> und öffnen Sie den entpackten Ordner der Vorlage auf dem Computer.</li>
+          <li>Finden Sie die Datei <strong>CherryFramework.zip</strong>. Klicken Sie auf sie und drücken Sie <strong>OK</strong>.</li>
+          <li>Klicken Sie den Button<strong> Install Now (Installieren)</strong> und warten Sie, bis der Installationsprozess abgeschlossen wurde.</li>
+          <li>Drücken Sie den Link <strong>Activate (Aktivieren)</strong>.</li>
+        </ol>
+
+      <figure class="img-paraloid"><img src="img/wordpress/theme_install.png" alt=""></figure>
+      <p class="muted text-center"></p>
+
+        <p>Um ausführliche Information zu erhalten, nutzen Sie dieses Video-Tutorial<!--<a target="_blank" href="/help/de/how-install-wordpress-theme-via-admin-panel.html">How to install a WordPress theme via admin panel</a> and--><a target="_blank" href="/help/de/wordpress-how-to-install-cherry-framework-template-starting-with-version-3-1.html"> Wie installiert man  Cherry framework Vorlage</a>.</p>
+        <p>Gratulation, Sie haben erfolgreich Framewort installiert.</p> 
+    </article>    
+        <!-- Theme installation -->
+
+    <article>
+      <h4 id="theme_installation">Installation des Themas</h4>
+        <p>Jetzt können Sie anfangen, das Unterthema zu installieren: <strong>theme####.zip</strong>. Machen Sie die gleichen Schritte:</p>
+        <ol style="margin-bottom:.5em;">
+          <li>Gehen Sie zum Menü <strong>Appearance (Aussehen)</strong> > <strong>Themes (Themen)</strong> und klicken Sie den Button <strong>Add New Theme (Neues Thema hinzufügen)</strong>.</li>
+          <li>Öffnen Sie den Tab <strong>Upload (Hochladen)</strong>. </li>
+          <li>Drücken Sie den Button <strong>Browse (Übersicht)</strong> und öffnen Sie den entpackten Ordner der Vorlage auf dem Computer.</li>
+          <li>Finden Sie die Datei <strong>theme####.zip </strong>(wo <strong>XXXX</strong> ist einzigartige Nummer des Themas). Klicken Sie auf sie und drücken Sie <strong>OK</strong>.</li>
+          <li>Klicken Sie den Button<strong> Install Now (Installieren)</strong> und warten Sie, bis der Installationsprozess abgeschlossen wurde.</li>
+          <li>Drücken Sie den Link <strong>Activate (Aktivieren)</strong>, um aktuelles Aussehen der Webseite durch erworbenes Thema zu ersetzen.</li>
+        </ol>
+               
+          <figure class="img-paraloid"><img src="img/wordpress/theme_activate.png" alt=""></figure>
+      
+        <p class="muted text-center"></p>
+
+        <p>Gratulation, Sie haben erfolgreich das Thema und Framewort installiert!</p>
+      <br>
+        <div class="box-info"><span>Wenn es bei der Installation per Control Panel Schwierigkeiten gibt, können Sie die alternative Weise nutzen.</span></div>
+        <h5>Hochladen per FTP:</h5>
+        <p>Um diese Weise zu nutzen, müssen Sie den Zugriff auf Dateien WordPress auf dem FTP Server per Dateimanager des Hosting Control Panels oder FTP-Kunden, zum Beispiel Filezilla,  CuteFTP, Total Commander usw. haben.</p>
+      <ol>
+        <li>Entpacken Sie die Dateien <strong>CherryFramework.zip</strong> und <strong>theme####.zip</strong> in den Ordner auf dem Computer (Klicken Sie mit der rechten Maustaste auf jede Datei.zip, wählen Sie <strong>Unzip  to… (Entpacken in...) CherryFramework</strong> und <strong>theme####</strong> dann werden zwei Ordner angezeigt: CherryFramework und theme####).        </li>
+        <li>Laden Sie die Ordner <strong>CherryFramework</strong> und <strong>theme### </strong>ins Inhaltsverzeichnis <strong>/wp-content/themes/</strong> auf dem FTP Server hoch.</li>
+        <li>Loggen Sie sich ins Control Panel  WordPress  (fügen Sie /wp-admin zum Domainnamen der Webseite in der Adresszeile des Browsers hinzu) ein.</li>
+        <li>Gehen Sie zum Menü <strong>Appearance (Aussehen)</strong> > <strong>Themes</strong> <strong>(Themen)</strong>.</li>
+        <li>Im Bereich <strong>Available Themes (Verfügbare Themen)</strong> finden Sie <strong>theme####</strong> und aktivieren Sie es, indem Sie auf den Button <strong>Activate (Aktivieren)</strong> drücken.</li>
+      </ol>
+    </article>
+
+    <article>
+      <h4 id="theme_sample_data">Installation der Demodaten</h4>
+      <p>Damit die Webseite WordPress wie auf unserer Demoversion aussieht, nutzen Sie die folgenden Anleitungen. Wir empfehlen Ihnen immer das Reservekopieren der Datei .sql per <a target="_blank" href="/help/de/phpmyadmin-how-to-backup-a-database.html">Export</a> der Datenbank zu machen.</p>
+
+      <div class="box-info"><span>Achtung: Für Vorlagen auf der Basis von Cherry Framework v3.0 oder kleiner müssen bei der Installation der Demodaten die Dateien  XML und JSON aus dem Ordner "sample_data" hochgeladen werden. Bilder und Mediadateien müssen aus dem Ordner "manual_install\uploads" hochgeladen werden. Laden Sie alle Bilder aus allen Unterordnern hoch. </span></div>
+
+      <ol>
+        <li>Gehen Sie zum Menü <strong>Cherry Plugin &gt; Import Content (Inhaltsimport).</strong></li>
+        <li>Vor allem prüfen Sie die Anforderungstabelle Cherry Plugin für die Einstellungen des Hosting-Servers. Falls es Warnungen gibt, wenden Sie sich an Ihren Hosting-Anbieter.
+          <figure class="img-paraloid"><img src="img/wordpress/import_1st_step.png" alt=""></figure></li>
+        <li>Wenn alle Server-Einstellungen in Ordnung sind, wird der Download-Bildschirm angezeigt. Öffnen Sie den Ordner <b>"theme/sample_data" </b>der Vorlage und laden Sie alle Dateien in WordPress hoch. Sie sollen alle Dateien  im Ordner <b>"theme/sample_data"</b> markieren (Tastenkombination CTRL+A oder Command+A) und zum Hochladen-Feld verschieben.
+          <figure class="img-paraloid"><img src="img/wordpress/import_2nd_step.png" alt=""></figure></li>
+        <li>Laden Sie alle Dateien aus dem Ordner  sample_data und .JSON und .XML hoch. Nachdem das Hochalden beendet wurde, drücken Sie den Button "Continue Install (Installation fortfahren)". <br><br>
+        <div class="box-notification"><span>Achtung: Dateien .JSON und .XML benötigt man unbedingt bei der Installation der Demodaten. Button Continue Install (Installation fortfahren) wird nur nach dem Hochladen der Dateien .XML und .JSON aktiv.</span></div>
+        <figure class="img-paraloid"><img src="img/wordpress/import_3d_step.png" alt=""></figure></li>
+        <li>Button "Continue Install (Installation fortfahren)" fängt den Installationsprozess der Demodaten an. Die Installation braucht Zeit (es hängt von den Servereinstellungen ab). Warten Sie, bitte, bis er abgeschlossen ist.
+          <figure class="img-paraloid"><img src="img/wordpress/import_4th_step.png" alt=""></figure></li>
+        <li><span><strong>Gratulation!</strong> Sie haben erfolgreich Cherry WordPress Thema installiert und können jetzt prüfen, wie es aussieht.</span>
+          <figure class="img-paraloid"><img src="img/wordpress/import_5th_step.png" alt=""></figure>
+        </li>
+      </ol>      
+    </article>
+
+    <article>
+      <h4 id="manual_install">Manuelle Installation</h4>
+        <p>Wenn es bei der Installation der Demodaten Schwierigkeiten gibt, nutzen Sie die folgenden Anleitungen.</p>
+        <div class="box-notification"><span>Achtung: Import der SQL Datei in die Datenbank schreibt den existierenden Inhalt und Einstellungen der Webseite um. Importieren Sie  SQL Daten NICHT, wenn Sie den aktuellen Inhalt speichern möchten.</span></div>
+        <div class="box-info"><span>Achtung: Machen Sie immer das Reservekopieren der Datenbank, bevor Sie die Änderungen vornehmen.</span></div>
+        <div class="box-info"><span>Das Tabellenpräfix der Datenbank WordPress muss <strong>wp_</strong>sein.</span></div>
+
+      <figure class="img-paraloid"><img src="img/wordpress/wp_prefix.jpg" alt=""></figure>
+      <p class="muted text-center"></p>        
+        <!--<p>If the  database prefix is different, it should be changed according to this <a target="_blank" href="/help/de/wordpress-how-to-change-database-tables-prefix-in-sql-file.html">manual</a>.</p>-->
+      <p>Damit die Webseite WordPress wie Demoversion aussieht, folgen Sie diesen Anleitungen.</p>
+        <ol>
+          <li>Das Thema muss entsprechend den folgenden Anforderungen <a href="#cherryframework_installation">installiert werden</a>.</li>
+          <li>Kopieren Sie den Ordner "<strong>uploads</strong>"  (er ist im Ornder <strong> theme/manual_install/</strong> der Vorlage) in den Ordner<strong> /wp-content/ </strong> auf dem FTP Sever.</li>
+          <li>Öffnen Sie die Datei  <strong>theme####.sql</strong> aus dem Ordner  <strong>theme/manual_install/</strong> im jeglichen Texteditor (besser sind Dreamweaver oder Notepad) und ersetzen Sie alle Zeilen "<strong>your_website_url_here</strong>" durch URL Ihrer Webseite im Dokument mittels der Option <strong>Find and Replace (Finden und Ersetzen)</strong>  (Tastenkombination Ctrl+H). Zum Beispiel: http://www.mywebsite.com</li> 
+          <li>Am Ende der Adresse muss keinen Schrägstrich  "/" sein und url muss mit http://www. anfangen</li>
+          <li>Speichern Sie die Änderungen und schließen Sie die Datei.</li>
+          <li>Jetzt können Sie die Dump-Datei per <strong>phpMyAdmin</strong> oder anderes Verwaltungswerkzeug der Datenbank importieren.            </li>
+        </ol>
+      <!--<p>If you have problems with manual installation, please read this <a target="_blank" href="/help/de/wordpress-how-to-install-cherry-framework-theme-sample-data-manually.html">manual</a>.</p>-->
+      <div class="box-info"><span>Wenn Sie das Thema mit den Demodaten manuell installiert haben, und das Thema sich von Demo unterscheidet, öffnen Sie Cherry Options (Optionen Cherry) und drücken Sie "Restore Defaults (Einstellungen standardmäßig zurücksetzen)."</span></div>
+    </article>
+  
+    <article> 
+        <h4 id="plugins_intstall">Installation der Plugins</h4>
+        <p>Nach der Installation und Aktivierung des Themas müssen manchmal zusätzliche Plugins installiert werden:</p>
+        <ol>
+          <li>Im Contol Panel WordPress gehen Sie zum Menü<strong> Plugins (Plugins) -&gt; Add New (Neu hinzufügen).</strong></li>
+          <li>Drücken Sie <strong>Upload</strong> <strong>(Hochladen)</strong>.</li>
+          <li>Klicken Sie den Button <strong>Browse</strong> (Übersicht).</li>
+          <li>Öffnen Sie den Ordner  <strong>theme####.zip\includes\plugins</strong> der Vorlage (Datei theme####.zip muss entpackt werden).</li>
+          <li>Wählen Sie eine von den Dateien .zip in diesem Ordner und drücken Sie <strong>OK</strong>.</li>
+          <li>Klicken Sie auf den Button<strong> Install Now (Installieren).</strong></li>
+          <li>Nachdem der Plugin installiert wurde, drücken Sie <strong>Activate (Aktivieren)</strong>.</li>
+          <li>Wenn im Ordner /plugins/ einige Plugins sind, machen Sie die Schritte zur Installation und Aktivierung für jeden von ihnen.</li>
+        </ol>   
+
+       <!--  <figure class="img-paraloid"><img src="img/wordpress/plugins_install.jpg" alt=""></figure> -->
+        <p class="muted text-center"></p>
+    </article>
+
+    <article >
+      <h4 id="theme_plugins">Plugins des Themas:</h4>
+      <h5>Plugin Cherry </h5>
+      <p><span class="label label-important">Achtung:</span> Die Installation und Aktivierung des Plugins  Cherry sind für korrekte Arbeit der Shortcoden und Widgets nötig. Bei der Installation Cherry Framework Plugin Cherry wird standardmäßig installiert und aktiviert.</p>
+      <p><span class="label label-info">Herunterladen:</span> <a href="https://github.com/CherryFramework/CherryFramework/raw/master/includes/plugins/cherry-plugin.zip">https://github.com/CherryFramework/CherryFramework/raw/master/includes/plugins/cherry-plugin.zip</a><br />
+      <span class="label">Beschreibung:</span> Framework Cherry, das Cherry Team erstellt hat, ist ideal, weil dieses Team viel Mühe dafür gegeben hat. Machen Sie sich mit Cherry Plugin bekannt. Es ist eine Erweiterung für neues Framework Cherry, wo wir alle notwendigen Schortcodes und Widgets hinzugefügt haben. Dieser Plugin ist völlig mit jeglichem Thema  WordPress auf der Basis von Cherry Framework kompatibel. Zurzeit ist dieser Plugin eine Testversion und wir verbessern sie mit interessanten Funktionen.</p>
+      <h5>Contact Form 7</h5>
+      <p><span class="label label-info">Herunterladen:</span> <a href="http://wordpress.org/extend/plugins/contact-form-7/">http://wordpress.org/extend/plugins/contact-form-7/</a><br />
+      <span class="label">Beschreibung:</span> Kontaktformular auf der Kontaktseite.</p>
+
+      <h4>Kompatible Plugins:</h4>
+      <h5 class="indent_top">WPML</h5>
+      <p><span class="label label-info">Herunterladen:</span> <a href="http://wpml.org/">http://wpml.org/</a><br />
+      <span class="label">Beschreibung:</span> WPML ermöglicht die mehrsprachigen Webseiten nicht nur zu erstellen sondern auch zu steuern.</p>
+
+      <h5 class="indent_top">JigoShop</h5>
+      <p><span class="label label-info">Herunterladen:</span> <a href="http://wordpress.org/plugins/jigoshop/">http://wordpress.org/plugins/jigoshop/</a><br />
+      <span class="label">Beschreibung:</span> Plugin für den Internethandel, der sich durch die Geschwindigkeit und Bedienfreundlichkeit unterscheidet, wurde auf der Basis von WordPress Engine gestaltet.</p>
+
+      <h5 class="indent_top">WooCommerce</h5>
+      <p><span class="label label-info">Herunterladen:</span> <a href="http://wordpress.org/plugins/woocommerce/">http://wordpress.org/plugins/woocommerce/</a><br />
+      <span class="label">Beschreibung:</span> WooCommerce ist ein mächtiger, flexibler Plugin des Internethandels, der ermöglicht, jegliches Produkt zu verkaufen.</p>
+
+      <h5 class="indent_top">BuddyPress</h5>
+      <p><span class="label label-info">Herunterladen:</span> <a href="http://wordpress.org/plugins/buddypress/">http://wordpress.org/plugins/buddypress/</a><br />
+      <span class="label">Beschreibung:</span> Plugin für soziale Netzwerke. Entwickeln Sie das soziale Netzwerk für Ihr Unternehmen, Ihre Schule, Sportmanschaft oder Ihren Tätigkeitsbereich.</p>
+
+      <h5 class="indent_top">bbpress</h5>
+      <p><span class="label label-info">Herunterladen:</span> <a href="http://wordpress.org/plugins/bbpress/">http://wordpress.org/plugins/bbpress/</a><br />
+      <span class="label">Beschreibung:</span> bbPress ist ein Forum für WordPress Engine.</p>
+
+      <h5 class="indent_top">Mingle Forum</h5>
+      <p><span class="label label-info">Herunterladen:</span> <a href="http://wordpress.org/plugins/mingle-forum/">http://wordpress.org/plugins/mingle-forum/</a><br />
+      <span class="label">Beschreibung:</span> Mingle Forum ermöglicht schnell und einfach ein Forum auf Webseite/Blog  WordPress hinzuzufügen.</p>
+
+      <h5 class="indent_top">WP Forum Server</h5>
+      <p><span class="label label-info">Herunterladen:</span> <a href="http://wordpress.org/plugins/forum-server/">http://wordpress.org/plugins/forum-server/</a><br />
+      <span class="label">Beschreibung:</span> Der jeweilige WordPress Plugin ist ein vollwertiges Forum für WordPress Blogs.</p>
+    </article>     
+
+    <article> 
+        <h4 id="cookie_policy">Cookie-Politik</h4>
+        <p>Cookies sind kleine Textdateien, die die Webseiten auf den Benutzercomputern erstellen.  Meistens werden sie benutzt, um die Identifizierung bestimmtes Besuchers durchzuführen oder die hohe Leistung zu bringen. Cookies sind ein wichtiger Teil der Funktionen der Webseite.</p>
+
+        <p>Zum Beispiel, in Online-Shops speichern Cookies, was Sie genau in den Warenkorb hinzugefügt haben. Sie speichern nicht nur die Authorisierung auf der Webseite sondern auch stellen den Webseiteninhabern wertvolle Statistik und Information bereit.</p>
+
+        <p>Wenn Sie eine Webseite haben, dann nutzt sie höchstwahrscheinlich Cookies. Die Hauptfunktionen sind Überwachen der Anzahl von Besucher und Verwendung der Werkzeuge, zum Beispiel Google Analytics. Sie können auch die wichtigen Mitteilungen des Benutzers zeigen oder ein Teil des Online-Shops sein (wenn Sie sich mit dem Online-Verkauf beschäftigen).</p>
+
+        <p>26. Mai 2012 -  ICO hat das Gesetz über Cookies geändert, deshalb wird der versteckte Inhalt nur dann erlaubt, wenn es die Benachrichtigung über Sicherheitsrichtlinie/Cookie-Politik auf der Webseite gibt.</p>
+        
+        <p>Laut dem Gesetz über Cookies müss auf die Webseite passendes Modul hinzugefügt werden, das die Mitteilung über Cookies darstellt. Sie können die folgenden Plugins nutzen: <a href="https://wordpress.org/plugins/cookie-banner/">Cookie Banner</a>, <a href="http://wordpress.org/plugins/cookie-notice/">Cookie Notice</a></p>
+    </article>
+  </section>
+<!-- Getting started end -->
+
+<!--Backup and Update started --> 
+  <section class="block-templates" id="backup_update">  
+
+    <h2><i class="icon-refresh"></i> Reservekopieren und Update</h2>
+
+    <div class="box-notification"><span>Bevor Sie Cherry Framework aktualisieren, empfehlen wir Ihnen, das Reservekopieren der laufenden Version durchzuführen.</span></div>
+    <h4>Reservekopieren</h4>
+      <p>Sie können die Reservekopie sowohl für CherryFramework als auch fürs Unterthema im Menü<b> "Cherry Options (Optionen Cherry) > Data management (Datenverwaltung)"</b> WordPress Control Panels erstellen. </p>
+      <figure class="img-paraloid"><img src="img/wordpress/backup-child.png" alt=""></figure>
+      <figure class="img-paraloid"><img src="img/wordpress/backup-framework.png" alt=""></figure>
+      <p>Es ist einfach die Reservekopie zu erstellen, indem Sie auf den Button  <b>"Backup"</b> unter den Sektionen mit  Cherry Framework und dem Unterthema drücken. <br>
+      Danach wird das Archiv mit Framework und Unterthema im Ordner <b>/wp-content/themes_backup/</b> angezeigt.</p>
+      <p>Wenn Sie es herunterladen möchten, klicken Sie den Button<b> "Download backup"</b>. Falls es Schwierigkeiten gibt, kann Framework im Tab  <b>Appearance (Aussehen)-> Themes (Themen)-> Install Themes (Themen installieren)-> Upload (Hochladen)</b> neu installiert werden.</p>
+
+    <h4>Update</h4>
+      <p>Um Cherry Framework zu aktualisieren, machen Sie die folgenden Schritte:</p>
+      <ol>
+        <li>Im Control Panel öffnen Sie den Tab<b> "Cherry Options (Optionen Cherry)> Data management (Datenverwaltung)"</b>.</li>
+        <li>Drücken Sie den Button Update (Update) unter dem Blog Cherry Framework 
+          <figure class="img-paraloid"><img src="img/wordpress/backup-child.png" alt=""></figure></li>
+        <li>Warten Sie bis das Update anfängt.</li>
+        <li>Alles andere  führt Cherry Framework automatisch durch. </li>
+      </ol>
+  </section>
+<!--Backup and Update end --> 
+
+<!-- Page Templates and Sidebars begin -->
+  <section class="block-templates" id="page_templates_sidebars"> 
+  
+
+    <h2><i class="icon-file-alt"></i> Seitenvorlagen und Seitenspalten</h2>
+    <br>
+    <div class="box-notification"><span>Achtung: Stile müssen in der Datei  style.less bearbeitet werden. Stile werden kompiliert und Datei main-style.css wird nach dem Speichern übergeschrieben. </span></div> 
+
+    <h4>Seitenvorlagen</h4>
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Default Template (Standardvorlage)</strong> (Standardseite mit der Seitenleiste)</li>
+        <li><i class="icon-angle-right"></i> <strong>Full Width Page (Vollbild-Seite) </strong>  (Seite ohne Seitenleiste)</li>
+        <li><i class="icon-angle-right"></i> <strong>Home Page (Home Page)</strong> (Seitenvorlage, die für die Home Page benutzt wird)</li>
+        <li><i class="icon-angle-right"></i> <strong>Filter Folio 2 cols</strong> (Seitenvorlage für Eintragungen der Galerie/des Portfolios in 2 Leisten)</li>
+        <li><i class="icon-angle-right"></i> <strong>Filter Folio 3 cols</strong> (Seitenvorlage für Eintragungen der Galerie/des Portfolios in 3 Leisten)</li>
+        <li><i class="icon-angle-right"></i> <strong>Filter Folio 4 cols</strong> (Seitenvorlage für Eintragungen der Galerie/des Portfolios in 4 Leisten)</li>
+        <li><i class="icon-angle-right"></i> <strong>Testimonials (Feedback)</strong> (Seitenvorlage zur Darstellung der Eintragungen mit den Empfehlungen)</li>
+        <li><i class="icon-angle-right"></i> <strong>FAQs</strong> (Seitenvorlage zur Darstellung  FAQ Eintragungen)</li>
+        <li><i class="icon-angle-right"></i> <strong>Archives</strong> (Seitenvorlage zur Darstellung der Archivs)</li>
+      </ul>
+      <br />
+      <h4>Position der Seitenleisten</h4>
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Sidebar</strong> (Seitenleisten) sind Sektionen, die rechts/ links auf der Seite sind</li>
+        <li><i class="icon-angle-right"></i> <strong>Footer Area 1,2,3,4 (Footer) </strong>(optionale) ist die Sektion, die auf der Seite unten ist </li>
+      </ul>
+  </section>   
+<!-- Page Templates and Sidebars end --> 
+
+<!-- Posts, Categories and Post Formats begin -->
+  <section class="block-templates" id="posts_categories">  
+
+    <h2><i class="icon-edit"></i> Posts, Kategorien und Postformate</h2>
+
+    <!-- Adding category -->
+    <article id="adding-category">
+      <h4>Hinzufügen der Kategorie</h4>
+      <p>Ausführliche Information über das Hinzufügen der Kategorie können Sie in dem folgenden Artikel finden: <a href="http://codex.wordpress.org/Manage_Categories_SubPanel">http://codex.wordpress.org/Manage_Categories_SubPanel</a></p>
+      <div class="row">
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/cat1.png" alt=""></figure>
+        <p class="muted text-center"></p>   
+        <ol>
+        <li>Loggen Sie sich ins Control Panel WordPress ein.</li>
+        <li>Öffnen Sie den Tab <strong>Posts (Posts)</strong>.</li>
+        <li>Gehen Sie zu   <strong>Categories (Kategorien)</strong> für Blog-Posts.</li>
+        <li>Geben Sie den Namen der neuen Kategorie ein.</li>
+        <li>Dann klicken Sie den Button <strong>Add New Category (Neue Kategorie hinzufügen)</strong>.</li>
+        </ol>
+        Drücken Sie den Button  <strong>Publish (Veröffentlichen)</strong>.      </div>
+    </article>
+
+    <!-- Blog post -->
+    <article id="blog_post">
+      <h4>Erstellen des Blog-Posts</h4>
+      <div class="row">
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/cat2.png" alt=""></figure>
+        <p class="muted text-center"></p>   
+        <ol>
+          <li>Loggen Sie sich ins Control Panel WordPress ein.</li>
+          <li>Öffnen Sie den Tab <strong>Posts (Posts)</strong>.</li>
+          <li>Drücken Sie <strong>Add New (Neu hinzufügen)</strong>.</li>
+          <li>Fügen Sie den Inhalt in Post hinzu. Ausführliche Information über das Hinzufügen der Posts können Sie finden, indem Sie diesem Link folgen <a href="http://codex.wordpress.org/Posts_Add_New_SubPanel">http://codex.wordpress.org/Posts_Add_New_SubPanel</a>.</li>
+        </ol>
+      </div>
+    </article>
+
+    <!-- Post Formats -->
+    <article id="post-formats">
+      <h4>Wahl der Postformate</h4>
+      <p>Ausführliche Information über die Postformate können Sie finden, indem Sie diesem Link folgen: <a href="http://codex.wordpress.org/Post_Formats">http://codex.wordpress.org/Post_Formats</a>.</p>
+      <div class="row">
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/post_format.png" alt=""></figure>
+        <ol>
+          <li>Loggen Sie sich ins Control Panel WordPress ein.</li>
+          <li>Öffnen Sie den Tab <strong>Posts (Posts)</strong>.</li>
+          <li>Um ein Postformat auszuwählen, öffnen Sie die Liste  <strong>Format (Format)</strong>.</li>
+          </ol>
+        <span class="label label-info">Achtung:</span> Einige von diesen Formaten haben eigene Einstellungen, die unter dem Posteditor angezeigt werden.      </div>
+      <p>Unten gibt es die Liste mit den Postformaten mit den Beschreibungen und Einstellungen.</p>
+
+      <h4>Standard-Postformat</h4>
+      <p>Standard-Post hat die folgenden Felder:</p>
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Post title</strong> - Posttitel</li>
+        <li><i class="icon-angle-right"></i> <strong>Post content</strong> - Postinhalt</li>
+        <li><i class="icon-angle-right"></i> <strong>Categories</strong> - Postkategorie (n)</li>
+        <li><i class="icon-angle-right"></i> <strong>Tags</strong> - Posttags</li>
+        <li><i class="icon-angle-right"></i> <strong>Featured Image</strong> - Postbild</li>
+        <li><i class="icon-angle-right"></i>und andere Felder, die man im Bereich <strong>Screen Options (Bildschirmeinstellungen)</strong> in der oberen rechten Ecke einschalten kann.</li>
+      </ul>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_standard.png" alt=""></figure>
+      <p class="muted text-center">Standard-Postformat</p>     
+      
+
+      <h4> 	Anmerkung</h4>
+      <p>Es ist eine vereinfachte Standardversion der Post. Sie enthält nur das Feld für den Inhalt, deshalb müssen Sie weder den Posttitel noch andere Optionen eingeben. </p>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_standard.png" alt=""></figure>
+      <p class="muted text-center">Anmerkung</p> 
+
+
+      <h4>Galerie</h4>
+      <p>Die Besonderheit dieses Postformates besteht darin, dass Sie die Bilder unbegrenzt hinzufügen können.</p>
+      <p>Hinzufügen der Galerie:</p>
+      <ol>
+        <li>Drücken Sie den Button<strong> Add Media (Media hinzufügen)</strong>.<br>
+          <span class="img-paraloid"><img src="img/wordpress/add_media.png" alt=""></span></li>
+        <li>Um ein Bild von dem Computer hinzuzufügen, verschieben Sie die Dateien in geöffnetes Feld oder klicken Sie <strong>Select Files (Übersicht)</strong>.
+          <figure class="img-paraloid"><img src="img/wordpress/insert-media.png" alt=""></figure></li>
+        <li>Nach dem Herunterladen sind alle Bilder in Media Library (Medienbibliothek). Wählen Sie  <strong>Uploaded to this post (In diese Post hinzufügen)</strong> um die Bilder anzuschauen.
+          <figure class="img-paraloid"><img src="img/wordpress/uploaded-images.png" alt=""></figure>
+        </li>
+        <li>Am Ende der Bearbeitung können Sie die Medienbibliothek schließen. Die heruntergeladenen Bilder werden automatisch hinzugefügt.</li>
+      </ol>
+      <p>In Post, die das Format der Galerie haben, sind die gleichen Felder (zum Beispiel, Titel, Inhalt, Kategorien usw.), wie für Standard-Postformat.</p>
+      
+
+      <h4>Link</h4>   
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_link.png" alt=""></figure>
+      <p class="muted text-center">Link</p>  
+      <p>Format  <strong>Link</strong> hat ein zusätzliches Feld <strong>URL</strong>, wo Sie den Link (URL) für Zielseite/Ressource angeben müssen.  <strong>Posttitel  </strong>wird als Linktext benutzt.</p>
+      <p>Inhaltsfeld ist die Beschreibung der Zielseite/Ressource.</p>
+      
+
+      <h4>Bild</h4>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_image.png" alt=""></figure>
+      <p class="muted text-center">Bild</p>  
+      <p><strong>Bild -</strong> ist ein Postformat wie ein Einzelbild, das mittels der Option <strong>Featured Image</strong> <strong>(Postbild)</strong> heruntergeladen wurde.<br>
+         Wenn Sie dieses Format wählen, können Sie Lightbox für die Bilder mittels der entsprechenden Einstellung  <strong>Enable Lightbox (Lightbox einschalten)</strong> ausschalten.</p>
+      
+
+      <h4>Zitat</h4>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_quote.png" alt=""></figure>
+      <p class="muted text-center">Zitat</p>  
+      <p> Post<strong> Zitat</strong> wird benutzt, um die Äußerungen zu veröffentlichen.</p>
+      <p>Das jeweilige Format unterscheidet sich durch zusätzliche Felder  <strong>Zitat</strong> - ist der Text der Äußerung und <strong> Autor </strong>- ist der Name der Autors des Zitats.</p>
+      
+
+      <h4>Audio</h4>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_audio.png" alt=""></figure>
+      <p class="muted text-center">Audio</p>  
+      <p><strong>Format Audio</strong> wird benutzt, um den Audio-Inhalt zu veröffentlichen.</p>
+      <p>Das jeweilige Format unterscheidet sich durch zusätzliche Einstellungen:</p>
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Title (Titel)</strong> ist der Name des Tracks</li>
+        <li><i class="icon-angle-right"></i> <strong>Artist (Künstler)</strong> ist der Künstler des Audio-Tracks</li>
+        <li><i class="icon-angle-right"></i> <strong>Audio Format (Audio Format) </strong> ist das Format des Audio-Tracks</li>
+        <li><i class="icon-angle-right"></i> <strong>Audio URL (Audio URL) </strong> ist der Link zum Audio-Track</li>
+      </ul>
+      
+
+      <h4>Video</h4>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_video.png" alt=""></figure>
+      <p class="muted text-center">Video</p>  
+      <p><strong> Video</strong> wird benutzt, um den Video-Inhalt zu veröffentlichen.</p>
+      <p>Das jeweilige Format unterscheidet sich durch folgende Einstellungen:</p>
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Title (Titel)</strong> ist der Name des Videos</li>
+        <li><i class="icon-angle-right"></i> <strong>Artist</strong> <strong>(Künstler)</strong> ist der Künstler des Videos</li>
+        <li><i class="icon-angle-right"></i> <strong>URL #1</strong> ist der Link zum Video im Format m4v </li>
+        <li><i class="icon-angle-right"></i> <strong>URL #2</strong> ist der Link zum Video im Format ogv </li>
+        <li><i class="icon-angle-right"></i> <strong>Embedded Code (Eingebauter Code) </strong> wird benutzt, um das Video von externen Quellen hinzuzufügen, zum Beispiel, youtube, vimeo usw.</li>
+      </ul>
+    </article>
+
+    <!-- Creating a slider post -->
+    <article id="slider_post">
+      <h4>Erstellen des Post Sliders</h4>
+      <div class="row">
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/slide_new.png" alt=""></figure>
+        <p>Dias sind  <a href="http://codex.wordpress.org/Post_Types#Custom_Types">der Benutzertyp der Posts, </a> dadurch unterscheiden sie sich von Standardposts, zum Beipiel, vom Blog. Dadurch ist es einfach den Inhalt der Webseite zu steuern. </p>
+      </div>
+      <figure class="img-paraloid"><img src="img/wordpress/slider.png" alt=""></figure>
+      <p class="muted text-center">Erstellen des Post Sliders</p>  
+      <ol>
+        <li>Loggen Sie sich ins Control Panel  WordPress ein.</li>
+        <li>Öffnen Sie das Menü <strong>Slider (Slider)</strong>.</li>
+        <li>Drücken Sie den Tab <strong>Add New</strong> <strong>(Neu hinzufügen)</strong>.</li>
+        <li>Geben Sie <strong>title (Titel) </strong>des Sliders ein.</li>
+        <li>Laden Sie das Bild in Option <strong>Featured Image (Postbild) </strong>(klicken Sie den Link<strong> Set featured image (Postbild installieren)</strong>) hoch.</li>
+        <li>Für Dia können die folgenden Felder benutzt werden:
+          <ul>
+            <li><i class="icon-angle-right"></i> <strong>Caption (Überschrift)</strong> sind Felder für die Überschrift der Dia.</li>
+            <li><i class="icon-angle-right"></i> <strong>URL</strong> ist das Feld für die URL der Dia (der externe Link kann benutzt werden).</li>
+          </ul>
+        </li>
+        <li>Nachdem Sie die Einstellungen festgelegt haben, drücken Sie den Button<strong> Publish (Veröffentlichen)</strong>.</li>
+      </ol>
+    </article>
+
+    <!-- Creating a Portfolio post -->
+    <article id="portfolio_post">
+      <h4>Hinzufügen der Portfolio Post</h4>
+      <div class="row">
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/folio_panel.png" alt=""></figure>
+        <p>Portfolioelemente sind der Benutzertyp der Posts,<a href="http://codex.wordpress.org/Post_Types#Custom_Types"> http://codex.wordpress.org/Post_Types#Custom_Types </a> dadurch unterscheiden sie sich von Standardposts. Dadurch ist es einfach den Inhalt der Webseite zu steuern.</p>
+        </div>
+      <figure class="img-paraloid"><img src="img/wordpress/folio.png" alt=""></figure>
+      <p class="muted text-center">Hinzufügen der Portfolio Post</p>
+      <ol>
+        <li>Loggen Sie sich ins Control Panel  WordPress ein.</li>
+        <li>Öffnen Sie das Menü <strong>Portfolio (Portfolio)</strong>.</li>
+        <li>Drücken Sie den Tab <strong>Add New</strong> <strong>(Neu hinzufügen)</strong>.</li>
+        <li>Füllen Sie alle notwendigen Felder (<strong>Titel</strong>, <strong>Inhalt</strong>) aus.</li>
+        <li>Laden Sie das Bild in Option <strong>Featured Image (Postbild) </strong>(klicken Sie den Link<strong> Set featured image (Postbild installieren)</strong>) hoch.</li>
+        <li>Drücken Sie den Button<strong> Publish (Veröffentlichen)</strong>.</li>
+        </ol>
+      <h4>Wahl des Postformats fürs Portfolio</h4>
+      <div class="row">
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/folio_format.png" alt=""></figure>
+        <p>Erstellen der Portfolio Post in jeweiligem Thema ermöglicht einen von den verfügbaren Posttypen auszuwählen.</p>
+        <ul>
+          <li><i class="icon-angle-right"></i> <strong>Image (Bild)</strong> ist der Posttyp der Galerie standardmäßig. Er stellt nur  <em>Postbild</em>dar.</li>
+          <li><i class="icon-angle-right"></i> <strong>Slideshow (Diashow)</strong> das Projekt der Galerie wird wie eine Diashow dargestellt. Es kann unbegrenzt Postbilder enthalten. </li>
+          <li><i class="icon-angle-right"></i> <strong>Grid Gallery (Grid Galerie)</strong> die Postbilder werden wie eine Galerie dargestellt.  Es kann die Postbilder unbegrenzt enthalten.</li>
+          <li><i class="icon-angle-right"></i> <strong>Video (Video)</strong> in jeweiligem Posttyp kann man das Video von jeglichem Video-Hosting hinzufügen (YouTube, Vimeo usw.).</li>
+          <li><i class="icon-angle-right"></i> <strong>Audio (Audio)</strong> dieser Posttyp ermöglicht den Audio-Link hinzuzufügen. </li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- Creating a Testimonials post -->
+    <article id="testimonial_post">
+      <h4>Hinzufügen der Post "Feedback" (Testimonials)</h4>
+      <figure class="img-paraloid"><img src="img/wordpress/testi.png" alt=""></figure>
+      <p class="muted text-center">Hinzufügen der Post "Feedback" (Testimonials)</p>
+      <ol>
+        <li>Loggen Sie sich ins Control Panel  WordPress ein.</li>
+        <li>Öffnen Sie das Menü <strong>Testimonials</strong><strong> (Feedbacks)</strong>.</li>
+        <li>Drücken Sie den Tab <strong>Add New</strong> <strong>(Neu hinzufügen)</strong>.</li>
+        <li>Füllen Sie alle notwendigen Felder (<strong>Titel</strong>, <strong>Inhalt</strong>) aus.</li>
+        <li>Laden Sie das Bild in Option <strong>Featured Image (Postbild) </strong>(klicken Sie den Link<strong> Set featured image (Postbild installieren)</strong>) hoch.</li>
+        <li>In jeweiligem Posttyp können Sie die folgenden Einstellungen nutzen:
+          <ul>
+            <li><i class="icon-angle-right"></i> <strong>Name</strong> <strong>(Name)</strong> ist der Name des Autors</li>
+            <li><i class="icon-angle-right"></i> <strong>URL</strong> ist der Link des Autors</li>
+            <li><i class="icon-angle-right"></i> <strong>Info</strong> ist zusätzliche Information von dem Autor.</li>
+          </ul>
+        </li>
+        <li>Drücken Sie den Button<strong> Publish (Veröffentlichen)</strong></li>
+        </ol>
+    </article>
+
+    <!-- Creating a Portfolio post -->
+    <article id="faq_post">
+      <h4>Hinzufügen der FAQ Post </h4>
+      <figure class="img-paraloid"><img src="img/wordpress/faq.png" alt=""></figure>
+      <p class="muted text-center">Hinzufügen der FAQ Post </p>
+      <ol>
+        <li>Loggen Sie sich ins Control Panel  WordPress ein.</li>
+        <li>Öffnen Sie das Menü <strong>FAQs</strong>.</li>
+        <li>Drücken Sie den Button <strong>Add New</strong> <strong>(Neu hinzufügen)</strong>.</li>
+        <li>Der jeweilige Posttyp enthält sowohl Fragen als auch Antworten (Posttitel ist eine Frage und der Inhalt ist eine Antwort).</li>
+        <li>Drücken Sie den Button<strong> Publish (Veröffentlichen)</strong>.</li>
+        </ol>
+    </article>
+
+    <!-- Creating a Portfolio post -->
+    <article id="team_post">
+      <h4>Hinzufügen der Post "Unser Team" (Our Team)</h4>
+      <figure class="img-paraloid"><img src="img/wordpress/our_team.png" alt=""></figure>
+      <p class="muted text-center">Hinzufügen der Post "Unser Team" (Our Team)</p>
+      <ol>
+        <li>Loggen Sie sich ins Control Panel  WordPress ein.</li>
+        <li>Öffnen Sie das Menü <strong>Our Team</strong><strong> (Unser Team)</strong>.</li>
+        <li>Drücken Sie den Tab <strong>Add New</strong> <strong>(Neu hinzufügen)</strong>.</li>
+        <li>Füllen Sie alle notwendigen Felder (<strong>Titel</strong>, <strong>Inhalt</strong>) aus.</li>
+        <li>Laden Sie das Bild in Option <strong>Featured Image (Postbild) </strong>(klicken Sie den Link<strong> Set featured image (Postbild installieren)</strong>) hoch.</li>
+        <li>In jeweiligem Posttyp können die folgenden Einstellungen verwendet werden:
+          <ul>
+              <li><i class="icon-angle-right"></i><strong>Position (Funktion) </strong> ist die Stelle, die die Person bekleidet.</li>
+              <li><i class="icon-angle-right"></i><strong>Info</strong> ist zusätzliche Information.</li>
+              </ul>
+        </li>
+        <li>Drücken Sie den Button<strong> Publish (Veröffentlichen)</strong></li>
+        </ol>
+    </article>
+
+    <!-- Creating a Client post -->
+    <!-- <article id="clients_post">
+      <h4>Adding a Clients post</h4>
+      <p class="alert">The Clients post type is optional. Your theme may not include it.</p>      
+      <figure class="img-paraloid"><img src="img/wordpress/clients.jpg" alt=""></figure>
+      <p class="muted text-center">Adding a Clients post</p>
+      <ol>
+        <li>Log into your WordPress Administration Panel (Dashboard).</li>
+        <li>Click the <strong>Clients</strong> tab.</li>
+        <li>After that, click the <strong>Add New</strong> button.</li>
+        <li>Fill in all the required fields (<strong>title</strong>, <strong>content</strong>).</li>
+        <li>Upload your image with the help of the <strong>Featured Image </strong>option (click the <strong>Set featured image </strong>link).</li>
+        <li>You can use the following fields for this sort of posts:
+          <ul>
+            <li><i class="icon-angle-right"></i> <strong>URL</strong> - client url</li>
+            <li><i class="icon-angle-right"></i> <strong>Target</strong> - The target attribute specifies a window or a frame where the linked document is loaded.</li>
+          </ul>
+        </li>
+        <li>Click <strong>Publish</strong>.</li>
+      </ol>
+    </article> -->
+  </section>   
+  <!-- Posts, Categories and Post Formats end --> 
+
+  <!-- Portfolio page begin -->
+  <section class="block-templates" id="portfolio_page">  
+
+    <h2><i class="icon-picture"></i> Portfolio-Seite</h2>
+
+    <!-- Creating a Portfolio page -->
+    <article>
+      <h4>Erstellen der Portfolio-Seite</h4>
+      <figure class="img-paraloid"><img src="img/wordpress/folio_page.jpg" alt=""></figure>
+      <p class="muted text-center">Erstellen der Portfolio-Seite</p>
+	  <p>Portfolio-Seiten können mittels der Vorlagenseiten erstellt werden.</p>
+      <ol class="margbot">
+        <li>Loggen Sie sich ins Control Panel  WordPress ein.</li>
+        <li>Öffnen Sie das Menü<strong> Pages (Seiten)</strong>.</li>
+        <li>Drücken Sie den Tab <strong>Add New</strong> <strong>(Neu hinzufügen)</strong>.</li>
+        <li>Geben Sie den Namen der Seite ein, zum Beispiel, <strong>Portfolio page</strong>.</li>
+        <li>Wählen Sie den Vorlagentyp ( <strong>Filter Folio 2 cols</strong>, <strong>Filter Folio 3 cols</strong> oder <strong>Filter Folio 4 cols</strong> in dem DropDownMenü <strong>Page Attributes (Seitenattribute)</strong>).</li>
+        <li>Nachdem Sie die Einstellungen festgelegt haben, drücken Sie den Button<strong> Publish (Veröffentlichen)</strong>.</li>
+      </ol>
+      <p>Man kann die Kategorienseiten des Portfolios mittels des Feldes  <strong>Category Include (Kategorie hinzufügen)</strong> erstellen. Dafür sollen Sie Slug der notwendigen Portfolio-Kategorie eingeben.</p>
+      <figure class="img-paraloid"><img src="img/wordpress/category_in.jpg" alt=""></figure>
+    </article>
+  </section>   
+<!-- Portfolio page end -->
+
+<!-- Shortcodes begin -->
+  <section class="block-templates" id="shortcodes">  
+
+    <h2><i class="icon-file"></i> Shortcodes</h2>
+    <p>Shortcodes sind ein mächtiges Werkzeug zur Inhaltsverwaltung  <a href="http://codex.wordpress.org/Shortcode">http://codex.wordpress.org/Shortcode</a>. Sie sind  einfach in der Handhabung. Vor allem sollen Sie den Bearbeitungsmodus <strong>Visual (Visuell)</strong> wählen.</p>
+    <figure class="img-paraloid"><img src="img/wordpress/sc_visual.jpg" alt=""></figure>
+    <p>Drücken Sie auf den Button der Shortcodes. Dann wählen Sie den notwendigen Shortcode aus.</p>
+    <figure class="img-paraloid"><img src="img/wordpress/sc_menu.jpg" alt=""></figure>
+    <br>
+    <p>Alle Shortcodes können wie unten folgt geteilt werden:</p>
+    <ul>
+      <li><i class="icon-angle-right"></i><strong>Dynamische </strong> werden benutzt, um den Inhalt (Posts, Typen der Customizing-Posts, Tags usw.) darzustellen.</li>
+      <li><i class="icon-angle-right"></i><strong>Leistenraster</strong><strong> </strong> sind die Leisten zur Formierung des Rasters.</li>
+      <li><i class="icon-angle-right"></i><strong>Elemente</strong> sind zusätzliche Elemente des Inhalts.</li>
+      <li><i class="icon-angle-right"></i><strong>Andere </strong> sind die Hilfselemente der erweiterten Inhaltsverwaltung.</li>
+    </ul>
+    <article id="dynamic_shortcodes">
+      <h4>Dynamische</h4>
+      <h5>Post Grid <strong>(Post Raster)</strong></h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_postgrid.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span7"><pre class="prettyprint">[posts_grid columns="3" rows="3" order_by="date" order="DESC" thumb_width="100" thumb_height="100" meta="yes" excerpt_count="20" link="yes" link_text="more" custom_class="custom_class"]</pre></div>
+        <div class="span5"><p><span class="label">Beschreibung:</span> es stellt Standard und benutzerdefinierte Beiträge wie eine Tabelle dar, wo die Menge an Spalten und Zellen bearbeitet werden kann.</p></div>
+      </div>
+      <br>
+      <h5>Post List <strong> (Postliste) </strong> </h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_postlist.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span7"><pre class="prettyprint">[posts_list numb="3" thumbs="large" thumb_width="100" thumb_height="100" post_content="excerpt" order_by="date" order="DESC" link="yes" link_text="more" tags="yes" custom_class="custom_class"] </pre></div>
+        <div class="span5"><p><span class="label">Beschreibung:</span> es stellt Standard und benutzerdefinierte Beiträge wie auf der Blog-Seite dar.</p></div>
+      </div>
+      <br>
+      <h5>Mini Post Grid <strong>(Post Miniraster)</strong></h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_minipostgrid.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span7"><pre class="prettyprint">[mini_posts_grid numb="3" thumbs="small" thumb_width="100" thumb_height="100" order_by="date" order="DESC" align="left"]</pre></div>
+        <div class="span5">
+          <p><span class="label">Beschreibung:</span> es ist eine kompakte Version des Shortcodes [post_grid]. Sie stellt die Bilder der  einstellbaren Größe für Standard und benutzerdefinierte Beiträge dar.</p>
+        </div>
+      </div>
+      <br>
+      <h5>Mini Post List <strong>(Posts Miniliste)</strong></h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_minipostlist.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span7"><pre class="prettyprint">[mini_posts_list numb="3" thumbs="small" thumb_width="100" thumb_height="100" meta="yes" order_by="date" order="DESC" excerpt_count="20"] </pre></div>
+        <div class="span5"><p><span class="label">Beschreibung:</span> es ist eine kompakte Version des Shortcodes [posts_list]. Sie stellt die Liste der Standard und benutzerdefinierten Beiträge dar.</p></div> 
+      </div>
+      <br>
+      <h5>Recent Posts <strong> (Die letzteren Posts)</strong></h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_recentposts.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span7"><pre class="prettyprint">[recent_posts num="3" post_format="standard" meta="false" thumb="true" excerpt_count="20"]</pre></div>
+        <div class="span5">
+          <p><span class="label">Beschreibung:</span> es stellt die neuesten Posts dar, für die man verschiedene Optionen einstellen kann (Posttyp, Menge, Format, kurzer Inhalt, Name des Buttons usw.).</p>
+        </div>
+      </div>
+      <br>
+      <h5>Recent Testimonials <strong>(Die letzteren Feedbacks)</strong></h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_recenttesti.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[recenttesti num="2" thumb="true"]</pre></div>
+        <div class="span6"><p><span class="label">Beschreibung:</span> es stellt die festgelegte Anzahl der Feedbacks in Posts des Benutzertyps dar und ermöglicht die Postbilder zu entfernen, hinzuzufügen und die Anzahl der Wörter festzulegen.</p></div>
+      </div>
+      <br>
+      <h5>Banner <strong>(Banner)</strong></h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_banner.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[banner img="#" banner_link="#" title="Title" text="Text" btn_text="Button" target="_self"]</pre></div>
+        <div class="span6"><p><span class="label">Beschreibung:</span> es wird benutzt, um den Block mit dem statischen Text und/oder Bild, Namen, Link usw. darzustellen.</p></div>
+      </div>
+      <br>
+      <h5>Comments <strong>(Kommentare) </strong> </h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_comments.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[recent_comments num="5"]</pre></div>
+        <div class="span6"><p><span class="label">Beschreibung:</span> es stellt die letzteren  Kommentare dar.</p></div>
+      </div>
+      <br>
+      <h5>Post Cycle <strong>(Post-Zyklus) </strong> </h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_postcycle.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span7"><pre class="prettyprint">[post_cycle num="5" type="blog" meta="false" thumb="true" thumb_width="50" thumb_height="50" effect="slide"]</pre></div>
+        <div class="span5"><p><span class="label">Beschreibung:</span> es stellt verschiedene Posts wie Mini-Slider dar.</p></div>
+      </div>
+      <br>
+      <h5>Karussell <strong>Elasti</strong></h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_car.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span7"><pre class="prettyprint">[carousel num="5" type="blog" thumb="true" thumb_width="120" thumb_height="50" date="yes" author="yes" min_items="3"]</pre></div>
+        <div class="span5"><p><span class="label">Beschreibung:</span> es stellt die Posts wie eine  	Karussell dar, und enthält auch zusätzliche Einstellungen.</p></div>
+      </div>
+      <br>
+	  <h5>Karussell <strong>OWL</strong></h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_car_owl.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span7"><pre class="prettyprint">[carousel_owl title="Title" post_type="blog" posts_count="5" visibility_items="3" thumb="yes" thumb_width="200" thumb_height="200" date="yes" author="yes" comments="no" excerpt_count="10" display_navs="yes" display_pagination="yes"]</pre></div>
+        <div class="span5"><p><span class="label">Beschreibung:</span> es stellt die Posts wie eine  	Karussell dar, und enthält auch zusätzliche Einstellungen.</p></div>
+      </div>
+      <br>
+      <h5><strong>Karussell </strong>Roundabout</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_roundabout.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[roundabout title="Title" num="3" type="blog"]</pre></div>
+        <div class="span6"><p><span class="label">Beschreibung:</span> Karussell Roundabout  ist Plugin jQuery, der die Struktur der statischen Elemente HTML in interaktives Elemente verwandelt, das man einfach verwalten kann (wie eine Karussell).</p></div>
+      </div>
+      <br>
+      <h5>Service Box <strong>(Hilfsfenster)</strong></h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_service.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span7"><pre class="prettyprint">[service_box title="Title" icon="icon1" text="Your text" btn_text="Button" btn_link="#" btn_size="normal" target="_self"]</pre></div>
+        <div class="span5"><p><span class="label">Beschreibung:</span> es wird benutzt, um  Informationsblöcke mit dem Titel, Icon, Text oder Button darzustellen. Die Besonderheit dieses Shortcodes besteht in voreingestellten Icons. </p></div>
+      </div>
+      <br>
+      <h5>Hero unit <strong> (Block «Allgemein») </strong></h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_hero.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span7"><pre class="prettyprint">[hero_unit title="Title" text="Text" btn_text="Button" btn_link="#" btn_style="default" btn_size="normal" target="_self"]</pre></div>
+        <div class="span5"><p><span class="label">Beschreibung:</span> es stellt die allgemeine Information über die Webseite, Werbung usw. dar. Normalerweise wird dieser Block auf der Hauptseite der Webseite hinter dem Header platziert.</p></div>
+      </div>
+      <br>
+      <h5>Categories <strong> (Kategorien)</strong></h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_cat.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[categories class="plus"]</pre></div>
+        <div class="span6"><p><span class="label">Beschreibung:</span> es wird benutzt, um die Kategorien darzustellen.</p></div>
+      </div>
+      <br>
+      <h5>Tags <strong>(Tags) </strong></h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[tags]</pre></div>
+        <div class="span6"><p><span class="label">Beschreibung:</span> es stellt Tags dar.</p></div>
+      </div>
+      <br>
+    </article>
+    <article id="columns_shortcodes">
+      <h4>Spalten</h4>
+      <h5>Grid Columns <strong>(Raster Spalten) </strong>(span1-12)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[span#] [/span#] </pre></div>
+        <div class="span6"><p><span class="label">Beschreibung:</span> es erstellt die Struktur der Raster-Elemente, wo # die Anzahl der Spalten von 1 bis 12 ist, die die Elementbreite definieren:.</p></div>
+      </div>
+      <br>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[row]
+[span6] Your Content... [/span6]
+[span6] t... [/span6]
+[/row]</pre></div>
+        <div class="span6">
+          <p><span class="label label-info">Achtung,</span> beim Erstellen des Rasters müssen Sie seine Elemente in Shortcode [row] "einpacken":</p>
+        </div>
+      </div>
+      <br>
+      <h5>Fluid Columns <strong>(Flexible Spalten)</strong> (one_half, one_third...)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[one_half] [/one_half] </pre></div>
+        <div class="span6">
+          <p><span class="label">Beschreibung:</span> es wird für Strukturelemente des Rasters benutzt, deren Breite in % festgelegt wird.</p>
+        </div>
+      </div>
+      <br>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[row_fluid]
+[five_sixth] Your content... [/five_sixth]
+[one_sixntent... [/one_sixth]
+[/row_fluid]</pre></div>
+        <div class="span6">
+          <p><span class="label label-info">Achtung,</span> beim Erstellen des Rasters müssen Sie seine Elemente in [row_fluid] "einpacken":</p>
+        </div>
+      </div>
+      <br>
+      <h5>Multiple Columns <strong>(Multiple Spalten) </strong> (75% / 25%,  usw.)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">
+[row]
+[span8] t... [/span8]
+[span4] Your content... [/span4]
+[/row]</pre></div>
+        <div class="span6">
+          <p>Multiple Spalten erleichtern den Inhalt zu verwalten (Einfügen der anwendbarsten Raster-Varianten).</p>
+        </div>
+      </div>
+      <br>
+	    <h5>Benutzerdefinierte CSS-Klassen</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">
+[row custom_class="custom-row"]
+[span8 custom_class="custom-span8"] content [/span8]
+[span4 custom_class="custom-span4"] content [/span4]
+[/row]</pre></div>
+		<div class="span6"><p>Sie können Ihre Klassen für Shortcodes aus der Kategorie Spalten festlegen. Es erweitert die Möglichkeiten sowohl bei der Bearbeitung als auch bei der Verwaltung der bestimmten Blöcke.</p></div>
+      </div>
+      <br>
+    </article>
+    <article id="elements_shortcodes">
+      <h4>Elements (Elemente)</h4>
+      <h5>Label <strong>(Label) </strong></h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_label.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[label style="default"]label[/label]</pre></div>
+        <div class="span6"><p><span class="label">Beschreibung:</span> es stellt das Label mit vorher festgelegten Stilen dar.</p></div>
+      </div>
+      <br>
+      <h5>Highlight <strong>(Markierung)</strong></h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[highlight]Text[/highlight]</pre></div>
+        <div class="span6">
+          <p><span class="label">Beschreibung:</span> es markiert den ausgewählten Teil des Textes.</p>
+        </div>
+      </div>
+      <br>
+      <h5>Button <strong>(Button)</strong></h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_button.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[button text="Text" link="#" style="default" size="normal" target="_self" display="inline" icon="no"] </pre></div>
+        <div class="span6">
+          <p><span class="label">Beschreibung:</span> es wird benutzt, um den Button mit verschiedenen Einstellungen der Darstellung einzufügen (Stil, Größe, Icon usw.).</p>
+        </div>
+      </div>
+      <br>
+      <h5>Dropcap <strong>(Initial)</strong></h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[dropcap]L[/dropcap] </pre></div>
+        <div class="span6"><p><span class="label">Beschreibung:</span> es stellt die Großbuchstabe (Initial) dar.</p></div>
+      </div>
+      <br>
+      <h5>Blockquote <strong>(Zitat)</strong></h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[blockquote] Text... [/blockquote]</pre></div>
+        <div class="span6"><p><span class="label">Beschreibung:</span> es wird verwendet, um die Zitaten einzufügen.</p></div>
+      </div>
+      <br>
+      <h5>Icon (Icon)</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_icon.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[icon image="#" align="left"]</pre></div>
+        <div class="span6">
+          <p><span class="label">Beschreibung:</span> es wird benutzt, um einfache Icon darzustellen.</p>
+        </div>
+      </div>
+      <br>
+      <h5>Frame (Rahmen)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[frame] I'm frame [/frame]</pre></div>
+        <div class="span6">
+          <p><span class="label">Beschreibung:</span> es stellt den Container dar, der den bestimmten Inhalt enthält.</p>
+        </div>
+      </div>
+      <br>
+      <h5>Horizontal rule (Horizontale Linie)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[hr] </pre></div>
+        <div class="span6">
+          <p><span class="label">Beschreibung:</span> es legt die horizontale Linie fest.</p>
+        </div>
+      </div>
+      <br>
+      <h5>Small Horizontal rule (Kleine horizontale Linie)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[sm_hr] </pre></div>
+        <div class="span6">
+          <p><span class="label">Beschreibung:</span> es wird benutzt, um eine andere horizontale Linie mit kleinem Margin darzustellen.</p>
+        </div>
+      </div>
+      <br>
+      <h5>Vertical Rule (Vertikale Linie)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[vr] </pre></div>
+        <div class="span6">
+          <p><span class="label">Beschreibung:</span> es legt die vertikale Linie fest.</p>
+        </div>
+      </div>
+      <br>
+      <h5>Spacer (Leerzeichen)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[spacer] </pre></div>
+        <div class="span6">
+          <p><span class="label">Beschreibung:</span> es fügt das vertikale Leerzeichen zwischen den Elementen hinzu.</p>
+        </div>
+      </div>
+      <br>
+      <h5>Progress bar (Fortschrittsbalken)</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_progress.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[progressbar value="20" type="info" grad_type="vertical" animated="no"]  </pre></div>
+        <div class="span6">
+          <p><span class="label">Beschreibung:</span> es zeigt den Fortschrittsbalken des bestimmten Prozesses.</p>
+        </div>
+      </div>
+      <br>
+      <h5>Address (Adresse)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[address] Your address here [/address] </pre></div>
+        <div class="span6">
+          <p><span class="label">Beschreibung:</span> es wird benutzt, um die Adresse darzustellen.</p>
+        </div>
+      </div>
+      <br>
+      <h5>Clear (Leeren)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[clear] </pre></div>
+        <div class="span6">
+          <p><span class="label">Beschreibung:</span> es verhindert die Elemente umzufließen.</p>
+        </div>
+      </div>
+      <br>
+      <h5>Lists shortcodes <strong>(Listen)</strong> (unstyled, check, check2, arrow, arrow2, star, plus, minus — ohne Stil, Auswahlkasten, Auswahlkasten2,  Pfeil,  Pfeil2, Sternzeichen, Plis, Minus).</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[check_list] List here ... [/check_list] </pre></div>
+        <div class="span6">
+          <p><span class="label">Beschreibung:</span> es wird benutzt, um die Listen zu stilisieren. Jeder Shortcode hat eigenen Marker für die Punkte aus der Liste.</p>
+        </div>
+      </div>
+	  <br>
+	  <h5>Extra Wrap</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[extra_wrap][/extra_wrap]</pre></div>
+        <div class="span6"><p><span class="label">Beschreibung:</span> es wird benutzt, um andere Elemente mit der Regel overflow:hidden "einzupacken".</div>
+      </div>
+      <br>
+      <h5>Content Box</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[content_box custom_class="custom_content_box"][/content_box]</pre></div>
+        <div class="span6"><p><span class="label">Beschreibung:</span> es wird benutzt, um den Block mit den Pseudoklassen :before und :after "einzupacken" und den Block darzustellen, der 100% Breite hat.</div>
+      </div>
+    </article>
+    <article id="other_shortcodes">
+      <h4>Other (Andere)</h4>
+      <h5>Video Preview (Video)</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_video_preview.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[video_preview post_url="http://demolink.org/blog/video-post-type/" title="yes" date="yes" author="yes"]</pre></div>
+        <div class="span6">
+          <p><span class="label">Beschreibung:</span> es ermöglicht die Video-Vorschau einzufügen, die aus externen Ressourcen (youtube, vimeo) oder der Webseite (Innere Ressource) hochgeladen wird.</p>
+        </div>     
+     </div>
+      <h5>Alert Boxes <strong> (Informationsfenster) message (Mitteilung), info (Information), success (Erfolg), danger (Gefahr) </strong></h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_alert.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[alert_box style="message" close="yes"]Hello, World![/alert_box]</pre></div>
+        <div class="span6">
+          <p><span class="label">Beschreibung:</span> es ist der Satz der Shortcodes, die für Informationsmeldungen benutzt werden.</p>
+        </div>
+      </div>
+      <br>
+      <h5>Close icon (Schließen-Icon)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[close dismiss="alert"]</pre></div>
+        <div class="span6">
+          <p><span class="label">Beschreibung:</span> es fügt das Icon hinzu, um das Quellelement zu schließen.</p>
+        </div>
+      </div>
+      <br>
+      <h5>Well (Zelle)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[well size="well-normal"] Your text here... [/well]</pre></div>
+        <div class="span6">
+          <p><span class="label">Beschreibung:</span> es fügt den stilisierten Container ein.</p>
+        </div>
+      </div>
+      <br>
+      <h5>Small (Klein)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[small] Your text here... [/small]</pre></div>
+        <div class="span6">
+          <p><span class="label">Beschreibung:</span> es ermöglicht, den Textblock mit dem Text, der verkleinert wurde, hinzuzufügen.</p>
+        </div>
+      </div>
+      <br>
+      <h5>Title Box (Titel)</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_title.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[title_box title="Title" subtitle="subtitle text" icon="#"]</pre></div>
+        <div class="span6">
+          <p><span class="label">Beschreibung:</span> es stellt den Doppeltitel dar:  grundlegende und zusätzliche Texte des Titels.</p>
+        </div>
+      </div>
+      <br>
+      <h5>Tabs <strong>(Tabs)</strong></h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[tabs direction="top" tab1="Title #1" tab2="Title #2" tab3="Title #3"] [tab1] Tab 1 content... [/tab1] [tab2] Tab 2 content... [/tab2] [tab3] Tab 3 content... [/tab3] [/tabs]</pre></div>
+        <div class="span6">
+          <p><span class="label">Beschreibung:</span> es legt den Inhalt als Tabs fest. Sie können den statischen und dynamischen Inhalt enthalten.</p>
+        </div>
+      </div>
+      <br>
+      <h5>Accordion <strong>(Akkordeon)</strong></h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[accordions] [accordion title="title1" visible="yes"] tab content [/accordion] [accordion title="title2"] another content tab [/accordion] [/accordions]</pre></div>
+        <div class="span6"><p><span class="label">Beschreibung:</span> es stellt das Akkordeon dar — minimierte Panels mit den Titel.</p></div>
+      </div>
+      <br>
+      <h5>Table <strong>(Tabelle)</strong></h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[table td1="#" td2="Title" td3="Value"] [td1] 1 [/td1] [td2] some title 1 [/td2] [td3] some value 1 [/td3] [/table]</pre></div>
+        <div class="span6"><p><span class="label">Beschreibung:</span> es wird benutzt, um die Tabellen einzufügen.</p></div>
+      </div>
+      <br>
+      <h5>Google Map</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_map.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[map src="#" width="300" height="200"]  </pre></div>
+        <div class="span6">
+          <p><span class="label">Beschreibung:</span> es fügt Google maps hinzu. Damit der Shortcode funktioniert, müssen Sie den Link mit den notwendigen Koordinaten aus der Webseite <a href="https://maps.google.com/">Google</a> einfügen.
+        </div>
+      </div>
+       <br>
+       <h5>Pricing table (Preisliste)</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_pr_table.png" alt=""></figure>
+        <pre class="prettyprint">
+
+[chp_pricing_table columns="3" labelled="yes"] 
+
+[chp_pricing_column_label title="Features"]
+[chp_pricing_row_label odd="true"] Label 1 [/chp_pricing_row_label]
+[chp_pricing_row_label] Label 2 [/chp_pricing_row_label]
+[chp_pricing_row_label odd="true"] Label 3 [/chp_pricing_row_label]
+[chp_pricing_row_label] Label 4 [/chp_pricing_row_label]
+[/chp_pricing_column_label]
+
+[chp_pricing_column title="Column 1" price="100" currency_symbol="$" interval="Per Month"]
+[chp_pricing_row_label] Label 1 [/chp_pricing_row_label]
+[chp_pricing_row odd="true"] Your text here [/chp_pricing_row]
+[chp_pricing_row_label] Label 2 [/chp_pricing_row_label]
+[chp_pricing_row] Your text here [/chp_pricing_row]
+[chp_pricing_row_label] Label 3 [/chp_pricing_row_label]
+[chp_pricing_row odd="true"] Your text here [/chp_pricing_row]
+[chp_pricing_row_label] Label 4 [/chp_pricing_row_label]
+[chp_pricing_row] Your text here [/chp_pricing_row]
+[button text="Sign Up" link="#" style="default" size="normal" target="_self" display="inline" icon="no"]
+[/chp_pricing_column]
+
+[chp_pricing_column title="Column 2" highlight="true" highlight_reason="Most Popular" price="200" currency_symbol="$" interval="Per Month"]
+[chp_pricing_row_label] Label 1 [/chp_pricing_row_label]
+[chp_pricing_row odd="true"] Your text here [/chp_pricing_row]
+[chp_pricing_row_label] Label 2 [/chp_pricing_row_label]
+[chp_pricing_row] Your text here [/chp_pricing_row]
+[chp_pricing_row_label] Label 3 [/chp_pricing_row_label]
+[chp_pricing_row odd="true"] Your text here [/chp_pricing_row]
+[chp_pricing_row_label] Label 4 [/chp_pricing_row_label]
+[chp_pricing_row] Your text here [/chp_pricing_row]
+[button text="Sign Up" link="#" style="default" size="normal" target="_self" display="inline" icon="no"]
+[/chp_pricing_column]
+
+[chp_pricing_column title="Column 3" price="300" currency_symbol="$" interval="Per Month"]
+[chp_pricing_row_label] Label 1 [/chp_pricing_row_label]
+[chp_pricing_row odd="true"] Your text here [/chp_pricing_row]
+[chp_pricing_row_label] Label 2 [/chp_pricing_row_label]
+[chp_pricing_row] Your text here [/chp_pricing_row]
+[chp_pricing_row_label] Label 3 [/chp_pricing_row_label]
+[chp_pricing_row odd="true"] Your text here [/chp_pricing_row]
+[chp_pricing_row_label] Label 4 [/chp_pricing_row_label]
+[chp_pricing_row] Your text here [/chp_pricing_row]
+[button text="Sign Up" link="#" style="default" size="normal" target="_self" display="inline" icon="no"]
+[/chp_pricing_column]
+
+[/chp_pricing_table]
+
+        </pre>
+        <p><span class="label">Beschreibung:</span> es stellt die Preisliste dar.</p>
+       <br>
+    <h5>Audio / Video (Audio / Video)</h5>
+    <p><span class="label">Beschreibung:</span> WordPress 3.6+ ermöglicht Video von  YouTube und Vimeo hinzuzufügen, aber wenn Sie Video oder Audio in Format MP3 oder MP4 abspielen möchten, das auf den Server hochgeladen wurde, müssen Sie den Player installieren. <a href="http://make.wordpress.org/core/2013/04/08/audio-video-support-in-core/" target="_blank">Ausführlich</a></p>
+    Dieser Prozess ist ähnlich dem Prozess für Hinzufügen des Bildes in den Inhalt der Eintragung:
+    <ol class="clearfix">
+      <li>Fügen Sie die Seite oder Eintragung hinzu oder bearbeiten Sie sie.</li>
+      <li>Klicken Sie auf den Inhalt, wo Sie den Player hinzufügen müssen, dann klicken Sie <span> <strong style="color:#666">Add Media (Media hinzufügen)</strong> über dem Inhaltseditor.</span>
+        <figure class="img-paraloid"><img src="img/audio_video_1.jpg" height="35" width="107" alt=""></figure>
+        <div class="clear"></div>
+      </li>
+      <li>Klicken Sie <strong>Upload Files (Dateien hochladen)</strong>.</li>
+      <li>Laden Sie Audio oder Video Datei hoch.</li>
+      <li>
+        <span>Markieren Sie die hochgeladene Datei, dann in  <em>Attachment Display Settings (Anzeigeneinstellungen)</em>, in Option <em>Embed or Link</em> <em>(Einfügen oder Link)</em> wählen Sie &quot;Embed Media Player (Eingebauter Mediaplayer).&quot;</span>
+        <figure class="img-paraloid"><img src="img/audio_video_2.jpg" height="92" width="268" alt=""></figure>
+        <div class="clear"></div>
+      </li>
+      <li>Drücken Sie <strong>Insert into page (Zur Seite hinzufügen)</strong>.</li>
+    </ol>
+    <p>WordPress hat den Shortcode für Audio und Video hinzugefügt, der durch den Player ersetzt werden.</p>
+    <p>Wenn Sie Audio oder Video Datei auf den anderen Server, zum Beispiel Amazon S3 oder File Hosting, hinzugefügt haben, fügen Sie die  URL in die Mediadatei (ohne Link) in entsprechendes Feld ein. Zum Beispiel, Sie möchten ein Video von  YouTube hochladen. Kopieren Sie es einfach in entsprechendes Feld und  YouTube player wird automatisch angezeigt. Überzeugen Sie sich, dass URL richtig festgelegt wurde.</p>
+    <div class="row-fluid">
+      <div class="span6">
+        <pre class="prettyprint prettyprinted">http://www.youtube.com/watch?v=mmRPSoDrrFU</pre>
+      </div>
+      <div class="span6">
+        <p>Die einfache Zeile wird ungefähr so aussehen:</p>
+        <iframe width="390" height="260" src="http://www.youtube.com/embed/2kodXWejuy0" allowfullscreen=""></iframe>
+      </div>
+    </div>
+    </article>
+  </section>  
+<!-- Shortcodes end --> 
+
+<!-- Plugins and Custom Widgets begin -->
+  <section class="block-templates" id="plugins_widgets">  
+
+    <h2><i class="icon-magnet"></i> Plugins und benutzerdefinierte Widgets</h2>
+
+    <article id="plugins">
+      <h4>Plugins</h4>
+      <p class="alert">Achtung: einige von den genannten Plugins können in Ihrem Thema fehlen.</p>
+      <h5>Contact Form 7</h5>
+      <p>Herunterladen: <a href="http://wordpress.org/extend/plugins/contact-form-7/">http://wordpress.org/extend/plugins/contact-form-7/</a><br />
+        Beschreibung: Kontaktformular für die Kontaktseite.</p>
+      <h5>Newsletter Sign-Up</h5>
+      <p>Herunterladen: <a href="http://wordpress.org/plugins/newsletter-sign-up/">http://wordpress.org/plugins/newsletter-sign-up/</a><br />
+        Beschreibung: es bietet verschiedene Möglichkeiten, damit die Webseitenbesucher per E-Mail-Adresse die notwendigen Mitteilungen erhalten können  (Auswahlkasten, Widget, Formular).</p>
+    </article>
+
+    <article id="widgets">
+      <h4>Widget</h4>
+      <p>In Thema werden auch die folgenden Widgets benutzt:</p>
+      <div class="row"> 
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_recent_comments.jpg" alt=""></figure>
+        <h5>Cherry - die letzten Kommentare</h5>
+        <p>Es stellt die letzten Kommentare in dem bequemen Format dar. Das jeweilige Widget enthält die folgenden Optionen:</p>
+        <ul>
+          <li><i class="icon-angle-right"></i> <strong>Title:</strong> - Titel des Widgets.</li>
+          <li><i class="icon-angle-right"></i> <strong>Number of comments to show:</strong> - die Anzahl der dargestellten Kommentare.</li>
+        </ul>
+      </div>
+      <br />
+      <div class="row"> 
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_recent_posts.jpg" alt=""></figure>
+        <div class="clearfix">
+	        <h5>Cherry - die letzten Posts</h5>
+	        <p>Es stellt die letzten Posts dar. Man kann auch die benutzerdefinierten Posts der bestimmten Kategorien darstellen und den Link read more (Details) hinzufügen. Das jeweilige Widget hat die folgenden Optionen:</p>
+	        <ul>
+	          <li><i class="icon-angle-right"></i> <strong>Title:</strong> - Titel des Widgets.</li>
+	          <li><i class="icon-angle-right"></i> <strong>Category Slug:</strong> - Slug der Kategorie.</li>
+	          <li><i class="icon-angle-right"></i> <strong>Post Format:</strong> - Postformat.</li>
+	          <li><i class="icon-angle-right"></i> <strong>Post Order:</strong> - Reihenfolge der Posts.</li>
+	          <li><i class="icon-angle-right"></i> <strong>Posts per page:</strong> - die Anzahl der dargestellten Posts auf der Seite.</li>
+	          <li><i class="icon-angle-right"></i> <strong>Excerpt length (words):</strong> - kurzer Inhalt  (Anzahl der Wörter).</li>
+	          <li><i class="icon-angle-right"></i> <strong>Link Text:</strong> - Linktext, der unter den letzten Posts dargestellt wird.</li>
+	          <li><i class="icon-angle-right"></i> <strong>Link Url:</strong> -  URL Links, die unter den letzten Posts dargestellt werden.</li>
+	        </ul>
+        </div>
+      </div>
+      <br />
+      <div class="row"> 
+        <figure class="img-paraloid pull-left" style="width:30%;"><a href="img/wordpress/widget_advanced_cycle.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/widget_advanced_cycle.jpg" alt=""><i class="icon-search"></i></a></figure>
+        <div class="clearfix">
+        <h5>Cherry - Erweiterter Zyklus</h5>
+        <p>Dieses multifunktionelle Widget wird benutzt, um verschiedene Poststypen und Posts des Blogs darzustellen. Es ermöglicht die Anzeigeneinstellungen zu ändern und hat die folgenden Optionen:</p>
+        <ul>
+          <li><i class="icon-angle-right"></i> <strong>Title:</strong> - Titel des Widgets.</li>
+          <li><i class="icon-angle-right"></i> <strong>Posts type:</strong> - Posttyp.</li>
+          <li><i class="icon-angle-right"></i> <strong>Number of posts to show:</strong> - die Anzahl der Posts.</li>
+          <li><i class="icon-angle-right"></i> <strong>Sort by:</strong> - die Einstellung für die Sortierung der Posts.</li>
+          <li><i class="icon-angle-right"></i> <strong>Reverse sort order (ascending):</strong> - die rückgängige Anzeigereihenfolge.</li>
+          <li><i class="icon-angle-right"></i> <strong>Show number of comments</strong> - zeigt die Anzahl der Kommentare.</li>
+          <li><i class="icon-angle-right"></i> <strong>Show meta</strong> - zeigt die Metadaten.</li>
+          <li><i class="icon-angle-right"></i> <strong>Container class:</strong> - Klasse des Containers class. Standardmäßig ist es <em>featured_custom_posts</em>.</li>
+          <li><i class="icon-angle-right"></i> <strong>Show post title</strong> - zeigt den Postnamen.</li>
+          <li><i class="icon-angle-right"></i> <strong>Date as title</strong> - verwendet das Datum statt des Titels.</li>
+          <li><i class="icon-angle-right"></i> <strong>Before title:</strong> - Layout in HTML vor dem Titel.</li>
+          <li><i class="icon-angle-right"></i> <strong>After title:</strong> - Layout in HTML nach dem Titel.</li>
+          <li><i class="icon-angle-right"></i> <strong>Show post excerpt</strong> - zeigt den Inhalt.</li>
+          <li><i class="icon-angle-right"></i> <strong>Excerpt length (words)</strong> - zeigt den kurzen Inhalt (Anzahl der Wörter).</li>
+          <li><i class="icon-angle-right"></i> <strong>Excerpt as link</strong> - konvertiert den Inhalt in den Link.</li>
+          <li><i class="icon-angle-right"></i> <strong>Show "More" link</strong> - zeigt den Link <em>More (Details)</em> nach dem Post.</li>
+          <li><i class="icon-angle-right"></i> <strong>Link text:</strong> - Linktext.</li>
+          <li><i class="icon-angle-right"></i> <strong>Link class:</strong> - Klasse CSS-class für den Link <em>More (Details)</em>.</li>
+          <li><i class="icon-angle-right"></i> <strong>Show post thumbnail</strong> - zeigt das kleine Bild für die Post.</li>
+          <li><i class="icon-angle-right"></i> <strong>Width:</strong> - Bildbreite.</li>
+          <li><i class="icon-angle-right"></i> <strong>Height:</strong> - Bildhöhe.</li>
+          <li><i class="icon-angle-right"></i> <strong>Thumbnail as link</strong> - konvertiert das Bild in den Link.</li>
+          <li><i class="icon-angle-right"></i> <strong>Show global link to all posts</strong> - zeigt den Global Link für alle Posts.</li>
+          <li><i class="icon-angle-right"></i> <strong>Link text:</strong> - Text des festgelegten Links.</li>
+          <li><i class="icon-angle-right"></i> <strong>Link URL:</strong> -  URL des Links.</li>
+        </ul>
+        </div>
+      </div>
+      <br />
+      <div class="row"> 
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_social_networks.jpg" alt=""></figure>
+        <div class="clearfix">
+	        <h5>Cherry - Soziale Netzwerke</h5>
+	        <p>Das jeweilige Widget ermöglicht den Links zu den Accounts in sozialen Netzwerken hinzuzufügen. Es hat die folgenden Optionen:</p>
+	        <ul>
+	          <li><i class="icon-angle-right"></i> <strong>Title:</strong> - Titel des Widgets.</li>
+	          <li><i class="icon-angle-right"></i> <strong>Facebook URL</strong>, <strong>Twitter URL</strong>, <strong>Flickr URL,</strong> etc. - Links zu den Accounts in sozialen Netzwerken.</li>
+	          <li><i class="icon-angle-right"></i> <strong>Display:</strong> Darstellung der Icons
+	            <ul style="padding:.5em 0 0 1em;overflow:hidden;">
+	              <li><i class="icon-angle-right"></i> <em>Icons</em> - nur Icons.</li>
+	              <li><i class="icon-angle-right"></i> <em>Labels</em> - nur Text.</li>
+	              <li><i class="icon-angle-right"></i> <em>Both</em> - Icons und Text.</li>
+	            </ul>
+	          </li>
+	        </ul>        
+      	</div>
+      </div>
+      <br />
+      <div class="row"> 
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_banners.jpg" alt=""></figure>
+        <div class="clearfix">
+	        <h5>Cherry - 125x125 Ads</h5>
+	        <p>Das jeweilige Widget ermöglicht die Banner hinzuzufügen. Es enthält die folgenden Optionen:</p>
+	        <ul>
+	          <li><i class="icon-angle-right"></i> <strong>Title:</strong> - Titel des Widgets.</li>
+	          <li><i class="icon-angle-right"></i> <strong>Image Ad link:</strong> - Pfad zum Bannerbild.</li>
+	          <li><i class="icon-angle-right"></i> <strong>Add link:</strong> - Link zum Banner.</li>
+	        </ul>
+        </div>
+      </div>
+      <br />
+      <div class="row"> 
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_flickr.jpg" alt=""></figure>
+        <div class="clearfix">
+	        <h5>Cherry - Flickr</h5>
+	        <p>Das jeweilige Widget ermöglicht Bilder aus der Galerie Flickr darzustellen. Es enthält die folgenden Optionen:</p>
+	        <ul>
+	          <li><i class="icon-angle-right"></i> <strong>Title:</strong> - Titel des Widgets.</li>
+	          <li><i class="icon-angle-right"></i> <strong>Flickr ID:</strong> - Ihre flickr ID.</li>
+	          <li><i class="icon-angle-right"></i> <strong>Images count:</strong> - die Anzahl der dargestellten Fotos.</li>
+	          <li><i class="icon-angle-right"></i> <strong>Link Text:</strong> - Linktext unter den Fotos flickr.</li>
+	        </ul>
+        </div>
+      </div>
+      <br />
+      <div class="row"> 
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_vcard.jpg" alt=""></figure>
+        <div class="clearfix">
+          <h5>Cherry - vCard</h5>
+          <p>Das jeweilige Widget stellt die Information über Ihr Unternehmen und Sie dar. Es enthält die folgenden Optionen:</p>
+          <ul>
+            <li><i class="icon-angle-right"></i> <strong>Title (optional):</strong> - Titel des Widgets.</li>
+            <li><i class="icon-angle-right"></i> <strong>Street Address:</strong> - Strassenadresse.</li>
+            <li><i class="icon-angle-right"></i> <strong>City/Locality:</strong> - Stadt oder Gegend.</li>
+            <li><i class="icon-angle-right"></i> <strong>State/Region:</strong> - Staat oder Region.</li>
+            <li><i class="icon-angle-right"></i> <strong>Zipcode/Postal Code:</strong> - Postleitzahl oder Code.</li>
+            <li><i class="icon-angle-right"></i> <strong>Telephone:</strong> - Telefonnummer.</li>
+            <li><i class="icon-angle-right"></i> <strong>Email:</strong> - Ihre E-Mail-Adresse.</li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <div class="row"> 
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_post_cycle.png" alt=""></figure>
+        <div class="clearfix">
+	        <h5>Cherry - Post-Zyklus</h5>
+	        <p>Dieses Widget ermöglicht die notwendigen Posts darzustellen. Es enthält die folgenden Optionen:</p>
+	        <ul>
+            <li><i class="icon-angle-right"></i> <strong>Title (optional):</strong> - Titel des Widgets (Optional).</li>
+            <li><i class="icon-angle-right"></i> <strong>Post type:</strong> - Postformat.</li>
+            <li><i class="icon-angle-right"></i> <strong>Categories:</strong> - Kategorien, aus denen Posts dargestellt werden müssen.</li>
+            <li><i class="icon-angle-right"></i> <strong>Posts count:</strong> - die Anzahl der dargestellten Posts.</li>
+            <li><i class="icon-angle-right"></i> <strong>Thumbnail Width (in pixels):</strong> - die Breite der Miniatur der Post (in Pixeln).</li>
+            <li><i class="icon-angle-right"></i> <strong>Thumbnail Height (in pixels):</strong> - die Höhe der Miniatur der Post (in Pixeln).</li>
+            <li><i class="icon-angle-right"></i> <strong>Show titles: </strong> - zeigt dit Posttitel.</li>
+            <li><i class="icon-angle-right"></i> <strong>Show date: </strong> - zeigt das Postdatum.</li>
+            <li><i class="icon-angle-right"></i> <strong>Show author: </strong> - zeigt den Autor.</li>
+            <li><i class="icon-angle-right"></i> <strong>Show comments: </strong> - zeigt die Kommentare.</li>
+            <li><i class="icon-angle-right"></i> <strong>Show excerpt: </strong> - zeigt den Inhalt.</li>
+            <li><i class="icon-angle-right"></i> <strong>Excerpt word count: </strong> - zeigt die Anzahl der Wörter im Inhalt.</li>
+            <li><i class="icon-angle-right"></i> <strong>More Button Text: </strong> - Text auf dem Button "Details".</li>
+            <li><i class="icon-angle-right"></i> <strong>Slideshow cycling speed (in sec.):</strong> - Geschwindigkeit des Sliders in Millisekunden.</li>
+            <li><i class="icon-angle-right"></i> <strong>Arrows:</strong> - zeigt die Pfeile des Sliders.</li>
+            <li><i class="icon-angle-right"></i> <strong>Pagination:</strong> - zeigt die Paginierung des Sliders.</li>
+	        <li><i class="icon-angle-right"></i> <strong>Custom CSS class: </strong> - benutzerdefinierte Klasse des Widgets.</li>
+	        </ul>
+        </div>
+      </div>
+	   <br />
+      <div class="row"> 
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_facebook_like_box.jpg" alt=""></figure>
+        <div class="clearfix">
+          <h5>Cherry - Facebook Block "Like"</h5>
+          <p>Dieses Widget ermöglicht Facebook Seiten darzustellen. Es enthält die folgenden Optionen:</p>
+          <ul>
+            <li><i class="icon-angle-right"></i> <strong>Title (optional):</strong> - Titel des Widgets (Optional).</li>
+            <li><i class="icon-angle-right"></i> <strong>Facebook page url:</strong> - Adresse Ihrer <a href="https://www.facebook.com/help/174987089221178/">Facebook Seite</a>.</li>
+            <li><i class="icon-angle-right"></i> <strong>Width: & Height:</strong> - Größen des Blocks.</li>
+            <li><i class="icon-angle-right"></i> <strong>Color Scheme:</strong> - Farbschema (hell/dunkel).</li>
+            <li><i class="icon-angle-right"></i> <strong>Display header:</strong> - ermöglicht Header darzustellen/zu verstecken.</li>
+            <li><i class="icon-angle-right"></i> <strong>Display faces:</strong> - ermöglicht Fotos (Gesichter) Ihrer Facebook Freunde darzustellen/zu verstecken.</li>
+            <li><i class="icon-angle-right"></i> <strong>Display stream:</strong> - ermöglicht Stream darzustellen/zu verstecken.</li>
+            <li><i class="icon-angle-right"></i> <strong>Display border:</strong> - ermöglicht die Darstellungen der Grenzen darzustellen/zu verstecken.</li>
+            <li><i class="icon-angle-right"></i> <strong>Custom CSS class: </strong> - benutzerdefinierte Klasse des Widgets.</li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <div class="row"> 
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_cherry_instagram.jpg" alt=""></figure>
+        <div class="clearfix">
+          <h5>Cherry - Instagram</h5>
+          <p>Dieses Widget ermöglicht die letzten Posts Instagram darzustellen. Es enthält die folgenden Optionen:</p>
+          <ul>
+            <li><i class="icon-angle-right"></i> <strong>Widget Title: (optional):</strong> - Titel des Widgets (Optional).</li>
+            <li><i class="icon-angle-right"></i> <strong>User Name: (required field)</strong> -  Benutzername Instagram (Dieses Widget wird nur für diejenigen Benutzer verfügbar, die den vollen Zugang zu eigenem Account Instagram gewährt haben.)</li>
+            <li><i class="icon-angle-right"></i> <strong>Number of displayed images: </strong> - Die Anzahl der dargestellten Bilder (Maximalwert: 20.).</li>
+            <li><i class="icon-angle-right"></i> <strong>Image dimensions:</strong> - die Größe der dargestellten Bilder (Groß/Miniatur).</li>
+            <li><i class="icon-angle-right"></i> <strong>Show image description:</strong> - ermöglicht die Bildbeschreibungen darzustellen/zu verstecken.</li>
+            <li><i class="icon-angle-right"></i> <strong>Show comments number:</strong> - ermöglicht die Anzahl der Kommentare darzustellen/zu verstecken.</li>
+            <li><i class="icon-angle-right"></i> <strong>Show likes number:</strong> - ermöglicht die Anzahl der "Likes" darzustellen/zu verstecken.</li>
+            <li><i class="icon-angle-right"></i> <strong>Show image publication date:</strong> - ermöglicht das Bilddatum darzustellen/zu verstecken.</li>
+            <li><i class="icon-angle-right"></i> <strong>Show Image URL:</strong> - ermöglicht die  Bildadresse darzustellen/zu verstecken.</li>
+            <li><i class="icon-angle-right"></i> <strong>User account button text: </strong> - Linktext zur Benutzerseite bei Instagram.</li>
+            <li><i class="icon-angle-right"></i> <strong>Custom CSS class: </strong> - benutzerdefinierte Klasse des Widgets.</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </section>  
+<!-- Plugins and Custom Widgets end -->
+<!-- Theme Options begin -->
+  <section class="block-templates" id="theme_options">  
+
+    <h2><i class="icon-cogs"></i> Optionen Cherry </h2>
+    <p>In diesem Thema gibt es die Optione der Einstellungen. Sie ermöglicht das Farbschema des Themas, die Reihenfolge der Elemente zu ändern, und Elemente einzuschalten oder auszuschalten. Um diese Einstellungen zu verwenden, gehen Sie zum Menü <strong>Appearance (Aussehen) &rarr; Cherry Options</strong> <strong>(Optionen Cherry)</strong>.</p> 
+    <article id="general_option"> 
+      <h4>Allgemeine</h4>
+      <div class="row"> 
+      <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_general.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_general.jpg" alt=""><i class="icon-search"></i></a></figure>
+      <div class="clearfix">
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Body styling (Seitenstil) </strong> - ermöglicht die Seitenfarbe und den Hintergrund auszuwählen.</li>
+		<li><i class="icon-angle-right"></i> <strong>Layout Style: </strong> - hier können Sie das Layout Ihrer Webseite wählen (gummi, 100% Breite/mit fester Breite)</li>
+		<li><i class="icon-angle-right"></i> <strong>Header styling:</strong> - Hintergrundbild und Hintergrundfarbe des Headers.</li>
+        <li><i class="icon-angle-right"></i> <strong>Buttons and links color (Hintergrundfarbe des Headers)</strong> - Farbe der Buttons und Links.</li>
+		<li><i class="icon-angle-right"></i> <strong>Buttons and links hover color</strong> - Farbe der Buttons und Links bei Berührung.</li>
+        <li><i class="icon-angle-right"></i> <strong>Body Text (Seitentext)</strong> - ermöglicht die Schrift für den Seitentext auszuwählen. Zur Bearbeitung der Schrift sind die folgenden Optionen verfügber:
+          <ol style="margin-bottom:0; padding-left:20px; overflow:hidden;">
+            <li><em>Font size (Schriftgröße)</em></li>
+            <li><em>Line height (Zeilenhöhe)</em></li>
+            <li><em>Font Family (Schriftfamilie)</em></li>
+            <li><em>Font style (normal, bold, italic) (Schriftstil (normal, fett, kursiv))</em></li>
+            <li><em>Character Sets (Latin, Greek, Cyrillic, etc.) (Zeichensatz (lateinisch, griechisch, kyrillisch usw.))</em></li>
+            <li><em>Color (Farbe)</em></li>
+          </ol>
+          <p><span class="label label-warning">Achtung:</span> Schriften, die mit dem Sternchen (*) markiert sind, werden aus der Bibliothek Google Web Fonts hochgeladen.</p>
+        </li>
+        
+        <li><i class="icon-angle-right"></i> <strong>H1-H6 Headings</strong> - ermöglicht die Schrift für die Titel auszuwählen. Zur Bearbeitung der Schriften sind die folgenden Optionen verfügbar:
+          <ol style="margin-bottom:0; padding-left:20px; overflow:hidden;">
+            <li><em>Font size (Schriftgröße)</em></li>
+            <li><em>Line height (Zeilenhöhe)</em></li>
+            <li><em>Font Family (Schriftfamilie)</em></li>
+            <li><em>Font style (normal, bold, italic) (Schriftstil (normal, fett, kursiv))</em></li>
+            <li><em>Character Sets (Latin, Greek, Cyrillic, etc.) (Zeichensatz (lateinisch, griechisch, kyrillisch usw.))</em></li>
+            <li><em>Color (Farbe)</em></li>
+          </ol>
+          <p><span class="label label-warning">Achtung:</span> Schriften, die mit dem Sternchen (*) markiert sind, werden aus der Bibliothek Google Web Fonts hochgeladen.</p>
+        </li>
+       
+        <li><i class="icon-angle-right"></i> <strong>Display search box? (Muss das Suchfeld dargestellt werden?)</strong> - ermöglicht das Suchfeld im Header darzustellen/zu verstecken.</li>
+        <li><i class="icon-angle-right"></i> <strong>Display breadcrumbs? (Muss die Brotkrümelnavigation dargestellt werden?) </strong> - ermöglicht die Brotkrümelnavigation auf den Seiten darzustellen/zu verstecken.</li>
+        <li><i class="icon-angle-right"></i> <strong>Custom CSS (Custom CSS)</strong> - wenn Sie CSS Regel hinzufügen möchten,  ohne den Code der CSS Hauptdatei zu verletzen, dann können Sie dieses Feld nutzen. Fügen Sie einfach die neue CSS Regel ein.</li>
+      </ul>
+      </div>
+      </div>
+    </article>
+    <article id="logo_option">
+      <h4>Logo &amp; Favicon (Logo und Favicon)</h4> 
+      <div class="row"> 
+      <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_logo.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_logo.jpg" alt=""><i class="icon-search"></i></a></figure>
+      <div class="clearfix">
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>What kind of logo? (Typ des Logo)</strong> - ermöglicht das Logo mit Text und Grafik zu nutzen.</li>
+        <li><i class="icon-angle-right"></i> <strong>Logo URL (URL des Logos)</strong> - wenn die Option Image logo (grafisches Logo) ausgewählt wurde, kann man das Bild mittels des Buttons 'upload (hochladen)' oder jegliches Bild aus Mediathek (Media Library) hochladen.</li>
+        <li><i class="icon-angle-right"></i> <strong>Logo Typography (Schrift des Logos) </strong> - ermöglicht die Schrift für den Text auf dem Logo auszuwählen. Zur Bearbeitung der Schrift sind die folgenden Optionen verfügbar:
+          <ol style="margin-bottom:0; padding-left:20px; overflow:hidden;">
+            <li><em>Font size (Schriftgröße)</em></li>
+            <li><em>Line height (Zeilenhöhe)</em></li>
+            <li><em>Font Family (Schriftfamilie)</em></li>
+            <li><em>Font style (normal, bold, italic) (Schriftstil (normal, fett, kursiv))</em></li>
+            <li><em>Character Sets (Latin, Greek, Cyrillic, etc.) (Zeichensatz (lateinisch, griechisch, kyrillisch usw.))</em></li>
+            <li><em>Color (Farbe)</em></li>
+          </ol>
+          <p><span class="label label-warning">Achtung:</span> Schriften, die mit dem Sternchen (*) markiert sind, werden aus der Bibliothek Google Web Fonts hochgeladen.</p>
+        </li>
+        
+        <li><i class="icon-angle-right"></i> <strong>Favicon (Favicon)</strong> - man kann neues Favicon mittels des Buttons 'upload (hochladen)' oder jegliches Bild aus Mediathek (Media Library) hochladen.</li>
+      </ul>
+      </div>
+      </div>
+    </article>
+    <article id="navigation_option">
+      <h4>Navigation (Navigation)</h4> 
+      <div class="row"> 
+      <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_nav.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_nav.jpg" alt=""><i class="icon-search"></i></a></figure>
+      <div class="clearfix">
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Menu Typography (Schrift des Menüs)</strong> -  ermöglicht die Schrift fürs Hauptmenü auszuwählen. Zur Bearbeitung der Schrift sind die folgenden Optionen verfügbar:
+          <ol style="margin-bottom:0; padding-left:20px; overflow:hidden;">
+            <li><em>Font size (Schriftgröße)</em></li>
+            <li><em>Line height (Zeilenhöhe)</em></li>
+            <li><em>Font Family (Schriftfamilie)</em></li>
+            <li><em>Font style (normal, bold, italic) (Schriftstil (normal, fett, kursiv))</em></li>
+            <li><em>Character Sets (Latin, Greek, Cyrillic, etc.) (Zeichensatz (lateinisch, griechisch, kyrillisch usw.))</em></li>
+            <li><em>Color (Farbe)</em></li>
+          </ol>
+          <p><span class="label label-warning">Achtung:</span> Schriften, die mit dem Sternchen (*) markiert sind, werden aus der Bibliothek Google Web Fonts hochgeladen.</p>
+        </li>
+        <li><i class="icon-angle-right"></i> <strong>Delay (Verzögerung)</strong> - die Verzögerung der Darstellung des DropDownMenüs in Millisekunden</li>
+        <li><i class="icon-angle-right"></i> <strong>Fade-in animation (Ausblendanimation)</strong> - ermöglicht die Ausblendanimation einzuschalten/auszuschalten</li>
+        <li><i class="icon-angle-right"></i> <strong>Slide-down animation (Dia-Animation)</strong> - ermöglicht die Dia-Animation einzuschalten/auszuschalten </li>
+        <li><i class="icon-angle-right"></i> <strong>Speed (Geschwindigkeit)</strong> - die Geschwindigkeite für die Anzeige des Untermenüs</li>
+        <li><i class="icon-angle-right"></i> <strong>Arrows markup (Pfeile)</strong> - ermöglicht die Pfeile für Punkte aus dem Untermenü einzuschalten/auszuschalten </li>
+        <li><i class="icon-angle-right"></i> <strong>Mobile menu label (Titel fürs Mobilmenü)</strong> - der Text, der auf dem Menü für mobile Geräte dargestellt wird.</li>
+		<li><i class="icon-angle-right"></i> <strong>Use stickUp menu ("anhaftendes" Menü verwenden)</strong> - schalten Sie diese Option ein, wenn Sie das Menü verwenden möchten, das "anhaftet" zu overem Rand der Seite.</li>
+      </ul>
+      </div>
+      </div>
+    </article>
+    <article id="slider_option">
+      <h4>Slider (Slider)</h4>
+      <p>Die Höhe des Sliders kann in der Datei <b>"wp-content/themes/theme###/slider.php"</b> festgelegt werden. Ändern Sie den Wert "height" in der Variable $slider_default_params.</p>
+
+      <h5>Disable Slider (Slider ausschalten)</h5>
+      <div class="row">  
+        <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_slider_none.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_slider_none.jpg" alt=""><i class="icon-search"></i></a></figure>
+        <p>Option fürs Ausschalten des Sliders.</p>
+      </div>
+      <h5>Slideshow (Diashow)</h5>
+      <div class="row"> 
+        <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_slider_camera.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_slider_camera.jpg" alt=""><i class="icon-search"></i></a></figure>
+        <div class="clearfix">
+        <ul>
+          <li><i class="icon-angle-right"></i> <strong>Sliding effect (Diawechseleffekt)</strong> - Diawechseleffekt</li>
+		  <li><i class="icon-angle-right"></i> <strong>Sort by parameter (Sortieren nach)</strong> - ermöglicht die Dias nach bestimmtem Parameter zu sortieren (Sortieren nach)</li>
+          <li><i class="icon-angle-right"></i> <strong>Sort order (Sortierreihenfolge)</strong> - Sortierreihenfolge der Posts</li>
+          <li><i class="icon-angle-right"></i> <strong>Number of columns (Anzahl der Spalten)</strong> - Anzahl der Spalten</li>
+          <li><i class="icon-angle-right"></i> <strong>Number of rows (Anzahl der Reihen)</strong> - Anzahl der Reihen</li>
+          <li><i class="icon-angle-right"></i> <strong>Banner effect (Banner Effekt)</strong> - ermöglicht den Animationstyp fürs Banner auszuwählen</li>
+          <li><i class="icon-angle-right"></i> <strong>Pause time (Dauer der Pause )</strong> - die Dauer der Pause (ms)</li>
+          <li><i class="icon-angle-right"></i> <strong>Animation speed (Animationsgeschwindigkeit)</strong> - Animationsgeschwindigkeit (ms)</li>
+          <li><i class="icon-angle-right"></i> <strong>Slideshow (Diashow)</strong> - automatische Animation des Sliders</li>
+          <li><i class="icon-angle-right"></i> <strong>Thumbnails (Miniaturen)</strong> - stellt die Miniaturen dar</li>
+          <li><i class="icon-angle-right"></i> <strong>Pagination (Paginierung)</strong> - stellt die  	Paginierung dar</li>
+          <li><i class="icon-angle-right"></i> <strong>Next &amp; Prev navigation (Navigation per "Vorwärts"/"Zurück")</strong> - stellt die Buttons "Vorwärts"/"Zurück" dar</li>
+          <li><i class="icon-angle-right"></i> <strong>Display next &amp; prev navigation only on hover? (Müssen die Buttons "Vorwärts"/"Zurück" nur bei Hover dargestellt werden?)</strong> - Wenn man 'ja,' wählt, werden die Naviagationstasten ("zurück", "vorwärts" und  "abspielen/stop") nur bei Hover dargestellt, wenn man 'nein,' wählt, werden sie immer sichtbar.</li>
+          <li><i class="icon-angle-right"></i> <strong>Play/Pause button (Button "abspielen/Pause")</strong> - stellt den Button "abspielen/Pause"</li>
+          <li><i class="icon-angle-right"></i> <strong>Loader (Loader)</strong> - Loader des Sliders.</li>
+        </ul>
+        </div>
+      </div>
+      <h5>Accordion (Akkordeon) </h5>
+      <div class="row"> 
+      <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_slider_accordion.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_slider_accordion.jpg" alt=""><i class="icon-search"></i></a></figure>
+      <div class="clearfix">
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Slides to display (Dias darstellen)</strong> - wählen Sie Dias, die Sie im Slider anzeigen möchten. Wenn Sie kein Dia ausgewählt haben, werden dann alle Dias angezeigt.</li>
+		<li><i class="icon-angle-right"></i> <strong>Sort by parameter (Sortieren nach)</strong> - ermöglicht Dias nach bestimmtem Parameter zu sortieren (sortieren nach)</li>
+        <li><i class="icon-angle-right"></i> <strong>Sort order (Sortierreihenfolge)</strong> - Sortierreihenfolge der Posts</li>
+        <li><i class="icon-angle-right"></i> <strong>Slideshow (Diashow)</strong> - automatische Animation des Sliders</li>
+        <li><i class="icon-angle-right"></i> <strong>Pause on mouseover (Pause bei Berührung)</strong> - die automatische Wiedergabe wird bei Berührung des Sliders abgestoppt.</li>
+        <li><i class="icon-angle-right"></i> <strong>Pause time (Dauer der Pause)</strong> - Dauer der Pause (ms)</li>
+        <li><i class="icon-angle-right"></i> <strong>Animation speed (Animationsgeschwindigkeit)</strong> - Animationsgeschwindigkeit (ms)</li>
+        <li><i class="icon-angle-right"></i> <strong>Animation slowdown (Verlangsamung der Animation)</strong> - man kann verschieden Typen der Verlangsamung der Animation beim Diawechseln festlegen.</li>
+        <li><i class="icon-angle-right"></i> <strong>Mouse events for transition of slides (Mausaktionen fürs Diawechseln)</strong> - man kann verschiedene Mausaktionen fürs Diawechseln wählen.</li>
+        <li><i class="icon-angle-right"></i> <strong>Active slide (Aktive Dias)</strong> - wählen Sie die Anzahl der Dias, die standardmäßig aktiv werden. Wenn der Wert 0 ist, werden alle Dias die gleiche Breite beim Hochladen der Seite haben.</li>
+      </ul>
+      </div>
+      </div>
+    </article>
+    <article id="blog_option">
+      <h4>Blog (Blog)</h4>
+      <div class="row"> 
+      <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_blog.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_blog.jpg" alt=""><i class="icon-search"></i></a></figure>
+      <div class="clearfix">
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Blog Title (Titel des Blogs)</strong> - Titel, der auf der Blogseite benutzt wird</li>
+        <li><i class="icon-angle-right"></i> <strong>Related Posts Title (Titel der ähnlichen Posts)</strong> - Titel, der auf der Seite der einzelnen Post für ähnliche Posts benutzt wird</li>
+        <li><i class="icon-angle-right"></i> <strong>Blog layout (Blog Layout)</strong> - ermöglicht die Position der Seitenleiste (links oder rechts) und die Platzierung der Blocks festzulegen</li>
+        <li><i class="icon-angle-right"></i> <strong>Blog image size (Bildgröße des Blogs)</strong> - die Bildgröße (Standard und Groß) auf der Blogseite</li>
+        <li><i class="icon-angle-right"></i> <strong>Single post image size (Bildgröße der einzelnen Post) </strong> - Bildgröße (Standard und Groß) auf der Seite der einzelnen Post</li>
+		<li><i class="icon-angle-right"></i> <strong>Display share button in single post? (Muss der Button "austauschen" auf den Single Seiten dargestellt werden?)</strong> - ermöglicht den Button "austauschen" auf den Single Seiten darzustellen</li>
+		<li><i class="icon-angle-right"></i> <strong>Should images be uploaded on page scroll? (Müssen die Bilder hochgeladen werden, sobald sie im sichtbaren Bereich auf der Seite sind)</strong> - Browser kann die Bilder nur dann hochladen, wenn der Benutzer sie sehen kann. Ansonsten werden alle Bilder beim Hochladen der Seite hochgeladen</li>
+        <li><i class="icon-angle-right"></i> <strong>Enable excerpt for blog posts? (Muss der Inhalt für für Blogposts aktiviert werden)</strong> - stellt den Inhalt für Blogposts dar</li>
+		<li><i class="icon-angle-right"></i> <strong>Button text for blog posts. (Text auf dem Button für Blogposts)</strong> - Text auf dem Button "mehr lesen" für Blogposts</li>
+        <li><i class="icon-angle-right"></i> <strong>View meta of the blog (Metadaten des Blogs anschauen)</strong> - wählt den Typ des Metablocks, der auf der Blogseite dargestellt wird</li>
+        <li><i class="icon-angle-right"></i> <strong>Post publication date (Datum der Veröffentlichung)</strong> - stellt das Datum der Veröffentlichung dar</li>
+        <li><i class="icon-angle-right"></i> <strong>Author of the post (Autor der Post)</strong> - zeigt den Autor der Post</li>
+        <li><i class="icon-angle-right"></i> <strong>Direct link to the post (Direkter Link zur Post)</strong> - zeigt den direkten Link zur Post</li>
+        <li><i class="icon-angle-right"></i> <strong>Post categories (Post-Kategorien)</strong> - stellt die  Post-Kategorien dar</li>
+        <li><i class="icon-angle-right"></i> <strong>Tags be displayed (Tags anzeigen)</strong> - zeigt die Tags</li>
+        <li><i class="icon-angle-right"></i> <strong>Number of comments (Anzahl der Kommentare)</strong> - wählt die Anzahl der dargestellten Kommentare</li>
+        <li><i class="icon-angle-right"></i> <strong>Number of views (Anzahl der Ansichten)</strong> - zeigt die Anzahl der Ansichten</li>
+        <li><i class="icon-angle-right"></i> <strong>Number of likes (Anzahl der Likes)</strong> -  stellt die Anzahl der Likes dar</li>
+        <li><i class="icon-angle-right"></i> <strong>Number of dislikes (Anzahl der Dislikes)</strong> - stellt die Anzahl der Dislikes dar</li>
+      </ul>
+      </div>
+      </div>
+    </article>
+    <article id="portfolio_option">
+      <h4>Portfolio (Portfolio)</h4>
+      <div class="row"> 
+      <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_portfolio.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_portfolio.jpg" alt=""><i class="icon-search"></i></a></figure>
+      <div class="clearfix">
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Filter (Filter)</strong> - Filter des Portfolios.</li>
+        <li><i class="icon-angle-right"></i> <strong>Show title? (Titel anzeigen)</strong> - ermöglicht den Titel des Portfolios einzuschalten/oder auszuschalten.</li>
+        <li><i class="icon-angle-right"></i> <strong>Show excerpt? (Inhalt darstellen)</strong> - ermöglicht den Inhalt des Portfolios einzuschalten/oder auszuschalten.</li>
+        <li><i class="icon-angle-right"></i> <strong>Excerpt words (Kurzer Inhalt)</strong> - kurzer Inhalt (wörtlich).</li>
+        <li><i class="icon-angle-right"></i> <strong>Show button? (Button anzeigen)</strong> - ermöglicht den Button in den Posts des Portfolios einzuschalten/oder auszuschalten.</li>
+        <li><i class="icon-angle-right"></i> <strong>Layout (Struktur)</strong> - Im Portfolio gibt es einige Strukturen. Dank dieser Option können Sie sie ändern.</li>
+        <li><i class="icon-angle-right"></i> <strong>Portfolio 2 columns items amount (Portfolioelemente in 2 Spalten)</strong> - Gliederung der Portfolioelemente in 2 Spalten.</li>
+        <li><i class="icon-angle-right"></i> <strong>Portfolio 3 columns items amount (Portfolioelemente in 3 Spalten)</strong> - Gliederung der Portfolioelemente in 3 Spalten.</li>
+        <li><i class="icon-angle-right"></i> <strong>Portfolio 4 columns items amount (Portfolioelemente in 4 Spalten)</strong> - Gliederung der Portfolioelemente in 4 Spalten.</li>
+      </ul>
+      </div>
+      </div>
+    </article>
+    <article id="footer_option">
+      <h4>Footer (Footer)</h4>
+      <div class="row"> 
+      <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_footer.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_footer.jpg" alt=""><i class="icon-search"></i></a></figure>
+      <div class="clearfix">
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Footer copyright text (Copyright Text im Footer)</strong> - der Inhalt des Texts im Footer.  Wenn Sie das Textfeld leer lassen, wird der Inhalt standardmäßig dargestellt. Er ist in der Datei <em>footer.php</em>.</li>
+        <li><i class="icon-angle-right"></i> <strong>Google Analytics Code (Google Analytics Code)</strong> - man kann den Code für SEO Statistik hinzufügen. Zum Beispiel, <em>Google Analytics Code</em>.</li>
+        <li><i class="icon-angle-right"></i> <strong>Feedburner URL</strong> - <a href="http://www.feedburner.com/" target="_blank">Feedburner</a>  - Service Google, der RSS Feed festlegt. Fügen Sie hier Ihre Feedburner URL, damit die Leser auf der Webseite dies sehen können.</li>
+        <li><i class="icon-angle-right"></i> <strong>Display Footer menu (Menü im Footer darstellen)</strong> - schaltet das Menü im Footer ein und aus.</li>
+        <li><i class="icon-angle-right"></i> <strong>Footer Menu Typography (Menüschrift im Footer)</strong> - ermöglicht eine Schrift fürs Menü im Footer auszuwählen. Zur Bearbeitung der Schrift sind die folgenden Optionen verfügbar:
+          <ol style="margin-bottom:0; padding-left:20px; overflow:hidden;">
+            <li><em>Font size (Schriftgröße)</em></li>
+            <li><em>Line height (Zeilenhöhe)</em></li>
+            <li><em>Font Family (Schriftfamilie)</em></li>
+            <li><em>Font style (normal, bold, italic) (Schriftstil (normal, fett, kursiv))</em></li>
+            <li><em>Character Sets (Latin, Greek, Cyrillic, etc.) (Zeichensatz (lateinisch, griechisch, kyrillisch usw.))</em></li>
+            <li><em>Color (Farbe)</em></li>
+          </ol>
+          <p><span class="label label-warning">Achtung:</span> Schriften, die mit dem Sternchen (*) markiert sind, werden aus der Bibliothek Google Web Fonts hochgeladen.</p>
+        </li>
+      </ul>
+      </div>
+      </div>
+    </article>
+
+   <article id="footer_logo_option">
+   <p class="alert">Bereiche 'footer logo (Logo des Footers),' 'contacts (Kontakte)' und 'social (soziale Services)' sind optional. Sie können in einigen Themen fehlen. </p>
+      <h4>Footer Logo (Logo des Footers)</h4>
+      <div class="row"> 
+      <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_footer_logo.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_footer_logo.jpg" alt=""><i class="icon-search"></i></a></figure>
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Logo Image Path (Pfad zum Logo-Bild)</strong> - wenn die Option Image logo (Grafisches Logo) gewählt wurde, kann man das neue Bild mittels des Buttons 'upload (hochladen)' oder jegliches Bild aus der Mediathek (Media Library) hochladen.</li>
+      </ul>
+      </div>
+    </article>
+
+    <article id="contacts_option">
+      <h4>Contacts (Kontakte)</h4>
+      <div class="row"> 
+      <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_contacts.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_contacts.jpg" alt=""><i class="icon-search"></i></a></figure>
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Street Address (Strassenadresse)</strong> - Strassenadresse.</li>
+        <li><i class="icon-angle-right"></i> <strong>City/Locality (Stadt/Gegend) </strong> - Stadt/Gegend.</li>
+        <li><i class="icon-angle-right"></i> <strong>Zipcode (Postkode)</strong> - Postkode.</li>
+        <li><i class="icon-angle-right"></i> <strong>Phone number (Telefonnummer)</strong> - Telefonnummer.</li>
+      </ul>
+      </div>
+    </article>
+    
+    <article id="social_option">
+      <h4>Social (Soziale Netzwerke)</h4>
+      <div class="row"> 
+      <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_social.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_social.jpg" alt=""><i class="icon-search"></i></a></figure>
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Facebook URL</strong> - Link zur Facebook Seite.</li>
+        <li><i class="icon-angle-right"></i> <strong>Google+ URL</strong> - Link zur Google+ Seite.</li>
+        <li><i class="icon-angle-right"></i> <strong>RSS URL</strong> - Kink zu RSS-Feed.</li>
+        <li><i class="icon-angle-right"></i> <strong>Pinterest URL</strong> - Link zur Pinterest Seite.</li>
+        <li><i class="icon-angle-right"></i> <strong>Linkedin URL</strong> - Link zur Linkedin Seite.</li>
+      </ul>
+      </div>
+    </article>
+  </section>  
+<!-- Theme Options end -->
+<!-- Shop Kit begin -->
+  <section class="block-templates" id="shop_kit">  
+
+    <h2><i class="icon-shopping-cart"></i> Shop Beginners Kit</h2>
+    <div class="box-notification"><span>Wichtig! Shop Beginners Kit funktioniert nur auf <strong>Cherry Framework</strong> Version <strong>2.0</strong> oder höher.<br><small>Wenn Ihre Version kleiner als 2.0 ist,  <a href="#backup_update">aktualisieren Sie</a> Cherry Framework.</small></span></div>
+    <p> Shop Beginners Kit kann man mit dem Thema WordPress oder getrennt kaufen.</p>
+    <article>
+      <p>Vor allem müssen Sie Plugin <strong>WooCommerce</strong> oder <strong>Jigoshop</strong> installieren und aktivieren.</p>
+      <h5>Folgen Sie diesesn Links, um Plugins herunterzuladen:</h5>
+      <p><strong>Plugin Jigoshop:</strong> <a href="http://wordpress.org/plugins/jigoshop/">http://wordpress.org/plugins/jigoshop/</a><br>
+      <strong>Plugin WooCommerce:</strong> <a href="http://wordpress.org/plugins/woocommerce/">http://wordpress.org/plugins/woocommerce/</a></p>
+
+      <div class="box-notification"><span>Achtung! Für die volle Funktionsfähigkeit benötigen Sie nur einen Plugin.</span></div>
+
+      <h5>Installation des Plugins</h5>
+      <ol>
+        <li>Im Control Panel WordPress gehen Sie zum Menü <strong>Plugins (Plugins) -&gt; Add New (Neu hinzufügen).</strong></li>
+        <li>Klicken Sie den Button <strong>Upload (Hochladen)</strong>.</li>
+        <li>Drücken Sie <strong>Browse (Übersicht)</strong>.</li>
+        <li>Wählen Sie die eine Datei von den Plugins und drücken Sie <strong>OK</strong>.</li>
+        <li>Klicken Sie <strong> Install Now (Installieren).</strong></li>
+        <li>Nachdem Plugin installiert wurde, drücken Sie <strong>Activate (Aktivieren)</strong>.</li>
+      </ol>
+
+      <h5>Wenn Sie das jeweilige Angebot <strong>mit den Thema WordPress</strong>gekauft haben, müssen Sie ein paar Schritte machen, damit dies korrekt funktionieren kann.</h5>
+      <p>Sie können auch Widgets und Demoprodukte für Ihren Online-Shop installieren.</p>
+      <p>Machen Sie die folgenden Schritte:</p>
+      <ol>
+        <li>Installation der Widgets:
+          <ul>
+            <li><i class="icon-angle-right"></i> Im Menü wählen Sie Cherry Options (Optionen Cherry) -> Import (Import)</li>
+            <li><i class="icon-angle-right"></i> Wählen Sie die Datei jigoshop_widgets.json oder woocommerce_widgets.json abhängig von dem Plugin, den Sie installiert haben. Dann drücken Sie den Button Show Widget Settings (Einstellungen des Widgets zeigen) (<em>dieser Schritt können Sie nicht machen und alle Widgets manuell im Menü Appearance (Aussehen) -> Widgets (Widgets)</em>einstellen).</li>
+            <li><i class="icon-angle-right"></i> Wählen Sie Widgets zur Installation und drücken Sie den Button Import Settings (Import der Einstellungen).</li>
+            <li><i class="icon-angle-right"></i> Warten Sie bis die Installation abgeschlossen wurde.</li>
+          </ul>
+        </li>
+        <li>Hinzufügen der Demoprodukte.
+          <ul>
+            <li><i class="icon-angle-right"></i> Wählen Sie die Datei shop_sample_data.xml und drücken Sie den Button Upload file (Hochladen) und Import (Import) (<em>dieser Schritt können Sie später machen</em>).</li>
+            <li><i class="icon-angle-right"></i> Im Feld Import Author (Autor des Imports), wählen Sie den Benutzer und drücken Sie den Button Import Data (Datenimport).</li>
+            <li><i class="icon-angle-right"></i> Nachdem Sie die Demoprodukte installiert haben, drücken Sie den Button Finish (Abschliessen). Jetzt kann Ihr Online-Shop vollwertig funktionieren.</li>
+          </ul>
+        </li>
+      </ol>
+    </article>
+    <br>
+    <article>
+      <h5>Wenn Sie die Funktionalität Ihres Online-Shop zur Vorlage, die Sie früher gekauft haben, hinzufügen möchten, müssen Sie noch zusätzliche Dateien erhalten, die Cherry Framework mit den Plugins <strong>WooCommerce</strong> und <strong>Jigoshop</strong>kompatibel machen.</h5>
+      <p>Vor allem müssen <strong>"Shop Beginners Kit"</strong> kaufen, und dann ein paar Schritte machen:</p>
+      <ol>
+        <li>Instalieren oder aktivieren Sie den Plugin <strong>WooCommerce</strong> oder <strong>Jigoshop</strong> (<em>Sie benötigen nur einen von ihnen</em>).</li>
+        <li>Aus dem Ordner <strong>theme####</strong> kopieren Sie zwei Dateien (<em><strong>shop.less</strong> und <strong>shop.php</strong></em>) in den Stammordner mit dem Unterthema.</li>
+      </ol>
+      <p>Sie können auch Widgets und Demoprodukte für Ihren Online-Shop installieren. Nutzen Sie die Anleitungen oben dafür.</p>
+    </article>
+  </section>  
+<!-- Shop kit end -->
+</div>
+</div>
+
+  </div>
+</div>
+</div>
+</div>
+  <!-- Footer
+    ================================================== -->
+    
+    <footer>
+      <div class="container">        
+      Документация темы WordPress <br>
+      &copy; <span id="copyright-year"></span> <span id="copyright">Template Monster</span>
+      </div>
+    </footer>   
+
+  <div id="back-top">
+    <a href="#"><i class="icon-double-angle-up"></i></a>
+  </div>   
+
+<div class="modal_bg"></div>
+<div class="modal">
+  <div class="modal-header">
+    <span class="modal_remove pull-right"><i class="icon-remove"></i></span>
+    <h3>Choose language</h3>
+  </div>
+  <div class="modal-body">
+    <ul id="modal_languages" class="nav nav-list bs-docs-sidenav"></ul>
+  </div>
+</div> 
+
+
+<!-- <script src="js/bootstrap-scrollspy.js"></script>  -->
+
+<script type="text/javascript">
+  var _gaq = _gaq || []; 
+  _gaq.push(['_setAccount', 'UA-2787305-5']); 
+  _gaq.push(['_trackPageview']); 
+
+  (function() { 
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; 
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); 
+  })();
+</script>
+    
+</body> 
+
+</html>
