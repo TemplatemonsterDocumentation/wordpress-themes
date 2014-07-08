@@ -93,19 +93,22 @@
                   </li>
                   <li class="nav-item item2">
                     <dl class="slide-down">
-                       <dt><a href="#prepare" class="icon-check">Vorbereitung </a></dt>  
-                       <dd></dd>                       
-                     </dl> 
+                       <dt><a href="#template_installation" class="icon-check special"><b>Template installation</b></a> <i class="icon-sample"></i></dt> 
+                         <dd><ul class="list">          
+                            <li><a href="#cherryframework_installation">Schritt 1. CherryFramework Installation </a></li>
+                            <li><a href="#theme_installation">Schritt 2. Installation des Themas</a></li>                             
+                            <li><a href="#theme_sample_data">Schritt 3. Installation der Demodaten</a></li>                            
+                           </ul> 
+                       </dd>
+                     </dl>  
                   </li>           
                   <li class="nav-item item3">
                     <dl class="slide-down">
                        <dt><a href="#getting_started" class="icon-play">Arbeitsbeginn </a> <i class="icon-sample"></i></dt>
                          <dd>
-                           <ul class="list">          
-                            <li><a href="#engine_installation">Installation der Engine</a></li>
-                            <li><a href="#cherryframework_installation">CherryFramework Installation </a></li>
-                            <li><a href="#theme_installation">Installation des Themas</a></li>                             
-                            <li><a href="#theme_sample_data">Installation der Demodaten</a></li>                            
+                           <ul class="list">   
+                            <li><a href="#prepare">Vorbereitung </a></li>                                  
+                            <li><a href="#engine_installation">Installation der Engine</a></li>                           
                             <li><a href="#manual_install">Manuelle Installation</a></li>
                             <li><a href="#plugins_intstall">Installation der Plugins</a></li>
                             <li><a href="#theme_plugins">Plugins des Themas</a></li>
@@ -207,9 +210,9 @@
   <!-- block-started
   ================================================== -->
   <section class="block-started"  id="introduction">
-    <h2><i class="icon-info-sign"></i> Einführung</h2>
+    <h2 class="item1"><i class="icon-info-sign"></i> Einführung</h2>
     <p>Vielen Dank, dass Sie WordPress Vorlage gekauft haben. Die jeweilige Dokumentation besteht aus einigen Teilen und umfasst den ganzen Installationsprozess und alle Einstellungen WordPress Webseite bei Null.</p>
-    <p>&nbsp;</p>
+
     <div id="wordpress_cms_desc">
       <h4>Was ist denn WordPress CMS?</h4>
       <p>WordPress ist eine kostenlose Software mit dem offenen Quellcode zum Erstellen   des Blogs und Control Panels (CMS) auf der Basis von PHP und MySQL. Sie ermöglicht sowohl Webseiten als auch mächtige Online-Anwendugen   zu erstellen. Dafür benötigt man weder technische Fähigkeiten noch Steuerungskenntnisse. WordPress enthält viele Eigenschaften und ist einfach in der Handhabung, deswegen ist es das populärste Programm zum Erstellen der Webseiten. <a href="http://wordpress.org/about/" target="_blank">Details</a></p>
@@ -223,9 +226,7 @@
     <div id="file_structure">
       <h4>Vorlagenstruktur</h4>
       <p>Die Vorlage besteht aus einigen Ordnern. Prüfen wir jetzt den Inhalt jedes Ordners:</p>
-      <ul>
-        <li></li>
-      </ul>
+
       <ul class="files_structure">
 
         <li class="folder"><i class="icon-folder-close"></i> <b>documentation</b><small class="muted"> - enthält die Dokumentationsdateien.</small>
@@ -267,11 +268,97 @@
       </ul>
     </div>
   </section>
-  <!-- prepare started --> 
-  <section class="block-templates" id="prepare">  
-    <h2><i class="icon-check"></i> Vorbereitung</h2>
+  
+  <!-- template_installation started --> 
+  <section class="block-templates" id="template_installation">  
+     
+  
+    <h2 class="item2"><i class="icon-check"></i> Template installation</h2>
+    
+
+<p>Template-Installation war noch nie einfacher. Die Installation umfasst nur drei einfachen Schritten: Cherry Framework der Installation, Unterthema Installation und Beispieldaten-Installation.</p>
+
+<p>Alle Installationsschritte können innerhalb von Wordpress-Schnittstelle durchgeführt werden. Es macht Prozess bequem und schnell.</p>
+
+<p>Sie können dies überprüfen, indem Sie auf den folgenden Link:</p>
+
+     <figure class="img-paraloid quick-start-guide"><a href="/help/quick-start-guide/wordpress-themes/info/index.html" ><img src="img/wordpress/banner2.jpg" alt=""></a></figure>
+    
+    
+    <!-- CherryFramework installation -->
+
+    <article id="cherryframework_installation">
+      <h4>Schritt 1. CherryFramework Installation</h4>
+        
+        <ol style="margin-bottom:.5em;">
+          <li>Loggen Sie sich ins Control Panel  WordPress  (fügen Sie /wp-admin zum Domainnamen der Webseite in der Adresszeile des Browsers hinzu) ein.</li>                                             
+          <li>Gehen Sie zum Menü <strong>Appearance (Aussehen)</strong> > <strong>Themes (Themen)</strong> und klicken Sie den Button  <strong>Add New Theme (Neues Thema hinzufügen)</strong>.</li>
+          <li>Öffnen Sie den Tab  <strong>Upload (Hochladen)</strong>. </li>
+          <li>Drücken Sie den Button <strong>Browse (Übersicht)</strong> und öffnen Sie den entpackten Ordner der Vorlage auf dem Computer.</li>
+          <li>Finden Sie die Datei <strong>CherryFramework.zip</strong>. Klicken Sie auf sie und drücken Sie <strong>OK</strong>.</li>
+          <li>Klicken Sie den Button<strong> Install Now (Installieren)</strong> und warten Sie, bis der Installationsprozess abgeschlossen wurde.</li>
+          <li>Drücken Sie den Link <strong>Activate (Aktivieren)</strong>.</li>
+        </ol>
+
+      <p class="muted text-center"></p>
+
+        <p>Um ausführliche Information zu erhalten, nutzen Sie dieses Video-Tutorial<!--<a target="_blank" href="/help/de/how-install-wordpress-theme-via-admin-panel.html">How to install a WordPress theme via admin panel</a> and--><a target="_blank" href="/help/de/wordpress-how-to-install-cherry-framework-template-starting-with-version-3-1.html"> Wie installiert man  Cherry framework Vorlage</a>.</p>
+        <p>Gratulation, Sie haben erfolgreich Framewort installiert.</p> 
+    </article>    
+        <!-- Theme installation -->
+
+    <article id="theme_installation">
+      <h4>Schritt 2. Installation des Themas</h4>
+        <p>Jetzt können Sie anfangen, das Unterthema zu installieren: <strong>theme####.zip</strong>. Machen Sie die gleichen Schritte:</p>
+        <ol style="margin-bottom:.5em;">
+          <li>Gehen Sie zum Menü <strong>Appearance (Aussehen)</strong> > <strong>Themes (Themen)</strong> und klicken Sie den Button <strong>Add New Theme (Neues Thema hinzufügen)</strong>.</li>
+          <li>Öffnen Sie den Tab <strong>Upload (Hochladen)</strong>. </li>
+          <li>Drücken Sie den Button <strong>Browse (Übersicht)</strong> und öffnen Sie den entpackten Ordner der Vorlage auf dem Computer.</li>
+          <li>Finden Sie die Datei <strong>theme####.zip </strong>(wo <strong>XXXX</strong> ist einzigartige Nummer des Themas). Klicken Sie auf sie und drücken Sie <strong>OK</strong>.</li>
+          <li>Klicken Sie den Button<strong> Install Now (Installieren)</strong> und warten Sie, bis der Installationsprozess abgeschlossen wurde.</li>
+          <li>Drücken Sie den Link <strong>Activate (Aktivieren)</strong>, um aktuelles Aussehen der Webseite durch erworbenes Thema zu ersetzen.</li>
+        </ol>
+               
+      
+        <p class="muted text-center"></p>
+
+        <p>Gratulation, Sie haben erfolgreich das Thema und Framewort installiert!</p>
+      
+    </article>
+
+    <article id="theme_sample_data">
+      <h4>Schritt 3. Installation der Demodaten</h4>
+      <p>Damit die Webseite WordPress wie auf unserer Demoversion aussieht, nutzen Sie die folgenden Anleitungen. Wir empfehlen Ihnen immer das Reservekopieren der Datei .sql per <a target="_blank" href="/help/de/phpmyadmin-how-to-backup-a-database.html">Export</a> der Datenbank zu machen.</p>
+
+      <div class="box-info"><span>Achtung: Für Vorlagen auf der Basis von Cherry Framework v3.0 oder kleiner müssen bei der Installation der Demodaten die Dateien  XML und JSON aus dem Ordner "sample_data" hochgeladen werden. Bilder und Mediadateien müssen aus dem Ordner "manual_install\uploads" hochgeladen werden. Laden Sie alle Bilder aus allen Unterordnern hoch. </span></div>
+
+      <ol>
+        <li>Gehen Sie zum Menü <strong>Cherry Plugin &gt; Import Content (Inhaltsimport).</strong></li>
+        <li>Vor allem prüfen Sie die Anforderungstabelle Cherry Plugin für die Einstellungen des Hosting-Servers. Falls es Warnungen gibt, wenden Sie sich an Ihren Hosting-Anbieter.
+          <figure class="img-paraloid"><img src="img/wordpress/import_1st_step.png" alt=""></figure></li>
+        <li>Wenn alle Server-Einstellungen in Ordnung sind, wird der Download-Bildschirm angezeigt. Öffnen Sie den Ordner <b>"theme/sample_data" </b>der Vorlage und laden Sie alle Dateien in WordPress hoch. Sie sollen alle Dateien  im Ordner <b>"theme/sample_data"</b> markieren (Tastenkombination CTRL+A oder Command+A) und zum Hochladen-Feld verschieben.
+          <figure class="img-paraloid"><img src="img/wordpress/import_2nd_step.png" alt=""></figure></li>
+        <li>Laden Sie alle Dateien aus dem Ordner  sample_data und .JSON und .XML hoch. Nachdem das Hochalden beendet wurde, drücken Sie den Button "Continue Install (Installation fortfahren)". <br><br>
+        <div class="box-notification"><span>Achtung: Dateien .JSON und .XML benötigt man unbedingt bei der Installation der Demodaten. Button Continue Install (Installation fortfahren) wird nur nach dem Hochladen der Dateien .XML und .JSON aktiv.</span></div>
+        <figure class="img-paraloid"><img src="img/wordpress/import_3d_step.png" alt=""></figure></li>
+        <li>Button "Continue Install (Installation fortfahren)" fängt den Installationsprozess der Demodaten an. Die Installation braucht Zeit (es hängt von den Servereinstellungen ab). Warten Sie, bitte, bis er abgeschlossen ist.
+          <figure class="img-paraloid"><img src="img/wordpress/import_4th_step.png" alt=""></figure></li>
+        <li><span><strong>Gratulation!</strong> Sie haben erfolgreich Cherry WordPress Thema installiert und können jetzt prüfen, wie es aussieht.</span>
+          <figure class="img-paraloid"><img src="img/wordpress/import_5th_step.png" alt=""></figure>
+        </li>
+      </ol>      
+    </article>
+    
+  </section>
+<!-- Getting started --> 
+  <section class="block-templates" id="getting_started">  
+
+    <h2 class="item3"><i class="icon-play"></i> Arbeitsbeginn</h2>
+    <!-- prepare started --> 
+  <article id="prepare">  
+    <h4>Vorbereitung</h4>
     <p>Bevor Sie WordPress Webseite installieren, müssen Sie alles fertig machen. Wir empfehlen Ihnen die folgenden vorbereitenden Schritte zu machen:</p>
-    <div id="software">
+
       <h4>Software</h4>
       <p>Für vollwertige Arbeit mit der WordPress Vorlage empfehlen wir Ihnen alle notwendigen Anwendungen herunterzuladen. Die Softwareliste können Sie auf der Vorschauseite der Vorlage finden. <br>
 Die Anforderungen für verschiedene Vorlagen können sich unterscheiden, deswegen nennen wir nur die wichtigsten:</p>
@@ -281,34 +368,25 @@ Die Anforderungen für verschiedene Vorlagen können sich unterscheiden, deswege
         <li>Um den Quellcode der Vorlagendateien zu bearbeiten, sollen Sie den Code-Editor nutzen, zum Beispiel Adobe Dreamweaver, Notepad++, Sublime Text usw.</li>
         <li>Um die Dateien auf den Hosting-Server hochzuladen, benötigen Sie  FTP Manager, zum Beispiel Total Commander, FileZilla, CuteFTP usw.</li>
       </ol>
-      </div>
 
-    <div id="hosting">
-      <div id="hosting2">
         <h4>Hosting</h4>
         <p>WordPress CMS ist PHP/MySQL Anwendung, deswegen muss der Hosting-Server vorbereitet werden.</p>
         <p>Wenn Sie den aktiven Server haben, müssen Sie prüfen, ob er <a href="http://wordpress.org/about/requirements/" target="_blank"> WordPress Anforderungen entspricht </a> und mit WordPress Webseiten kompatibel ist.</p>
         <p>Auch kann WordPress auf dem Computer mittels des lokalen Servers installiert werden. Um den lokalen Hosting-Server zu erstellen, müssen Sie die Software <strong>WAMP</strong>, <strong>AppServ</strong>, <strong>MAMP</strong> usw. nutzen. Jede von ihnen wird wie ein Programm installiert, das WordPress unterstützt. </p>
         <p>Sie können die folgenden Tutorials nutzen, um den lokalen Server einzustellen:</p>
-        <ul class="unstyled">
-			<li><i class="icon-film"> </i><a href="/help/de/how-to-install-appserv-web-development-environment.html" target="_blank"> Wie installiert man die Entwicklungsumgebung AppServ</a></li>
-			<li><i class="icon-film"> </i><a href="/help/de/how-to-install-wamp-web-development-environment.html" target="_blank"> Wie installiert man die Entwicklungsumgebung WAMP</a></li>
-			<li><i class="icon-film"> </i><a href="/help/de/how-to-install-xamp-web-development-environment.html" target="_blank"> Wie installiert man die Entwicklungsumgebung XAMP</a></li>
-		</ul>
-      </div>
-      </div>
-  </section>
+        <ul class="list-2">
+        <li><i class="icon-play-circle "></i> <a href="/help/de/how-to-install-appserv-web-development-environment.html" target="_blank"> Wie installiert man die Entwicklungsumgebung AppServ</a></li>
+      <li><i class="icon-play-circle "></i> <a href="/help/de/how-to-install-wamp-web-development-environment.html" target="_blank"> Wie installiert man die Entwicklungsumgebung WAMP</a></li>
+      <li><i class="icon-play-circle "></i> <a href="/help/de/how-to-install-xamp-web-development-environment.html" target="_blank"> Wie installiert man die Entwicklungsumgebung XAMP</a></li>
+    </ul>
+
+
+  </article>
 <!-- prepare started --> 
-
-<!-- Getting started --> 
-  <section class="block-templates" id="getting_started">  
-
-    <h2><i class="icon-play"></i> Arbeitsbeginn</h2>
-
     <!-- Engine installation -->
 
-    <article >
-      <h4 id="engine_installation">Installation der Engine</h4>
+    <article  id="engine_installation">
+      <h4>Installation der Engine</h4>
       <div class="box-info"><span>Laden Sie die notwendige Version der WordPress Engine herunter. Sie können sie auf der Vorschauseite der Vorlage in der Anforderungsliste sehen. Überzeugen Sie sich, dass Sie die notwendige Version herunterladen.</span></div>
       <ol>
         <li>WordPress Engine kann man auf der offiziellen Webseite WordPress.org herunterladen <a href="http://wordpress.org/download/" target="_blank"><strong>Herunterladen WordPress</strong></a>. Wenn Sie frühere Version benötigen, drücken Sie den Link <a href="http://wordpress.org/download/release-archive/" target="_blank"><strong>Archiv-Versionen</strong></a>.        </li>
@@ -339,12 +417,12 @@ Die Anforderungen für verschiedene Vorlagen können sich unterscheiden, deswege
 
           <p>Mittels phpMyAdmin können Sie eine neue Datenbank in  3 einfachen Schritten erstellen: (schauen Sie die folgenden Dias an):</p>
 
-          <ol class="list">
+          <ol>
                     <li>Klicken Sie den Button Database (Datenbank) in dem oberen  Navigationsmenü, um zur Liste der Datenbanken zu gelangen.</li>
                     <li>Geben Sie den Namen der Datenbank ins Feld "Create new database (Neue Datenbank erstellen)" ein.</li>
                     <li>Drücken Sie auf den Button rechts Create (Erstellen).</li>
                     </ol>
-
+<br>
           <p>Die Datenbank gibt es schon in der Liste. Klicken Sie auf den Namen, um den Zugriff auf sie zu bekommen.</p>
 
           <div class="flexslider clearfix img-polaroid">
@@ -371,7 +449,7 @@ Die Anforderungen für verschiedene Vorlagen können sich unterscheiden, deswege
             </ul>    
           </div>
             <br>     
-          <p>Sie können auch das ausführliche Video-Tutorial nutzen <a href="/help/de/how-to-create-a-database.html" target="_blank">Wie erstellt man eine Datenbank</a></p>
+          <p>Sie können auch das ausführliche Video-Tutorial nutzen <a href="/help/de/how-to-create-a-database.html" target="_blank"><i class="icon-play-circle "> </i> Wie erstellt man eine Datenbank</a></p>
        <br />   
           <div class="box-notification"><span>Wenn Sie beim Erstellen der Datenbank Schwierigkeiten auftreten, sollen Sie sich an den Hosting-Anbieter wenden.</span></div>
 
@@ -419,86 +497,10 @@ Die Anforderungen für verschiedene Vorlagen können sich unterscheiden, deswege
         <li class="last"><i class="icon-info-sign"></i> <a href="/help/de/wordpress-how-to-install-the-engine-to-just-host-server-manual-installation.html" target="_blank">Wie installiert man die Engine auf den Server Just Host (manuelle Installation)</a></li>
       </ul>
     </article>
-    <!-- CherryFramework installation -->
+  
 
-    <article>
-      <h4 id="cherryframework_installation">CherryFramework Installation</h4>
-        <p>Es gibt zwei Weisen, um ein Thema zu installieren: per Control Panel WordPress oder per FTP. Wenn eine Weise nicht funktioniert, kann man die andere ausprobieren. </p>
-        <h5>Hochladen per WordPress:</h5>
-        <p>Die Installation besteht aus zwei Schritten: Installation des Frameworks und Unterthemas. Diese zwei Schritte sind gleich und einfach.</p>
-        <ol style="margin-bottom:.5em;">
-          <li>Loggen Sie sich ins Control Panel  WordPress  (fügen Sie /wp-admin zum Domainnamen der Webseite in der Adresszeile des Browsers hinzu) ein.</li>                                             
-          <li>Gehen Sie zum Menü <strong>Appearance (Aussehen)</strong> > <strong>Themes (Themen)</strong> und klicken Sie den Button  <strong>Add New Theme (Neues Thema hinzufügen)</strong>.</li>
-          <li>Öffnen Sie den Tab  <strong>Upload (Hochladen)</strong>. </li>
-          <li>Drücken Sie den Button <strong>Browse (Übersicht)</strong> und öffnen Sie den entpackten Ordner der Vorlage auf dem Computer.</li>
-          <li>Finden Sie die Datei <strong>CherryFramework.zip</strong>. Klicken Sie auf sie und drücken Sie <strong>OK</strong>.</li>
-          <li>Klicken Sie den Button<strong> Install Now (Installieren)</strong> und warten Sie, bis der Installationsprozess abgeschlossen wurde.</li>
-          <li>Drücken Sie den Link <strong>Activate (Aktivieren)</strong>.</li>
-        </ol>
-
-      <figure class="img-paraloid"><img src="img/wordpress/theme_install.png" alt=""></figure>
-      <p class="muted text-center"></p>
-
-        <p>Um ausführliche Information zu erhalten, nutzen Sie dieses Video-Tutorial<!--<a target="_blank" href="/help/de/how-install-wordpress-theme-via-admin-panel.html">How to install a WordPress theme via admin panel</a> and--><a target="_blank" href="/help/de/wordpress-how-to-install-cherry-framework-template-starting-with-version-3-1.html"> Wie installiert man  Cherry framework Vorlage</a>.</p>
-        <p>Gratulation, Sie haben erfolgreich Framewort installiert.</p> 
-    </article>    
-        <!-- Theme installation -->
-
-    <article>
-      <h4 id="theme_installation">Installation des Themas</h4>
-        <p>Jetzt können Sie anfangen, das Unterthema zu installieren: <strong>theme####.zip</strong>. Machen Sie die gleichen Schritte:</p>
-        <ol style="margin-bottom:.5em;">
-          <li>Gehen Sie zum Menü <strong>Appearance (Aussehen)</strong> > <strong>Themes (Themen)</strong> und klicken Sie den Button <strong>Add New Theme (Neues Thema hinzufügen)</strong>.</li>
-          <li>Öffnen Sie den Tab <strong>Upload (Hochladen)</strong>. </li>
-          <li>Drücken Sie den Button <strong>Browse (Übersicht)</strong> und öffnen Sie den entpackten Ordner der Vorlage auf dem Computer.</li>
-          <li>Finden Sie die Datei <strong>theme####.zip </strong>(wo <strong>XXXX</strong> ist einzigartige Nummer des Themas). Klicken Sie auf sie und drücken Sie <strong>OK</strong>.</li>
-          <li>Klicken Sie den Button<strong> Install Now (Installieren)</strong> und warten Sie, bis der Installationsprozess abgeschlossen wurde.</li>
-          <li>Drücken Sie den Link <strong>Activate (Aktivieren)</strong>, um aktuelles Aussehen der Webseite durch erworbenes Thema zu ersetzen.</li>
-        </ol>
-               
-          <figure class="img-paraloid"><img src="img/wordpress/theme_activate.png" alt=""></figure>
-      
-        <p class="muted text-center"></p>
-
-        <p>Gratulation, Sie haben erfolgreich das Thema und Framewort installiert!</p>
-      <br>
-        <div class="box-info"><span>Wenn es bei der Installation per Control Panel Schwierigkeiten gibt, können Sie die alternative Weise nutzen.</span></div>
-        <h5>Hochladen per FTP:</h5>
-        <p>Um diese Weise zu nutzen, müssen Sie den Zugriff auf Dateien WordPress auf dem FTP Server per Dateimanager des Hosting Control Panels oder FTP-Kunden, zum Beispiel Filezilla,  CuteFTP, Total Commander usw. haben.</p>
-      <ol>
-        <li>Entpacken Sie die Dateien <strong>CherryFramework.zip</strong> und <strong>theme####.zip</strong> in den Ordner auf dem Computer (Klicken Sie mit der rechten Maustaste auf jede Datei.zip, wählen Sie <strong>Unzip  to… (Entpacken in...) CherryFramework</strong> und <strong>theme####</strong> dann werden zwei Ordner angezeigt: CherryFramework und theme####).        </li>
-        <li>Laden Sie die Ordner <strong>CherryFramework</strong> und <strong>theme### </strong>ins Inhaltsverzeichnis <strong>/wp-content/themes/</strong> auf dem FTP Server hoch.</li>
-        <li>Loggen Sie sich ins Control Panel  WordPress  (fügen Sie /wp-admin zum Domainnamen der Webseite in der Adresszeile des Browsers hinzu) ein.</li>
-        <li>Gehen Sie zum Menü <strong>Appearance (Aussehen)</strong> > <strong>Themes</strong> <strong>(Themen)</strong>.</li>
-        <li>Im Bereich <strong>Available Themes (Verfügbare Themen)</strong> finden Sie <strong>theme####</strong> und aktivieren Sie es, indem Sie auf den Button <strong>Activate (Aktivieren)</strong> drücken.</li>
-      </ol>
-    </article>
-
-    <article>
-      <h4 id="theme_sample_data">Installation der Demodaten</h4>
-      <p>Damit die Webseite WordPress wie auf unserer Demoversion aussieht, nutzen Sie die folgenden Anleitungen. Wir empfehlen Ihnen immer das Reservekopieren der Datei .sql per <a target="_blank" href="/help/de/phpmyadmin-how-to-backup-a-database.html">Export</a> der Datenbank zu machen.</p>
-
-      <div class="box-info"><span>Achtung: Für Vorlagen auf der Basis von Cherry Framework v3.0 oder kleiner müssen bei der Installation der Demodaten die Dateien  XML und JSON aus dem Ordner "sample_data" hochgeladen werden. Bilder und Mediadateien müssen aus dem Ordner "manual_install\uploads" hochgeladen werden. Laden Sie alle Bilder aus allen Unterordnern hoch. </span></div>
-
-      <ol>
-        <li>Gehen Sie zum Menü <strong>Cherry Plugin &gt; Import Content (Inhaltsimport).</strong></li>
-        <li>Vor allem prüfen Sie die Anforderungstabelle Cherry Plugin für die Einstellungen des Hosting-Servers. Falls es Warnungen gibt, wenden Sie sich an Ihren Hosting-Anbieter.
-          <figure class="img-paraloid"><img src="img/wordpress/import_1st_step.png" alt=""></figure></li>
-        <li>Wenn alle Server-Einstellungen in Ordnung sind, wird der Download-Bildschirm angezeigt. Öffnen Sie den Ordner <b>"theme/sample_data" </b>der Vorlage und laden Sie alle Dateien in WordPress hoch. Sie sollen alle Dateien  im Ordner <b>"theme/sample_data"</b> markieren (Tastenkombination CTRL+A oder Command+A) und zum Hochladen-Feld verschieben.
-          <figure class="img-paraloid"><img src="img/wordpress/import_2nd_step.png" alt=""></figure></li>
-        <li>Laden Sie alle Dateien aus dem Ordner  sample_data und .JSON und .XML hoch. Nachdem das Hochalden beendet wurde, drücken Sie den Button "Continue Install (Installation fortfahren)". <br><br>
-        <div class="box-notification"><span>Achtung: Dateien .JSON und .XML benötigt man unbedingt bei der Installation der Demodaten. Button Continue Install (Installation fortfahren) wird nur nach dem Hochladen der Dateien .XML und .JSON aktiv.</span></div>
-        <figure class="img-paraloid"><img src="img/wordpress/import_3d_step.png" alt=""></figure></li>
-        <li>Button "Continue Install (Installation fortfahren)" fängt den Installationsprozess der Demodaten an. Die Installation braucht Zeit (es hängt von den Servereinstellungen ab). Warten Sie, bitte, bis er abgeschlossen ist.
-          <figure class="img-paraloid"><img src="img/wordpress/import_4th_step.png" alt=""></figure></li>
-        <li><span><strong>Gratulation!</strong> Sie haben erfolgreich Cherry WordPress Thema installiert und können jetzt prüfen, wie es aussieht.</span>
-          <figure class="img-paraloid"><img src="img/wordpress/import_5th_step.png" alt=""></figure>
-        </li>
-      </ol>      
-    </article>
-
-    <article>
-      <h4 id="manual_install">Manuelle Installation</h4>
+    <article id="manual_install">
+      <h4>Manuelle Installation</h4>
         <p>Wenn es bei der Installation der Demodaten Schwierigkeiten gibt, nutzen Sie die folgenden Anleitungen.</p>
         <div class="box-notification"><span>Achtung: Import der SQL Datei in die Datenbank schreibt den existierenden Inhalt und Einstellungen der Webseite um. Importieren Sie  SQL Daten NICHT, wenn Sie den aktuellen Inhalt speichern möchten.</span></div>
         <div class="box-info"><span>Achtung: Machen Sie immer das Reservekopieren der Datenbank, bevor Sie die Änderungen vornehmen.</span></div>
@@ -516,12 +518,23 @@ Die Anforderungen für verschiedene Vorlagen können sich unterscheiden, deswege
           <li>Speichern Sie die Änderungen und schließen Sie die Datei.</li>
           <li>Jetzt können Sie die Dump-Datei per <strong>phpMyAdmin</strong> oder anderes Verwaltungswerkzeug der Datenbank importieren.            </li>
         </ol>
-      <!--<p>If you have problems with manual installation, please read this <a target="_blank" href="/help/de/wordpress-how-to-install-cherry-framework-theme-sample-data-manually.html">manual</a>.</p>-->
-      <div class="box-info"><span>Wenn Sie das Thema mit den Demodaten manuell installiert haben, und das Thema sich von Demo unterscheidet, öffnen Sie Cherry Options (Optionen Cherry) und drücken Sie "Restore Defaults (Einstellungen standardmäßig zurücksetzen)."</span></div>
+     <br>
+     <div class="box-info"><span>Wenn es bei der Installation per Control Panel Schwierigkeiten gibt, können Sie die alternative Weise nutzen.</span></div>
+        <h5>Hochladen per FTP:</h5>
+        <p>Um diese Weise zu nutzen, müssen Sie den Zugriff auf Dateien WordPress auf dem FTP Server per Dateimanager des Hosting Control Panels oder FTP-Kunden, zum Beispiel Filezilla,  CuteFTP, Total Commander usw. haben.</p>
+        <div class="box-info"><span>Wenn Sie das Thema mit den Demodaten manuell installiert haben, und das Thema sich von Demo unterscheidet, öffnen Sie Cherry Options (Optionen Cherry) und drücken Sie "Restore Defaults (Einstellungen standardmäßig zurücksetzen)."</span></div>
+      <ol>
+        <li>Entpacken Sie die Dateien <strong>CherryFramework.zip</strong> und <strong>theme####.zip</strong> in den Ordner auf dem Computer (Klicken Sie mit der rechten Maustaste auf jede Datei.zip, wählen Sie <strong>Unzip  to… (Entpacken in...) CherryFramework</strong> und <strong>theme####</strong> dann werden zwei Ordner angezeigt: CherryFramework und theme####).        </li>
+        <li>Laden Sie die Ordner <strong>CherryFramework</strong> und <strong>theme### </strong>ins Inhaltsverzeichnis <strong>/wp-content/themes/</strong> auf dem FTP Server hoch.</li>
+        <li>Loggen Sie sich ins Control Panel  WordPress  (fügen Sie /wp-admin zum Domainnamen der Webseite in der Adresszeile des Browsers hinzu) ein.</li>
+        <li>Gehen Sie zum Menü <strong>Appearance (Aussehen)</strong> > <strong>Themes</strong> <strong>(Themen)</strong>.</li>
+        <li>Im Bereich <strong>Available Themes (Verfügbare Themen)</strong> finden Sie <strong>theme####</strong> und aktivieren Sie es, indem Sie auf den Button <strong>Activate (Aktivieren)</strong> drücken.</li>
+      </ol>
+      
     </article>
   
-    <article> 
-        <h4 id="plugins_intstall">Installation der Plugins</h4>
+    <article id="plugins_intstall"> 
+        <h4>Installation der Plugins</h4>
         <p>Nach der Installation und Aktivierung des Themas müssen manchmal zusätzliche Plugins installiert werden:</p>
         <ol>
           <li>Im Contol Panel WordPress gehen Sie zum Menü<strong> Plugins (Plugins) -&gt; Add New (Neu hinzufügen).</strong></li>
@@ -538,8 +551,8 @@ Die Anforderungen für verschiedene Vorlagen können sich unterscheiden, deswege
         <p class="muted text-center"></p>
     </article>
 
-    <article >
-      <h4 id="theme_plugins">Plugins des Themas:</h4>
+    <article id="theme_plugins">
+      <h4>Plugins des Themas:</h4>
       <h5>Plugin Cherry </h5>
       <p><span class="label label-important">Achtung:</span> Die Installation und Aktivierung des Plugins  Cherry sind für korrekte Arbeit der Shortcoden und Widgets nötig. Bei der Installation Cherry Framework Plugin Cherry wird standardmäßig installiert und aktiviert.</p>
       <p><span class="label label-info">Herunterladen:</span> <a href="https://github.com/CherryFramework/CherryFramework/raw/master/includes/plugins/cherry-plugin.zip">https://github.com/CherryFramework/CherryFramework/raw/master/includes/plugins/cherry-plugin.zip</a><br />
@@ -578,8 +591,8 @@ Die Anforderungen für verschiedene Vorlagen können sich unterscheiden, deswege
       <span class="label">Beschreibung:</span> Der jeweilige WordPress Plugin ist ein vollwertiges Forum für WordPress Blogs.</p>
     </article>     
 
-    <article> 
-        <h4 id="cookie_policy">Cookie-Politik</h4>
+    <article id="cookie_policy"> 
+        <h4>Cookie-Politik</h4>
         <p>Cookies sind kleine Textdateien, die die Webseiten auf den Benutzercomputern erstellen.  Meistens werden sie benutzt, um die Identifizierung bestimmtes Besuchers durchzuführen oder die hohe Leistung zu bringen. Cookies sind ein wichtiger Teil der Funktionen der Webseite.</p>
 
         <p>Zum Beispiel, in Online-Shops speichern Cookies, was Sie genau in den Warenkorb hinzugefügt haben. Sie speichern nicht nur die Authorisierung auf der Webseite sondern auch stellen den Webseiteninhabern wertvolle Statistik und Information bereit.</p>
@@ -596,7 +609,7 @@ Die Anforderungen für verschiedene Vorlagen können sich unterscheiden, deswege
 <!--Backup and Update started --> 
   <section class="block-templates" id="backup_update">  
 
-    <h2><i class="icon-refresh"></i> Reservekopieren und Update</h2>
+    <h2 class="item4"><i class="icon-refresh"></i> Reservekopieren und Update</h2>
 
     <div class="box-notification"><span>Bevor Sie Cherry Framework aktualisieren, empfehlen wir Ihnen, das Reservekopieren der laufenden Version durchzuführen.</span></div>
     <h4>Reservekopieren</h4>
@@ -623,7 +636,7 @@ Die Anforderungen für verschiedene Vorlagen können sich unterscheiden, deswege
   <section class="block-templates" id="page_templates_sidebars"> 
   
 
-    <h2><i class="icon-file-alt"></i> Seitenvorlagen und Seitenspalten</h2>
+    <h2 class="item5"><i class="icon-file-alt"></i> Seitenvorlagen und Seitenspalten</h2>
     <br>
     <div class="box-notification"><span>Achtung: Stile müssen in der Datei  style.less bearbeitet werden. Stile werden kompiliert und Datei main-style.css wird nach dem Speichern übergeschrieben. </span></div> 
 
@@ -651,7 +664,7 @@ Die Anforderungen für verschiedene Vorlagen können sich unterscheiden, deswege
 <!-- Posts, Categories and Post Formats begin -->
   <section class="block-templates" id="posts_categories">  
 
-    <h2><i class="icon-edit"></i> Posts, Kategorien und Postformate</h2>
+    <h2 class="item6"><i class="icon-edit"></i> Posts, Kategorien und Postformate</h2>
 
     <!-- Adding category -->
     <article id="adding-category">
@@ -923,7 +936,7 @@ Die Anforderungen für verschiedene Vorlagen können sich unterscheiden, deswege
   <!-- Portfolio page begin -->
   <section class="block-templates" id="portfolio_page">  
 
-    <h2><i class="icon-picture"></i> Portfolio-Seite</h2>
+    <h2 class="item7"><i class="icon-picture"></i> Portfolio-Seite</h2>
 
     <!-- Creating a Portfolio page -->
     <article>
@@ -948,7 +961,7 @@ Die Anforderungen für verschiedene Vorlagen können sich unterscheiden, deswege
 <!-- Shortcodes begin -->
   <section class="block-templates" id="shortcodes">  
 
-    <h2><i class="icon-file"></i> Shortcodes</h2>
+    <h2 class="item8"><i class="icon-file"></i> Shortcodes</h2>
     <p>Shortcodes sind ein mächtiges Werkzeug zur Inhaltsverwaltung  <a href="http://codex.wordpress.org/Shortcode">http://codex.wordpress.org/Shortcode</a>. Sie sind  einfach in der Handhabung. Vor allem sollen Sie den Bearbeitungsmodus <strong>Visual (Visuell)</strong> wählen.</p>
     <figure class="img-paraloid"><img src="img/wordpress/sc_visual.jpg" alt=""></figure>
     <p>Drücken Sie auf den Button der Shortcodes. Dann wählen Sie den notwendigen Shortcode aus.</p>
@@ -1441,7 +1454,7 @@ Die Anforderungen für verschiedene Vorlagen können sich unterscheiden, deswege
 <!-- Plugins and Custom Widgets begin -->
   <section class="block-templates" id="plugins_widgets">  
 
-    <h2><i class="icon-magnet"></i> Plugins und benutzerdefinierte Widgets</h2>
+    <h2 class="item9"><i class="icon-magnet"></i> Plugins und benutzerdefinierte Widgets</h2>
 
     <article id="plugins">
       <h4>Plugins</h4>
@@ -1655,7 +1668,7 @@ Die Anforderungen für verschiedene Vorlagen können sich unterscheiden, deswege
 <!-- Theme Options begin -->
   <section class="block-templates" id="theme_options">  
 
-    <h2><i class="icon-cogs"></i> Optionen Cherry </h2>
+    <h2 class="item10"><i class="icon-cogs"></i> Optionen Cherry </h2>
     <p>In diesem Thema gibt es die Optione der Einstellungen. Sie ermöglicht das Farbschema des Themas, die Reihenfolge der Elemente zu ändern, und Elemente einzuschalten oder auszuschalten. Um diese Einstellungen zu verwenden, gehen Sie zum Menü <strong>Appearance (Aussehen) &rarr; Cherry Options</strong> <strong>(Optionen Cherry)</strong>.</p> 
     <article id="general_option"> 
       <h4>Allgemeine</h4>
@@ -1919,7 +1932,7 @@ Die Anforderungen für verschiedene Vorlagen können sich unterscheiden, deswege
 <!-- Shop Kit begin -->
   <section class="block-templates" id="shop_kit">  
 
-    <h2><i class="icon-shopping-cart"></i> Shop Beginners Kit</h2>
+    <h2 class="item11"><i class="icon-shopping-cart"></i> Shop Beginners Kit</h2>
     <div class="box-notification"><span>Wichtig! Shop Beginners Kit funktioniert nur auf <strong>Cherry Framework</strong> Version <strong>2.0</strong> oder höher.<br><small>Wenn Ihre Version kleiner als 2.0 ist,  <a href="#backup_update">aktualisieren Sie</a> Cherry Framework.</small></span></div>
     <p> Shop Beginners Kit kann man mit dem Thema WordPress oder getrennt kaufen.</p>
     <article>
