@@ -39,7 +39,7 @@ list-style: none outside none;
 
 .flexslider .flex-direction-nav{display:none}
 
-.flexslider .flex-control-paging{margin:0;position:absolute;top:-27px;right:0;overflow:hidden}
+.flexslider .flex-control-paging{margin:0;position:absolute;top:-45px;right:0;overflow:hidden}
 .flexslider .flex-control-paging li{float:left;margin:0 0 0 3px;overflow:hidden;padding:0;line-height:0}
 .flexslider .flex-control-paging li a{
 overflow:hidden;
