@@ -93,19 +93,22 @@
                   </li>
                   <li class="nav-item item2">
                     <dl class="slide-down">
-                       <dt><a href="#prepare" class="icon-check">Подготовка </a></dt>  
-                       <dd></dd>                       
+                       <dt><a href="#template_installation" class="icon-check special"><b>Установка шаблона</b></a> <i class="icon-sample"></i></dt>  
+                       <dd><ul class="list">  
+                       <li><a href="#cherryframework_installation">Шаг 1. Установка CherryFramework</a></li>
+                       <li><a href="#theme_installation">Шаг 2. Установка темы</a></li>                             
+                       <li><a href="#theme_sample_data">Шаг 3. Установка демо-данных</a></li>
+                      </ul>                      
+                      </dd>
                      </dl> 
-                  </li>           
+                  </li>   
                   <li class="nav-item item3">
                     <dl class="slide-down">
                        <dt><a href="#getting_started" class="icon-play">Начало работы </a> <i class="icon-sample"></i></dt>
                          <dd>
-                           <ul class="list">          
+                           <ul class="list">     
+                            <li><a href="#prepare">Подготовка </a></li>
                             <li><a href="#engine_installation">Установка движка</a></li>
-                            <li><a href="#cherryframework_installation">Установка CherryFramework </a></li>
-                            <li><a href="#theme_installation">Установка темы</a></li>                             
-                            <li><a href="#theme_sample_data">Установка демо-данных</a></li>                            
                             <li><a href="#manual_install">Ручная установка</a></li>
                             <li><a href="#plugins_intstall">Установка плагинов</a></li>
                             <li><a href="#theme_plugins">Плагины темы</a></li>
@@ -207,9 +210,9 @@
   <!-- block-started
   ================================================== -->
   <section class="block-started"  id="introduction">
-    <h2><i class="icon-info-sign"></i> Введение</h2>
+    <h2 class="item1"><i class="icon-info-sign"></i> Введение</h2>
     <p>Благодарим Вас за приобретение шаблона WordPress. Данная документация состоит из нескольких частей и охватывает весь процесс установки и настройки веб-сайта WordPress с нуля.</p>
-    <p>&nbsp;</p>
+
     <div id="wordpress_cms_desc">
       <h4>Что представляет собой WordPress CMS?</h4>
       <p>WordPress - это бесплатное программное обеспечение с открытым исходным кодом для создания   блогов и система управления контентом (CMS) на основе PHP и MySQL. Она позволяет создавать веб-сайты и мощные онлайн   приложения, а также почти не требует технических навыков или знаний в   управлении. Множество особенностей, в том числе простота использования и   расширяемость, сделали WordPress наиболее популярной программой для   веб-сайтов. <a href="http://wordpress.org/about/" target="_blank">Детали</a></p>
@@ -267,11 +270,95 @@
       </ul>
     </div>
   </section>
-  <!-- prepare started --> 
-  <section class="block-templates" id="prepare">  
-    <h2><i class="icon-check"></i> Подготовка</h2>
+ <!-- template_installation started --> 
+  <section class="block-templates" id="template_installation">   
+     
+  
+    <h2 class="item2"><i class="icon-check"></i> Установка шаблона</h2>
+    
+    <p>Установка шаблона еще никогда не была настолько проста. Процесс установки включает в себя всего три шага: установка Cherry Framework, установка дочерней темы и установка демо-данных.</p>
+    <p>Все этапы установки выполняются в админ-панели WordPress. Это делает процесс удобным и быстрым.</p>
+     
+    <p>Вы можете убедиться в этом нажав на ссылку ниже:</p>
+    <figure class="img-paraloid quick-start-guide"><a href="/help/quick-start-guide/wordpress-themes/info/index.html" target="_blank" ><img src="img/wordpress/banner2.jpg" alt=""></a></figure>
+    
+    
+    
+       <!-- CherryFramework installation -->
+
+    <article id="cherryframework_installation">
+      <h4>Шаг 1. Установка CherryFramework</h4>
+        
+        <ol style="margin-bottom:.5em;">
+          <li>Войдите в панель управления  WordPress  (добавьте /wp-admin к доменному имени сайта в адресной строке браузера).</li>                                             
+          <li>Перейдите в меню <strong>Appearance (Внешний вид)</strong> > <strong>Themes (Темы)</strong> и щелкните кнопку  <strong>Add New Theme (Добавить новую тему)</strong>.</li>
+          <li>Откройте вкладку  <strong>Upload (Загрузка)</strong>. </li>
+          <li>Нажмите кнопку <strong>Browse (Обзор)</strong> и откройте разархивированную папку шаблона на компьютере.</li>
+          <li>Найдите файл <strong>CherryFramework.zip</strong>. Кликните на него и нажмите <strong>OK</strong>.</li>
+          <li>Щелкните кнопку<strong> Install Now (Установить)</strong> и дождитесь окончания установки.</li>
+          <li>Нажмите ссылку <strong>Activate (Активировать)</strong>.</li>
+        </ol>
+
+      <p class="muted text-center"></p>
+
+        <p>Для более детальной информации воспользуйтесь видео туториалом<!--<a target="_blank" href="/help/ru/how-install-wordpress-theme-via-admin-panel.html">How to install a WordPress theme via admin panel</a> and--><a target="_blank" href="/help/ru/wordpress-how-to-install-cherry-framework-template-starting-with-version-3-1.html"> Как установить шаблон  Cherry framework</a>.</p>
+        <p>Поздравляем, вы успешно установили фреймворк.</p> 
+    </article>    
+        <!-- Theme installation -->
+
+    <article id="theme_installation">
+      <h4>Шаг 2. Установка темы</h4>
+        <p>Теперь можно перейти к установке дочерней темы: <strong>theme####.zip</strong>. Повторите аналогичные шаги:</p>
+        <ol style="margin-bottom:.5em;">
+          <li>Перейдите в меню <strong>Appearance (Внешний вид)</strong> > <strong>Themes (Темы)</strong> и щелкните кнопку <strong>Add New Theme (Добавить новую тему)</strong>.</li>
+          <li>Откройте вкладку <strong>Upload (Загрузка)</strong>. </li>
+          <li>Нажмите кнопку <strong>Browse (Обзор)</strong> и откройте разархивированную папку шаблона на компьютере.</li>
+          <li>Найдите файл <strong>theme####.zip </strong>(где <strong>XXXX</strong> - уникальный номер темы). Кликните на него и нажмите <strong>OK</strong>.</li>
+          <li>Щелкните кнопку<strong> Install Now (Установить)</strong> и дождитесь окончания установки.</li>
+          <li>Нажмите ссылку <strong>Activate (Активировать)</strong>, чтобы поменять текущий вид сайта на приобретенную тему.</li>
+        </ol>
+                     
+        <p class="muted text-center"></p>
+
+        <p>Поздравляем, вы успешно установили фреймворк и тему!</p>
+
+      
+    </article>
+
+    <article id="theme_sample_data">
+      <h4>Шаг 3. Установка демо-данных</h4>
+      <p>Чтобы  сайт WordPress выглядел как на нашем демо, воспользуйтесь следующими инструкциями. Мы рекомендуем всегда делать резервное копирование файла .sql через <a target="_blank" href="/help/ru/phpmyadmin-how-to-backup-a-database.html">экспорт</a> базы данных.</p>
+
+      <div class="box-info"><span>ВНИМАНИЕ: Для шаблонов на базе Cherry Framework v3.0 или меньше при установке демо-данных требуется загрузить файлы  XML и JSON из папки "sample_data". Изображения и другие файлы мультимедиа нужно загрузить из папки "manual_install\uploads". Загрузите все картинки из всех подпапок. </span></div>
+
+      <ol>
+        <li>Перейдите в меню <strong>Cherry Plugin &gt; Import Content (Импорт контента).</strong></li>
+        <li>Прежде всего, проверьте таблицу требований Cherry Plugin к настройкам хостинг сервера. В случае появления предупреждений, обратитесь к хостинг провайдеру.
+          <figure class="img-paraloid"><img src="img/wordpress/import_1st_step.png" alt=""></figure></li>
+        <li>Если все настройки сервера в порядке, появится экран загрузки. Откройте папку <b>"theme/sample_data" </b>шаблона и загрузите все файлы в WordPress. Все файлы  в папке <b>"theme/sample_data"</b> нужно выделить (горячие клавиши CTRL+A или Command+A) и перетянуть в поле загрузки.
+          <figure class="img-paraloid"><img src="img/wordpress/import_2nd_step.png" alt=""></figure></li>
+        <li>Загрузите все файлы из папки  sample_data, в том числе .JSON и .XML. По завершению загрузки нажмите кнопку "Continue Install (Продолжить установку)". <br><br>
+        <div class="box-notification"><span>ВНИМАНИЕ: Файлы .JSON и .XML являются обязательными при установке демо-данных. Кнопка Continue Install (Продолжить установку) станет активна только после загрузки файлов .XML и .JSON.</span></div>
+        <figure class="img-paraloid"><img src="img/wordpress/import_3d_step.png" alt=""></figure></li>
+        <li>Кнопка "Continue Install (Продолжить установку)" начнет процесс установки демо-данных. Установка займет определенное время в зависимости от настроек сервера. Пожалуйста, дождитесь ее окончания.
+          <figure class="img-paraloid"><img src="img/wordpress/import_4th_step.png" alt=""></figure></li>
+        <li><span><strong>Поздравляем!</strong> Вы успешно установили тему Cherry WordPress и теперь можете проверить, как она выглядит.</span>
+          <figure class="img-paraloid"><img src="img/wordpress/import_5th_step.png" alt=""></figure>
+        </li>
+      </ol>      
+    </article>
+ </section>   
+
+<!-- Getting started --> 
+  <section class="block-templates" id="getting_started">  
+
+    <h2 class="item3"><i class="icon-play"></i> Начало работы</h2>
+
+      <!-- prepare started --> 
+  <article id="prepare">  
+    <h4>Подготовка</h4>
     <p>Прежде чем перейти к установке веб-сайта WordPress, нужно полностью подготовиться. Рекомендуется выполнить следующие подготовительные шаги:</p>
-    <div id="software">
+   
       <h4>Программное обеспечение</h4>
       <p>Для полноценной работы с шаблоном WordPress  мы рекомендуем скачать все требуемые приложения. Список необходимого программного обеспечения находится на странице предпросмотра шаблона. <br>
 Требования для различных шаблонов могут меняться, поэтому мы перечислим самые основные:</p>
@@ -281,34 +368,25 @@
         <li>Для редактирования исходного кода файлов шаблона нужно использовать редактор кода, например Adobe Dreamweaver, Notepad++, Sublime Text и т.п.</li>
         <li>Чтобы загрузить файлы на хостинг сервер, потребуется  FTP менеджер, например Total Commander, FileZilla, CuteFTP и т.д.</li>
       </ol>
-      </div>
 
-    <div id="hosting">
-      <div id="hosting2">
         <h4>Хостинг</h4>
         <p>Поскольку WordPress CMS является приложением PHP/MySQL, необходимо подготовить  хостинг сервер.</p>
         <p>При наличии активного сервера, нужно проверить его на соответствие <a href="http://wordpress.org/about/requirements/" target="_blank"> требованиям WordPress </a> и на готовность использовать веб-сайты WordPress.</p>
         <p>Также можно установить WordPress на компьютер при помощи локального сервера. Для создания локального хостинг сервера необходимо использовать программное обеспечение <strong>WAMP</strong>, <strong>AppServ</strong>, <strong>MAMP</strong> и т.п. Любое из них устанавливается как обычная программа и поддерживает WordPress. </p>
         <p>Вы можете воспользоваться следующими туториалами для настройки локального сервера:</p>
-        <ul class="unstyled">
-			<li><i class="icon-film"> </i><a href="/help/ru/how-to-install-appserv-web-development-environment.html" target="_blank">Как установить среду веб-разработки AppServ</a></li>
-			<li><i class="icon-film"> </i><a href="/help/ru/how-to-install-wamp-web-development-environment.html" target="_blank">Как установить среду веб-разработки WAMP</a></li>
-			<li><i class="icon-film"> </i><a href="/help/ru/how-to-install-xamp-web-development-environment.html" target="_blank">Как установить среду веб-разработки XAMP</a></li>
-		</ul>
-      </div>
-      </div>
-  </section>
+        <ul class="list-2">
+        <li><i class="icon-play-circle "></i><a href="/help/ru/how-to-install-appserv-web-development-environment.html" target="_blank">Как установить среду веб-разработки AppServ</a></li>
+      <li><i class="icon-play-circle "></i><a href="/help/ru/how-to-install-wamp-web-development-environment.html" target="_blank">Как установить среду веб-разработки WAMP</a></li>
+      <li><i class="icon-play-circle "></i><a href="/help/ru/how-to-install-xamp-web-development-environment.html" target="_blank">Как установить среду веб-разработки XAMP</a></li>
+    </ul>
+
+  </article>
 <!-- prepare started --> 
-
-<!-- Getting started --> 
-  <section class="block-templates" id="getting_started">  
-
-    <h2><i class="icon-play"></i> Начало работы</h2>
 
     <!-- Engine installation -->
 
-    <article >
-      <h4 id="engine_installation">Установка движка</h4>
+    <article  id="engine_installation">
+      <h4>Установка движка</h4>
       <div class="box-info"><span>Скачайте требуемую версию движка WordPress. Ее можно увидеть на странице предпросмотра шаблона в списке требований. Убедитесь, что вы скачиваете требуемую версию.</span></div>
       <ol>
         <li>Движок WordPress можно скачать на официальном сайте WordPress.org <a href="http://wordpress.org/download/" target="_blank"><strong>Скачать WordPress</strong></a>. Если нужна более ранняя версия, нажмите ссылку <a href="http://wordpress.org/download/release-archive/" target="_blank"><strong>Архивы версий</strong></a>.        </li>
@@ -344,7 +422,7 @@
                     <li>Введите название базы данных в поле "Create new database (Создать новую базу данных)".</li>
                     <li>Нажмите справа на кнопку Create (Создать).</li>
                     </ol>
-
+                    <br>
           <p>База данных появилась в списке. Кликните по названию, чтобы получить доступ к ней.</p>
 
           <div class="flexslider clearfix img-polaroid">
@@ -419,86 +497,10 @@
         <li class="last"><i class="icon-info-sign"></i> <a href="/help/wordpress-how-to-install-the-engine-to-just-host-server-manual-installation.html" target="_blank">Как установить движок на сервер Just Host (ручная установка)</a></li>
       </ul>
     </article>
-    <!-- CherryFramework installation -->
+ 
 
-    <article>
-      <h4 id="cherryframework_installation">Установка CherryFramework</h4>
-        <p>Тему можно установить двумя способами: через панель управления WordPress или через FTP. Если не работает один способ, можно попробовать другой. </p>
-        <h5>Загрузка через админ-панель WordPress:</h5>
-        <p>Установка включает два этапа: установка фреймворка и дочерней темы. Оба шага идентичны и крайне просты.</p>
-        <ol style="margin-bottom:.5em;">
-          <li>Войдите в панель управления  WordPress  (добавьте /wp-admin к доменному имени сайта в адресной строке браузера).</li>                                             
-          <li>Перейдите в меню <strong>Appearance (Внешний вид)</strong> > <strong>Themes (Темы)</strong> и щелкните кнопку  <strong>Add New Theme (Добавить новую тему)</strong>.</li>
-          <li>Откройте вкладку  <strong>Upload (Загрузка)</strong>. </li>
-          <li>Нажмите кнопку <strong>Browse (Обзор)</strong> и откройте разархивированную папку шаблона на компьютере.</li>
-          <li>Найдите файл <strong>CherryFramework.zip</strong>. Кликните на него и нажмите <strong>OK</strong>.</li>
-          <li>Щелкните кнопку<strong> Install Now (Установить)</strong> и дождитесь окончания установки.</li>
-          <li>Нажмите ссылку <strong>Activate (Активировать)</strong>.</li>
-        </ol>
-
-      <figure class="img-paraloid"><img src="img/wordpress/theme_install.png" alt=""></figure>
-      <p class="muted text-center"></p>
-
-        <p>Для более детальной информации воспользуйтесь видео туториалом<!--<a target="_blank" href="/help/ru/how-install-wordpress-theme-via-admin-panel.html">How to install a WordPress theme via admin panel</a> and--><a target="_blank" href="/help/ru/wordpress-how-to-install-cherry-framework-template-starting-with-version-3-1.html"> Как установить шаблон  Cherry framework</a>.</p>
-        <p>Поздравляем, вы успешно установили фреймворк.</p> 
-    </article>    
-        <!-- Theme installation -->
-
-    <article>
-      <h4 id="theme_installation">Установка темы</h4>
-        <p>Теперь можно перейти к установке дочерней темы: <strong>theme####.zip</strong>. Повторите аналогичные шаги:</p>
-        <ol style="margin-bottom:.5em;">
-          <li>Перейдите в меню <strong>Appearance (Внешний вид)</strong> > <strong>Themes (Темы)</strong> и щелкните кнопку <strong>Add New Theme (Добавить новую тему)</strong>.</li>
-          <li>Откройте вкладку <strong>Upload (Загрузка)</strong>. </li>
-          <li>Нажмите кнопку <strong>Browse (Обзор)</strong> и откройте разархивированную папку шаблона на компьютере.</li>
-          <li>Найдите файл <strong>theme####.zip </strong>(где <strong>XXXX</strong> - уникальный номер темы). Кликните на него и нажмите <strong>OK</strong>.</li>
-          <li>Щелкните кнопку<strong> Install Now (Установить)</strong> и дождитесь окончания установки.</li>
-          <li>Нажмите ссылку <strong>Activate (Активировать)</strong>, чтобы поменять текущий вид сайта на приобретенную тему.</li>
-        </ol>
-               
-          <figure class="img-paraloid"><img src="img/wordpress/theme_activate.png" alt=""></figure>
-      
-        <p class="muted text-center"></p>
-
-        <p>Поздравляем, вы успешно установили фреймворк и тему!</p>
-      <br>
-        <div class="box-info"><span>В случае возникновения сложностей при установке через панель управления, можно воспользоваться альтернативным способом.</span></div>
-        <h5>Загрузка через FTP:</h5>
-        <p>Для использования данного метода, нужно иметь доступ к файлам WordPress на FTP сервере через файловый менеджер контрольной панели хостинга или FTP-клиент, например Filezilla,  CuteFTP, Total Commander, и т.п.</p>
-      <ol>
-        <li>Разархивируйте файлы <strong>CherryFramework.zip</strong> и <strong>theme####.zip</strong> в папку на компьютере (щелкните правой кнопкой по каждому файлу.zip, выберите <strong>Unzip  to… (Распаковать в ...) CherryFramework</strong> и <strong>theme####</strong> соответственно, после чего появятся две папки: CherryFramework и theme####).        </li>
-        <li>Загрузите папки <strong>CherryFramework</strong> и <strong>theme### </strong>в директорию <strong>/wp-content/themes/</strong> на FTP сервере.</li>
-        <li>Войдите в панель управления  WordPress  (добавьте /wp-admin к доменному имени сайта в адресной строке браузера).</li>
-        <li>Перейдите в меню <strong>Appearance (Внешний вид)</strong> > <strong>Themes</strong> <strong>(Темы)</strong>.</li>
-        <li>В разделе <strong>Available Themes (Доступные темы)</strong> найдите <strong>theme####</strong> и активируйте ее, щелкнув по кнопке <strong>Activate (Активировать)</strong>.</li>
-      </ol>
-    </article>
-
-    <article>
-      <h4 id="theme_sample_data">Установка демо-данных</h4>
-      <p>Чтобы  сайт WordPress выглядел как на нашем демо, воспользуйтесь следующими инструкциями. Мы рекомендуем всегда делать резервное копирование файла .sql через <a target="_blank" href="/help/ru/phpmyadmin-how-to-backup-a-database.html">экспорт</a> базы данных.</p>
-
-      <div class="box-info"><span>ВНИМАНИЕ: Для шаблонов на базе Cherry Framework v3.0 или меньше при установке демо-данных требуется загрузить файлы  XML и JSON из папки "sample_data". Изображения и другие файлы мультимедиа нужно загрузить из папки "manual_install\uploads". Загрузите все картинки из всех подпапок. </span></div>
-
-      <ol>
-        <li>Перейдите в меню <strong>Cherry Plugin &gt; Import Content (Импорт контента).</strong></li>
-        <li>Прежде всего, проверьте таблицу требований Cherry Plugin к настройкам хостинг сервера. В случае появления предупреждений, обратитесь к хостинг провайдеру.
-          <figure class="img-paraloid"><img src="img/wordpress/import_1st_step.png" alt=""></figure></li>
-        <li>Если все настройки сервера в порядке, появится экран загрузки. Откройте папку <b>"theme/sample_data" </b>шаблона и загрузите все файлы в WordPress. Все файлы  в папке <b>"theme/sample_data"</b> нужно выделить (горячие клавиши CTRL+A или Command+A) и перетянуть в поле загрузки.
-          <figure class="img-paraloid"><img src="img/wordpress/import_2nd_step.png" alt=""></figure></li>
-        <li>Загрузите все файлы из папки  sample_data, в том числе .JSON и .XML. По завершению загрузки нажмите кнопку "Continue Install (Продолжить установку)". <br><br>
-        <div class="box-notification"><span>ВНИМАНИЕ: Файлы .JSON и .XML являются обязательными при установке демо-данных. Кнопка Continue Install (Продолжить установку) станет активна только после загрузки файлов .XML и .JSON.</span></div>
-        <figure class="img-paraloid"><img src="img/wordpress/import_3d_step.png" alt=""></figure></li>
-        <li>Кнопка "Continue Install (Продолжить установку)" начнет процесс установки демо-данных. Установка займет определенное время в зависимости от настроек сервера. Пожалуйста, дождитесь ее окончания.
-          <figure class="img-paraloid"><img src="img/wordpress/import_4th_step.png" alt=""></figure></li>
-        <li><span><strong>Поздравляем!</strong> Вы успешно установили тему Cherry WordPress и теперь можете проверить, как она выглядит.</span>
-          <figure class="img-paraloid"><img src="img/wordpress/import_5th_step.png" alt=""></figure>
-        </li>
-      </ol>      
-    </article>
-
-    <article>
-      <h4 id="manual_install">Ручная установка</h4>
+    <article id="manual_install">
+      <h4 >Ручная установка</h4>
         <p>В случае возникновения сложностей при установке демо-данных воспользуйтесь следующими инструкциями.</p>
         <div class="box-notification"><span>ВНИМАНИЕ: Импорт файла SQL в базу данных перезапишет существующий контент и настройки веб-сайта. НЕ импортируйте файл  SQL, если нужно сохранить текущий контент.</span></div>
         <div class="box-info"><span>ПАМЯТКА: Всегда делайте резервное копирование базы данных, прежде чем приступить к изменениям.</span></div>
@@ -516,12 +518,24 @@
           <li>Сохраните изменения и закройте файл.</li>
           <li>Теперь файл дампа можно импортировать через <strong>phpMyAdmin</strong> или другой инструмент управления базами данных.            </li>
         </ol>
-      <!--<p>If you have problems with manual installation, please read this <a target="_blank" href="/help/ru/wordpress-how-to-install-cherry-framework-theme-sample-data-manually.html">manual</a>.</p>-->
-      <div class="box-info"><span>Если вы установили тему с демо-данными или вручную, а тема отличается от демо, откройте Cherry Options (Опции Cherry) и нажмите "Restore Defaults (Восстановить настройки по умолчанию)."</span></div>
+<br>
+<div class="box-info"><span>В случае возникновения сложностей при установке через панель управления, можно воспользоваться альтернативным способом.</span></div>
+      
+      
+        <h5>Загрузка  через FTP:</h5>
+        <p>Для использования данного метода, нужно иметь доступ к файлам WordPress на FTP сервере через файловый менеджер контрольной панели хостинга или FTP-клиент, например Filezilla,  CuteFTP, Total Commander, и т.п.</p>
+        <div class="box-info"><span>Если вы установили тему с демо-данными или вручную, а тема отличается от демо, откройте Cherry Options (Опции Cherry) и нажмите "Restore Defaults (Восстановить настройки по умолчанию)."</span></div>
+      <ol>
+        <li>Разархивируйте файлы <strong>CherryFramework.zip</strong> и <strong>theme####.zip</strong> в папку на компьютере (щелкните правой кнопкой по каждому файлу.zip, выберите <strong>Unzip  to… (Распаковать в ...) CherryFramework</strong> и <strong>theme####</strong> соответственно, после чего появятся две папки: CherryFramework и theme####).        </li>
+        <li>Загрузите папки <strong>CherryFramework</strong> и <strong>theme### </strong>в директорию <strong>/wp-content/themes/</strong> на FTP сервере.</li>
+        <li>Войдите в панель управления  WordPress  (добавьте /wp-admin к доменному имени сайта в адресной строке браузера).</li>
+        <li>Перейдите в меню <strong>Appearance (Внешний вид)</strong> > <strong>Themes</strong> <strong>(Темы)</strong>.</li>
+        <li>В разделе <strong>Available Themes (Доступные темы)</strong> найдите <strong>theme####</strong> и активируйте ее, щелкнув по кнопке <strong>Activate (Активировать)</strong>.</li>
+      </ol>
     </article>
   
-    <article> 
-        <h4 id="plugins_intstall">Установка плагинов</h4>
+    <article id="plugins_intstall"> 
+        <h4>Установка плагинов</h4>
         <p>После установки и активации темы иногда требуется установить дополнительные плагины:</p>
         <ol>
           <li>В панели управления WordPress перейдите в меню<strong> Plugins (Плагины) -&gt; Add New (Добавить новый).</strong></li>
@@ -538,8 +552,8 @@
         <p class="muted text-center"></p>
     </article>
 
-    <article >
-      <h4 id="theme_plugins">Плагины темы:</h4>
+    <article  id="theme_plugins">
+      <h4>Плагины темы:</h4>
       <h5>Плагин Cherry </h5>
       <p><span class="label label-important">Внимание:</span> Установка и активация плагина  Cherry необходимы для корректной работы шорткодов и виджетов. При установке Cherry Framework плагин Cherry устанавливается и активируется по умолчанию.</p>
       <p><span class="label label-info">Скачать:</span> <a href="https://github.com/CherryFramework/CherryFramework/raw/master/includes/plugins/cherry-plugin.zip">https://github.com/CherryFramework/CherryFramework/raw/master/includes/plugins/cherry-plugin.zip</a><br />
@@ -578,8 +592,8 @@
       <span class="label">Описание:</span> Данный плагин WordPress является полноценным форумом для блогов WordPress.</p>
     </article>     
 
-    <article> 
-        <h4 id="cookie_policy">Политика кукис</h4>
+    <article id="cookie_policy"> 
+        <h4>Политика кукис</h4>
         <p>Куки представляют собой небольшие текстовые файлы, которые веб-сайты создают на компьютерах пользователей. Они в основном используются для идентификации конкретного посетителя и обеспечения более высокой производительности. Куки являются важной частью многих функций веб-сайта.</p>
 
         <p>Например, в онлайн магазинах куки запоминают, что именно вы добавили в корзину. Они также сохраняют авторизацию на сайте и обеспечивают владельцев веб-сайтов ценной статистикой и информацией.</p>
@@ -596,7 +610,7 @@
 <!--Backup and Update started --> 
   <section class="block-templates" id="backup_update">  
 
-    <h2><i class="icon-refresh"></i> Резервное копирование и обновление</h2>
+    <h2 class="item4"><i class="icon-refresh"></i> Резервное копирование и обновление</h2>
 
     <div class="box-notification"><span>Перед обновлением Cherry Framework, мы убедительно советуем сделать резервную копию текущей версии.</span></div>
     <h4>Резервное копирование</h4>
@@ -623,7 +637,7 @@
   <section class="block-templates" id="page_templates_sidebars"> 
   
 
-    <h2><i class="icon-file-alt"></i> Шаблоны страниц и боковые колонки</h2>
+    <h2 class="item5"><i class="icon-file-alt"></i> Шаблоны страниц и боковые колонки</h2>
     <br>
     <div class="box-notification"><span>ВНИМАНИЕ: Стили необходимо редактировать в файле  style.less. Стили компилируются и файл main-style.css перезаписывается после сохранения. </span></div> 
 
@@ -651,7 +665,7 @@
 <!-- Posts, Categories and Post Formats begin -->
   <section class="block-templates" id="posts_categories">  
 
-    <h2><i class="icon-edit"></i> Записи, категории и форматы записей</h2>
+    <h2 class="item6"><i class="icon-edit"></i> Записи, категории и форматы записей</h2>
 
     <!-- Adding category -->
     <article id="adding-category">
@@ -923,7 +937,7 @@
   <!-- Portfolio page begin -->
   <section class="block-templates" id="portfolio_page">  
 
-    <h2><i class="icon-picture"></i> Страница портфолио</h2>
+    <h2 class="item7"><i class="icon-picture"></i> Страница портфолио</h2>
 
     <!-- Creating a Portfolio page -->
     <article>
@@ -948,7 +962,7 @@
 <!-- Shortcodes begin -->
   <section class="block-templates" id="shortcodes">  
 
-    <h2><i class="icon-file"></i> Шорткоды</h2>
+    <h2 class="item8"><i class="icon-file"></i> Шорткоды</h2>
     <p>Шорткоды - мощный инструмент управления контентом  <a href="http://codex.wordpress.org/Shortcode">http://codex.wordpress.org/Shortcode</a>. Они очень просты в использовании. Прежде всего, нужно выбрать режим редактирования <strong>Visual (Визуальный)</strong>.</p>
     <figure class="img-paraloid"><img src="img/wordpress/sc_visual.jpg" alt=""></figure>
     <p>Нажмите на кнопку шорткодов. После этого, выберите нужный шорткод.</p>
@@ -1441,7 +1455,7 @@
 <!-- Plugins and Custom Widgets begin -->
   <section class="block-templates" id="plugins_widgets">  
 
-    <h2><i class="icon-magnet"></i> Плагины и пользовательские виджеты</h2>
+    <h2 class="item9"><i class="icon-magnet"></i> Плагины и пользовательские виджеты</h2>
 
     <article id="plugins">
       <h4>Плагины</h4>
@@ -1655,7 +1669,7 @@
 <!-- Theme Options begin -->
   <section class="block-templates" id="theme_options">  
 
-    <h2><i class="icon-cogs"></i> Опции Cherry </h2>
+    <h2 class="item10"><i class="icon-cogs"></i> Опции Cherry </h2>
     <p>В данной теме есть опция настроек. Они позволяют изменить цветовую схему темы, порядок элементов, включать/выключать элементы и многое другое. Чтобы использовать данные настройки, перейдите в меню <strong>Appearance (Внешний вид) &rarr; Cherry Options</strong> <strong>(Опции Cherry)</strong>.</p>
     <article id="general_option"> 
       <h4>Главные</h4>
@@ -1919,7 +1933,7 @@
 <!-- Shop Kit begin -->
   <section class="block-templates" id="shop_kit">  
 
-    <h2><i class="icon-shopping-cart"></i> Shop Beginners Kit</h2>
+    <h2 class="item11"><i class="icon-shopping-cart"></i> Shop Beginners Kit</h2>
     <div class="box-notification"><span>Важно! Shop Beginners Kit работает только на <strong>Cherry Framework</strong> версии <strong>2.0</strong> и выше.<br><small>Если ваша версия ниже, чем 2.0,  <a href="#backup_update">обновите</a> Cherry Framework.</small></span></div>
     <p> Shop Beginners Kit можно приобрести вместе с темой WordPress или отдельно.</p>
     <article>

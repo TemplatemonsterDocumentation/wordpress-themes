@@ -234,7 +234,7 @@ $(document).ready(function() {
 	        $(".open_item").removeClass("open_item");
 	        for(var i=0, lenghtArray = idArray.length; i<lenghtArray; i++){
 	            if(
-	                $(idArray[i]).offset().top- $(window).scrollTop() <= (($(window).height()/2)-100) && 
+	                $(idArray[i]).offset().top- $(window).scrollTop() <= (($(window).height()/2)) && 
 	                $(idArray[i]).offset().top- $(window).scrollTop()>=0 || 
 	                $(window).scrollTop() + (($(window).height()/2)-100) > $(idArray[i]).offset().top&& 
 	                $(idArray[i]).offset().top+ $(idArray[i]).height() > $(window).scrollTop() + (($(window).height()/2)))
