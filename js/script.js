@@ -46,7 +46,7 @@ console.log(doc_language);
 	        ['pl', 'Polski', false], 
 	        ['pt', 'Português', false], 
 	        ['tr', 'Türk', false], 
-	        ['it', 'Italiano', false]
+	        ['it', 'Italiano', true]
 	    ];
 
 	    for (var i = 0; i <= languages.length - 1; i++) {
