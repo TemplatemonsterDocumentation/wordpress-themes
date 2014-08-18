@@ -46,6 +46,7 @@ console.log(doc_language);
 	        ['pl', 'Polski', true], 
 	        ['pt', 'Português', true], 
 	        ['tr', 'Türk', true], 
+	        ['tr', 'Türk', false], 
 	        ['it', 'Italiano', true]
 	    ];
 
