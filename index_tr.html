@@ -1,0 +1,2021 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Cherry WordPress Şablon Açıklaması</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/bootstrap.css" media="screen">
+  <link rel="stylesheet" href="css/responsive.css" media="screen">
+  <link rel="stylesheet" href="css/style.css" media="screen">
+  <link rel="stylesheet" href="css/flexslider.css"  media="screen">
+  <link rel="stylesheet" href="css/prettify.css"  media="screen">
+   <link rel="stylesheet" href="css/prettyPhoto.css"  media="screen">
+   <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/wordpress-themes/v3-1/index_en.html"/>
+  <script src="js/jquery.js"></script>
+  <script src="js/jquery.scrollTo.js"></script>
+  <script src="js/jquery-migrate-1.1.0.js"></script>
+  <script src="js/prettify.js"></script>
+  <script src="js/jquery.flexslider.js"></script>
+  <script src="js/bootstrap-affix.js"></script>
+  <script src="js/script.js"></script>
+  <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+  <link href="google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
+  <script type="text/javascript" src="google-code-prettify/prettify.js"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/3.2.1/css/font-awesome.min.css" media="all" rel="stylesheet" type="text/css">
+
+    <!--[if lt IE 8]>
+  		<div style='text-align:center'>
+        <a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" alt="" /></a>
+      </div>  
+ 	  <![endif]-->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
+</head>
+
+<body>  
+<!-- Cherry Version v3-1-->
+<!-- header
+================================================== -->
+<header class="header">
+  <div class="container">
+  <div class="row">
+  <article class="span3"><a class="brand" href="/help/" target="_blank"></a></article>
+  <article class="span7">
+   <h1>Cherry WordPress Şablon Açıklaması</h1>
+  </article>  
+    <article class="span2">
+
+       <div id="languages" class="select-menu pull-right">
+        <div class="select-menu_icon"><b>Tr</b><i class="icon-angle-down"></i></div>
+        <ul class="select-menu_list">
+          
+        </ul>
+      </div>
+ 
+      <div id="versions" class="select-menu pull-right">
+        <div class="select-menu_icon"><b>v3-1</b><i class="icon-angle-down"></i></div>
+        <ul class="select-menu_list">
+          <li class="active"><a href="/help/quick-start-guide/wordpress-themes/v3-1/index_en.html"><span>v3-1</span></a></li>
+          <li><a href="/help/quick-start-guide/wordpress-themes/v3-0/index_en.html"><span>v3-0</span></a></li>
+          <li><a href="/help/quick-start-guide/wordpress-themes/v2-4/index_en.html"><span>v2-4</span></a></li>
+          <li><a href="/help/quick-start-guide/wordpress-themes/v2-3/index_en.html"><span>v2-3</span></a></li>
+        </ul>
+      </div>
+    </article>   
+   
+  </div>  	
+  </div>
+</header>
+<div id="content"> 
+<div class="bg-content-top">
+<div class="container">
+
+<!-- Docs nav
+    ================================================== -->
+  <div class="row">
+      <div class="span3"> 
+
+        <div id="nav_container">
+          <a href="javascript:;" id="affect_all">
+            <span class="expand">
+              <i class="icon-angle-down"></i>
+            </span>            
+            <span class="close">
+              <i class="icon-angle-up"></i>
+            </span>
+          </a>
+            <div class="row-fluid"></div>    
+                <ul class="nav nav-list bs-docs-sidenav"  id="nav">
+                  <li class="nav-item item1">
+                    <dl class="slide-down">
+                       <dt><a href="#introduction" class="icon-info-sign">Tanıtım</a></dt>
+                       <dd></dd>
+                     </dl>   
+                  </li>
+                  <li class="nav-item item2">
+                    <dl class="slide-down">
+                       <dt><a href="#template_installation" class="icon-check special"><b>Şablon yüklenmesi</b></a> <i class="icon-sample"></i></dt>  
+                       <dd><ul class="list">          
+                            <li><a href="#cherryframework_installation">Adım 1. CherryFramework yüklenmesi</a></li>
+                            <li><a href="#theme_installation">Adım 2. Tema yüklenmesi</a></li>                             
+                            <li><a href="#theme_sample_data">Adım 3. Örnek veri yüklenmesi</a></li>                          
+                           </ul> 
+                        </dd>      
+                     </dl> 
+                  </li>           
+                  <li class="nav-item item3">
+                    <dl class="slide-down">
+                       <dt><a href="#getting_started" class="icon-play">Başlangıç </a> <i class="icon-sample"></i></dt>
+                         <dd>
+                           <ul class="list">   
+                            <li><a href="#prepare">Hazırlık</a></li>      
+                            <li><a href="#engine_installation">Ana uygulamanın yüklenmesi</a></li>                          
+                            <li><a href="#manual_install">Kılavuz yüklenmesi</a></li>
+                            <li><a href="#plugins_intstall">Eklenti yüklenmesi</a></li>
+                            <li><a href="#theme_plugins">Tema eklentileri</a></li>
+                            <li><a href="#cookie_policy">Çerez Politikası</a></li>
+                           </ul> 
+                       </dd>
+                     </dl> 
+                  </li>          
+                  <li class="nav-item item4">
+                    <dl class="slide-down">
+                      <dt><a href="#backup_update" class="icon-refresh">Yedekleme ve Güncelleme</a></dt>
+                      <dd></dd>
+                     </dl> 
+                  </li>
+                  <li class="nav-item item5">
+                    <dl class="slide-down">
+                      <dt><a href="#page_templates_sidebars" class="icon-file-alt">Sayfa Şablonu ve Kenar Çubukları</a></dt>
+                      <dd></dd>
+                     </dl> 
+                  </li> 
+                  <li class="nav-item item6">
+                    <dl class="slide-down">
+                      <dt><a href="#posts_categories" class="icon-edit">Yazılar, Kategori ve Yazı Formatları</a><i class="icon-sample"></i></dt>
+                      <dd>
+                        <ul class="list">
+                          <li><a href="#adding-category">Kategori eklemek</a></li>
+                          <li><a href="#blog_post">Blog yazısı oluşturmak</a></li>
+                          <li><a href="#post-formats">Yazı formatı seçmek</a></li>
+                          <li><a href="#slider_post">Kayan yazı oluşturmak</a></li>
+                          <li><a href="#portfolio_post">Portfolyo yazısı eklemek</a></li>
+                          <li><a href="#testimonial_post">Referans yazısı eklemek</a></li>
+                          <li><a href="#faq_post">SSS sayfası eklemek</a></li>
+                          <li><a href="#team_post">Ekibimiz yazısı eklemek</a></li>
+                          <!-- <li><a href="#clients_post">Adding a Clients post</a></li> -->
+                        </ul>
+                      </dd>
+                    </dl>
+                  </li>                  
+                  <li class="nav-item item7">
+                    <dl class="slide-down">
+                       <dt><a href="#portfolio_page" class="icon-picture">Portfolyo sayfası </a></dt>
+                         <dd></dd>
+                     </dl> 
+                  </li> 
+                  <li class="nav-item item8">
+                    <dl class="slide-down">
+                       <dt><a href="#shortcodes" class="icon-file">Kısa kodlar </a> <i class="icon-sample"></i></dt>
+                         <dd>
+                           <ul class="list">          
+                            <li><a href="#dynamic_shortcodes">Dinamik</a></li>
+                            <li><a href="#columns_shortcodes">Sütunlar</a></li>     
+                            <li><a href="#elements_shortcodes">Unsurlar</a></li>  
+                            <li><a href="#other_shortcodes">Diğer</a></li>                
+                           </ul> 
+                       </dd>
+                     </dl> 
+                  </li> 
+                  <li class="nav-item item9">
+                    <dl class="slide-down">
+                      <dt><a href="#plugins_widgets" class="icon-magnet">Eklentiler ve Plugins and Ana Kenarlıklar</a></dt>
+                      <dd></dd>
+                     </dl> 
+                  </li> 
+                  <li class="nav-item item10">
+                    <dl class="slide-down">
+                      <dt><a href="#theme_options" class="icon-cogs">Cherry Ayarları</a><i class="icon-sample"></i></dt>
+                      <dd>
+                         <ul class="list">          
+                          <li><a href="#general_option">Genel</a></li>
+                          <li><a href="#logo_option">Logo &amp; Favicon</a></li>    
+                          <li><a href="#navigation_option">Menü</a></li>    
+                          <li><a href="#slider_option">Slider</a></li>    
+                          <li><a href="#blog_option">Blog</a></li>    
+                          <li><a href="#portfolio_option">Portfolyo</a></li>  
+                          <li><a href="#footer_option">Alt Kısım</a></li>  
+                          <li><a href="#footer_logo_option">Alt Logo</a></li>                  
+                          <li><a href="#contacts_option">İletişim</a></li>  
+                          <li><a href="#social_option">Sosyal</a></li>                
+                         </ul> 
+                      </dd>
+                     </dl> 
+                  </li> 
+                  <li class="nav-item item11">
+                    <dl class="slide-down">
+                      <dt><a href="#shop_kit" class="icon-shopping-cart">Shop Beginners Kit </a></dt>
+                      <dd></dd>
+                     </dl> 
+                  </li> 
+                </ul>
+            </div>
+      </div> 
+
+      
+<div class="span9">
+
+<!-- box-content
+================================================== -->
+<div class="box-content">
+  <!-- block-started
+  ================================================== -->
+  <section class="block-started"  id="introduction" >
+    <h2 class="item1"><i class="icon-info-sign"></i> Tanıtım</h2>
+    <p>Bir WordPress teması satın aldığınız için teşekkür ederiz. Bu dokümanda, bir WordPress sitesinin tüm kurulum ve yönetim sürecini, ilk aşamadan itibaren detaylı bir şekilde bulabilirsiniz.</p>
+    
+    <div id="wordpress_cms_desc">
+      <h4>WordPress İYS nedir?</h4>
+      <p>WordPress, ücretsiz ve açık kaynaklı bir blog aracıdır. PHP ve MySQL tabanlı bir içerik yönetim sistemidir (İYS). Size, etkili online uygulamalarla website kurma olanağı sağlar. Üstelik yönetim için, neredeyse hiçbir teknik yetenek veya bilgi gerektirmemektedir. Kolay kullanılabilirliği ve geliştirilebilirliği de dahil olmak üzere onlarca avantaja sahip olması, WordPress'i en popüler website yazılımı haline getirmiştir. <a href="http://wordpress.org/about/" target="_blank">Devamını Oku</a></p>
+    </div>
+
+    <div id="wordpress_template_desc">
+      <h4>WordPress şablonu nedir?</h4>
+      <p>WordPress şablonu, WordPress İYS ile kurulan website için bir nevi kıyafettir. İstediğiniz zaman, bir kaç küçük adımla Wordpress sitenizin şablonunu değiştirebilirsiniz. Bu kadar kolay bir kullanıma sahip olmasına rağmen, WordPress şablonu tüm gerekli kaynak kodlarını barındırır ve istediğiniz zaman size bu kodları düzenleyebilme veya geliştirebilme imkanı sağlar.</p>
+    </div>
+
+    <div id="file_structure">
+      <h4>Dosya yapısı</h4>
+      <p>Yüklediğiniz şablon paketinde bir kaç tane klasör bulunmaktadır. Bunlara bir göz atalım:</p>
+      <ul class="files_structure">
+
+        <li class="folder"><i class="icon-folder-close"></i> <b>dokümantasyon</b><small class="muted"> - doküman dosyalarını içerir.</small>
+          <ul>
+            <li class="file"><i class="icon-file"></i> documentation.html<small class="muted"> - ana doküman dosyası. Şu an tam oradasınız :)</small></li>
+          </ul>
+        </li>
+
+        <li class="folder"><b>screenshots</b><small class="muted"> - şablonların ekran görüntülerini içerir. Örneklerdir.</small></li>
+
+        <li class="folder"><b>sources.zip</b><small class="muted"> - şablonun kaynak dosyalarını içerir.</small>
+          <ul>
+            <li class="folder"><i class="icon-folder-close"></i> psd<small class="muted"> - şablonun Adobe Photoshop (.psd) kaynak kodlarını içerir.</small></li>
+          </ul>
+        </li>
+
+        <li class="folder"><i class="icon-folder-close"></i> <b>theme</b><small class="muted"> - WordPress tema dosyalarını içerir.</small>
+          <ul>
+            <li class="file"><i class="icon-file"></i> CherryFramework.zip<small class="muted"> - Cherry Framework tema arşividir. Tüm tema dosyalarını içerir. WordPress eklenti yönetiminden kurulmalıdır.</small></li>
+            <li class="file"><i class="icon-file"></i> theme####.zip<small class="muted"> - tema(yavru tema-child theme) arşividir. Tüm tema dosyalarını içerir. WordPress eklenti yönetiminden kurulmalıdır.</small></li>
+            <li class="folder"><i class="icon-folder-close"></i> sample_data<small class="muted"> - WordPress sitenizin, bizim demomuzdaki gibi görünmesini sağlayacak dosyaları içerir.</small>
+              <ul> 
+                <li class="file"><i class="icon-file"></i> sample_data.xml<small class="muted"> - şablonun örnek verilerini içerir (yazılar, sayfalar, kategoriler vs.).</small></li>
+                <li class="file"><i class="icon-file"></i> widgets.json<small class="muted"> - bileşen ayarlarını içerir.</small></li>
+                <li class="file"><i class="icon-file"></i> çeşitli görseller ve diğer medya dosyaları<small class="muted"></small></li>
+              </ul>
+            </li>
+            <li class="folder"><i class="icon-folder-close"></i> manuall_install<small class="muted"> - WordPress sitenizin, bizim demomuzdaki gibi görünmesini sağlayacak dosyaları içerir.</small>
+              <ul> 
+                <li class="file"><i class="icon-folder-close"></i> uploads<small class="muted"> - tema görsellerini içerir.</small></li>
+                <li class="file"><i class="icon-file"></i> theme#####.sql<small class="muted"> - veri tabanı yedek dosyası (tema içeriğini kapsar).</small></li>
+              </ul>
+            </li>           
+          </ul>
+        </li>
+        <li class="file"><i class="icon-file"></i> license.txt<small class="muted"> - ruhsat detaylarını içerir.</small></li>
+        <li class="file"><i class="icon-file"></i> fonts_info.txt<small class="muted"> - şablonun ana yazı türlerinin yüklenebileceği bağlantılar içerir.</small></li>
+        <li class="file"><i class="icon-file"></i> info.txt<small class="muted"> - kaynak kodların nasıl çıkartılacağını anlatan bilgiler içerir.</small></li>
+      </ul>
+    </div>
+  </section>
+  
+  <!-- template_installation started --> 
+  <section class="block-templates" id="template_installation">   
+     
+  
+    <h2 class="item2"><i class="icon-check"></i> Şablon yüklenmesi</h2>
+    
+    <p>Şablon yüklemek hiç bu kadar kolay olmamıştı. Yükleme sadece üç kolay adımla yapılır : Cherry framework kurulumu, ek tema kurulumu ve örnek veri kurulumu.</p>
+     <p>Tüm kurulum, WordPress üzerinden kolayca ve hızlıca yapılabilir.</p>
+     
+      <p>Aşağıdaki adrese tıklayarak bunu görebilirsiniz:</p>
+     <figure class="img-paraloid quick-start-guide"><a href="/help/quick-start-guide/wordpress-themes/master/quick_guide/index_en.html" target="_blank" ><img src="img/wordpress/banner2.jpg" alt=""></a></figure>
+    
+    <!-- CherryFramework installation -->
+
+    <article id="cherryframework_installation">
+      <h4>Adım 1. CherryFramework kurulumu</h4>
+       
+  
+       
+        <ol style="margin-bottom:.5em;">
+          <li>WordPress yönetici paneline giriş yapın (tarayıcınızın adres çubuğuna /wp-admin yazın).</li>                                             
+          <li>Menüden <strong>Görünüm</strong> > <strong>Temalar</strong> kısmına gelin ve <strong>Yeni Tema Ekle </strong>kısmına basın.</li>
+          <li>Bu kısımdaki <strong>Yükle</strong> yazısına tıklayın.</li>
+          <li>Ardından <strong>Seç</strong> tuşuna tıklayarak, bilgisayarınızdaki zip formatlı şablonu seçin.</li>
+          <li>Bulmanız gereken dosya <strong>CherryFramework.zip</strong>. Üstüne tıklayarak seçin ve <strong>OK</strong> tuşuna basın.</li>
+          <li>Bu aşamada <strong>Şimdi yükle</strong> kısmına basın ve yüklemenin bitmesini bekleyin.</li>
+          <li>Son olarak <strong>Etkinleştir</strong> yazısına tıklayın.</li>
+        </ol>
+
+     
+      <p class="muted text-center"></p>
+
+        <p>Daha fazla bilgi için <!--<a target="_blank" href="/help/how-install-wordpress-theme-via-admin-panel.html">How to install a WordPress theme via admin panel</a> and--> <a target="_blank" href="/help/wordpress-how-to-install-cherry-framework-template-starting-with-version-3-1.html">Cherry framework şablonu nasıl kurulur</a> konulu eğitim videosunu izleyebilirsiniz.</p>
+        <p>Tebrikler, frameworkü kurdunuz.</p> 
+    </article>    
+        <!-- Theme installation -->
+
+    <article id="theme_installation">
+      <h4>Step 2. Tema kurulumu</h4>
+        <p>Artık yavru tema (child theme) kurabilirsiniz: <strong>theme####.zip</strong>. Adımlar yine aynı:</p>
+        <ol style="margin-bottom:.5em;">
+          <li>Menüden <strong>Görünüm</strong> > <strong>Temalar</strong> kısmına gelin ve <strong>Yeni Tema Ekle </strong>kısmına basın.</li>
+          <li>Bu kısımdaki <strong>Yükle</strong> yazısına tıklayın.</li>
+          <li>Ardından <strong>Seç</strong> tuşuna tıklayarak, bilgisayarınızdaki zip formatlı şablonu seçin.</li>
+          <li>Bulmanız gereken dosya <strong>theme####.zip </strong>(buradaki <strong>XXXX</strong> temanıza ait olan özgün bir rakamdır). Üstüne tıklayarak seçin ve <strong>OK</strong> tuşuna basın.</li>
+          <li>Bu aşamada <strong>Şimdi yükle</strong> kısmına basın ve yüklemenin bitmesini bekleyin.</li>
+          <li>Son olarak <strong>Etkinleştir</strong> yazısına tıklayarak, satın almış olduğunuz temayı şu anki görünüşle değiştirebilirsiniz.</li>
+        </ol>
+
+      
+      <p class="muted text-center"></p>
+
+        <p>Tebrikler, hem framework hem de temanız başarıyla kuruldu!</p>
+        
+    </article>
+
+    <article  id="theme_sample_data">
+      <h4>Step 3. Örnek veri kurulumu</h4>
+      <p>Sitenizin, bizim demomuzdaki gibi görünmesi için, aşağıdaki adımları takip ediniz. Bu arada her zaman <a target="_blank" href="/help/phpmyadmin-how-to-backup-a-database.html">.sql yedeğini</a> almanızı öneririz.</p>
+
+      <div class="box-info"><span>NOT: Cherry Framework v3.0 veya daha önceki sürümle kurulmuş olan şablonlara Örnek veri kurmak için "sample_data" klasöründeki XML ve JSON dosyalarını yüklemeniz gerekmektedir. Medya ve görseller "manual_install\uploads" klasöründen yüklenmelidir. Tüm alt klasörlerdeki görselleri yüklediğinize emin olun. </span></div>
+
+      <ol>
+        <li>Menüden <strong>Cherry Plugin &gt; İçerik Yükle kısmına girin.</strong></li>
+        <li>Burada, sunucunuzun Cherry Plugin için uygun olup olmadığını göreceksiniz. Eğer her hangi bir uyarı mesajı varsa, hosting şirketinizin destek bölümüyle iletişime geçin.
+        <figure class="img-paraloid"><img src="img/wordpress/import_1st_step.png" alt=""></figure></li>
+        <li>Eğer sunucunuz kurulum için uygunsa, karşınıza yükleme ekranı çıkacak. Şimdi şablon paketindeki <b>"theme/sample_data"</b> klasörünü açın ve tüm dosyaları WordPress'inize yükleyin. Bu işlemi kolayca yapmak için <b>"theme/sample_data"</b> klasöründe bulunan tüm dosyaları (CTRL+A veya Command+A) tuşlarını kullanarak seçebilir ve yükleme alanına bırakabilirsiniz.
+        <figure class="img-paraloid"><img src="img/wordpress/import_2nd_step.png" alt=""></figure></li>
+        <li>İçinde .JSON ve .XML dosyalarının da bulunduğu sample_data klasöründeki tüm dosyaları yüklediğinize emin olun. Yükleme bittiğinde "Kuruluma devam et" yazısına tıklayın. <br><br>
+        <div class="box-notification"><span>DİKKAT: Örnek veri kurulumu için .JSON ve .XML gerekmektedir. Kurulum, eğer .XML ve .JSON dosyaları yüklenmişse devam eder.</span></div>
+        <figure class="img-paraloid"><img src="img/wordpress/import_3d_step.png" alt=""></figure></li>
+        <li>Bu aşamada "Kuruluma devam et" yazısına basarak, örnek veri kurulumu etkinleştirilir. Sunucu ayarlarınıza bağlı olarak bu işlem bir kaç dakika sürebilir. Sabırlı olunuz.
+        <figure class="img-paraloid"><img src="img/wordpress/import_4th_step.png" alt=""></figure></li>
+        <li><span><strong>Tebrikler!</strong> Cherry WordPress Tema'nız başarılı bir şekilde kuruldu. Temayı görüntüleyebilirsiniz.</span>
+        <figure class="img-paraloid"><img src="img/wordpress/import_5th_step.png" alt=""></figure>
+        </li>
+      </ol>      
+    </article>
+  </section>
+
+
+<!-- Getting started --> 
+  <section class="block-templates" id="getting_started">  
+
+    <h2 class="item3"><i class="icon-play"></i> Başlamak</h2>
+<!-- prepare started --> 
+   
+
+    <article  id="prepare">
+      <h4>Hazırlık</h4>
+    <p>WordPress sitenizi oluşturmaya başlamadan önce, buna hazır olduğunuza emin olun. Lütfen aşağıdaki hazırlık aşamalarını kontrol edin:</p>
+
+
+      <h4>Yazılımı Düzenlemek</h4>
+      <p>Wordpress temanız üzerinde rahatça çalışabilmek için, gerekli olan tüm uygulamaları yüklemenizi tavsiye ederiz. İhtiyaç duyulan yazılımların listesini, şablon görüntüleme sayfasında bulabilirsiniz. <br>Buradaki gereksinimler, şablona göre değişiklik gösterebilir fakat biz genel olarak nelere ihtiyaç olduğunu yazdık:</p>
+
+      <ol>
+        <li>Öncelikle, şifreyle korunan sources_#########.zip arşivini açmak için gereken bir uygulamaya ihtiyacınız var. Bunun için WinZip 9+ (Windows) ve Stuffit Expander 10+ (Mac) kullanabilirsiniz.</li>
+        <li>Ayrıca Adobe Photoshop uygulamasına da ihtiyacınız var. Bu uygulamayı .PSD kaynak dosyalarını ve eğer isterseniz şablonunuza ait olan grafik ve görsel dosyalarını düzenlemek için kullanabilirsiniz.</li>
+        <li>Şablonun kaynak kodlarını düzenlemek için; Adobe Dreamweaver, Notepad++, Sublime Text gibi uygulamalara ihtiyacınız var.</li>
+        <li>Dosyaları sunucuya yüklemek için; Total Commander, FileZilla, CuteFTP gibi FTP yönetici uygulamalar kullanmalısınız.</li>
+      </ol>
+
+      <h4>Hosting</h4>
+      <p>WordPress CMS(İYS) bir PHP/MySQL tabanlı uygulamadır, bu yüzden WordPress'in çalışması için uygun bir hosting (site barındırma alanı) kullanıyor olmalısınız.</p>
+      <p>Hali hazırda kullandığınız bir hosting varsa, o zaman <a href="http://wordpress.org/about/requirements/" target="_blank">WordPress yazılımının gereksinimleri</a>ni karşıladığına ve WordPress siteniz için kullanıma hazır olduğuna emin olunuz.</p>
+      <p>Başk bir seçenek olarak WordPress'i kendi bilgisayarınızda çalıştırabilirsiniz. Bilgisayarınızda yerel bir sunucu oluşturmak için <b>WAMP</b>, <b>AppServ</b>, <b>MAMP</b> gibi uygulamalar kullanabilirsiniz. Bu uygulamaları kolayca kurup, WordPress sitenizi çalıştırabilirsiniz. </p>
+      <p>Aşağıda, yerel bir geliştirme ortamı oluşturabilmek için ihtiyaç duyabileceğiniz bilgilendirici makaleler yer almaktadır:</p>
+      <ul class="list-2">
+        <li><i class="icon-play-circle "></i> <a target="_blank" href="/help/how-to-install-appserv-web-development-environment.html">AppServ web geliştirme ortamı programı nasıl kurulur</a></li>
+        <li><i class="icon-play-circle "></i> <a target="_blank" href="/help/how-to-install-wamp-web-development-environment.html">WAMP web geliştirme ortamı programı nasıl kurulur</a></li>
+        <li><i class="icon-play-circle "></i> <a target="_blank" href="/help/how-to-install-xamp-web-development-environment.html">XAMP web geliştirme ortamı programı nasıl kurulur</a></li>
+      </ul>
+    </article>
+     <!-- Engine installation -->
+    <article id="engine_installation">
+      <h4>Ana yazılım kurulumu</h4>
+      <div class="box-info"><span>Uygun versiyondaki WordPress yazılımını yükleyin. Şablon görüntüleme sayfasındaki gereksinimler bölümünden, WordPress'in gereken versiyonunu görebilirsiniz. Doğru olanı yüklediğinize emin olun.</span></div>
+      <ol>
+        <li>WordPress'in ana yazılımı, resmi WordPress.org sitesindeki <a href="http://wordpress.org/download/" target="_blank"><strong>WordPress Yükle</strong></a> adresinden indirilebilinir. Daha eski bir versiyona ihtiyaç duyarsanız <a href="http://wordpress.org/download/release-archive/" target="_blank"><strong>Yayın Arşivi</strong></a> ne bakabilirsiniz.
+        </li>
+        <li>İndirme işlemi bittikten sonra, şablon paketindeki ve ana yazılımın içeriğindeki dosyaları çıkartmanız gerekir. Çünkü bu dosya <strong>ZIP</strong> formatındadır. ZIP arşivlerini açan herhangi bir program kullanabilirsiniz.
+          <p>Aşağıdaki bilgilendirici makalelerde <a target="_blank" href="/help/unzipping-your-template.html"><strong>Windows (WinZip)</strong></a> ve <a target="_blank" href="/help/how-unzip-template-mac.html"><strong>MAC( StuffitExpander)</strong></a> için, ZIP dosyalarının nasıl açılacağı anlatılmıştır.</p>
+          <ul class="list-2">
+            <li><i class="icon-info-sign"></i> <a target="_blank" href="/help/extract-archived-files-mac-os.html">Arşivlenmiş dosyaların açılması (MAC İS)</a></li>
+            <li><i class="icon-info-sign"></i> <a target="_blank" href="/help/extract-archived-files-windows-os.html">Arşivlenmiş dosyaların açılması (Windows İS)</a></li>
+            <li><i class="icon-info-sign"></i> <a target="_blank" href="/help/downloading-and-installing-winzip.html">WinZip indirmek ve kurmak</a></li>
+            <li><i class="icon-info-sign"></i> <a target="_blank" href="/help/how-unzip-template-mac.html">Şablon nasıl açılır (MAC İS)</a></li>
+            <li><i class="icon-info-sign"></i> <a target="_blank" href="/help/unzipping-your-template.html">Şablon nasıl açılır (Windows İS)</a></li>
+          </ul>
+        </li>
+        <li>Dosyaları çıkarttıktan sonra, Wordpress ana dosyalarını ve klasörlerini sunucunuza yüklemelisiniz.
+          <p>Tüm bu dosya ve klasörler hosting sunucunuza yüklenmeli. Ana dosyalar, sunucunuzdaki <strong>PUBLIC_HTML</strong> veya <strong>WWW</strong> dizinine yüklenmeli.</p>
+
+          <div class="box-info"><span>Eğer sunucunuzda PUBLIC_HTML veya WWW dizinleri bulunmuyorsa, sunucunuzla ilgilenen yöneticilerle iletişime geçip, dosyaları tam olarak nereye yüklemeniz gerektiğini sorunuz.</span></div>
+
+          <p>Sunucuya dosya yüklemekle ilgili aşağıdaki bilgilendirici makalelere bakabilirsiniz:</p>
+          <ul class="list-2">
+            <li><i class="icon-info-sign"></i> <a target="_blank" href="/help/how-upload-files-server-2.html">Sunucuya dosya yüklemek</a>
+            <li><i class="icon-info-sign"></i> <a target="_blank" href="/help/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html">Sunucuya cPanel (WebHost Yöneticisi, WHM) üzerinden dosya yüklemek</a> </li>
+          </ul>
+        </li>
+        <li>Bu noktada, WordPress yazılımının kullanacağı bir veritabanı oluşturmalısınız.
+
+          <p>Sunucunuzun kontrol panelinden (<i>genellikle PhpMyAdmin</i>), veritabanı yönetimini kullanarak yeni bir veritabanı oluşturabilirsiniz.</p>
+
+          <p>PhpMyAdmin aracıyla, üç kolay adımda yeni bir veritabanı oluşturmanız mümkün:</p>
+
+          <ol>
+            <li>Menünün üst kısmında yer alan Veritabanı yazısına tıklayın.</li>
+            <li>"Yeni veritabanı oluştur" alanına, veritabanınızın adını yazın. </li>
+            <li>Sağ taraftaki Oluştur yazısına tıklayın.</li>
+          </ol>
+          <br>
+          <p>Veritabanınız artık listede yerini aldı. Şimdi, oluşturduğunuz isme tıklayın.</p>
+
+          <div class="flexslider clearfix img-polaroid">
+            <ul class="slides">
+              <li>
+                <img src="img/database-create-1.jpg" alt="" />
+                <div class="flex-caption">
+                  <p>1. Veritabanı yazısına tıklayıp, listeye ulaşın.</p>
+                </div>
+              </li>                   
+              <li>
+                <img src="img/database-create-2.jpg" alt="" />
+                <div class="flex-caption">
+                  <p>2. Veritabanı adını yazın. <br>
+                  3. Oluştur yazısına tıklayın.</p>
+                </div>
+              </li>
+              <li>
+                <img src="img/database-create-3.jpg" alt="" />
+                <div class="flex-caption">
+                  <p>4. Veritabanınız artık listede. Veritabanı ismine tıklayıp, görüntüleyin.</p>
+                </div>
+              </li> 
+            </ul>    
+          </div>
+            <br>     
+          <p>Eğer isterseniz <a target="_blank" href="/help/how-to-create-a-database.html"><i class="icon-play-circle "></i> Veritabanı Oluşturmak</a> ile ilgili bu detaylı videoyu da izleyebilirsiniz.</p>
+       <br />   
+          <div class="box-notification"><span>Veritabanı oluştururken herhangi bir sorun yaşarsanız, yardım ve destek için hosting sağlayıcınızla iletişime geçiniz.</span></div>
+
+          <p>Aşağıdaki detaylı yardım makalelerine bakabilirsiniz:</p>
+          <ul class="list-2">
+            <li class="first"><i class="icon-info-sign"></i> <a target="_blank" href="/help/how-create-database.html">Veritabanı nasıl oluşturulur</a></li>
+            <li class="last"><i class="icon-info-sign"></i> <a target="_blank" href="/help/how-to-create-mysql-database-with-godaddy.html">GoDaddy'de nasıl MySQL veritabanı oluşturulur</a></li>
+          </ul>
+        </li>
+        <li>Tarayıcınızın adres çubuğuna alanadı/anadizin yazarak kurma işlemini başlatın. Buradaki anadizin, tüm WordPress dosyalarını yüklediğiniz ana dizindir. 
+        </li>
+        <li><strong>Ayar dosyası (configuration file) oluşturun.</strong> WordPress'in ilk kurulum sayfasında, düzen dosyasının ulaşılabilir olmadığına dair bir uyarı görürsünüz. Ayar Dosyası Oluştur (Create Configuration File) yazısına basarak oluşturun.
+
+            <figure class="img-paraloid"><img src="img/wordpress/wp-install-1-b.jpg" alt="Creating configuration file."></figure>
+            <p class="muted text-center"></p>
+
+        </li>
+        <li><strong>Veritabanı bilgilerini giriniz.</strong> WordPress için veritabanı bağlantı bilgilerini bu alana yazın.
+
+            <figure class="img-paraloid"><img src="img/wordpress/wp-install-3-b.jpg" alt="Inserting database details."></figure>
+            <p class="muted text-center"></p>
+
+        </li>
+        <li><strong>Website bilgilerini yazın.</strong> Bu alana, aşağıdaki bilgileri yazmalısınız:
+          <ul>
+            <li><i class="icon-angle-right"></i> website başlığı</li>
+            <li><i class="icon-angle-right"></i> yöneticinin kullanıcı adı ve şifresi</li>
+            <li><i class="icon-angle-right"></i> website email adresi.</li>
+          </ul>
+
+            <figure class="img-paraloid"><img src="img/wordpress/wp-install-6-b.jpg" alt="Inserting website details."></figure>
+            <p class="muted text-center"></p>
+
+        </li>
+        <li>Bu aşamalar bittikten sonra, WordPress Kur yazısına basın.
+
+            <figure class="img-paraloid"><img src="img/wordpress/wp-install-7-b.jpg" alt="Install WordPress button."></figure>
+            <p class="muted text-center"></p>
+
+          <p>Tüm bilgiler doğru şekilde yazılmışsa, bir sonraki sayfada WordPress yönetici giriş panelini görürsünüz.</p>
+        </li>
+      </ol>     
+      <p>Aşağıdaki detaylı yardım makalelerine bakabilirsiniz:</p>
+      <ul class="list-2">
+        <li class="first"><i class="icon-info-sign"></i> <a target="_blank" href="/help/wordpress-how-to-install-the-engine-to-hostgator-server-manual-installation.html">Ana yazılımı HostGator sunucusuna nasıl kurarım (manuel kurulum)</a></li>
+        <li><i class="icon-info-sign"></i> <a target="_blank" href="/help/wordpress-how-to-install-the-engine-to-bluehost-server-manual-installation.html">Ana yazılımı Bluehost sunucusuna nasıl kurarım (manuel kurulum)</a></li>
+        <li><i class="icon-info-sign"></i> <a target="_blank" href="/help/wordpress-how-to-install-the-engine-to-siteground-server-manual-installation.html">Ana yazılımı SiteGround sunucusuna nasıl kurarım (manuel kurulum)</a></li>
+        <li><i class="icon-info-sign"></i> <a target="_blank" href="/help/how-to-install-wordpress-to-godaddy-server-manual-installation.html">Ana yazılımı GoDaddy sunucusuna nasıl kurarım (manuel kurulum)</a></li>
+        <li class="last"><i class="icon-info-sign"></i> <a target="_blank" href="/help/wordpress-how-to-install-the-engine-to-just-host-server-manual-installation.html">Ana yazılımı Just Host sunucusuna nasıl kurarım (manuel kurulum)</a></li>
+      </ul>
+    </article>
+    
+
+    <article id="manual_install">
+      <h4>Manuel kurulum</h4>
+        <p>Örnek veriyi yüklemekte sorun yaşıyorsanız, aşağıdaki adımları uygulayınız.</p>
+        <div class="box-notification"><span>DİKKAT: İçeri aktaracağınız SQL dosyası, veritabanınızda kayıtlı olan içerik ve ayarları sıfırlar. Verilerinizi korumak istiyorsanız, SQL dosyasını içeri aktarmayınız.</span></div>
+        <div class="box-info"><span>NOT: Herhangi bir değişiklik yapmadan önce mutlaka veritabanınızı yedekleyin.</span></div>
+        <div class="box-info"><span>WordPress veritabanı tablolarının kısa kodu <strong>wp_</strong> olmalıdır.</span></div>
+
+      <figure class="img-paraloid"><img src="img/wordpress/wp_prefix.jpg" alt=""></figure>
+      <p class="muted text-center"></p>        
+        <!--<p>If the  database prefix is different, it should be changed according to this <a target="_blank" href="/help/wordpress-how-to-change-database-tables-prefix-in-sql-file.html">manual</a>.</p>-->
+      <p>Eğer WordPress sitenizin demomuzdaki gibi olmasını isterseniz, aşağıdaki adımları izleyiniz.</p>
+        <ol>
+          <li>Temanın <a href="#cherryframework_installation">bu yönergelerle</a> kurulduğuna emin olun.</li>
+          <li>FTP aracılığıyla "<strong>uploads</strong>" klasörünü (şablon paketinizin <strong> theme/manual_install/</strong> klasörü altında), <strong> /wp-content/ </strong> klasörüne yükleyin.</li>
+          <li><strong>theme/manual_install/</strong> klasöründe yer alan <strong>theme####.sql</strong> dosyasını, uygun bir text düzenleyiciyle (Dreamweaver veya Notepad tercih edilebilir) açın ve "<strong>your_website_url_here</strong>" şeklindeki yazıları <strong>Bul ve Değiştir</strong> aracını (Ctrl+H bu aracı açar) kullanarak kendi website adresinizi (http://www.mywebsite.com şeklinde) yazın.</li> 
+          <li>Site adresinizin sonunda slaş "/" olmamasına özen gösterin. Adres aynı zamanda http://www. şeklinde başlamalıdır.</li>
+          <li>Değişiklikleri kaydedip, dosyayı kapatın.</li>
+          <li>Şimdi bu dosyayı <strong>phpMyAdmin</strong> arayüzünden veya farklı bir veritabanı yönetim aracıyla içe aktarın.</li>
+        </ol>
+<br>
+      
+      <div class="box-info"><span>Eğer yönetici panelinden kurmakta sorun yaşıyorsanız, bu alternatif yolu deneyebilirsiniz.</span></div>
+        <h5>Örnek Veriyi FTP ile Kurmak:</h5>
+        
+        <p>Bu metod için, WordPress site dosyalarına erişiminiz olan bir hosting kontrol paneli veya Filezilla,  CuteFTP, Total Commander vs. gibi bir FTP programı kullanmalısınız.</p>
+        <div class="box-info"><span>Temanızı örnek veri kurulumu veya manuel kurulum ile kurduysanız ve tema demodakinden farklı görünüyorsa, Cherry Ayarları bölümünü açıp "Varsayılanı Yükle" yazısına tıklayın.</span></div>
+      
+      <ol>
+        <li><strong>CherryFramework.zip</strong> ve <strong>theme####.zip</strong> dosyalarını, bilgisayarınızdaki bir klasöre çıkartın. (Önce .zip dosyasının üstüne sağ tıklayın, ardından <strong>Unzip  to… CherryFramework</strong> ve <strong>theme####</strong> seçin. Böylece CherryFramework ve theme#### isimli iki klasörünüz oluşacaktır).
+        </li>
+        <li><strong>CherryFramework</strong> ve <strong>theme####</strong> klasörlerini, FTP sunucusundan <strong>/wp-content/themes/</strong> dizinine yükleyin.</li>
+        <li>WordPress yönetici paneline giriş yapın (tarayıcınızın adres çubuğuna, site adresinizden sonra /wp-admin yazın).</li>
+        <li><strong>Görünüm</strong> > <strong>Temalar</strong> menüsüne gidin.</li>
+        <li><strong>Kullanılabilir Temalar</strong> bölümünün altında <strong>theme####</strong> satırını bulun ve <strong>Etkinleştir</strong> e tıklayın.</li>
+      </ol>
+    </article>
+  
+    <article id="plugins_intstall"> 
+        <h4>Eklenti Kurulumu</h4>
+        <p>Temanızı kurup etkinleştirdikten sonra, çeşitli eklentiler kurmak isteyebilirsiniz:</p> 
+<ol> 
+        <li>Tema etkinleştirildiğinde, sol üst köşede eklenti kurulumu için bir bölüm görürsünüz. Buradaki <strong> Eklenti kurmaya başla </strong> yazısına tıklayın. 
+        <br>Eklentileri ön panelden de kurabilirsiniz. Bunun için <strong>Görünüm- &gt;  Eklenti Yükle</strong> menüsünü takip edebilirsiniz.</li> 
+        <li>Gerek duyulan eklentileri kontrol edin.</li> 
+        <li>Toplu İşlemler kısmındaki açılır menüden <strong>Yükle</strong> yi ve ardından <strong>Uygula</strong> yı seçin.</li> 
+</ol>
+
+       <!--  <figure class="img-paraloid"><img src="img/wordpress/plugins_install.jpg" alt=""></figure> -->
+        <p class="muted text-center"></p>
+    </article>
+
+    <article  id="theme_plugins">
+      <h4>Tema Eklentileri:</h4>
+      <h5>Cherry Eklentisi</h5>
+      <p><span class="label label-important">Dikkat:</span> Cherry Eklentisini kurmak ve etkinleştirmek, kısayolların ve bileşenlerin doğru çalışması için gereklidir. Cherry Eklentisi, Cherry Framework kurulurken varsayılan olarak yüklenip etkinleşmektedir.</p>
+      <p><span class="label label-info">İndir:</span> <a href="https://github.com/CherryFramework/CherryFramework/raw/master/includes/plugins/cherry-plugin.zip">https://github.com/CherryFramework/CherryFramework/raw/master/includes/plugins/cherry-plugin.zip</a><br />
+      <span class="label">Açıklama:</span> Cherry ekibi olarak, Cherry framework'ü olabildiğince kusursuz bir biçimde yarattık fakat sürekli olarak geliştirmeye çalışmaktayız. Cherry Eklentisi ile tanışın. Bu, ihtiyaç duyabileceğiniz tüm kısa kodları ve bileşenleri içeren bir eklentidir. Eklenti, Cherry Framework tarafından çalıştırılan tüm WordPress temalarıyla uyumludur. Şimdiye dek beta sürümdeydi ama geliştirmeye devam ederek, daha güzel özellikler sunmaya çalışmaktayız.</p>
+      <h5>Contact Form 7</h5>
+      <p><span class="label label-info">İndir:</span> <a href="http://wordpress.org/extend/plugins/contact-form-7/">http://wordpress.org/extend/plugins/contact-form-7/</a><br />
+      <span class="label">Açıklama:</span> İletişim sayfası için form.</p>
+
+      <h4>Uyumlu Eklentiler:</h4>
+      <h5 class="indent_top">WPML</h5>
+      <p><span class="label label-info">İndir:</span> <a href="http://wpml.org/">http://wpml.org/</a><br />
+      <span class="label">Açıklama:</span> WPML çok dilli siteler oluşturmanın en kolay yoludur.</p>
+
+      <h5 class="indent_top">JigoShop</h5>
+      <p><span class="label label-info">İndir:</span> <a href="http://wordpress.org/plugins/jigoshop/">http://wordpress.org/plugins/jigoshop/</a><br />
+      <span class="label">Açıklama:</span> WordPress çekirdeğine kurulan, muhteşem performans ve uyarlanabilirliğe sahip bir eCommerce eklentisidir.</p>
+
+      <h5 class="indent_top">WooCommerce</h5>
+      <p><span class="label label-info">İndir:</span> <a href="http://wordpress.org/plugins/woocommerce/">http://wordpress.org/plugins/woocommerce/</a><br />
+      <span class="label">Açıklama:</span> WooCommerce istediğiniz her şeyi kolaylıkla satabilmenizi sağlayan güçlü, genişletilebilir bir eCommerce eklentisidir.</p>
+
+      <h5 class="indent_top">BuddyPress</h5>
+      <p><span class="label label-info">İndir:</span> <a href="http://wordpress.org/plugins/buddypress/">http://wordpress.org/plugins/buddypress/</a><br />
+      <span class="label">Açıklama:</span> Kutudaki sosyal iletişim ağı. Şirketiniz, okulunuz, spor takımınız için sosyal iletişim ağı oluşturun.</p>
+
+      <h5 class="indent_top">bbpress</h5>
+      <p><span class="label label-info">İndir:</span> <a href="http://wordpress.org/plugins/bbpress/">http://wordpress.org/plugins/bbpress/</a><br />
+      <span class="label">Açıklama:</span> bbPress, WordPress için yapılmış bir forum yazılımıdır.</p>
+
+      <h5 class="indent_top">Mingle Forum</h5>
+      <p><span class="label label-info">İndir:</span> <a href="http://wordpress.org/plugins/mingle-forum/">http://wordpress.org/plugins/mingle-forum/</a><br />
+      <span class="label">Açıklama:</span> Mingle Forum, WordPress sitenize/blogunuza kolaylıkla bir Forum eklemenizi sağlar.</p>
+
+      <h5 class="indent_top">WP Forum Server</h5>
+      <p><span class="label label-info">İndir:</span> <a href="http://wordpress.org/plugins/forum-server/">http://wordpress.org/plugins/forum-server/</a><br />
+      <span class="label">Açıklama:</span> Bu eklenti, WordPress siteniz için eksiksiz bir forum sistemidir.</p>
+    </article>     
+
+    <article id="cookie_policy"> 
+        <h4>Çerez Politikası</h4>
+        <p>Çerezler, websiteler tarafından ziyaretçilerin bilgisayarına yerleştirilen küçük dosyalardır. Ziyaretçiyi tanımlamak ve daha iyi bir deneyim sunabilmek için oluşturulurlar. Çerezler, sitelerin işlevlerini yerine getirebilmeleri için gereklidir.</p>
+
+        <p>Mesela online alışveriş sitelerinde sepetinizde bulunan ürünlerin kaydı, çerezler sayesinde tutulmaktadır. Ayrıca siteye kayıtlı olarak giriş yapabilmenizi, kullanıcı istatistiklerinizin tutulmasını ve site sahiplerine bilgilerinizin ulaştırılmasını sağlarlar.</p>
+
+        <p>Sizin websitenizde de mutlaka çerezler kullanılır. Tıpkı Google Analytics gibi, çerezlerin en önemli işlevi ziyaretçi sayısını ve davranış biçimini izlemektir. Çerezler, ziyaretçilere reklam gösterimi yapmak veya online satış yapıyorsanız alışveriş sisteminizin temel gücünü oluşturmak için de kullanılır.</p>
+
+        <p>26 Mayıs 2012 yılında ICO bu uygulamaya, 'rıza kapsamı' dahiliyetinde, gizlilik/çerez politikanızın adresini açıkça belirtmeniz suretiyle değişiklik getirmiştir.</p>
+        
+        <p>Çerez Yasası şartlarına uygun olarak, sitenize uygun olan modülleri ekleyebilirsiniz. Modül, sitenizde kullanılan çerezlerle ilgili bir uyarı mesajı gösterecektir. Bunları kullanabilirsiniz: <a href="https://wordpress.org/plugins/cookie-banner/">Çerez Afişi</a>, <a href="http://wordpress.org/plugins/cookie-notice/">Çerez Uyarısı</a></p>
+        
+
+    </article>
+    
+    
+  </section>
+<!-- Getting started end -->
+
+<!--Backup and Update started --> 
+  <section class="block-templates" id="backup_update">  
+
+    <h2 class="item4"><i class="icon-refresh"></i> Yedekleme ve Güncelleme</h2>
+
+    <div class="box-notification"><span>Cherry Framework'ü güncellemeden önce, elinizdeki versiyonu yedeklemenizi önemle tavsiye ederiz.</span></div>
+    <h4>Yedekleme</h4>
+      <p>Hem CherryFramework hem de yavru tema için yedekleme oluşturabilirsiniz. Bu işlemi WordPress yönetici panelindeki <b>"Cherry Ayarları > Veri yönetimi"</b> bölümünden yapabilirsiniz. </p>
+      <figure class="img-paraloid"><img src="img/wordpress/backup-child.png" alt=""></figure>
+      <figure class="img-paraloid"><img src="img/wordpress/backup-framework.png" alt=""></figure>
+      <p>Yedekleme işlemini, Cherry Framework ve yavru tema kutularının altındaki <b>"Yedekle"</b> bölümünden yapabilirsiniz. <br>
+      Artık framework veya yavru temanızın arşivini <b>/wp-content/themes_backup/</b> klasöründe bulabilirsiniz.</p>
+      <p>Ayrıca <b>"Yedeği indir"</b> bölümünden bilgisayarınıza indirebilirsiniz. Herhangi bir zorluk yaşarsanız, framework'ü <b>Görünüm -> Temalar -> Tema Kur -> Yükle</b> bölümünden yeniden kurabilirsiniz.</p>
+
+    <h4>Güncelleme</h4>
+      <p>Cherry Framework'ü güncellemek için, bu adımları takip etmelisiniz:</p>
+      <ol>
+        <li>Yönetici panelinden <b>"Cherry Ayarları > Veri yönetimi"</b> bölümüne girin.</li>
+        <li>Cherry Framework kutusunun altındaki Güncelle bölümüne tıklayın.
+        <figure class="img-paraloid"><img src="img/wordpress/backup-child.png" alt=""></figure></li>
+        <li>İşlemin başlamasını bekleyin.</li>
+        <li>Geri kalanını Cherry Framework halledecektir. </li>
+      </ol>
+  </section>
+<!--Backup and Update end --> 
+
+<!-- Page Templates and Sidebars begin -->
+  <section class="block-templates" id="page_templates_sidebars"> 
+  
+
+    <h2 class="item5"><i class="icon-file-alt"></i> Sayfa Şablonları ve Kenar Çubukları</h2>
+    <br>
+    <div class="box-notification"><span>DİKKAT: style.less dosyasındaki stilleri mutlaka düzenlemelisiniz. Çünkü kayıttan sonra stiller yeniden derlenir ve main-style.css dosyası yeniden yazılır. </span></div> 
+
+    <h4>Sayfa Şablonları</h4>
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Varsayılan Şablon</strong> (kenar çubuklu varsayılan sayfa şablonu)</li>
+        <li><i class="icon-angle-right"></i> <strong>Tam Sayfa</strong> (kenar çubuğu olmayan tek sütunlu sayfa şablonu)</li>
+        <li><i class="icon-angle-right"></i> <strong>Anasayfa </strong> (Anasayfa için kullanılan sayfa şablonu)</li>
+        <li><i class="icon-angle-right"></i> <strong>Filter Folio 2 sütun</strong> (galeri/portfolyo içeriklerinin görüntülendiği 2 sütunlu klasik sayfa şablonu)</li>
+        <li><i class="icon-angle-right"></i> <strong>Filter Folio 3 sütun</strong> (galeri/portfolyo içeriklerinin görüntülendiği 3 sütunlu klasik sayfa şablonu)</li>
+        <li><i class="icon-angle-right"></i> <strong>Filter Folio 4 sütun</strong> (galeri/portfolyo içeriklerinin görüntülendiği 4 sütunlu klasik sayfa şablonu)</li>
+        <li><i class="icon-angle-right"></i> <strong>Referanslar</strong> (referans içeriklerinin görüntülendiği sayfa şablonu)</li>
+        <li><i class="icon-angle-right"></i> <strong>SSS</strong> (sık sorulan soruların görüntülendiği sayfa şablonu)</li>
+        <li><i class="icon-angle-right"></i> <strong>Arşivler</strong> (arşivlerin görüntülendiği sayfa şablonu)</li>
+      </ul>
+      <br />
+      <h4>Kenar Çubuğu Konumları</h4>
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Kenar Çubuğu</strong> - alanları <em>sayfanın sağ ve sol bölümlerinde yer alır</em></li>
+        <li><i class="icon-angle-right"></i> <strong>Alt Kısım 1,2,3,4</strong> (isteğe bağlı) - alanları <em>sayfaların alt kısmında yer alır</em></li>
+      </ul>
+  </section>   
+<!-- Page Templates and Sidebars end --> 
+
+<!-- Posts, Categories and Post Formats begin -->
+  <section class="block-templates" id="posts_categories">  
+
+    <h2 class="item6"><i class="icon-edit"></i> Yazılar, Kategoriler ve Yazı Formatları</h2>
+
+    <!-- Adding category -->
+    <article id="adding-category">
+      <h4>Kategori eklemek</h4>
+      <p>Kategori eklemek konusunda daha fazla bilgi için bu makaleyi okuyabilirsiniz: <a href="http://codex.wordpress.org/Manage_Categories_SubPanel">http://codex.wordpress.org/Manage_Categories_SubPanel</a></p>
+      <div class="row">
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/cat1.png" alt=""></figure>
+        <p class="muted text-center"></p>   
+        <ol>
+        <li>WordPress Yönetici Paneli'ne giriş yapın.</li>
+        <li>Şimdi <strong>Yazılar</strong> sekmesine tıklayın.</li>
+        <li>Bu bölümün altından <strong>Kategoriler</strong> kısmına girin.</li>
+        <li>Yeni kategori ismini yazın.</li>
+        <li>Daha sonra <strong>Yeni Kategori Ekle</strong> düğmesine basın.</li>
+        </ol>
+        Bu aşamadan sonra <strong>Yayınla</strong> düğmesine tıklayın.
+      </div>
+    </article>
+
+    <!-- Blog post -->
+    <article id="blog_post">
+      <h4>Blog yazısı oluşturmak</h4>
+      <div class="row">
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/cat2.png" alt=""></figure>
+        <p class="muted text-center"></p>   
+        <ol>
+          <li>WordPress Yönetici Paneli'ne giriş yapın.</li>
+          <li>Şimdi <strong>Yazılar</strong> sekmesine tıklayın.</li>
+          <li>Ardından <strong>Yeni Ekle</strong> sekmesine basın.</li>
+          <li>Blog yazınızın içeriğini girin. Blog yazısı oluşturma konusunda daha fazla bilgi için bu makaleyi okuyabilirsiniz <a href="http://codex.wordpress.org/Posts_Add_New_SubPanel">http://codex.wordpress.org/Posts_Add_New_SubPanel</a>.</li>
+        </ol>
+      </div>
+    </article>
+
+    <!-- Post Formats -->
+    <article id="post-formats">
+      <h4>Yazı Türü seçmek</h4>
+      <p>Farklı yazı formatları hakkında daha fazla bilgi için bu makaleyi okuyabilirsiniz: <a href="http://codex.wordpress.org/Post_Formats">http://codex.wordpress.org/Post_Formats</a>.</p>
+      <div class="row">
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/post_format.png" alt=""></figure>
+        <ol>
+          <li>WordPress Yönetici Paneli'ne giriş yapın.</li>
+          <li>Şimdi <strong>Yazılar</strong> sekmesine tıklayın.</li>
+          <li>Yazı formatı seçmek için <strong>Format</strong> kutusunda listelenen seçeneklere bakın.</li>
+        </ol>
+        <span class="label label-info">Not:</span> Bu formatların bazılarının, kendilerine ait ayarları bulunmaktadır. Bu ayarlar, içerik editörünün altında gösterilecektir.
+      </div>
+      <p>Aşağıda kullanılabilir olan yazı formatları ve onlara ait olan açıklama ve ayarlar yer almaktadır.</p>
+
+      <h4>Standart Yazı Türü</h4>
+      <p>Sıradan, standart bir yazıda şu alanlar bulunur:</p>
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Yazı başlığı</strong> - yazının başlığı</li>
+        <li><i class="icon-angle-right"></i> <strong>Yazı içeriği</strong> - yazının içeriği</li>
+        <li><i class="icon-angle-right"></i> <strong>Kategoriler</strong> - yazının kategori(leri)si</li>
+        <li><i class="icon-angle-right"></i> <strong>Etiketler</strong> - yazının etiketleri</li>
+        <li><i class="icon-angle-right"></i> <strong>Öne çıkan görsel</strong> - içerik görseli</li>
+        <li><i class="icon-angle-right"></i> ve üst sağ köşede yer alan <strong>Ekran Tercihleri</strong> kısmından etkinleştirilebilecek olan diğer alanlar.</li>
+      </ul>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_standard.png" alt=""></figure>
+      <p class="muted text-center">Standart Yazı Formatı</p>     
+      
+
+      <h4>Basit Yazı Türü</h4>
+      <p>Bu, sadeleştirilmiş yazı modelidir. Diğer bir deyişle, burada sadece yazı alanı vardır. Başlık ya da diğer alanları doldurmanız gerekmez.</p>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_standard.png" alt=""></figure>
+      <p class="muted text-center">Basit Yazı Türü</p> 
+
+
+      <h4>Galeri Yazı Türü</h4>
+      <p>Bu yazı türünün ana özelliği, sınırsız sayıda görsel dosyasına sahip olmaktır.</p>
+      <p>Galeri Yazı Türü eklemek:</p>
+      <ol>
+        <li>İlk olarak<strong> Ortam Ekle</strong> düğmesine basın.<br><span class="img-paraloid"><img src="img/wordpress/add_media.png" alt=""></span></li>
+        <li>Bilgisayarınızdan görsel eklemek için, görseli tutup ilgili alana bırakın veya <strong>Dosya Seç</strong> yazısına tıklayıp, görseli yükleyin.
+        <figure class="img-paraloid"><img src="img/wordpress/insert-media.png" alt=""></figure></li>
+        <li>Görsel yüklendikten sonra, yüklenmiş olan tüm dosyalar size Ortam Kütüphanesi'nde gösterilir. Buradan <strong>Yazıya ekle</strong> düğmesine tıklayıp, dosyayı ekleyip görüntüleyebilirsiniz.
+        <figure class="img-paraloid"><img src="img/wordpress/uploaded-images.png" alt=""></figure>
+        </li>
+        <li>Gereken düzenlemeleri yaptıktan sonra Ortam Kütüphanesi'ni kapatabilirsiniz. Yüklenen görseller, otomatik olarak eklenecektir.</li>
+      </ol>
+      <p>Galeri yazı formatında da, sıradan yazı formatındaki tüm standart alanlar bulunmaktadır (başlık, içerik, kategoriler vs.).</p>
+      
+
+      <h4>Bağlantı Yazı Türü</h4>   
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_link.png" alt=""></figure>
+      <p class="muted text-center">Bağlantı Yazı Türü</p>  
+      <p><strong>Bağlantı</strong> yazı türünü seçtikten sonra, ek olarak bir <strong>URL </strong>alanı ile karşılaşırsınız. Bu alanda sayfa/kaynak hedefini belirtmeniz gerekir. Buradaki <strong>Yazı başlığı</strong>, bağlantı yazısı olarak kullanılır.</p>
+      <p>Eğer içerik alanını doldurursanız, yazdıklarınız sayfa/kaynak açıklaması olarak kullanılır.</p>
+      
+
+      <h4>Görsel Yazı Formatı</h4>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_image.png" alt=""></figure>
+      <p class="muted text-center">Görsel Yazı Formatı</p>  
+      <p><strong>Görsel</strong> yazı formatı, <strong>Öne çıkan görsel</strong> seçeneği aracılığıyla görsel yükleyerek oluşturulur.<br> Görsel Yazı Formatı'nı seçtiğinizde, görsel seçeneklerindeki <strong>Öne Çıkart</strong> bölümünden, tercihinizi değiştirebilirsiniz.</p>
+      
+
+      <h4>Alıntı Yazı Türü</h4>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_quote.png" alt=""></figure>
+      <p class="muted text-center">Alıntı Yazı Türü</p>  
+      <p><strong>Alıntı Yazı Türü</strong> farklı bir yerden alıntılanan sözleri yayınlamayı sağlar.</p>
+      <p>Bu yazı türünü seçtiğinizde, ek olarak bir <strong>Alıntı</strong> alanı ile karşılaşırsınız. Bu alanda temel olarak alıntılanan söz ve sözün sahibinin belirtilmesi için bir <strong>Yazar</strong> alanı bulunmaktadır.</p>
+      
+
+      <h4>İşitsel Yazı Türü</h4>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_audio.png" alt=""></figure>
+      <p class="muted text-center">İşitsel Yazı Türü</p>  
+      <p><strong>İşitsel Yazı Formatı</strong> içerik olarak ses dosyası yayınlamanızı sağlar.</p>
+      <p>Bu yazı türünü seçtiğinizde, size ek olarak şu seçenekler sunulur:</p>
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Başlık</strong> - şarkı ismi</li>
+        <li><i class="icon-angle-right"></i> <strong>Sanatçı</strong> - şarkı sahibi olan sanatçı</li>
+        <li><i class="icon-angle-right"></i> <strong>Ses Formatı</strong> - ses dosyasının formatı</li>
+        <li><i class="icon-angle-right"></i> <strong>Ses URL</strong> - ses dosyasına direkt bağlantı adresi</li>
+      </ul>
+      
+
+      <h4>Video Yazı Türü</h4>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_video.png" alt=""></figure>
+      <p class="muted text-center">Video Yazı Türü</p>  
+      <p><strong>Video Yazı Türü</strong> içerik olarak video dosyası yayınlamanızı sağlar.</p>
+      <p>Bu yazı türünü seçtiğinizde, size ek olarak şu seçenekler sunulur:</p>
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Başlık</strong> - video klibin ismi</li>
+        <li><i class="icon-angle-right"></i> <strong>Sanatçı</strong> - video clibin sahibi olan sanatçı</li>
+        <li><i class="icon-angle-right"></i> <strong>URL #1</strong> - video klibin m4v formatındaki direkt bağlantı adresi</li>
+        <li><i class="icon-angle-right"></i> <strong>URL #2</strong> - video klibin ogv formatındaki direkt bağlantı adresi</li>
+        <li><i class="icon-angle-right"></i> <strong>Alıntı kodu</strong> - klibin yayınlandığı ana site (youtube, vimeo vs.) dışında paylaşmak için alıntı kodu.</li>
+      </ul>
+    </article>
+
+    <!-- Creating a slider post -->
+    <article id="slider_post">
+      <h4>Slayt oluşturmak</h4>
+      <div class="row">
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/slide_new.png" alt=""></figure>
+        <p>Bu bir <a href="http://codex.wordpress.org/Post_Types#Custom_Types">özel yazı türü</a> dür, yani blog yazıları gibi klasik formdaki yazılardan farklıdır ve içerik yönetimini oldukça kolay hale getirir. </p>
+      </div>
+      <figure class="img-paraloid"><img src="img/wordpress/slider.png" alt=""></figure>
+      <p class="muted text-center">Slayt oluşturmak</p>  
+      <ol>
+        <li>WordPress Yönetici Paneli'ne giriş yapın.</li>
+        <li>Şimdi <strong>Slayt</strong> etiketine tıklayın.</li>
+        <li>Ardından <strong>Yeni Ekle</strong> etiketine basın.</li>
+        <li>Slaydınız için bir <strong>başlık</strong> girin.</li>
+        <li>Görselinizi <strong>Öne Çıkan Görsel </strong>seçeneğinden yükleyin (<strong>Vurgulanan görsel olarak ata</strong> bağlantısına tıklayın).</li>
+        <li>Slaytınız için aşağıdaki alanları kullanabilirsiniz<em></em>:
+          <ul>
+            <li><i class="icon-angle-right"></i> <strong>Manşet</strong> - slaytınız için altyazı ekleme alanı.</li>
+            <li><i class="icon-angle-right"></i> <strong>URL</strong> - slayt URL'si ekleme alanı (buraya bir dış bağlantı adresi yazabilirsiniz).</li>
+          </ul>
+        </li>
+        <li>Hazır olduğunuzda <strong>Yayınla</strong> düğmesine basın.</li>
+      </ol>
+    </article>
+
+    <!-- Creating a Portfolio post -->
+    <article id="portfolio_post">
+      <h4>Portfolyo eklemek</h4>
+      <div class="row">
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/folio_panel.png" alt=""></figure>
+        <p>Portfolyolar özel yazı türü ile hazırlanır <a href="http://codex.wordpress.org/Post_Types#Custom_Types">http://codex.wordpress.org/Post_Types#Custom_Types</a> yani blog yazıları gibi klasik formdaki yazılardan farklıdır ve içerik yönetimini oldukça kolay hale getirir. </p>
+      </div>
+      <figure class="img-paraloid"><img src="img/wordpress/folio.png" alt=""></figure>
+      <p class="muted text-center">Portfolyo eklemek</p>
+      <ol>
+        <li>WordPress Yönetici Paneli'ne giriş yapın.</li>
+        <li>Şimdi <strong>Portfolyo</strong> etiketine tıklayın.</li>
+        <li>Şimdi <strong>Yeni Ekle</strong> kısmına tıklayın.</li>
+        <li>Gereken alanları doldurun (<strong>başlık</strong>, <strong>içerik</strong>).</li>
+        <li>Ardından <strong>Vurgulanan Görsel</strong> seçeneğinden görselinizi yükleyin (<strong>Vurgulanan görsel olarak ata </strong>bağlantısına tıklayın).</li>
+        <li>Son olarak <strong>Yayınla</strong> düğmesine basın.</li>
+      </ol>
+      <h4>Portfolyo yazı türünü seçmek</h4>
+      <div class="row">
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/folio_format.png" alt=""></figure>
+        <p>Bu temada portfolyo yazısı oluşturmak istediğinizde, aşağıda yer alan yazı türlerini seçebilirsiniz.</p>
+        <ul>
+          <li><i class="icon-angle-right"></i> <strong>Görsel</strong> - varsayılan yazı türü. Sadece <em>vurgulanan görsel</em>i gösterir.</li>
+          <li><i class="icon-angle-right"></i> <strong>Slayt gösterisi</strong> - galeri, bir slayt gösterisi halinde yayınlanır. Yazıya sınırsız görsel eklenebilir. </li>
+          <li><i class="icon-angle-right"></i> <strong>Grid Galeri</strong> - yazıdaki görseller, bir galeri olarak gösterilir. Yazıya sınırsız görsel eklenebilir.</li>
+          <li><i class="icon-angle-right"></i> <strong>Video</strong> - bu yazı türünde, başka bir sunucudaki (Youtube, Vimeo vb.) videoyu yazıya gömebilirsiniz.</li>
+          <li><i class="icon-angle-right"></i> <strong>İşitsel</strong> - bu yazı türünü seçerseniz, ses dosyasının bağlantı adresini yazınıza gömebilirsiniz.</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- Creating a Testimonials post -->
+    <article id="testimonial_post">
+      <h4>Referans yazısı eklemek</h4>
+      <figure class="img-paraloid"><img src="img/wordpress/testi.png" alt=""></figure>
+      <p class="muted text-center">Referans yazısı eklemek</p>
+      <ol>
+        <li>WordPress Yönetici Paneli'ne giriş yapın.</li>
+        <li>Ardından <strong>Referanslar</strong> etiketine tıklayın.</li>
+        <li>Sonra <strong>Yeni Ekle</strong> etiketine tıklayın.</li>
+        <li>Gereken alanları doldurun (<strong>başlık</strong>, <strong>içerik</strong>).</li>
+        <li>Ardından <strong>Vurgulanan Görsel</strong> seçeneğinden görselinizi yükleyin (<strong>Vurgulanan görsel olarak ata </strong>bağlantısına tıklayın).</li>
+        <li>Bu tür yazılarınız için aşağıdaki alanları kullanabilirsiniz:
+          <ul>
+            <li><i class="icon-angle-right"></i> <strong>İsim</strong> - yazar ismi</li>
+            <li><i class="icon-angle-right"></i> <strong>URL</strong> - yazarın bağlantı adresi</li>
+            <li><i class="icon-angle-right"></i> <strong>Bilgi</strong> - yazar hakkında bilgiler.</li>
+          </ul>
+        </li>
+        <li>Son olarak <strong>Yayınla</strong> düğmesine basın.</li>
+      </ol>
+    </article>
+
+    <!-- Creating a Portfolio post -->
+    <article id="faq_post">
+      <h4>SSS sayfası eklemek</h4>
+      <figure class="img-paraloid"><img src="img/wordpress/faq.png" alt=""></figure>
+      <p class="muted text-center">SSS sayfası eklemek</p>
+      <ol>
+        <li>WordPress Yönetici Paneli'ne giriş yapın.</li>
+        <li>Ardından <strong>SSS</strong> etiketine tıklayın.</li>
+        <li>Sonra <strong>Yeni Ekle</strong> etiketine tıklayın.</li>
+        <li>Bu bir soru/cevap yazısı olduğu için; yazının başlığı soru yerine geçer, yazının içeriği ise cevap yerine geçer.</li>
+        <li>Son olarak <strong>Yayınla</strong> düğmesine basın.</li>
+      </ol>
+    </article>
+
+    <!-- Creating a Portfolio post -->
+    <article id="team_post">
+      <h4>Ekibimiz yazısı eklemek</h4>
+      <figure class="img-paraloid"><img src="img/wordpress/our_team.png" alt=""></figure>
+      <p class="muted text-center">Ekibimiz yazısı eklemek</p>
+      <ol>
+        <li>WordPress Yönetici Paneli'ne giriş yapın.</li>
+        <li>Ardından <strong>Ekibimiz</strong> etiketine tıklayın.</li>
+        <li>Şimdi <strong>Yeni Ekle</strong> düğmesine basın.</li>
+        <li>Gereken alanları doldurun (<strong>başlık</strong>, <strong>içerik</strong>).</li>
+        <li>Ardından <strong>Vurgulanan Görsel</strong> seçeneğinden görselinizi yükleyin (<strong>Vurgulanan görsel olarak ata </strong>bağlantısına tıklayın).</li>
+        <li>Bu tür yazılarınız için aşağıdaki alanları kullanabilirsiniz:
+          <ul>
+            <li><i class="icon-angle-right"></i> <strong>Pozisyon</strong> - kişinin pozisyonu</li>
+            <li><i class="icon-angle-right"></i> <strong>Bilgi</strong> - ek bilgiler.</li>
+          </ul>
+        </li>
+        <li>Son olarak <strong>Yayınla</strong> düğmesine basın.</li>
+      </ol>
+    </article>
+
+    <!-- Creating a Client post -->
+    <!-- <article id="clients_post">
+      <h4>Adding a Clients post</h4>
+      <p class="alert">The Clients post type is optional. Your theme may not include it.</p>      
+      <figure class="img-paraloid"><img src="img/wordpress/clients.jpg" alt=""></figure>
+      <p class="muted text-center">Adding a Clients post</p>
+      <ol>
+        <li>Log into your WordPress Administration Panel (Dashboard).</li>
+        <li>Click the <strong>Clients</strong> tab.</li>
+        <li>After that, click the <strong>Add New</strong> button.</li>
+        <li>Fill in all the required fields (<strong>title</strong>, <strong>content</strong>).</li>
+        <li>Upload your image with the help of the <strong>Featured Image </strong>option (click the <strong>Set featured image </strong>link).</li>
+        <li>You can use the following fields for this sort of posts:
+          <ul>
+            <li><i class="icon-angle-right"></i> <strong>URL</strong> - client url</li>
+            <li><i class="icon-angle-right"></i> <strong>Target</strong> - The target attribute specifies a window or a frame where the linked document is loaded.</li>
+          </ul>
+        </li>
+        <li>Click <strong>Publish</strong>.</li>
+      </ol>
+    </article> -->
+
+  </section>   
+<!-- Posts, Categories and Post Formats end --> 
+
+<!-- Portfolio page begin -->
+  <section class="block-templates" id="portfolio_page">  
+
+    <h2 class="item7"><i class="icon-picture"></i> Portfolyo sayfası</h2>
+
+    <!-- Creating a Portfolio page -->
+    <article>
+      <h4>Portfolyo sayfası oluşturmak</h4>
+      <figure class="img-paraloid"><img src="img/wordpress/folio_page.jpg" alt=""></figure>
+      <p class="muted text-center">Portfolyo sayfası oluşturmak</p>
+      <p>Portfolyo sayfaları, şablon sayfalarının yardımıyla oluşturulabilir.</p>
+      <ol class="margbot">
+        <li>WordPress Yönetici Paneli'ne giriş yapın.</li>
+        <li>Şimdi <strong>Sayfalar</strong> etiketine tıklayın.</li>
+        <li>CArdından <strong>Yeni Ekle</strong> yazısına basın.</li>
+        <li>Sayfanızın adını yazın, mesela <strong>Portfolyo sayfası</strong>.</li>
+        <li>Sayfa şablonunuzu seçin (<strong>Sayfa Özellikleri</strong> bölümündeki açılır menüden <strong>Filter Folio 2 sütun</strong>, <strong>Filter Folio 3 sütun</strong> veya <strong>Filter Folio 4 sütun</strong> seçin).</li>
+        <li>Daha sonra <strong>Yayınla</strong> düğmesine basın.</li>
+      </ol>
+      <p><strong>Dahili Kategori</strong> alanından, kategori portfolyo sayfası oluşturabilirsiniz. Bunun için, görünmesini istediğiniz kategorinin adını yazmanız gerekir.</p>
+      <figure class="img-paraloid"><img src="img/wordpress/category_in.jpg" alt=""></figure>
+      
+    </article>
+  </section>   
+<!-- Portfolio page end -->
+
+<!-- Shortcodes begin -->
+  <section class="block-templates" id="shortcodes">  
+
+    <h2 class="item8"><i class="icon-file"></i> Kısa kodlar</h2>
+    <p>Kod kısaltması çok güçlü bir yapı aracıdır <a href="http://codex.wordpress.org/Shortcode">http://codex.wordpress.org/Shortcode</a>. Kısa kodların kullanımı kolaydır. Öncelikle düzenleme modunun  <strong>Görsel</strong> olarak seçildiğinden emin olun.</p>
+    <figure class="img-paraloid"><img src="img/wordpress/sc_visual.jpg" alt=""></figure>
+    <p>Daha sonra kısa kod düğmesine basın. Ardından, girmek istediğiniz kod kısaltmasını seçin.</p>
+    <figure class="img-paraloid"><img src="img/wordpress/sc_menu.jpg" alt=""></figure>
+    <br>
+    <p>Tüm kısaltmalar, yerine göre gruplara dağıtılmıştır:</p>
+    <ul>
+      <li><i class="icon-angle-right"></i> <strong>Dinamik</strong> - içerik çıktısı için kullanılır (yazılar, özel yazı türleri, etiketler vs.)</li>
+      <li><i class="icon-angle-right"></i> <strong>Çoklu sütunlar</strong> - çoklu biçimleme için çeşitli sütunlar.</li>
+      <li><i class="icon-angle-right"></i> <strong>Unsurlar</strong> - içerik biçimlemesi için ek unsurlar.</li>
+      <li><i class="icon-angle-right"></i> <strong>Diğer</strong> - gelişmiş/karmaşık içerik biçimlemesi için ek unsurlar.</li>
+    </ul>
+    <article id="dynamic_shortcodes">
+      <h4>Dinamik</h4>
+      <h5>Çoklu Yazı</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_postgrid.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span7"><pre class="prettyprint">[posts_grid columns="3" rows="3" order_by="date" order="DESC" thumb_width="100" thumb_height="100" meta="yes" excerpt_count="20" link="yes" link_text="more" custom_class="custom_class"]</pre></div>
+        <div class="span5"><p><span class="label">Açıklama:</span> standart ve özel yazıları, ayarlanabilir sütun ve satır sayısına sahip bir tablo içinde gösterir.</p></div>
+      </div>
+      <br>
+      <h5>Yazı Listesi</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_postlist.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span7"><pre class="prettyprint">[posts_list numb="3" thumbs="large" thumb_width="100" thumb_height="100" post_content="excerpt" order_by="date" order="DESC" link="yes" link_text="more" tags="yes" custom_class="custom_class"] </pre></div>
+        <div class="span5"><p><span class="label">Açıklama:</span> standart ve özel yazıları, blog sayfasındaki gibi gösterir.</p></div>
+      </div>
+      <br>
+      <h5>Mini Çoklu Yazı</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_minipostgrid.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span7"><pre class="prettyprint">[mini_posts_grid numb="3" thumbs="small" thumb_width="100" thumb_height="100" order_by="date" order="DESC" align="left"]</pre></div>
+        <div class="span5"><p><span class="label">Açıklama:</span> [post_grid] kısa kodunun daha yoğun versiyonudur. Standart ve özel yazılardaki görselleri, ayarlanabilir ebatta gösterir.</p></div>
+      </div>
+      <br>
+      <h5>Mini Yazı Listesi</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_minipostlist.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span7"><pre class="prettyprint">[mini_posts_list numb="3" thumbs="small" thumb_width="100" thumb_height="100" meta="yes" order_by="date" order="DESC" excerpt_count="20"] </pre></div>
+        <div class="span5"><p><span class="label">Açıklama:</span> [posts_list] kısa kodunun daha yoğun versiyonudur. Standart ve özel yazıları, liste biçiminde gösterir.</p></div> 
+      </div>
+      <br>
+      <h5>Güncel Yazılar</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_recentposts.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span7"><pre class="prettyprint">[recent_posts num="3" post_format="standard" meta="false" thumb="true" excerpt_count="20"]</pre></div>
+        <div class="span5"><p><span class="label">Açıklama:</span> güncel yazıları, ayarlanabilir şu seçeneklerle gösterir (yazı tipi, yazı sayısı, yazı türü, kısaltılan yazının uzunluğu, düğme başlığı ve diğerleri).</p></div>
+      </div>
+      <br>
+      <h5>Güncel Referanslar</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_recenttesti.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[recenttesti num="2" thumb="true"]</pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> yazı görsellerini göster/sakla özelliği ve kelime sayacı da dahil olmak üzere, belli bir sayıdaki Referansı özel yazı olarak gösterir.</p></div>
+      </div>
+      <br>
+      <h5>Afiş (Banner)</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_banner.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[banner img="#" banner_link="#" title="Title" text="Text" btn_text="Button" target="_self"]</pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> sabit yazı ve/veya görsel, başlık, bağlantı adresi vs. içeren bir blok gösterir.</p></div>
+      </div>
+      <br>
+      <h5>Yorumlar</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_comments.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[recent_comments num="5"]</pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> güncel yorumları gösterir.</p></div>
+      </div>
+      <br>
+      <h5>Yazı Döngüsü</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_postcycle.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span7"><pre class="prettyprint">[post_cycle num="5" type="blog" meta="false" thumb="true" thumb_width="50" thumb_height="50" effect="slide"]</pre></div>
+        <div class="span5"><p><span class="label">Açıklama:</span> mini-slayt görünümünde, çeşitli yazıları yoğunlaştırılmış olarak gösterir.</p></div>
+      </div>
+      <br>
+      <h5>Karusel (Elasti)</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_car.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span7"><pre class="prettyprint">[carousel num="5" type="blog" thumb="true" thumb_width="120" thumb_height="50" date="yes" author="yes" min_items="3"]</pre></div>
+        <div class="span5"><p><span class="label">Açıklama:</span> yazıları karusel görünümünde gösterir ve pek çok ek özelliği vardır.</p></div>
+      </div>
+      <br>
+      <h5>Karusel (OWL)</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_car_owl.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span7"><pre class="prettyprint">[carousel_owl title="Title" post_type="blog" posts_count="5" visibility_items="3" thumb="yes" thumb_width="200" thumb_height="200" date="yes" author="yes" comments="no" excerpt_count="10" display_navs="yes" display_pagination="yes"]</pre></div>
+        <div class="span5"><p><span class="label">Açıklama:</span> yazıları karusel görünümünde gösterir ve pek çok ek özelliği vardır.</p></div>
+      </div>
+      <br>
+      <h5>Roundabout</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_roundabout.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[roundabout title="Title" num="3" type="blog"]</pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> Roundabout bir jQuery eklentisidir. Statik HTML unsurlarını, interaktif alandaki gibi, büyük ölçüde düzenlenebilir bir döner tablaya dönüştürür.</p></div>
+      </div>
+      <br>
+      <h5>Servis Kutusu</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_service.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span7"><pre class="prettyprint">[service_box title="Title" icon="icon1" text="Your text" btn_text="Button" btn_link="#" btn_size="normal" target="_self"]</pre></div>
+        <div class="span5"><p><span class="label">Açıklama:</span> başlık, ikon, text, düğme gibi bilgi kutularını gösterir. Bu kodun ana özelliği, kurulum öncesi ikonların varlığıdır.</p></div>
+      </div>
+      <br>
+      <h5>Hero unit</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_hero.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span7"><pre class="prettyprint">[hero_unit title="Title" text="Text" btn_text="Button" btn_link="#" btn_style="default" btn_size="normal" target="_self"]</pre></div>
+        <div class="span5"><p><span class="label">Açıklama:</span> büyük sitelerdeki bilgi ve kampanyaları gösterir. Genellikle sitenin anasayfasında, üst kısmın hemen altında yer alır.</p></div>
+      </div>
+      <br>
+      <h5>Kategoriler</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_cat.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[categories class="plus"]</pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> etiketleri göstermek için kullanılır.</p></div>
+      </div>
+      <br>
+      <h5>Etiketler</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[tags]</pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> etiketleri göstermek için kullanılır.</p></div>
+      </div>
+      <br>
+    </article>
+    <article id="columns_shortcodes">
+      <h4>Sütunlar</h4>
+      <h5>Grid Sütunlar (span1-12)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[span#] [/span#] </pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> yapısal grid unsurlarının biçimlendirilmesinde kullanılır. Buradaki #, 1'den 12'ye kadar olan bir rakamdır ve bu rakam unsurun genişliğini belirlemektedir.</p></div>
+      </div>
+      <br>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[row]
+[span6] İçerik... [/span6]
+[span6] t... [/span6]
+[/row]</pre></div>
+        <div class="span6"><p><span class="label label-info">Not,</span> bir grid biçimlendirirken grid unsurlarını [row] kısa koduyla çevrelemelisiniz:</p></div>
+      </div>
+      <br>
+      <h5>Akıcı Sütunlar (one_half, one_third...)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[one_half] [/one_half] </pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> genişliği % ile tasvir edilen yapısal grid unsurlarını biçimlendirmek için kullanılır.</p></div>
+      </div>
+      <br>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[row_fluid]
+[five_sixth] İçerik... [/five_sixth]
+[one_sixntent... [/one_sixth]
+[/row_fluid]</pre></div>
+        <div class="span6"><p><span class="label label-info">Not,</span> bir akıcı grid oluştururken grid unsurlarını [row_fluid] kısa koduyla çevrelemelisiniz:</p></div>
+      </div>
+      <br>
+      <h5>Multipl Sütunlar (75% / 25%, vs.)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">
+[row]
+[span8] t... [/span8]
+[span4] İçerik... [/span4]
+[/row]</pre></div>
+        <div class="span6"><p>Multipl Sütunların kısa kodları, içerik şekillendirmesini, en sık kullanılan grid değişkenleriyle basitleştirmek için kullanılır.</p></div>
+      </div>
+      <br>
+            <h5>Özel sınıflar</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">
+[row custom_class="custom-row"]
+[span8 custom_class="custom-span8"] içerik [/span8]
+[span4 custom_class="custom-span4"] içerik [/span4]
+[/row]</pre></div>
+        <div class="span6"><p>Sütunların kategori kısaltmalarına özel sınıflar da ekleyebilirsiniz. Bu, belirli blokların düzenleme seçeneklerini genişletir.</p></div>
+      </div>
+      <br>
+    </article>
+    <article id="elements_shortcodes">
+      <h4>Unsurlar</h4>
+      <h5>İmleme (Label)</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_label.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[label style="default"]işaret[/label]</pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> önceden belirlenmiş olan stil için koyulan işareti gösterir.</p></div>
+      </div>
+      <br>
+      <h5>Vurgulama (Highlight)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[highlight]Text[/highlight]</pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> seçilen text kısmını vurgulamak için kullanılır.</p></div>
+      </div>
+      <br>
+      <h5>Düğme (Button)</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_button.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[button text="Text" link="#" style="default" size="normal" target="_self" display="inline" icon="no"] </pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span>çeşitli görünüm ayarlarıyşa (stil, boyut, ikon vs.) düğme eklenmesi için kullanılır.</p></div>
+      </div>
+      <br>
+      <h5>Büyük Harf (Dropcap)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[dropcap]L[/dropcap] </pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> ilk harfi büyük gösterir.</p></div>
+      </div>
+      <br>
+      <h5>Alıntılama (Blockquote)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[blockquote] Text... [/blockquote]</pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> yapılan alıntıyı gösterir.</p></div>
+      </div>
+      <br>
+      <h5>İkon (Icon)</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_icon.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[icon image="#" align="left"]</pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> küçük bir ikon gösterir.</p></div>
+      </div>
+      <br>
+      <h5>Çerçeve (Frame)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[frame] Ben bir çerçeveyim [/frame]</pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> çeşitli içeriklere sahip olabilecek bir kutu gösterir.</p></div>
+      </div>
+      <br>
+      <h5>Yatay çizgi (Horizontal rule)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[hr] </pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> yatay çizgi oluşturmak için kullanılır.</p></div>
+      </div>
+      <br>
+      <h5>Küçük yatay çizgi (Small Horizontal rule)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[sm_hr] </pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> daha küçük kenarlarlı yatay çizgi oluşturmak için kullanılır.</p></div>
+      </div>
+      <br>
+      <h5>Dikey çizgi (Vertical Rule)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[vr] </pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> dikey çizgi oluşturmak için kullanılır.</p></div>
+      </div>
+      <br>
+      <h5>Ara levhası (Spacer)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[spacer] </pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> unsurlar arasında ayırıcı levha oluşturur.</p></div>
+      </div>
+      <br>
+      <h5>İlerleme çubuğu (Progress bar)</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_progress.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[progressbar value="20" type="info" grad_type="vertical" animated="no"]  </pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> ilerleme durumunu gösterir.</p></div>
+      </div>
+      <br>
+      <h5>Adres</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[address] Adresiniz [/address] </pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> adres için kullanılan alan.</p></div>
+      </div>
+      <br>
+      <h5>Temizle (Clear)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[clear] </pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> unsurları temizler.</p></div>
+      </div>
+      <br>
+      <h5>Liste kısa kodları (unstyled, check, check2, arrow, arrow2, star, plus, minus)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[check_list] Liste ... [/check_list] </pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> değişik liste stilleri için kullanılan kısa kodlar. Her kodun, listedeki her madde için ayrı işareti vardır.</p></div>
+      </div> 
+      <br>
+      <h5>Ekstra Kutu (Extra Wrap)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[extra_wrap][/extra_wrap]</pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> içeriği overflow:hidden özelliğine sahip bir blokla çevreler.</div>
+      </div>
+      <br>
+      <h5>İçerik Kutusu</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[content_box custom_class="custom_content_box"][/content_box]</pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> içeriği :before ve :after özellikleriyle çerçeveleyip tam genişliğe sahip bir blokta gösterir.</div>
+      </div>
+    </article>
+    <article id="other_shortcodes">
+      <h4>Diğer</h4>
+      <h5>Video Gösterimi</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_video_preview.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[video_preview post_url="http://demolink.org/blog/video-post-type/" title="yes" date="yes" author="yes"]</pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> farklı sitelerden (youtube, vimeo) veya kendi sitenizde yer alan videoları göstermenizi sağlar.</p></div>     
+     </div>
+      <h5>Uyarı Kutuları (mesaj, bilgi, başarı, tehlike)</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_alert.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[alert_box style="message" close="yes"]Selam Dünya![/alert_box]</pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> servis mesajlarını gösteren kısa kodlardır.</p></div>
+      </div>
+      <br>
+      <h5>Kapatma ikonu</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[close dismiss="alert"]</pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> ana öğeyi kapatmak için kullanılır.</p></div>
+      </div>
+      <br>
+      <h5>Well</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[well size="well-normal"] Yazı burada yer alır... [/well]</pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> stilize edilmiş bir içerik kutusu oluşturmak için kullanılır.</p></div>
+      </div>
+      <br>
+      <h5>Küçük (Small)</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[small] Yazı burada yer alır... [/small]</pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> daha küçük bir boyutla yazı girilmesini sağlar.</p></div>
+      </div>
+      <br>
+      <h5>Kutu Bağlığı</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_title.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[title_box title="Başlık" subtitle="alt başlık yazısı" icon="#"]</pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> iki başlık gösterilmesini sağlar: ana başlık ve ek başlık..</p></div>
+      </div>
+      <br>
+      <h5>Sekmeler</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[tabs direction="top" tab1="Başlık #1" tab2="Başlık #2" tab3="Başlık #3"] [tab1] 1 sekme içeriği... [/tab1] [tab2] 2 sekme içeriği... [/tab2] [tab3] 3 sekme içeriği... [/tab3] [/tabs]</pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> içeriği sekmeler halinde gösterir. Sekmeler hem statik hem de dinamik içeriğe sahip olabilir.</p></div>
+      </div>
+      <br>
+      <h5>Akordiyon</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[accordions] [accordion title="baslik1" visible="yes"] sekme içeriği [/accordion] [accordion title="baslik2"] diğer sekme içeriği [/accordion] [/accordions]</pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> başlıklı paneller için kullanılır.</p></div>
+      </div>
+      <br>
+      <h5>Tablo</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[table td1="#" td2="Başlık" td3="Değer"] [td1] 1 [/td1] [td2] başlık 1 [/td2] [td3] değer 1 [/td3] [/table]</pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> bir tablo oluşturur.</p></div>
+      </div>
+      <br>
+      <h5>Google Haritası</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_map.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[map src="#" width="300" height="200"]  </pre></div>
+        <div class="span6"><p><span class="label">Açıklama:</span> Google haritalarını göstermek için kullanılır. Kısa kodun çalışması için, <a href="https://maps.google.com/">Google</a> adresinden gereken lokasyon bağlantısını girmeniz gerekir.</div>
+      </div>
+       <br>
+       <h5>Fiyatlama tablosu</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_pr_table.png" alt=""></figure>
+        <pre class="prettyprint">
+
+[chp_pricing_table columns="3" labelled="yes"] 
+
+[chp_pricing_column_label title="Özellikler"]
+[chp_pricing_row_label odd="true"] Madde 1 [/chp_pricing_row_label]
+[chp_pricing_row_label] Madde 2 [/chp_pricing_row_label]
+[chp_pricing_row_label odd="true"] Madde 3 [/chp_pricing_row_label]
+[chp_pricing_row_label] Madde 4 [/chp_pricing_row_label]
+[/chp_pricing_column_label]
+
+[chp_pricing_column title="Sütun 1" price="100" currency_symbol="$" interval="Aylık"]
+[chp_pricing_row_label] Madde 1 [/chp_pricing_row_label]
+[chp_pricing_row odd="true"] Yazınız bu alanda yer alır [/chp_pricing_row]
+[chp_pricing_row_label] Madde 2 [/chp_pricing_row_label]
+[chp_pricing_row] Yazınız bu alanda yer alır [/chp_pricing_row]
+[chp_pricing_row_label] Madde 3 [/chp_pricing_row_label]
+[chp_pricing_row odd="true"] Yazınız bu alanda yer alır [/chp_pricing_row]
+[chp_pricing_row_label] Madde 4 [/chp_pricing_row_label]
+[chp_pricing_row] Yazınız bu alanda yer alır [/chp_pricing_row]
+[button text="Sign Up" link="#" style="default" size="normal" target="_self" display="inline" icon="no"]
+[/chp_pricing_column]
+
+[chp_pricing_column title="Column 2" highlight="true" highlight_reason="En Popüler" price="200" currency_symbol="$" interval="Aylık"]
+[chp_pricing_row_label] Madde 1 [/chp_pricing_row_label]
+[chp_pricing_row odd="true"] Your text here [/chp_pricing_row]
+[chp_pricing_row_label] Madde 2 [/chp_pricing_row_label]
+[chp_pricing_row] Yazınız bu alanda yer alır [/chp_pricing_row]
+[chp_pricing_row_label] Madde 3 [/chp_pricing_row_label]
+[chp_pricing_row odd="true"] Yazınız bu alanda yer alır [/chp_pricing_row]
+[chp_pricing_row_label] Madde 4 [/chp_pricing_row_label]
+[chp_pricing_row] Yazınız bu alanda yer alır [/chp_pricing_row]
+[button text="Sign Up" link="#" style="default" size="normal" target="_self" display="inline" icon="no"]
+[/chp_pricing_column]
+
+[chp_pricing_column title="Column 3" price="300" currency_symbol="$" interval="Per Month"]
+[chp_pricing_row_label] Madde 1 [/chp_pricing_row_label]
+[chp_pricing_row odd="true"] Yazınız bu alanda yer alır [/chp_pricing_row]
+[chp_pricing_row_label] Madde 2 [/chp_pricing_row_label]
+[chp_pricing_row] Your text here [/chp_pricing_row]
+[chp_pricing_row_label] Madde 3 [/chp_pricing_row_label]
+[chp_pricing_row odd="true"] Yazınız bu alanda yer alır [/chp_pricing_row]
+[chp_pricing_row_label] Madde 4 [/chp_pricing_row_label]
+[chp_pricing_row] Yazınız bu alanda yer alır [/chp_pricing_row]
+[button text="Sign Up" link="#" style="default" size="normal" target="_self" display="inline" icon="no"]
+[/chp_pricing_column]
+
+[/chp_pricing_table]
+        </pre>
+        <p><span class="label">Açıklama:</span> fiyatlandırma tabloları için kullanılır.</p>
+       <br>
+    <h5>Audio / Video</h5>
+    <p><span class="label">Açıklama:</span> WordPress 3.6+ YouTube ve Vimeo videolarını alıntılamak konusunda çok iyidir. Fakat sunucuya yüklenmiş bir MP3 ya da MP4 gibi video veya audio (ses) dosyasını oynatmak isterseniz, bir oynatıcı sağlamanız gerekir. Böylelikle dosyanız sadece bir bağlantı adresi olarak gösterilmez. <a href="http://make.wordpress.org/core/2013/04/08/audio-video-support-in-core/" target="_blank">Daha fazlasını oku</a></p>
+    İşlem, yazı içeriğinizde bir görsel eklemeye benzer:
+    <ol class="clearfix">
+      <li>Sayfa veya yazı eklemek ya da düzenlemek.</li>
+      <li>
+        <span>Oynatıcının, içeriğin neresinde olmasını istiyorsanız oraya tıklayın. Daha sonra içerik editörünün üst kısmındaki <strong style="color:#666">Medya Ekle</strong> yazısına tıklayın.</span>
+        <figure class="img-paraloid"><img src="img/audio_video_1.jpg" height="35" width="107" alt=""></figure>
+        <div class="clear"></div>
+      </li>
+      <li>Ardından <strong>Dosya Yükle</strong> kısmına tıklayın.</li>
+      <li>Ses veya video dosyasını yükleyin.</li>
+      <li>
+        <span>Yüklediğiniz dosyanın seçili olduğuna emin olun ve alt kısımdan <em>Dosya Görüntüleme Seçenekleri</em>ne basıp, <em>Göm veya Bağlantıla</em> kısmını &quot;Medya Oynatıcısıyla Göster&quot; olarak seçin.</span>
+        <figure class="img-paraloid"><img src="img/audio_video_2.jpg" height="92" width="268" alt=""></figure>
+        <div class="clear"></div>
+      </li>
+      <li>Ardından <strong>Sayfaya ekle</strong> ye basın.</li>
+    </ol>
+    <p>WordPress, oynatıcının yerine ses veya video dosyanız için bir kısa kod yerleştirecektir.</p>
+    <p>Eğer ses veya video dosyanızı Amazon S3 veya başka bir dosya sunucusuna yüklediyseniz, bağlantılama yapmadan medya dosyanızın URL adresini, gereken satıra yazın. Diyelim ki bir YouTube videosu gömmek istiyorsunuz. Basitçe içeriğinizdeki ilgili satıra yapıştırırsanız, içeriğiniz yayınlandığında YouTube oynatıcısı dosyayı oynatır. URL adresinin bağlantılanmadığına emin olun.</p>
+    <div class="row-fluid">
+      <div class="span6">
+        <pre class="prettyprint prettyprinted">http://www.youtube.com/watch?v=mmRPSoDrrFU</pre>
+      </div>
+      <div class="span6">
+        <p>Yukarıdaki adres şu şekilde olacaktır:</p>
+        <iframe width="390" height="260" src="http://www.youtube.com/embed/2kodXWejuy0" allowfullscreen=""></iframe>
+      </div>
+    </div>
+    </article>
+  </section>  
+<!-- Shortcodes end --> 
+
+<!-- Plugins and Custom Widgets begin -->
+  <section class="block-templates" id="plugins_widgets">  
+
+    <h2 class="item9"><i class="icon-magnet"></i> Eklentiler ve Özel Bileşenler</h2>
+
+    <article id="plugins">
+      <h4>Eklentiler</h4>
+      <p class="alert">Not: temanızda aşağıdaki eklentilerden bazıları olmayabilir.</p>
+      <h5>Contact Form 7</h5>
+      <p>Yükleme adresi: <a href="http://wordpress.org/extend/plugins/contact-form-7/">http://wordpress.org/extend/plugins/contact-form-7/</a><br />
+        Açıklama: İletişim sayfanızda kullanabileceğiniz bir form.</p>
+      <h5>Newsletter Sign-Up</h5>
+      <p>Yükleme adresi: <a href="http://wordpress.org/plugins/newsletter-sign-up/">http://wordpress.org/plugins/newsletter-sign-up/</a><br />
+        Açıklama: Ziyaretçilerinizin, mail listenize (seçme kutusu, bileşen, form) kayıt olmaları için kullanabileceğiniz bir eklenti.</p>
+    </article>
+
+    <article id="widgets">
+      <h4>Bileşenler</h4>
+      <p>Aşağıdaki bileşenler de temanızda kullanılabilir:</p>
+      <div class="row"> 
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_recent_comments.jpg" alt=""></figure>
+        <h5>Cherry - Güncel Yorumlar</h5>
+        <p>Güncel yorumları daha kullanışlı bir şekilde gösterir. Bu bileşende bazı seçenekler de bulunmaktadır:</p>
+        <ul>
+          <li><i class="icon-angle-right"></i> <strong>Başlık:</strong> - Bileşen Başlığı </li>
+          <li><i class="icon-angle-right"></i> <strong>Gösterilecek yorum sayısı:</strong> - Gösterilecek yorum sayısı.</li>
+        </ul>
+      </div>
+      <br />
+      <div class="row"> 
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_recent_posts.jpg" alt=""></figure>
+        <div class="clearfix">
+	        <h5>Cherry - Güncel Yazılar</h5>
+	        <p>Güncel yazıları gösterir. İsterseniz belirli kategorilerdeki yazıları gösterebilir ve daha fazlasını oku bağlantısı ekleyebilirsiniz. Bu bileşendeki bazı seçenekler:</p>
+	        <ul>
+	          <li><i class="icon-angle-right"></i> <strong>Başlık:</strong> - Bileşen Başlığı</li>
+	          <li><i class="icon-angle-right"></i> <strong>Kategori İsmi:</strong> - Yazının ait olduğu kategori.</li>
+	          <li><i class="icon-angle-right"></i> <strong>Yazı Formatı:</strong> - Gösterilecek olan yazının formatını seçebilirsiniz.</li>
+	          <li><i class="icon-angle-right"></i> <strong>Yazı Sıralaması:</strong> - Yazıların hangi sırayla gösterileceğini seçebilirsiniz.</li>
+	          <li><i class="icon-angle-right"></i> <strong>Sayfa başı yazı:</strong> - Her sayfada kaç adet yazı gösterileceğini belirler.</li>
+	          <li><i class="icon-angle-right"></i> <strong>Kısaltılan yazı uzunluğu (kelime):</strong> - Kelime sayısı baz alınarak, kısaltılmış olan yazının uzunluğunu belirler.</li>
+	          <li><i class="icon-angle-right"></i> <strong>Bağlantı Yazısı:</strong> - Güncel Yazılardan sonra gösterilen bağlantı yazısıdır.</li>
+	          <li><i class="icon-angle-right"></i> <strong>Bağlantı Url:</strong> - Güncel Yazılardan sonra gösterilen bağlantı adresidir.</li>
+	        </ul>
+        </div>
+      </div>
+      <br />
+      <div class="row"> 
+        <figure class="img-paraloid pull-left" style="width:30%;"><a href="img/wordpress/widget_advanced_cycle.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/widget_advanced_cycle.jpg" alt=""><i class="icon-search"></i></a></figure>
+        <div class="clearfix">
+        <h5>Cherry - Advanced Cycle (Gelişmiş Döngü)</h5>
+        <p>Bu çok fonksiyonlu bileşen, blog yazıları da dahil olmak üzere değişik yazı türlerini göstermek için kullanılır. Oldukça özelleştirilebilir bir görüntüleme ayarları bölümüne sahiptir. Bileşende yer alan seçenekler:</p>
+        <ul>
+          <li><i class="icon-angle-right"></i> <strong>Başlık:</strong> - Bileşen Başlığı</li>
+          <li><i class="icon-angle-right"></i> <strong>Yazı türü:</strong> - yazıların türü</li>
+          <li><i class="icon-angle-right"></i> <strong>Gösterilecek yazı sayısı:</strong> - yazı sayısı</li>
+          <li><i class="icon-angle-right"></i> <strong>Sıralama:</strong> - yazı seçme ayarı</li>
+          <li><i class="icon-angle-right"></i> <strong>Sıralamayı çevir (artan):</strong> - sıralamayı artan olarak çevirir</li>
+          <li><i class="icon-angle-right"></i> <strong>Yorum sayısını göster</strong> - yapılan yorumların sayısını gösterir</li>
+          <li><i class="icon-angle-right"></i> <strong>Metaları göster</strong> - metaları gösterir</li>
+          <li><i class="icon-angle-right"></i> <strong>Kutu stili:</strong> - ayırıcı stili. Varsayılan olarak <em>featured_custom_posts</em> şeklinde kullanılır.</li>
+          <li><i class="icon-angle-right"></i> <strong>Yazı başlığını göster</strong> - yazı başlığını gösterir</li>
+          <li><i class="icon-angle-right"></i> <strong>Başlık olarak tarih</strong> - başlığı yazı yerine tarih olarak gösterir</li>
+          <li><i class="icon-angle-right"></i> <strong>Önce başlığı:</strong> - başlıktan önceki özel HTML-biçimlendirmesi</li>
+          <li><i class="icon-angle-right"></i> <strong>Sonra başlığı:</strong> - başlıktan sonraki özel HTML-biçimlendirmesi</li>
+          <li><i class="icon-angle-right"></i> <strong>Yazıyı kısalt</strong> - yazının bir bölümünü kesip kısaltarak gösterir</li>
+          <li><i class="icon-angle-right"></i> <strong>Kısaltılan yazının uzunluğu (kelime)</strong> - kısaltılan yazının uzunluğunu kelime bazında ayarlar</li>
+          <li><i class="icon-angle-right"></i> <strong>Kısaltma bağlantısı</strong> - kısaltılan yazıyı bağlantıya çevirir</li>
+          <li><i class="icon-angle-right"></i> <strong>"Devamını oku" bağlantısını göster</strong> - yazıdan sonra <em>Devamını oku</em> bağlantısı ekler</li>
+          <li><i class="icon-angle-right"></i> <strong>Bağlantılı text:</strong> - bağlantılı text</li>
+          <li><i class="icon-angle-right"></i> <strong>Bağlantı stili:</strong> - <em>Devamını oku</em> bağlantısı için CSS-stili</li>
+          <li><i class="icon-angle-right"></i> <strong>Yazı için minik resim göster</strong> - yazı için minik resim gösterir</li>
+          <li><i class="icon-angle-right"></i> <strong>Genişlik:</strong> - görsel genişliği</li>
+          <li><i class="icon-angle-right"></i> <strong>Yükseklik:</strong> - görsel yüksekliği</li>
+          <li><i class="icon-angle-right"></i> <strong>Minik resmi bağlantıla</strong> - görseli bağlantılar</li>
+          <li><i class="icon-angle-right"></i> <strong>Tüm yazıları geniş bağlantılı göster</strong> - tüm yazıları geniş bağlantılı olarak gösterir</li>
+          <li><i class="icon-angle-right"></i> <strong>Bağlantı texti:</strong> - verilen bağlantı için kullanılacak text</li>
+          <li><i class="icon-angle-right"></i> <strong>Bağlantı URL:</strong> - bağlantının URL adresi.</li>
+        </ul>
+        </div>
+      </div>
+      <br />
+      <div class="row"> 
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_social_networks.jpg" alt=""></figure>
+        <div class="clearfix">
+	        <h5>Cherry - Sosyal Ağlar</h5>
+	        <p>Sosyal ağlardaki hesaplarınızla bağlantı kurmanızı sağlayan bileşendir. Bu bileşenin seçenekleri şöyledir:</p>
+	        <ul>
+	          <li><i class="icon-angle-right"></i> <strong>Başlık:</strong> - Bileşen Başlığı</li>
+	          <li><i class="icon-angle-right"></i> <strong>Facebook URL</strong>, <strong>Twitter URL</strong>, <strong>Flickr URL,</strong> vs. - Sosyal Ağ hesaplarınıza bağlantılar</li>
+	          <li><i class="icon-angle-right"></i> <strong>Görüntüleme:</strong> ikonların nasıl gösterileceğini belirler
+	            <ul style="padding:.5em 0 0 1em;overflow:hidden;">
+	              <li><i class="icon-angle-right"></i> <em>Ikon</em> - sadece ikon olarak</li>
+	              <li><i class="icon-angle-right"></i> <em>Ediket</em> - sadece text olarak</li>
+	              <li><i class="icon-angle-right"></i> <em>İkisi</em> - hem ikon hem text olarak.</li>
+	            </ul>
+	          </li>
+	        </ul>        
+      	</div>
+      </div>
+      <br />
+      <div class="row"> 
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_banners.jpg" alt=""></figure>
+        <div class="clearfix">
+	        <h5>Cherry - 125x125 Ads (Reklamlar)</h5>
+	        <p>Bu bileşen size, reklam afişleri gösterme imkanı verir. Bileşen seçenekleri şöyledir:</p>
+	        <ul>
+	          <li><i class="icon-angle-right"></i> <strong>Başlık:</strong> - Bileşen Başlığı</li>
+	          <li><i class="icon-angle-right"></i> <strong>Görsel afiş bağlantısı:</strong> - afiş görseli için kullanılacak url adres yolu</li>
+	          <li><i class="icon-angle-right"></i> <strong>Bağlantı ekle:</strong> - afiş için bağlantınız.</li>
+	        </ul>
+        </div>
+      </div>
+      <br />
+      <div class="row"> 
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_flickr.jpg" alt=""></figure>
+        <div class="clearfix">
+	        <h5>Cherry - Flickr</h5>
+	        <p>Bu bileşen size, Flickr galerinizden fotoğraflar gösterme imkanı verir. Bileşen seçenekleri şöyledir:</p>
+	        <ul>
+	          <li><i class="icon-angle-right"></i> <strong>Başlık:</strong> - Bileşen Başlığı</li>
+	          <li><i class="icon-angle-right"></i> <strong>Flickr ID:</strong> - Flickr ID (kimlik numaranız)</li>
+	          <li><i class="icon-angle-right"></i> <strong>Görsel Sayısı:</strong> - gösterilecek fotoğraf sayısı</li>
+	          <li><i class="icon-angle-right"></i> <strong>Bağlantı Yazısı:</strong> - Flickr fotoğraflarınızın altında yer alacak olan text.</li>
+	        </ul>
+        </div>
+      </div>
+      <br />
+      <div class="row"> 
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_vcard.jpg" alt=""></figure>
+        <div class="clearfix">
+          <h5>Cherry - vCard</h5>
+          <p>Bu bileşen, şirketiniz veya kendi hakkınızda bilgi sunmanızı sağlar. Bileşen seçenekleri şöyledir:</p>
+          <ul>
+            <li><i class="icon-angle-right"></i> <strong>Başlık (isteğe bağlı):</strong> - Bileşen Başlığı</li>
+            <li><i class="icon-angle-right"></i> <strong>Sokak Adresi:</strong> - cadde ve sokak adresiniz</li>
+            <li><i class="icon-angle-right"></i> <strong>Şehir/Semt:</strong> - şehir ve semt bilgileriniz</li>
+            <li><i class="icon-angle-right"></i> <strong>Ülke:</strong> - ülke bilgileriniz</li>
+            <li><i class="icon-angle-right"></i> <strong>Posta kodu:</strong> - posta kodu bilgileriniz</li>
+            <li><i class="icon-angle-right"></i> <strong>Telefon numarası:</strong> - telefon numaranız</li>
+            <li><i class="icon-angle-right"></i> <strong>Email:</strong> - email adresiniz.</li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <div class="row"> 
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_post_cycle.png" alt=""></figure>
+        <div class="clearfix">
+	        <h5>Cherry - Post Cycle</h5>
+	        <p>Bu bileşen, şirketiniz veya kendi hakkınızda bilgi sunmanızı sağlar. Bileşen seçenekleri şöyledir:</p>
+	        <ul>
+            <li><i class="icon-angle-right"></i> <strong>Başlık (isteğe bağlı):</strong> - Bileşen Başlığı</li>
+            <li><i class="icon-angle-right"></i> <strong>Yazı türü:</strong> - Yazı şeklini seçin</li>
+            <li><i class="icon-angle-right"></i> <strong>Kategoriler:</strong> - Hangi kategorilerden yazılar gösterileceğini seçin</li>
+            <li><i class="icon-angle-right"></i> <strong>Yazı sayısı:</strong> - gösterilecek yazı adeti</li>
+            <li><i class="icon-angle-right"></i> <strong>Küçük resim genişliği (pixel):</strong> - yazı resminin genişliği</li>
+            <li><i class="icon-angle-right"></i> <strong>Küçük resim yüksekliği (pixel):</strong> - yazı resminin yüksekliği</li>
+            <li><i class="icon-angle-right"></i> <strong>Başlıkları göster: </strong> - yazı başlıklarını gösterir</li>
+            <li><i class="icon-angle-right"></i> <strong>Tarihi göster: </strong> - yazının tarihi gösterir</li>
+            <li><i class="icon-angle-right"></i> <strong>Yazarı göster: </strong> - yazarın ismini gösterir</li>
+            <li><i class="icon-angle-right"></i> <strong>Yorumları göster: </strong> - yazıya yapılan yorumları gösterir</li>
+            <li><i class="icon-angle-right"></i> <strong>Kısa parçayı göster: </strong> - yazının kısa bir bölümünü gösterir</li>
+            <li><i class="icon-angle-right"></i> <strong>Bölünen yazının kelime sayısı: </strong> - bölünüp kısaltılmış olan yazıdan kaç kelime gösterileceğini belirler</li>
+            <li><i class="icon-angle-right"></i> <strong>Daha fazlasını oku düğmesindeki text: </strong> - buraya, daha fazlasını oku gibi bir text yazılabilir</li>
+            <li><i class="icon-angle-right"></i> <strong>Slideshow döngü hızı (saniye):</strong> - slideshow yani kayan görsellerin saniye bazında döngü hızını belirler</li>
+            <li><i class="icon-angle-right"></i> <strong>Oklar:</strong> - kayan içerikteki okları gösterir</li>
+            <li><i class="icon-angle-right"></i> <strong>Sayfalama:</strong> - kayan içerikteki sayfalamayı gösterir</li>
+	          <li><i class="icon-angle-right"></i> <strong>Özel CSS sınıfı: </strong> - bileşenin özel sınıfı</li>
+	        </ul>
+        </div>
+      </div>
+      <br />
+      <div class="row"> 
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_cherry_banner.jpg" alt=""></figure>
+        <div class="clearfix">
+          <h5>Cherry - Banner (Afiş)</h5>
+          <p>Bu bileşen afiş yayınlamak için kullanılır. Bileşen seçenekleri şöyledir:</p>
+          <ul>
+            <li><i class="icon-angle-right"></i> <strong>Başlık (isteğe bağlı):</strong> - Bileşen Başlığı</li>
+            <li><i class="icon-angle-right"></i> <strong>Afiş Açıklama:</strong> - Bileşen afişi için açıklama</li>
+            <li><i class="icon-angle-right"></i> <strong>Görsel URL:</strong> - Arkaplan görsel kaynağı</li>
+            <li><i class="icon-angle-right"></i> <strong>Görsel dolgusu:</strong> - İki afiş arasındaki geçiş seçeneklerinin belirlenmesi: görsel arkaplana uyumlu bir boyuta getirilebilir veya görsel, afiş içeriğinin üstüne yerleştirilebilir</li>
+            <li><i class="icon-angle-right"></i> <strong>Bağlantı URL: </strong> - bağlantı adresi</li>
+            <li><i class="icon-angle-right"></i> <strong>Özel CSS sınıfı: </strong> - bileşenin özel sınıfı</li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <div class="row"> 
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_facebook_like_box.jpg" alt=""></figure>
+        <div class="clearfix">
+          <h5>Cherry - Facebook Like Box Widget (Facebook Beğen Kutusu)</h5>
+          <p>Bu bileşen Facebook sayfaları için kullanılır. Bileşen seçenekleri şöyledir:</p>
+          <ul>
+            <li><i class="icon-angle-right"></i> <strong>Başlık (isteğe bağlı):</strong> - Bileşen Başlığı</li>
+            <li><i class="icon-angle-right"></i> <strong>Facebook sayfa url:</strong> - <a href="https://www.facebook.com/help/174987089221178/">Facebook Sayfası</a> nın bağlantı adresi</li>
+            <li><i class="icon-angle-right"></i> <strong>Genişlik: & Uzunluk:</strong> - Bileşen boyutu</li>
+            <li><i class="icon-angle-right"></i> <strong>Renk Şeması:</strong> - Renk Şeması (Açık/Koyu)</li>
+            <li><i class="icon-angle-right"></i> <strong>Üst kısım:</strong> - üst kısmı göster/gösterme</li>
+            <li><i class="icon-angle-right"></i> <strong>Yüz ayarı:</strong> - yüzleri göster/gösterme</li>
+            <li><i class="icon-angle-right"></i> <strong>Akış ayarı:</strong> - akışı göster/gösterme</li>
+            <li><i class="icon-angle-right"></i> <strong>Kenar ayarı:</strong> - kenarları (border) göster/gösterme</li>
+            <li><i class="icon-angle-right"></i> <strong>Özel CSS sınıfı: </strong> - bileşenin özel sınıfı</li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <div class="row"> 
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_cherry_instagram.jpg" alt=""></figure>
+        <div class="clearfix">
+          <h5>Cherry - Instagram</h5>
+          <p>Bu bileşen güncel Instagram yazılarını göstermek için kullanılır. Bileşen seçenekleri şöyledir:</p>
+          <ul>
+            <li><i class="icon-angle-right"></i> <strong>Başlık (isteğe bağlı):</strong> - Bileşen Başlığı</li>
+            <li><i class="icon-angle-right"></i> <strong>Kullanıcı adı: (gerekli)</strong> - Instagram Kullanıcı Adı (Bileşen sadece, tüm haklara sahip bir Instagram hesabı ile çalışır)</li>
+            <li><i class="icon-angle-right"></i> <strong>Gösterilecek görsel sayısı: </strong> - Gösterilecek olan görsel sayısı (Max değer: 20 görsel.)</li>
+            <li><i class="icon-angle-right"></i> <strong>Görsel ölçüleri:</strong> - gösterilecek olan görselin ölçüleri (Geniş/Küçük resim)</li>
+            <li><i class="icon-angle-right"></i> <strong>Görsel Açıklaması:</strong> - görsel açıklamasını göster/gösterme</li>
+            <li><i class="icon-angle-right"></i> <strong>Yorum sayısı:</strong> - yorum sayısını göster/gösterme</li>
+            <li><i class="icon-angle-right"></i> <strong>Beğenme sayısı:</strong> - beğenme sayısını göster/gösterme</li>
+            <li><i class="icon-angle-right"></i> <strong>Görsel yayınlanma tarihi:</strong> - görselin yayınlanma tarihini göster/gösterme</li>
+            <li><i class="icon-angle-right"></i> <strong>Görsel URL:</strong> - görselin bağlantı adresini göster/gösterme</li>
+            <li><i class="icon-angle-right"></i> <strong>Kullanıcı düğmesi texti: </strong> - Instagram profil bağlantısı için kullanılacak olan text</li>
+            <li><i class="icon-angle-right"></i> <strong>Özel CSS sınıfı: </strong> - bileşenin özel sınıfı</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </section>  
+<!-- Plugins and Custom Widgets end -->
+<!-- Theme Options begin -->
+  <section class="block-templates" id="theme_options">  
+
+    <h2 class="item10"><i class="icon-cogs"></i> Cherry Ayarları</h2>
+    <p>Bu temada Ayar seçenekleri bulunmaktadır. Bu ayarlar, temanın renk paletini, maddelerin sıralanmasını, açılıp kapanmasını ve daha pek çok seçeneği içerir. Bu ayarları kullanabilmek için <strong>Görüntü &rarr; Cherry Ayarları</strong> bölümüne giriş yapınız.</p>
+
+    <article id="general_option"> 
+      <h4>Genel</h4>
+      <div class="row"> 
+      <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_general.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_general.jpg" alt=""><i class="icon-search"></i></a></figure>
+      <div class="clearfix">
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Ana stil</strong> - ana rengi ve arkaplan desenini seçebilirsiniz.</li>
+        <li><i class="icon-angle-right"></i> <strong>Layout stili: </strong> - siteniz için ana plan seçebilirsiniz (tam ekran/kutular).</li>
+        <li><i class="icon-angle-right"></i> <strong>Üst kısım stili:</strong> - Üst kısım için arkaplan resmi ve dolgu rengi.</li>
+        <li><i class="icon-angle-right"></i> <strong>Düğme ve bağlantı rengi</strong> - Düğmeler ve bağlantı adresleri için kullanılacak olan renk.</li>
+        <li><i class="icon-angle-right"></i> <strong>Düğme ve bağlantı üstü rengi</strong> - Düğme ve bağlantının üstüne dokununca gözükecek olan renk (hover).</li>
+        <li><i class="icon-angle-right"></i> <strong>Ana Text</strong> - Ana text için tercih ettiğiniz yazı türü. Yazı türlerini düzenlemek için şu seçenekleri kullanabilirsiniz:
+          <ol style="margin-bottom:0; padding-left:20px; overflow:hidden;">
+            <li><em>Yazı boyutu</em></li>
+            <li><em>Satır yüksekliği</em></li>
+            <li><em>Yazı ailesi</em></li>
+            <li><em>Yazı stili (normal, kalın, italik)</em></li>
+            <li><em>Karakter Seti (Latin, Greek, Cyrillic, vs.)</em></li>
+            <li><em>Renk</em></li>
+          </ol>
+          <p><span class="label label-warning">Not:</span> Yanında (*) işareti olan yazılar Google Web Fontları kütüphanesinden yüklenir.</p>
+        </li>
+        
+        <li><i class="icon-angle-right"></i> <strong>H1-H6 Ana başlıkları</strong> - Ana başlıklar ve başlıklar için tercih ettiğiniz yazı türü. Yazı türlerini düzenlemek için şu seçenekleri kullanabilirsiniz:          <ol style="margin-bottom:0; padding-left:20px; overflow:hidden;">
+            <li><em>Yazı boyutu</em></li>
+            <li><em>Satır yüksekliği</em></li>
+            <li><em>Yazı ailesi</em></li>
+            <li><em>Yazı stili (normal, kalın, italik)</em></li>
+            <li><em>Karakter Seti (Latin, Greek, Cyrillic, vs.)</em></li>
+            <li><em>Renk</em></li>
+          </ol>
+           <p><span class="label label-warning">Not:</span> Yanında (*) işareti olan yazılar Google Web Fontları kütüphanesinden yüklenir.</p>
+        </li>
+       
+        <li><i class="icon-angle-right"></i> <strong>Arama kutusu gösterilsin mi?</strong> - üst kısımda arama alanı göster/gösterme.</li>
+        <li><i class="icon-angle-right"></i> <strong>Başlık listeleme gösterilsin mi?</strong> - sayfalar için başlık listelemesini (breadcrumb) göster/gösterme.</li>
+        <li><i class="icon-angle-right"></i> <strong>Özel CSS</strong> - eklemek istediğiniz CSS kuralı varsa ve fakat ana CSS dosyası üzerinde uğraşmak istemiyorsanız bu alanı kullanabilirsiniz. Yeni css kurallarını buraya yazabilirsiniz.</li>
+      </ul>
+      </div>
+      </div>
+    </article>
+
+    <article id="logo_option">
+      <h4>Logo &amp; Favicon</h4> 
+      <div class="row"> 
+      <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_logo.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_logo.jpg" alt=""><i class="icon-search"></i></a></figure>
+      <div class="clearfix">
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Ne tür bir logo?</strong> - logonun text olarak mı yoksa görsel olarak mı kullanılacağını belirler.</li>
+        <li><i class="icon-angle-right"></i> <strong>Logo URL</strong> - Ortam Kütüphanesi'nden herhangi bir görseli seçebilir veya yeni bir logo yükleyebilirsiniz.</li>
+        <li><i class="icon-angle-right"></i> <strong>Logo Baskısı</strong> - Text logo için tercih ettiğiniz yazı türünü seçebilirsiniz. Yazı türünü ayarlamak için şu seçenekler kullanılabilir:
+          <ol style="margin-bottom:0; padding-left:20px; overflow:hidden;">
+            <li><em>Yazı boyutu</em></li>
+            <li><em>Satır yüksekliği</em></li>
+            <li><em>Yazı ailesi</em></li>
+            <li><em>Yazı stili (normal, kalın, italik)</em></li>
+            <li><em>Karakter Seti (Latin, Greek, Cyrillic, vs.)</em></li>
+            <li><em>Renk</em></li>
+          </ol>
+          <p><span class="label label-warning">Not:</span> Yanında <strong>*</strong> işareti olan yazılar Google Web Fontları kütüphanesinden yüklenir.</p>
+        </li>
+        
+        <li><i class="icon-angle-right"></i> <strong>Favicon</strong> - Görsel Kütüphanesi'nden bir resim seçebilir veya yeni bir favicon yükleyebilirsiniz.</li>
+      </ul>
+      </div>
+      </div>
+    </article>
+
+    <article id="navigation_option">
+      <h4>Navigasyon</h4> 
+      <div class="row"> 
+      <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_nav.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_nav.jpg" alt=""><i class="icon-search"></i></a></figure>
+      <div class="clearfix">
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Menu Baskısı</strong> - Ana menü için tercih ettiğiniz yazı türünü seçebilirsiniz. Yazıları düzenlemek şu seçenekler kullanılabilir:
+          <ol style="margin-bottom:0; padding-left:20px; overflow:hidden;">
+            <li><em>Yazı boyutu</em></li>
+            <li><em>Satır yüksekliği</em></li>
+            <li><em>Yazı ailesi</em></li>
+            <li><em>Yazı stili (normal, kalın, italik)</em></li>
+            <li><em>Karakter Seti (Latin, Greek, Cyrillic, vs.)</em></li>
+            <li><em>Renk</em></li>
+          </ol>
+        <p><span class="label label-warning">Not:</span> Yanında <strong>*</strong> işareti olan yazılar Google Web Fontları kütüphanesinden yüklenir.</p>
+        </li>
+        <li><i class="icon-angle-right"></i> <strong>Gecikme</strong> - menünün kaç saniyede kaybolacağını belirler</li>
+        <li><i class="icon-angle-right"></i> <strong>Fade-in animasyon</strong> - fade-in animasyonu göster/sakla</li>
+        <li><i class="icon-angle-right"></i> <strong>Slide-down animasyon</strong> - aşağı kayan animasyonu göster/sakla</li>
+        <li><i class="icon-angle-right"></i> <strong>Hız</strong> - alt menünün açılma hızı</li>
+        <li><i class="icon-angle-right"></i> <strong>Ok şekli</strong> - alt menüsü olan menü maddelerindeki ok işaretlerini göster/sakla</li>
+        <li><i class="icon-angle-right"></i> <strong>Mobil menü etiketi</strong> - Bu text, mobil seçenek menüsünde görünmektedir.</li>
+        <li><i class="icon-angle-right"></i> <strong>StickUp menü kullan</strong> - StickUp menü kullanmak isterseniz bu seçeneği işaretleyin.</li>
+      </ul>
+      </div>
+      </div>
+    </article>
+
+    <article id="slider_option">
+      <h4>Slider</h4>
+      <p>Kayan içeriğin yüksekliği <b>"wp-content/themes/theme###/slider.php"</b>den düzenlenebilir. Oradaki "height" (yükseklik) değerini $slider_default_params bölümünden değiştirebilirsiniz.</p>
+
+      <h5>Sliderı Kapat</h5>
+      <div class="row"> 
+        <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_slider_none.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_slider_none.jpg" alt=""><i class="icon-search"></i></a></figure>
+        <p>İsterseniz sliderı kapatabilirsiniz.</p>
+      </div>
+      <h5>Slideshow</h5>
+      <div class="row"> 
+        <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_slider_camera.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_slider_camera.jpg" alt=""><i class="icon-search"></i></a></figure>
+        <div class="clearfix">
+        <ul>
+          <li><i class="icon-angle-right"></i> <strong>Kayma efekti</strong> - kayan içeriklerin geçiş efekti</li>
+          <li><i class="icon-angle-right"></i> <strong>Parametre sıralaması</strong> - tekrar eden yazıların parametrelerini sıralar</li>
+          <li><i class="icon-angle-right"></i> <strong>Sıralama düzeni</strong> - yazıların sıralama düzeni</li>
+          <li><i class="icon-angle-right"></i> <strong>Sütun sayısı</strong> - sütun sayısı</li>
+          <li><i class="icon-angle-right"></i> <strong>Satır sayısı</strong> - satır sayısı</li>
+          <li><i class="icon-angle-right"></i> <strong>Banner efekti</strong> - afiş için animasyon türünü seçebilirsiniz</li>
+          <li><i class="icon-angle-right"></i> <strong>Duraklama süresi</strong> - saniye bazında duraklama süresi</li>
+          <li><i class="icon-angle-right"></i> <strong>Animasyon hızı</strong> - saniye bazında animasyon hızı</li>
+          <li><i class="icon-angle-right"></i> <strong>Slideshow</strong> - slider otomatik olarak oynatılsın mı?</li>
+          <li><i class="icon-angle-right"></i> <strong>Thumbnails</strong> - küçük resimler gösterilsin mi?</li>
+          <li><i class="icon-angle-right"></i> <strong>Sayfalama</strong> - sayfalama gösterilsin mi?</li>
+          <li><i class="icon-angle-right"></i> <strong>Önceki &amp; Sonraki navigasyonu</strong> - önceki & sonraki şeklinde menü gösterilsin mi?</li>
+          <li><i class="icon-angle-right"></i> <strong>Önceki &amp; Sonraki menüsünü sadece üstüne gelinirse göster</strong> - 'Evet' olarak seçilirse, navigasyon düğmesi (önceki, sonraki ve oynat/durdur düğmeleri) sadece üzerine gelinirse gösterilir. 'Hayır' olarak seçilirse, her zaman görünür durumda olurlar.</li>
+          <li><i class="icon-angle-right"></i> <strong>Oynat/Duraklat düğmesi</strong> - Oynat/Duraklat düğmesi gösterilsin mi?</li>
+          <li><i class="icon-angle-right"></i> <strong>Loader</strong> - slider için yükleyici.</li>
+        </ul>
+        </div>
+      </div>
+      <h5>Akordiyon</h5>
+      <div class="row"> 
+      <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_slider_accordion.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_slider_accordion.jpg" alt=""><i class="icon-search"></i></a></figure>
+      <div class="clearfix">
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Slide gösterimi</strong> - Sliderınızda gösterilecek olan kayma seçeneğini gösterir. Eğer hiçbir seçeneği seçmezseniz, hepsi gösterilir.</li>
+        <li><i class="icon-angle-right"></i> <strong>Değişken sıralaması</strong> - yazıları belirlenen değişken sırasına göre gösterir.</li>
+      <li><i class="icon-angle-right"></i> <strong>Sıralama</strong> - yazıların gösterim sıralaması</li>
+        <li><i class="icon-angle-right"></i> <strong>Slideshow</strong> - slider otomatik olarak oynatılsın mı?</li>
+        <li><i class="icon-angle-right"></i> <strong>Fareyle duraklama</strong> - fareyi üzerine getirdiğinizde, oynatma duraklar.</li>
+        <li><i class="icon-angle-right"></i> <strong>Duraklama süresi</strong> - saniye bazında duraklama süresi.</li>
+        <li><i class="icon-angle-right"></i> <strong>Animasyon hızı</strong> - saniye bazında animasyon hızı.</li>
+        <li><i class="icon-angle-right"></i> <strong>Animasyon yavaşlaması</strong> - geçişler arasındaki yavaşlama şeklini seçebilirsiniz.</li>
+        <li><i class="icon-angle-right"></i> <strong>Geçişlerde fare etkisi</strong> - geçişler arasındaki fare hareketlerini ve etkilerini seçebilirsiniz.</li>
+        <li><i class="icon-angle-right"></i> <strong>Aktif slide</strong> - varsayılan olarak kaç adet slideın aktif olacağını seçin. Değer 0 olursa, slide boyutu sayfa genişliğiyle aynı olacaktır.</li>
+      </ul>
+      </div>
+      </div>
+    </article>
+
+    <article id="blog_option">
+      <h4>Blog</h4>
+      <div class="row"> 
+      <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_blog.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_blog.jpg" alt=""><i class="icon-search"></i></a></figure>
+      <div class="clearfix">
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Blog Başlığı</strong> - Blog sayfanızda kullanacağınız başlık</li>
+        <li><i class="icon-angle-right"></i> <strong>İlgili Yazılar Başlığı</strong> - ilgili konular için kullanılacak olan Tekli Yazı başlığı</li>
+        <li><i class="icon-angle-right"></i> <strong>Blog düzeni</strong> - blogunuz için bir layout (düzen) seçin</li>
+        <li><i class="icon-angle-right"></i> <strong>Blog görsel boyutu</strong> - blog sayfası için görsel boyutu (normal veya büyük boy)</li>
+        <li><i class="icon-angle-right"></i> <strong>Tekli Yazı görsel boyutu</strong> - tekli yazı sayfası için görsel boyutu (normal veya büyük boy)</li>
+        <li><i class="icon-angle-right"></i> <strong>Tekli yazıda paylaşım düğmeleri gösterilsin mi?</strong> - tekli yazıda paylaşım düğmelerini gösterebilirsiniz</li>
+        <li><i class="icon-angle-right"></i> <strong>Sayfa kaydırıldığında görseller yüklensin mi?</strong> - isterseniz görselleri sadece sayfa kaydırıldığında yükletebilirsiniz. Yoksa görseller tek bir seferde yüklenir.</li>
+        <li><i class="icon-angle-right"></i> <strong>Blog yazıları kısaltılsın mı?</strong> - yazıların bir bölümü alınarak kısaltma yapılır</li>
+        <li><i class="icon-angle-right"></i> <strong>Yazılar için düğme yazısı</strong> - blog yazıları için yazılı düğmeler</li>
+        <li><i class="icon-angle-right"></i> <strong>Blogun metalarını görüntüle</strong> - blog ve yazı sayfalarında gösterilecek olan meta kutusunun türünü seçin</li>
+        <li><i class="icon-angle-right"></i> <strong>Yazı yayınlanma tarihi</strong> - Yazının yayınlanma tarihi gösterilsin mi?</li>
+        <li><i class="icon-angle-right"></i> <strong>Yazının yazarı</strong> - Yazının yazarı gösterilsin mi?</li>
+        <li><i class="icon-angle-right"></i> <strong>Yazıya direkt bağlantı</strong> - Yazıya direkt olan bağlantı yapılsın mı?</li>
+        <li><i class="icon-angle-right"></i> <strong>Yazı kategorileri</strong> - Yazının kategorileri gösterilsin mi?</li>
+        <li><i class="icon-angle-right"></i> <strong>Etiketleri göster</strong> - Etiketler gösterilsin mi?</li>
+        <li><i class="icon-angle-right"></i> <strong>Yorum sayısı</strong> - Yorum sayısı gösterilsin mi?</li>
+        <li><i class="icon-angle-right"></i> <strong>Görüntülenme sayısı</strong> - Yazının görüntülenme sayısı gösterilsin mi?</li>
+        <li><i class="icon-angle-right"></i> <strong>Beğeni sayısı</strong> - Yazının aldığı beğeni sayısı gösterilsin mi?</li>
+        <li><i class="icon-angle-right"></i> <strong>Beğenmeme sayısı</strong> - Yazının aldığı beğenilmeme sayısı gösterilsin mi?</li>
+      </ul>
+      </div>
+      </div>
+    </article>
+
+    <article id="portfolio_option">
+      <h4>Portfolyo</h4>
+      <div class="row"> 
+      <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_portfolio.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_portfolio.jpg" alt=""><i class="icon-search"></i></a></figure>
+      <div class="clearfix">
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Süzgeç</strong> - Portfolyo süzgeci.</li>
+        <li><i class="icon-angle-right"></i> <strong>Başlık</strong> - Portfolyo yazılarının başlığını Göster veya Sakla.</li>
+        <li><i class="icon-angle-right"></i> <strong>Kısaltma</strong> - Portfolyo yazılarının bir bölümü kısaltılsın mı?</li>
+        <li><i class="icon-angle-right"></i> <strong>Kısaltılan kelime</strong> - Kısaltılan bölümün kelime bazında uzunluğu.</li>
+        <li><i class="icon-angle-right"></i> <strong>Düğme</strong> - Portfolyo yazılarında düğme Göster veya Sakla.</li>
+        <li><i class="icon-angle-right"></i> <strong>Düzen</strong> - Portfolyoların farklı düzenleri vardır. Bu seçenekten ayar ve değişiklik yapabilirsiniz.</li>
+        <li><i class="icon-angle-right"></i> <strong>Portfolyo 2 sütun içeriği</strong> - Portfolyo 2 sütun şablonunda, portfolyoda yer alacak içerik sayısı.</li>
+        <li><i class="icon-angle-right"></i> <strong>Portfolyo 3 sütun içeriği</strong> - Portfolyo 3 sütun şablonunda, portfolyoda yer alacak içerik sayısı.</li>
+        <li><i class="icon-angle-right"></i> <strong>Portfolyo 4 sütun içeriği</strong> - Portfolyo 4 sütun şablonunda, portfolyoda yer alacak içerik sayısı.</li>
+      </ul>
+      </div>
+      </div>
+    </article>
+
+    <article id="footer_option">
+      <h4>Alt Bölüm</h4>
+      <div class="row"> 
+      <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_footer.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_footer.jpg" alt=""><i class="icon-search"></i></a></figure>
+      <div class="clearfix">
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Alt bölüm telif yazısı</strong> - alt kısımdaki içerik. Bu alan boş bırakılırsa, varsayılan içerik gösterilir. Bu içerik <em>footer.php</em> dosyasında yer almaktadır.</li>
+        <li><i class="icon-angle-right"></i> <strong>Google Analytics Kodu</strong> - sitenizin SEO istatistiklerini almak için <em>Google Analytics Kodu</em> kullanabilirsiniz.</li>
+        <li><i class="icon-angle-right"></i> <strong>Feedburner URL</strong> - <a href="http://www.feedburner.com/" target="_blank">Feedburner</a>, RSS feed için kullanılan bir Google hizmetidir. Bu alana Feedburner URL (bağlantı adresi) yapıştıraral, okuyucuların siteniz üzerinden görüntülemesini sağlayabilirsiniz.</li>
+        <li><i class="icon-angle-right"></i> <strong>Alt Menü</strong> - alt kısımdaki menüyü göster veya kapat.</li>
+        <li><i class="icon-angle-right"></i> <strong>Alt Menü Tipografisi</strong> - Alt menü için tercih ettiğiniz yazı biçimini seçebilirsiniz. Bu alandaki seçenekler şöyledir:
+          <ol style="margin-bottom:0; padding-left:20px; overflow:hidden;">
+            <li><em>Yazı boyutu</em></li>
+            <li><em>Satır yüksekliği</em></li>
+            <li><em>Yazı ailesi</em></li>
+            <li><em>Yazı stili (normal, kalın, italik)</em></li>
+            <li><em>Karakter Seti (Latin, Greek, Cyrillic, vs.)</em></li>
+            <li><em>Renk</em></li>
+          </ol>
+        <p><span class="label label-warning">Not:</span> Yanında <strong>*</strong> işareti olan yazılar Google Web Fontları kütüphanesinden yüklenir.</p>
+        </li>
+      </ul>
+      </div>
+      </div>
+    </article>    
+
+    <article id="footer_logo_option">
+      <p class="alert">Aşağıda yer alan 'alt logo,' 'iletişim' ve 'sosyal' bölümleri isteğe bağlıdır. Bazı temalarda bulunmamaktadır.</p>
+      <h4>Alt Logo</h4>
+      <div class="row"> 
+      <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_footer_logo.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_footer_logo.jpg" alt=""><i class="icon-search"></i></a></figure>
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Logo Görsel Yolu</strong> - Görseli seçtikten sonra, 'yükle' bölümünden yeni bir görsel yükleyebilir veya Medya Kütüphanesi'nden varolan bir görsel seçebilirsiniz.</li>
+      </ul>
+      </div>
+    </article>
+
+    <article id="contacts_option">
+      <h4>İletişim</h4>
+      <div class="row"> 
+      <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_contacts.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_contacts.jpg" alt=""><i class="icon-search"></i></a></figure>
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Cadde ve sokak</strong> - mahalle cadde ve sokak adresi.</li>
+        <li><i class="icon-angle-right"></i> <strong>Şehir</strong> - şehir bilgisi.</li>
+        <li><i class="icon-angle-right"></i> <strong>Postakodu</strong> - semtinizin postakodu.</li>
+        <li><i class="icon-angle-right"></i> <strong>Telefon</strong> - telefon numarası.</li>
+      </ul>
+      </div>
+    </article>
+    <article id="social_option">
+      <h4>Sosyal</h4>
+      <div class="row"> 
+      <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_social.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_social.jpg" alt=""><i class="icon-search"></i></a></figure>
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Facebook URL</strong> - Facebook URL bağlantı adresi.</li>
+        <li><i class="icon-angle-right"></i> <strong>Google+ URL</strong> - Google+ URL.</li>
+        <li><i class="icon-angle-right"></i> <strong>RSS URL</strong> - RSS URL.</li>
+        <li><i class="icon-angle-right"></i> <strong>Pinterest URL</strong> - Pinterest URL.</li>
+        <li><i class="icon-angle-right"></i> <strong>Linkedin URL</strong> - Linkedin URL.</li>
+      </ul>
+      </div>
+    </article>
+
+
+  </section>  
+<!-- Theme Options end -->
+<!-- Shop Kit begin -->
+  <section class="block-templates" id="shop_kit">  
+
+    <h2 class="item11"><i class="icon-shopping-cart"></i> Shop Beginners Kit</h2>
+    <div class="box-notification"><span>Önemli! Shop Beginners Kit sadece <strong>Cherry Framework</strong> versiyon <strong>2.0</strong> veya daha yükseği ile çalışır.<br><small>Eğer 2.0'dan daha düşük bir versiyon kullanıyorsanız, Cherry Framework'ü <a href="#backup_update">güncellemelisiniz</a>.</small></span></div>
+    <p>Shop Beginners Kit, herhangi bir WordPress temasıyla birlikte veya ayrı olarak kullanılabilir.</p>
+    <article>
+      <p>Öncelikle <strong>WooCommerce</strong> veya <strong>Jigoshop</strong> eklentisini kurup etkinleştirmelisiniz. Böylelikle sanal mağazanızda çalışmaya hazır hale gelecektir.</p>
+      <h5>Eklentileri şuradan yükleyebilirsiniz:</h5>
+      <p><strong>Jigoshop Eklentisi:</strong> <a href="http://wordpress.org/plugins/jigoshop/">http://wordpress.org/plugins/jigoshop/</a><br>
+      <strong>WooCommerce Eklentisi:</strong> <a href="http://wordpress.org/plugins/woocommerce/">http://wordpress.org/plugins/woocommerce/</a></p>
+
+      <div class="box-notification"><span>Dikkat! Normal bir işlem için sadece bir tk eklentiye ihtiyacınız var.</span></div>
+
+      <h5>Eklenti kurulumu</h5>
+      <ol>
+        <li>WordPress yönetici panelinden <strong>Eklentiler -&gt; Yeni Ekle</strong> menüsüne giriniz.</li>
+        <li>Ardından <strong>Yükle</strong> yazısına tıklayınız.</li>
+        <li>Şimdi <strong>Ara</strong> kısmına basınız.</li>
+        <li>Kurmak istediğiniz eklenti dosyasını bu klasörde bulup <strong>OK</strong> kısmına basınız.</li>
+        <li>Son olarak<strong>Şimdi Kur</strong> yazısına basınız</li>
+        <li>Eklenti kurulduktan sonra <strong>Etkinleştir</strong> yazısından etkinleştiriniz.</li>
+      </ol>
+
+      <h5>Eğer bu eklentiyi <strong>WordPress temasıyla birlikte</strong> satın aldıysanız, her şeyin doğru çalışması için gereken, bir kaç adıma dikkat etmeniz gerekiyor.</h5>
+      <p>Sanal mağazanız için aynı zamanda bileşenler ve demo ürünler de kurabilirsiniz.</p>
+      <p>Aşağıdaki adımları takip etmelisiniz:</p>
+      <ol>
+        <li>Bileşenlerin kurulumu:
+          <ul>
+            <li><i class="icon-angle-right"></i> Menüden Cherry Ayarları -> İçe Aktar bölümüne girin.</li>
+            <li><i class="icon-angle-right"></i> Buradan, seçtiğiniz eklentiye göre jigoshop_widgets.json veya woocommerce_widgets.json seçin. Daha sonra Bileşen Ayarlarını Göster yazısına tıklayın (<em>bu adımı atlayabilir ve Görünüm -> Bileşenler menüsünden, tüm gerekli bileşenleri manuel olarak ayarlayabilirsiniz</em>).</li>
+            <li><i class="icon-angle-right"></i> Kurmak istediğiniz bileşenleri seçin ve Ayarları İçe Aktar düğmesine basın.</li>
+            <li><i class="icon-angle-right"></i> Kurulumun tamamlanmasını bekleyin.</li>
+          </ul>
+        </li>
+        <li>Demo ürünlerin kurulumu.
+          <ul>
+            <li><i class="icon-angle-right"></i> Öncelikle shop_sample_data.xml dosyasını seçin, Dosya Yükle ve İçe Aktar düğmelerine basın (<em>bunu atlayıp, daha sonra da yapabilirsiniz</em>).</li>
+            <li><i class="icon-angle-right"></i> Yazarı İçe Aktar alanından, kullanıcıyı seçip Veriyi İçe Aktar düğmesine basın.</li>
+            <li><i class="icon-angle-right"></i> Demo ürünleri kurduktan sonra, Bitir düğmesine basın. Sanal mağazanız ekstraları ile çalışmaya hazır. </li>
+          </ul>
+        </li>
+      </ol>
+    </article>
+    
+    <article>
+      <h5>Daha önceden satın almış olduğunuz bir şablona sanal mağaza eklemek isterseniz, <strong>WooCommerce</strong> ve <strong>Jigoshop</strong> eklentileriyle uyumlu olan bazı Cherry Framework dosyalarına ihtiyacınız olacaktır.</h5>
+      <p>Öncelikle <strong>"Shop Beginners Kit"</strong> satın almalı ve ardından şu adımları gerçekleştirmelisiniz:</p>
+      <ol>
+        <li><strong>WooCommerce</strong> veya <strong>Jigoshop</strong> eklentilerinden birini kurup etkinleştirin (<em>sadece bir tanesine ihtiyacınız var</em>).</li>
+        <li>Ardından <strong>theme####</strong> klasöründen, gerekli olan iki dosyayı (<em><strong>shop.less</strong> ve <strong>shop.php</strong></em>) yavru temanızla ana klasöre yükleyin.</li>
+      </ol>
+      <p>Ayrıca bileşenler ve demo ürünler de kurabilirsiniz. Yukarıda yer alan bilgileri inceleyiniz.</p>
+      <br>
+    </article>
+  </section>  
+<!-- Shop kit end -->
+</div>
+</div>
+
+  </div>
+</div>
+</div>
+</div>
+   <!-- Footer
+    ================================================== -->
+    
+    <footer>
+      <div class="container">        
+       WordPress Tema Kılavuzu<br>
+      &copy; <span id="copyright-year"></span> <span id="copyright">Template Monster</span>
+      </div>
+    </footer>   
+
+  <div id="back-top">
+    <a href="#"><i class="icon-double-angle-up"></i></a>
+  </div>   
+
+
+<div class="modal_bg"></div>
+<div class="modal">
+  <div class="modal-header">
+    <span class="modal_remove pull-right"><i class="icon-remove"></i></span>
+    <h3>Dil seçin</h3>
+  </div>
+  <div class="modal-body">
+    <ul id="modal_languages" class="nav nav-list bs-docs-sidenav"></ul>
+  </div>
+</div>
+
+<!-- <script src="js/bootstrap-scrollspy.js"></script>  -->
+
+<script type="text/javascript">
+  var _gaq = _gaq || []; 
+  _gaq.push(['_setAccount', 'UA-2787305-5']); 
+  _gaq.push(['_trackPageview']); 
+
+  (function() { 
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; 
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); 
+  })();
+</script>
+
+  
+    
+</body> 
+
+</html>
