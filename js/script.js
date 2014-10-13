@@ -1,3 +1,13 @@
+/*
+ * jQuery throttle / debounce - v1.1 - 3/7/2010
+ * http://benalman.com/projects/jquery-throttle-debounce-plugin/
+ * 
+ * Copyright (c) 2010 "Cowboy" Ben Alman
+ * Dual licensed under the MIT and GPL licenses.
+ * http://benalman.com/about/license/
+ */
+;(function(b,c){var $=b.jQuery||b.Cowboy||(b.Cowboy={}),a;$.throttle=a=function(e,f,j,i){var h,d=0;if(typeof f!=="boolean"){i=j;j=f;f=c}function g(){var o=this,m=+new Date()-d,n=arguments;function l(){d=+new Date();j.apply(o,n)}function k(){h=c}if(i&&!h){l()}h&&clearTimeout(h);if(i===c&&m>e){l()}else{if(f!==true){h=setTimeout(i?k:l,i===c?e-m:e)}}}if($.guid){g.guid=j.guid=j.guid||$.guid++}return g};$.debounce=function(d,e,f){return f===c?a(d,e,false):a(d,f,e!==false)}})(this);
+
 var current_file = location.pathname.substring(location.pathname.lastIndexOf("/") + 1);
 var doc_language = getCookie('doc_language');
 console.log(doc_language);
@@ -144,25 +154,6 @@ $(document).ready(function() {
 
 	// hide #back-top first
 	$("#back-top").hide();
-	
-	// fade in #back-top
-	$(function () {
-		$(window).scroll(function () {
-			if ($(this).scrollTop() > 100) {
-				$('#back-top').fadeIn();
-			} else {
-				$('#back-top').fadeOut();
-			}
-		});
-
-		// scroll body to 0px on click
-		$('#back-top a').click(function () {
-			$('body,html').animate({
-				scrollTop: 0
-			}, 400);
-			return false;
-		});
-	});
 
 	// Copyright
 	if ($(location).attr('href').indexOf("http://info.template-help.com")+1){
@@ -217,7 +208,8 @@ $(document).ready(function() {
 
 		$(".slide-down a").click(function(){
 			click_scroll = true;
-			$(window).scrollTo($(this).attr("href"), 800, function(){
+			link = $(this)
+			$(window).scrollTo(link.attr("href"), 800, function(){
 				click_scroll = false;
 				change_menu_item();
 			});
@@ -225,28 +217,77 @@ $(document).ready(function() {
 		});
 
 	// Change menu item
-	$(window).scroll(change_menu_item).trigger("scroll");
+	var lastScrollTop = 0;
+	$(window).scroll($.throttle(1000, change_menu_item));
 
 	function change_menu_item(){
+		if ($(window).scrollTop() > 100) {
+				$('#back-top').fadeIn();
+			} else {
+				$('#back-top').fadeOut();
+			}
 	    if(!click_scroll){
-	        $(".current").removeClass("current");
-	        $(".act_item").removeClass("act_item");
-	        $(".open_item").removeClass("open_item");
-	        for(var i=0, lenghtArray = idArray.length; i<lenghtArray; i++){
-	            if(
-	                $(idArray[i]).offset().top- $(window).scrollTop() <= (($(window).height()/2)) && 
-	                $(idArray[i]).offset().top- $(window).scrollTop()>=0 || 
-	                $(window).scrollTop() + (($(window).height()/2)-100) > $(idArray[i]).offset().top&& 
-	                $(idArray[i]).offset().top+ $(idArray[i]).height() > $(window).scrollTop() + (($(window).height()/2)))
-	            {
-	                    $("a[href="+idArray[i]+"]").parent("li").addClass("current");
-	                    $("a[href="+idArray[i]+"]").parents("li").addClass("act_item open_item");
-	            }
-	        }
-	        $(".act_item").find("dd").slideDown(200);
-	        $("li", '#nav').not(".act_item").find("dd").stop().slideUp(200);
+	    	var st = $(window).scrollTop(),
+	    	hash = '';
+	    	if (st > lastScrollTop){
+	       		for(var i=0, lenghtArray = idArray.length; i<lenghtArray; i++){
+		            if(
+		                st + $(window).height()/2 >= $(idArray[i]).offset().top
+		            )
+		            {
+			            hash = idArray[i];
+		            }
+		        }
+		   	} else {
+		    	for(var i = idArray.length - 1; i>=0; i--){
+		            if(
+		                st + $(window).height()/2 <= $(idArray[i]).offset().top
+		            )
+		            {
+				        hash = idArray[i-1];
+		            }
+		        }
+		   	}
+		   	lastScrollTop = st;
+	        if(window.location.hash != hash && hash != '')
+            {
+            	click_scroll = true;
+		        window.location.hash = hash;
+		        $(window).scrollTo(st, 0 ,function(){
+		        	click_scroll = false;
+		        	$(".current").removeClass("current");
+			        $(".act_item").removeClass("act_item");
+		            $("a[href="+hash+"]").parent("li").addClass("current");
+			        $("a[href="+hash+"]").parents("li").addClass("act_item");
+			        if($('#affect_all .expand').is(':visible')){
+				        $(".open_item").removeClass("open_item");
+			            $("a[href="+hash+"]").parents("li").addClass("open_item");
+				        $(".act_item").find("dd").slideDown(200);
+				        $("li", '#nav').not(".act_item").find("dd").stop().slideUp(200);
+				    }
+		        });
+		    }
+	        return false;
 	    }
 	}
+	
+	// scroll body to 0px on click
+	$('#back-top a').click(function () {
+		click_scroll = true;
+		$(window).scrollTo('0', 800, function(){
+			setTimeout(function(){
+				click_scroll = false;
+				window.location.hash = '';
+				$(".current").removeClass("current");
+		        $(".act_item").removeClass("act_item");
+			    if($('#affect_all .expand').is(':visible')){
+			        $(".open_item").removeClass("open_item");
+				    $("li", '#nav').find("dd").stop().slideUp(200);
+				}
+			}, 500)
+		});
+		return false;
+	});
 
 	select_menu("#languages");
 	select_menu("#versions");
