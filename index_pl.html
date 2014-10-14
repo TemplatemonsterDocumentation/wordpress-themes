@@ -113,8 +113,8 @@
                             <li><a href="#manual_install">Instalacja manualna</a></li>
                             <li><a href="#plugins_intstall">Instalacja Pluginu</a></li>
                             <li><a href="#theme_plugins">Pluginy Motywu</a></li>
-                            <li><a href="#cookie_policy">Polityka Cookie</a></li>
-                            <li><a href="#google_services">Google services closed off in China</a></li>
+                            
+                            <li><a href="#google_services">Ładowanie danych z serwerów Google</a></li>
                            </ul> 
                        </dd>
                      </dl> 
@@ -186,6 +186,7 @@
                           <li><a href="#blog_option">Blog</a></li>    
                           <li><a href="#portfolio_option">Portfolio</a></li>  
                           <li><a href="#footer_option">Stópka</a></li>  
+                          <li><a href="#cookie_policy">Polityka Cookie</a></li>
                           <li><a href="#footer_logo_option">Logo Stópki</a></li>                  
                           <li><a href="#contacts_option">Kontakty</a></li>  
                           <li><a href="#social_option">Społecznościowe</a></li>                
@@ -595,32 +596,20 @@
       <span class="label">Opis:</span> Ten plugin WordPress jest kompletnym systemem forum dla Twojego bloga Wordpress.</p>
     </article>     
 
-    <article id="cookie_policy"> 
-        <h4>Polityka plików Cookie</h4>
-        <p>Ciasteczka (Cookies) są małymi plikami tekstowymi, które strony internetowe umieszczają w komputerach odwiedzających osób. Zazwyczaj są używane do identyfikowania danego odwiedzającego oraz zapewniania im lepszego doświadczenia w korzystaniu ze strony. Cookies są nieodzowne dla działania wielu funkcji na stronie.</p>
 
-        <p>Na przykład, to zazwyczaj cookies są odpowiedzialne za fakt, że w sklepach online zapamiętywane jest co znajduje się w Twoim koszyku zakupów. Są też używane, aby utrzymywać Cię zalogowanym na stronie internetowej lub zapewniają cenne dane statystyczne użytkowników dla właściciela strony internetowej.</p>
-
-        <p>Jeśli masz stronę internetową to prawdopodobnie używa ona cookies. Najprawdopodobniej ich funkcją jest monitorowanie liczby odwiedzających i ich zachowań, przy użyciu takich narzędzi jak Google Analytics. Mogą być również używane do wyświetlania reklam dopasowanych do odwiedzających, lub gdy sprzedajesz online, podkreślając ważne części Twojego systemu sprzedaży.</p>
-
-        <p>26-go maja 2012 - ICO wypuściło zmianę w wymaganiu, "dorozumiana zgoda" jest teraz zezwolona, jeśli wyraźnie zaznaczone jest, gdzie znajduje się Twoja polityka prywatności/cookie.</p>
-        
-        <p>Postępując zgodnie z tzw. Cookie Law, możesz dodać odpowiednie moduły do swojej strony. Moduł wyświetli ostrzeżenie o używaniu plików cookie na Twojej stronie. Możesz użyć następujących: <a href="https://wordpress.org/plugins/cookie-banner/">Cookie Banner</a>, <a href="http://wordpress.org/plugins/cookie-notice/">Cookie Notice</a></p>
-        
-
-    </article>
     <article id="google_services"> 
-        <h4>Google services closed off in China</h4>
-        <p></p>
-        <p>If you have any problems with Google Fonts and scripts in China, you need to replace:</p>
+        <h4>Ładowanie danych z serwerów Google </h4>
 
-        <p><pre class="prettyprint">&lt;link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'&gt;</pre></p>
+      <p>Niektóre kraje mają problemy z połączeniem się z serwerami Google. Może to powodować problemy loading Google Fonts. Aby rozwiązać te problemy wykonaj następujące czynności: </p>
 
-        <p>on</p>
+<h5>Czcionki nie można załadować z Google: </h5>
+<p>Plik otwarty ...\CherryFramework\admin\options-sanitize.php</p>
+<p>Znajdź linię: </p>
+<p><pre>wp_enqueue_style( "options_typography_$f", "//fonts.googleapis.com/css?family=$f$ch", false, null, 'all' );</pre></p>
+<p>Wymień go, co następuje:</p>
+<p><pre>wp_enqueue_style( "options_typography_$f", "//fonts.useso.com/css?family=$f$ch", false, null, 'all' );</pre></p>
 
-        <p><pre class="prettyprint">&lt;link href='//fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'&gt;</pre></p>
-        <p>Also you need to connect jQuery from<a href="" target='_blank'> https://code.jquery.com/</a> or locally.</p>
-            
+           
 
     </article>
     
@@ -1882,6 +1871,28 @@
       </div>
       </div>
     </article>    
+    
+    <article id="cookie_policy"> 
+        <h4>Informativa sui Cookie</h4>
+        <p>I cookie sono dei piccoli file di testo che un sito web crea sul computer di un visitatore. Vengono utilizzati tipicamente per identificare quello specifico visitatore allo scopo di fornirgli un'esperienza di navigazione migliore. I Cookie sono un elemento importantissimo per il corretto funzionamento di tante funzioni dei siti web che tutti ormai diamo per scontate.</p>
+
+        <p>Ad esempio, sono solitamente proprio i cookie che permettono ai negozi online di ricordare quali articoli hai messo nel tuo carrello. Sono usati anche per tenere attivo il tuo login sul sito, o per dare ai gestori del sito informazioni statistiche importanti.</p>
+
+        <p>Se gestisci un sito web, esso quasi sicuramente usa i cookie. La loro funzione più probabile è quella di monitorare il numero dei visitatori e i loro comportamenti, servendosi di strumenti come Google Analytics. Possono essere usati anche per mostrare agli utenti delle pubblicità il più possibile rilevanti, oppure - per chi vende prodotti - per far funzionare alcuni tra gli elementi più importanti del sistema di compravendita del tuo negozio online.</p>
+
+        <p>26 maggio 2012 - La ICO ha pubblicato una modifica all'applicazione della regolamentazione: "il consenso implicito" è ora consentito purché sia ben chiaro dove si trovano le tue informative su cookie e privacy.</p>
+        
+        <p>Dla Twojej wygody dodaliśmy Cookie Baner w Cherry Opcje. </p><br>
+        <div class="row"> 
+        <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/cookie.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/cookie.jpg" alt=""><i class="icon-search"></i></a></figure>
+        <ul>
+          <li><i class="icon-angle-right"></i> <strong>Display Cookie Banner?</strong> - Banner powinien być wyświetlany w Cookie? </li>
+          <li><i class="icon-angle-right"></i> <strong>Text</strong> - Tekst o treści Banner</li>
+        </ul>
+        </div><br><br>
+        
+
+    </article>
 
     <article id="footer_logo_option">
       <p class="alert">Sekcje 'logo stopki,' 'kontakty' oraz 'społecznościowe' poniżej są opcjonalne. Niektóre motywy mogą ich nie zawierać. </p>

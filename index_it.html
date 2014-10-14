@@ -113,8 +113,8 @@
                             <li><a href="#manual_install">Installazione Manuale </a></li>
                             <li><a href="#plugins_intstall">Installazione Plugin</a></li>
                             <li><a href="#theme_plugins">Installazione Plugin del Tema</a></li>
-                            <li><a href="#cookie_policy">Informativa sui Cookie</a></li>
-                            <li><a href="#google_services">Google services closed off in China</a></li>
+                            
+                            <li><a href="#google_services">Caricamento dei dati dai server di Google</a></li>
                            </ul> 
                        </dd>
                      </dl> 
@@ -186,6 +186,7 @@
                           <li><a href="#blog_option">Blog</a></li>    
                           <li><a href="#portfolio_option">Portfolio</a></li>  
                           <li><a href="#footer_option">Footer</a></li>  
+                          <li><a href="#cookie_policy">Informativa sui Cookie</a></li>
                           <li><a href="#footer_logo_option">Logo Footer</a></li>                  
                           <li><a href="#contacts_option">Contatti</a></li>  
                           <li><a href="#social_option">Social</a></li>                
@@ -595,32 +596,20 @@
       <span class="label">Descrizione:</span> Questo plugin WordPress è un sistema completo per aggiungere un forum sul tuo blog WordPress.</p>
     </article>     
 
-    <article id="cookie_policy"> 
-        <h4>Informativa sui Cookie</h4>
-        <p>I cookie sono dei piccoli file di testo che un sito web crea sul computer di un visitatore. Vengono utilizzati tipicamente per identificare quello specifico visitatore allo scopo di fornirgli un'esperienza di navigazione migliore. I Cookie sono un elemento importantissimo per il corretto funzionamento di tante funzioni dei siti web che tutti ormai diamo per scontate.</p>
-
-        <p>Ad esempio, sono solitamente proprio i cookie che permettono ai negozi online di ricordare quali articoli hai messo nel tuo carrello. Sono usati anche per tenere attivo il tuo login sul sito, o per dare ai gestori del sito informazioni statistiche importanti.</p>
-
-        <p>Se gestisci un sito web, esso quasi sicuramente usa i cookie. La loro funzione più probabile è quella di monitorare il numero dei visitatori e i loro comportamenti, servendosi di strumenti come Google Analytics. Possono essere usati anche per mostrare agli utenti delle pubblicità il più possibile rilevanti, oppure - per chi vende prodotti - per far funzionare alcuni tra gli elementi più importanti del sistema di compravendita del tuo negozio online.</p>
-
-        <p>26 maggio 2012 - La ICO ha pubblicato una modifica all'applicazione della regolamentazione: "il consenso implicito" è ora consentito purché sia ben chiaro dove si trovano le tue informative su cookie e privacy.</p>
-        
-        <p>Seguendo le condizioni della legge sui Cookie, potrai aggiungere moduli sufficienti sul tuo sito. Il modulo mostrerà un messaggio di avviso riguardo l'utilizzo dei cookie sul tuo sito web. Puoi usare questi: <a href="https://wordpress.org/plugins/cookie-banner/">Cookie Banner</a>, <a href="http://wordpress.org/plugins/cookie-notice/">Cookie Notice</a></p>
-        
-
-    </article>
+    
     <article id="google_services"> 
-        <h4>Google services closed off in China</h4>
-        <p></p>
-        <p>If you have any problems with Google Fonts and scripts in China, you need to replace:</p>
+        <h4>Caricamento dei dati dai server di Google </h4>
 
-        <p><pre class="prettyprint">&lt;link href='//fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'&gt;</pre></p>
+      <p>Alcuni paesi hanno problemi di connessione ai server di Google. Ciò può causare problemi di caricamento di Google Fonts. Per risolvere questi problemi si prega di effettuare le seguenti operazioni:  </p>
 
-        <p>on</p>
+<h5>Impossibile caricare il font di Google: </h5>
+<p>Aprire il file ...\CherryFramework\admin\options-sanitize.php</p>
+<p>Individuare la riga:  </p>
+<p><pre>wp_enqueue_style( "options_typography_$f", "//fonts.googleapis.com/css?family=$f$ch", false, null, 'all' );</pre></p>
+<p>Sostituirlo con il seguente:</p>
+<p><pre>wp_enqueue_style( "options_typography_$f", "//fonts.useso.com/css?family=$f$ch", false, null, 'all' );</pre></p>
 
-        <p><pre class="prettyprint">&lt;link href='//fonts.useso.com/css?family=Open+Sans' rel='stylesheet' type='text/css'&gt;</pre></p>
-        <p>Also you need to connect jQuery from<a href="" target='_blank'> https://code.jquery.com/</a> or locally.</p>
-            
+           
 
     </article>
     
@@ -1883,6 +1872,28 @@
       </div>
       </div>
     </article>    
+    
+    <article id="cookie_policy"> 
+        <h4>Informativa sui Cookie</h4>
+        <p>I cookie sono dei piccoli file di testo che un sito web crea sul computer di un visitatore. Vengono utilizzati tipicamente per identificare quello specifico visitatore allo scopo di fornirgli un'esperienza di navigazione migliore. I Cookie sono un elemento importantissimo per il corretto funzionamento di tante funzioni dei siti web che tutti ormai diamo per scontate.</p>
+
+        <p>Ad esempio, sono solitamente proprio i cookie che permettono ai negozi online di ricordare quali articoli hai messo nel tuo carrello. Sono usati anche per tenere attivo il tuo login sul sito, o per dare ai gestori del sito informazioni statistiche importanti.</p>
+
+        <p>Se gestisci un sito web, esso quasi sicuramente usa i cookie. La loro funzione più probabile è quella di monitorare il numero dei visitatori e i loro comportamenti, servendosi di strumenti come Google Analytics. Possono essere usati anche per mostrare agli utenti delle pubblicità il più possibile rilevanti, oppure - per chi vende prodotti - per far funzionare alcuni tra gli elementi più importanti del sistema di compravendita del tuo negozio online.</p>
+
+        <p>26 maggio 2012 - La ICO ha pubblicato una modifica all'applicazione della regolamentazione: "il consenso implicito" è ora consentito purché sia ben chiaro dove si trovano le tue informative su cookie e privacy.</p>
+        
+        <p>Per la vostra convenienza, abbiamo aggiunto un Cookie Banner in Opzioni Cherry. </p><br>
+        <div class="row"> 
+        <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/cookie.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/cookie.jpg" alt=""><i class="icon-search"></i></a></figure>
+        <ul>
+          <li><i class="icon-angle-right"></i> <strong>Display Cookie Banner?</strong> - Se il cookie Banner da visualizzare? </li>
+          <li><i class="icon-angle-right"></i> <strong>Text</strong> - Testo per un contenuto Banner</li>
+        </ul>
+        </div><br><br>
+        
+
+    </article>
 
     <article id="footer_logo_option">
       <p class="alert">Le sezioni 'footer logo,' 'contacts' e 'social' che seguono sono facoltative. Alcuni temi potrebbero non includerle. </p>
