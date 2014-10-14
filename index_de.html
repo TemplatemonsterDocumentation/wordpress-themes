@@ -9,7 +9,7 @@
   <link rel="stylesheet" href="css/flexslider.css"  media="screen">
   <link rel="stylesheet" href="css/prettify.css"  media="screen">
    <link rel="stylesheet" href="css/prettyPhoto.css"  media="screen">
-   <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/wordpress-themes/v3-1/index_en.html"/>
+   <link rel="canonical" href="http://www.templatemonster.com/help/quick-start-guide/wordpress-themes/master/index_en.html"/>
   <script src="js/jquery.js"></script>
   <script src="js/jquery.scrollTo.js"></script>
   <script src="js/jquery-migrate-1.1.0.js"></script>
@@ -33,7 +33,7 @@
 </head>
 
 <body>  
-
+<!-- Cherry Version v3-1-->
 <!-- header
 ================================================== -->
 <header class="header">
@@ -112,7 +112,8 @@
                             <li><a href="#manual_install">Manuelle Installation</a></li>
                             <li><a href="#plugins_intstall">Installation der Plugins</a></li>
                             <li><a href="#theme_plugins">Plugins des Themas</a></li>
-                            <li><a href="#cookie_policy">Cookie-Politik</a></li>
+                            
+                            <li><a href="#google_services">Laden von Daten aus Google-Servern</a></li>
                            </ul> 
                        </dd>
                      </dl> 
@@ -184,6 +185,7 @@
                           <li><a href="#blog_option">Blog</a></li>    
                           <li><a href="#portfolio_option">Portfolio</a></li>  
                           <li><a href="#footer_option">Footer</a></li>  
+                          <li><a href="#cookie_policy">Cookie-Politik</a></li>
                           <li><a href="#footer_logo_option">Logo des Footers</a></li>                  
                           <li><a href="#contacts_option">Kontakte</a></li>                  
                           <li><a href="#social_option">Soziale Netzwerke</a></li>                     
@@ -282,7 +284,7 @@
 
 <p>Sie können dies überprüfen, indem Sie auf den folgenden Link:</p>
 
-     <figure class="img-paraloid quick-start-guide"><a href="/help/quick-start-guide/wordpress-themes/master/quick_guide/index_en.html"  target="_blank"><img src="img/wordpress/banner2.jpg" alt=""></a></figure>
+     <figure class="img-paraloid quick-start-guide"><a href="/help/quick-start-guide/wordpress-themes/master/quick_guide/index_en.html" target="_blank" ><img src="img/wordpress/banner2.jpg" alt=""></a></figure>
     
     
     <!-- CherryFramework installation -->
@@ -586,17 +588,21 @@ Die Anforderungen für verschiedene Vorlagen können sich unterscheiden, deswege
       <span class="label">Beschreibung:</span> Der jeweilige WordPress Plugin ist ein vollwertiges Forum für WordPress Blogs.</p>
     </article>     
 
-    <article id="cookie_policy"> 
-        <h4>Cookie-Politik</h4>
-        <p>Cookies sind kleine Textdateien, die die Webseiten auf den Benutzercomputern erstellen.  Meistens werden sie benutzt, um die Identifizierung bestimmtes Besuchers durchzuführen oder die hohe Leistung zu bringen. Cookies sind ein wichtiger Teil der Funktionen der Webseite.</p>
+    
+    <article id="google_services"> 
+        <h4>Laden von Daten aus Google-Servern </h4>
 
-        <p>Zum Beispiel, in Online-Shops speichern Cookies, was Sie genau in den Warenkorb hinzugefügt haben. Sie speichern nicht nur die Authorisierung auf der Webseite sondern auch stellen den Webseiteninhabern wertvolle Statistik und Information bereit.</p>
+      <p>Einige Länder haben Probleme mit der Verbindung zu den Google-Servern. Dies kann zu Problemen Laden Google Fonts führen. Um diese Probleme zu beheben gehen Sie bitte wie folgt vor:  </p>
 
-        <p>Wenn Sie eine Webseite haben, dann nutzt sie höchstwahrscheinlich Cookies. Die Hauptfunktionen sind Überwachen der Anzahl von Besucher und Verwendung der Werkzeuge, zum Beispiel Google Analytics. Sie können auch die wichtigen Mitteilungen des Benutzers zeigen oder ein Teil des Online-Shops sein (wenn Sie sich mit dem Online-Verkauf beschäftigen).</p>
+<h5>Kann Google Fonts nicht geladen:  </h5>
+<p>Öffnen ...\CherryFramework\admin\options-sanitize.php Datei </p>
+<p>Suchen Sie die Zeile: </p>
+<p><pre>wp_enqueue_style( "options_typography_$f", "//fonts.googleapis.com/css?family=$f$ch", false, null, 'all' );</pre></p>
+<p>Ersetzen Sie es mit dem folgenden:</p>
+<p><pre>wp_enqueue_style( "options_typography_$f", "//fonts.useso.com/css?family=$f$ch", false, null, 'all' );</pre></p>
 
-        <p>26. Mai 2012 -  ICO hat das Gesetz über Cookies geändert, deshalb wird der versteckte Inhalt nur dann erlaubt, wenn es die Benachrichtigung über Sicherheitsrichtlinie/Cookie-Politik auf der Webseite gibt.</p>
-        
-        <p>Laut dem Gesetz über Cookies müss auf die Webseite passendes Modul hinzugefügt werden, das die Mitteilung über Cookies darstellt. Sie können die folgenden Plugins nutzen: <a href="https://wordpress.org/plugins/cookie-banner/">Cookie Banner</a>, <a href="http://wordpress.org/plugins/cookie-notice/">Cookie Notice</a></p>
+           
+
     </article>
   </section>
 <!-- Getting started end -->
@@ -1883,6 +1889,26 @@ Die Anforderungen für verschiedene Vorlagen können sich unterscheiden, deswege
       </ul>
       </div>
       </div>
+    </article>
+    
+    <article id="cookie_policy"> 
+        <h4>Cookie-Politik</h4>
+        <p>Cookies sind kleine Textdateien, die die Webseiten auf den Benutzercomputern erstellen.  Meistens werden sie benutzt, um die Identifizierung bestimmtes Besuchers durchzuführen oder die hohe Leistung zu bringen. Cookies sind ein wichtiger Teil der Funktionen der Webseite.</p>
+
+        <p>Zum Beispiel, in Online-Shops speichern Cookies, was Sie genau in den Warenkorb hinzugefügt haben. Sie speichern nicht nur die Authorisierung auf der Webseite sondern auch stellen den Webseiteninhabern wertvolle Statistik und Information bereit.</p>
+
+        <p>Wenn Sie eine Webseite haben, dann nutzt sie höchstwahrscheinlich Cookies. Die Hauptfunktionen sind Überwachen der Anzahl von Besucher und Verwendung der Werkzeuge, zum Beispiel Google Analytics. Sie können auch die wichtigen Mitteilungen des Benutzers zeigen oder ein Teil des Online-Shops sein (wenn Sie sich mit dem Online-Verkauf beschäftigen).</p>
+
+        <p>26. Mai 2012 -  ICO hat das Gesetz über Cookies geändert, deshalb wird der versteckte Inhalt nur dann erlaubt, wenn es die Benachrichtigung über Sicherheitsrichtlinie/Cookie-Politik auf der Webseite gibt.</p>
+        
+        <p>Für Ihre Bequemlichkeit haben wir ein Cookie Banner in Cherry Optionen hinzugefügt.</p><br>
+        <div class="row"> 
+        <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/cookie.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/cookie.jpg" alt=""><i class="icon-search"></i></a></figure>
+        <ul>
+          <li><i class="icon-angle-right"></i> <strong>Display Cookie Banner?</strong> - Sollte der Cookie-Banner angezeigt werden? </li>
+          <li><i class="icon-angle-right"></i> <strong>Text</strong> - Text für ein Banner Inhalt</li>
+        </ul>
+        </div><br><br>
     </article>
 
    <article id="footer_logo_option">
