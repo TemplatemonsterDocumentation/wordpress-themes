@@ -597,9 +597,9 @@ Die Anforderungen für verschiedene Vorlagen können sich unterscheiden, deswege
 <h5>Kann Google Fonts nicht geladen:  </h5>
 <p>Öffnen ...\CherryFramework\admin\options-sanitize.php Datei </p>
 <p>Suchen Sie die Zeile: </p>
-<p><pre>wp_enqueue_style( "options_typography_$f", "//fonts.googleapis.com/css?family=$f$ch", false, null, 'all' );</pre></p>
+<pre>wp_enqueue_style( "options_typography_$f", "//fonts.googleapis.com/css?family=$f$ch", false, null, 'all' );</pre>
 <p>Ersetzen Sie es mit dem folgenden:</p>
-<p><pre>wp_enqueue_style( "options_typography_$f", "//fonts.useso.com/css?family=$f$ch", false, null, 'all' );</pre></p>
+<pre>wp_enqueue_style( "options_typography_$f", "//fonts.useso.com/css?family=$f$ch", false, null, 'all' );</pre>
 
            
 
