@@ -1,6 +1,5 @@
 @import url(//fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,700,700italic);
 /*Core variables and mixins*/
-
 .clearfix {
   *zoom: 1;
 }
@@ -45,10 +44,9 @@ a:focus {
   margin-left: 0;
 }
 /*------ template stylization ------*/
-
 body {
   min-width: 767px;
-  color: black;
+  color: #000;
   font-size: 13px;
   line-height: 19px;
   font-family: Tahoma, sans-serif;
@@ -85,7 +83,7 @@ h1 {
   font-weight: 300;
 }
 h2 {
-  color: black;
+  color: #000000;
   font-size: 27px;
   padding: 39px 0 19px;
   letter-spacing: -1px;
@@ -103,7 +101,7 @@ h3 {
 h4 {
   font-size: 16px;
   line-height: 18px;
-  color: black;
+  color: #000000;
   font-weight: bold;
   padding: 30px 0 18px;
 }
@@ -121,7 +119,7 @@ h5 {
 }
 code.prettyprint,
 pre.prettyprint {
-  background: whitesmoke !important;
+  background: #f5f5f5 !important;
   border: 1px solid #cecece !important;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -144,9 +142,9 @@ ol {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   border-radius: 5px;
-  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), inset 0px 0px 1px white;
-  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), inset 0px 0px 1px white;
-  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), inset 0px 0px 1px white;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), inset 0px 0px 1px #ffffff;
+  -moz-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), inset 0px 0px 1px #ffffff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1), inset 0px 0px 1px #ffffff;
   font-size: 13px;
   line-height: 1em;
   color: #3a3a3a;
@@ -200,7 +198,6 @@ p strong {
   color: #010101;
 }
 /*------ header ------- */
-
 header {
   background: #fcfcfc;
   padding: 14px 0 17px;
@@ -213,13 +210,12 @@ header h1 a {
 }
 header .brand {
   text-indent: -1000px;
-  background: url(../img/logo-monster.jpg) no-repeat 0 0;
+  background: url(/help/wp-content/logo.png) no-repeat 0 0;
   width: 375px;
   height: 55px;
   display: block;
 }
 /*------ content ------- */
-
 #content {
   background: url(../img/tail-content.gif);
   border-top: 1px solid #e1e1e1;
@@ -234,10 +230,9 @@ header .brand {
   list-style: none;
 }
 /*------ bs-docs-sidenav ------- */
-
 #nav_container {
-  background: white;
-  border-top: 1px solid #cccccc;
+  background: #ffffff;
+  border-top: 1px solid #ccc;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -250,7 +245,7 @@ header .brand {
   padding: 2px 0 8px 0;
   float: none;
   text-align: center;
-  color: black;
+  color: #000000;
   display: block;
   height: 12px;
   -webkit-border-radius: 6px 6px 0 0;
@@ -279,13 +274,13 @@ header .brand {
 }
 #content .bs-docs-sidenav li a {
   width: 100%;
-  color: black;
+  color: #000000;
 }
 .bs-docs-sidenav {
   width: 100%;
   margin: 0;
   padding: 0;
-  background-color: white;
+  background-color: #ffffff;
 }
 .bs-docs-sidenav > li {
   border-top: 1px solid #dfdfdf;
@@ -294,17 +289,17 @@ header .brand {
 .bs-docs-sidenav li dt a:hover,
 .bs-docs-sidenav li.current > a {
   text-shadow: none;
-  color: black;
+  color: #000000;
 }
 .bs-docs-sidenav li dt {
   overflow: hidden;
   position: relative;
 }
 .bs-docs-sidenav li dt:hover {
-  background: whitesmoke;
+  background: #f5f5f5;
 }
 .bs-docs-sidenav li dt a {
-  color: black;
+  color: #000000;
   display: block;
   width: inherit;
 }
@@ -316,7 +311,7 @@ header .brand {
   margin-right: 12px;
   font-size: 10px;
   font-weight: normal;
-  color: black;
+  color: #000000;
   display: block;
   position: relative;
   z-index: 20;
@@ -331,7 +326,10 @@ header .brand {
   float: left;
 }
 .bs-docs-sidenav li.act_item dt {
-  background: whitesmoke;
+  background: #f5f5f5;
+}
+.bs-docs-sidenav li.act_item dt a:before {
+  /*color: @themeBlue;*/
 }
 .bs-docs-sidenav li.open_item dt i:before {
   content: "\f068";
@@ -361,7 +359,7 @@ header .brand {
   margin: 0;
   position: relative;
   font-size: 13px;
-  color: black;
+  color: #000;
   font-family: Tahoma, sans-serif;
 }
 .bs-docs-sidenav li dt a:before,
@@ -393,7 +391,7 @@ header .brand {
 .bs-docs-sidenav .list li a i:before {
   content: "\f0da";
   font-size: 12px;
-  color: black;
+  color: #000000;
 }
 .bs-docs-sidenav .list li.current a,
 .bs-docs-sidenav .list li:hover a,
@@ -426,7 +424,7 @@ header .brand {
 .select-menu_icon {
   border: 1px solid #dfdfdf;
   display: inline-block;
-  background: white;
+  background: #fff;
   padding: 6px 12px;
   cursor: pointer;
   position: relative;
@@ -444,14 +442,14 @@ header .brand {
   font-weight: normal;
 }
 .select-menu_icon:hover {
-  background: whitesmoke;
+  background: #f5f5f5;
 }
 .select-menu_list {
   display: none;
   position: absolute;
   top: 43px;
   right: 0;
-  background: whitesmoke;
+  background: #f5f5f5;
   border: 1px solid #dfdfdf;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -475,7 +473,7 @@ header .brand {
 }
 .select-menu ul li.active,
 .select-menu ul li:hover {
-  background: white;
+  background: #fff;
 }
 .select-menu ul li.active a,
 .select-menu ul li:hover a {
@@ -559,10 +557,9 @@ h2.item11 i {
   right: 0;
 }
 /*------ box-conten ------- */
-
 .box-content {
-  border-top: 1px solid #cccccc;
-  background-color: white;
+  border-top: 1px solid #ccc;
+  background-color: #ffffff;
   -webkit-border-radius: 6px;
   -moz-border-radius: 6px;
   border-radius: 6px;
@@ -581,7 +578,7 @@ h2.item11 i {
   padding: 10px;
 }
 #mod_table .module:nth-child(even) {
-  background: whitesmoke;
+  background: #f5f5f5;
 }
 .files_structure li i {
   color: #999999;
@@ -592,7 +589,7 @@ h2.item11 i {
 .img-paraloid {
   text-align: center;
   padding: 5px;
-  background: whitesmoke;
+  background: #f5f5f5;
   border: 1px solid #cecece;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
@@ -645,7 +642,7 @@ span.img-paraloid {
 .box-success span {
   font-size: 15px;
   line-height: 20px;
-  color: white;
+  color: #ffffff;
   vertical-align: middle;
   display: table-cell;
   height: 40px;
@@ -665,7 +662,7 @@ span.img-paraloid {
 .box-error a,
 .box-notification a,
 .box-success a {
-  color: white;
+  color: #fff;
   text-decoration: underline;
 }
 .box-info a:hover,
@@ -727,7 +724,7 @@ span.img-paraloid {
 }
 .box-success:before {
   content: "\f00c";
-  color: white;
+  color: #fff;
   font-size: 44px;
   font-family: FontAwesome;
   margin-top: 10px;
@@ -781,7 +778,7 @@ footer {
   text-align: center;
   font-size: 13px;
   line-height: 20px;
-  background: white;
+  background: #ffffff;
   padding: 30px 0 40px;
 }
 .list-2 {
@@ -835,7 +832,6 @@ footer {
   padding-top: 8px;
 }
 /*======================= SCROLL TO TOP =======================*/
-
 #back-top {
   position: fixed;
   bottom: 20px;
@@ -850,20 +846,19 @@ footer {
   -moz-transition: 0.1s;
   transition: 0.1s;
   color: #666666;
-  background: white;
+  background: #fff;
   text-align: center;
   border: 1px solid #dfdfdf;
   height: 51px;
 }
 #back-top a:hover {
-  background: whitesmoke;
+  background: #f5f5f5;
 }
 #back-top a i {
   line-height: 51px;
   font-size: 27px;
 }
 /*======================= MODAL =======================*/
-
 .modal_bg {
   position: fixed;
   width: 100%;
@@ -880,7 +875,7 @@ footer {
   margin-left: -160px;
   left: 50%;
   top: 150px;
-  background: white;
+  background: #fff;
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.4);
   border-radius: 8px;
   padding: 20px;
@@ -893,7 +888,7 @@ footer {
 .modal h3 {
   padding-top: 0px;
   padding-bottom: 20px;
-  color: black;
+  color: #000;
 }
 .modal_remove {
   font-size: 19px;
@@ -905,7 +900,7 @@ footer {
   padding-right: 10px;
 }
 #modal_languages li a:hover {
-  background: whitesmoke;
+  background: #f5f5f5;
 }
 #modal_languages li img {
   float: right;
@@ -913,12 +908,10 @@ footer {
   top: 2px;
 }
 /************/
-
 /*.li.act_item  a.special {
   color: #fb0000 !important ;
   font-weight: bold;
 }*/
-
 .quick-start-guide {
   -webkit-transition: 0.1s;
   -moz-transition: 0.1s;
