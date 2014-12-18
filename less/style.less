@@ -367,9 +367,14 @@ header{
   .list{
     margin:0;
     padding:8px 0 6px 20px ;
+    ul {padding: 8px 0 0px 0px;}
 	  li{
       padding: 0 20px 10px 20px;
        position: relative;
+       > ul {
+          > li {padding: 0 0px 10px 20px;}
+          > li.last {padding: 0 0px 0px 20px;}
+       }     
       a{
         
         i{
@@ -386,23 +391,26 @@ header{
       }      
     }
 	  li.current, li:hover {
-      a, i:before{
+      >a, >i:before{
         color:@themeBlue !important;
         background:none;
         &:hover{
           color:@themeBlue;
-        }    
+        } 
+        
+      } 
+
       }      
-    }	   
+    }
     	a{
         color:@grayDark;
     	  &:hover{
           color:@themeBlue;
           i:before{
-            color:@themeBlue;
+            color:@themeBlue !important;
           }
         }
-    	} 
+        
 	}   
 }
 
@@ -502,6 +510,7 @@ li.item11 a:before,  h2.item11 i  {color: #3fa8e2;}
 
 #content .bs-docs-sidenav li a{text-align: left;}
 #content .bs-docs-sidenav li dt i.icon-sample{position: absolute; top: 6px; right: 0; }
+
 
 /*------ box-conten ------- */
 .box-content{

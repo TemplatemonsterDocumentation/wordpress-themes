@@ -383,9 +383,18 @@ header .brand {
   margin: 0;
   padding: 8px 0 6px 20px ;
 }
+.bs-docs-sidenav .list ul {
+  padding: 8px 0 0px 0px;
+}
 .bs-docs-sidenav .list li {
   padding: 0 20px 10px 20px;
   position: relative;
+}
+.bs-docs-sidenav .list li > ul > li {
+  padding: 0 0px 10px 20px;
+}
+.bs-docs-sidenav .list li > ul > li.last {
+  padding: 0 0px 0px 20px;
 }
 .bs-docs-sidenav .list li a i {
   position: absolute;
@@ -397,27 +406,27 @@ header .brand {
   font-size: 12px;
   color: #000000;
 }
-.bs-docs-sidenav .list li.current a,
-.bs-docs-sidenav .list li:hover a,
-.bs-docs-sidenav .list li.current i:before,
-.bs-docs-sidenav .list li:hover i:before {
+.bs-docs-sidenav .list li.current > a,
+.bs-docs-sidenav .list li:hover > a,
+.bs-docs-sidenav .list li.current > i:before,
+.bs-docs-sidenav .list li:hover > i:before {
   color: #0179c6 !important;
   background: none;
 }
-.bs-docs-sidenav .list li.current a:hover,
-.bs-docs-sidenav .list li:hover a:hover,
-.bs-docs-sidenav .list li.current i:before:hover,
-.bs-docs-sidenav .list li:hover i:before:hover {
+.bs-docs-sidenav .list li.current > a:hover,
+.bs-docs-sidenav .list li:hover > a:hover,
+.bs-docs-sidenav .list li.current > i:before:hover,
+.bs-docs-sidenav .list li:hover > i:before:hover {
   color: #0179c6;
 }
-.bs-docs-sidenav .list a {
+.bs-docs-sidenav a {
   color: #3a3a3a;
 }
-.bs-docs-sidenav .list a:hover {
+.bs-docs-sidenav a:hover {
   color: #0179c6;
 }
-.bs-docs-sidenav .list a:hover i:before {
-  color: #0179c6;
+.bs-docs-sidenav a:hover i:before {
+  color: #0179c6 !important;
 }
 .select-menu_label {
   display: inline-block;
