@@ -115,6 +115,7 @@
                             <li><a href="#theme_plugins">Plugins del tema</a></li>
 			    
                             <li><a href="#google_services">Carga de datos desde los servidores de Google</a></li>
+                            <li><a href="#olark_live_chat">Olark live chat</a></li>
                            </ul> 
                        </dd>
                      </dl> 
@@ -618,6 +619,23 @@
 <pre>wp_enqueue_style( "options_typography_$f", "//fonts.useso.com/css?family=$f$ch", false, null, 'all' );</pre>
 
            
+
+    </article>
+
+    <article id="olark_live_chat">
+      <h4>Olark Live Chat</h4>
+      <div class="box-notification">
+        <span>Customers who purchased the template are provided with 6 months Olark chat usage for free. To register 6 months Free bronze package you should follow <a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="_blank">Olark registration link</a></span>
+      </div>
+      <div class="row"> 
+          <figure class="img-paraloid pull-left" style="width:300px;"><a href="img/wordpress/olark.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/olark.jpg" alt=""><i class="icon-search"></i></a></figure>
+          <div class="clearfix">Fill in the form to register your account</div>
+      </div>    
+      <div class="row"> 
+          <figure class="img-paraloid pull-left" style="width:300px;"><a href="img/wordpress/olark-2.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/olark-2.jpg" alt=""><i class="icon-search"></i></a></figure>
+          <div class="clearfix">Insert the generated ID into Live Chat account ID field in Cherry Options (General)</div>
+      </div>  
+        
 
     </article>
     
@@ -1188,12 +1206,7 @@
 	<div class="span6"><p><span class="label">Descripci&oacute;n:</span> se utiliza para mostrar una letra may&uacute;scula.</p></div>
       </div>
       <br>
-      <h5>Blockquote</h5>
-      <div class="row-fluid">
-        <div class="span6"><pre class="prettyprint">[blockquote] Texto... [/blockquote]</pre></div>
-        <div class="span6"><p><span class="label">Descripci&oacute;n:</span> se utiliza para mostrar una cita.</p></div>
-      </div>
-      <br>
+      
       <h5>Icon</h5>
       <figure class="img-paraloid"><img src="img/wordpress/shortcode_icon.jpg" alt=""></figure>
       <div class="row-fluid">
@@ -1201,12 +1214,7 @@
 	<div class="span6"><p><span class="label">Descripci&oacute;n:</span> se utiliza para mostrar un icono.</p></div>
       </div>
       <br>
-      <h5>Frame</h5>
-      <div class="row-fluid">
-        <div class="span6"><pre class="prettyprint">[frame] Soy un frame [/frame]</pre></div>
-        <div class="span6"><p><span class="label">Descripci&oacute;n:</span> se utiliza para mostrar un contenedor, que puede tener varios contenidos.</p></div>
-      </div>
-      <br>
+      
       <h5>Regla horizontal</h5>
       <div class="row-fluid">
         <div class="span6"><pre class="prettyprint">[hr] </pre></div>
@@ -1283,12 +1291,7 @@
         <div class="span6"><p><span class="label">Descripci&oacute;n:</span> un conjunto de c&oacute;digos cortos usado para mostrar los mensajes de servicio.</p></div>
       </div>
       <br>
-      <h5>Close icon</h5>
-      <div class="row-fluid">
-        <div class="span6"><pre class="prettyprint">[close dismiss="alert"]</pre></div>
-        <div class="span6"><p><span class="label">Descripci&oacute;n:</span> usado para mostrar el icono de cerrar que cierra el elemento padre.</p></div>
-      </div>
-      <br>
+      
       <h5>Well</h5>
       <div class="row-fluid">
         <div class="span6"><pre class="prettyprint">[well size="well-normal"] Su texto aqu&iacute;... [/well]</pre></div>
@@ -1326,11 +1329,33 @@
         <div class="span6"><p><span class="label">Descripci&oacute;n:</span> se utiliza para mostrar una tabla.</p></div>
       </div>
       <br>
+      <h5>Template URL</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[template_url]</pre></div>
+        <div class="span6"><p><span class="label">Description:</span> used to display link of your site.</p></div>
+      </div>
+      <br>
+      <h5>Sitemap</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_sitemap.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[site_map title="Sitemap" type="Lines" custom_class="custom_class"]</pre></div>
+        <div class="span6"><p><span class="label">Description:</span> used to display sine map of your site.</p></div>
+      </div>
+      <br>
       <h5>Google Map</h5>
       <figure class="img-paraloid"><img src="img/wordpress/shortcode_map.jpg" alt=""></figure>
       <div class="row-fluid">
         <div class="span6"><pre class="prettyprint">[map src="#" width="300" height="200"]  </pre></div>
 	<div class="span6"><p><span class="label">Descripci&oacute;n:</span> se utiliza para mostrar los mapas de Google. Para hacer que el c&oacute;digo corto funcione es necesario insertar el v&iacute;nculo de ubicaci&oacute;n deseada desde <a href="https://maps.google.com/">Google</a>.</div>
+      </div>
+       <br>
+       <h5>Google Map Api</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_map_api.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[google_map_api lat_value="45" lng_value="-80" zoom_value="8" zoom_wheel="no" custom_class="custom-class "]</pre></div>
+        <div class="span6">
+          <p><span class="label">Description:</span> allows you to add and customize Google Maps API. Detailed description of the settings for Google Maps <a href="https://developers.google.com/maps/documentation/javascript/reference?csw=1"> Google Maps JavaScript API</a>.
+        </div>
       </div>
        <br>
        <h5>Tabla de precios</h5>
@@ -1440,12 +1465,19 @@
       <h4>Widgets</h4>
       <p>Los siguientes widgets tambi&eacute;n se utilizan en el tema:</p>
       <div class="row"> 
-        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_recent_comments.jpg" alt=""></figure>
+        <figure class="img-paraloid pull-left" style="width:30%;"><a href="img/wordpress/widget_recent_comments.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/widget_recent_comments.jpg" alt=""><i class="icon-search"></i></a></figure>
         <h5>Cherry - Comentarios Recientes</h5>
         <p>Muestra los &uacute;ltimos comentarios en un formato m&aacute;s adecuado. El widget incluye las siguientes opciones:</p>
         <ul>
-          <li><i class="icon-angle-right"></i> <strong>T&iacute;tulo:</strong> - T&iacute;tulo del Widget </li>
-          <li><i class="icon-angle-right"></i> <strong>N&uacute;mero de comentarios a mostrar:</strong> - N&uacute;mero de comentarios a mostrar.</li>
+          <li><i class="icon-angle-right"></i> <strong>Title:</strong> - widget Title </li>
+          <li><i class="icon-angle-right"></i> <strong>Number of comments to show:</strong> - number of comments to show</li>
+          <li><i class="icon-angle-right"></i> <strong>Display avatar:</strong> - display avatar</li>
+          <li><i class="icon-angle-right"></i> <strong>Avatar size (px):</strong> - You can choose avatar size</li>
+          <li><i class="icon-angle-right"></i> <strong>Display the comment author:</strong> - display the comment author</li>
+          <li><i class="icon-angle-right"></i> <strong>Display the comment date:</strong> - display the comment date</li>
+          <li><i class="icon-angle-right"></i> <strong>Display post title:</strong> - display post title</li>
+          <li><i class="icon-angle-right"></i> <strong>Meta format:</strong> - the output format of meta data</li>
+          <li><i class="icon-angle-right"></i> <strong>Custom CSS class:</strong> - widget custom class</li>
         </ul>
       </div>
       <br />
@@ -1554,13 +1586,17 @@
           <h5>Cherry - vCard</h5>
           <p>Este widget te permite mostrar informaci&oacute;n sobre su empresa o sobre usted. Contiene las siguientes opciones:</p>
           <ul>
-            <li><i class="icon-angle-right"></i> <strong>T&iacute;tulo (opcional):</strong> - T&iacute;tulo del Widget</li>
-            <li><i class="icon-angle-right"></i> <strong>Direcci&oacute;n:</strong> - introduzca su direcci&oacute;n aqu&iacute;</li>
-	    <li><i class="icon-angle-right"></i> <strong>Ciudad/Municipio:</strong> - introduzca su ciudad/municipio aqu&iacute;</li>
-	    <li><i class="icon-angle-right"></i> <strong>Estado/Regi&oacute;n:</strong> - introduzca su estado/regi&oacute;n aqu&iacute;</li>
-	    <li><i class="icon-angle-right"></i> <strong>C&oacute;digo Postal:</strong> - introduzca su c&oacute;digo postal aqu&iacute;</li>
-            <li><i class="icon-angle-right"></i> <strong>Tel&eacute;fono:</strong> - n&uacute;mero de tel&eacute;fono</li>
-            <li><i class="icon-angle-right"></i> <strong>Email:</strong> - su email.</li>
+            <li><i class="icon-angle-right"></i> <strong>Title (optional):</strong> - Widget Title</li>
+            <li><i class="icon-angle-right"></i> <strong>Google Map:</strong> - display map</li>
+            <li><i class="icon-angle-right"></i> <strong>HTML map code:</strong> - field to enter HTML code Google maps</li>
+            <li><i class="icon-angle-right"></i> <strong>Street Address:</strong> - put your street address here</li>
+            <li><i class="icon-angle-right"></i> <strong>City/Locality:</strong> - enter your city or location here</li>
+            <li><i class="icon-angle-right"></i> <strong>State/Region:</strong> - enter your state or region here</li>
+            <li><i class="icon-angle-right"></i> <strong>Zipcode/Postal Code:</strong> - enter your zipcode or postal code here</li>
+            <li><i class="icon-angle-right"></i> <strong>Telephone:</strong> - telephone number</li>
+            <li><i class="icon-angle-right"></i> <strong>Email:</strong> - your email.</li>
+            <li><i class="icon-angle-right"></i> <strong>Meta format:</strong> - the output format of meta data</li>
+            <li><i class="icon-angle-right"></i> <strong>Custom CSS class:</strong> -  widget custom class</li>
           </ul>
         </div>
       </div>
@@ -1647,6 +1683,34 @@
           </ul>
         </div>
       </div>
+      <br />
+      <div class="row"> 
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_cherry_twitter.jpg" alt=""></figure>
+        <div class="clearfix">
+          <h5>Cherry - Twitter Embed</h5>
+          <p>Widget is used to display recent tweets. It contains the following options:</p>
+          <ul>
+            <li><i class="icon-angle-right"></i> <strong>Widget Title: </strong> - widget title</li>
+            <li><i class="icon-angle-right"></i> <strong>Widget ID: </strong> - insert ID of your widget. First of all you need make a new one widget <a href="https://twitter.com/settings/widgets/new" target="_blank">here</a>. After paste here ID of widget.</li>
+            <li><i class="icon-angle-right"></i> <strong>User Name:  </strong> - your Twitter username. </li>
+            <li><i class="icon-angle-right"></i> <strong>Color Scheme:</strong> - Color Scheme(Light/Dark)</li>
+            <li><i class="icon-angle-right"></i> <strong>Custom CSS class: </strong> - widget custom class</li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <div class="row"> 
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_cherry_pinterest.jpg" alt=""></figure>
+        <div class="clearfix">
+          <h5>Cherry - Pinterest Embed</h5>
+          <p>Widget is used to display thematic collections. It contains the following options:</p>
+          <ul>
+            <li><i class="icon-angle-right"></i> <strong>Widget Title: </strong> - widget title</li>
+            <li><i class="icon-angle-right"></i> <strong>Pinterest User URL: </strong> - insert URL of account from <a href="https://www.pinterest.com/" target="_blank">Pinterest</a> that you want to display</li>
+            <li><i class="icon-angle-right"></i> <strong>Custom CSS class: </strong> - widget custom class</li>
+          </ul>
+        </div>
+      </div>
     </article>
   </section>  
 <!-- Plugins and Custom Widgets end -->
@@ -1693,6 +1757,7 @@
         <li><i class="icon-angle-right"></i> <strong>&iquest;Mostrar cuadro de busqueda?</strong> - mostrar/ocultar la barra de busqueda en la cabecera.</li>
         <li><i class="icon-angle-right"></i> <strong>Mostrar indicaciones?</strong> - mostrar/ocultar indicaciones en las p&aacute;ginas.</li>
         <li><i class="icon-angle-right"></i> <strong>CSS persoanlizado</strong> - si es necesario agregar algunas reglas CSS, pero usted no quiere meterse con el archivo principal CSS, puede utilizar este campo. Basta con insertar sus nuevas reglas CSS.</li>
+        <li><i class="icon-angle-right"></i> <strong>Live Chat account ID</strong> - Su ID de cuenta de <a href="#olark_live_chat">Olark live chat</a> </li>
       </ul>
       </div>
       </div>
