@@ -114,6 +114,7 @@
                             <li><a href="#theme_plugins">Плагины темы</a></li>
                             
                             <li><a href="#google_services">Загрузка данных с серверов Google</a></li>
+                            <li><a href="#olark_live_chat">Olark live chat</a></li>
                            </ul> 
                        </dd>
                      </dl> 
@@ -611,6 +612,24 @@
 <pre>wp_enqueue_style( "options_typography_$f", "//fonts.useso.com/css?family=$f$ch", false, null, 'all' );</pre>
 
            
+
+    </article>
+
+    <article id="olark_live_chat">
+      <h4>Olark Live Chat</h4>
+      <div class="box-notification">
+        <span>Клиентам, купившим шаблон, предоставляется полгода бесплатного пользования Olark чатом. Для регистрации 6 month Free bronze package нужно перейти по ссылке
+<a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="_blank">Olark регистрация</a></span>
+      </div>
+      <div class="row"> 
+          <figure class="img-paraloid pull-left" style="width:300px;"><a href="img/wordpress/olark.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/olark.jpg" alt=""><i class="icon-search"></i></a></figure>
+          <div class="clearfix">Зарегистрируйте свой аккаунт заполнив соответствующую форму</div>
+      </div>    
+      <div class="row"> 
+          <figure class="img-paraloid pull-left" style="width:300px;"><a href="img/wordpress/olark-2.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/olark-2.jpg" alt=""><i class="icon-search"></i></a></figure>
+          <div class="clearfix">Вставьте Ваш сгенерированный ID код в поле Live Chat account ID в Cherry Options (General)</div>
+      </div>  
+        
 
     </article>
   </section>
@@ -1193,12 +1212,7 @@
         <div class="span6"><p><span class="label">Описание:</span> отображает инициальную заглавную букву (буквицу).</p></div>
       </div>
       <br>
-      <h5>Blockquote <strong>(Цитата)</strong></h5>
-      <div class="row-fluid">
-        <div class="span6"><pre class="prettyprint">[blockquote] Text... [/blockquote]</pre></div>
-        <div class="span6"><p><span class="label">Описание:</span> применяется для вставки цитируемого текста.</p></div>
-      </div>
-      <br>
+      
       <h5>Icon (Иконка)</h5>
       <figure class="img-paraloid"><img src="img/wordpress/shortcode_icon.jpg" alt=""></figure>
       <div class="row-fluid">
@@ -1208,14 +1222,7 @@
         </div>
       </div>
       <br>
-      <h5>Frame (Рамка)</h5>
-      <div class="row-fluid">
-        <div class="span6"><pre class="prettyprint">[frame] I'm frame [/frame]</pre></div>
-        <div class="span6">
-          <p><span class="label">Описание:</span> отображает контейнер, содержащий определенный контент.</p>
-        </div>
-      </div>
-      <br>
+      
       <h5>Horizontal rule (Горизонтальная линия)</h5>
       <div class="row-fluid">
         <div class="span6"><pre class="prettyprint">[hr] </pre></div>
@@ -1312,14 +1319,7 @@
         </div>
       </div>
       <br>
-      <h5>Close icon (Иконка закрытия)</h5>
-      <div class="row-fluid">
-        <div class="span6"><pre class="prettyprint">[close dismiss="alert"]</pre></div>
-        <div class="span6">
-          <p><span class="label">Описание:</span> добавляет иконку, что позволяет закрыть исходный элемент.</p>
-        </div>
-      </div>
-      <br>
+      
       <h5>Well (Ячейка)</h5>
       <div class="row-fluid">
         <div class="span6"><pre class="prettyprint">[well size="well-normal"] Your text here... [/well]</pre></div>
@@ -1365,12 +1365,34 @@
         <div class="span6"><p><span class="label">Описание:</span> используется для вставки таблиц.</p></div>
       </div>
       <br>
+      <h5>Template URL</h5>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[template_url]</pre></div>
+        <div class="span6"><p><span class="label">Описание:</span> выводит ссылку вашего сайта.</p></div>
+      </div>
+      <br>
+      <h5>Sitemap</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_sitemap.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[site_map title="Sitemap" type="Lines" custom_class="custom_class"]</pre></div>
+        <div class="span6"><p><span class="label">Описание:</span> шорткод выводит карту сайта.</p></div>
+      </div>
+      <br>
       <h5>Google Map</h5>
       <figure class="img-paraloid"><img src="img/wordpress/shortcode_map.jpg" alt=""></figure>
       <div class="row-fluid">
         <div class="span6"><pre class="prettyprint">[map src="#" width="300" height="200"]  </pre></div>
         <div class="span6">
-          <p><span class="label">Описание:</span> добавляет карты Google maps. Чтобы шорткод заработал, нужно вставить ссылку с необходимыми координатами с сайта <a href="https://maps.google.com/">Google</a>.
+          <p><span class="label">Описание:</span> добавляет Google Maps. Чтобы шорткод заработал, нужно вставить ссылку с необходимыми координатами с сайта <a href="https://maps.google.com/">Google</a>.
+        </div>
+      </div>
+       <br>
+      <h5>Google Map Api</h5>
+      <figure class="img-paraloid"><img src="img/wordpress/shortcode_map_api.jpg" alt=""></figure>
+      <div class="row-fluid">
+        <div class="span6"><pre class="prettyprint">[google_map_api lat_value="45" lng_value="-80" zoom_value="8" zoom_wheel="no" custom_class="custom-class "]</pre></div>
+        <div class="span6">
+          <p><span class="label">Описание:</span> позволяет добавлять и кастомизировать Google Maps API. Подробное описание для настройки Google Maps <a href="https://developers.google.com/maps/documentation/javascript/reference?csw=1"> Google Maps JavaScript API</a>.
         </div>
       </div>
        <br>
@@ -1481,12 +1503,19 @@
       <h4>Виджет</h4>
       <p>В теме также используются следующие виджеты:</p>
       <div class="row"> 
-        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_recent_comments.jpg" alt=""></figure>
+        <figure class="img-paraloid pull-left" style="width:30%;"><a href="img/wordpress/widget_recent_comments.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/widget_recent_comments.jpg" alt=""><i class="icon-search"></i></a></figure>
         <h5>Cherry - Последние комментарии</h5>
         <p>Отображает последние комментарии в более удобном формате. Данный виджет содержит следующие опции:</p>
         <ul>
           <li><i class="icon-angle-right"></i> <strong>Title:</strong> - Заголовок виджета</li>
           <li><i class="icon-angle-right"></i> <strong>Number of comments to show:</strong> - Количество отображаемых комментариев.</li>
+          <li><i class="icon-angle-right"></i> <strong>Display avatar:</strong> - наличие аватара</li>
+          <li><i class="icon-angle-right"></i> <strong>Avatar size (px):</strong> - размеры аватара</li>
+          <li><i class="icon-angle-right"></i> <strong>Display the comment author:</strong> - отображение комментария автора</li>
+          <li><i class="icon-angle-right"></i> <strong>Display the comment date:</strong> - отображение даты комментария</li>
+          <li><i class="icon-angle-right"></i> <strong>Display post title:</strong> - отображение названия поста</li>
+          <li><i class="icon-angle-right"></i> <strong>Meta format:</strong> - формат вывода мета данных</li>
+          <li><i class="icon-angle-right"></i> <strong>Custom CSS class:</strong> - пользовательский класс виджета</li>
         </ul>
       </div>
       <br />
@@ -1590,18 +1619,22 @@
       </div>
       <br />
       <div class="row"> 
-        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_vcard.jpg" alt=""></figure>
+        <figure class="img-paraloid pull-left" style="width:30%;"><a href="img/wordpress/widget_vcard.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/widget_vcard.jpg" alt=""><i class="icon-search"></i></a></figure>
         <div class="clearfix">
           <h5>Cherry - vCard</h5>
           <p>Данный виджет отображает информацию о вашей компании или о вас. Он содержит следующие опции:</p>
           <ul>
             <li><i class="icon-angle-right"></i> <strong>Title (optional):</strong> - Заголовок виджета</li>
+            <li><i class="icon-angle-right"></i> <strong>Google Map:</strong> - отображение Google карты</li>
+            <li><i class="icon-angle-right"></i> <strong>HTML map code:</strong> - поле для ввода HTML кода Google карты</li>
             <li><i class="icon-angle-right"></i> <strong>Street Address:</strong> - адрес улицы</li>
             <li><i class="icon-angle-right"></i> <strong>City/Locality:</strong> - расположение города или местности</li>
             <li><i class="icon-angle-right"></i> <strong>State/Region:</strong> - штат или регион</li>
             <li><i class="icon-angle-right"></i> <strong>Zipcode/Postal Code:</strong> - почтовый индекс или код</li>
             <li><i class="icon-angle-right"></i> <strong>Telephone:</strong> - номер  телефона</li>
-            <li><i class="icon-angle-right"></i> <strong>Email:</strong> - ваш email.</li>
+            <li><i class="icon-angle-right"></i> <strong>Email:</strong> - ваш email</li>
+            <li><i class="icon-angle-right"></i> <strong>Meta format:</strong> - формат вывода мета данных</li>
+            <li><i class="icon-angle-right"></i> <strong>Custom CSS class:</strong> - пользовательский класс виджета</li>
           </ul>
         </div>
       </div>
@@ -1672,6 +1705,34 @@
           </ul>
         </div>
       </div>
+      <br />
+      <div class="row"> 
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_cherry_twitter.jpg" alt=""></figure>
+        <div class="clearfix">
+          <h5>Cherry - Twitter Embed</h5>
+          <p>Этот виджет позволяет отображать недавние записи (твиты). Он содержит следующие опции:</p>
+          <ul>
+            <li><i class="icon-angle-right"></i> <strong>Widget Title: </strong> - заголовок виджета</li>
+            <li><i class="icon-angle-right"></i> <strong>Widget ID: </strong> - вставьте ID вашего виджета. Прежде всего вам нужно создать новый виджет <a href="https://twitter.com/settings/widgets/new" target="_blank">здесь</a. Далее вставить в поле ID виджета. </li>
+            <li><i class="icon-angle-right"></i> <strong>User Name:  </strong> - имя пользователя Twitter.</li>
+            <li><i class="icon-angle-right"></i> <strong>Color Scheme:</strong> -  цветовая схема (светлая/темная)</li>
+            <li><i class="icon-angle-right"></i> <strong>Custom CSS class: </strong> - пользовательский класс виджета</li>
+          </ul>
+        </div>
+      </div>
+      <br />
+      <div class="row"> 
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/widget_cherry_pinterest.jpg" alt=""></figure>
+        <div class="clearfix">
+          <h5>Cherry - Pinterest Embed</h5>
+          <p>Этот виджет позволяет отображать тематические коллекции. Он содержит следующие опции:</p>
+          <ul>
+            <li><i class="icon-angle-right"></i> <strong>Widget Title: </strong> - заголовок виджета</li>
+            <li><i class="icon-angle-right"></i> <strong>Pinterest User URL: </strong> - вставьте URL аккаунта из <a href="https://www.pinterest.com/" target="_blank">Pinterest</a>который вы бы хотели отобразить</li>
+            <li><i class="icon-angle-right"></i> <strong>Custom CSS class: </strong> - пользовательский класс виджета</li>
+          </ul>
+        </div>
+      </div>
     </article>
   </section>  
 <!-- Plugins and Custom Widgets end -->
@@ -1718,6 +1779,7 @@
         <li><i class="icon-angle-right"></i> <strong>Display search box? (Отображать поле для поиска?)</strong> - отображать/скрыть поле поиска в хедере.</li>
         <li><i class="icon-angle-right"></i> <strong>Display breadcrumbs? (Отображать навигационную цепочку?) </strong> - отображать/скрыть навигационную цепочку на страницах.</li>
         <li><i class="icon-angle-right"></i> <strong>Custom CSS (Кастомный CSS)</strong> - если необходимо добавить правило CSS,  но вы не хотите нарушить код главного CSS файла, можно использовать данное поле. Просто вставьте новое правило css.</li>
+        <li><i class="icon-angle-right"></i> <strong>Live Chat account ID</strong> - Ваш <a href="#olark_live_chat">Olark live chat</a> аккаунт ID</li>
       </ul>
       </div>
       </div>
