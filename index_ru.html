@@ -187,9 +187,7 @@
                           <li><a href="#portfolio_option">Портфолио</a></li>  
                           <li><a href="#footer_option">Футер</a></li>  
                           <li><a href="#cookie_policy">Политика кукис</a></li>
-                          <li><a href="#footer_logo_option">Лого Футера</a></li>                  
-                          <li><a href="#contacts_option">Контакты</a></li>                  
-                          <li><a href="#social_option">Социальные сети</a></li>                     
+                          <li><a href="#additional_options">Дополнительные опции</a></li>                                      
                          </ul> 
                       </dd>
                      </dl> 
@@ -619,7 +617,7 @@
       <h4>Olark Live Chat</h4>
       <div class="box-notification">
         <span>Клиентам, купившим шаблон, предоставляется полгода бесплатного пользования Olark чатом. Для регистрации 6 month Free bronze package нужно перейти по ссылке
-<a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&utm_medium=offer&utm_campaign=default" target="_blank">Olark регистрация</a></span>
+<a href="http://olark.com/signup/create_new_account/18981?utm_source=templatemonster&amp;utm_medium=offer&amp;utm_campaign=default" target="_blank">Olark регистрация</a></span>
       </div>
       <div class="row"> 
           <figure class="img-paraloid pull-left" style="width:300px;"><a href="img/wordpress/olark.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/olark.jpg" alt=""><i class="icon-search"></i></a></figure>
@@ -1368,7 +1366,7 @@
       <h5>Template URL</h5>
       <div class="row-fluid">
         <div class="span6"><pre class="prettyprint">[template_url]</pre></div>
-        <div class="span6"><p><span class="label">Описание:</span> выводит ссылку вашего сайта.</p></div>
+        <div class="span6"><p><span class="label">Описание:</span> выводит ссылку (адрес) вашего сайта.</p></div>
       </div>
       <br>
       <h5>Sitemap</h5>
@@ -1491,12 +1489,179 @@
     <article id="plugins">
       <h4>Плагины</h4>
       <p class="alert">Внимание: некоторые из перечисленных плагинов могут отсутствовать в вашей теме.</p>
-      <h5>Contact Form 7</h5>
-      <p>Скачать: <a href="http://wordpress.org/extend/plugins/contact-form-7/">http://wordpress.org/extend/plugins/contact-form-7/</a><br />
-        Описание: Контактная форма для страницы контактов.</p>
-      <h5>Newsletter Sign-Up</h5>
+      <h4>Contact Form 7</h4>
+      <p>Скачать: <a href="http://wordpress.org/extend/plugins/contact-form-7/">http://wordpress.org/extend/plugins/contact-form-7/</a>
+
+      <h4>Newsletter Sign-Up</h4>
       <p>Скачать: <a href="http://wordpress.org/plugins/newsletter-sign-up/">http://wordpress.org/plugins/newsletter-sign-up/</a><br />
         Описание: Предоставляет различные способы подписки посетителей сайта на почтовую рассылку  (флажок, виджет, форма).</p>
+
+      
+      <h4>Cherry MediaParallax Plugin</h4>
+
+      <p><strong>Описание:</strong> Данный плагин позволяет размещать в фоне картинку или видео и применять к ним parallax-эффект (смещение относительно остального контента при скроллинге страницы).</p>
+
+
+      <p><strong>Добавление медиафайлов:</strong> Добавьте в медиагалерею материалы в следующих форматах: <strong>mp4, webm, ogv</strong> и <strong>jpg</strong> файл для отображения постера.</p>
+
+      <p>Для использования <strong>видео</strong> в качестве фона используется следующий шорткод:</p>
+      <div class="row-fluid">
+        <div class="span5"><pre class="prettyprint">[cherry_media_parallax typemedia="video" buffer_ratio="1.5" src_mp4="video.mp4" src_webm="video.webm" src_ogv="video.ogv" src_poster="video.jpg" custom_class="custom-class"]Text[/cherry_media_parallax]</pre></div>
+        <div class="span7">
+          <ul>
+          <li><i class="icon-angle-right"></i> <strong>typemedia:</strong> - тип файла (указан по умолчанию)</li>
+          <li><i class="icon-angle-right"></i> <strong>buffer_ratio:</strong> - коэффициент увеличения видео-контейнера по отношению к внешнему контейнеру</li>
+          <li><i class="icon-angle-right"></i> <strong>src_mp4:</strong> - имя файла в формате “.mp4”</li>
+          <li><i class="icon-angle-right"></i> <strong>src_webm:</strong> - имя файла в формате “.webm”</li>
+          <li><i class="icon-angle-right"></i> <strong>src_ogv:</strong> - имя файла в формате “.ogv”</li>
+          <li><i class="icon-angle-right"></i> <strong>src_poster:</strong> - имя файла в формате “.jpg”</li>
+          <li><i class="icon-angle-right"></i> <strong>custom_class:</strong> - пользовательский класс шорткода</li>
+        </ul>
+        </div>
+      </div>
+
+      <p>Для использования <strong>картинки</strong> в качестве фона используется следующий шорткод:</p>
+      <div class="row-fluid">
+        <div class="span5"><pre class="prettyprint">[cherry_fixed_parallax src_poster="image.jpg" offset_value="yes" fixed_value="no" invert_value="yes" custom_class="custom_class"]Text[/cherry_fixed_parallax]</pre></div>
+        <div class="span7">
+          <ul>
+          <li><i class="icon-angle-right"></i> <strong>src_poster:</strong> - имя файла в формате “.jpg”</li>
+          <li><i class="icon-angle-right"></i> <strong>offset_value:</strong> - смещение картинки при скроллинге (принимает значение: yes / no)</li>
+          <li><i class="icon-angle-right"></i> <strong>fixed_value:</strong> - фиксирует картинку относительно окна браузера (принимает значение: yes / no)</li>
+          <li><i class="icon-angle-right"></i> <strong>invert_value:</strong> - инвертирует смещение по вертикали (значение: yes / no)</li>
+          <li><i class="icon-angle-right"></i> <strong>custom_class:</strong> - пользовательский класс шорткода</li>
+        </ul>
+        </div>
+      </div>
+      <br>
+
+      <h4>Сherry BgSlider Plugin</h4>
+
+      <p><strong>Описание:</strong> Данный плагин позволяет создать слайдер с parallax-эффектом и поместить его в качестве основного фона страницы. Редактировать слайды и их контент следует в Dashboard -&gt; Slides.</p>
+      <p><strong>Важно:</strong> Опции, заданные в Dashboard -&gt; Cherry Options -&gt; Slider Settings не распространяются на данный слайдер.</p>
+
+
+      <p>Для отображения текстовых блоков и пагинации слайдера используется следующий шорткод:</p>
+      <div class="row-fluid">
+        <div class="span5"><pre class="prettyprint">[cherry_bgslider pagination="true" navigation="true" custom_class="custom-class"] </pre></div>
+        <div class="span7">
+          <ul>
+          <li><i class="icon-angle-right"></i> <strong>pagination:</strong> - задает отображение пагинации (принимает значение: true / false)</li>
+          <li><i class="icon-angle-right"></i> <strong>navigation:</strong> - задает отображение кнопок навигации (принимает значение: true / false)</li>
+          <li><i class="icon-angle-right"></i> <strong>custom_class:</strong> - пользовательский класс шорткода</li>
+        </ul>
+        </div>
+      </div>
+
+      <br>
+
+      <h4>Cherry Parallax Plugin</h4>
+
+      <p><strong>Описание:</strong> Данный плагин позволяет размещать в фоне картинку и применять к ней parallax-эффект (смещение относительно остального контента при скроллинге страницы).</p>
+
+
+      <p>Для использования данного плагина используется следующий шорткод:</p>
+      <div class="row-fluid">
+        <div class="span5"><pre class="prettyprint">[cherry_parallax image="wp-content/uploads/../../image.jpg" width="1920" speed="2" custom_class="custom-class"]Text[/cherry_parallax]</pre></div>
+        <div class="span7">
+          <ul>
+          <li><i class="icon-angle-right"></i> <strong>image:</strong> - URL фоновой картинки (обязательный атрибут)</li>
+          <li><i class="icon-angle-right"></i> <strong>width:</strong> - целое число, ширина фоновой картинки (по умолчанию 1920)</li>
+          <li><i class="icon-angle-right"></i> <strong>speed:</strong> - число (кроме 0), скорость прокрутки картинки относительно скорости страницы, чем меньше число, тем быстрее скроллится картинка</li>
+          <li><i class="icon-angle-right"></i> <strong>custom_class:</strong> - пользовательский класс шорткода</li>
+        </ul>
+        </div>
+      </div>
+      
+      <br>
+
+      <h4>Cherry Lazy Load Boxes Plugin</h4>
+
+      <p><strong>Описание:</strong> Данный плагин позволяет плавно отображать появление элементов контента при скроллинге страницы.</p>
+
+
+      <p>Для использования данного плагина используется следующий шорткод:</p>
+      <div class="row-fluid">
+        <div class="span5"><pre class="prettyprint">[lazy_load_box effect="slidefromright" speed="800" delay="200" custom_class="custom-class"]Text[/lazy_load_box]</pre></div>
+        <div class="span7">
+          <ul>
+          <li><i class="icon-angle-right"></i> <strong>effect:</strong> - эффект появления, принимает значения:fade, slideup, slidefromleft, slidefromright, zoomin, zoomout, rotate, skew</li>
+          <li><i class="icon-angle-right"></i> <strong>speed:</strong> - скорость анимации (в миллисекундах)</li>
+          <li><i class="icon-angle-right"></i> <strong>delay:</strong> - задержка перед появлением элемента (можно использовать, если у вас 2-3 элемента в ряд и вы хотите анимировать их не одновременно, а один за другим)</li>
+          <li><i class="icon-angle-right"></i> <strong>custom_class:</strong> - пользовательский класс шорткода</li>
+        </ul>
+        </div>
+      </div>
+
+      <br>
+
+      <h4>Cherry Parallax Plugin v1.0</h4>
+
+      <p><strong>Описание:</strong> Данный плагин позволяет размещать в фоне картинку или видео и применяет к ним parallax-эффект (смещение относительно остального контента при скроллинге страницы).</p>
+      <p><strong>Добавление медиафайлов:</strong> Добавьте в медиагалерею материалы в следующих форматах: <strong>mp4, webm, ogv</strong> и <strong>jpg</strong> файл для отображения постера.</p>
+
+
+      <p>Для использования <strong>картинки</strong> в качестве фона используется следующий шорткод:</p>
+      <div class="row-fluid">
+        <div class="span5"><pre class="prettyprint">[cherry_parallax image="img.jpg" speed="normal" invert="false" custom_class="custom-class"]Text[/cherry_parallax]</pre></div>
+        <div class="span7">
+          <ul>
+          <li><i class="icon-angle-right"></i> <strong>image:</strong> - имя файла в формате “.jpg”</li>
+          <li><i class="icon-angle-right"></i> <strong>speed:</strong> - скорость анимации (принимает значения none, low, normal, hight, fixed)</li>
+          <li><i class="icon-angle-right"></i> <strong>invert:</strong> - инвертирует направление смещения фона</li>
+          <li><i class="icon-angle-right"></i> <strong>custom_class:</strong> - пользовательский класс шорткода</li>
+        </ul>
+        </div>
+      </div>
+
+      <p>Для использования <strong>видео</strong> в качестве фона используется следующий шорткод:</p>
+      <div class="row-fluid">
+        <div class="span5"><pre class="prettyprint">[cherry_video_parallax webm="video.webm" ogv="video.ogv" mp4="video.mp4" speed="none" invert="false" poster="video_poster.jpg" custom_class="custom-class"]Text[/cherry_video_parallax]</pre></div>
+        <div class="span7">
+          <ul>
+            <li><i class="icon-angle-right"></i> <strong>webm:</strong> - имя файла в формате “.webm”</li>
+            <li><i class="icon-angle-right"></i> <strong>ogv:</strong> - имя файла в формате “.ogv”</li>
+            <li><i class="icon-angle-right"></i> <strong>mp4:</strong> - имя файла в формате “.mp4”</li>
+          <li><i class="icon-angle-right"></i> <strong>poster:</strong> - имя файла в формате “.jpg”. Картинка будет отображаться, пока видео грузиться</li>
+          <li><i class="icon-angle-right"></i> <strong>speed:</strong> - скорость анимации (принимает значения none, low, normal, hight, fixed)</li>
+          <li><i class="icon-angle-right"></i> <strong>invert:</strong> - инвертирует направление смещения фона</li>
+          <li><i class="icon-angle-right"></i> <strong>custom_class:</strong> - пользовательский класс шорткода</li>
+        </ul>
+        </div>
+      </div>
+
+      <br>
+
+      <h4>Cherry Single Carousel</h4>
+
+      <p><strong>Описание:</strong> Данный плагин позволяет размещать карусель с parallax-эффект в контенте страницы (смещение относительно остального контента при скроллинге страницы).</p>
+
+
+      <div class="row-fluid">
+        <div class="span5"><pre class="prettyprint">[cherry_single_carousel title="Title" type="portfolio" posts_count="-1" movement="15" parallax="true" buffer_ratio="1.5" pagination="true" controls="true" autoplay="false" autoplay_delay="3000" stop_on_mouse_over="false" fullwidth="true" excerpt_count="35" custom_class="custom-class"]</pre></div>
+        <div class="span7">
+          <ul>
+          <li><i class="icon-angle-right"></i> <strong>title:</strong> - главный заголовок карусели</li>
+          <li><i class="icon-angle-right"></i> <strong>type:</strong> - тип постов, которые выводятся в формате слайдов</li>
+          <li><i class="icon-angle-right"></i> <strong>posts_count:</strong> - количество постов ("-1" - выводит все посты указанного типа, "целое положительное числовое значение" - количество выводимых постов)</li>
+          <li><i class="icon-angle-right"></i> <strong>movement:</strong> - смещение картинки при смене слайдов задается в %</li>
+          <li><i class="icon-angle-right"></i> <strong>parallax:</strong> - включает параллакс-эффект (true / false)</li>
+          <li><i class="icon-angle-right"></i> <strong>buffer_ratio:</strong> - коэффициент параллакса, работает при условии parallax=”true” (принимает значения от 1 до 10)</li>
+          <li><i class="icon-angle-right"></i> <strong>pagination:</strong> - отображение пагинации (true / false)</li>
+          <li><i class="icon-angle-right"></i> <strong>controls:</strong> - отображение кнопок навигации (true / false)</li>
+          <li><i class="icon-angle-right"></i> <strong>autoplay:</strong> - автолистание слайдов (true / false)</li>
+          <li><i class="icon-angle-right"></i> <strong>autoplay_delay:</strong> - задержка при автолистании слайдов, работает при условии autoplay=”true”</li>
+          <li><i class="icon-angle-right"></i> <strong>stop_on_mouse_over:</strong> - останавливает автолистание слайдов при наведении курсора, работает при условии autoplay=”true”</li>
+          <li><i class="icon-angle-right"></i> <strong>fullwidth:</strong> - отображение карусели на всю ширину окна браузера (true / false)</li>
+          <li><i class="icon-angle-right"></i> <strong>excerpt_count:</strong> - количество слов, выводимых из текста поста</li>
+          <li><i class="icon-angle-right"></i> <strong>custom_class:</strong> - пользовательский класс шорткода</li>
+        </ul>
+        </div>
+
+      </div>
+
+      
+
     </article>
 
     <article id="widgets">
@@ -1713,7 +1878,7 @@
           <p>Этот виджет позволяет отображать недавние записи (твиты). Он содержит следующие опции:</p>
           <ul>
             <li><i class="icon-angle-right"></i> <strong>Widget Title: </strong> - заголовок виджета</li>
-            <li><i class="icon-angle-right"></i> <strong>Widget ID: </strong> - вставьте ID вашего виджета. Прежде всего вам нужно создать новый виджет <a href="https://twitter.com/settings/widgets/new" target="_blank">здесь</a. Далее вставить в поле ID виджета. </li>
+            <li><i class="icon-angle-right"></i> <strong>Widget ID: </strong> - вставьте ID вашего виджета. Прежде всего, вам нужно создать новый виджет <a href="https://twitter.com/settings/widgets/new" target="_blank">здесь</a>. Далее вставить в поле ID виджета. </li>
             <li><i class="icon-angle-right"></i> <strong>User Name:  </strong> - имя пользователя Twitter.</li>
             <li><i class="icon-angle-right"></i> <strong>Color Scheme:</strong> -  цветовая схема (светлая/темная)</li>
             <li><i class="icon-angle-right"></i> <strong>Custom CSS class: </strong> - пользовательский класс виджета</li>
@@ -1728,7 +1893,7 @@
           <p>Этот виджет позволяет отображать тематические коллекции. Он содержит следующие опции:</p>
           <ul>
             <li><i class="icon-angle-right"></i> <strong>Widget Title: </strong> - заголовок виджета</li>
-            <li><i class="icon-angle-right"></i> <strong>Pinterest User URL: </strong> - вставьте URL аккаунта из <a href="https://www.pinterest.com/" target="_blank">Pinterest</a>который вы бы хотели отобразить</li>
+            <li><i class="icon-angle-right"></i> <strong>Pinterest User URL: </strong> - вставьте URL аккаунта из <a href="https://www.pinterest.com/" target="_blank">Pinterest</a>, который вы бы хотели отобразить</li>
             <li><i class="icon-angle-right"></i> <strong>Custom CSS class: </strong> - пользовательский класс виджета</li>
           </ul>
         </div>
@@ -1982,43 +2147,153 @@
         </div><br><br>
     </article>
 
-   <article id="footer_logo_option">
-   <p class="alert">Разделы 'footer logo (лого футера),' 'contacts (контакты)' и 'social (социальные сервисы)' являются опциональными. Они могут отсутствовать в некоторых темах. </p>
-      <h4>Footer Logo (Лого футера)</h4>
-      <div class="row"> 
-      <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_footer_logo.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_footer_logo.jpg" alt=""><i class="icon-search"></i></a></figure>
-      <ul>
-        <li><i class="icon-angle-right"></i> <strong>Logo Image Path (Путь к изображению лого)</strong> - если выбрана опция Image logo (Графическое лого), можно загрузить новое изображение при помощи кнопки 'upload (загрузить)' или любое изображение из медиа-библиотеки (Media Library).</li>
-      </ul>
-      </div>
+    <article id="additional_options">
+          <h4>Дополнительные опции</h4>
+          <p class="alert">Представленные ниже разделы являются опциональными. Они могут отсутствовать в некоторых темах.</p>
+          
+          <div>
+            <h4>Footer Logo (Лого футера)</h4>
+            <div class="row"> 
+            <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_footer_logo.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_footer_logo.jpg" alt=""><i class="icon-search"></i></a></figure>
+            <ul>
+              <li><i class="icon-angle-right"></i> <strong>Logo Image Path (Путь к изображению лого)</strong> - если выбрана опция Image logo (Графическое лого), можно загрузить новое изображение при помощи кнопки 'upload (загрузить)' или любое изображение из медиа-библиотеки (Media Library).</li>
+            </ul>
+            </div>
+          </div> 
+
+           <div>
+              <h4>Contacts (Контакты)</h4>
+              <div class="row"> 
+              <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_contacts.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_contacts.jpg" alt=""><i class="icon-search"></i></a></figure>
+              <ul>
+                <li><i class="icon-angle-right"></i> <strong>Street Address (Адрес улицы)</strong> - адрес улицы.</li>
+                <li><i class="icon-angle-right"></i> <strong>City/Locality (Город/местность) </strong> - город/местность.</li>
+                <li><i class="icon-angle-right"></i> <strong>Zipcode (Почтовый код)</strong> - почтовый код.</li>
+                <li><i class="icon-angle-right"></i> <strong>Phone number (Номер телефона)</strong> - номер телефона.</li>
+              </ul>
+              </div>
+           </div>
+
+           <div>
+              <h4>Social (Социальные сети)</h4>
+              <div class="row"> 
+              <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_social.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_social.jpg" alt=""><i class="icon-search"></i></a></figure>
+              <ul>
+                <li><i class="icon-angle-right"></i> <strong>Facebook URL</strong> - ссылка на страницу Facebook.</li>
+                <li><i class="icon-angle-right"></i> <strong>Google+ URL</strong> - ссылка на страницу Google+.</li>
+                <li><i class="icon-angle-right"></i> <strong>RSS URL</strong> - ссылка на RSS ленту.</li>
+                <li><i class="icon-angle-right"></i> <strong>Pinterest URL</strong> - ссылка на страницу Pinterest.</li>
+                <li><i class="icon-angle-right"></i> <strong>Linkedin URL</strong> - ссылка на страницу Linkedin.</li>
+              </ul>
+              </div>
+           </div>
+
+           <div>
+              <h4>Parallax Slider (Параллакс слайдер)</h4>
+              <p><strong>Описание:</strong> Данный блок опций позволяет создать слайдер с parallax-эффектом и разместить его в хедере страницы. 
+              <p><strong>Важно:</strong> Опции, заданные в Dashboard -> Cherry Options -> Slider Settings не распространяются на данный слайдер.</p>
+      
+
+              <p>Редактировать контент слайдов следует в <strong>Dashboard -> Slides</strong>. 
+              <div class="row"> 
+              <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_parallax_slider.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_parallax_slider.jpg" alt=""><i class="icon-search"></i></a></figure>
+              <ul>
+                <li><i class="icon-angle-right"></i> <strong>Display Parallax Slider?</strong> - включает отображение параллакс слайдера? (yes / no)</li>
+                <li><i class="icon-angle-right"></i> <strong>Sliding effect</strong> - эффект анимации смены слайдов (Simple Fade, Zoom Fade, Slide Top)</li>
+                <li><i class="icon-angle-right"></i> <strong>Slideshow</strong> - автолистание слайдов (yes / no)</li>
+                <li><i class="icon-angle-right"></i> <strong>Pause time</strong> - время задержки между сменой слайдов (в миллисекундах)</li>
+                <li><i class="icon-angle-right"></i> <strong>Animation speed</strong> - скорость смены слайдов (в миллисекундах)</li>
+                <li><i class="icon-angle-right"></i> <strong>Pagination</strong> - отображение пагинации (yes / no)</li>
+                <li><i class="icon-angle-right"></i> <strong>Next &amp; Prev navigation</strong> -  отображение кнопок навигации (yes / no)</li>
+              </ul>
+              </div>
+           </div>
+
+           <div>
+              <h4>Parallax Slider v1.0 (Параллакс слайдер)</h4>
+
+              <p><strong>Описание:</strong> Данный блок опций позволяет создать слайдер с parallax-эффектом и разместить его в хедере страницы. Также в данном слайдере есть возможность вставить в слайды видео из <strong>Youtube, Vimeo</strong> или использовать локальные видео файлы, используя видео в <strong>mp4, webm</strong> и <strong>ogv</strong> формате. </p>
+              <p><strong>Важно:</strong> Опции, заданные в Dashboard -> Cherry Options -> Slider Settings не распространяются на данный слайдер.</p>
+
+              <p><strong>Подключение видео:</strong> Добавьте в медиагалерею материалы в следующих форматах: <strong>mp4, webm, ogv</strong>.</p>
+
+              <p>Редактировать контент слайдов следует в <strong>Dashboard -> Slides</strong>. Для того, добавить/подключить картинку или видео нужно зайти в Dashboard -> Slides. Выбираете нужный <strong>Slide Type</strong>:</p>
+              <ul>
+                <li><i class="icon-angle-right"></i> <strong>Image Type</strong> - загружает картинку для слайда</li>
+                <li><i class="icon-angle-right"></i> <strong>Media Library Video Type</strong> - позволяет загрузить в слайд локальное видео. При выборе данного пункта появляется дополнительный блок <strong>Media Library Video</strong> с соответствующими полями для выбора видео в <strong>mp4, webm</strong> и <strong>ogv</strong> форматах. Также появилась возможность включить визуальный прогресс загрузки (Display the loading progress video).</li>
+                <li><i class="icon-angle-right"></i> <strong>Youtube Video Type</strong> - позволяет отобразить в слайде видео из Youtube. При выборе данного пункта появляется дополнительный блок <strong>Youtube Video</strong>. В поле <strong>Youtube Video ID</strong> нужно вставить ID желаемого видео, размещенного на Youtube.</li>
+                <li><i class="icon-angle-right"></i> <strong>Vimeo Video Type</strong> - позволяет отобразить в слайде видео из Vimeo. При выборе данного пункта появляется дополнительный блок <strong>Vimeo Video</strong>. В поле <strong>Vimeo Video ID</strong> нужно вставить ID желаемого видео, размещенного на Vimeo.</li>
+              </ul>
+
+              
+
+              <div class="row"> 
+              
+              <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_parallax_slider_1_0.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_parallax_slider_1_0.jpg" alt=""><i class="icon-search"></i></a></figure>
+              <ul>
+                <li><i class="icon-angle-right"></i> <strong>Display Parallax Slider?</strong> - включает отображение параллакс слайдера? (yes / no)</li>
+                <li><i class="icon-angle-right"></i> <strong>Parallax effect</strong> - позволяет настраивать смещение картинки фона относительно окна браузера (принимает значения: none, low, normal, high, fixed)</li>
+                <li><i class="icon-angle-right"></i> <strong>Invert Parallax Slider</strong> - инвертирует направление смещения слайдов (yes / no)</li>
+                <li><i class="icon-angle-right"></i> <strong>Sliding effect</strong> - эффект анимации смены слайдов (Simple Fade, Zoom Fade, Slide Top)</li>
+                <li><i class="icon-angle-right"></i> <strong>Slideshow</strong> - автолистание слайдов (yes / no)</li>
+                <li><i class="icon-angle-right"></i> <strong>Pause time</strong> - время задержки между сменой слайдов (в миллисекундах)</li>
+                <li><i class="icon-angle-right"></i> <strong>Animation speed</strong> - скорость смены слайдов (в миллисекундах)</li>
+                <li><i class="icon-angle-right"></i> <strong>Scrolling description</strong> - смещение и изменение прозрачности контента слайдов при скроллинге ( yes / no )</li>
+                <li><i class="icon-angle-right"></i> <strong>Pagination</strong> - отображение пагинации ( Buttons Pagination / Images Pagination / No)</li>
+                <li><i class="icon-angle-right"></i> <strong>Next &amp; Prev navigation</strong> -  отображение кнопок навигации (yes / no)</li>
+              </ul>
+              </div>
+           </div>
+
+
+           <div>
+
+            <h4>Video</h4>
+
+            <p><strong>Описание:</strong> Данный блок опций позволяет разместить видео в хедере или растянуть соответственно размерам окна браузера.</p>
+            <p><strong>Подключение медиа файлов:</strong> Добавьте в медиагалерею материалы в следующих форматах: <strong>mp4, webm, ogv</strong> и <strong>jpg</strong>.</p>
+
+            <div class="row"> 
+              
+              <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_video.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_video.jpg" alt=""><i class="icon-search"></i></a></figure>
+              <ul>
+                <li><i class="icon-angle-right"></i> <strong>Media type</strong> - выбор медиа типа (video / image)</li>
+                <li><i class="icon-angle-right"></i> <strong>Poster file name</strong> - картинка, которая отображается при загрузке видео. Имя файла в формате “.jpg”</li>
+                <li><i class="icon-angle-right"></i> <strong>MP4 video file name</strong> - имя файла в формате “.mp4”</li>
+                <li><i class="icon-angle-right"></i> <strong>WEBM video file name</strong> - имя файла в формате “.webm” </li>
+                <li><i class="icon-angle-right"></i> <strong>OGV video file name</strong> - имя файла в формате “.ogv”</li>
+                <li><i class="icon-angle-right"></i> <strong>Show progressbar</strong> - отображает прогресс загрузки видео (yes / no)</li>
+              </ul>
+              </div>
+           </div>
+
+          <div>
+
+            <h4>Parallax Video</h4>
+
+            <p><strong>Описание:</strong> Данный блок опций позволяет разместить видео с parallax-эффектом.</p>
+            <p><strong>Подключение медиа файлов:</strong> Добавьте в медиагалерею материалы в следующих форматах: <strong>mp4, webm, ogv</strong> и <strong>jpg</strong>.</p>
+
+            <div class="row"> 
+              
+              <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_parallax_video.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_parallax_video.jpg" alt=""><i class="icon-search"></i></a></figure>
+              <ul>
+                <li><i class="icon-angle-right"></i> <strong>Media type</strong> - выбор медиа типа (video / image)</li>
+                <li><i class="icon-angle-right"></i> <strong>Poster file name</strong> - картинка, которая отображается при загрузке видео. Имя файла в формате “.jpg”</li>
+                <li><i class="icon-angle-right"></i> <strong>MP4 video file name</strong> - имя файла в формате “.mp4”</li>
+                <li><i class="icon-angle-right"></i> <strong>WEBM video file name</strong> - имя файла в формате “.webm” </li>
+                <li><i class="icon-angle-right"></i> <strong>OGV video file name</strong> - имя файла в формате “.ogv”</li>
+                <li><i class="icon-angle-right"></i> <strong>Show progressbar</strong> - отображает прогресс загрузки видео (yes / no)</li>
+                <li><i class="icon-angle-right"></i> <strong>Parallax effect</strong> - задает коэффициент параллакса ( none / low / normal / hight / fixed )</li>
+                <li><i class="icon-angle-right"></i> <strong>Invert Parallax</strong> - инвертирует направление смещения</li>
+              </ul>
+              </div>
+           </div>
+
     </article>
 
-    <article id="contacts_option">
-      <h4>Contacts (Контакты)</h4>
-      <div class="row"> 
-      <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_contacts.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_contacts.jpg" alt=""><i class="icon-search"></i></a></figure>
-      <ul>
-        <li><i class="icon-angle-right"></i> <strong>Street Address (Адрес улицы)</strong> - адрес улицы.</li>
-        <li><i class="icon-angle-right"></i> <strong>City/Locality (Город/местность) </strong> - город/местность.</li>
-        <li><i class="icon-angle-right"></i> <strong>Zipcode (Почтовый код)</strong> - почтовый код.</li>
-        <li><i class="icon-angle-right"></i> <strong>Phone number (Номер телефона)</strong> - номер телефона.</li>
-      </ul>
-      </div>
-    </article>
-    
-    <article id="social_option">
-      <h4>Social (Социальные сети)</h4>
-      <div class="row"> 
-      <figure class="img-paraloid pull-left" style="width:40%;"><a href="img/wordpress/theme_options_social.jpg" class="pretty_image" data-gal="prettyPhoto"><img src="img/wordpress/theme_options_social.jpg" alt=""><i class="icon-search"></i></a></figure>
-      <ul>
-        <li><i class="icon-angle-right"></i> <strong>Facebook URL</strong> - ссылка на страницу Facebook.</li>
-        <li><i class="icon-angle-right"></i> <strong>Google+ URL</strong> - ссылка на страницу Google+.</li>
-        <li><i class="icon-angle-right"></i> <strong>RSS URL</strong> - ссылка на RSS ленту.</li>
-        <li><i class="icon-angle-right"></i> <strong>Pinterest URL</strong> - ссылка на страницу Pinterest.</li>
-        <li><i class="icon-angle-right"></i> <strong>Linkedin URL</strong> - ссылка на страницу Linkedin.</li>
-      </ul>
-      </div>
-    </article>
+
+      
   </section>  
 <!-- Theme Options end -->
 <!-- Shop Kit begin -->
