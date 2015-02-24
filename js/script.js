@@ -136,7 +136,7 @@ $(document).ready(function() {
 	languages_list('#modal_languages');
 
 	//Modal languages
-	modal_languages();
+	/*modal_languages();*/
 
 	$('.flexslider').flexslider({
 		animation: "fade",			
