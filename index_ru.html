@@ -438,67 +438,23 @@
 
 <!-- Page Templates -->
     <h2 class="item3"><i class="icon-copy"></i> Шаблоны страниц</h2>
-
+<div class="box-notification"><span>ВНИМАНИЕ: Стили необходимо редактировать в файле  style.css Если Вы предпочитаете редактировать CSS с помощью препроцессора SASS, редактирование происходит в файле main.scss (assets\scss\main.scss)</span></div>
       <!-- Page 1 -->
       <article id="page1">
-        <h4>Page 1</h4>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
+        <h4>Default template</h4>
+        <p>Шаблон стандартной страницы наследующей тип контейнера (WIDE / BOXED) из опций</p>
       </article>
       <!-- Page 2 -->
       <article id="page2">
-        <h4>Page 2</h4>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
+        <h4>Portfolio</h4>
+        <p>Шаблон страницы вывода портфолио</p>
       </article>
       <!-- Page 1 -->
       <article id="page3">
-        <h4>Page 3</h4>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
+        <h4>Testimonials</h4>
+        <p>Шаблон страницы для вывода отзывов</p>
       </article>
       <!-- Page 1 -->
-      <article id="page4">
-        <h4>Page 4</h4>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-      </article>
-      <!-- Page 1 -->
-      <article id="page5">
-        <h4>Page 5</h4>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-        <p>Text</p>
-      </article>
 
   </section>
 
@@ -573,6 +529,30 @@
       <figure class="img-paraloid"><img src="img/wordpress/post_format_standard.png" alt=""></figure>
       <p class="muted text-center">Заметка</p>
 
+      <h4>Аудио</h4>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_audio.png" alt=""></figure>
+      <p class="muted text-center">Аудио</p>
+      <p><strong>Формат Аудио</strong> используется для публикации аудио-контента.</p>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_audio_additional.png" alt=""></figure>
+      <p>В дополнительных настройках файла в медиагалереи возможно редактировать следующие поля:</p>
+      <ul>
+      <li><i class="icon-angle-right"></i> <strong>URL (URL аудио) </strong> - прямая ссылка на аудиотрек</li>
+        <li><i class="icon-angle-right"></i> <strong>Title (Заголовок)</strong> - название трека</li>
+        <li><i class="icon-angle-right"></i> <strong>Artist (Исполнитель)</strong> - исполнитель аудиотрека</li>
+        <li><i class="icon-angle-right"></i> <strong>Album (Альбом) </strong> - альбом аудиотрека</li>
+        <li><i class="icon-angle-right"></i> <strong>Description (Описание) </strong> - описание аудиотрека</li>
+      </ul>
+
+      <h4>Чат</h4>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_chat.png" alt=""></figure>
+      <p class="muted text-center">Статус</p>
+      <p> Формат<strong> Чат </strong> представляет собой пост в формате последовательных сообщения</p>
+      <ul>
+        <li><i class="icon-angle-right"></i> <strong>Ann:</strong> Hello Mike!</li>
+        <li><i class="icon-angle-right"></i> <strong>Mike:</strong> Hello Mike!</li>
+        <li><i class="icon-angle-right"></i> <strong>Ann:</strong> How are you Mike?</li>
+        <li><i class="icon-angle-right"></i> <strong>Mike:</strong> Not bad Ann.</li>
+      </ul>
 
       <h4>Галерея</h4>
       <p>Основной особенностью данного формата записи является возможность добавления неограниченного количества изображений.</p>
@@ -590,51 +570,53 @@
       <p>В записях формата галерея находятся те же поля (например, заголовок, контент, категории, и т.п.), что и для стандартного формата записи.</p>
 
 
+      <h4>Изображение</h4>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_image_editor.png" alt=""></figure>
+      <p class="muted text-center">Изображение</p>
+      <p><strong>Изображение -</strong> это формат записи в виде одиночного изображения, загруженного через опцию <strong>Featured Image</strong> <strong>(Изображение записи)</strong>.<br>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_image.png" alt=""></figure>
+         Выбрав данный формат, вы сможете отключить лайтбокс для изображений при помощи соответствующей настройки  <strong>Enable Lightbox (Включить лайтбокс)</strong> .</p>
+
       <h4>Ссылка</h4>
       <figure class="img-paraloid"><img src="img/wordpress/post_format_link.png" alt=""></figure>
       <p class="muted text-center">Ссылка</p>
-      <p>Формат  <strong>Ссылка</strong> содержит дополнительное поле <strong>URL</strong>, где нужно указать ссылку (URL) для целевой страницы/ресурса.  <strong>Заголовок записи  </strong>будет использоваться в качестве текста ссылки.</p>
-      <p>Поле контента представляет собой описание целевой страницы/ресурса.</p>
 
-
-      <h4>Изображение</h4>
-      <figure class="img-paraloid"><img src="img/wordpress/post_format_image.png" alt=""></figure>
-      <p class="muted text-center">Изображение</p>
-      <p><strong>Изображение -</strong> это формат записи в виде одиночного изображения, загруженного через опцию <strong>Featured Image</strong> <strong>(Изображение записи)</strong>.<br>
-         Выбрав данный формат, вы сможете отключить лайтбокс для изображений при помощи соответствующей настройки  <strong>Enable Lightbox (Включить лайтбокс)</strong> .</p>
+      <p>Формат поста <strong>Ссылка</strong>, создается в визуальном редакторе при вставке ссылки <strong>(URL)</strong> в стандартном формате.
+      <strong>Заголовок записи  </strong>будет использоваться в качестве текста ссылки.</p>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_link_variant.png" alt=""></figure>
+            <p class="muted text-center">Ссылка с описанием</p>
+      <p>Кроме того, можно создать описание целевой страницы/ресурса, при этом назначить ссылку на любом фрагменте текста.</p>
 
 
       <h4>Цитата</h4>
       <figure class="img-paraloid"><img src="img/wordpress/post_format_quote.png" alt=""></figure>
       <p class="muted text-center">Цитата</p>
-      <p> Пост<strong> Цитата</strong> используется для публикации высказываний.</p>
-      <p>Данный формат отличается наличием дополнительный полей  <strong>Цитата</strong> - текста высказывания и <strong> Автор </strong>- имя автора цитаты.</p>
+      <p> Пост<strong> Цитата </strong>используется для публикации высказываний.</p>
 
+      <h4>Статус</h4>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_status.png" alt=""></figure>
+      <p class="muted text-center">Статус</p>
+      <p> Пост <strong> Статус </strong> короткое сообщение обычно до 140 символов., в его роли обычно выступает содержимое записи. Выводится с аватаркой автора</p>
 
-      <h4>Аудио</h4>
-      <figure class="img-paraloid"><img src="img/wordpress/post_format_audio.png" alt=""></figure>
-      <p class="muted text-center">Аудио</p>
-      <p><strong>Формат Аудио</strong> используется для публикации аудио-контента.</p>
-      <p>Отличается наличием следующих настроек:</p>
-      <ul>
-        <li><i class="icon-angle-right"></i> <strong>Title (Заголовок)</strong> - название трека</li>
-        <li><i class="icon-angle-right"></i> <strong>Artist (Исполнитель)</strong> - исполнитель аудиотрека</li>
-        <li><i class="icon-angle-right"></i> <strong>Audio Format (Формат аудио) </strong>- формат аудиотрека</li>
-        <li><i class="icon-angle-right"></i> <strong>Audio URL (URL аудио) </strong> - прямая ссылка на аудиотрек</li>
-      </ul>
 
 
       <h4>Видео</h4>
       <figure class="img-paraloid"><img src="img/wordpress/post_format_video.png" alt=""></figure>
       <p class="muted text-center">Видео</p>
       <p><strong> Видео</strong> используется для публикации видео-контента.</p>
-      <p>Отличается наличием следующих настроек:</p>
+      <p>Существует два способа добавления видео в пост:</p>
       <ul>
-        <li><i class="icon-angle-right"></i> <strong>Title (Заголовок)</strong> - название видеоклипа</li>
-        <li><i class="icon-angle-right"></i> <strong>Artist</strong> <strong>(Исполнитель)</strong> - исполнитель видеоклипа</li>
-        <li><i class="icon-angle-right"></i> <strong>URL #1</strong> - прямая ссылка на видеоклип в формате m4v </li>
-        <li><i class="icon-angle-right"></i> <strong>URL #2</strong> - прямая ссылка на видеоклип в формате ogv </li>
         <li><i class="icon-angle-right"></i> <strong>Embedded Code (Встроенный код) </strong> - используется для добавления видео с внешних ресурсов, например, youtube, vimeo, и т.д.</li>
+        <li><i class="icon-angle-right"></i>Вставка через медиагалерею </li>
+      </ul>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_video_settings.png" alt=""></figure>
+      <p>В дополнительных настройках возможно редактировать следующие поля:</p>
+      <ul>
+        <li><i class="icon-angle-right"></i> URL #1</strong> Прямая ссылка на видеоклип в формате m4v с возможностью удаления</li>
+        <li><i class="icon-angle-right"></i> Альтернативный источник для загрузки различных форматов видеофайла (mp4, ogv, webm)</li>
+        <li><i class="icon-angle-right"></i>Задать изображение для постера к видеозаписи</li>
+        <li><i class="icon-angle-right"></i> Задать автоматическое проигрывание файла</li>
+        <li><i class="icon-angle-right"></i> Задать непрерырвное проигрывание файла</li>
       </ul>
     </article>
 
@@ -795,7 +777,7 @@
 
     <article id="styling">
       <h4>Styling</h4>
-      <p>Text</p>
+      <p>Если вы не определяете значение некоторых параметров, например text align, по умолчанию он не будет задаваться и в CSS. </p>
     </article>
 
     <article id="header">
@@ -815,7 +797,9 @@
 
     <article id="breadcrumbs">
       <h4>Breadcrumbs</h4>
-      <p>Text</p>
+      <p>
+        Настройка позиционирования осуществляется только в css стилях
+      </p>
     </article>
 
     <article id="pagination">
