@@ -334,6 +334,11 @@
 
     <p>Установка шаблона еще никогда не была настолько проста. Процесс установки включает в себя всего три шага: установка Cherry Framework, установка дочерней темы и установка демо-данных.</p>
     <p>Все этапы установки выполняются в админ-панели WordPress. Это делает процесс удобным и быстрым.</p>
+    <p>Установить тему теперь возможно двумя способами.</p>
+    <ol>
+      <li>Первый, используя плагин Cherry Wizard.</li>
+      <li>Второй, вручную распаковав архив темы.</li>
+    </ol>
     <!--
     <p>Вы можете убедиться в этом нажав на ссылку ниже:</p>
      <figure class="img-paraloid quick-start-guide"><a href="/help/quick-start-guide/wordpress-themes/master/quick_guide/index_en.html" target="_blank" ><img src="img/wordpress/banner2.jpg" alt=""></a></figure>
@@ -347,7 +352,7 @@
     <article id="adding-wizard">
       <h4>Установка плагина Cherry Wizard</h4>
       <div class="row">
-        <figure class="img-paraloid pull-left"><img src="img/wordpress/cat1.png" alt=""></figure>
+        <figure class="img-paraloid pull-left"><img src="img/wordpress/plugins_add_new.png" alt=""></figure>
           <p class="muted text-center"></p>
           <ol>
           <li>Войдите в панель управления WordPress.</li>
@@ -507,10 +512,11 @@
           <li>Откройте вкладку <strong>Posts (Записи)</strong>.</li>
           <li>Чтобы выбрать формат записи, откройте список  <strong>Format (Формат)</strong>.</li>
           </ol>
-        <span class="label label-info">Внимание:</span> Некоторые из данных форматов имеют свои настройки, которые появятся под редактором записи.      </div>
+      </div>
       <p>Ниже находится список доступных форматов записей с описаниями и настройками.</p>
 
-      <h4>Стандартный формат записи</h4>
+    <article id="post_format_standard">
+      <h4>Стандартный формат записи (Standard)</h4>
       <p>Обычная, стандартная запись имеет следующие поля:</p>
       <ul>
         <li><i class="icon-angle-right"></i> <strong>Post title</strong> - заголовок записи</li>
@@ -522,14 +528,17 @@
       </ul>
       <figure class="img-paraloid"><img src="img/wordpress/post_format_standard.png" alt=""></figure>
       <p class="muted text-center">Стандартный формат записи</p>
+    </article>
 
-
-      <h4>Заметка</h4>
+    <article id="post_format_aside">
+      <h4>Заметка (Aside)</h4>
       <p>Представляет собой упрощенную стандартную версию записи. Другими словами, в ней находится только поле для контента, поэтому не требуется вводить заголовок записи и другие опции. </p>
       <figure class="img-paraloid"><img src="img/wordpress/post_format_standard.png" alt=""></figure>
       <p class="muted text-center">Заметка</p>
+    </article>
 
-      <h4>Аудио</h4>
+    <article id="post_format_audio">
+      <h4>Аудио (Audio)</h4>
       <figure class="img-paraloid"><img src="img/wordpress/post_format_audio.png" alt=""></figure>
       <p class="muted text-center">Аудио</p>
       <p><strong>Формат Аудио</strong> используется для публикации аудио-контента.</p>
@@ -542,10 +551,12 @@
         <li><i class="icon-angle-right"></i> <strong>Album (Альбом) </strong> - альбом аудиотрека</li>
         <li><i class="icon-angle-right"></i> <strong>Description (Описание) </strong> - описание аудиотрека</li>
       </ul>
+    </article>
 
-      <h4>Чат</h4>
+    <article id="post_format_chat">
+      <h4>Чат (Chat)</h4>
       <figure class="img-paraloid"><img src="img/wordpress/post_format_chat.png" alt=""></figure>
-      <p class="muted text-center">Статус</p>
+      <p class="muted text-center">Структура контента</p>
       <p> Формат<strong> Чат </strong> представляет собой пост в формате последовательных сообщения</p>
       <ul>
         <li><i class="icon-angle-right"></i> <strong>Ann:</strong> Hello Mike!</li>
@@ -553,8 +564,9 @@
         <li><i class="icon-angle-right"></i> <strong>Ann:</strong> How are you Mike?</li>
         <li><i class="icon-angle-right"></i> <strong>Mike:</strong> Not bad Ann.</li>
       </ul>
-
-      <h4>Галерея</h4>
+    </article>
+    <article id="post_format_gallery">
+      <h4>Галерея (Gallery)</h4>
       <p>Основной особенностью данного формата записи является возможность добавления неограниченного количества изображений.</p>
       <p>Добавление галереи:</p>
       <ol>
@@ -568,16 +580,18 @@
         <li>По окончанию редактирования можно закрыть медиа библиотеку. Загруженные картинки будут добавлены автоматически.</li>
       </ol>
       <p>В записях формата галерея находятся те же поля (например, заголовок, контент, категории, и т.п.), что и для стандартного формата записи.</p>
-
-
-      <h4>Изображение</h4>
+    </article>
+    <article id="post_format_image">
+      <h4>Изображение (Image)</h4>
       <figure class="img-paraloid"><img src="img/wordpress/post_format_image_editor.png" alt=""></figure>
       <p class="muted text-center">Изображение</p>
       <p><strong>Изображение -</strong> это формат записи в виде одиночного изображения, загруженного через опцию <strong>Featured Image</strong> <strong>(Изображение записи)</strong>.<br>
       <figure class="img-paraloid"><img src="img/wordpress/post_format_image.png" alt=""></figure>
          Выбрав данный формат, вы сможете отключить лайтбокс для изображений при помощи соответствующей настройки  <strong>Enable Lightbox (Включить лайтбокс)</strong> .</p>
+    </article>
 
-      <h4>Ссылка</h4>
+    <article id="post_format_link">
+      <h4>Ссылка (Link)</h4>
       <figure class="img-paraloid"><img src="img/wordpress/post_format_link.png" alt=""></figure>
       <p class="muted text-center">Ссылка</p>
 
@@ -586,21 +600,21 @@
       <figure class="img-paraloid"><img src="img/wordpress/post_format_link_variant.png" alt=""></figure>
             <p class="muted text-center">Ссылка с описанием</p>
       <p>Кроме того, можно создать описание целевой страницы/ресурса, при этом назначить ссылку на любом фрагменте текста.</p>
+    </article>
 
-
-      <h4>Цитата</h4>
+    <article id="post_format_quote">
+      <h4>Цитата (Quote)</h4>
       <figure class="img-paraloid"><img src="img/wordpress/post_format_quote.png" alt=""></figure>
       <p class="muted text-center">Цитата</p>
       <p> Пост<strong> Цитата </strong>используется для публикации высказываний.</p>
 
-      <h4>Статус</h4>
+      <h4>Статус (Status)</h4>
       <figure class="img-paraloid"><img src="img/wordpress/post_format_status.png" alt=""></figure>
       <p class="muted text-center">Статус</p>
       <p> Пост <strong> Статус </strong> короткое сообщение обычно до 140 символов., в его роли обычно выступает содержимое записи. Выводится с аватаркой автора</p>
-
-
-
-      <h4>Видео</h4>
+    </article>
+    <article id="post_format_video">
+      <h4>Видео (Video)</h4>
       <figure class="img-paraloid"><img src="img/wordpress/post_format_video.png" alt=""></figure>
       <p class="muted text-center">Видео</p>
       <p><strong> Видео</strong> используется для публикации видео-контента.</p>
@@ -648,6 +662,7 @@
     <!-- Creating a Portfolio post -->
     <article id="portfolio_post">
       <h4>Добавление записи портфолио</h4>
+      <div class="box-notification"><span>ВНИМАНИЕ: Должен быть установлен плагин Cherry Portfolio</span></div>
       <div class="row">
         <figure class="img-paraloid pull-left"><img src="img/wordpress/folio_panel.png" alt=""></figure>
         <p>Элементы портфолио, по сути, являются пользовательским типом записей,<a href="http://codex.wordpress.org/Post_Types#Custom_Types"> http://codex.wordpress.org/Post_Types#Custom_Types </a> что отличает их от обычных записей. Благодаря этому, очень легко управлять контентом сайта.</p>
@@ -679,7 +694,8 @@
     <!-- Creating a Testimonials post -->
     <article id="testimonial_post">
       <h4>Добавление записи "отзыв" (Testimonials)</h4>
-      <figure class="img-paraloid"><img src="img/wordpress/testi.png" alt=""></figure>
+      <div class="box-notification"><span>ВНИМАНИЕ: Должен быть установлен плагин Cherry Testimonials</span></div>
+      <figure class="img-paraloid"><img src="img/wordpress/post_format_testimonial.png" alt=""></figure>
       <p class="muted text-center">Добавление записи "отзыв" (Testimonials)</p>
       <ol>
         <li>Войдите в панель управления  WordPress.</li>
@@ -690,29 +706,16 @@
         <li>В данном типе записей можно использовать следующие настройки:
           <ul>
             <li><i class="icon-angle-right"></i> <strong>Name</strong> <strong>(Имя)</strong> - имя автора</li>
+            <li><i class="icon-angle-right"></i> <strong>E-mail</strong> - почтовый ящик автора.</li>
             <li><i class="icon-angle-right"></i> <strong>URL</strong> - ссылка автора</li>
-            <li><i class="icon-angle-right"></i> <strong>Info</strong> - дополнительная информация от автора.</li>
+
           </ul>
         </li>
         <li>Нажмите кнопку<strong> Publish (Опубликовать)</strong></li>
         </ol>
     </article>
 
-    <!-- Creating a Portfolio post -->
-    <article id="faq_post">
-      <h4>Добавление записи FAQs </h4>
-      <figure class="img-paraloid"><img src="img/wordpress/faq.png" alt=""></figure>
-      <p class="muted text-center">Добавление записи FAQs </p>
-      <ol>
-        <li>Войдите в панель управления  WordPress.</li>
-        <li>Откройте меню <strong>FAQs</strong>.</li>
-        <li>Нажмите вкладку <strong>Add New</strong> <strong>(Добавить новый)</strong>.</li>
-        <li>Поскольку данный тип записей представляет собой вопросы/ответы, заголовком поста является вопрос, а контентом -  ответ.</li>
-        <li>Нажмите кнопку<strong> Publish (Опубликовать)</strong>.</li>
-        </ol>
-    </article>
-
-    <!-- Creating a Portfolio post -->
+    <!-- Creating a Team post -->
     <article id="team_post">
       <h4>Добавление записи "Наша команда" (Our Team)</h4>
       <figure class="img-paraloid"><img src="img/wordpress/our_team.png" alt=""></figure>
@@ -819,54 +822,78 @@
 
     <h2 class="item6"><i class="icon-file"></i> Шорткоды</h2>
     <p>Шорткоды - мощный инструмент управления контентом  <a href="http://codex.wordpress.org/Shortcode">http://codex.wordpress.org/Shortcode</a>. Они очень просты в использовании. Прежде всего, нужно выбрать режим редактирования <strong>Visual (Визуальный)</strong>.</p>
-
+    <figure class="img-paraloid"><img src="img/wordpress/shorcode_ultimate_open.png" alt=""></figure>
+    <p>Нажмите на кнопку <strong>Insert shortcode</strong>. После этого, выберите нужный шорткод.</p>
+<!--
     <article id="favorites">
       <h4>Favorites</h4>
       <p>Text</p>
     </article>
+-->
+    <figure class="img-paraloid"><img src="img/wordpress/shorcode_ultimate_board.png" alt=""></figure>
+    <p>Все шорткоды условно делятся на следующие группы:</p>
+    <ul>
+      <li><i class="icon-angle-right"></i><strong>Box </strong> - используются для вывода контейнеров и элементов форматирования колонки и для сетки.</li>
+      <li><i class="icon-angle-right"></i><strong>Content</strong> - Элементы оформления интерфейса <strong> </strong>-</li>
+      <li><i class="icon-angle-right"></i><strong>Элементы</strong> - дополнительные элементы контента.</li>
+      <li><i class="icon-angle-right"></i><strong>Другие </strong> -  вспомогательные элементы расширенного управления контентом.</li>
+    </ul>
 
-    <article id="base_markup">
-      <h4>Base Markup</h4>
-      <p>Text</p>
+    <article id="grid-shortcodes">
+      <h4>Grid</h4>
+      <h5>Row <strong>(Ряд)</strong></h5>
+      <figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_row.png"></figure>
+      <div class="row-fluid">
+
+        <div class="span6"><pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_row type</span><span class="pun">=</span><span class="str">"fixed-width"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span><span class="pun">[</span><span class="pln">/su_row</span><span class="pun">]</span></pre></div>
+
+
+        <div class="span6"><p><span class="label">Описание:</span> При создании сетки необходимо "оборачивать" ее элементы в шорткод [row], у него есть два дополнительных параметра - тип контейнера, пользовательский коасс</p></div>
+      </div>
     </article>
 
     <article id="elements">
-      <h4>Elements</h4>
+      <h4>Typography</h4>
+      <p>Text</p>
+    </article>
+
+    <article id="lightbox">
+      <h4>Content</h4>
+      <p>Text</p>
+    </article>
+
+    <article id="chart">
+      <h4>Media</h4>
       <p>Text</p>
     </article>
 
     <article id="components">
       <h4>Components</h4>
-      <p>Text</p>
-    </article>
-
-    <article id="lightbox">
-      <h4>Lightbox</h4>
-      <p>Text</p>
+      <h5>Lazy Load Effect</h5>
+      <p><strong>Описание:</strong> Данный шорткод позволяет плавно отображать появление элементов контента при скроллинге страницы.</p>
+      <figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_lazy_load.png"></figure>
+      <div class="row-fluid">
+        <div class="span5"><pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_lazy_load_effect start_position</span><span class="pun">=</span><span class="str">"left"</span><span class="pln"> out_rotation</span><span class="pun">=</span><span class="str">"180"</span><span class="pln"> flip_x</span><span class="pun">=</span><span class="str">"220"</span><span class="pln"> flip_y</span><span class="pun">=</span><span class="str">"140"</span><span class="pln"> pivot</span><span class="pun">=</span><span class="str">"top_left"</span><span class="pln"> scale</span><span class="pun">=</span><span class="str">"4"</span><span class="pln"> opacity</span><span class="pun">=</span><span class="str">"0.5"</span><span class="pln"> easing</span><span class="pun">=</span><span class="str">"ease-in-out-cubic"</span><span class="pln"> animation_speed</span><span class="pun">=</span><span class="str">"2"</span><span class="pln"> animation_duration</span><span class="pun">=</span><span class="str">"1"</span><span class="pln"> custom_class</span><span class="pun">=</span><span class="str">"custom-class"</span><span class="pun">]</span><span class="pun">[</span><span class="pln">/su_lazy_load_effect</span><span class="pun">]</span></pre></div>
+        <div class="span7">
+          <ul>
+          <li><i class="icon-angle-right"></i> <strong>start position:</strong> - начальная позиция элемента при старте анимации</li>
+          <li><i class="icon-angle-right"></i> <strong>out rotation:</strong> - значенние начального угла поворота для вращения элемента при старте анимации (min -360° max 360°)</li>
+          <li><i class="icon-angle-right"></i> <strong>flip X:</strong> - значенние начального угла поворота для вращения по <strong>оси X</strong> элемента при старте анимации (min -360° max 360°)</li>
+          <li><i class="icon-angle-right"></i> <strong>flip Y:</strong> - значенние начального угла поворота для вращения по <strong>оси Y</strong> элемента при старте анимации(min -360° max 360°)</li>
+          <li><i class="icon-angle-right"></i> <strong>pivot:</strong> - значенние относительной точки вращения элемента</li>
+          <li><i class="icon-angle-right"></i> <strong>scale:</strong> - значенние масштабирования элемента (min: 0; max 10;)</li>
+          <li><i class="icon-angle-right"></i> <strong>opacity:</strong> - значенние прозрачности элемента (min - 0; max 1;)</li>
+          <li><i class="icon-angle-right"></i> <strong>easing:</strong> - эффект затухания анимации элемента</li>
+          <li><i class="icon-angle-right"></i> <strong>animation speed:</strong> - скорость анимации (в секундах), принимает значение с плавающей точкой</li>
+          <li><i class="icon-angle-right"></i> <strong>animation delay:</strong> - задержка перед появлением элемента (можно использовать, если у вас 2-3 элемента в ряд и вы хотите анимировать их не одновременно, а один за другим)</li>
+          <li><i class="icon-angle-right"></i> <strong>custom_class:</strong> - пользовательский класс шорткода</li>
+        </ul>
+        </div>
+      </div>
     </article>
 
     <article id="chart">
-      <h4>Chart</h4>
-      <p>Text</p>
-    </article>
-
-    <article id="post">
-      <h4>Post</h4>
-      <p>Text</p>
-    </article>
-
-    <article id="table">
-      <h4>Table</h4>
-      <p>Text</p>
-    </article>
-
-    <article id="tabs">
-      <h4>Tabs</h4>
-      <p>Text</p>
-    </article>
-
-    <article id="html5">
-      <h4>HTML5</h4>
+      <h4>Other</h4>
       <p>Text</p>
     </article>
 
