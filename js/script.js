@@ -49,7 +49,7 @@ console.log(doc_language);
 	    */
 	    var languages = [ 
 	        ['en', 'English', true], 
-	        ['ru', 'Русский', true], 
+	        ['ru', 'Русский', false], 
 	        ['es', 'Español', false], 
 	        ['de', 'Deutsch', false], 
 	        ['fr', 'Français', false],
@@ -136,7 +136,7 @@ $(document).ready(function() {
 	languages_list('#modal_languages');
 
 	//Modal languages
-	modal_languages();
+	/*modal_languages();*/
 
 	$('.flexslider').flexslider({
 		animation: "fade",			
@@ -184,9 +184,9 @@ $(document).ready(function() {
 			idArray[index]=$(this).attr("href");
 		});
 		
-		$('ul.list li a').prepend('<i class="icon-sample"></i>');
-		$('li:first-child', "#nav").addClass('first');
-		$('li:last-child', "#nav").addClass('last');
+		// $('ul.list li a').prepend('<i class="fa fa-plus icon-sample"></i>');
+		// $('li:first-child', "#nav").addClass('first');
+		// $('li:last-child', "#nav").addClass('last');
 
 		$("#affect_all").toggle(
 			function(){
@@ -290,7 +290,7 @@ $(document).ready(function() {
 	});
 
 	select_menu("#languages");
-	select_menu("#versions");
+	
 
 	language_cookie('#languages .select-menu_list li');
 
