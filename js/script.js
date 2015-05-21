@@ -226,12 +226,13 @@ $(document).ready(function() {
 			} else {
 				$('#back-top').fadeOut();
 			}
+
 	    if(!click_scroll){
 	    	var st = $(window).scrollTop(),
 	    	hash = '';
 	    	if (st > lastScrollTop){
 	       		for(var i=0, lenghtArray = idArray.length; i<lenghtArray; i++){
-		            if(
+		            if(		            	
 		                st + $(window).height()/2 >= $(idArray[i]).offset().top
 		            )
 		            {
