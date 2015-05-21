@@ -125,7 +125,20 @@
 								<ul class="list">
 									<li><a href="#adding_category">Добавление категорий</a></li>
 									<li><a href="#blog_post">Создание записи блога</a></li>
-									<li><a href="#post_formats">Выбор формата записи</a></li>
+									<li>
+										<a href="#post_formats">Выбор формата записи</a>
+										<ul class="list">
+											<li><a href="#post_format_standard">Standard</a></li>
+											<li><a href="#post_format_aside">Aside</a></li>
+											<li><a href="#post_format_audio">Audio</a></li>
+											<li><a href="#post_format_chat">Chat</a></li>
+											<li><a href="#post_format_gallery">Gallery</a></li>
+											<li><a href="#post_format_image">Image</a></li>
+											<li><a href="#post_format_link">Link</a></li>
+											<li><a href="#post_format_quote">Quote</a></li>
+											<li><a href="#post_format_video">Video</a></li>
+										</ul>
+									</li>
 									<li><a href="#slider_post">Создание записи слайдера</a></li>
 									<li><a href="#portfolio_post">Добавление записи портфолио</a></li>
 									<li><a href="#testimonial_post">Добавление записи рекомендаций</a></li>
@@ -493,7 +506,7 @@
 			</div>
 			<p>Ниже находится список доступных форматов записей с описаниями и настройками.</p>
 
-			<article class="post_format_standard">
+			<article id="post_format_standard">
 				<h4>Стандартный формат записи (Standard)</h4>
 				<p>Обычная, стандартная запись имеет следующие поля:</p>
 				<ul>
@@ -508,14 +521,14 @@
 				<p class="muted text-center">Стандартный формат записи</p>
 			</article>
 
-			<article class="post_format_aside">
+			<article id="post_format_aside">
 				<h4>Заметка (Aside)</h4>
 				<p>Представляет собой упрощенную стандартную версию записи. Другими словами, в ней находится только поле для контента, поэтому не требуется вводить заголовок записи и другие опции. </p>
 				<figure class="img-paraloid"><img src="img/wordpress/post_format_standard.png" alt=""></figure>
 				<p class="muted text-center">Заметка</p>
 			</article>
 
-			<article class="post_format_audio">
+			<article id="post_format_audio">
 				<h4>Аудио (Audio)</h4>
 				<figure class="img-paraloid"><img src="img/wordpress/post_format_audio.png" alt=""></figure>
 				<p class="muted text-center">Аудио</p>
@@ -531,7 +544,7 @@
 				</ul>
 			</article>
 
-			<article class="post_format_chat">
+			<article id="post_format_chat">
 				<h4>Чат (Chat)</h4>
 				<figure class="img-paraloid"><img src="img/wordpress/post_format_chat.png" alt=""></figure>
 				<p class="muted text-center">Структура контента</p>
@@ -544,7 +557,7 @@
 				</ul>
 			</article>
 
-			<article class="post_format_gallery">
+			<article id="post_format_gallery">
 				<h4>Галерея (Gallery)</h4>
 				<p>Основной особенностью данного формата записи является возможность добавления неограниченного количества изображений.</p>
 				<p>Добавление галереи:</p>
@@ -561,7 +574,7 @@
 				<p>В записях формата галерея находятся те же поля (например, заголовок, контент, категории, и т.п.), что и для стандартного формата записи.</p>
 			</article>
 
-			<article class="post_format_image">
+			<article id="post_format_image">
 				<h4>Изображение (Image)</h4>
 				<figure class="img-paraloid"><img src="img/wordpress/post_format_image_editor.png" alt=""></figure>
 				<p class="muted text-center">Изображение</p>
@@ -570,7 +583,7 @@
 					 Выбрав данный формат, вы сможете отключить лайтбокс для изображений при помощи соответствующей настройки	<strong>Enable Lightbox (Включить лайтбокс)</strong> .</p>
 			</article>
 
-			<article class="post_format_link">
+			<article id="post_format_link">
 				<h4>Ссылка (Link)</h4>
 				<figure class="img-paraloid"><img src="img/wordpress/post_format_link.png" alt=""></figure>
 				<p class="muted text-center">Ссылка</p>
@@ -582,7 +595,7 @@
 				<p>Кроме того, можно создать описание целевой страницы/ресурса, при этом назначить ссылку на любом фрагменте текста.</p>
 			</article>
 
-			<article class="post_format_quote">
+			<article id="post_format_quote">
 				<h4>Цитата (Quote)</h4>
 				<figure class="img-paraloid"><img src="img/wordpress/post_format_quote.png" alt=""></figure>
 				<p class="muted text-center">Цитата</p>
@@ -594,7 +607,7 @@
 				<p> Пост <strong> Статус </strong> короткое сообщение обычно до 140 символов., в его роли обычно выступает содержимое записи. Выводится с аватаркой автора</p>
 			</article>
 
-			<article class="post_format_video">
+			<article id="post_format_video">
 				<h4>Видео (Video)</h4>
 				<figure class="img-paraloid"><img src="img/wordpress/post_format_video.png" alt=""></figure>
 				<p class="muted text-center">Видео</p>
