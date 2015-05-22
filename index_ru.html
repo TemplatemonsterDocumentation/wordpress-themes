@@ -1546,23 +1546,172 @@
 		</ul>
 
 		<article id="grid-shortcodes">
+
 			<h4>Grid</h4>
+
 			<h5>Row <strong>(Ряд)</strong></h5>
+			<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_row.png"></figure>
 			<div class="row-fluid">
-				<div class="span6">
-					<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_row.png"></figure>
+
+				<div class="span6"><pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_row type</span><span class="pun">=</span><span class="str">"fixed-width"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span><span class="pun">[</span><span class="pln">/su_row</span><span class="pun">]</span></pre></div>
+
+
+				<div class="span6"><p><span class="label">Описание:</span> При создании сетки необходимо "оборачивать" ее элементы в шорткод [row], у него есть два дополнительных параметра - тип контейнера, пользовательский класс</p></div>
+			</div>
+
+			<h5>Row Inner<strong>(Внутренний Ряд )</strong></h5>
+			<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_row.png"></figure>
+			<div class="row-fluid">
+				<div class="span5">
+					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_row_inner type</span><span class="pun">=</span><span class="str">"fixed-width"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span><span class="pun">[</span><span class="pln">/su_row_inner</span><span class="pun">]</span></pre>
 				</div>
-				<div class="span6">
-					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_row type</span><span class="pun">=</span><span class="str">"fixed-width"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span><span class="pun">[</span><span class="pln">/su_row</span><span class="pun">]</span></pre>
-					<p><span class="label">Описание:</span> При создании сетки необходимо "оборачивать" ее элементы в шорткод [row], у него есть два дополнительных параметра - тип контейнера, пользовательский класс</p>
+
+
+				<div class="span7"><p><span class="label">Описание:</span> При создании дополнительной вложенности рядов [su_row] сетки необходимо "оборачивать" ее элементы в шорткод [su_row_inner], у него есть два дополнительных параметра - тип контейнера, пользовательский класс</p></div>
+			</div>
+
+			<h5>Column<strong>(Колонка)</strong></h5>
+			<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_column.png"></figure>
+			<div class="row-fluid">
+				<div class="span5">
+					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_col size_xs</span><span class="pun">=</span><span class="str">"3"</span><span class="pln"> size_sm</span><span class="pun">=</span><span class="str">"3"</span><span class="pln"> size_md</span><span class="pun">=</span><span class="str">"3"</span><span class="pln"> size_lg</span><span class="pun">=</span><span class="str">"3"</span><span class="pln"> offset_xs</span><span class="pun">=</span><span class="str">"1"</span><span class="pln"> offset_sm</span><span class="pun">=</span><span class="str">"2"</span><span class="pln"> offset_md</span><span class="pun">=</span><span class="str">"0.5"</span><span class="pln"> offset_lg</span><span class="pun">=</span><span class="str">"4"</span><span class="pln"> pull_xs</span><span class="pun">=</span><span class="str">"9"</span><span class="pln"> pull_sm</span><span class="pun">=</span><span class="str">"10"</span><span class="pln"> pull_md</span><span class="pun">=</span><span class="str">"11"</span><span class="pln"> pull_lg</span><span class="pun">=</span><span class="str">"12"</span><span class="pln"> push_xs</span><span class="pun">=</span><span class="str">"5"</span><span class="pln"> push_sm</span><span class="pun">=</span><span class="str">"6"</span><span class="pln"> push_lg</span><span class="pun">=</span><span class="str">"8"</span><span class="pln"> collapse</span><span class="pun">=</span><span class="str">"yes"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span><span class="pun">[</span><span class="pln">/su_col</span><span class="pun">]</span></pre>
 				</div>
-			</div>		
-			
+				<div class="span7">
+					<ul>
+					<li><i class="icon-angle-right"></i> <strong>size:</strong> - размер колонки, с возможностью указания размера для разных разрешений</li>
+					<li><i class="icon-angle-right"></i> <strong>offset:</strong> - это значение увеличивает отступ слева от столбца колонки, сдвигает пропуская один и тот же столбец</li>
+					<li><i class="icon-angle-right"></i> <strong>pull:</strong> - </li>
+					<li><i class="icon-angle-right"></i> <strong>push:</strong> - </li>
+					<li><i class="icon-angle-right"></i> <strong>collapse column paddings:</strong> - данный параметр сбрасывает базовые значения отступов у колонки</li>
+					<li><i class="icon-angle-right"></i> <strong>class:</strong> - пользовательский класс шорткода</li>
+				</ul>
+				</div>
+			</div>
+
+			<h5>Column Inner<strong>(Внутренняя Колонка)</strong></h5>
+			<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_column_inner.png"></figure>
+			<div class="row-fluid">
+				<div class="span5">
+					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_col_inner size_xs</span><span class="pun">=</span><span class="str">"3"</span><span class="pln"> size_sm</span><span class="pun">=</span><span class="str">"3"</span><span class="pln"> size_md</span><span class="pun">=</span><span class="str">"3"</span><span class="pln"> size_lg</span><span class="pun">=</span><span class="str">"3"</span><span class="pln"> offset_xs</span><span class="pun">=</span><span class="str">"1"</span><span class="pln"> offset_sm</span><span class="pun">=</span><span class="str">"2"</span><span class="pln"> offset_md</span><span class="pun">=</span><span class="str">"0.5"</span><span class="pln"> offset_lg</span><span class="pun">=</span><span class="str">"4"</span><span class="pln"> pull_xs</span><span class="pun">=</span><span class="str">"9"</span><span class="pln"> pull_sm</span><span class="pun">=</span><span class="str">"10"</span><span class="pln"> pull_md</span><span class="pun">=</span><span class="str">"11"</span><span class="pln"> pull_lg</span><span class="pun">=</span><span class="str">"12"</span><span class="pln"> push_xs</span><span class="pun">=</span><span class="str">"5"</span><span class="pln"> push_sm</span><span class="pun">=</span><span class="str">"6"</span><span class="pln"> push_lg</span><span class="pun">=</span><span class="str">"8"</span><span class="pln"> collapse</span><span class="pun">=</span><span class="str">"yes"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span><span class="pun">[</span><span class="pln">/su_col_inner</span><span class="pun">]</span></pre>
+				</div>
+				<div class="span7">
+					<ul>
+					<li><i class="icon-angle-right"></i> <strong>size:</strong> - размер колонки, с возможностью указания размера для разных разрешений</li>
+					<li><i class="icon-angle-right"></i> <strong>offset:</strong> - это значение увеличивает отступ слева от столбца колонки, сдвигает пропуская один и тот же столбец</li>
+					<li><i class="icon-angle-right"></i> <strong>pull:</strong> - </li>
+					<li><i class="icon-angle-right"></i> <strong>push:</strong> - </li>
+					<li><i class="icon-angle-right"></i> <strong>collapse column paddings:</strong> - данный параметр сбрасывает базовые значения отступов у колонки</li>
+					<li><i class="icon-angle-right"></i> <strong>class:</strong> - пользовательский класс шорткода</li>
+				</ul>
+				</div>
+			</div>
+
+			<h5>Spacer <strong>(Горизонтальный разделительный отступ)</strong></h5>
+			<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_spacer.png"></figure>
+			<div class="row-fluid">
+
+				<div class="span6"><pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_spacer size</span><span class="pun">=</span><span class="str">"30"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span></pre></div>
+
+
+				<div class="span6"><p><span class="label">Описание:</span> Применим в случае необходимости отступа по вертикали между юлоками. В визуальном редакторе выводится шорткодом [su_spacer], принимает 2 параметра</p>
+				<ul>
+					<li><i class="icon-angle-right"></i> <strong>size:</strong> - размер высоты разделительного блока</li>
+					<li><i class="icon-angle-right"></i> <strong>class:</strong> - пользовательский класс шорткода</li>
+				</ul>
+				</div>
+			</div>
+
+			<h5>Clear <strong>(Сброс обтекания)</strong></h5>
+			<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_clear.png"></figure>
+			<div class="row-fluid">
+
+				<div class="span6"><pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_clear class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span></pre></div>
+				<div class="span6"><p><span class="label">Описание:</span> Применяется для сброса обтекания. Принимает параметр custom class</p>
+				</div>
+			</div>
+
+			<h5>Box<strong> (Универсальный контейнер)</strong></h5>
+			<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_box.png"></figure>
+			<div class="row-fluid">
+				<div class="span5">
+					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_box preset</span><span class="pun">=</span><span class="str">"secondary-border"</span><span class="pln"> bg_color</span><span class="pun">=</span><span class="str">"#bdbdbd"</span><span class="pln"> bg_image</span><span class="pun">=</span><span class="str">"http://192.168.9.26/cherry/wp-content/uploads/2015/03/image_3.jpg"</span><span class="pln"> bg_position</span><span class="pun">=</span><span class="str">"top-right"</span><span class="pln"> bg_repeat</span><span class="pun">=</span><span class="str">"repeat"</span><span class="pln"> bg_attachment</span><span class="pun">=</span><span class="str">"fixed"</span><span class="pln"> fill</span><span class="pun">=</span><span class="str">"yes"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span><span class="pun">[</span><span class="pln">/su_box</span><span class="pun">]</span></pre>
+				</div>
+				<div class="span7">
+					<ul>
+					<li><i class="icon-angle-right"></i> <strong>box styling preset:</strong> - варианты оформление универсального контейнера</li>
+					<li><i class="icon-angle-right"></i> <strong>background color:</strong> - значение цвета фона</li>
+					<li><i class="icon-angle-right"></i> <strong>background image:</strong> - поле для выбора изображения фона</li>
+					<li><i class="icon-angle-right"></i> <strong>background image position:</strong> - значение позиционирования фона</li>
+					<li><i class="icon-angle-right"></i> <strong>background image repeat:</strong> - значение для указание типа повторения фона</li>
+					<li><i class="icon-angle-right"></i> <strong>background image attachment:</strong> - свойство background-attachment устанавливает, будет ли прокручиваться фоновое изображение вместе с содержимым элемента.</li>
+					<li><i class="icon-angle-right"></i> <strong>fill:</strong> - свойство используется для установки размеров по родительскому контейнеру</li>
+					<li><i class="icon-angle-right"></i> <strong>class:</strong> - пользовательский класс шорткода</li>
+				</ul>
+				</div>
+			</div>
+
 		</article>
 
 		<article id="elements">
 			<h4>Typography</h4>
-			<p>Text</p>
+
+			<h5>Icon <strong>(Иконка)</strong></h5>
+			<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_icon.png"></figure>
+			<div class="row-fluid">
+
+				<div class="span5">
+					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_icon icon</span><span class="pun">=</span><span class="str">"icon: fa fa-arrow-right"</span><span class="pln"> size</span><span class="pun">=</span><span class="str">"50"</span><span class="pln"> color</span><span class="pun">=</span><span class="str">"#FF5566"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span><span class="pun">[</span><span class="pln">/su_box</span><span class="pun">]</span></pre>
+				</div>
+
+				<div class="span7">
+					<ul>
+					<li><i class="icon-angle-right"></i> <strong>icon:</strong> - поле для добавления иконки, для выбора используется media manager и icon picker </li>
+					<li><i class="icon-angle-right"></i> <strong>icon size:</strong> - поле для назначения размера иконки (только для текстовых иконов)</li>
+					<li><i class="icon-angle-right"></i> <strong>icon color:</strong> - поле для назначения цвета иконки</li>
+					<li><i class="icon-angle-right"></i> <strong>class:</strong> - пользовательский класс шорткода</li>
+				</ul>
+				</div>
+			</div>
+
+			<h5>Horizontal Rule <strong>(Горизонтальная разделительная линия)</strong></h5>
+			<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_hr.png"></figure>
+			<div class="row-fluid">
+
+				<div class="span5">
+					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_hr height</span><span class="pun">=</span><span class="str">"4"</span><span class="pln"> color</span><span class="pun">=</span><span class="str">"#FF5566"</span><span class="pln"> indent_top</span><span class="pun">=</span><span class="str">"30"</span><span class="pln"> indent_bottom</span><span class="pun">=</span><span class="str">"30"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span><span class="pun">[</span><span class="pln">/su_box</span><span class="pun">]</span></pre>
+				</div>
+				<div class="span7">
+					<ul>
+					<li><i class="icon-angle-right"></i> <strong>line height:</strong> - поле для назначения высоты разделителя </li>
+					<li><i class="icon-angle-right"></i> <strong>line color:</strong> - поле для назначения цвета</li>
+					<li><i class="icon-angle-right"></i> <strong>indent before:</strong> - верхний отступ</li>
+					<li><i class="icon-angle-right"></i> <strong>indent after:</strong> - нижний отступ</li>
+					<li><i class="icon-angle-right"></i> <strong>class:</strong> - пользовательский класс шорткода</li>
+				</ul>
+				</div>
+			</div>
+
+			<h5>Title Box <strong>(Заголовок)</strong></h5>
+			<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_hr.png"></figure>
+			<div class="row-fluid">
+				<div class="span5">
+					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_title_box title</span><span class="pun">=</span><span class="str">"Hello this is title"</span><span class="pln"> subtitle</span><span class="pun">=</span><span class="str">"This is subtitle"</span><span class="pln"> icon</span><span class="pun">=</span><span class="str">"icon: fa fa-user"</span><span class="pln"> icon_size</span><span class="pun">=</span><span class="str">"50"</span><span class="pln"> title_color</span><span class="pun">=</span><span class="str">"#333333"</span><span class="pln"> subtitle_color</span><span class="pun">=</span><span class="str">"#FF5566"</span><span class="pln"> icon_color</span><span class="pun">=</span><span class="str">"#444444"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span><span class="pun">[</span><span class="pln">/su_box</span><span class="pun">]</span></pre>
+				</div>
+				<div class="span7">
+				<p>Отображает двойной заголовок: основной и дополнительный тексты названия</p>
+					<ul>
+					<li><i class="icon-angle-right"></i> <strong>title:</strong> - содержание заголовка </li>
+					<li><i class="icon-angle-right"></i> <strong>subtitle:</strong> - содержание подзаголовка</li>
+					<li><i class="icon-angle-right"></i> <strong>icon:</strong> - поле для добавления иконки, для выбора используется media manager и icon picker </li>
+					<li><i class="icon-angle-right"></i> <strong>icon size:</strong> - поле для назначения размера иконки (только для текстовых иконов)</li>
+					<li><i class="icon-angle-right"></i> <strong>icon color:</strong> - поле для назначения цвета иконки</li>
+					<li><i class="icon-angle-right"></i> <strong>title color:</strong> - поле для назначения цвета заголовка</li>
+					<li><i class="icon-angle-right"></i> <strong>subtitle color:</strong> - поле для назначения цвета подзаголовка</li>
+					<li><i class="icon-angle-right"></i> <strong>class:</strong> - пользовательский класс шорткода</li>
+				</ul>
+				</div>
+			</div>
+
 		</article>
 
 		<article id="lightbox">
@@ -1606,6 +1755,12 @@
 		</article>
 	</section>
 
+	<!-- Shortcodes Editor begin -->
+	<section class="block-templates" id="shortcodes_editor">
+		<h2 class="item7"><i class="icon-crop"></i> Редактор шорткодов</h2>
+		<p>Text</p>
+	</section>
+
 	<!-- Plugins begin -->
 	<section class="block-templates" id="cherry_plugins">
 		<h2 class="item8"><i class="icon-magnet"></i> Плагины</h2>
@@ -1616,12 +1771,12 @@
 			<p>Плагин для создания уникального шаблона вывода шорткода</p>
 			<div class="row">
 				<figure class="img-paraloid pull-left"><img src="img/wordpress/1shortcode-editor-panel.png" alt=""></figure>
-				<p class="muted text-center"></p>
-				<ol>
+					<p class="muted text-center"></p>
+					<ol>
 					<li>Войдите в панель управления WordPress.</li>
 					<li>Откройте вкладку <strong>Appearance (Внешний вид)</strong>.</li>
 					<li>Перейдите в <strong>Shortcodes Templater</strong></li>
-				</ol>
+					</ol>
 			</div>
 			<p>Если вы не создавали собственных шаблонов перед Вами выводится только приветсвие </p>
 			<figure class="img-paraloid"><img src="img/wordpress/1shortcode-editor-first.png" alt=""></figure>
