@@ -1769,7 +1769,7 @@
 			<h4>Content</h4>
 
 			<h5>Post grid <strong>(Вывод постов)</strong></h5>
-			<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_button.png"></figure>
+			<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_post.png"></figure>
 			<div class="row-fluid">
 				<div class="span5">
 					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_posts id</span><span class="pun">=</span><span class="str">"1,2,3,4"</span><span class="pln"> posts_per_page</span><span class="pun">=</span><span class="str">"6"</span><span class="pln"> post_type</span><span class="pun">=</span><span class="str">"post,page"</span><span class="pln"> tax_operator</span><span class="pun">=</span><span class="str">"1"</span><span class="pln"> author</span><span class="pun">=</span><span class="str">"admin"</span><span class="pln"> offset</span><span class="pun">=</span><span class="str">"15"</span><span class="pln"> order</span><span class="pun">=</span><span class="str">"asc"</span><span class="pln"> orderby</span><span class="pun">=</span><span class="str">"id"</span><span class="pln"> post_parent</span><span class="pun">=</span><span class="str">"post_parent"</span><span class="pln"> post_status</span><span class="pun">=</span><span class="str">"pending"</span><span class="pln"> content_length</span><span class="pun">=</span><span class="str">"60"</span><span class="pln"> col_xs</span><span class="pun">=</span><span class="str">"12"</span><span class="pln"> col_sm</span><span class="pun">=</span><span class="str">"12"</span><span class="pln"> col_md</span><span class="pun">=</span><span class="str">"12"</span><span class="pln"> col_lg</span><span class="pun">=</span><span class="str">"12"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pln"> template</span><span class="pun">=</span><span class="str">"posts_2.tmpl"</span><span class="pun">]</span></pre>
@@ -1777,7 +1777,7 @@
 				<div class="span7">
 					<p>Выводит содержимое постов с возможность сортировки и указания дополнительных параметров</p>
 					<ul>
-						<li><i class="icon-angle-right"></i> <strong>Post ID's:</strong> - поле для ввода ID поста</li>
+						<li><i class="icon-angle-right"></i> <strong>Post ID's:</strong> - поле для перечисления ID постов, которые будут выводится</li>
 						<li><i class="icon-angle-right"></i> <strong>Posts per page:</strong> - поле для ввода значения определяющего количество выводимых постов на странице</li>
 						<li><i class="icon-angle-right"></i> <strong>Post types:</strong> - тип выводимых постов, возможность множественного выбора</li>
 						<li><i class="icon-angle-right"></i> <strong>Taxonomy:</strong> - Выбор таксономии</li>
@@ -1806,7 +1806,7 @@
 			</div>
 
 			<h5>Cherry Grid <strong>(Сетка)</strong></h5>
-			<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_hr.png"></figure>
+			<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_grid.png"></figure>
 			<div class="row-fluid">
 				<div class="span5">
 					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">cherry_grid num</span><span class="pun">=</span><span class="str">"8"</span><span class="pln"> post_type</span><span class="pun">=</span><span class="str">"service"</span><span class="pln"> type</span><span class="pun">=</span><span class="str">"columns"</span><span class="pln"> gutter</span><span class="pun">=</span><span class="str">"25"</span><span class="pln"> columns</span><span class="pun">=</span><span class="str">"4"</span><span class="pln"> initial_size</span><span class="pun">=</span><span class="str">"240"</span><span class="pln"> thumbnail_size</span><span class="pun">=</span><span class="str">"100"</span><span class="pln"> button_text</span><span class="pun">=</span><span class="str">"More"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pln"> template</span><span class="pun">=</span><span class="str">"default.tmpl"</span><span class="pun">]</span></pre>
@@ -1832,7 +1832,7 @@
 			</div>
 
 			<h5>Portfolio <strong>(Портфолио)</strong></h5>
-			<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_hr.png"></figure>
+			<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_portfolio.png"></figure>
 			<div class="row-fluid">
 				<div class="span5">
 					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">cherry_portfolio listing_layout</span><span class="pun">=</span><span class="str">"grid-layout"</span><span class="pln"> loading_mode</span><span class="pun">=</span><span class="str">"portfolio-more-button-mode"</span><span class="pln"> loading_animation</span><span class="pun">=</span><span class="str">"loading-animation-flip"</span><span class="pln"> filter_visible</span><span class="pun">=</span><span class="str">"no"</span><span class="pln"> posts_per_page</span><span class="pun">=</span><span class="str">"6"</span><span class="pln"> grid_col</span><span class="pun">=</span><span class="str">"4"</span><span class="pln"> item_margin</span><span class="pun">=</span><span class="str">"12"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pln"> template</span><span class="pun">=</span><span class="str">"default.tmpl"</span><span class="pun">]</span></pre>
@@ -1853,11 +1853,204 @@
 				</div>
 			</div>
 
+			<h5>Services <strong>(Сервисы)</strong></h5>
+			<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_services.png"></figure>
+			<div class="row-fluid">
+				<div class="span5">
+					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_services limit</span><span class="pun">=</span><span class="str">"4"</span><span class="pln"> order</span><span class="pun">=</span><span class="str">"asc"</span><span class="pln"> orderby</span><span class="pun">=</span><span class="str">"title"</span><span class="pln"> id</span><span class="pun">=</span><span class="str">"1,2,3,4"</span><span class="pln"> show_title</span><span class="pun">=</span><span class="str">"no"</span><span class="pln"> size</span><span class="pun">=</span><span class="str">"60"</span><span class="pln"> excerpt_length</span><span class="pun">=</span><span class="str">"30"</span><span class="pln"> button_text</span><span class="pun">=</span><span class="str">"More"</span><span class="pln"> order_button_text</span><span class="pun">=</span><span class="str">"Order now"</span><span class="pln"> layout</span><span class="pun">=</span><span class="str">"pricing-table"</span><span class="pln"> col_xs</span><span class="pun">=</span><span class="str">"8"</span><span class="pln"> col_sm</span><span class="pun">=</span><span class="str">"6"</span><span class="pln"> col_md</span><span class="pun">=</span><span class="str">"6"</span><span class="pln"> col_md</span><span class="pun">=</span><span class="str">"12"</span><span class="pln"> col_lg</span><span class="pun">=</span><span class="str">"6"</span><span class="pln"> template</span><span class="pun">=</span><span class="str">"pricing-table.tmpl"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom-class"</span><span class="pun">]</span></pre>
+				</div>
+				<div class="span7">
+				<p>Отображает двойной заголовок: основной и дополнительный тексты названия</p>
+				<ul>
+					<li><i class="icon-angle-right"></i> <strong>limit:</strong> - значение лимита на количество выводимых сервисов</li>
+					<li><i class="icon-angle-right"></i> <strong>order:</strong> - значение сортировки по возрастанию / убыванию</li>
+					<li><i class="icon-angle-right"></i> <strong>order by:</strong> - значение сортировки по параметру</li>
+					<li><i class="icon-angle-right"></i> <strong>post ID's:</strong> - поле для перечисления ID постов, которые будут выводится</li>
+					<li><i class="icon-angle-right"></i> <strong>show service title?:</strong> - убрать или показать заголовок сервиса</li>
+					<li><i class="icon-angle-right"></i> <strong>show media:</strong> - выбор типа дополнительного медиаконтента для вывода</li>
+					<li><i class="icon-angle-right"></i> <strong>featured image size:</strong> - размер миниатюры прикрепленной к посту</li>
+					<li><i class="icon-angle-right"></i> <strong>excerpt length:</strong> - значение количества слов для вывода отрывка поста</li>
+					<li><i class="icon-angle-right"></i> <strong>read more button text:</strong> - текст кнопки "переход в детальное описание"</li>
+					<li><i class="icon-angle-right"></i> <strong>order button text:</strong> - тест кнопки заказа</li>
+					<li><i class="icon-angle-right"></i> <strong>layout type:</strong> - тип представления шорткода</li>
+					<li><i class="icon-angle-right"></i> <strong>column class:</strong> - поле для назначения размера контейнера, с возможностью указания размера для разных разрешений</li>
+					<li><i class="icon-angle-right"></i> <strong>template:</strong> - выбор шаблона для вывода шорткода</li>
+					<li><i class="icon-angle-right"></i> <strong>class:</strong> - пользовательский класс шорткода</li>
+				</ul>
+				</div>
+			</div>
+
+			<h5>Team <strong>(Команда)</strong></h5>
+			<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_team.png"></figure>
+			<div class="row-fluid">
+				<div class="span5">
+					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_team limit</span><span class="pun">=</span><span class="str">"4"</span><span class="pln"> order</span><span class="pun">=</span><span class="str">"asc"</span><span class="pln"> orderby</span><span class="pun">=</span><span class="str">"title"</span><span class="pln"> id</span><span class="pun">=</span><span class="str">"1,2,3,4"</span><span class="pln"> show_name</span><span class="pun">=</span><span class="str">"no"</span><span class="pln"> show_photo</span><span class="pun">=</span><span class="str">"no"</span><span class="pln"> size</span><span class="pun">=</span><span class="str">"150"</span><span class="pln"> excerpt_length</span><span class="pun">=</span><span class="str">"30"</span><span class="pln"> col_xs</span><span class="pun">=</span><span class="str">"8"</span><span class="pln"> col_sm</span><span class="pun">=</span><span class="str">"6"</span><span class="pln"> col_md</span><span class="pun">=</span><span class="str">"6"</span><span class="pln"> col_md</span><span class="pun">=</span><span class="str">"12"</span><span class="pln"> col_lg</span><span class="pun">=</span><span class="str">"6"</span><span class="pln"> template</span><span class="pun">=</span><span class="str">"default.tmpl"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom-class"</span><span class="pun">]</span></pre>
+				</div>
+				<div class="span7">
+				<p>Отображает двойной заголовок: основной и дополнительный тексты названия</p>
+				<ul>
+					<li><i class="icon-angle-right"></i> <strong>limit:</strong> - значение лимита на количество выводимых сервисов</li>
+					<li><i class="icon-angle-right"></i> <strong>order:</strong> - значение сортировки по возрастанию / убыванию</li>
+					<li><i class="icon-angle-right"></i> <strong>order by:</strong> - значение сортировки по параметру</li>
+					<li><i class="icon-angle-right"></i> <strong>post ID's:</strong> - поле для перечисления ID постов, которые будут выводится</li>
+					<li><i class="icon-angle-right"></i> <strong>show name:</strong> - убрать или показать имя участника команды</li>
+					<li><i class="icon-angle-right"></i> <strong>show photo:</strong> - убрать или показать фото участника команды</li>
+					<li><i class="icon-angle-right"></i> <strong>photo size:</strong> - размер фотографии</li>
+					<li><i class="icon-angle-right"></i> <strong>excerpt length:</strong> - значение количества слов для вывода отрывка поста</li>
+					<li><i class="icon-angle-right"></i> <strong>column class:</strong> - поле для назначения размера контейнера, с возможностью указания размера для разных разрешений</li>
+					<li><i class="icon-angle-right"></i> <strong>template:</strong> - выбор шаблона для вывода шорткода</li>
+					<li><i class="icon-angle-right"></i> <strong>class:</strong> - пользовательский класс шорткода</li>
+				</ul>
+				</div>
+			</div>
+
+			<h5>Testimonials <strong>(Отзывы)</strong></h5>
+			<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_testimonials.png"></figure>
+			<div class="row-fluid">
+				<div class="span5">
+					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_testimonials limit</span><span class="pun">=</span><span class="str">"4"</span><span class="pln"> order</span><span class="pun">=</span><span class="str">"asc"</span><span class="pln"> orderby</span><span class="pun">=</span><span class="str">"author"</span><span class="pln"> id</span><span class="pun">=</span><span class="str">"1,2,3,4"</span><span class="pln"> display_author</span><span class="pun">=</span><span class="str">"yes"</span><span class="pln"> display_avatar</span><span class="pun">=</span><span class="str">"no"</span><span class="pln"> size</span><span class="pun">=</span><span class="str">"400"</span><span class="pln"> template</span><span class="pun">=</span><span class="str">"default.tmpl"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom-class"</span><span class="pun">]</span></pre>
+				</div>
+				<div class="span7">
+				<p>Отображает двойной заголовок: основной и дополнительный тексты названия</p>
+				<ul>
+					<li><i class="icon-angle-right"></i> <strong>limit:</strong> - значение лимита на количество выводимых сервисов</li>
+					<li><i class="icon-angle-right"></i> <strong>order:</strong> - значение сортировки по возрастанию / убыванию</li>
+					<li><i class="icon-angle-right"></i> <strong>order by:</strong> - значение сортировки по параметру</li>
+					<li><i class="icon-angle-right"></i> <strong>post ID's:</strong> - поле для перечисления ID постов, которые будут выводится</li>
+					<li><i class="icon-angle-right"></i> <strong>display author?:</strong> - убрать или показать автора</li>
+					<li><i class="icon-angle-right"></i> <strong>display avatar?:</strong> - убрать или показать аватар автора</li>
+					<li><i class="icon-angle-right"></i> <strong>avatar size:</strong> - размер аватара</li>
+					<li><i class="icon-angle-right"></i> <strong>template:</strong> - выбор шаблона для вывода шорткода</li>
+					<li><i class="icon-angle-right"></i> <strong>class:</strong> - пользовательский класс шорткода</li>
+				</ul>
+				</div>
+			</div>
+
+			<h5>Cherry Charts <strong>(Инфографика)</strong></h5>
+			<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_charts.png"></figure>
+			<div class="row-fluid">
+				<div class="span5">
+					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_charts id</span><span class="pun">=</span><span class="str">"5"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom-class"</span><span class="pun">]</span></pre>
+				</div>
+				<div class="span7">
+				<p>Отображает двойной заголовок: основной и дополнительный тексты названия</p>
+				<ul>
+					<li><i class="icon-angle-right"></i> <strong>chart id:</strong> - значение идентификатора инфографика</li>
+					<li><i class="icon-angle-right"></i> <strong>class:</strong> - пользовательский класс шорткода</li>
+				</ul>
+				</div>
+			</div>
 		</article>
 
-		<article id="chart">
+		<article id="media">
 			<h4>Media</h4>
-			<p>Text</p>
+
+			<h5>Banner <strong>(Баннер)</strong></h5>
+			<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_banner.png"></figure>
+			<div class="row-fluid">
+				<div class="span5">
+					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_banner image</span><span class="pun">=</span><span class="str">"5"</span><span class="pln"> title</span><span class="pun">=</span><span class="str">"Banner title"</span><span class="pln"> url</span><span class="pun">=</span><span class="str">"http://example.com"</span><span class="pln"> color</span><span class="pun">=</span><span class="str">"#7e2331"</span><span class="pln"> bg_color</span><span class="pun">=</span><span class="str">"#979797"</span><span class="pln"> template</span><span class="pun">=</span><span class="str">"image.tmpl"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom-class"</span><span class="pun">]</span><span class="pun">[</span><span class="pln">/su_banner</span><span class="pun">]</span></pre>
+				</div>
+				<div class="span7">
+				<p>Отображает двойной заголовок: основной и дополнительный тексты названия</p>
+				<ul>
+					<li><i class="icon-angle-right"></i> <strong>banner image:</strong> - поле для выбора изображения для баннера</li>
+					<li><i class="icon-angle-right"></i> <strong>banner title:</strong> - заголовок баннера</li>
+					<li><i class="icon-angle-right"></i> <strong>banner url:</strong> - поле для указания гиперссылки</li>
+					<li><i class="icon-angle-right"></i> <strong>text color:</strong> - поле для указания цвета баннера</li>
+					<li><i class="icon-angle-right"></i> <strong>background color:</strong> - поле для указания цвета фона</li>
+					<li><i class="icon-angle-right"></i> <strong>template:</strong> - выбор шаблона для вывода шорткода</li>
+					<li><i class="icon-angle-right"></i> <strong>class:</strong> - пользовательский класс шорткода</li>
+				</ul>
+				</div>
+			</div>
+
+			<h5>Swiper carousel <strong>(Карусель)</strong></h5>
+			<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_swiper_carousel.png"></figure>
+			<div class="row-fluid">
+				<div class="span5">
+					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_swiper_carousel posts_per_page</span><span class="pun">=</span><span class="str">"9"</span><span class="pln"> post_type</span><span class="pun">=</span><span class="str">"post,portfolio"</span><span class="pln"> tax_term</span><span class="pun">=</span><span class="str">"1"</span><span class="pln"> tax_operator</span><span class="pun">=</span><span class="str">"2"</span><span class="pln"> author</span><span class="pun">=</span><span class="str">"1,2,3,4,5,6,7,8,9"</span><span class="pln"> offset</span><span class="pun">=</span><span class="str">"15"</span><span class="pln"> order</span><span class="pun">=</span><span class="str">"asc"</span><span class="pln"> orderby</span><span class="pun">=</span><span class="str">"title"</span><span class="pln"> post_parent</span><span class="pun">=</span><span class="str">"22"</span><span class="pln"> post_status</span><span class="pun">=</span><span class="str">"pending"</span><span class="pln"> ignore_sticky_posts</span><span class="pun">=</span><span class="str">"yes"</span><span class="pln"> linked_title</span><span class="pun">=</span><span class="str">"no"</span><span class="pln"> linked_image</span><span class="pun">=</span><span class="str">"no"</span><span class="pln"> content_type</span><span class="pun">=</span><span class="str">"full"</span><span class="pln"> content_length</span><span class="pun">=</span><span class="str">"66"</span><span class="pln"> button_text</span><span class="pun">=</span><span class="str">"MORE"</span><span class="pln"> crop_image</span><span class="pun">=</span><span class="str">"yes"</span><span class="pln"> crop_width</span><span class="pun">=</span><span class="str">"500"</span><span class="pln"> crop_height</span><span class="pun">=</span><span class="str">"340"</span><span class="pln"> slides_per_column</span><span class="pun">=</span><span class="str">"2"</span><span class="pln"> space_between_slides</span><span class="pun">=</span><span class="str">"15"</span><span class="pln"> swiper_duration_speed</span><span class="pun">=</span><span class="str">"400"</span><span class="pln"> swiper_loop</span><span class="pun">=</span><span class="str">"no"</span><span class="pln"> swiper_free_mode</span><span class="pun">=</span><span class="str">"yes"</span><span class="pln"> swiper_centered_slide</span><span class="pun">=</span><span class="str">"yes"</span><span class="pln"> swiper_effect</span><span class="pun">=</span><span class="str">"fade"</span><span class="pln"> swiper_pagination</span><span class="pun">=</span><span class="str">"no"</span><span class="pln"> swiper_navigation</span><span class="pun">=</span><span class="str">"yes"</span><span class="pln"> template</span><span class="pun">=</span><span class="str">"default.tmpl"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom-class"</span><span class="pun">]</span></pre>
+
+				</div>
+				<div class="span7">
+					<p>Выводит содержимое постов с возможность сортировки и указания дополнительных параметров</p>
+					<ul>
+						<li><i class="icon-angle-right"></i> <strong>posts per page:</strong> - поле для ввода значения определяющего количество выводимых постов на странице</li>
+						<li><i class="icon-angle-right"></i> <strong>post types:</strong> - тип выводимых постов, возможность множественного выбора</li>
+						<li><i class="icon-angle-right"></i> <strong>taxonomy:</strong> - Выбор таксономии</li>
+						<li><i class="icon-angle-right"></i> <strong>terms:</strong> - выбор terms из поста</li>
+						<li><i class="icon-angle-right"></i> <strong>taxonomy term operator:</strong> - taxonomy term оператор, принимает 3 значения NOT, NOT IN, AND</li>
+						<li><i class="icon-angle-right"></i> <strong>authors:</strong> - поле для перечисления авторов с запятой разделителем</li>
+						<li><i class="icon-angle-right"></i> <strong>offset:</strong> - значение величины отступов между отступами</li>
+						<li><i class="icon-angle-right"></i> <strong>order:</strong> - значение сортировки по возрастанию / убыванию</li>
+						<li><i class="icon-angle-right"></i> <strong>order by:</strong> - значение сортировки по параметру</li>
+						<li><i class="icon-angle-right"></i> <strong>post parent:</strong> - поле для ввода значения идентификатора родительского контейнера</li>
+						<li><i class="icon-angle-right"></i> <strong>post status:</strong> - статус публикации поста</li>
+						<li><i class="icon-angle-right"></i> <strong>ignore sticky:</strong> - выбор установления или игнорирования "залипающего" поста</li>
+						<li><i class="icon-angle-right"></i> <strong>linked title:</strong> - ссылка в описании заголовка</li>
+						<li><i class="icon-angle-right"></i> <strong>linked featured image:</strong> - ссылка в описании прикрепленного изображения</li>
+						<li><i class="icon-angle-right"></i> <strong>post content:</strong> - значение содержания поста</li>
+						<li><i class="icon-angle-right"></i> <strong>Content Length:</strong> - поле для указания количества слов в посте</li>
+						<li><i class="icon-angle-right"></i> <strong>button text:</strong> - содержание текста кнопки</li>
+						<li><i class="icon-angle-right"></i> <strong>using cropped image:</strong> - использовать / не использовать кадрированные изображения</li>
+						<li><i class="icon-angle-right"></i> <strong>cropping image width:</strong> - ширина откадрированного изображения</li>
+						<li><i class="icon-angle-right"></i> <strong>cropping image height:</strong> - высота откадрированного изображения</li>
+						<li><i class="icon-angle-right"></i> <strong>number slides per view:</strong> - поле для указания количества выводимых слайдов за один прокрут</li>
+						<li><i class="icon-angle-right"></i> <strong>multi Row Slides Layout:</strong> - значение для указания количества рядов</li>
+						<li><i class="icon-angle-right"></i> <strong>space Between Slides:</strong> - поле для ввода значения расстояния между слайдами</li>
+						<li><i class="icon-angle-right"></i> <strong>duration of transition:</strong> - поле для ввода значения продолжительности перехода между слайдами</li>
+						<li><i class="icon-angle-right"></i> <strong>slider Infinite Loop:</strong> - включить / отключить бесконечное проигрывание слайдов</li>
+						<li><i class="icon-angle-right"></i> <strong>free Mode sliding:</strong> - включить / отключить режим фиксации положения слайдов</li>
+						<li><i class="icon-angle-right"></i> <strong>grab Cusor:</strong> - включить / отключить курсор перетаскивания</li>
+						<li><i class="icon-angle-right"></i> <strong>mousewheel Control:</strong> - включить / отключить прокрутку слайдов скролом</li>
+						<li><i class="icon-angle-right"></i> <strong>centered Slides:</strong> - включить / отключить центрирование слайдов</li>
+						<li><i class="icon-angle-right"></i> <strong>effect Layout:</strong> - эффект перехода между слайдами</li>
+						<li><i class="icon-angle-right"></i> <strong>slider pagination:</strong> - включить / отключить навигацию по слайдам</li>
+						<li><i class="icon-angle-right"></i> <strong>slider navigation:</strong> - включить / отключить пагинацию по слайдам</li>
+						<li><i class="icon-angle-right"></i> <strong>class:</strong> - пользовательский класс шорткода</li>
+						<li><i class="icon-angle-right"></i> <strong>template:</strong> - назначение шаблона для вывода содержимого шорткода</li>
+					</ul>
+				</div>
+			</div>
+
+			<h5>Parallax image <strong>(Параллакс изображение)</strong></h5>
+			<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_parallax_image.png"></figure>
+			<div class="row-fluid">
+				<div class="span5">
+					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_paralax_image bg_imag</span><span class="pun">=</span><span class="str">"http://192.168.9.26/cherry/wp-content/uploads/2015/04/header-about-bg.jpg"</span><span class="pln"> speed</span><span class="pun">=</span><span class="str">"2.5"</span><span class="pln"> invert</span><span class="pun">=</span><span class="str">"yes"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom-class"</span><span class="pun">]</span></pre>
+				</div>
+				<div class="span7">
+				<p>Отображает двойной заголовок: основной и дополнительный тексты названия</p>
+				<ul>
+					<li><i class="icon-angle-right"></i> <strong>parallax image:</strong> - поле выбора изображения для паралакса</li>
+					<li><i class="icon-angle-right"></i> <strong>paralax speed:</strong> - скорость параллакса</li>
+					<li><i class="icon-angle-right"></i> <strong>banner url:</strong> - поле для указания гиперссылки</li>
+					<li><i class="icon-angle-right"></i> <strong>paralax invert:</strong> - включить / отключить параллакс инверсию</li>
+					<li><i class="icon-angle-right"></i> <strong>class:</strong> - пользовательский класс шорткода</li>
+				</ul>
+				</div>
+			</div>
+
+			<h5>Parallax image <strong>(Параллакс изображение)</strong></h5>
+			<figure class="img-paraloid"><img alt="" src="img/wordpress/shortcode_testimonials.png"></figure>
+			<div class="row-fluid">
+				<div class="span5">
+					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_paralax_image bg_imag</span><span class="pun">=</span><span class="str">"http://192.168.9.26/cherry/wp-content/uploads/2015/04/header-about-bg.jpg"</span><span class="pln"> speed</span><span class="pun">=</span><span class="str">"2.5"</span><span class="pln"> invert</span><span class="pun">=</span><span class="str">"yes"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom-class"</span><span class="pun">]</span></pre>
+				</div>
+				<div class="span7">
+				<p>Отображает двойной заголовок: основной и дополнительный тексты названия</p>
+				<ul>
+					<li><i class="icon-angle-right"></i> <strong>parallax image:</strong> - поле выбора изображения для паралакса</li>
+					<li><i class="icon-angle-right"></i> <strong>paralax speed:</strong> - скорость параллакса</li>
+					<li><i class="icon-angle-right"></i> <strong>banner url:</strong> - поле для указания гиперссылки</li>
+					<li><i class="icon-angle-right"></i> <strong>paralax invert:</strong> - включить / отключить параллакс инверсию</li>
+					<li><i class="icon-angle-right"></i> <strong>class:</strong> - пользовательский класс шорткода</li>
+				</ul>
+				</div>
+			</div>
+
+
+
 		</article>
 
 		<article id="components">
@@ -1885,7 +2078,7 @@
 			</div>
 		</article>
 
-		<article id="chart">
+		<article id="other">
 			<h4>Other</h4>
 			<p>Text</p>
 		</article>
