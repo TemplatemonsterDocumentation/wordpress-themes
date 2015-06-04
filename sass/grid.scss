@@ -1,0 +1,152 @@
+﻿@import "_normalize.scss";
+@import "_mixins.scss";
+
+// Core variables and mixins
+
+// -------------------------
+$gridColumns: 12;
+
+//Default 1200px min
+$gridColumnWidth: 70px;
+$gridGutterWidth: 30px;
+
+//940px grid
+$gridColumnWidth980: 60px;
+$gridGutterWidth980: 20px;
+
+// 768px-979px
+$gridColumnWidth768: 44px;
+$gridGutterWidth768: 20px;
+
+// Fluid
+$fluidGridColumnWidth: 8.3333333333333333333%;
+
+@mixin buildGrid($gridColumnWidth, $gridGutterWidth) {
+
+  .container, .container-fluid {
+    width: ($gridColumnWidth * $gridColumns) + ($gridGutterWidth * ($gridColumns - 1));
+  }
+
+  .container {
+    .row {
+      margin-left: $gridGutterWidth * -1;
+    }
+
+    [class*="grid_"] {
+      float: left;
+      min-height: 1px; // prevent collapsing columns
+      margin-left: $gridGutterWidth;
+    }
+
+    @for $i from 1 to $gridColumns + 1 {
+      .grid_#{$i} {
+        width: ($gridColumnWidth * $i) + ($gridGutterWidth * ($i - 1));
+      }
+    }
+
+    @for $i from 1 to $gridColumns + 1 {
+      .preffix_#{$i} {
+        margin-left: ($gridColumnWidth * $i) + ($gridGutterWidth * ($i + 1));
+      }
+    }
+  }
+}
+
+// Grid System
+// -----------
+.container, .container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  @include box-sizing(border-box);
+  @extend %clearfix;
+}
+
+.row {
+  @extend %clearfix;
+}
+
+/*===============   Fluid grid    ====================*/
+.container-fluid {
+  [class*="grid_"] {
+    float: left;
+    width: $fluidGridColumnWidth;
+    min-height: 1px; // prevent collapsing columns
+  }
+}
+
+@for $i from 1 to $gridColumns + 1 {
+  .container-fluid{
+    .grid_#{$i} {
+      width: ($fluidGridColumnWidth * $i);
+    }
+  }
+}
+
+@for $i from 1 to $gridColumns + 1 {
+  .container-fluid .preffix_#{$i} {
+    margin-left: ($gridColumnWidth * $i);
+  }
+}
+
+@include buildGrid($gridColumnWidth, $gridGutterWidth);
+
+@media (min-width: 980px) and (max-width: 1199px) {
+  @include buildGrid($gridColumnWidth980, $gridGutterWidth980);
+}
+
+@media (min-width: 768px) and (max-width: 979px) {
+  @include buildGrid($gridColumnWidth768, $gridGutterWidth768);
+}
+
+@media (max-width: 767px) {
+  .container, .container-fluid {
+    width: 420px;
+    padding: 0;
+  }
+  .container .row {
+    margin-left: 0;
+  }
+
+  .row + .row,
+  [class*="grid_"] + [class*="grid_"] {
+    margin-top: 30px;
+  }
+
+  .container, .container-fluid {
+    [class*="grid_"] {
+      float: none;
+      display: block;
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+}
+
+@media (max-width: 479px) {
+  body {
+    padding: 0;
+  }
+
+  .container, .container-fluid {
+    width: 300px;
+    padding: 0 15px;
+  }
+
+  .row {
+    margin-left: 0;
+  }
+}
+
+%clearfix {
+  &:before,
+  &:after {
+    display: table;
+    content: "";
+    line-height: 0;
+  }
+
+  &:after {
+    clear: both;
+  }
+}
+

@@ -1,0 +1,116 @@
+/*==================== Navbar ====================*/
+.select {
+	float: left;
+	position: relative;
+	width: 75px;
+	height: 42px;
+	font-size: 14px;
+	line-height: 40px;
+	color: #565656;
+	background: #ffffff;
+	border-radius: 3px;
+
+	select { display: none; }
+
+	.pseudo-select {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		box-sizing: border-box;
+		padding: 0 0 0 13px;
+		overflow: hidden;
+		border-radius: 3px;
+		background: #ffffff;
+		cursor: pointer;
+		box-shadow: 4px 4px 7px 0px rgba(0,0,0,0.12);
+
+		&:before {
+			content: "\f0d7";
+			font-family: FontAwesome;
+			position: absolute;
+			top: 0;
+			right: 12px;
+			font-size: 16px;
+			color: #bbbbbb;
+			@include transition(.3s);
+		}
+	}
+
+	.pseudo-dropdown {
+		position: absolute;
+		left: 0;
+		right: 0;
+		top: 100%;
+		margin-top: -4px;
+		
+		overflow: hidden;
+		background: #fff;
+		border-bottom-left-radius: 3px;
+		border-bottom-right-radius: 3px;
+
+		box-shadow: 4px 4px 7px 0px rgba(0,0,0,0.12);
+
+		li {
+			a {
+				display: block;
+				color: inherit;
+				box-sizing: border-box;
+				opacity: 0;
+				height: 0;
+				padding: 0 0 0 13px;
+				line-height: 26px;
+				@include transition(.3s);
+			}
+
+			&.selected, &:hover a {
+				color: #009688;
+				background: #eeeeee;
+			}
+		}
+	}
+
+	&.opened {
+		.pseudo-select {    
+			&:before {
+				transform: rotate(180deg);
+			}
+		}
+
+        .pseudo-dropdown {
+        	padding: 10px 0 6px 0;
+        	border-top: 1px solid #d2d2d2;
+        	li a {
+				opacity: 1;
+				height: 26px;
+            	@include animation(open .3s 1 forwards);
+            }
+        }
+
+        @include keyframes(open) {
+            0% {
+				opacity: 0;
+				height: 0;
+            }
+
+            20% {
+				opacity: 0;
+            }
+
+            60% {
+				opacity: 0.5;
+				height: 26px;
+            }
+
+            100% {
+				opacity: 1;
+				height: 26px;
+            }
+        }
+	}
+
+	& + .select {
+		margin-left: 20px;
+	}
+}

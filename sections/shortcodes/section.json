@@ -1,0 +1,54 @@
+{	
+	"id":"shortcodes",
+	"translations":
+	{
+		"en":"Shortcodes",
+		"ru":"Шорткоды"
+	},
+	"articles":
+	[		
+		{
+			"id":"grid-shortcodes",
+			"translations":{
+				"en":"Grid",
+				"ru":"Шорткоды Сетки"
+			}
+		},
+		{
+			"id":"typography",
+			"translations":{
+				"en":"Typography",
+				"ru":"Типографика"
+			}
+		},
+		{
+			"id":"content",
+			"translations":{
+				"en":"Content",
+				"ru":"Контент"
+			}
+		},
+		{
+			"id":"media",
+			"translations":{
+				"en":"Media",
+				"ru":"Медиа"
+			}
+		},
+		{
+			"id":"components",
+			"translations":{
+				"en":"Сomponents",
+				"ru":"Компоненты"
+			}
+		},
+		{
+			"id":"other",
+			"translations":{
+				"en":"Other",
+				"ru":"Другие"
+			}
+		}
+		
+	]
+}

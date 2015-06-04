@@ -1,0 +1,130 @@
+/*==========================================================
+                        SCHEMES
+==========================================================*/
+.scheme-1 {
+	.stuck { background: nth($section-schemes, 2); }
+	.rd-mobilemenu_ul { background: nth($sidebar-schemes, 2); }
+	.rd-mobilemenu_ul a:hover,
+	.rd-mobilemenu_ul .open:hover,
+	.rd-mobilemenu_ul li.opened > a,
+	.rd-mobilemenu_ul li.opened .open,
+	.rd-mobilemenu_ul li.active {
+		color: lighten(desaturate(adjust_hue(nth($sidebar-schemes, 2), -0.6098901098901024), 1.6079965232507334%), 22.745098039215684%);
+	}
+}
+
+.scheme-2 {
+	.stuck { background: nth($section-schemes, 3); }
+	.rd-mobilemenu_ul { background: nth($sidebar-schemes, 3); }
+	.rd-mobilemenu_ul a:hover,
+	.rd-mobilemenu_ul .open:hover,
+	.rd-mobilemenu_ul li.opened > a,
+	.rd-mobilemenu_ul li.opened .open,
+	.rd-mobilemenu_ul li.active {
+		color: lighten(desaturate(adjust_hue(nth($sidebar-schemes, 3), -0.6098901098901024), 1.6079965232507334%), 22.745098039215684%);
+	}
+}
+
+.scheme-3 {
+	.stuck { background: nth($section-schemes, 4); }
+	.rd-mobilemenu_ul { background: nth($sidebar-schemes, 4); }
+	.rd-mobilemenu_ul a:hover,
+	.rd-mobilemenu_ul .open:hover,
+	.rd-mobilemenu_ul li.opened > a,
+	.rd-mobilemenu_ul li.opened .open,
+	.rd-mobilemenu_ul li.active {
+		color: lighten(desaturate(adjust_hue(nth($sidebar-schemes, 4), -0.6098901098901024), 1.6079965232507334%), 22.745098039215684%);
+	}
+}
+
+.scheme-4 {
+	.stuck { background: nth($section-schemes, 5); }
+	.rd-mobilemenu_ul { background: nth($sidebar-schemes, 5); }
+	.rd-mobilemenu_ul a:hover,
+	.rd-mobilemenu_ul .open:hover,
+	.rd-mobilemenu_ul li.opened > a,
+	.rd-mobilemenu_ul li.opened .open,
+	.rd-mobilemenu_ul li.active {
+		color: lighten(desaturate(adjust_hue(nth($sidebar-schemes, 5), -0.6098901098901024), 1.6079965232507334%), 22.745098039215684%);
+	}
+}
+
+.scheme-5 {
+	.stuck { background: nth($section-schemes, 6); }
+	.rd-mobilemenu_ul { background: nth($sidebar-schemes, 6); }
+	.rd-mobilemenu_ul a:hover,
+	.rd-mobilemenu_ul .open:hover,
+	.rd-mobilemenu_ul li.opened > a,
+	.rd-mobilemenu_ul li.opened .open,
+	.rd-mobilemenu_ul li.active {
+		color: lighten(desaturate(adjust_hue(nth($sidebar-schemes, 6), -0.6098901098901024), 1.6079965232507334%), 22.745098039215684%);
+	}
+}
+
+.scheme-6 {
+	.stuck { background: nth($section-schemes, 7); }
+	.rd-mobilemenu_ul { background: nth($sidebar-schemes, 7); }
+	.rd-mobilemenu_ul a:hover,
+	.rd-mobilemenu_ul .open:hover,
+	.rd-mobilemenu_ul li.opened > a,
+	.rd-mobilemenu_ul li.opened .open,
+	.rd-mobilemenu_ul li.active {
+		color: lighten(desaturate(adjust_hue(nth($sidebar-schemes, 7), -0.6098901098901024), 1.6079965232507334%), 22.745098039215684%);
+	}
+}
+
+.scheme-7 {
+	.stuck { background: nth($section-schemes, 8); }
+	.rd-mobilemenu_ul { background: nth($sidebar-schemes, 8); }
+	.rd-mobilemenu_ul a:hover,
+	.rd-mobilemenu_ul .open:hover,
+	.rd-mobilemenu_ul li.opened > a,
+	.rd-mobilemenu_ul li.opened .open,
+	.rd-mobilemenu_ul li.active {
+		color: lighten(desaturate(adjust_hue(nth($sidebar-schemes, 8), -0.6098901098901024), 1.6079965232507334%), 22.745098039215684%);
+	}
+}
+
+.scheme-8 {
+	.stuck { background: nth($section-schemes, 9); }
+	.rd-mobilemenu_ul { background: nth($sidebar-schemes, 9); }
+	.rd-mobilemenu_ul a:hover,
+	.rd-mobilemenu_ul .open:hover,
+	.rd-mobilemenu_ul li.opened > a,
+	.rd-mobilemenu_ul li.opened .open,
+	.rd-mobilemenu_ul li.active {
+		color: lighten(desaturate(adjust_hue(nth($sidebar-schemes, 9), -0.6098901098901024), 1.6079965232507334%), 22.745098039215684%);
+	}
+}
+
+.prev, .next {
+	&_wrapper {
+		&.navigated-section-1 {
+			background: nth($section-schemes, 1);
+		}
+		&.navigated-section-2 {
+			background: nth($section-schemes, 2);
+		}
+		&.navigated-section-3 {
+			background: nth($section-schemes, 3);
+		}
+		&.navigated-section-4 {
+			background: nth($section-schemes, 4);
+		}
+		&.navigated-section-5 {
+			background: nth($section-schemes, 5);
+		}
+		&.navigated-section-6 {
+			background: nth($section-schemes, 6);
+		}
+		&.navigated-section-7 {
+			background: nth($section-schemes, 7);
+		}
+		&.navigated-section-8 {
+			background: nth($section-schemes, 8);
+		}
+		&.navigated-section-9 {
+			background: nth($section-schemes, 9);
+		}
+	}
+}

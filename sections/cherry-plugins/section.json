@@ -1,0 +1,103 @@
+{	
+	"id":"cherry-plugins",
+	"translations":
+	{
+		"en":"Cherry Plugins",
+		"ru":"Плагины Cherry"
+	},
+	"articles":
+	[				
+		{
+			"id":"shortcode-template-editor",
+			"translations":{
+				"en":"Shortcode Template Editor",
+				"ru":"Shortcode Template Editor"
+			}
+		},		
+		{
+			"id":"cherry-shortcodes-ultimate",
+			"translations":{
+				"en":"Shortcodes Ultimate",
+				"ru":"Shortcodes Ultimate"
+			}
+		},
+		{
+			"id":"cherry-services",
+			"translations":{
+				"en":"Services",
+				"ru":"Services"
+			}
+		},		
+		{
+			"id":"charts",
+			"translations":{
+				"en":"Charts",
+				"ru":"Charts"
+			}
+		},		
+		{
+			"id":"cherry-data-manager",
+			"translations":{
+				"en":"Data Manager",
+				"ru":"Data Manager"
+			}
+		},
+		{
+			"id":"cherry-team",
+			"translations":{
+				"en":"Team",
+				"ru":"Team"
+			}
+		},
+		{
+			"id":"cherry-testimonials",
+			"translations":{
+				"en":"Testimonials",
+				"ru":"Testimonials"
+			}
+		},
+		{
+			"id":"cherry-portfolio",
+			"translations":{
+				"en":"Portfolio Plugin",
+				"ru":"Portfolio Plugin"
+			}
+		},
+		{
+			"id":"cherry-megamenu",
+			"translations":{
+				"en":"Megamenu",
+				"ru":"Megamenu"
+			}
+		},
+		{
+			"id":"cherry-simple-slider",
+			"translations":{
+				"en":"Simple Slider",
+				"ru":"Simple Slider"
+			}
+		},
+		{
+			"id":"sidebar-manager",
+			"translations":{
+				"en":"Sidebar Manager",
+				"ru":"Редактор Сайдбаров"
+			}
+		},
+		{
+			"id":"cherry-social",
+			"translations":{
+				"en":"Social",
+				"ru":"Социальные сервисы"
+			}
+		},
+		{
+			"id":"cherry-grid",
+			"translations":{
+				"en":"Grid",
+				"ru":"Сетка"
+			}
+		}
+
+	]
+}

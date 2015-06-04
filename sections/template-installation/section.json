@@ -1,0 +1,32 @@
+{	
+	"id":"template-installation",
+	"translations":
+	{
+		"en":"Template Installation",
+		"ru":"Установка Шаблона"
+	},
+	"articles":
+	[		
+		{
+			"id":"cherry-wizard",
+			"translations":{
+				"en":"Automatic installation using <br> Cherry Wizard",
+				"ru":"Автоматическая установка через <br> Cherry Wizard"
+			}
+		},		
+		{
+			"id":"manual-install",
+			"translations":{
+				"en":"Manual Installation",
+				"ru":"Ручная установка"
+			}
+		},
+		{
+			"id":"engine-installation",
+			"translations":{
+				"en":"WordPress Engine Installation",
+				"ru":"Установка движка WordPress"
+			}
+		}	
+	]
+}

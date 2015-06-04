@@ -1,0 +1,2 @@
+<h2 class="item5"><i class="icon-cogs"></i> Cherry Options </h2>
+		<p>Cherry Framework 4 contains vast number of theme configuration options. You can configure various aspects of your Wordpress website behavior and appearance. Cherry Options consists of several sections:</p>

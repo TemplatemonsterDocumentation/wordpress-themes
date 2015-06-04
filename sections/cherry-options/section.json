@@ -1,0 +1,116 @@
+{	
+	"id":"cherry-options",
+	"translations":
+	{
+		"en":"Cherry Options",
+		"ru":"Настройки Cherry"
+	},
+	"articles":
+	[			
+		{
+			"id":"option-general",
+			"translations":{
+				"en":"General",
+				"ru":"Общие"
+			}
+		},		
+		{
+			"id":"option-static-editor",
+			"translations":{
+				"en":"Static Areas",
+				"ru":"Статичные области"
+			}
+		},		
+		{
+			"id":"option-grid",
+			"translations":{
+				"en":"Grid",
+				"ru":"Сетка"
+			}
+		},		
+		{
+			"id":"option-blog",
+			"translations":{
+				"en":"Blog",
+				"ru":"Блог"
+			}
+		},		
+		{
+			"id":"option-blog-post",
+			"translations":{
+				"en":"Blog Post",
+				"ru":"Пост"
+			}
+		},		
+		{
+			"id":"option-blog-meta",
+			"translations":{
+				"en":"Blog Meta",
+				"ru":"Мета"
+			}
+		},		
+		{
+			"id":"option-styling",
+			"translations":{
+				"en":"Styling",
+				"ru":"Стилизация"
+			}
+		},
+		{
+			"id":"option-color-schemes",
+			"translations":{
+				"en":"Color Schemes",
+				"ru":"Цветовые схемы"
+			}
+		},		
+		{
+			"id":"option-navigation",
+			"translations":{
+				"en":"Navigation",
+				"ru":"Навигация"
+			}
+		},
+		{
+			"id":"option-breadcrumbs",
+			"translations":{
+				"en":"Breadcrumbs",
+				"ru":"Breadcrumbs"
+			}
+		},
+		{
+			"id":"option-pagination",
+			"translations":{
+				"en":"Pagination",
+				"ru":"Пагинация"
+			}
+		},		
+		{
+			"id":"option-header",
+			"translations":{
+				"en":"Header",
+				"ru":"Хедер"
+			}
+		},		
+		{
+			"id":"option-footer",
+			"translations":{
+				"en":"Footer",
+				"ru":"Футер"
+			}
+		},		
+		{
+			"id":"option-typography",
+			"translations":{
+				"en":"Typography",
+				"ru":"Типографика"
+			}
+		},
+		{
+			"id":"option-optimization",
+			"translations":{
+				"en":"Optimization",
+				"ru":"Оптимизация"
+			}
+		}		
+	]
+}
