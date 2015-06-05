@@ -7,7 +7,7 @@
 				<li>Click <strong>Categories</strong> to see all categories.</li>
 				<li>Enter new category name.</li>
 				<li>Click <strong>Add New Category</strong>.</li>
-				<li>Click<strong>Publish</strong>.</li>
+				<li>Click <strong>Publish</strong>.</li>
 			</ol>
 			<p>You can check detailed information about adding categories at <a href="http://codex.wordpress.org/Manage_Categories_SubPanel">http://codex.wordpress.org/Manage_Categories_SubPanel</a></p>
 		</article>

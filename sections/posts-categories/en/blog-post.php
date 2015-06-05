@@ -1,6 +1,6 @@
 		<!-- Blog post -->
 		<article id="blog-post">
-			<h4>Creating a blog post</h4>
+			<h4>Creating a Blog Post</h4>
 				<figure class="img-polaroid"><img src="img/wordpress/cat2.png" alt=""></figure>
 				<ol>
 					<li>Open the <strong>Posts</strong> tab.</li>
