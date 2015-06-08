@@ -236,7 +236,7 @@ function includeSection($sections, $lang, $section_param)
 				</div>
 			</div>
 		</div>
-		<div class="copyright">TemplateMonster © <a href="#">Privacy Policy</a></div>
+		<div class="copyright">TemplateMonster © <a href="http://www.templatemonster.com/privacy-policy.php">Privacy Policy</a></div>
 	</footer>
 </div>
 
