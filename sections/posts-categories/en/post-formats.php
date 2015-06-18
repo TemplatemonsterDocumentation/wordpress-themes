@@ -82,7 +82,7 @@
 			<article id="post_format_link">
 				<h4>Link</h4>
 				<figure class="img-polaroid"><img src="img/wordpress/post_format_link.png" alt=""></figure>
-				<p><strong>Link</strong> post format can be created in the visual editor by adding a <strong>(URL)</strong> in standard  post format.
+				<p><strong>Link</strong> post format can be created in the visual editor by adding a <strong>URL</strong> in standard  post format.
 				<strong>Post title</strong> will be used as the URL text.</p>
 				<figure class="img-polaroid"><img src="img/wordpress/post_format_link_variant.png" alt=""></figure>
 							<p class="muted text-center">Link with description</p>

@@ -1,14 +1,16 @@
 		<article id="content">
 			<h3>Content</h3>
 
-			<h4>Post grid</strong></h4>
-			<p>Displays posts content with possibility of sorting and additional settngs</p>
-			<figure class="img-polaroid"><img alt="" src="img/wordpress/shortcode_post.png"></figure>
+			<h4>Posts</h4>
 			<div class="row">
-				<div class="grid_5">
-					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_posts id</span><span class="pun">=</span><span class="str">"1,2,3,4"</span><span class="pln"> posts_per_page</span><span class="pun">=</span><span class="str">"6"</span><span class="pln"> post_type</span><span class="pun">=</span><span class="str">"post,page"</span><span class="pln"> tax_operator</span><span class="pun">=</span><span class="str">"1"</span><span class="pln"> author</span><span class="pun">=</span><span class="str">"admin"</span><span class="pln"> offset</span><span class="pun">=</span><span class="str">"15"</span><span class="pln"> order</span><span class="pun">=</span><span class="str">"asc"</span><span class="pln"> orderby</span><span class="pun">=</span><span class="str">"id"</span><span class="pln"> post_parent</span><span class="pun">=</span><span class="str">"post_parent"</span><span class="pln"> post_status</span><span class="pun">=</span><span class="str">"pending"</span><span class="pln"> content_length</span><span class="pun">=</span><span class="str">"60"</span><span class="pln"> col_xs</span><span class="pun">=</span><span class="str">"12"</span><span class="pln"> col_sm</span><span class="pun">=</span><span class="str">"12"</span><span class="pln"> col_md</span><span class="pun">=</span><span class="str">"12"</span><span class="pln"> col_lg</span><span class="pun">=</span><span class="str">"12"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pln"> template</span><span class="pun">=</span><span class="str">"posts_2.tmpl"</span><span class="pun">]</span></pre>
+				<div class="grid_6">
+					<figure class="img-polaroid">
+						<a href="img/wordpress/shortcode_post.png" class="pretty_image" rel="prettyPhoto[shortcodes]"><img alt="" src="img/wordpress/shortcode_post.png">
+						</a>
+					</figure>					
 				</div>
-				<div class="grid_7">
+				<div class="grid_6">
+					<p>Displays posts content with possibility of sorting and additional settngs</p>
 					<ul>
 						<li><i class="fa fa-angle-right"></i> <strong>Post ID's:</strong> - field for IDs of posts to display</li>
 						<li><i class="fa fa-angle-right"></i> <strong>Posts per page:</strong> - number of posts per page</li>
@@ -35,142 +37,180 @@
 						<li><i class="fa fa-angle-right"></i> <strong>class:</strong> - shortcode custom class</li>
 						<li><i class="fa fa-angle-right"></i> <strong>template:</strong> - shortcode template to display shortcode content</li>
 					</ul>
+					<pre class="prettyprint">[cherry_posts posts_per_page="10" post_type="post" taxonomy="category" tax_operator="0" offset="0" order="desc" orderby="date" post_status="publish" ignore_sticky_posts="yes" linked_title="yes" linked_image="yes" image_size="thumbnail" content_type="part" content_length="55" button_text="read more" col_xs="12" col_sm="6" col_md="3" col_lg="3" template="default.tmpl"]</pre>
 				</div>
 			</div>
 
-			<h4>Cherry Grid</h4>
-			<p>Displays content in a chosen grid style</p>
-			<figure class="img-polaroid"><img alt="" src="img/wordpress/shortcode_grid.png"></figure>
+			<h4>Grid</h4>		
 			<div class="row">
-				<div class="grid_5">
-					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">cherry_grid num</span><span class="pun">=</span><span class="str">"8"</span><span class="pln"> post_type</span><span class="pun">=</span><span class="str">"service"</span><span class="pln"> type</span><span class="pun">=</span><span class="str">"columns"</span><span class="pln"> gutter</span><span class="pun">=</span><span class="str">"25"</span><span class="pln"> columns</span><span class="pun">=</span><span class="str">"4"</span><span class="pln"> initial_size</span><span class="pun">=</span><span class="str">"240"</span><span class="pln"> thumbnail_size</span><span class="pun">=</span><span class="str">"100"</span><span class="pln"> button_text</span><span class="pun">=</span><span class="str">"More"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pln"> template</span><span class="pun">=</span><span class="str">"default.tmpl"</span><span class="pun">]</span></pre>
+				<div class="grid_6">
+					<figure class="img-polaroid">
+						<a href="img/wordpress/shortcode_grid.png" class="pretty_image" rel="prettyPhoto[shortcodes]"><img alt="" src="img/wordpress/shortcode_grid.png">
+						</a>
+					</figure>
 				</div>
-				<div class="grid_7">
+				<div class="grid_6">
+					<p>Displays content in a chosen grid style</p>
 					<ul>
-					<li><i class="fa fa-angle-right"></i> <strong>number posts:</strong> - number of displayed posts </li>
-					<li><i class="fa fa-angle-right"></i> <strong>post type:</strong> - posts type</li>
-					<li><i class="fa fa-angle-right"></i> <strong>grid layout:</strong> - grid layout type</li>
-					<li><i class="fa fa-angle-right"></i> <strong>gutter width:</strong> - items indent</li>
-					<li><i class="fa fa-angle-right"></i> <strong>columns number:</strong> - number of columns (has effect only for columns layout type)</li>
-					<li><i class="fa fa-angle-right"></i> <strong>initial item width:</strong> - initial grid item width</li>
-					<li><i class="fa fa-angle-right"></i> <strong>thumbnail size:</strong> - post thumbnail size</li>
+						<li><i class="fa fa-angle-right"></i> <strong>number posts:</strong> - number of displayed posts </li>
+						<li><i class="fa fa-angle-right"></i> <strong>post type:</strong> - posts type</li>
+						<li><i class="fa fa-angle-right"></i> <strong>grid layout:</strong> - grid layout type</li>
+						<li><i class="fa fa-angle-right"></i> <strong>gutter width:</strong> - items indent</li>
+						<li><i class="fa fa-angle-right"></i> <strong>columns number:</strong> - number of columns (has effect only for columns layout type)</li>
+						<li><i class="fa fa-angle-right"></i> <strong>initial item width:</strong> - initial grid item width</li>
+						<li><i class="fa fa-angle-right"></i> <strong>thumbnail size:</strong> - post thumbnail size</li>
 
-					<li><i class="fa fa-angle-right"></i> <strong>read more button text:</strong> - "Read More" button text</li>
+						<li><i class="fa fa-angle-right"></i> <strong>read more button text:</strong> - "Read More" button text</li>
 
 
-					<li><i class="fa fa-angle-right"></i> <strong>class:</strong> - shortcode custom class</li>
-					<li><i class="fa fa-angle-right"></i> <strong>template:</strong> - shortcode template</li>
-				</ul>
+						<li><i class="fa fa-angle-right"></i> <strong>class:</strong> - shortcode custom class</li>
+						<li><i class="fa fa-angle-right"></i> <strong>template:</strong> - shortcode template</li>
+					</ul>
+					<pre class="prettyprint">[cherry_grid num="8" post_type="post" type="flex" gutter="0" columns="3" initial_size="0" thumbnail_size="0" button_text="Read More" template="default.tmpl"]</pre>
 				</div>
 			</div>
 
 			<h4>Portfolio</h4>
-			<p>Displays portfolio posts</p>
-			<figure class="img-polaroid"><img alt="" src="img/wordpress/shortcode_portfolio.png"></figure>
 			<div class="row">
-				<div class="grid_5">
-					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">cherry_portfolio listing_layout</span><span class="pun">=</span><span class="str">"grid-layout"</span><span class="pln"> loading_mode</span><span class="pun">=</span><span class="str">"portfolio-more-button-mode"</span><span class="pln"> loading_animation</span><span class="pun">=</span><span class="str">"loading-animation-flip"</span><span class="pln"> filter_visible</span><span class="pun">=</span><span class="str">"no"</span><span class="pln"> posts_per_page</span><span class="pun">=</span><span class="str">"6"</span><span class="pln"> grid_col</span><span class="pun">=</span><span class="str">"4"</span><span class="pln"> item_margin</span><span class="pun">=</span><span class="str">"12"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pln"> template</span><span class="pun">=</span><span class="str">"default.tmpl"</span><span class="pun">]</span></pre>
+				<div class="grid_6">
+					<figure class="img-polaroid">
+						<a href="img/wordpress/shortcode_portfolio.png" class="pretty_image" rel="prettyPhoto[shortcodes]"><img alt="" src="img/wordpress/shortcode_portfolio.png">
+						</a>
+					</figure>					
 				</div>
-				<div class="grid_7">
+				<div class="grid_6">
+					<p>Displays portfolio posts</p>
 					<ul>
-					<li><i class="fa fa-angle-right"></i> <strong>portfolio listing layout:</strong> - portfolio grid layout</li>
-					<li><i class="fa fa-angle-right"></i> <strong>portfolio pagination type:</strong> - portfolio navigation type</li>
-					<li><i class="fa fa-angle-right"></i> <strong>portfolio animation type:</strong> - grid type</li>
-					<li><i class="fa fa-angle-right"></i> <strong>filter:</strong> - filter layout</li>
-					<li><i class="fa fa-angle-right"></i> <strong>post per page:</strong> - number of displayed posts</li>
-					<li><i class="fa fa-angle-right"></i> <strong>columns number:</strong> - number of columns (has effect only for columns layout type)</li>
-					<li><i class="fa fa-angle-right"></i> <strong>gutter width:</strong> - items indent</li>
-					<li><i class="fa fa-angle-right"></i> <strong>class:</strong> - shortcode custom class</li>
-					<li><i class="fa fa-angle-right"></i> <strong>template:</strong> - shortcode template</li>
-				</ul>
+						<li><i class="fa fa-angle-right"></i> <strong>portfolio listing layout:</strong> - portfolio grid layout</li>
+						<li><i class="fa fa-angle-right"></i> <strong>portfolio pagination type:</strong> - portfolio navigation type</li>
+						<li><i class="fa fa-angle-right"></i> <strong>portfolio animation type:</strong> - grid type</li>
+						<li><i class="fa fa-angle-right"></i> <strong>filter:</strong> - filter layout</li>
+						<li><i class="fa fa-angle-right"></i> <strong>post per page:</strong> - number of displayed posts</li>
+						<li><i class="fa fa-angle-right"></i> <strong>columns number:</strong> - number of columns (has effect only for columns layout type)</li>
+						<li><i class="fa fa-angle-right"></i> <strong>gutter width:</strong> - items indent</li>
+						<li><i class="fa fa-angle-right"></i> <strong>class:</strong> - shortcode custom class</li>
+						<li><i class="fa fa-angle-right"></i> <strong>template:</strong> - shortcode template</li>
+					</ul>
+					<pre class="prettyprint">[cherry_portfolio listing_layout="masonry-layout" loading_mode="portfolio-ajax-pagination-mode" loading_animation="loading-animation-move-up" filter_visible="yes" posts_per_page="9" grid_col="3" item_margin="9"]</pre>
 				</div>
 			</div>
 
 			<h4>Services</h4>
-			<p>Displays portfolio posts. Besides there is a possibility to display content as procing table и service box</p>
-			<figure class="img-polaroid"><img alt="" src="img/wordpress/shortcode_services.png"></figure>
 			<div class="row">
-				<div class="grid_5">
-					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_services limit</span><span class="pun">=</span><span class="str">"4"</span><span class="pln"> order</span><span class="pun">=</span><span class="str">"asc"</span><span class="pln"> orderby</span><span class="pun">=</span><span class="str">"title"</span><span class="pln"> id</span><span class="pun">=</span><span class="str">"1,2,3,4"</span><span class="pln"> show_title</span><span class="pun">=</span><span class="str">"no"</span><span class="pln"> size</span><span class="pun">=</span><span class="str">"60"</span><span class="pln"> excerpt_length</span><span class="pun">=</span><span class="str">"30"</span><span class="pln"> button_text</span><span class="pun">=</span><span class="str">"More"</span><span class="pln"> order_button_text</span><span class="pun">=</span><span class="str">"Order now"</span><span class="pln"> layout</span><span class="pun">=</span><span class="str">"pricing-table"</span><span class="pln"> col_xs</span><span class="pun">=</span><span class="str">"8"</span><span class="pln"> col_sm</span><span class="pun">=</span><span class="str">"6"</span><span class="pln"> col_md</span><span class="pun">=</span><span class="str">"6"</span><span class="pln"> col_md</span><span class="pun">=</span><span class="str">"12"</span><span class="pln"> col_lg</span><span class="pun">=</span><span class="str">"6"</span><span class="pln"> template</span><span class="pun">=</span><span class="str">"pricing-table.tmpl"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom-class"</span><span class="pun">]</span></pre>
+				<div class="grid_6">
+					<figure class="img-polaroid">
+						<a href="img/wordpress/shortcode_services.png" class="pretty_image" rel="prettyPhoto[shortcodes]"><img alt="" src="img/wordpress/shortcode_services.png">
+						</a>
+					</figure>				
 				</div>
-				<div class="grid_7">
-				<ul>
-					<li><i class="fa fa-angle-right"></i> <strong>limit:</strong> - minimum number of displayed services</li>
-					<li><i class="fa fa-angle-right"></i> <strong>order:</strong> - ascending/descending order</li>
-					<li><i class="fa fa-angle-right"></i> <strong>order by:</strong> - order by one of parameters</li>
-					<li><i class="fa fa-angle-right"></i> <strong>post ID's:</strong> - field for IDs of posts to display</li>
-					<li><i class="fa fa-angle-right"></i> <strong>show service title?:</strong> - display/hide the service title</li>
-					<li><i class="fa fa-angle-right"></i> <strong>show media:</strong> - additional media content type to be displayed</li>
-					<li><i class="fa fa-angle-right"></i> <strong>featured image size:</strong> - post featured image size</li>
-					<li><i class="fa fa-angle-right"></i> <strong>excerpt length:</strong> - excerpt length (if used in the post)</li>
-					<li><i class="fa fa-angle-right"></i> <strong>read more button text:</strong> - "Read More" button text</li>
-					<li><i class="fa fa-angle-right"></i> <strong>order button text:</strong> - order button text</li>
-					<li><i class="fa fa-angle-right"></i> <strong>layout type:</strong> - shortcoed layout type</li>
-					<li><i class="fa fa-angle-right"></i> <strong>column class:</strong> - container size settings with possibility to set size for different resolutions</li>
-					<li><i class="fa fa-angle-right"></i> <strong>template:</strong> - shortcode template</li>
-					<li><i class="fa fa-angle-right"></i> <strong>class:</strong> - shortcode custom class</li>
-				</ul>
+				<div class="grid_6">
+					<p>Displays portfolio posts. Besides there is a possibility to display content as procing table и service box</p>
+					<ul>
+						<li><i class="fa fa-angle-right"></i> <strong>limit:</strong> - minimum number of displayed services</li>
+						<li><i class="fa fa-angle-right"></i> <strong>order:</strong> - ascending/descending order</li>
+						<li><i class="fa fa-angle-right"></i> <strong>order by:</strong> - order by one of parameters</li>
+						<li><i class="fa fa-angle-right"></i> <strong>post ID's:</strong> - field for IDs of posts to display</li>
+						<li><i class="fa fa-angle-right"></i> <strong>show service title?:</strong> - display/hide the service title</li>
+						<li><i class="fa fa-angle-right"></i> <strong>show media:</strong> - additional media content type to be displayed</li>
+						<li><i class="fa fa-angle-right"></i> <strong>featured image size:</strong> - post featured image size</li>
+						<li><i class="fa fa-angle-right"></i> <strong>excerpt length:</strong> - excerpt length (if used in the post)</li>
+						<li><i class="fa fa-angle-right"></i> <strong>read more button text:</strong> - "Read More" button text</li>
+						<li><i class="fa fa-angle-right"></i> <strong>order button text:</strong> - order button text</li>
+						<li><i class="fa fa-angle-right"></i> <strong>layout type:</strong> - shortcoed layout type</li>
+						<li><i class="fa fa-angle-right"></i> <strong>column class:</strong> - container size settings with possibility to set size for different resolutions</li>
+						<li><i class="fa fa-angle-right"></i> <strong>template:</strong> - shortcode template</li>
+						<li><i class="fa fa-angle-right"></i> <strong>class:</strong> - shortcode custom class</li>
+					</ul>
+					<pre class="prettyprint">[cherry_services limit="3" order="desc" orderby="date" id="0" show_title="yes" show_media="icon" size="thumbnail" excerpt_length="20" button_text="Read More" order_button_text="Order" layout="boxes" col_xs="12" col_sm="6" col_md="3" col_lg="none" template="default.tmpl"]</pre>
 				</div>
 			</div>
 
-			<h4>Team</h4>
-			<p>Displays "Our team" posts</p>
-			<figure class="img-polaroid"><img alt="" src="img/wordpress/shortcode_team.png"></figure>
+			<h4>Team</h4>			
 			<div class="row">
-				<div class="grid_5">
-					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_team limit</span><span class="pun">=</span><span class="str">"4"</span><span class="pln"> order</span><span class="pun">=</span><span class="str">"asc"</span><span class="pln"> orderby</span><span class="pun">=</span><span class="str">"title"</span><span class="pln"> id</span><span class="pun">=</span><span class="str">"1,2,3,4"</span><span class="pln"> show_name</span><span class="pun">=</span><span class="str">"no"</span><span class="pln"> show_photo</span><span class="pun">=</span><span class="str">"no"</span><span class="pln"> size</span><span class="pun">=</span><span class="str">"150"</span><span class="pln"> excerpt_length</span><span class="pun">=</span><span class="str">"30"</span><span class="pln"> col_xs</span><span class="pun">=</span><span class="str">"8"</span><span class="pln"> col_sm</span><span class="pun">=</span><span class="str">"6"</span><span class="pln"> col_md</span><span class="pun">=</span><span class="str">"6"</span><span class="pln"> col_md</span><span class="pun">=</span><span class="str">"12"</span><span class="pln"> col_lg</span><span class="pun">=</span><span class="str">"6"</span><span class="pln"> template</span><span class="pun">=</span><span class="str">"default.tmpl"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom-class"</span><span class="pun">]</span></pre>
+				<div class="grid_6">
+					<figure class="img-polaroid">
+						<a href="img/wordpress/shortcode_team.png" class="pretty_image" rel="prettyPhoto[shortcodes]"><img alt="" src="img/wordpress/shortcode_team.png">
+						</a>
+					</figure>					
 				</div>
-				<div class="grid_7">
-				<ul>
-					<li><i class="fa fa-angle-right"></i> <strong>limit:</strong> - minimum number of displayed services</li>
-					<li><i class="fa fa-angle-right"></i> <strong>order:</strong> - ascending/descending order</li>
-					<li><i class="fa fa-angle-right"></i> <strong>order by:</strong> - order by one of parameters</li>
-					<li><i class="fa fa-angle-right"></i> <strong>post ID's:</strong> - field for IDs of posts to display</li>
-					<li><i class="fa fa-angle-right"></i> <strong>show name:</strong> - display/hide team members names</li>
-					<li><i class="fa fa-angle-right"></i> <strong>show photo:</strong> - display/hide team members photo</li>
-					<li><i class="fa fa-angle-right"></i> <strong>photo size:</strong> - photo size</li>
-					<li><i class="fa fa-angle-right"></i> <strong>excerpt length:</strong> - excerpt length</li>
-					<li><i class="fa fa-angle-right"></i> <strong>column class:</strong> - container size settings with possibility to set size for different resolutions</li>
-					<li><i class="fa fa-angle-right"></i> <strong>template:</strong> - shortcode template</li>
-					<li><i class="fa fa-angle-right"></i> <strong>class:</strong> - shortcode custom class</li>
-				</ul>
+				<div class="grid_6">
+					<p>Displays "Our team" posts</p>
+					<ul>
+						<li><i class="fa fa-angle-right"></i> <strong>limit:</strong> - minimum number of displayed services</li>
+						<li><i class="fa fa-angle-right"></i> <strong>order:</strong> - ascending/descending order</li>
+						<li><i class="fa fa-angle-right"></i> <strong>order by:</strong> - order by one of parameters</li>
+						<li><i class="fa fa-angle-right"></i> <strong>post ID's:</strong> - field for IDs of posts to display</li>
+						<li><i class="fa fa-angle-right"></i> <strong>show name:</strong> - display/hide team members names</li>
+						<li><i class="fa fa-angle-right"></i> <strong>show photo:</strong> - display/hide team members photo</li>
+						<li><i class="fa fa-angle-right"></i> <strong>photo size:</strong> - photo size</li>
+						<li><i class="fa fa-angle-right"></i> <strong>excerpt length:</strong> - excerpt length</li>
+						<li><i class="fa fa-angle-right"></i> <strong>column class:</strong> - container size settings with possibility to set size for different resolutions</li>
+						<li><i class="fa fa-angle-right"></i> <strong>template:</strong> - shortcode template</li>
+						<li><i class="fa fa-angle-right"></i> <strong>class:</strong> - shortcode custom class</li>
+					</ul>
+					<pre class="prettyprint">[cherry_team limit="3" order="desc" orderby="date" id="0" show_name="yes" show_photo="yes" size="thumbnail" excerpt_length="20" col_xs="12" col_sm="6" col_md="3" col_lg="none" template="default.tmpl"]</pre>
 				</div>
 			</div>
 
-			<h4>Testimonials</h4>
-			<p>Displays testimonials posts</p>
-			<figure class="img-polaroid"><img alt="" src="img/wordpress/shortcode_testimonials.png"></figure>
+			<h4>Testimonials</h4>	
 			<div class="row">
-				<div class="grid_5">
-					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_testimonials limit</span><span class="pun">=</span><span class="str">"4"</span><span class="pln"> order</span><span class="pun">=</span><span class="str">"asc"</span><span class="pln"> orderby</span><span class="pun">=</span><span class="str">"author"</span><span class="pln"> id</span><span class="pun">=</span><span class="str">"1,2,3,4"</span><span class="pln"> display_author</span><span class="pun">=</span><span class="str">"yes"</span><span class="pln"> display_avatar</span><span class="pun">=</span><span class="str">"no"</span><span class="pln"> size</span><span class="pun">=</span><span class="str">"400"</span><span class="pln"> template</span><span class="pun">=</span><span class="str">"default.tmpl"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom-class"</span><span class="pun">]</span></pre>
+				<div class="grid_6">
+					<figure class="img-polaroid">
+						<a href="img/wordpress/shortcode_testimonials.png" class="pretty_image" rel="prettyPhoto[shortcodes]"><img alt="" src="img/wordpress/shortcode_testimonials.png">
+						</a>
+					</figure>					
 				</div>
-				<div class="grid_7">
-				<ul>
-					<li><i class="fa fa-angle-right"></i> <strong>limit:</strong> - minimum number of displayed services</li>
-					<li><i class="fa fa-angle-right"></i> <strong>order:</strong> - ascending/descending order</li>
-					<li><i class="fa fa-angle-right"></i> <strong>order by:</strong> - order by one of parameters</li>
-					<li><i class="fa fa-angle-right"></i> <strong>post ID's:</strong> - field for IDs of posts to display</li>
-					<li><i class="fa fa-angle-right"></i> <strong>display author?:</strong> - display/hide author</li>
-					<li><i class="fa fa-angle-right"></i> <strong>display avatar?:</strong> - display/hide author avatar</li>
-					<li><i class="fa fa-angle-right"></i> <strong>avatar size:</strong> - avatar size</li>
-					<li><i class="fa fa-angle-right"></i> <strong>template:</strong> - shortcode template</li>
-					<li><i class="fa fa-angle-right"></i> <strong>class:</strong> - shortcode custom class</li>
-				</ul>
+				<div class="grid_6">
+					<p>Displays testimonials posts</p>
+					<ul>
+						<li><i class="fa fa-angle-right"></i> <strong>limit:</strong> - minimum number of displayed services</li>
+						<li><i class="fa fa-angle-right"></i> <strong>order:</strong> - ascending/descending order</li>
+						<li><i class="fa fa-angle-right"></i> <strong>order by:</strong> - order by one of parameters</li>
+						<li><i class="fa fa-angle-right"></i> <strong>post ID's:</strong> - field for IDs of posts to display</li>
+						<li><i class="fa fa-angle-right"></i> <strong>display author?:</strong> - display/hide author</li>
+						<li><i class="fa fa-angle-right"></i> <strong>display avatar?:</strong> - display/hide author avatar</li>
+						<li><i class="fa fa-angle-right"></i> <strong>avatar size:</strong> - avatar size</li>
+						<li><i class="fa fa-angle-right"></i> <strong>template:</strong> - shortcode template</li>
+						<li><i class="fa fa-angle-right"></i> <strong>class:</strong> - shortcode custom class</li>
+					</ul>
+					<pre class="prettyprint">[cherry_testimonials limit="3" order="desc" orderby="date" display_author="yes" display_avatar="yes" size="50" content_type="full" content_length="55" template="default.tmpl"]</pre>
 				</div>
 			</div>
 
-			<h4>Cherry Charts</strong></h4>
-			<figure class="img-polaroid"><img alt="" src="img/wordpress/shortcode_charts.png"></figure>
+			<h4>Cherry Charts</h4>			
 			<div class="row">
-				<div class="grid_5">
-					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_charts id</span><span class="pun">=</span><span class="str">"5"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom-class"</span><span class="pun">]</span></pre>
+				<div class="grid_6">
+					<figure class="img-polaroid">
+						<a href="img/wordpress/shortcode_charts.png" class="pretty_image" rel="prettyPhoto[shortcodes]"><img alt="" src="img/wordpress/shortcode_charts.png">
+						</a>
+					</figure>				
 				</div>
-				<div class="grid_7">
-				<p>Displays chart according to pre-set and set up element identification.</p>
-				<ul>
-					<li><i class="fa fa-angle-right"></i> <strong>chart id:</strong> - chart ID</li>
-					<li><i class="fa fa-angle-right"></i> <strong>class:</strong> - shortcode custom class</li>
-				</ul>
+				<div class="grid_6">
+					<p>Displays chart according to pre-set and set up element identification.</p>
+					<ul>
+						<li><i class="fa fa-angle-right"></i> <strong>chart id:</strong> - chart ID</li>
+						<li><i class="fa fa-angle-right"></i> <strong>class:</strong> - shortcode custom class</li>
+					</ul>
+					<pre class="prettyprint">[cherry_charts id="21" custom_class="chart-class"]</pre>
 				</div>
 			</div>
+
+			<h4>Sharing</h4>			
+			<div class="row">
+				<div class="grid_6">
+					<figure class="img-polaroid">
+						<a href="img/wordpress/shortcode_sharing.png" class="pretty_image" rel="prettyPhoto[shortcodes]"><img alt="" src="img/wordpress/shortcode_sharing.png">
+						</a>
+					</figure>					
+				</div>
+				<div class="grid_6">
+					<p>Renders social networks sharing block. Available only if Social plugin is active.</p>
+					<ul>
+						<li><i class="icon-angle-right"></i> <strong>networks:</strong> - select social networks</li>
+						<li><i class="icon-angle-right"></i> <strong>class:</strong> - add user custom css class</li>
+					</ul>
+					<pre class="prettyprint">[cherry_sharing networks="facebook,twitter,pinterest" custom_class="sharing-class"]</pre>
+				</div>
+			</div>
+
 		</article>

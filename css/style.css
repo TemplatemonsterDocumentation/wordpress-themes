@@ -142,6 +142,9 @@ ol {
   clear: both;
   overflow: hidden; }
 
+.label {
+  font-weight: 500; }
+
 /*=======================================================
                        Main Layout
 =========================================================*/
@@ -229,8 +232,10 @@ b, strong {
   font-weight: 500; }
 
 .files_structure li .fa {
-  margin-top: 4px;
-  margin-right: 5px; }
+  margin-top: 3px;
+  margin-right: 10px;
+  color: #2196f3;
+  font-size: 16px; }
 .files_structure li ul {
   margin-left: 20px;
   margin-top: 0; }
@@ -419,14 +424,13 @@ blockquote {
   box-sizing: border-box;
   overflow: auto;
   margin-top: 0;
+  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 18px;
   font-weight: 700;
   color: #ffffff;
   background: #2196f3;
-  -webkit-box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.22);
-  -moz-box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.22);
-  box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.22);
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.23), 0 3px 12px rgba(0, 0, 0, 0.16);
   -moz-transform: translateX(-350px);
   -ms-transform: translateX(-350px);
   -o-transform: translateX(-350px);
@@ -604,9 +608,7 @@ blockquote {
   padding-top: 120px;
   padding-bottom: 68px;
   background: #009688;
-  -webkit-box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.22);
-  -moz-box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.22);
-  box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.22); }
+  box-shadow: 0 1.5px 4px rgba(0, 0, 0, 0.24), 0 1.5px 6px rgba(0, 0, 0, 0.12); }
   .stuck .container {
     position: relative; }
   .stuck .select_wrap {
@@ -810,6 +812,17 @@ blockquote {
 /*==========================================================
                         SCHEMES
 ==========================================================*/
+.scheme-0 .stuck {
+  background: #009688; }
+.scheme-0 .rd-mobilemenu_ul {
+  background: #2196f3; }
+.scheme-0 .rd-mobilemenu_ul a:hover,
+.scheme-0 .rd-mobilemenu_ul .open:hover,
+.scheme-0 .rd-mobilemenu_ul li.opened > a,
+.scheme-0 .rd-mobilemenu_ul li.opened .open,
+.scheme-0 .rd-mobilemenu_ul li.active {
+  color: #90cbf8; }
+
 .scheme-1 .stuck {
   background: #03a9f4; }
 .scheme-1 .rd-mobilemenu_ul {

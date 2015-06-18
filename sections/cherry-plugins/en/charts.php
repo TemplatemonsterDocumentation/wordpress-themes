@@ -1,17 +1,17 @@
 		<article id="charts">
 			<h3>Charts Plugin</h3>
-			<p>Charts plugin intend for creating various charts and diagrams. Due to the reach collection of various diagram and chart types and advanced settings, you will be able to create a chart that fully fits your requirements.</p>
+			<p>The Charts plugin is used to create various charts and diagrams. The plugin's rich collection of diagram and chart types enhanced by advanced settings allows you to create a chart that fully fits your requirements.</p>
 
-			<p>After plugin is install and activated you will see Charts tab in the WordPress dashboard, where you can work with diagrams and charts.</p>
+			<p>After the plugin is installed and activated, you will see the Charts tab in the WordPress dashboard where you can work with diagrams and charts.</p>
 
 			<p>Click <b>"Charts > Add New Chart"</b> to create a new diagram. Enter title and required settings on the chart page.</p>
 
-			<p>4 types of diagrams are available: progress bar, pie, doughnut, bar. You can choose the one you need clicking <b>Chart type</b>. Diagram settings depend on the diagram type you have chosen. Let's take a closer look at each of them.</p>
+			<p>Four types of diagrams are available: progress bar, pie, doughnut, bar. You can choose the one you need by clicking <b>Chart type</b>. Diagram settings depend on the diagram type you have chosen. Let's take a closer look at each one.</p>
 
 			<div class="row">
 				<div class="grid_6">
 					<figure class="img-polaroid">
-						<a href="img/cherryframework/plugins/charts_progressbar-settings.jpg" class="pretty_image" data-gal="prettyPhoto">
+						<a href="img/cherryframework/plugins/charts_progressbar-settings.jpg" class="pretty_image" rel="prettyPhoto[plugins]">
 							<img src="img/cherryframework/plugins/charts_progressbar-settings.jpg" alt="" style="opacity: 1;"><i class="icon-search"></i><span></span>
 						</a>
 					</figure>
@@ -20,7 +20,7 @@
 					<h4>Progress bar</h4>
 
 					<h5>Chart settings</h5>
-					<p>Progress bar has next settings:</p>
+					<p>Progress bar has the following settings:</p>
 					<ul>
 						<li><b>Progress bar type</b> - progress bar type (radial, horizontal, vertical). </li>
 						<li><b>Inner cutout percentage (radial only)</b> - inner contour size. </li>
@@ -31,9 +31,9 @@
 					<h5>Content settings</h5>
 					<ul>
 						<li><b>Progress bar template</b> - diagram template. </li>
-						<li><b>Chart icon</b> - diagram icon class</li>
-						<li><b>Chart icon size</b> - icon size</li>
-						<li><b>Chart icon color</b> - diagram icon color</li>
+						<li><b>Chart icon</b> - diagram icon class.</li>
+						<li><b>Chart icon size</b> - icon size.</li>
+						<li><b>Chart icon color</b> - diagram icon color.</li>
 					</ul>
 
 					<h5>Chart data</h5>
@@ -44,7 +44,7 @@
 			<div class="row">
 				<div class="grid_6">
 					<figure class="img-polaroid">
-						<a href="img/cherryframework/plugins/charts_pie-settings.jpg" class="pretty_image" data-gal="prettyPhoto">
+						<a href="img/cherryframework/plugins/charts_pie-settings.jpg" class="pretty_image" rel="prettyPhoto[plugins]">
 							<img src="img/cherryframework/plugins/charts_pie-settings.jpg" alt="" style="opacity: 1;"><i class="icon-search"></i><span></span>
 						</a>
 					</figure>
@@ -53,7 +53,7 @@
 					<h4>Pie and doughnut</h4>
 
 					<h5>Chart settings</h5>
-					<p>Pie and doughnut has next settings:</p>
+					<p>Pie and doughnut has these settings:</p>
 					<ul>
 						<li><b>Width</b> - diagram width.</li>
 						<li><b>Height</b> - diagram height.</li>
@@ -74,7 +74,7 @@
 			<div class="row">
 				<div class="grid_6">
 					<figure class="img-polaroid">
-						<a href="img/cherryframework/plugins/charts_bar-settings.jpg" class="pretty_image" data-gal="prettyPhoto">
+						<a href="img/cherryframework/plugins/charts_bar-settings.jpg" class="pretty_image" rel="prettyPhoto[plugins]">
 							<img src="img/cherryframework/plugins/charts_bar-settings.jpg" alt="" style="opacity: 1;"><i class="icon-search"></i><span></span>
 						</a>
 					</figure>
@@ -92,13 +92,13 @@
 			<div class="row">
 				<div class="grid_6">
 					<figure class="img-polaroid">
-						<a href="img/cherryframework/plugins/charts_chart-style.jpg" class="pretty_image" data-gal="prettyPhoto">
+						<a href="img/cherryframework/plugins/charts_chart-style.jpg" class="pretty_image" rel="prettyPhoto[plugins]">
 							<img src="img/cherryframework/plugins/charts_chart-style.jpg" alt="" style="opacity: 1;"><i class="icon-search"></i><span></span>
 						</a>
 					</figure>
 				</div>
 				<div class="grid_6">
-					<p>In this section you can set up the color formating of diagram. You can change elements, background colors and opacity, thickness and color of lines. </p>
+					<p>In this section you can set up the color formating of the diagram. You can change elements, background colors and opacity, thickness and color of lines. </p>
 				</div>
 			</div>
 
@@ -106,13 +106,13 @@
 			<div class="row">
 				<div class="grid_6">
 					<figure class="img-polaroid">
-						<a href="img/cherryframework/plugins/charts_shortcode.jpg" class="pretty_image" data-gal="prettyPhoto">
+						<a href="img/cherryframework/plugins/charts_shortcode.jpg" class="pretty_image" rel="prettyPhoto[plugins]">
 							<img src="img/cherryframework/plugins/charts_shortcode.jpg" alt="" style="opacity: 1;"><i class="icon-search"></i><span></span>
 						</a>
 					</figure>
 				</div>
 				<div class="grid_6">
-					<p>After you are done with the chart settings, you can embed it into the post or page content using shortcode.</p>
+					<p>After you are done with the chart settings, you can embed it into post or page content using a shortcode.</p>
 				</div>
 			</div>
 		</article>

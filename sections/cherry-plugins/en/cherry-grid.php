@@ -5,7 +5,7 @@
 			<div class="row">
 				<div class="grid_5">
 					<figure class="img-polaroid">
-						<a href="img/cherryframework/plugins/grid_post_setting.png" class="pretty_image" data-gal="prettyPhoto">
+						<a href="img/cherryframework/plugins/grid_post_setting.png" class="pretty_image" rel="prettyPhoto[plugins]">
 							<img src="img/cherryframework/plugins/grid_post_setting.png" alt="" style="opacity: 1;"><i class="icon-search"></i><span></span>
 						</a>
 					</figure>

@@ -1,94 +1,124 @@
 		<article id="grid-shortcodes">
 			<h3>Grid</h3>
 
-			<h4>Row</h4>
-			<figure class="img-polaroid"><img alt="" src="img/wordpress/shortcode_row.png"></figure>
+			<h4>Row</h4>			
 			<div class="row">
-
-				<div class="grid_6"><pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_row type</span><span class="pun">=</span><span class="str">"fixed-width"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span><span class="pun">[</span><span class="pln">/su_row</span><span class="pun">]</span></pre></div>
-
-
-				<div class="grid_6"><p><span class="label">Description:</span> when forming a grid, you should "wrap" grid elements into [row] shortcode that has 2 additional settings, they are container type and custom class.</p></div>
-			</div>
-
-			<h4>Row Inner</h4>
-			<figure class="img-polaroid"><img alt="" src="img/wordpress/shortcode_row.png"></figure>
-			<div class="row">
-				<div class="grid_5">
-					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_row_inner type</span><span class="pun">=</span><span class="str">"fixed-width"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span><span class="pun">[</span><span class="pln">/su_row_inner</span><span class="pun">]</span></pre>
+				<div class="grid_6">
+					<figure class="img-polaroid">
+						<a href="img/wordpress/shortcode_row.png" class="pretty_image" rel="prettyPhoto[shortcodes]"><img alt="" src="img/wordpress/shortcode_row.png">
+						</a>
+					</figure>						
 				</div>
 
-
-				<div class="grid_7"><p><span class="label">Description:</span> when creating an additional nesting of rows, you should "wrap" its elements into [su_row_inner] shortcode that has two additional settings, they are container type and custom class.</p></div>
+				<div class="grid_6">
+					<p>When forming a grid, you should "wrap" grid elements into [row] shortcode that has 2 additional settings, they are container type and custom class.</p>
+					<pre class="prettyprint">[cherry_row class="custom-row"][/cherry_row]</pre>
+				</div>
 			</div>
 
-			<h4>Column</h4>
-			<figure class="img-polaroid"><img alt="" src="img/wordpress/shortcode_column.png"></figure>
+			<h4>Row Inner</h4>			
 			<div class="row">
-				<div class="grid_5">
-					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_col size_xs</span><span class="pun">=</span><span class="str">"3"</span><span class="pln"> size_sm</span><span class="pun">=</span><span class="str">"3"</span><span class="pln"> size_md</span><span class="pun">=</span><span class="str">"3"</span><span class="pln"> size_lg</span><span class="pun">=</span><span class="str">"3"</span><span class="pln"> offset_xs</span><span class="pun">=</span><span class="str">"1"</span><span class="pln"> offset_sm</span><span class="pun">=</span><span class="str">"2"</span><span class="pln"> offset_md</span><span class="pun">=</span><span class="str">"0.5"</span><span class="pln"> offset_lg</span><span class="pun">=</span><span class="str">"4"</span><span class="pln"> pull_xs</span><span class="pun">=</span><span class="str">"9"</span><span class="pln"> pull_sm</span><span class="pun">=</span><span class="str">"10"</span><span class="pln"> pull_md</span><span class="pun">=</span><span class="str">"11"</span><span class="pln"> pull_lg</span><span class="pun">=</span><span class="str">"12"</span><span class="pln"> push_xs</span><span class="pun">=</span><span class="str">"5"</span><span class="pln"> push_sm</span><span class="pun">=</span><span class="str">"6"</span><span class="pln"> push_lg</span><span class="pun">=</span><span class="str">"8"</span><span class="pln"> collapse</span><span class="pun">=</span><span class="str">"yes"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span><span class="pun">[</span><span class="pln">/su_col</span><span class="pun">]</span></pre>
+				<div class="grid_6">
+					<figure class="img-polaroid">
+						<a href="img/wordpress/shortcode_row.png" class="pretty_image" rel="prettyPhoto[shortcodes]"><img alt="" src="img/wordpress/shortcode_row.png">
+						</a>
+					</figure>						
 				</div>
-				<div class="grid_7">
+
+				<div class="grid_6">
+					<p>When creating an additional nesting of rows, you should "wrap" its elements into [su_row_inner] shortcode that has two additional settings, they are container type and custom class.</p>
+					<pre class="prettyprint">[cherry_row_inner type="full-width"][/cherry_row_inner]</pre>
+				</div>
+			</div>
+
+			<h4>Column</h4>			
+			<div class="row">
+				<div class="grid_6">
+					<figure class="img-polaroid">
+						<a href="img/wordpress/shortcode_column.png" class="pretty_image" rel="prettyPhoto[shortcodes]"><img alt="" src="img/wordpress/shortcode_column.png">
+						</a>
+					</figure>					
+				</div>
+				<div class="grid_6">
+					<p>Along with row shortcode, column is used to build multicolumn layouts. Columns should be placed only within rows.</p>
 					<ul>
-					<li><strong>size:</strong> - size of the column with possibility to set size for different resolutions</li>
-					<li><strong>offset:</strong> - increases the left margin of the column</li>
-					<li><strong>pull:</strong> -  <a href="http://getbootstrap.com/css/#grid-column-ordering">column order modifier</a></li>
-					<li><strong>push:</strong> -  column order modifier</li>
-					<li><strong>collapse column paddings:</strong> - resets the settings of columns margin</li>
-					<li><strong>class:</strong> - shortcode custom class</li>
-				</ul>
+						<li><strong>size:</strong> - size of the column with possibility to set size for different resolutions</li>
+						<li><strong>offset:</strong> - increases the left margin of the column</li>
+						<li><strong>pull:</strong> -  <a href="http://getbootstrap.com/css/#grid-column-ordering">column order modifier</a></li>
+						<li><strong>push:</strong> -  column order modifier</li>
+						<li><strong>collapse column paddings:</strong> - resets the settings of columns margin</li>
+						<li><strong>class:</strong> - shortcode custom class</li>
+					</ul>
+					<pre class="prettyprint">[cherry_col size_xs="none" size_sm="none" size_md="6" size_lg="none" offset_xs="none" offset_sm="none" offset_md="none" offset_lg="none" pull_xs="none" pull_sm="none" pull_md="none" pull_lg="none" push_xs="none" push_sm="none" push_md="none" push_lg="none" collapse="no"]Column content[/cherry_</pre>
 				</div>
 			</div>
 
 			<h4>Column Inner</h4>
-			<figure class="img-polaroid"><img alt="" src="img/wordpress/shortcode_column_inner.png"></figure>
+			
 			<div class="row">
-				<div class="grid_5">
-					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_col_inner size_xs</span><span class="pun">=</span><span class="str">"3"</span><span class="pln"> size_sm</span><span class="pun">=</span><span class="str">"3"</span><span class="pln"> size_md</span><span class="pun">=</span><span class="str">"3"</span><span class="pln"> size_lg</span><span class="pun">=</span><span class="str">"3"</span><span class="pln"> offset_xs</span><span class="pun">=</span><span class="str">"1"</span><span class="pln"> offset_sm</span><span class="pun">=</span><span class="str">"2"</span><span class="pln"> offset_md</span><span class="pun">=</span><span class="str">"0.5"</span><span class="pln"> offset_lg</span><span class="pun">=</span><span class="str">"4"</span><span class="pln"> pull_xs</span><span class="pun">=</span><span class="str">"9"</span><span class="pln"> pull_sm</span><span class="pun">=</span><span class="str">"10"</span><span class="pln"> pull_md</span><span class="pun">=</span><span class="str">"11"</span><span class="pln"> pull_lg</span><span class="pun">=</span><span class="str">"12"</span><span class="pln"> push_xs</span><span class="pun">=</span><span class="str">"5"</span><span class="pln"> push_sm</span><span class="pun">=</span><span class="str">"6"</span><span class="pln"> push_lg</span><span class="pun">=</span><span class="str">"8"</span><span class="pln"> collapse</span><span class="pun">=</span><span class="str">"yes"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span><span class="pun">[</span><span class="pln">/su_col_inner</span><span class="pun">]</span></pre>
+				<div class="grid_6">
+					<figure class="img-polaroid">
+						<a href="img/wordpress/shortcode_column_inner.png" class="pretty_image" rel="prettyPhoto[shortcodes]"><img alt="" src="img/wordpress/shortcode_column_inner.png">
+						</a>
+					</figure>						
 				</div>
-				<div class="grid_7">
+				<div class="grid_6">
+					<p>Used to build multicolumn layouts in nesting rows.</p>
 					<ul>
-					<li><strong>size:</strong> - size of the column with possibility to set size for different resolutions</li>
-					<li><strong>offset:</strong> - increases the left margin of the column</li>
-					<li><strong>pull:</strong> - <a href="http://getbootstrap.com/css/#grid-column-ordering">column order modifier</a></li>
-					<li><strong>push:</strong> - column order modifier</li>
-					<li><strong>collapse column paddings:</strong> - resets the settings of columns margin</li>
-					<li><strong>class:</strong> - shortcode custom class</li>
-				</ul>
+						<li><strong>size:</strong> - size of the column with possibility to set size for different resolutions</li>
+						<li><strong>offset:</strong> - increases the left margin of the column</li>
+						<li><strong>pull:</strong> - <a href="http://getbootstrap.com/css/#grid-column-ordering">column order modifier</a></li>
+						<li><strong>push:</strong> - column order modifier</li>
+						<li><strong>collapse column paddings:</strong> - resets the settings of columns margin</li>
+						<li><strong>class:</strong> - shortcode custom class</li>
+					</ul>
+					<pre class="prettyprint">[cherry_col_inner size_xs="none" size_sm="none" size_md="6" size_lg="none" offset_xs="none" offset_sm="none" offset_md="none" offset_lg="none" pull_xs="none" pull_sm="none" pull_md="none" pull_lg="none" push_xs="none" push_sm="none" push_md="none" push_lg="none" collapse="no"]Column content[/cherry_col_inner]_col]</pre>
 				</div>
 			</div>
 
-			<h4>Spacer</h4>
-			<figure class="img-polaroid"><img alt="" src="img/wordpress/shortcode_spacer.png"></figure>
-			<div class="row">
+			<h4>Spacer</h4>			
+			<div class="row">				
+				<div class="grid_6">
+					<figure class="img-polaroid">
+						<a href="img/wordpress/shortcode_spacer.png" class="pretty_image" rel="prettyPhoto[shortcodes]"><img alt="" src="img/wordpress/shortcode_spacer.png">
+						</a>
+					</figure>				
+				</div>
 
-				<div class="grid_6"><pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_spacer size</span><span class="pun">=</span><span class="str">"30"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span></pre></div>
-
-
-				<div class="grid_6"><p><span class="label">Description:</span> can be used in case you need vertical indent between blocks. Can be added in the visual editor with the help of the [su_spacer] shortcode and has next settings:</p>
-				<ul>
-					<li><strong>size:</strong> - spacer hight</li>
-					<li><strong>class:</strong> - shortcode custom class</li>
-				</ul>
+				<div class="grid_6">
+					<p>Can be used in case you need vertical indent between blocks. Can be added in the visual editor with the help of the [su_spacer] shortcode and has next settings:</p>
+					<ul>
+						<li><strong>size:</strong> - spacer hight</li>
+						<li><strong>class:</strong> - shortcode custom class</li>
+					</ul>
+					<pre class="prettyprint">[cherry_spacer size="450" class="spacer-class"]</pre>
 				</div>
 			</div>
 
-			<h4>Clear</h4>
-			<figure class="img-polaroid"><img alt="" src="img/wordpress/shortcode_clear.png"></figure>
+			<h4>Clear</h4>			
 			<div class="row">
-
-				<div class="grid_6"><pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_clear class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span></pre></div>
-				<div class="grid_6"><p><span class="label">Description:</span> used to reset the float. Can be used with a custom class.</p>
+				<div class="grid_6">
+					<figure class="img-polaroid">
+						<a href="img/wordpress/shortcode_clear.png" class="pretty_image" rel="prettyPhoto[shortcodes]"><img alt="" src="img/wordpress/shortcode_clear.png">
+						</a>
+					</figure>					
+				</div>
+				<div class="grid_6">
+					<p>Used to reset the float. Can be used with a custom class.</p>
+					<pre class="prettyprint">[cherry_clear class="clear-class"]</pre>
 				</div>
 			</div>
 
-			<h4>Box</h4>
-			<figure class="img-polaroid"><img alt="" src="img/wordpress/shortcode_box.png"></figure>
+			<h4>Box</h4>			
 			<div class="row">
-				<div class="grid_5">
-					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_box preset</span><span class="pun">=</span><span class="str">"secondary-border"</span><span class="pln"> bg_color</span><span class="pun">=</span><span class="str">"#bdbdbd"</span><span class="pln"> bg_image</span><span class="pun">=</span><span class="str">"http://example/cherry/wp-content/uploads/2015/03/image_3.jpg"</span><span class="pln"> bg_position</span><span class="pun">=</span><span class="str">"top-right"</span><span class="pln"> bg_repeat</span><span class="pun">=</span><span class="str">"repeat"</span><span class="pln"> bg_attachment</span><span class="pun">=</span><span class="str">"fixed"</span><span class="pln"> fill</span><span class="pun">=</span><span class="str">"yes"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span><span class="pun">[</span><span class="pln">/su_box</span><span class="pun">]</span></pre>
+				<div class="grid_6">
+					<figure class="img-polaroid">
+						<a href="img/wordpress/shortcode_box.png" class="pretty_image" rel="prettyPhoto[shortcodes]"><img alt="" src="img/wordpress/shortcode_box.png">
+						</a>
+					</figure>	
 				</div>
-				<div class="grid_7">
+				<div class="grid_6">
+					<p>Box shortcodу is used to build content wrapping boxes.</p>
 					<ul class="fa-marked">
 						<li><strong>box styling preset:</strong> - option of box styling</li>
 						<li><strong>background color:</strong> - box background color</li>
@@ -99,17 +129,20 @@
 						<li><strong>fill:</strong> - used to set up sizes according to the parent container</li>
 						<li><strong>class:</strong> - shortcode custom class</li>
 					</ul>
+					<pre class="prettyprint">[cherry_box preset="primary" bg_color="#ffffff" bg_position="center" bg_repeat="no-repeat" bg_attachment="scroll" fill="no"]Your content goes here[/cherry_box]</pre>
 				</div>
 			</div>
 
-
-			<h4>Box inner</h4>
-			<figure class="img-polaroid"><img alt="" src="img/wordpress/shortcode_box_inner.png"></figure>
+			<h4>Box inner</h4>			
 			<div class="row">
-				<div class="grid_5">
-					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">cherry_box_inner preset</span><span class="pun">=</span><span class="str">"secondary-border"</span><span class="pln"> bg_color</span><span class="pun">=</span><span class="str">"#bdbdbd"</span><span class="pln"> bg_image</span><span class="pun">=</span><span class="str">"http://example/cherry/wp-content/uploads/2015/03/image_3.jpg"</span><span class="pln"> bg_position</span><span class="pun">=</span><span class="str">"top-right"</span><span class="pln"> bg_repeat</span><span class="pun">=</span><span class="str">"repeat"</span><span class="pln"> bg_attachment</span><span class="pun">=</span><span class="str">"fixed"</span><span class="pln"> fill</span><span class="pun">=</span><span class="str">"yes"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span><span class="pun">[</span><span class="pln">/cherry_box_inner</span><span class="pun">]</span></pre>
+				<div class="grid_6">
+					<figure class="img-polaroid">
+						<a href="img/wordpress/shortcode_box_inner.png" class="pretty_image" rel="prettyPhoto[shortcodes]"><img alt="" src="img/wordpress/shortcode_box_inner.png">
+						</a>
+					</figure>					
 				</div>
-				<div class="grid_7">
+				<div class="grid_6">
+					<p>Box shortcodу is used to build nesting content wrapping boxes.</p>
 					<ul class="fa-marked">
 						<li> <strong>box styling preset:</strong> - container styling</li>
 						<li> <strong>background color:</strong> - box background color</li>
@@ -120,6 +153,7 @@
 						<li> <strong>fill:</strong> - make box have same size as parent container</li>
 						<li> <strong>class:</strong> - define user custom class</li>
 					</ul>
+					<pre class="prettyprint">[cherry_box_inner bg_color="#ffffff" bg_position="center" bg_repeat="no-repeat" bg_attachment="scroll" fill="no"]Your content goes here[/cherry_box_inner]</pre>
 				</div>
 			</div>
 		</article>

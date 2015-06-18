@@ -1,0 +1,22 @@
+<?php 
+
+if (strpos($_SERVER['REQUEST_URI'], 'index.php')) {
+	$path = dirname("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
+} else {
+	$path = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+}
+
+//$path = 111;
+
+// Variables
+$doc_title = "Cherry Framework 4 Documentation";
+
+$lang = 'en';
+if (isset($_GET['lang'])) {
+	$lang = $_GET['lang'];
+}
+
+$section_param = 'introduction';
+if (isset($_GET['section'])) {
+	$section_param = $_GET['section'];
+}

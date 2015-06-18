@@ -170,6 +170,10 @@ ol {
     overflow: hidden;
 }
 
+.label{
+    font-weight: 500
+}
+
 /*=======================================================
                        Main Layout
 =========================================================*/
@@ -222,8 +226,10 @@ b, strong{
 .files_structure{
     li{
         .fa{
-            margin-top: 4px;
-            margin-right: 5px;
+            margin-top: 3px;
+            margin-right: 10px;
+            color: #2196f3;
+            font-size: 16px;
         }
         ul{
             margin-left: 20px; 

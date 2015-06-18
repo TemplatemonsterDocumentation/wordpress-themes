@@ -4,7 +4,7 @@
 	padding-top: 120px;
 	padding-bottom: 68px;
 	background: nth($section-schemes, 1);
-	@include box-shadow(5px 5px 9px 0px rgba(0,0,0,0.22));
+	@include card(1);
 
 	.container {
 		position: relative;

@@ -1,145 +1,18 @@
 <?php 
+include_once 'config.php';
+include_once 'functions.php';
 
-if (strpos($_SERVER['REQUEST_URI'], 'index.php')) {
-	$path = dirname("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
-} else {
-	$path = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+
+if (!isset($sections)) {
+	$sections = getSections();
 }
 
-// $path = 111;
-
-// Variables
-$doc_title = "Cherry Framework 4 Documentation";
-
-$lang = 'en';
-if (isset($_GET['lang'])) {
-	$lang = $_GET['lang'];
-}
-
-$section_param = 'introduction';
-if (isset($_GET['section'])) {
-	$section_param = $_GET['section'];
-}
-
-// Get Sections
-$sections = getSections();
-
-function getSections()
-{
-	$sections_json_file = dirname(__FILE__) . '/sections.json';
-	if (file_exists($sections_json_file)) {
-		$sections_string = file_get_contents($sections_json_file);
-		return json_decode($sections_string, true);
-	} else {
-		die('Sections.json file not found');
+// Get body class
+$body_class = 'scheme-0';
+foreach ($sections as $key => $section) {
+	if ($section == $section_param) {
+		$body_class = 'scheme-' . $key%9;
 	}
-}
-
-function getArticles($current_section)
-{	
-	return $current_section['articles'];
-}
-
-/**
- * Generates navigation markup
- * @param  [array] $sections [Sections data array]
- * @param  [string] $lang    [Current language key]
- * @return [string]          [Navigation markup string]
- */
-function generateNavigation($sections, $lang, $section_param)
-{		
-	$html = '';
-	foreach ($sections as $section_dirname) {
-		$section_json_file	= dirname(__FILE__) . '/sections/' . $section_dirname . '/section.json';
-		// Check if section json file exists
-		if (file_exists($section_json_file)):
-			$section_string 	= file_get_contents($section_json_file);
-			$current_section 	= json_decode($section_string, true);
-
-			if (empty($current_section)) {
-				echo "<i>Section $section_dirname JSON empty or formatted wrong</i>";
-			}
-
-			$section_id 		= $current_section['id'];
-			$section_title 		= $current_section['translations'][$lang];
-			$section_path 		= 'index.php?lang=' . $lang . '&section=' . $section_id;
-
-			// Active class
-			$active_class = '';			
-			if ($section_id == $_GET['section']) {
-				$active_class = ' opened';
-			}
-
-			// Get Articles List
-			$section_articles 	= getArticles($current_section);
-
-			$html .= '<li class="section section__' . $section_id . $active_class . '"><a href="' . $section_path .'">' . $section_title . '</a>';
-
-				// Generate articles navigation
-				if (!empty($section_articles)) {
-					$html .= '<ul>';
-					foreach ($section_articles as $key => $article) {
-
-						$article_id 	= $article['id'];
-						$article_name 	= $article['translations'][$lang];
-
-						$article_path	= '#' . $article_id;
-						// Update article path if not in article section						
-						if ($section_param != $section_id) {
-							$article_path = 'index.php?lang=' . $lang . '&section=' . $section_id . '#' . $article_id;
-						}
-						$html .= '<li class="article article__' . $article_id . '"><a href="' . $article_path . '">' . $article_name . '</a></li>';
-					}
-					$html .= '</ul>';
-				}
-			$html .= '</li>';
-		else:
-			die("Section $section_dirname JSON file not found");
-		endif;
-
-	}
-	return $html;
-}
-
-/**
- * Includes articles files
- * @param  [array] $sections      	[Array with sections data]
- * @param  [string] $lang          	[Current language]
- * @param  [string] $section_param 	[Current section]
- */
-function includeSection($sections, $lang, $section_param)
-{
-	$section_json_file	= dirname(__FILE__) . '/sections/' . $section_param . '/section.json';
-
-	if (file_exists($section_json_file)):
-		$section_string 	= file_get_contents($section_json_file);
-		$current_section 	= json_decode($section_string, true);		
-
-		$section_id 		= $current_section['id'];
-		$section_articles 	= $current_section['articles'];
-
-		// Load section description
-		$section_desc = dirname(__FILE__) . '/sections/' . $section_param . '/' . $lang . '/__description.php';
-		if (file_exists($section_desc)) {
-			include_once $section_desc;
-		} else {
-			echo "<i>Section __description.php file is missing.</i>";
-		}
-
-		foreach ($section_articles as $key => $article) {
-			$article_id = $article['id'];
-			echo "<section id='" . $section_id . "'>";
-				$article_path = dirname(__FILE__) . '/sections/' . $section_param . '/' . $lang . '/' . $article_id . '.php';
-				if (file_exists($article_path)) {
-					include_once $article_path;
-				} else {
-					echo "<i>Article $article_id not found.</i>";
-				}			
-			echo "</section>";
-		}
-	else:
-		die("Section $section_dirname JSON file not found");
-	endif;	
 }
 
 ?>
@@ -154,10 +27,9 @@ function includeSection($sections, $lang, $section_param)
 	<link rel="stylesheet" href="<?php echo $path; ?>/css/style.css">
 	<link rel="stylesheet" href="<?php echo $path; ?>/css/jquery.mCustomScrollbar.css">
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-
-	<!-- Syntax Highlighter -->
-	<link rel="stylesheet" href="<?php echo $path; ?>/css/syntax_highlighter/shCore.css">
-	<link rel="stylesheet" href="<?php echo $path; ?>/css/syntax_highlighter/shCoreDefault.css">
+	<link href='//fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="<?php echo $path; ?>/css/prettify.css">
+	<link rel="stylesheet" href="<?php echo $path; ?>/css/prettyPhoto.css">
 
 
 	<script src="<?php echo $path; ?>/js/jquery.js"></script>
@@ -175,7 +47,8 @@ function includeSection($sections, $lang, $section_param)
 
 	<script src='<?php echo $path; ?>/js/device.min.js'></script>
 </head>
-<body>
+<body class="<?php echo $body_class; ?>" data-section="<?php echo $section_param; ?>" onload="prettyPrint()">
+
 <div class="page">
 	<!--========================================================
 		HEADER
@@ -191,7 +64,7 @@ function includeSection($sections, $lang, $section_param)
 
 		<div class="stuck">
 			<div class="container">
-				<div class="title"><h1 class="chapter-title">Cherry WordPress Documentation</h1></div>
+				<div class="title"><h1 class="chapter-title">Cherry Framework Documentation</h1></div>
 
 				<!-- <div class="select_wrap">
 					<div class="select">
@@ -216,9 +89,9 @@ function includeSection($sections, $lang, $section_param)
 	<!--========================================================
 		CONTENT
 	=========================================================-->
-	<main>
+	<main id="main">
 		<div class="container">
-			<?php includeSection($sections, $lang, $section_param); ?>
+			<?php include_once 'section.php'; ?>
 		</div>
 	</main>
 
@@ -248,27 +121,24 @@ function includeSection($sections, $lang, $section_param)
 <script src="<?php echo $path; ?>/js/jquery.mousewheel.min.js"></script>
 <script src="<?php echo $path; ?>/js/tmstickup.js"></script>
 <script src="<?php echo $path; ?>/js/jquery.simplr.smoothscroll.min.js"></script>
+<script src="<?php echo $path; ?>/js/prettify.js"></script>
+<script src="<?php echo $path; ?>/js/jquery.prettyPhoto.js"></script>
 
-<!-- Syntax Highlighter -->
-<script src="<?php echo $path; ?>/js/syntax_highlighter/shCore.js"></script>
-<script src="<?php echo $path; ?>/js/syntax_highlighter/shAutoloader.js"></script>
-<script src="<?php echo $path; ?>/js/syntax_highlighter/shLegacy.js"></script>
+<script>
+/* Section Class
+========================================================*/
+function sectionClass(item_key){
+	$.getJSON('<?php echo $path; ?>/sections.json', function(json){
+		var body = $('body');
+		var section_class = 'scheme-' + item_key%9;
+		body.attr('class', '');
+		body.addClass(section_class);
+	});
+}
+</script>
 
 
 <script src="<?php echo $path; ?>/js/script.js"></script>
 
-<script>
-	/* Syntax Highlighter
-	 ========================================================*/
-	SyntaxHighlighter.autoloader(
-	  'js                       <?php echo $path; ?>/js/syntax_highlighter/brushes/shBrushJScript.js',
-	  'css                      <?php echo $path; ?>/js/syntax_highlighter/brushes/shBrushCss.js',
-	  'php                      <?php echo $path; ?>/js/syntax_highlighter/brushes/shBrushPhp.js',
-	  'sass                     <?php echo $path; ?>/js/syntax_highlighter/brushes/shBrushSass.js',
-	  'xml                      <?php echo $path; ?>/js/syntax_highlighter/brushes/shBrushXml.js'
-	);
-	 
-	SyntaxHighlighter.all();
-</script>
 </body>
 </html>

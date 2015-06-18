@@ -1,89 +1,104 @@
 		<article id="typography">
 			<h3>Typography</h3>
 
-			<h4>Icon</h4>
-			<figure class="img-polaroid"><img alt="" src="img/wordpress/shortcode_icon.png"></figure>
+			<h4>Icon</h4>			
 			<div class="row">
-				<div class="grid_5">
-					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_icon icon</span><span class="pun">=</span><span class="str">"icon: fa fa-arrow-right"</span><span class="pln"> size</span><span class="pun">=</span><span class="str">"50"</span><span class="pln"> color</span><span class="pun">=</span><span class="str">"#FF5566"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span><span class="pun">[</span><span class="pln">/su_box</span><span class="pun">]</span></pre>
+				<div class="grid_6">
+					<figure class="img-polaroid">
+						<a href="img/wordpress/shortcode_icon.png" class="pretty_image" rel="prettyPhoto[shortcodes]"><img alt="" src="img/wordpress/shortcode_icon.png">
+						</a>
+					</figure>					
 				</div>
 
-				<div class="grid_7">
+				<div class="grid_6">
+					<p>Used to add text icons to your post content. </p>
 					<ul>
 						<li><i class="fa fa-angle-right"></i> <strong>icon:</strong> - filed to add an icon, icon can be added through media manager and icon picker </li>
 						<li><i class="fa fa-angle-right"></i> <strong>icon size:</strong> - icon size (can be used with text icons only)</li>
 						<li><i class="fa fa-angle-right"></i> <strong>icon color:</strong> - icon color</li>
 						<li><i class="fa fa-angle-right"></i> <strong>class:</strong> - shortcode custom class</li>
 					</ul>
+					<pre class="prettyprint">[cherry_icon icon="icon: fa fa-headphones" color="#dadada" class="icon-class"]</pre>
 				</div>
 			</div>
 
-			<h4>Horizontal Rule</h4>
-			<figure class="img-polaroid"><img alt="" src="img/wordpress/shortcode_hr.png"></figure>
+			<h4>Horizontal Rule</h4>			
 			<div class="row">
-
-				<div class="grid_5">
-					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_hr height</span><span class="pun">=</span><span class="str">"4"</span><span class="pln"> color</span><span class="pun">=</span><span class="str">"#FF5566"</span><span class="pln"> indent_top</span><span class="pun">=</span><span class="str">"30"</span><span class="pln"> indent_bottom</span><span class="pun">=</span><span class="str">"30"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span><span class="pun">[</span><span class="pln">/su_box</span><span class="pun">]</span></pre>
+				<div class="grid_6">
+					<figure class="img-polaroid">
+						<a href="img/wordpress/shortcode_hr.png" class="pretty_image" rel="prettyPhoto[shortcodes]"><img alt="" src="img/wordpress/shortcode_hr.png">
+						</a>
+					</figure>					
 				</div>
-				<div class="grid_7">
+				<div class="grid_6">
+					<p>Used to add thematic breaks to the post content.</p>
 					<ul>
-					<li><i class="fa fa-angle-right"></i> <strong>line height:</strong> - separator hight </li>
-					<li><i class="fa fa-angle-right"></i> <strong>line color:</strong> - color</li>
-					<li><i class="fa fa-angle-right"></i> <strong>indent before:</strong> - top indent</li>
-					<li><i class="fa fa-angle-right"></i> <strong>indent after:</strong> - bottom indent</li>
-					<li><i class="fa fa-angle-right"></i> <strong>class:</strong> - shortcode custom class</li>
-				</ul>
+						<li><i class="fa fa-angle-right"></i> <strong>line height:</strong> - separator hight </li>
+						<li><i class="fa fa-angle-right"></i> <strong>line color:</strong> - color</li>
+						<li><i class="fa fa-angle-right"></i> <strong>indent before:</strong> - top indent</li>
+						<li><i class="fa fa-angle-right"></i> <strong>indent after:</strong> - bottom indent</li>
+						<li><i class="fa fa-angle-right"></i> <strong>class:</strong> - shortcode custom class</li>
+					</ul>
+					<pre class="prettyprint">[cherry_hr height="1" color="#dddddd" indent_top="20" indent_bottom="20" class="rule-class"]</pre>
 				</div>
 			</div>
 
-			<h4>Title Box</h4>
-			<p>Displays double title: main and secondary titles of the text</p>
-			<figure class="img-polaroid"><img alt="" src="img/wordpress/shortcode_hr.png"></figure>
+			<h4>Title Box</h4>					
 			<div class="row">
-				<div class="grid_5">
-					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_title_box title</span><span class="pun">=</span><span class="str">"Hello this is title"</span><span class="pln"> subtitle</span><span class="pun">=</span><span class="str">"This is subtitle"</span><span class="pln"> icon</span><span class="pun">=</span><span class="str">"icon: fa fa-user"</span><span class="pln"> icon_size</span><span class="pun">=</span><span class="str">"50"</span><span class="pln"> title_color</span><span class="pun">=</span><span class="str">"#333333"</span><span class="pln"> subtitle_color</span><span class="pun">=</span><span class="str">"#FF5566"</span><span class="pln"> icon_color</span><span class="pun">=</span><span class="str">"#444444"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span><span class="pun">[</span><span class="pln">/su_box</span><span class="pun">]</span></pre>
+				<div class="grid_6">
+					<figure class="img-polaroid">
+						<a href="img/wordpress/shortcode_hr.png" class="pretty_image" rel="prettyPhoto[shortcodes]"><img alt="" src="img/wordpress/shortcode_hr.png">
+						</a>
+					</figure>				
 				</div>
-				<div class="grid_7">				
+				<div class="grid_6">
+					<p>Displays double title: main and secondary titles of the text</p>					
 					<ul>
-					<li><i class="fa fa-angle-right"></i> <strong>title:</strong> - title content </li>
-					<li><i class="fa fa-angle-right"></i> <strong>subtitle:</strong> - subtitle content</li>
-					<li><i class="fa fa-angle-right"></i> <strong>icon:</strong> - filed to add an icon, icon can be added through media manager and icon picker </li>
-					<li><i class="fa fa-angle-right"></i> <strong>icon size:</strong> - icon size (can be used with text icons only)</li>
-					<li><i class="fa fa-angle-right"></i> <strong>icon color:</strong> - icon color</li>
-					<li><i class="fa fa-angle-right"></i> <strong>title color:</strong> - title color</li>
-					<li><i class="fa fa-angle-right"></i> <strong>subtitle color:</strong> - subtitle color</li>
-					<li><i class="fa fa-angle-right"></i> <strong>class:</strong> - shortcode custom class</li>
-				</ul>
+						<li><i class="fa fa-angle-right"></i> <strong>title:</strong> - title content </li>
+						<li><i class="fa fa-angle-right"></i> <strong>subtitle:</strong> - subtitle content</li>
+						<li><i class="fa fa-angle-right"></i> <strong>icon:</strong> - filed to add an icon, icon can be added through media manager and icon picker </li>
+						<li><i class="fa fa-angle-right"></i> <strong>icon size:</strong> - icon size (can be used with text icons only)</li>
+						<li><i class="fa fa-angle-right"></i> <strong>icon color:</strong> - icon color</li>
+						<li><i class="fa fa-angle-right"></i> <strong>title color:</strong> - title color</li>
+						<li><i class="fa fa-angle-right"></i> <strong>subtitle color:</strong> - subtitle color</li>
+						<li><i class="fa fa-angle-right"></i> <strong>class:</strong> - shortcode custom class</li>
+					</ul>
+					<pre class="prettyprint">[cherry_title_box title="Title text" subtitle="Subtitle text" icon="icon: fa fa-text-width" icon_size="20" title_color="#444444" subtitle_color="#444444" icon_color="#333333" class="title-class"]</pre>
 				</div>
 			</div>
 
-			<h4>Dropcap</h4>
-			<p>Displays dropcap in the text block</p>
-			<figure class="img-polaroid"><img alt="" src="img/wordpress/shortcode_dropcap.png"></figure>
+			<h4>Dropcap</h4>	
 			<div class="row">
-				<div class="grid_5">
-					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_dropcap size</span><span class="pun">=</span><span class="str">"25"</span><span class="pln"> color</span><span class="pun">=</span><span class="str">"#FFEEAA"</span><span class="pln"> background</span><span class="pun">=</span><span class="str">"#e77e7f"</span><span class="pln"> align</span><span class="pun">=</span><span class="str">"center"</span><span class="pln"> shape</span><span class="pun">=</span><span class="str">"square"</span><span class="pln"> border</span><span class="pun">=</span><span class="str">"2px solid #6acca0"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span><span class="pun">[</span><span class="pln">/su_dropcap</span><span class="pun">]</span></pre>
+				<div class="grid_6">
+					<figure class="img-polaroid">
+						<a href="img/wordpress/shortcode_dropcap.png" class="pretty_image" rel="prettyPhoto[shortcodes]"><img alt="" src="img/wordpress/shortcode_dropcap.png">
+						</a>
+					</figure>				
 				</div>
-				<div class="grid_7">				
+				<div class="grid_6">	
+					<p>Displays dropcap in the text block</p>			
 					<ul>
-					<li><i class="fa fa-angle-right"></i> <strong>Text size:</strong> - text size</li>
-					<li><i class="fa fa-angle-right"></i> <strong>text color:</strong> - text color</li>
-					<li><i class="fa fa-angle-right"></i> <strong>background Color:</strong> - text font color</li>
-					<li><i class="fa fa-angle-right"></i> <strong>align:</strong> - align settings</li>
-					<li><i class="fa fa-angle-right"></i> <strong>shape:</strong> - shape settings </li>
-					<li><i class="fa fa-angle-right"></i> <strong>border:</strong> - set of options (width, style and color) to create a border</li>
-					<li><i class="fa fa-angle-right"></i> <strong>class:</strong> - shortcode custom class</li>
-				</ul>
+						<li><i class="fa fa-angle-right"></i> <strong>Text size:</strong> - text size</li>
+						<li><i class="fa fa-angle-right"></i> <strong>text color:</strong> - text color</li>
+						<li><i class="fa fa-angle-right"></i> <strong>background Color:</strong> - text font color</li>
+						<li><i class="fa fa-angle-right"></i> <strong>align:</strong> - align settings</li>
+						<li><i class="fa fa-angle-right"></i> <strong>shape:</strong> - shape settings </li>
+						<li><i class="fa fa-angle-right"></i> <strong>border:</strong> - set of options (width, style and color) to create a border</li>
+						<li><i class="fa fa-angle-right"></i> <strong>class:</strong> - shortcode custom class</li>
+					</ul>
+					<pre class="prettyprint">[cherry_dropcap font_size="20" canvas_size="20" color="#FFFFFF" background="#2D89EF" align="left" radius="5" border="none" class="dropcap-class"]A[/cherry_dropcap]</pre>
 				</div>
 			</div>
 
-			<h4>Button</h4>
-			<figure class="img-polaroid"><img alt="" src="img/wordpress/shortcode_button.png"></figure>
+			<h4>Button</h4>			
 			<div class="row">
-				<div class="grid_5">
-					<pre class="prettyprint prettyprinted" style=""><span class="pun">[</span><span class="pln">su_button text</span><span class="pun">=</span><span class="str">"More"</span><span class="pln"> url</span><span class="pun">=</span><span class="str">"https://example.com"</span><span class="pln"> style</span><span class="pun">=</span><span class="str">"primary-light"</span><span class="pln"> display</span><span class="pun">=</span><span class="str">"wide"</span><span class="pln"> radius</span><span class="pun">=</span><span class="str">"5"</span><span class="pln"> centered</span><span class="pun">=</span><span class="str">"yes"</span><span class="pln"> fluid_position</span><span class="pun">=</span><span class="str">"right"</span><span class="pln"> icon</span><span class="pun">=</span><span class="str">"icon: fa fa-star"</span><span class="pln"> icon_position</span><span class="pun">=</span><span class="str">"top"</span><span class="pln"> desc</span><span class="pun">=</span><span class="str">"description example"</span><span class="pln"> bg_color</span><span class="pun">=</span><span class="str">"#FF5566"</span><span class="pln"> color</span><span class="pun">=</span><span class="str">"#FFFFEE"</span><span class="pln"> min_width</span><span class="pun">=</span><span class="str">"70"</span><span class="pln"> target</span><span class="pun">=</span><span class="str">"blank"</span><span class="pln"> rel</span><span class="pun">=</span><span class="str">"stylesheet"</span><span class="pln"> hover_animation</span><span class="pun">=</span><span class="str">"fade"</span><span class="pln"> class</span><span class="pun">=</span><span class="str">"custom_class"</span><span class="pun">]</span><span class="pun">[</span><span class="pln">/su_box</span><span class="pun">]</span></pre>
+				<div class="grid_6">
+					<figure class="img-polaroid">
+						<a href="img/wordpress/shortcode_button.png" class="pretty_image" rel="prettyPhoto[shortcodes]"><img alt="" src="img/wordpress/shortcode_button.png">
+						</a>
+					</figure>				
 				</div>
-				<div class="grid_7">					
+				<div class="grid_6">					
 					<ul>
 						<li><i class="fa fa-angle-right"></i> <strong>text:</strong> - button text</li>
 						<li><i class="fa fa-angle-right"></i> <strong>link:</strong> - button link</li>
@@ -105,6 +120,7 @@
 						<li><i class="fa fa-angle-right"></i> <strong>hover animation:</strong> - hover animation type</li>
 						<li><i class="fa fa-angle-right"></i> <strong>class:</strong> - shortcode custom class</li>
 					</ul>
+					<pre class="prettyprint">[cherry_button text="Read more" url="#" style="primary" size="medium" display="inline" radius="0" centered="no" fluid="no" fluid_position="left" icon_position="left" bg_color="#2D89EF" color="#FFFFFF" min_width="0" target="self" hover_animation="fad</pre>
 				</div>
 			</div>
 		</article>

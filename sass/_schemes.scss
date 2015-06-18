@@ -1,6 +1,19 @@
 /*==========================================================
                         SCHEMES
 ==========================================================*/
+
+.scheme-0 {
+	.stuck { background: nth($section-schemes, 1); }
+	.rd-mobilemenu_ul { background: nth($sidebar-schemes, 1); }
+	.rd-mobilemenu_ul a:hover,
+	.rd-mobilemenu_ul .open:hover,
+	.rd-mobilemenu_ul li.opened > a,
+	.rd-mobilemenu_ul li.opened .open,
+	.rd-mobilemenu_ul li.active {
+		color: lighten(desaturate(adjust_hue(nth($sidebar-schemes, 1), -0.6098901098901024), 1.6079965232507334%), 22.745098039215684%);
+	}
+}
+
 .scheme-1 {
 	.stuck { background: nth($section-schemes, 2); }
 	.rd-mobilemenu_ul { background: nth($sidebar-schemes, 2); }

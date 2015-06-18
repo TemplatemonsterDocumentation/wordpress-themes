@@ -1,17 +1,17 @@
 		<!-- Options Typography -->
 		<article id="option-typography">
 			<h3>Typography</h3>
-			<p>Theme typography settings. You can configure all aspects of website typography, fonts, colors etc.</p>
+			<p>Theme typography settings. You can configure all aspects of website typography, fonts, colors, etc.</p>
 
-			<div class="row-fluid">
-				<div class="span6">
+			<div class="row">
+				<div class="grid_6">
 					<figure class="img-polaroid">
-						<a href="img/cherryframework/cherry-options_typography.jpg" class="pretty_image" data-gal="prettyPhoto">
+						<a href="img/cherryframework/cherry-options_typography.jpg" class="pretty_image" rel="prettyPhoto[options]">
 							<img src="img/cherryframework/cherry-options_typography.jpg" alt="" style="opacity: 1;"><i class="icon-search"></i><span></span>
 						</a>
 					</figure>
 				</div>
-				<div class="span6">
+				<div class="grid_6">
 					<dl>
 						<dt>Body text</dt>
 						<dd>
@@ -30,12 +30,12 @@
 
 						<dt>Input text</dt>
 						<dd>
-							<p>Styling text in forms.</p>
+							<p>Styling of the text in forms.</p>
 						</dd>
 
 						<dt>Breadcrumbs typography</dt>
 						<dd>
-							<p>Styling text in breadcrumbs.</p>
+							<p>Styling of the text in breadcrumbs.</p>
 						</dd>
 
 						<dt>Heading 1</dt>

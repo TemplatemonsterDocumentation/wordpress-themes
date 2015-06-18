@@ -13,14 +13,7 @@
 				"en":"General",
 				"ru":"Общие"
 			}
-		},		
-		{
-			"id":"option-static-editor",
-			"translations":{
-				"en":"Static Areas",
-				"ru":"Статичные области"
-			}
-		},		
+		},			
 		{
 			"id":"option-grid",
 			"translations":{
@@ -34,21 +27,7 @@
 				"en":"Blog",
 				"ru":"Блог"
 			}
-		},		
-		{
-			"id":"option-blog-post",
-			"translations":{
-				"en":"Blog Post",
-				"ru":"Пост"
-			}
-		},		
-		{
-			"id":"option-blog-meta",
-			"translations":{
-				"en":"Blog Meta",
-				"ru":"Мета"
-			}
-		},		
+		},					
 		{
 			"id":"option-styling",
 			"translations":{
@@ -71,24 +50,17 @@
 			}
 		},
 		{
-			"id":"option-breadcrumbs",
-			"translations":{
-				"en":"Breadcrumbs",
-				"ru":"Breadcrumbs"
-			}
-		},
-		{
-			"id":"option-pagination",
-			"translations":{
-				"en":"Pagination",
-				"ru":"Пагинация"
-			}
-		},		
-		{
 			"id":"option-header",
 			"translations":{
 				"en":"Header",
 				"ru":"Хедер"
+			}
+		},	
+		{
+			"id":"option-page",
+			"translations":{
+				"en":"Page",
+				"ru":"Страница"
 			}
 		},		
 		{
@@ -111,6 +83,13 @@
 				"en":"Optimization",
 				"ru":"Оптимизация"
 			}
-		}		
+		},
+		{
+			"id":"option-cookie",
+			"translations":{
+				"en":"Cookie Banner",
+				"ru":"Cookie Баннер"
+			}
+		}	
 	]
 }
