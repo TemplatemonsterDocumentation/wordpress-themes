@@ -10,6 +10,8 @@
 				<li>Upload the Cherry Framework 4 package.</li>				
 			</ol>
 
+			<p class="alert alert-warning">Please make sure Cherry Framework 4 archive is named 'cherryframework4.zip'</p>
+
 			<h4>Install Cherry Theme</h4>
 			<ol>
 				<li>Download the theme using the link on the template delivery page. Check your email account for template delivery email.</li>
