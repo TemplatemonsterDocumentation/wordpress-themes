@@ -181,39 +181,39 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
 			var item_key = $(this).attr('data-key');
 			var section_id = $(this).attr('data-id');
 			var menu_list_item = $(this).parent();
+			sectionClass(item_key);
 
-			if (section_id != $('body').attr('data-section')) {
-				$.ajax({
-					type: 'GET',
-					url: 'section.php',
-					data: item_link,
-					dataType: 'html',
-					success: function(data){
-						console.log('successful');
-						sectionClass(item_key);
-						$('#main .container').html(data);
-						$('body').attr('data-section', section_id);
-						window.scrollTo(0, 0);
+			// if (section_id != $('body').attr('data-section')) {
+			// 	$.ajax({
+			// 		type: 'GET',
+			// 		url: 'section.php',
+			// 		data: item_link,
+			// 		dataType: 'html',
+			// 		success: function(data){
+			// 			//console.log('successful');						
 
-						// Close all submenus
-						menu_items.removeClass('opened');
-						menu_sublists.slideUp("slow");
+			// 			$('#main .container').html(data);						
+			// 			window.scrollTo(0, 0);
 
-						//Open current submenu
-						menu_list_item.addClass('opened');
-						menu_list_item.find('ul').slideDown("slow");
-					},
-					fail: function(data){
-						console.log('fail');
-					},
-					done: function(data){
-						console.log('done');
-					}
-				})
+			// 			// Close all submenus
+			// 			menu_items.removeClass('opened');
+			// 			menu_sublists.slideUp("slow");
 
-				e.stopImmediatePropagation();		
-				e.preventDefault();
-			};
+			// 			//Open current submenu
+			// 			menu_list_item.addClass('opened');
+			// 			menu_list_item.find('ul').slideDown("slow");
+			// 		},
+			// 		fail: function(data){
+			// 			console.log('fail');
+			// 		},
+			// 		done: function(data){
+			// 			console.log('done');
+			// 		}
+			// 	})
+
+			// 	e.stopImmediatePropagation();		
+			// 	e.preventDefault();
+			// };
 			
 		})
 
@@ -230,29 +230,30 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
 			if ($('body').attr('data-section') == section_id) {
 				$("html, body").animate({ scrollTop: $(hash).offset().top - 100 }, 300);
 				document.location.hash = hash;
-			} else {
-				$.ajax({
-					type: 'GET',
-					url: 'section.php',
-					data: item_link,
-					dataType: 'html',
-					success: function(data){
-						// console.log('successful');
-						sectionClass(section_key);						
-						$('#main .container').html(data).promise().done(function(){
-							document.location.hash = hash;
-						});
-						$('body').attr('data-section', section_id);
+			} 
+			// else {
+			// 	$.ajax({
+			// 		type: 'GET',
+			// 		url: 'section.php',
+			// 		data: item_link,
+			// 		dataType: 'html',
+			// 		success: function(data){
+			// 			// console.log('successful');
+			// 			sectionClass(section_key);						
+			// 			$('#main .container').html(data).promise().done(function(){
+			// 				document.location.hash = hash;
+			// 			});
+			// 			$('body').attr('data-section', section_id);
 
-						//Open current submenu
-						// menu_list_item.addClass('opened');
-						// menu_list_item.find('ul').slideDown("slow");
-					},
-					fail: function(data){
-						console.log('fail');
-					}
-				})
-			};
+			// 			//Open current submenu
+			// 			// menu_list_item.addClass('opened');
+			// 			// menu_list_item.find('ul').slideDown("slow");
+			// 		},
+			// 		fail: function(data){
+			// 			console.log('fail');
+			// 		}
+			// 	})
+			// };
 			e.stopImmediatePropagation();		
 			e.preventDefault();
 		})	

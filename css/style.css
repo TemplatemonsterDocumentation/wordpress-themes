@@ -930,6 +930,18 @@ blockquote {
 .prev_wrapper.navigated-section-9, .next_wrapper.navigated-section-9 {
   background: #2196f3; }
 
+.alert {
+  padding: 15px;
+  font-weight: 400; }
+  .alert.alert-success {
+    background: #A5D6A7; }
+  .alert.alert-info {
+    background: #81D4FA; }
+  .alert.alert-warning {
+    background: #FFE082; }
+  .alert.alert-danger {
+    background: #EF9A9A; }
+
 /*========================================================
                      HEADER  Section
 =========================================================*/

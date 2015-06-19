@@ -2,7 +2,6 @@
 include_once 'config.php';
 include_once 'functions.php';
 
-
 if (!isset($sections)) {
 	$sections = getSections();
 }
@@ -30,7 +29,6 @@ foreach ($sections as $key => $section) {
 	<link href='//fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="<?php echo $path; ?>/css/prettify.css">
 	<link rel="stylesheet" href="<?php echo $path; ?>/css/prettyPhoto.css">
-
 
 	<script src="<?php echo $path; ?>/js/jquery.js"></script>
 	<script src="<?php echo $path; ?>/js/jquery-migrate-1.2.1.js"></script>
@@ -99,7 +97,7 @@ foreach ($sections as $key => $section) {
 		FOOTER
 	=========================================================-->
 	<footer>
-		<div class="navigate">
+		<!-- <div class="navigate">
 			<div class="next_wrapper navigated-section-2">
 				<div class="container">
 					<a href="/section/template-installatiamework-installation.html" class="next">
@@ -108,7 +106,7 @@ foreach ($sections as $key => $section) {
 					</a>
 				</div>
 			</div>
-		</div>
+		</div> -->
 		<div class="copyright">TemplateMonster © <a href="http://www.templatemonster.com/privacy-policy.php">Privacy Policy</a></div>
 	</footer>
 </div>
