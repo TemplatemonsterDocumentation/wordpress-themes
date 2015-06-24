@@ -43,7 +43,28 @@
 			</ol>
 
 			<h4>Install Sample Data</h4>
-			<p>To make your theme appear as on the template live demo, please install the sample data. </p>
+			<p>To make your theme appear as on the template live demo, please install the sample data. You can do this using Data Manager tool or manually.</p>
+
+			<h5>Data Manager</h5>
+			<ol>
+				<li>Open WordPress admin panel and go to "Tools > Cherry Import" section
+					<figure class="img-polaroid"><img src="img/cherryframework/sample_data_import_section.jpg" alt=""></figure>
+				</li>
+				<li>Open your downloaded template package and go to "theme\sample_data\" directory. All files from this directory should be uploaded to Cherry Import.</li>
+				<li>You can select all files (CTRL+A) and drag them to the Cherry Import section or click "Browse local files" in Cherry Import. 
+					<figure class="img-polaroid"><img src="img/cherryframework/sample_data_import_import.jpg" alt=""></figure>
+				</li>
+				<li>If all files are uploaded you'll be able to Continue Installation.
+					<figure class="img-polaroid"><img src="img/cherryframework/sample_data_import_upload.jpg" alt=""></figure>
+					<p class="alert alert-warning">Please note: .json and .xml files are required for correct sample data installation.</p>
+				</li>
+				<li>Click "Continue Install" button to proceed.
+					<figure class="img-polaroid"><img src="img/cherryframework/sample_data_import_install.jpg" alt=""></figure>
+				</li>
+				<li>When the install process is done you can view your website. It should be as at the live demo. </li>
+			</ol>
+
+			<h5>Manual Installation</h5>
 			<ol>
 				<li>Copy the "<strong>uploads</strong>" folder	(you can find it in the <strong> theme/manual_install/</strong> template folder) into the <strong> /wp-content/ </strong> folder on the FTP server.</li>
 				<li>Open the <strong>theme####.sql</strong> file (located in the <strong>theme/manual_install/</strong> folder) using any code editor (Recommended software: Dreamweaver or Notepad) and change all lines with  "<strong>your_website_url_here</strong>" to your website URL via <strong>Find and Replace</strong>	(hot keys - Ctrl+H). E.g.: http://www.mywebsite.com</li>

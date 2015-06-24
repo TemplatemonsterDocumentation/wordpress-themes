@@ -229,7 +229,7 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
 
 			if ($('body').attr('data-section') == section_id) {
 				$("html, body").animate({ scrollTop: $(hash).offset().top - 100 }, 300);
-				document.location.hash = hash;
+				//document.location.hash = hash;
 			} 
 			// else {
 			// 	$.ajax({
@@ -254,8 +254,8 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
 			// 		}
 			// 	})
 			// };
-			e.stopImmediatePropagation();		
-			e.preventDefault();
+			//e.stopImmediatePropagation();		
+			//e.preventDefault();
 		})	
 	});
 })(jQuery);
