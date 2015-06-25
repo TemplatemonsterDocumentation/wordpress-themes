@@ -8,7 +8,7 @@
 				<li>Open the <strong>Plugins</strong> tab.</li>
 				<li>Click <strong>Add new</strong>.</li>
 				<li>Click the "Upload Plugin" button.</li>
-				<li>Download <a href="http://cloud.cherryframework.com/downloads/plugins/cherry-wizard.zip">Cherry Wizard</a>.</li>
+				<li>Download <a href="http://cloud.cherryframework.com/downloads/wizard/cherry-wizard.zip">Cherry Wizard</a>.</li>
 				<li>Upload the downloaded zip archive to the WordPress admin panel and click the "Install" button.</li>
 				<!-- <li>Enter "Cherry Wizard" into the "Search plugin" field.</li> -->
 				<!-- <li>After you get results of the search, click <strong>Install Now</strong> and install the plugin.</li> -->

@@ -75,6 +75,9 @@
 					<h4>Hosting</h4>
 					<p>As WordPress CMS is a PHP/MySQL platform, you need to have the hosting server prepared for it.</p>
 					<p>In case you already have a hosting server, you need to check whether it is compatibile with <a href="http://wordpress.org/about/requirements/" target="_blank"> WordPress hosting requirements </a>, in other words, whether you can host a WordPress website with it.</p>
+					
+					<p>If your hosting server meets WordPress requirements you should not have any difficulties with Cherry Framework 4.</p>
+
 					<p>You can also install WordPress on your PC or laptop through a local server. You can use the next software to create a local server: <strong>WAMP</strong>, <strong>AppServ</strong>, <strong>MAMP</strong>, etc. All of these support WordPress and can be installed as regular software.</p>
 					<p>These tutorials will help you set up the local server:</p>
 					<ul class="list-2">
