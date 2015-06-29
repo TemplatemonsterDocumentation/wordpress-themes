@@ -23,7 +23,7 @@ $fluidGridColumnWidth: 8.3333333333333333333%;
 
 @mixin buildGrid($gridColumnWidth, $gridGutterWidth) {
 
-  .container, .container-fluid {
+  .container {
     width: ($gridColumnWidth * $gridColumns) + ($gridGutterWidth * ($gridColumns - 1));
   }
 
@@ -54,7 +54,7 @@ $fluidGridColumnWidth: 8.3333333333333333333%;
 
 // Grid System
 // -----------
-.container, .container-fluid {
+.container {
   margin-right: auto;
   margin-left: auto;
   @include box-sizing(border-box);
@@ -65,42 +65,32 @@ $fluidGridColumnWidth: 8.3333333333333333333%;
   @extend %clearfix;
 }
 
-/*===============   Fluid grid    ====================*/
-.container-fluid {
-  [class*="grid_"] {
-    float: left;
-    width: $fluidGridColumnWidth;
-    min-height: 1px; // prevent collapsing columns
-  }
-}
-
-@for $i from 1 to $gridColumns + 1 {
-  .container-fluid{
-    .grid_#{$i} {
-      width: ($fluidGridColumnWidth * $i);
-    }
-  }
-}
-
-@for $i from 1 to $gridColumns + 1 {
-  .container-fluid .preffix_#{$i} {
-    margin-left: ($gridColumnWidth * $i);
-  }
-}
 
 @include buildGrid($gridColumnWidth, $gridGutterWidth);
 
-@media (min-width: 980px) and (max-width: 1199px) {
+.page {
+  padding-left: 64px;
+  padding-right: 300px;
+}
+
+@media (max-width: 1599px) {
+  .page{
+    padding-left: 64px;
+    padding-right: 64px;
+  }
+}
+
+@media (min-width: 1068px) and (max-width: 1301px) {
   @include buildGrid($gridColumnWidth980, $gridGutterWidth980);
 }
 
-@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 878px) and (max-width: 1067px) {
   @include buildGrid($gridColumnWidth768, $gridGutterWidth768);
 }
 
-@media (max-width: 767px) {
-  .container, .container-fluid {
-    width: 420px;
+@media (max-width: 877px) {
+  .container {
+    width: 100%;
     padding: 0;
   }
   .container .row {
@@ -123,17 +113,9 @@ $fluidGridColumnWidth: 8.3333333333333333333%;
 }
 
 @media (max-width: 479px) {
-  body {
-    padding: 0;
-  }
-
-  .container, .container-fluid {
-    width: 300px;
-    padding: 0 15px;
-  }
-
-  .row {
-    margin-left: 0;
+  .page{
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 

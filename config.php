@@ -9,7 +9,9 @@ if (strpos($_SERVER['REQUEST_URI'], 'index.php')) {
 //$path = 111;
 
 // Variables
-$doc_title = "Cherry Framework 4 Documentation";
+$product_name = "WordPress Themes";
+$product_desc = "Documentation";
+$doc_title = $product_name . " " . $product_desc;
 
 $lang = 'en';
 if (isset($_GET['lang'])) {

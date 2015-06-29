@@ -1,15 +1,11 @@
 ﻿﻿<h2 class="item1"><i class="icon-info-sign"></i> Introduction</h2>
 		<p>Thank you for purchasing a WordPress template. This documentation consists of several parts and covers the entire process of installing and setting up a WordPress website starting from scratch.</p>
 
-		<div id="wordpress_cms_desc">
 			<h3>What is WordPress CMS?</h3>
 			<p>WordPress is a free open-source blogging tool and content management system (CMS) based on PHP and MySQL. With its help you can create and administrate websites or powerful on-line applications without possessing any special technical skills or knowledge.  Due to its ease of use and flexibility WordPress has become the most popular platform for website development. <a href="http://wordpress.org/about/" target="_blank">Learn More</a></p>
-		</div>
 
-		<div id="wordpress_template_desc">
 			<h3>What is a WordPress Template?</h3>
 			<p>A WordPress template is a theme for the WordPress CMS platform. You can easily change your website appearance by installing a new WordPress template in a few easy steps. Despite its simplicity, a WordPress template contains all the necessary source files that can be altered the way you need.</p>
-		</div>
 
 		<div id="file_structure">
 			<h4>Template Structure</h4>
@@ -58,7 +54,6 @@
 			</ul>
 		</div>
 
-		<div id="prepare">
 			<h3>Preparation</h3>
 			<p>Before installing a WordPress website, you need to get fully prepared. We recommend that you get the following aspects covered:</p>
 
@@ -120,4 +115,3 @@
 					<li><i class="icon-play-circle "></i><a href="/help/how-to-install-wamp-web-development-environment.html" target="_blank">How to install WAMP web development environment</a></li>
 					<li><i class="icon-play-circle "></i><a href="/help/how-to-install-xamp-web-development-environment.html" target="_blank">How to install XAMP web development environment</a></li>
 				</ul>
-		</div>

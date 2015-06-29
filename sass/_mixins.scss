@@ -20,6 +20,11 @@
   }
 }
 
+
+@mixin clip($x1, $x2, $y1, $y2){
+  clip: rect($y1,$x2,$y2,$x1);
+}
+
 // Background-rgba
 @mixin background($rgb, $opacity) {
   background: rgba($rgb, $opacity);

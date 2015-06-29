@@ -1,10 +1,9 @@
 /*==================== Stuck ====================*/
 .stuck {
 	@include transition(transform .3s ease);
-	padding-top: 120px;
-	padding-bottom: 68px;
+    padding-top: 123px;
+    padding-bottom: 69px;
 	background: nth($section-schemes, 1);
-	@include card(1);
 
 	.container {
 		position: relative;
@@ -99,6 +98,10 @@
 
 		.section-title { display: none; }
 	}
+}
+
+.isStuck{
+  @include card(1);
 }
 
 .isStuck, .chapter {
