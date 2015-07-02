@@ -97,6 +97,13 @@
 				"en":"Grid",
 				"ru":"Сетка"
 			}
+		},
+		{
+			"id":"cherry-chat",
+			"translations":{
+				"en":"Chat",
+				"ru":"Чат"
+			}
 		}
 
 	]

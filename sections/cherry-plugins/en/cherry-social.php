@@ -4,7 +4,11 @@
 		
 			<div class="row">
 				<div class="grid_6">
-					<figure class="img-polaroid"><img src="img/wordpress/plugins_social_options.png" alt=""></figure>
+					<figure class="img-polaroid">
+						<a href="img/wordpress/plugins_social_options.png" class="pretty_image" rel="prettyPhoto[plugins]">
+							<img src="img/wordpress/plugins_social_options.png" alt="">
+						</a>
+					</figure>
 				</div>
 				<div class="grid_6">
 					<p>Choose social network for sharing</p>
