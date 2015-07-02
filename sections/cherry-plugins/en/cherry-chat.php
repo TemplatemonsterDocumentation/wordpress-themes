@@ -1,5 +1,5 @@
 		<article id="cherry-chat">
-			<h4>Cherry Chat</h4>
+			<h3>Cherry Chat</h3>
 			<p>Cherry Chat plugin adds live chat application to your WordPress administration panel. Using this live chat you can get 24/7 assistance on working with Cherry Framework and Cherry plugins. </p>	
 
 			<div class="row">
