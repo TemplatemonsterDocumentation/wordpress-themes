@@ -15,11 +15,14 @@
 			<h5>Choosing portfolio post format.</h5>
 			<p>You can use the following post types in portfolio post:</p>
 			<ul>
-				<li><i class="fa fa-angle-right"></i> <strong>Image</strong> - default gallery post type. Displays <em>post image</em> only.</li>
+				<li><i class="fa fa-angle-right"></i> <strong>Image</strong> - default gallery post type. Displays <em>post image</em> only.
+				<figure class="img-polaroid"><img src="img/wordpress/portfolio_post_type_format_image.png" alt=""></figure>		</li>
 				<li><i class="fa fa-angle-right"></i> <strong>Slideshow</strong> - gallery project is displayed in a slideshow. This gallery post type can contain unlimited images. </li>
-				<li><i class="fa fa-angle-right"></i> <strong>Grid Gallery</strong> - post images are displayed in a grid gallery. This gallery post type can contain unlimited images.</li>
-				<li><i class="fa fa-angle-right"></i> <strong>Video</strong> - you can add video from any  video hosting like YouTube, Vimeo, etc using this gallery post type.</li>
-				<li><i class="fa fa-angle-right"></i> <strong>Audio</strong> - this gallery post type allows to add an audio file. </li>
+				<li><i class="fa fa-angle-right"></i> <strong>Grid Gallery</strong> - post images are displayed in a grid gallery. This gallery post type can contain unlimited images.
+				<figure class="img-polaroid"><img src="img/wordpress/portfolio_post_type_format_gallery.png" alt=""></figure>	</li>
+				<li><i class="fa fa-angle-right"></i> <strong>Video</strong> - you can add video from any  video hosting like YouTube, Vimeo, etc using this gallery post type.
+				<figure class="img-polaroid"><img src="img/wordpress/portfolio_post_type_format_video.png" alt=""></figure>	</li>
+				<li><i class="fa fa-angle-right"></i> <strong>Audio</strong> - this gallery post type allows to add an audio file. 
+				<figure class="img-polaroid"><img src="img/wordpress/portfolio_post_type_format_audio.png" alt=""></figure>	</li>
 			</ul>
-			<figure class="img-polaroid"><img src="img/wordpress/folio_format.png" alt=""></figure>				
 		</article>

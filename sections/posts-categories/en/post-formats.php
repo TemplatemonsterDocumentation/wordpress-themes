@@ -57,6 +57,7 @@
 			<article id="post_format_gallery">
 				<h4>Gallery</h4>
 				<p>The main feature of this post format is the possibility to add an unlimited number of images.</p>
+				<figure class="img-polaroid"><img src="img/wordpress/gallery_post_type.jpg" alt=""></figure>
 				<p>Adding a gallery:</p>
 				<ol>
 					<li>Click<strong> Add Media</strong>.<br>

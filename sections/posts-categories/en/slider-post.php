@@ -15,5 +15,13 @@
 				</li>
 				<li>Once the slide settings are set up click<strong> Publish</strong>.</li>
 			</ol>
-			<figure class="img-polaroid"><img src="img/wordpress/slider.png" alt=""></figure>
+			<figure class="img-polaroid"><img src="img/wordpress/slide_post_type.png" alt=""></figure>			
+			<p>In slider posts you can also choose additional post formats:</p>
+			<ul>
+				<li>Image
+				<figure class="img-polaroid"><img src="img/wordpress/slide_post_type_format_image.png" alt=""></figure></li>				
+				<li>Video
+				<figure class="img-polaroid"><img src="img/wordpress/slide_post_type_format_video.png" alt=""></figure></li></li>
+				<li></li>
+			</ul>
 		</article>

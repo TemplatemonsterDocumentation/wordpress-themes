@@ -16,5 +16,5 @@
 				</li>
 				<li>Click<strong> Publish</strong>.</li>
 			</ol>
-			<figure class="img-polaroid"><img src="img/wordpress/our_team.png" alt=""></figure>
+			<figure class="img-polaroid"><img src="img/wordpress/team_post_type.png" alt=""></figure>
 		</article>
