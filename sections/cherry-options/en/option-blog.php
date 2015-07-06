@@ -61,7 +61,7 @@
 			<div class="row">
 				<div class="grid_6">
 					<figure class="img-polaroid">
-						<a href="img/cherryframework/cherry-options_blog-meta.jpg" class="pretty_image" data-gal="prettyPhoto">
+						<a href="img/cherryframework/cherry-options_blog-meta.jpg" class="pretty_image" rel="prettyPhoto[options]">
 							<img src="img/cherryframework/cherry-options_blog-meta.jpg" alt="" style="opacity: 1;"><i class="icon-search"></i><span></span>
 						</a>
 					</figure>
@@ -100,7 +100,7 @@
 			<div class="row">
 				<div class="grid_6">
 					<figure class="img-polaroid">
-						<a href="img/cherryframework/cherry-options_blog-post.jpg" class="pretty_image" data-gal="prettyPhoto">
+						<a href="img/cherryframework/cherry-options_blog-post.jpg" class="pretty_image" rel="prettyPhoto[options]">
 							<img src="img/cherryframework/cherry-options_blog-post.jpg" alt="" style="opacity: 1;"><i class="icon-search"></i><span></span>
 						</a>
 					</figure>
