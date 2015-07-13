@@ -154,7 +154,7 @@ ol {
 * + h5 {
   margin-top: 20px; }
 
-* + p {
+* + p, p {
   margin-top: 31px; }
 
 * + blockquote {
@@ -219,10 +219,10 @@ article * + article {
 
 dt {
   font-weight: 500;
-  margin-top: 17px; }
+  margin-top: 31px; }
 
 pre {
-  margin-top: 17px;
+  margin-top: 31px;
   word-wrap: break-word; }
 
 b, strong {
