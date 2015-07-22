@@ -1,0 +1,32 @@
+{	
+	"id":"pages",
+	"translations":
+	{
+		"en":"Pages",
+		"ru":"Страницы"
+	},
+	"articles":
+	[		
+		{
+			"id":"page-templates",
+			"translations":{
+				"en":"Page templates",
+				"ru":"Шаблоны страниц"
+			}
+		},	
+		{
+			"id":"home-page",
+			"translations":{
+				"en":"Setting up the home page",
+				"ru":"Настройка домашней страницы"
+			}
+		},		
+		{
+			"id":"contact-form",
+			"translations":{
+				"en":"Contact form",
+				"ru":"Форма обратной связи"
+			}
+		}
+	]
+}

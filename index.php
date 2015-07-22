@@ -50,8 +50,8 @@ foreach ($sections as $key => $section) {
 <div class="page-wrap">
     <div class="rd-mobilemenu active">
         <div class="logo">
-            <a href="<?php echo $path; ?>"><img src="<?php echo $path; ?>/img/logo.png" alt=""></a>
-        </div>
+            <a href="<?php echo $path; ?>"><img src="<?php echo $path; ?>/img/logo.png" alt=""><span>Monstroid</span><small>premium theme</small></a>
+        </div>        
         <div class="panel">
             <!-- <div class="select select-version">
                 <select>
@@ -74,7 +74,7 @@ foreach ($sections as $key => $section) {
     </div>
     <div class="page-content active">
         <button class="rd-mobilepanel_toggle active"><span></span></button>
-        <div class="rd-mobilepanel">
+        <div class="rd-mobilepanel">            
             <h1 class="rd-mobilepanel_title">
                 <span><?php echo $product_name; ?></span> <?php echo $product_desc; ?>
             </h1>

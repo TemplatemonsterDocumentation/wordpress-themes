@@ -4,7 +4,8 @@
 // Fonts
 @import url(fl-dripicons.css);
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
-@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+@import url(//fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+@import url(//fonts.googleapis.com/css?family=Oswald:400,700);
 
 /*========================================================
                       Main Styles
@@ -48,8 +49,8 @@ h3 {
 }
 
 h4 {
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 26px;
   font-weight: 500;
 
   em {
@@ -62,10 +63,10 @@ h4 {
 h5 {
   font-size: 16px;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
-p {
+article {
   a{
     color: #1D88DE;
 
@@ -126,7 +127,7 @@ ol {
       counter-increment: li;
       min-width: 18px;
       padding: 0 4px 0 0;
-      font-weight: 400;
+      font-weight: 700;
       color: #000000;
     }
 
@@ -151,6 +152,7 @@ ol {
   margin: 0 auto;
   text-align: center;
   margin-top: 17px;
+  //box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.15);
 }
 
 .clearfix {
@@ -173,17 +175,19 @@ ol {
 =========================================================*/
 * + h2 { margin-top: 55px; }
 
-* + h3 { margin-top: 45px; }
+* + h3 { margin-top: 55px; }
 
-* + h4 { margin-top: 42px; }
+* + h4 { margin-top: 55px; }
 
-* + h5 { margin-top: 20px; }
+* + h5 { margin-top: 30px; }
 
-* + p, p { margin-top: 31px; }
+* + p { margin-top: 31px; }
 
 * + blockquote { margin-top: 24px; }
 
 * + ol, * + ul { margin-top: 17px; }
+
+* + ol li ul {margin-bottom: 17px; }
 
 * + .terms-list { margin-top: 8px; }
 
@@ -207,6 +211,8 @@ ol + * { margin-top: 48px; }
 
 h3 + h4 { margin-top: 15px; }
 
+h4 + h5 { margin-top: 40px; }
+
 p + p { margin-top: 20px; }
 
 ol + blockquote { margin-top: 42px; }
@@ -221,20 +227,20 @@ ol + blockquote { margin-top: 42px; }
   padding-top: 64px;
 }
 
-article * + article{
+/*article * + article{
   padding-top: 42px;
-}
+}*/
 
 dt {
   font-weight: 500;
-  margin-top: 31px;
+  margin-top: 17px;
 }
 
 dd {
 }
 
 pre {
-  margin-top: 31px;
+  margin-top: 17px;
   word-wrap: break-word;
 }
 
@@ -272,6 +278,12 @@ ul, ol {
     > ul {
       margin-left: 20px
     }
+    >.img-polaroid {
+      margin-bottom: 30px;
+    }
+    >.alert {
+      margin-bottom: 30px;
+    }
   }
 }
 
@@ -294,6 +306,35 @@ ul.fa-marked {
 /*=======================================================
                         Components
 =========================================================*/
+
+/*==================== Search ====================*/
+
+.search{
+  position: relative;
+  .fa{
+    color: #fff;
+  }
+}
+
+#search{
+  border: none;
+}
+
+.search-results{
+  position: absolute;
+  left: 0;
+  top: 21px;
+  text-align: left;
+  background: #fff;  
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.search-results > *{
+  padding: 10px;
+}
+
+
 
 /*==================== Link ====================*/
 .link {

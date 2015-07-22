@@ -1,10 +1,17 @@
 [
-	"introduction",
-	"template-installation",
+	"general-info",
+	"installation",
 	"posts-categories",
+	"header",
+	"pages",
+	"blog",
+	"portfolio",
+	"shop",
+	"styling-options",
 	"cherry-options",
 	"cherry-plugins",
-	"third-party-plugins",
 	"shortcodes",
-	"addendum"
+	"footer",
+	"wpml-configuration",
+	"extras"
 ]

@@ -1,6 +1,7 @@
 @import url(fl-dripicons.css);
 @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css);
-@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+@import url(//fonts.googleapis.com/css?family=Roboto:300,400,500,700);
+@import url(//fonts.googleapis.com/css?family=Oswald:400,700);
 /*========================================================
                       Main Styles
 =========================================================*/
@@ -36,8 +37,8 @@ h3 {
   line-height: 32px; }
 
 h4 {
-  font-size: 15px;
-  line-height: 24px;
+  font-size: 20px;
+  line-height: 26px;
   font-weight: 500; }
   h4 em {
     display: block;
@@ -47,11 +48,11 @@ h4 {
 h5 {
   font-size: 16px;
   line-height: 24px;
-  font-weight: 400; }
+  font-weight: 500; }
 
-p a {
+article a {
   color: #1D88DE; }
-  p a:hover {
+  article a:hover {
     text-decoration: underline; }
 
 em {
@@ -99,7 +100,7 @@ ol {
     counter-increment: li;
     min-width: 18px;
     padding: 0 4px 0 0;
-    font-weight: 400;
+    font-weight: 700;
     color: #000000; }
   ol > li + li {
     margin-top: 6px; }
@@ -146,15 +147,15 @@ ol {
   margin-top: 55px; }
 
 * + h3 {
-  margin-top: 45px; }
+  margin-top: 55px; }
 
 * + h4 {
-  margin-top: 42px; }
+  margin-top: 55px; }
 
 * + h5 {
-  margin-top: 20px; }
+  margin-top: 30px; }
 
-* + p, p {
+* + p {
   margin-top: 31px; }
 
 * + blockquote {
@@ -162,6 +163,9 @@ ol {
 
 * + ol, * + ul {
   margin-top: 17px; }
+
+* + ol li ul {
+  margin-bottom: 17px; }
 
 * + .terms-list {
   margin-top: 8px; }
@@ -196,6 +200,9 @@ ol + * {
 h3 + h4 {
   margin-top: 15px; }
 
+h4 + h5 {
+  margin-top: 40px; }
+
 p + p {
   margin-top: 20px; }
 
@@ -214,15 +221,15 @@ ol + blockquote {
 * + article {
   padding-top: 64px; }
 
-article * + article {
-  padding-top: 42px; }
-
+/*article * + article{
+  padding-top: 42px;
+}*/
 dt {
   font-weight: 500;
-  margin-top: 31px; }
+  margin-top: 17px; }
 
 pre {
-  margin-top: 31px;
+  margin-top: 17px;
   word-wrap: break-word; }
 
 b, strong {
@@ -242,6 +249,10 @@ ul li > .fa, ol li > .fa {
   margin-right: 5px; }
 ul li > ul, ol li > ul {
   margin-left: 20px; }
+ul li > .img-polaroid, ol li > .img-polaroid {
+  margin-bottom: 30px; }
+ul li > .alert, ol li > .alert {
+  margin-bottom: 30px; }
 
 ul.fa-marked li:before {
   content: "\f105";
@@ -257,6 +268,27 @@ ul.fa-marked li:before {
 /*=======================================================
                         Components
 =========================================================*/
+/*==================== Search ====================*/
+.search {
+  position: relative; }
+  .search .fa {
+    color: #fff; }
+
+#search {
+  border: none; }
+
+.search-results {
+  position: absolute;
+  left: 0;
+  top: 21px;
+  text-align: left;
+  background: #fff;
+  width: 100%;
+  box-sizing: border-box; }
+
+.search-results > * {
+  padding: 10px; }
+
 /*==================== Link ====================*/
 .link {
   font-size: 16px;
@@ -423,11 +455,22 @@ blockquote {
     left: 0;
     right: 0;
     height: 112px;
-    padding: 33px 8px;
-    text-align: center;
+    padding: 33px 24px;
+    text-align: left;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    color: #fff; }
+    .rd-mobilemenu .logo img {
+      float: left;
+      margin-right: 10px; }
+    .rd-mobilemenu .logo span {
+      font-family: 'Oswald', sans-serif;
+      display: block;
+      text-transform: uppercase;
+      font-size: 32px;
+      line-height: 32px;
+      padding-top: 5px; }
   .rd-mobilemenu .panel {
     top: 130px;
     position: absolute;
@@ -878,7 +921,7 @@ body.navbar-fixed {
     color: #3F51B5; }
     .scheme-0 .chapter-nav a:hover {
       color: #606fc7; }
-.scheme-0 p a {
+.scheme-0 article a {
   color: #3F51B5; }
 
 .scheme-1 .toTop {
@@ -899,7 +942,7 @@ body.navbar-fixed {
     color: #4CAF50; }
     .scheme-1 .chapter-nav a:hover {
       color: #6ec071; }
-.scheme-1 p a {
+.scheme-1 article a {
   color: #4CAF50; }
 
 .scheme-2 .toTop {
@@ -920,7 +963,7 @@ body.navbar-fixed {
     color: #673AB7; }
     .scheme-2 .chapter-nav a:hover {
       color: #8259cb; }
-.scheme-2 p a {
+.scheme-2 article a {
   color: #673AB7; }
 
 .scheme-3 .toTop {
@@ -941,7 +984,7 @@ body.navbar-fixed {
     color: #8BC34A; }
     .scheme-3 .chapter-nav a:hover {
       color: #a4d070; }
-.scheme-3 p a {
+.scheme-3 article a {
   color: #8BC34A; }
 
 .scheme-4 .toTop {
@@ -962,7 +1005,7 @@ body.navbar-fixed {
     color: #2196F3; }
     .scheme-4 .chapter-nav a:hover {
       color: #51adf6; }
-.scheme-4 p a {
+.scheme-4 article a {
   color: #2196F3; }
 
 .scheme-5 .toTop {
@@ -983,7 +1026,7 @@ body.navbar-fixed {
     color: #E91E63; }
     .scheme-5 .chapter-nav a:hover {
       color: #ee4c83; }
-.scheme-5 p a {
+.scheme-5 article a {
   color: #E91E63; }
 
 .scheme-6 .toTop {
@@ -1004,7 +1047,7 @@ body.navbar-fixed {
     color: #009688; }
     .scheme-6 .chapter-nav a:hover {
       color: #00c9b6; }
-.scheme-6 p a {
+.scheme-6 article a {
   color: #009688; }
 
 .scheme-7 .toTop {
@@ -1025,7 +1068,7 @@ body.navbar-fixed {
     color: #607D8B; }
     .scheme-7 .chapter-nav a:hover {
       color: #7b96a3; }
-.scheme-7 p a {
+.scheme-7 article a {
   color: #607D8B; }
 
 .scheme-8 .toTop {
@@ -1046,7 +1089,7 @@ body.navbar-fixed {
     color: #9C27B0; }
     .scheme-8 .chapter-nav a:hover {
       color: #bc37d3; }
-.scheme-8 p a {
+.scheme-8 article a {
   color: #9C27B0; }
 
 .prev_wrapper.navigated-section-1, .next_wrapper.navigated-section-1 {
@@ -1069,16 +1112,24 @@ body.navbar-fixed {
   background: #9C27B0; }
 
 .alert {
-  padding: 15px;
-  font-weight: 400; }
+  padding: 30px;
+  font-weight: 300;
+  border-left: transparent 8px solid;
+  background: #fff;
+  font-size: 15px;
+  line-height: 25px; }
   .alert.alert-success {
-    background: #A5D6A7; }
+    border-color: #A5D6A7;
+    color: #A5D6A7; }
   .alert.alert-info {
-    background: #81D4FA; }
+    border-color: #1d88de;
+    color: #1d88de; }
   .alert.alert-warning {
-    background: #FFE082; }
+    border-color: #ff9700;
+    color: #ff9700; }
   .alert.alert-danger {
-    background: #EF9A9A; }
+    border-color: #EF9A9A;
+    color: #EF9A9A; }
 
 /*==================     ToTop     ======================*/
 .toTop {

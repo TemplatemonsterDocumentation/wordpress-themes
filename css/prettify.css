@@ -4,35 +4,35 @@
 .pln { color: #000 }  /* plain text */
 
 @media screen {
-  .str { color: #080 }  /* string content */
-  .kwd { color: #008 }  /* a keyword */
-  .com { color: #800 }  /* a comment */
-  .typ { color: #606 }  /* a type name */
-  .lit { color: #066 }  /* a literal value */
+  .str { color: #000 }  /* string content */
+  .kwd { color: #000 }  /* a keyword */
+  .com { color: #000 }  /* a comment */
+  .typ { color: #000 }  /* a type name */
+  .lit { color: #000 }  /* a literal value */
   /* punctuation, lisp open bracket, lisp close bracket */
-  .pun, .opn, .clo { color: #660 }
-  .tag { color: #008 }  /* a markup tag name */
-  .atn { color: #606 }  /* a markup attribute name */
-  .atv { color: #080 }  /* a markup attribute value */
-  .dec, .var { color: #606 }  /* a declaration; a variable name */
+  .pun, .opn, .clo { color: #000 }
+  .tag { color: #000 }  /* a markup tag name */
+  .atn { color: #000 }  /* a markup attribute name */
+  .atv { color: #000 }  /* a markup attribute value */
+  .dec, .var { color: #000 }  /* a declaration; a variable name */
   .fun { color: red }  /* a function name */
 }
 
 /* Use higher contrast and text-weight for printable form. */
 @media print, projection {
-  .str { color: #060 }
-  .kwd { color: #006; font-weight: bold }
-  .com { color: #600; font-style: italic }
-  .typ { color: #404; font-weight: bold }
-  .lit { color: #044 }
-  .pun, .opn, .clo { color: #440 }
-  .tag { color: #006; font-weight: bold }
-  .atn { color: #404 }
-  .atv { color: #060 }
+  .str { color: #000 }
+  .kwd { color: #000; font-weight: bold }
+  .com { color: #000; font-style: italic }
+  .typ { color: #000; font-weight: bold }
+  .lit { color: #000 }
+  .pun, .opn, .clo { color: #000 }
+  .tag { color: #000; font-weight: bold }
+  .atn { color: #000 }
+  .atv { color: #000 }
 }
 
 /* Put a border around prettyprinted code snippets. */
-pre.prettyprint {   padding: 10px;  background-color: #F7F7F7; }
+pre.prettyprint {   padding: 30px;  background-color: #f0f0f0; white-space: pre-wrap;}
 
 /* Specify class=linenums on a pre to get line numbering */
 ol.linenums { margin-top: 0; margin-bottom: 0 } /* IE indents via margin-left */

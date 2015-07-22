@@ -1,0 +1,25 @@
+{	
+	"id":"footer",
+	"translations":
+	{
+		"en":"Footer",
+		"ru":"Футер"
+	},
+	"articles":
+	[		
+		{
+			"id":"footer-widgets",
+			"translations":{
+				"en":"Adding footer widgets",
+				"ru":"Добавление виджетов в футер"
+			}
+		},		
+		{
+			"id":"copyrights",
+			"translations":{
+				"en":"Copyrights",
+				"ru":"Авторские права"
+			}
+		}
+	]
+}

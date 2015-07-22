@@ -43,9 +43,22 @@ $rd-menu-width-mobile: 250px;
     left: 0;
     right: 0;
     height: $rd-mobilepanel-height*2;
-    padding: 33px 8px;
-    text-align: center;
+    padding: 33px 24px;
+    text-align: left;
     @include box-sizing(border-box);
+    color:#fff;       
+    img{
+      float: left;
+      margin-right: 10px;      
+    }
+    span{
+      font-family: 'Oswald', sans-serif;
+      display: block;
+      text-transform: uppercase; 
+      font-size: 32px;
+      line-height: 32px;
+      padding-top: 5px;
+    }
   }
 
   .panel{

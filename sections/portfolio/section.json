@@ -1,0 +1,18 @@
+{	
+	"id":"portfolio",
+	"translations":
+	{
+		"en":"Portfolio",
+		"ru":"Портфолио"
+	},
+	"articles":
+	[		
+		{
+			"id":"portfolio-post",
+			"translations":{
+				"en":"Working with the portfolio post types",
+				"ru":"Работа с постами портфолио"
+			}
+		}
+	]
+}

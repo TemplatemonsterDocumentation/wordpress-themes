@@ -251,3 +251,30 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
     });
 })(jQuery);
 
+
+/* AJAX Search
+ ========================================================*/
+;
+(function ($) {
+    $(document).ready(function () {
+
+        var form = $('#search-form');
+        
+        form.submit(function(e){
+            e.preventDefault();
+
+            var url = 'search.php';
+
+            $.ajax({
+                type: "POST", 
+                url: url,
+                data: form.serialize(),
+                success: function(data){
+                    //console.log(data);
+                    $('.search-results').html(data);
+                }
+            })
+        })
+        
+    });
+})(jQuery);

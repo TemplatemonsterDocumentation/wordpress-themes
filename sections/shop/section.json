@@ -1,0 +1,25 @@
+{	
+	"id":"shop",
+	"translations":
+	{
+		"en":"Shop",
+		"ru":"Магазин"
+	},
+	"articles":
+	[		
+		{
+			"id":"create-products",
+			"translations":{
+				"en":"Create products",
+				"ru":"Создание продуктов"
+			}
+		},		
+		{
+			"id":"woocommerce-cart",
+			"translations":{
+				"en":"Using WooCommerce cart",
+				"ru":"Использование корзины WooCommerce"
+			}
+		}
+	]
+}

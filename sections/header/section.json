@@ -1,0 +1,39 @@
+{	
+	"id":"header",
+	"translations":
+	{
+		"en":"Header",
+		"ru":"Хедер"
+	},
+	"articles":
+	[		
+		{
+			"id":"logo-favicon",
+			"translations":{
+				"en":"Adding the logo and favicon",
+				"ru":"Добавление логотипа и фавиконки"
+			}
+		},	
+		{
+			"id":"setting-menu",
+			"translations":{
+				"en":"Setting up the menu",
+				"ru":"Настройка меню"
+			}
+		},		
+		{
+			"id":"mega-menu",
+			"translations":{
+				"en":"Using the mega menu",
+				"ru":"Использование мега меню"
+			}
+		},
+		{
+			"id":"stickup-menu",
+			"translations":{
+				"en":"Setting up the StickUp menu",
+				"ru":"настройка Stickup меню"
+			}
+		}
+	]
+}

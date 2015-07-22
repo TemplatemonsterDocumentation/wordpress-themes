@@ -1,0 +1,46 @@
+{	
+	"id":"installation",
+	"translations":
+	{
+		"en":"Installation",
+		"ru":"Установка"
+	},
+	"articles":
+	[		
+		{
+			"id":"engine-installation",
+			"translations":{
+				"en":"WordPress installation",
+				"ru":"Установка WordPress"
+			}
+		},	
+		{
+			"id":"cherry-wizard",
+			"translations":{
+				"en":"Automatic installation using <br> Cherry Wizard",
+				"ru":"Автоматическая установка через <br> Cherry Wizard"
+			}
+		},		
+		{
+			"id":"manual-install",
+			"translations":{
+				"en":"Manual Installation",
+				"ru":"Ручная установка"
+			}
+		},
+		{
+			"id":"update-theme",
+			"translations":{
+				"en":"How to update the theme",
+				"ru":"Как обновить тему"
+			}
+		},
+		{
+			"id":"change-log",
+			"translations":{
+				"en":"Monstroid change log",
+				"ru":"Журнал изменений Monstroid"
+			}
+		}	
+	]
+}

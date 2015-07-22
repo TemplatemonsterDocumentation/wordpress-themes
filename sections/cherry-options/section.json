@@ -92,11 +92,11 @@
 			}
 		},
 		{
-			"id":"option-static-editor",
+			"id":"option-landing",
 			"translations":{
-				"en":"Static Editor",
-				"ru":"Static Editor"
+				"en":"Landing Page",
+				"ru":"Landing Page"
 			}
-		}	
+		}
 	]
 }

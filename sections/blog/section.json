@@ -1,0 +1,32 @@
+{	
+	"id":"blog",
+	"translations":
+	{
+		"en":"Blog",
+		"ru":"Блог"
+	},
+	"articles":
+	[		
+		{
+			"id":"blog-posts",
+			"translations":{
+				"en":"Creating blog posts",
+				"ru":"Создание постов в блоге"
+			}
+		},	
+		{
+			"id":"blog-options",
+			"translations":{
+				"en":"Blog Monstroid options",
+				"ru":"Опции блога Monstroid"
+			}
+		},		
+		{
+			"id":"assigning-blog",
+			"translations":{
+				"en":"Assigning the blog page",
+				"ru":"Назначение страницы блога"
+			}
+		}
+	]
+}
