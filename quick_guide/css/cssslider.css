@@ -1,0 +1,612 @@
+.pagination {
+  text-align: center;
+  padding-top: 17px;
+}
+.pagination li {
+  display: inline-block;
+}
+.pagination li a {
+  position: relative;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-right: 0;
+  line-height: 53px;
+  font-family: 'Gochi Hand', cursive;
+  background: url(../images/pag1.png) 0 0 no-repeat;
+  height: 51px;
+  width: 47px;
+  color: #252525;
+  -webkit-transition: color 0.3s ease;
+  -moz-transition: color 0.3s ease;
+  -o-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+  white-space: nowrap;
+}
+.pagination li a:hover {
+  background-position: 0 bottom;
+  color: #ff3923;
+}
+.pagination li.active a {
+  background-position: 0 bottom;
+  color: #ff3923;
+}
+.pagination li + li {
+  margin-left: 4px;
+}
+.pagination li + li a {
+  background-image: url(../images/pag2.png);
+}
+.pagination li + li + li {
+  margin-left: -1px;
+}
+.pagination li + li + li a {
+  width: 57px;
+  background-image: url(../images/pag3.png);
+}
+.pagination li + li + li + li a {
+  width: 47px;
+  background-image: url(../images/pag7.png);
+}
+.pagination li + li + li + li + li a {
+  width: 47px;
+  background-image: url(../images/pag4.png);
+}
+.pagination li + li + li + li + li + li {
+  margin-left: -5px;
+}
+.pagination li + li + li + li + li + li a {
+  background-image: url(../images/pag5.png);
+}
+.pagination li + li + li + li + li + li + li {
+  margin-left: 0px;
+}
+.pagination li + li + li + li + li + li + li a {
+  width: 48px;
+  background-image: url(../images/pag6.png);
+}
+.pagination li + li + li + li + li + li + li {
+  margin-left: -5px;
+}
+.pagination li + li + li + li + li + li + li a {
+  width: 47px;
+  background-image: url(../images/pag7.png);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.area {
+  height: 600px;
+  width: 1070px;
+  overflow: hidden;
+  border: 1px solid #dcdcdc;
+  position: relative;
+}
+.slides {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 600px;
+  width: 1070px;
+  overflow: hidden;
+}
+.slides li {
+  height: 600px;
+  width: 1070px;
+  position: absolute;
+  display: block;
+}
+.interactive {
+  -webkit-transition: 1s ease-in all;
+  -moz-transition: 1s ease-in all;
+  -o-transition: 1s ease-in all;
+  transition: 1s ease-in all;
+}
+.guide {
+  height: 600px;
+  width: 1070px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 99;
+}
+.guide li,
+.guide li.in,
+.guide li.out {
+  display: block;
+  z-index: 99;
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.guide li.out {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: 0.1s ease-out all;
+  -moz-transition: 0.1s ease-out all;
+  -o-transition: 0.1s ease-out all;
+  transition: 0.1s ease-out all;
+}
+.guide li.out .arrow {
+  opacity: 0;
+  -webkit-transition: 0.2s ease-out all;
+  -moz-transition: 0.2s ease-out all;
+  -o-transition: 0.2s ease-out all;
+  transition: 0.2s ease-out all;
+}
+.guide li.in {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transition: 0.5s ease-in all;
+  -moz-transition: 0.5s ease-in all;
+  -o-transition: 0.5s ease-in all;
+  transition: 0.5s ease-in all;
+}
+.arrow,
+.stickman,
+.guide_link {
+  display: block;
+  position: absolute;
+}
+.stickman img {
+  height: 0;
+  bottom: 0 !important;
+  position: relative;
+}
+.dialog {
+  font: bold 25px/25px 'Annie Use Your Telescope', cursive;
+  color: #0a0805;
+  background: url(../images/dialog.png) 0 0 no-repeat;
+  width: 292px;
+  height: 177px;
+  overflow: hidden;
+  text-transform: none;
+  position: absolute;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.dialog_sl31 {
+  background: url(../images/dialog_2.png) 0 0 no-repeat;
+  margin-top: -500px;
+  overflow: hidden;
+}
+.dialog_sl1 {
+  margin-top: -500px;
+  overflow: hidden;
+}
+.arrow {
+  opacity: 0;
+}
+.arrow em {
+  display: block;
+  font-style: normal;
+  font: bold 25px/25px 'Annie Use Your Telescope', cursive;
+  color: #ff0000;
+  position: absolute;
+  top: -10px;
+  right: -70px;
+  white-space: nowrap;
+}
+.guide_link {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.guide_link:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transition: opacity 0.2s ease-in-out;
+  -moz-transition: opacity 0.2s ease-in-out;
+  -o-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+}
+/**slide-1**/
+.slide-1 .arrow {
+  width: 101px;
+  height: 38px;
+  left: 400px;
+  top: 54px;
+}
+.slide-1 .arrow em {
+  top: 5px;
+  right: -70px;
+}
+.slide-1 #arrow_sl1 {
+  position: relative;
+  width: 101px;
+  height: 38px;
+  background: url(../images/arrow_sl3.png) no-repeat;
+  display: block;
+}
+.slide-1 .stickman {
+  width: 148px;
+  height: 181px;
+  left: 849px;
+  bottom: 42px;
+}
+.slide-1 .stickman.stickman_sl1 img {
+  bottom: 0 !important;
+  vertical-align: bottom !important;
+  top: 181px;
+}
+.slide-1 .dialog {
+  padding: 43px 10px 0;
+  left: 640px;
+  top: 168px;
+}
+.slide-1 .guide_link {
+  width: 160px;
+  height: 55px;
+  top: 40px;
+  left: 230px;
+}
+.slide-1 #focus_1 {
+  position: relative;
+  width: 160px;
+  height: 55px;
+  background: url(../images/focus_sl3.png) no-repeat;
+  display: block;
+}
+/**slide-2**/
+.slide-2 .arrow {
+  width: 57px;
+  height: 66px;
+  left: 710px;
+  top: 290px;
+}
+.slide-2 .arrow em {
+  display: block;
+  top: 0px;
+  right: 70px;
+  -webkit-transform: rotate(-15deg);
+  -moz-transform: rotate(-15deg);
+  -ms-transform: rotate(-15deg);
+  -o-transform: rotate(-15deg);
+  transform: rotate(-15deg);
+}
+.slide-2 #arrow_sl2 {
+  position: relative;
+  width: 57px;
+  height: 66px;
+  background: url(../images/arrow_sl5.png) no-repeat;
+  display: block;
+}
+.slide-2 .stickman {
+  width: 96px;
+  height: 191px;
+  left: 202px;
+  bottom: 30px;
+}
+.slide-2 .stickman.stickman_sl2 img {
+  bottom: 0 !important;
+  vertical-align: bottom !important;
+  top: 191px;
+}
+.slide-2 .dialog {
+  background: url(../images/dialog_2.png) 0 0 no-repeat;
+  padding: 39px 20px 0;
+  left: 303px;
+  top: 270px;
+}
+.slide-2 .guide_link {
+  width: 150px;
+  height: 57px;
+  left: 650px;
+  top: 212px;
+}
+.slide-2 #focus_2 {
+  position: relative;
+  width: 150px;
+  height: 57px;
+  background: url(../images/focus_sl5.png) no-repeat;
+  display: block;
+}
+/**slide-3**/
+.slide-3 .arrow {
+  width: 39px;
+  height: 68px;
+  left: 200px;
+  top: 238px;
+}
+.slide-3 .arrow em {
+  top: 60px;
+  right: -60px;
+}
+.slide-3 #arrow_sl3 {
+  position: relative;
+  width: 39px;
+  height: 68px;
+  background: url(../images/arrow_sl6.png) no-repeat;
+  display: block;
+}
+.slide-3 .stickman {
+  width: 126px;
+  height: 189px;
+  left: 773px;
+  bottom: 65px;
+}
+.slide-3 .stickman.stickman_sl3 img {
+  bottom: 0 !important;
+  vertical-align: bottom !important;
+  top: 126px;
+}
+.slide-3 .dialog {
+  padding: 37px 10px 0;
+  left: 616px;
+  top: 145px;
+}
+.slide-3 .guide_link {
+  width: 150px;
+  height: 57px;
+  bottom: 370px;
+  left: 150px;
+}
+.slide-3 #focus_3 {
+  position: relative;
+  width: 150px;
+  height: 57px;
+  background: url(../images/focus_sl1.png) no-repeat;
+  display: block;
+}
+/*************slider 2**************/
+.slider_2 {
+  /**slide-1**/
+  /**slide-22**/
+}
+.slider_2 .slide-21 .arrow {
+  width: 164px;
+  height: 58px;
+  left: 350px;
+  top: 50px;
+}
+.slider_2 .slide-21 .arrow em {
+  top: 40px;
+  right: -40px;
+  -webkit-transform: rotate(-35deg);
+  -moz-transform: rotate(-35deg);
+  -ms-transform: rotate(-35deg);
+  -o-transform: rotate(-35deg);
+  transform: rotate(-35deg);
+}
+.slider_2 .slide-21 #arrow_sl2_1 {
+  position: relative;
+  width: 164px;
+  height: 58px;
+  background: url(../images/arrow_sl2.png) no-repeat;
+  display: block;
+}
+.slider_2 .slide-21 .stickman {
+  width: 112px;
+  height: 221px;
+  left: 826px;
+  bottom: 19px;
+}
+.slider_2 .slide-21 .stickman.stickman_sl1 img {
+  bottom: 0 !important;
+  vertical-align: bottom !important;
+  top: 191px;
+}
+.slider_2 .slide-21 .dialog {
+  padding: 37px 10px 0;
+  left: 595px;
+  top: 208px;
+}
+.slider_2 .slide-21 .guide_link {
+  width: 165px;
+  height: 65px;
+  left: 280px;
+  top: 140px;
+}
+.slider_2 .slide-21 #focus2_1 {
+  position: relative;
+  width: 165px;
+  height: 65px;
+  background: url(../images/focus_sl3_2.png) no-repeat;
+  display: block;
+}
+.slider_2 .slide-22 .arrow {
+  width: 68px;
+  height: 57px;
+  left: 530px;
+  top: 161px;
+}
+.slider_2 .slide-22 #arrow_sl2_2 {
+  position: relative;
+  width: 68px;
+  height: 57px;
+  background: url(../images/arrow_sl1.png) no-repeat;
+  display: block;
+}
+.slider_2 .slide-22 .stickman {
+  width: 113px;
+  height: 217px;
+  left: 844px;
+  bottom: 39px;
+}
+.slider_2 .slide-22 .stickman.stickman_sl2 img {
+  bottom: 0 !important;
+  vertical-align: bottom !important;
+  top: 191px;
+}
+.slider_2 .slide-22 .dialog {
+  padding: 37px 10px 0;
+  left: 670px;
+  top: 194px;
+}
+.slider_2 .slide-22 .guide_link {
+  bottom: 270px;
+  left: 310px;
+}
+.slider_2 .slide-22 #focus2_2 {
+  position: relative;
+  width: 299px;
+  height: 108px;
+  background: url(../images/focus_sl2.png) no-repeat;
+  display: block;
+}
+/*************slider 3**************/
+.slider_3 {
+  /**slide-31**/
+  /**slide-32**/
+  /**slide-33**/
+}
+.slider_3 .slide-31 .arrow {
+  left: 295px;
+  top: 385px;
+}
+.slider_3 .slide-31 .arrow em {
+  right: -70px;
+  top: 80px;
+  -webkit-transform: rotate(-35deg);
+  -moz-transform: rotate(-35deg);
+  -ms-transform: rotate(-35deg);
+  -o-transform: rotate(-35deg);
+  transform: rotate(-35deg);
+}
+.slider_3 .slide-31 #arrow_sl3_1 {
+  position: relative;
+  width: 65px;
+  height: 91px;
+  background: url(../images/arrow_sl4.png) no-repeat;
+  display: block;
+}
+.slider_3 .slide-31 .stickman {
+  width: 96px;
+  height: 191px;
+  left: 920px;
+  bottom: 100px;
+}
+.slider_3 .slide-31 .stickman.stickman_sl1 img {
+  bottom: 0 !important;
+  vertical-align: bottom !important;
+  top: 217px;
+}
+.slider_3 .slide-31 .dialog {
+  padding: 37px 10px 0;
+  left: 700px;
+  top: 106px;
+}
+.slider_3 .slide-31 .guide_link {
+  bottom: 232px;
+  left: 200px;
+}
+.slider_3 .slide-31 #focus3_1 {
+  position: relative;
+  width: 299px;
+  height: 108px;
+  background: url(../images/focus_sl2.png) no-repeat;
+  display: block;
+}
+.slider_3 .slide-32 .arrow {
+  width: 68px;
+  height: 57px;
+  left: 272px;
+  top: 421px;
+}
+.slider_3 .slide-32 #arrow_sl3_2 {
+  position: relative;
+  width: 68px;
+  height: 57px;
+  background: url(../images/arrow_sl1.png) no-repeat;
+  display: block;
+}
+.slider_3 .slide-32 .stickman {
+  /*background: url(../images/stickman_1.png) 0 0 no-repeat;*/
+  width: 113px;
+  height: 217px;
+  left: 723px;
+  bottom: 69px;
+}
+.slider_3 .slide-32 .stickman.stickman_sl2 img {
+  bottom: 0 !important;
+  vertical-align: bottom !important;
+  top: 217px;
+}
+.slider_3 .slide-32 .dialog {
+  padding: 43px 10px 0;
+  left: 495px;
+  top: 208px;
+}
+.slider_3 .slide-32 .guide_link {
+  width: 160px;
+  height: 55px;
+  bottom: 32px;
+  left: 180px;
+}
+.slider_3 .slide-32 #focus3_2 {
+  position: relative;
+  width: 160px;
+  height: 55px;
+  background: url(../images/focus_sl3.png) no-repeat;
+  display: block;
+}
+.slider_3 .slide-33 .stickman {
+  width: 126px;
+  height: 189px;
+  left: 230px;
+  bottom: 100px;
+}
+.slider_3 .slide-33 .stickman.stickman_sl3 img {
+  bottom: 0 !important;
+  vertical-align: bottom !important;
+  top: 189px;
+}
+.slider_3 .slide-33 .dialog {
+  background: url(../images/dialog_2.png) 0 0 no-repeat;
+  padding: 37px 20px 0;
+  left: 230px;
+  top: 100px;
+}
+.slider_3 .slide-33 .fire {
+  width: 180px;
+  height: 152px;
+  left: 789px;
+  top: 139px;
+  position: absolute;
+}
+.slider_3 .slide-33 #fire {
+  position: relative;
+  width: 180px;
+  height: 152px;
+  background: url(../images/fire.png) no-repeat;
+  display: block;
+}
+.slider_3 .the_end {
+  font: 40px/40px 'Annie Use Your Telescope', cursive;
+  background: url(../images/f_sep.png) 0 center repeat-x;
+  text-align: center;
+  bottom: 27px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: block;
+  z-index: 999;
+}
+.slider_3 .the_end span {
+  display: inline-block;
+  padding: 0 11px;
+  background-color: #ffffff;
+}
+/**********/
+/**slide-2**/
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}

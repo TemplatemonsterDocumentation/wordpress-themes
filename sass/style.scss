@@ -144,15 +144,6 @@ ol {
 
 .relative { position: relative; }
 
-.img-polaroid {
-  width: auto;
-  padding: 20px;
-  background-color: #F0F0F0;
-  margin: 0 auto;
-  text-align: center;
-  margin-top: 17px;
-}
-
 .clearfix {
   clear: both;
   overflow: hidden;
@@ -166,6 +157,29 @@ ol {
   font-size: 20px;
   line-height: 32px;
   padding-right: 23%;
+}
+
+.img-polaroid {
+  width: auto;
+  padding: 20px;
+  background-color: #F0F0F0;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 17px;
+}
+
+/*==================== Quick Guide ====================*/
+.quick-guide {
+  width: auto;
+  margin-top: 17px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+  @include transition(0.5s);
+  &:hover {
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1), 0 8px 8px 0 rgba(0, 0, 0, 0.1);
+  }
+   &:active {
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+  }
 }
 
 /*=======================================================
@@ -376,6 +390,7 @@ blockquote {
   background: #eef5fb;
   box-shadow: 5px 5px 9px 0px rgba(0, 0, 0, 0.22);
 }
+
 
 /*==================== Marked List ====================*/
 .marked-list {
