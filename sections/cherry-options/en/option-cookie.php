@@ -1,18 +1,26 @@
-<!-- Options Optimization -->
-<article id="option-cookie">
-	<h3>Cookie Banner</h3>
-	<figure class="img-polaroid">
-			<img src="img/cherryframework/cherry-options_cookie.jpg" alt="" style="opacity: 1;"><i class="icon-search"></i><span></span>
-	</figure>
-	<dl>
-		<dt>Display Cookie Banner?</dt>
-		<dd>
-			<p>Specify if you want to display cookie banner.</p>
-		</dd>
+<h3>Cookie Banner</h3>
 
-		<dt>Message</dt>
-		<dd>
-			<p>Enter the cookie banner message.</p>
-		</dd>
-	</dl>
-</article>
+<ul class="marked-list">
+    <li>
+        <dl class="inline-term">
+            <dt>Display Cookie Banner?</dt>
+            <dd>
+                Specify if you want to display cookie banner.
+            </dd>
+        </dl>
+    </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>Message</dt>
+            <dd>
+                Enter the cookie banner message.
+            </dd>
+        </dl>
+    </li>
+</ul>
+
+<figure class="img-polaroid">
+    <img src="img/cherryframework/cherry-options_cookie.jpg" alt="" style="opacity: 1;"><i
+        class="icon-search"></i><span></span>
+</figure>

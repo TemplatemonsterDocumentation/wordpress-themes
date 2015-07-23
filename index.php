@@ -5,15 +5,6 @@ include_once 'functions.php';
 if (!isset($sections)) {
     $sections = getSections();
 }
-
-// Get body class
-$body_class = 'scheme-0';
-foreach ($sections as $key => $section) {
-    if ($section == $section_param) {
-        $body_class = 'scheme-' . $key % 9;
-    }
-}
-
 ?>
 
 <!DOCTYPE html>
@@ -25,7 +16,6 @@ foreach ($sections as $key => $section) {
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php echo $path; ?>/css/grid.css">
     <link rel="stylesheet" href="<?php echo $path; ?>/css/style.css">
-    <link rel="stylesheet" href="<?php echo $path; ?>/css/jquery.mCustomScrollbar.css">
     <link href='//fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="<?php echo $path; ?>/css/prettify.css">
     <link rel="stylesheet" href="<?php echo $path; ?>/css/jquery.fancybox.css">
@@ -46,7 +36,7 @@ foreach ($sections as $key => $section) {
 
     <script src='<?php echo $path; ?>/js/device.min.js'></script>
 </head>
-<body class="<?php echo $body_class; ?>" data-section="<?php echo $section_param; ?>" onload="prettyPrint()">
+<body data-section="<?php echo $section_param; ?>" onload="prettyPrint()">
 <div class="page-wrap">
     <div class="rd-mobilemenu active">
         <div class="logo">

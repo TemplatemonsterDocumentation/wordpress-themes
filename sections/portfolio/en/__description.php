@@ -1,3 +1,3 @@
-<h2 class="item2"><i class="icon-check"></i>Portfolio</h2>
+<h2>Portfolio</h2>
 
 		

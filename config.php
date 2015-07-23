@@ -22,3 +22,6 @@ $section_param = 'general-info';
 if (isset($_GET['section'])) {
 	$section_param = $_GET['section'];
 }
+if (isset($_GET['utm_campaign'])) {
+ header('Location: index.php');
+}

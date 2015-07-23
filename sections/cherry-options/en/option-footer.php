@@ -1,56 +1,102 @@
-<!-- Options Footer -->
-<article id="option-footer">
-	<h3>Footer</h3>
-	<p>Settings for the website footer section.</p>
-	<figure class="img-polaroid">
-		<img src="img/cherryframework/cherry-options_footer.jpg" alt="" style="opacity: 1;"><i class="icon-search"></i><span></span>
-	</figure>
-	<dl>
-		<dt>Footer background</dt>
-		<dd>
-			<p>Footer background settings. You can select background color, upload footer background image, set its background position, attachment and repeat.</p>
-		</dd>
+<h3>Footer</h3>
+<p>Settings for the website footer section.</p>
 
-		<dt>Typography</dt>
-		<dd>
-			<p>Typography settings for footer texts.</p>
-		</dd>
 
-		<dt>Grid type</dt>
-		<dd>
-			<p>Select the layout pattern for website footer. Wide layout will fit window width. Boxed layout will have fixed width.</p>
-		</dd>
+<ul class="marked-list">
+    <li>
+        <dl class="inline-term">
+            <dt>Footer background</dt>
+            <dd>
+                Footer background settings. You can select background color, upload footer background image, set its
+                background
+                position, attachment and repeat.
+            </dd>
+        </dl>
+    </li>
 
-		<dt>Boxed width</dt>
-		<dd><p>Header section width if boxed layout is active. Should not be more than the Grid -> Container width value.</p></dd>
+    <li>
+        <dl class="inline-term">
+            <dt>Typography</dt>
+            <dd>
+                Typography settings for footer texts.
+            </dd>
+        </dl>
+    </li>
 
-		<dt>Footer Info text</dt>
-		<dd>
-			<p>Set custom text for your Footer area.</p>
-		</dd>
-	</dl>
-</article>
+    <li>
+        <dl class="inline-term">
+            <dt>Grid type</dt>
+            <dd>
+                Select the layout pattern for website footer. Wide layout will fit window width. Boxed layout will have
+                fixed
+                width.
+            </dd>
+        </dl>
+    </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>Boxed width</dt>
+            <dd>Header section width if boxed layout is active. Should not be more than the Grid -> Container width value.
+            </dd>
+        </dl>
+    </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>Footer Info text</dt>
+            <dd>
+                Set custom text for your Footer area.
+            </dd>
+        </dl>
+    </li>
+</ul>
+
+
+<figure class="img-polaroid">
+    <img src="img/cherryframework/cherry-options_footer.jpg" alt="" style="opacity: 1;"><i
+        class="icon-search"></i><span></span>
+</figure>
 
 <!-- Footer Logo -->
-<article id="footer_logo">
-	<h4>Footer Logo</h4>
-	<figure class="img-polaroid">
-		<img src="img/cherryframework/cherry-options_logo.jpg" alt="" style="opacity: 1;"><i class="icon-search"></i><span></span>
-	</figure>
-	<dl>
-		<dt>Logo type</dt>
-		<dd>
-			<p>Select whether you want your main logo to be an image or text. If you select 'image,' you can choose a logo image from the media library in the next option, and if you select 'text,' your WordPress Site Title will be shown instead.</p>
-		</dd>
+<h4 id="footer_logo">Footer Logo</h4>
 
-		<dt>Image</dt>
-		<dd>
-			<p>Click the Choose Media button to select logo image from the media library or upload your image.</p>
-		</dd>
 
-		<dt>Logo typography</dt>
-		<dd>
-			<p>Configuration settings for text logo. Here you can select the logo font family, size, color, etc.</p>
-		</dd>
-	</dl>
-</article>
+<ul class="marked-list">
+    <li>
+        <dl class="inline-term">
+            <dt>Logo type</dt>
+            <dd>
+                Select whether you want your main logo to be an image or text. If you select 'image,' you can choose a
+                logo
+                image from the media library in the next option, and if you select 'text,' your WordPress Site Title
+                will be
+                shown instead.
+            </dd>
+        </dl>
+    </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>Image</dt>
+            <dd>
+                Click the Choose Media button to select logo image from the media library or upload your image.
+            </dd>
+        </dl>
+    </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>Logo typography</dt>
+            <dd>
+                Configuration settings for text logo. Here you can select the logo font family, size, color, etc.
+            </dd>
+        </dl>
+    </li>
+</ul>
+
+
+<figure class="img-polaroid">
+    <img src="img/cherryframework/cherry-options_logo.jpg" alt="" style="opacity: 1;"><i
+        class="icon-search"></i><span></span>
+</figure>

@@ -34,13 +34,13 @@
 				"en":"How to update the theme",
 				"ru":"Как обновить тему"
 			}
-		},
-		{
+		}
+		,{
 			"id":"change-log",
 			"translations":{
 				"en":"Monstroid change log",
 				"ru":"Журнал изменений Monstroid"
 			}
-		}	
+		}
 	]
 }

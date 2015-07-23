@@ -1,121 +1,212 @@
-<article id="blog-options">
-	<h3>Blog Monstroid options</h3>
-	<p>The section contains settings for WordPress blog pages (listing and single post types).</p>
-	<figure class="img-polaroid"><img src="img/cherryframework/cherry-options_blog.jpg" alt=""></figure>
-	<dl>
-		<dt>Featured Media</dt>
-		<dd>
-			<p>Displays Featured Image, Gallery, Audio, Video in blog post listing depending on post type.</p>
-		</dd>
+<h3>Blog Monstroid options</h3>
 
-		<dt>Featured Image Size</dt>
-		<dd>
-			<p>Set dimensions for post featured image in pixels.</p>
-		</dd>
+<p>The section contains settings for WordPress blog pages (listing and single post types).</p>
 
-		<dt>Featured Image Alignment</dt>
-		<dd>
-			<p>Set alignment for post featured images.</p>
-		</dd>
+<ul class="marked-list">
+    <li>
+        <dl class="inline-term">
+            <dt>Featured Media</dt>
+            <dd>
+                Displays Featured Image, Gallery, Audio, Video in blog post listing depending on post type.
+            </dd>
+        </dl>
+    </li>
 
-		<dt>Author bio</dt>
-		<dd>
-			<p>Enable/disable author bio block. Author bio block is displayed on the post page.</p>
-		</dd>
+    <li>
+        <dl class="inline-term">
+            <dt>Featured Image Size</dt>
+            <dd>
+                Set dimensions for post featured image in pixels.
+            </dd>
+        </dl>
+    </li>
 
-		<dt>Related posts</dt>
-		<dd>
-			<p>Enable/disable related posts block. Related posts block is displayed on the post page.</p>
-		</dd>
+    <li>
+        <dl class="inline-term">
+            <dt>Featured Image Alignment</dt>
+            <dd>
+                Set alignment for post featured images.
+            </dd>
+        </dl>
+    </li>
 
-		<dt>Allow comments</dt>
-		<dd>
-			<p>Enable/disable comments for blog posts.</p>
-		</dd>
+    <li>
+        <dl class="inline-term">
+            <dt>Author bio</dt>
+            <dd>
+                Enable/disable author bio block. Author bio block is displayed on the post page.
+            </dd>
+        </dl>
+    </li>
 
-		<dt>Gallery slider</dt>
-		<dd>
-			<p>Replace default Wordpress gallery shortcode with enhanced jQuery carousel.</p>
-		</dd>
+    <li>
+        <dl class="inline-term">
+            <dt>Related posts</dt>
+            <dd>
+                Enable/disable related posts block. Related posts block is displayed on the post page.
+            </dd>
+        </dl>
+    </li>
 
-		<dt>Lightbox for images and videos</dt>
-		<dd>
-			<p>Automatically adds lightbox for images and videos</p>
-		</dd>
-	</dl>
+    <li>
+        <dl class="inline-term">
+            <dt>Allow comments</dt>
+            <dd>
+                Enable/disable comments for blog posts.
+            </dd>
+        </dl>
+    </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>Gallery slider</dt>
+            <dd>
+                Replace default Wordpress gallery shortcode with enhanced jQuery carousel.
+            </dd>
+        </dl>
+    </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>Lightbox for images and videos</dt>
+            <dd>
+                Automatically adds lightbox for images and videos
+            </dd>
+        </dl>
+    </li>
+</ul>
+
+<figure class="img-polaroid"><img src="img/cherryframework/cherry-options_blog.jpg" alt=""></figure>
 
 
-	<!-- Options Blog > Meta -->
-	<h4>Blog > Meta</h4>
-	<figure class="img-polaroid"><img src="img/cherryframework/cherry-options_blog-meta.jpg" alt=""></figure>
-	<dl>
-		<dt>Date</dt>
-		<dd>
-			<p>Show/Hide post publication date.</p>
-		</dd>
+<h4>Blog > Meta</h4>
 
-		<dt>Author</dt>
-		<dd>
-			<p>Show/Hide post author.</p>
-		</dd>
+<ul class="marked-list">
+    <li>
+        <dl class="inline-term">
+            <dt>Date</dt>
+            <dd>
+                Show/Hide post publication date.
+            </dd>
+        </dl>
+    </li>
 
-		<dt>Comments</dt>
-		<dd>
-			<p>Show/Hide number of comments.</p>
-		</dd>
+    <li>
+        <dl class="inline-term">
+            <dt>Author</dt>
+            <dd>
+                Show/Hide post author.
+            </dd>
+        </dl>
+    </li>
 
-		<dt>Categories</dt>
-		<dd>
-			<p>Show/Hide post categories.</p>
-		</dd>
+    <li>
+        <dl class="inline-term">
+            <dt>Comments</dt>
+            <dd>
+                Show/Hide number of comments.
+            </dd>
+        </dl>
+    </li>
 
-		<dt>Tags</dt>
-		<dd>
-			<p>Show/Hide post tags.</p>
-		</dd>
-	</dl>
+    <li>
+        <dl class="inline-term">
+            <dt>Categories</dt>
+            <dd>
+                Show/Hide post categories.
+            </dd>
+        </dl>
+    </li>
 
-	<h4>Blog > Post</h4>
-	<figure class="img-polaroid"><img src="img/cherryframework/cherry-options_blog-post.jpg" alt=""></figure>				
-	<dl>
-		<dt>Featured Image</dt>
-		<dd>
-			<p>Display featured image on the single post page.</p>
-		</dd>
+    <li>
+        <dl class="inline-term">
+            <dt>Tags</dt>
+            <dd>
+                Show/Hide post tags.
+            </dd>
+        </dl>
+    </li>
+</ul>
 
-		<dt>Featured Image Size</dt>
-		<dd>
-			<p>Set dimensions for single post featured images in pixels.</p>
-		</dd>
+<figure class="img-polaroid"><img src="img/cherryframework/cherry-options_blog-meta.jpg" alt=""></figure>
 
-		<dt>Featured Image Alignment</dt>
-		<dd>
-			<p>Set alignment for single post featured images.</p>
-		</dd>
 
-		<dt>Author Bio</dt>
-		<dd>
-			<p>Enable/disable the author bio block. Author bio block is displayed on the post page.</p>
-		</dd>
+<h4>Blog > Post</h4>
 
-		<dt>Related posts</dt>
-		<dd>
-			<p>Enable/disable the related posts block. Related posts block is displayed on the post page.</p>
-		</dd>
+<ul class="marked-list">
+    <li>
+        <dl class="inline-term">
+            <dt>Featured Image</dt>
+            <dd>
+                Display featured image on the single post page.
+            </dd>
+        </dl>
+    </li>
 
-		<dt>Allow Comments</dt>
-		<dd>
-			<p>Enable/disable comments for blog posts. Make sure comments are enabled in WordPress \'settings->discussion\'. For posts that have already been published you need to enable comments individually in post settings.</p>
-		</dd>
+    <li>
+        <dl class="inline-term">
+            <dt>Featured Image Size</dt>
+            <dd>
+                Set dimensions for single post featured images in pixels.
+            </dd>
+        </dl>
+    </li>
 
-		<dt>Gallery Slider</dt>
-		<dd>
-			<p>Replace the default WordPress gallery shortcode with enhanced jQuery carousel.</p>
-		</dd>
+    <li>
+        <dl class="inline-term">
+            <dt>Featured Image Alignment</dt>
+            <dd>
+                Set alignment for single post featured images.
+            </dd>
+        </dl>
+    </li>
 
-		<dt>Lightbox for images and videos</dt>
-		<dd>
-			<p>Adds a lightbox for images and videos.</p>
-		</dd>
-	</dl>
-</article>
+    <li>
+        <dl class="inline-term">
+            <dt>Author Bio</dt>
+            <dd>
+                Enable/disable the author bio block. Author bio block is displayed on the post page.
+            </dd>
+        </dl>
+    </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>Related posts</dt>
+            <dd>
+                Enable/disable the related posts block. Related posts block is displayed on the post page.
+            </dd>
+        </dl>
+    </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>Allow Comments</dt>
+            <dd>
+                Enable/disable comments for blog posts. Make sure comments are enabled in WordPress
+                \'settings->discussion\'.
+                For posts that have already been published you need to enable comments individually in post settings.
+            </dd>
+        </dl>
+    </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>Gallery Slider</dt>
+            <dd>
+                Replace the default WordPress gallery shortcode with enhanced jQuery carousel.
+            </dd>
+        </dl>
+    </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>Lightbox for images and videos</dt>
+            <dd>
+                Adds a lightbox for images and videos.
+            </dd>
+        </dl>
+    </li>
+</ul>
+
+<figure class="img-polaroid"><img src="img/cherryframework/cherry-options_blog-post.jpg" alt=""></figure>

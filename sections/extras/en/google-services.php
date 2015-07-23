@@ -1,4 +1,4 @@
-<article  id="google-services">
+
 	<h3>Loading data from Google servers</h3>
 
      <p>Some countries have issues connecting to Google servers. This can cause issues loading Google Fonts. To resolve these issues, please do the following: </p>
@@ -10,4 +10,3 @@ add_filter( 'cherry_google_fonts_cdn', 'cherry_china_fonts_url' );
 function cherry_china_fonts_url( $url ) {
     return '//china.fonts.url.com/'
 }</pre>
-</article>

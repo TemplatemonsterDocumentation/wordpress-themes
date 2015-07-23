@@ -1,0 +1,26 @@
+{	
+	"id":"third-party-plugins",
+	"translations":
+	{
+		"en":"Third Party Plugins",
+		"ru":"Сторонние плагины"
+	},
+	"articles":
+	[				
+		{
+			"id":"motopress-slider",
+			"translations":{
+				"en":"MotoPress Slider",
+				"ru":"MotoPress Slider"
+			}
+		},		
+		{
+			"id":"wpml-configuration",
+			"translations":{
+				"en":"WPML configuration",
+				"ru":"Настройка WPML"
+			}
+		}	
+
+	]
+}
