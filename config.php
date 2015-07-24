@@ -1,10 +1,14 @@
 <?php 
 
-if (strpos($_SERVER['REQUEST_URI'], 'index.php')) {
-	$path = dirname("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
-} else {
-	$path = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
-}
+// if (strpos($_SERVER['REQUEST_URI'], 'index.php') || !strpos($_SERVER['REQUEST_URI'], '?')) {
+// 	$path = dirname("http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]");
+// } else {
+// 	$path = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+// }
+// 
+
+
+$path = dirname($_SERVER['PHP_SELF']);
 
 //$path = 111;
 

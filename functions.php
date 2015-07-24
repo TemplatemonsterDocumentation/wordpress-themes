@@ -43,7 +43,7 @@ function generateNavigation($sections, $lang, $section_param)
 
 			// Active class
 			$active_class = '';			
-			if ($section_id == $_GET['section']) {
+			if (isset($_GET['section']) && $section_id == $_GET['section']) {
 				$active_class = ' opened';
 			}
 
