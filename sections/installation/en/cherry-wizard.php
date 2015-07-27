@@ -89,8 +89,8 @@
 
 <figure class="img-polaroid"><img src="img/monstroid/how-to-install-a-theme-14.jpg" alt=""></figure>
 
-<!--<h5>
+<h5>
     Feel free to check the detailed
-    <a href="https://www.youtube.com/watch?v=SLsKPLEn5qg" target="_blank">video tutorial</a>.
-</h5>-->
+    <a href="https://www.youtube.com/watch?v=-pl3qCAGaSU" target="_blank">video tutorial</a>.
+</h5>
 
