@@ -6,7 +6,7 @@
 </p>
 
 <p>
-    Edit the form fields, your contact email, and customize any of your auto messages. Save the form and then use the
+    Edit the form fields, your contact email, and customize any of your auto messages (1). Save the form and then use the
     shortcode provided in the brown bar at the top to insert your contact form wherever you want it.
 </p>
 

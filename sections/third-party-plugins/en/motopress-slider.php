@@ -13,9 +13,7 @@
 	</ol>
 
 	<h4>Slider settings:</h4>
-	<figure class="img-polaroid">
-		<img src="img/cherryframework/third-party-plugins/motoslider1.jpg" alt="">
-	</figure>
+	
 	<ul class="marked-list">
 		<li>
 			<dl class="inline-term">
@@ -98,14 +96,16 @@
 			</dl>
 		</li>
 	</ul>
-
+	<figure class="img-polaroid">
+		<img src="img/cherryframework/third-party-plugins/motoslider1.jpg" alt="">
+	</figure>
 	<h4>Slide settings:</h4>
 	<p>After indicating the settings of the slider, it's time to start adding slides.<br/>
 	The process of customizing your slides is intuitive and simple. You just need to name your slide and select its background type: image or simply one color. </p>
 	<figure class="img-polaroid">
 		<img src="img/cherryframework/third-party-plugins/motoslider2.jpg" alt="" >
 	</figure>
-	<h4>General:</h4>    
+	<h5>General:</h5>    
 	<ul class="marked-list">
 		<li>
 			<dl class="inline-term">
@@ -124,7 +124,7 @@
 			</dl>
 		</li>
 	</ul>
-	<h4>Color:</h4>    
+	<h5>Color:</h5>    
 	<ul class="marked-list">
 		<li>
 			<dl class="inline-term">
@@ -152,7 +152,7 @@
 		</li>
 	</ul> 
 	
-	<h4>Image:</h4>    
+	<h5>Image:</h5>    
 	<ul class="marked-list">
 		<li>
 			<dl class="inline-term">
@@ -219,7 +219,7 @@
 			</dl>
 		</li>
 	</ul> 
-	<h4>Video:</h4>    
+	<h5>Video:</h5>    
 	<ul class="marked-list">
 		<li>
 			<dl class="inline-term">
@@ -288,7 +288,7 @@
 			</dl>
 		</li>
 	</ul> 
-	<h4>Link:</h4>    
+	<h5>Link:</h5>    
 	<ul class="marked-list">
 		<li>
 			<dl class="inline-term">
@@ -327,7 +327,7 @@
 			</dl>
 		</li>					   
 	</ul> 
-	<h4>Visibility:</h4>    
+	<h5>Visibility:</h5>    
 	<ul class="marked-list">
 		<li>
 			<dl class="inline-term">
@@ -354,7 +354,7 @@
 			</dl>
 		</li>
 	</ul> 
-	<h4>Misc:</h4>    
+	<h5>Misc:</h5>    
 	<ul class="marked-list">
 		<li>
 			<dl class="inline-term">
@@ -367,11 +367,10 @@
 			</dl>
 		</li>
 	</ul>
+	<h4>Layer settings:</h4>
 	<p>The next step is to set the position of the background image and the 'repeat' option, but it depends on your wish only, as you can leave these fields empty.</p>
 	<p>For demonstration purposes, we'll use a few pictures in our slider to show you the advantages of the plugin. After setting the image options, you can get started with the Layer Settings.</p>
-	<figure class="img-polaroid">
-		<img src="img/cherryframework/third-party-plugins/motoslider3.jpg" alt="" />
-	</figure>
+	
 	<p>This feature offers you a lot of customization options. You are able to create as many layers as you need. The layers can be presented as a text, image or button, for each layer you can set:</p>
 	<ul class="marked-list">
 	    <li>
@@ -399,6 +398,9 @@
 			</dl>
 		</li>
 	</ul>
+	<figure class="img-polaroid">
+		<img src="img/cherryframework/third-party-plugins/motoslider3.jpg" alt="" />
+	</figure>
 	<p>Layer settings also enable to specify the text of the layer and its style. When you finish with the adding layers you can set their order simply by dragging and dropping them in any specific sequence.</p>
 	<p>For more information please click <a href="http://www.getmotopress.com/blog/responsive-motopress-slider-for-wordpress/" target="_blank"><strong>here</strong></a>.</p>
 

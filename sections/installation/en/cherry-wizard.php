@@ -38,7 +38,7 @@
     key:
 </p>
 
-<figure class="img-polaroid"><img src="img/monstroid/how-to-install-a-theme-6.jpg" alt=""></figure>
+<figure class="img-polaroid"><img src="img/monstroid/how-to-install-a-theme-1.jpg" alt=""></figure>
 
 <p>
     Paste the activation key. Click <strong>Start</strong> in order to perform installation:
@@ -89,8 +89,8 @@
 
 <figure class="img-polaroid"><img src="img/monstroid/how-to-install-a-theme-14.jpg" alt=""></figure>
 
-<h5>
+<!--<h5>
     Feel free to check the detailed
     <a href="https://www.youtube.com/watch?v=SLsKPLEn5qg" target="_blank">video tutorial</a>.
-</h5>
+</h5>-->
 
