@@ -103,6 +103,11 @@ ul, ol{
   }
 }
 
+ol{
+  list-style-type: decimal;
+  list-style-position: inside;
+}
+
 article {
   margin-top: 80px;
   margin-bottom: 60px;
