@@ -1,11 +1,11 @@
 /*==================   RD Mobile Menu    =====================*/
 $light-theme: (
-        panel-background-color: #1D88DE,
+        panel-background-color: $color-1,
         panel-text-color: #FFF,
-        menu-background-color: #EEE,
+        menu-background-color: #f9f9f9,
         menu-item-color: #333,
         menu-item-hover-color: #333,
-        menu-item-hover-background: #E0E0E0,
+        menu-item-hover-background: #eee,
         menu-item-active-color: #2D2D2D,
         menu-item-active-background: #EEE
 );
@@ -43,9 +43,39 @@ $rd-menu-width-mobile: 250px;
     left: 0;
     right: 0;
     height: $rd-mobilepanel-height*2;
-    padding: 33px 8px;
-    text-align: center;
+    background: darken(map-get($rd-theme, panel-background-color), 5%);
+    padding: 33px 24px;
+    text-align: left;
     @include box-sizing(border-box);
+    color:#fff;       
+    img{
+      float: left;
+      margin-right: 10px;      
+    }
+    span{
+      font-family: 'Oswald', sans-serif;
+      display: block;
+      text-transform: uppercase; 
+      font-size: 32px;
+      line-height: 32px;
+      padding-top: 5px;
+    }
+
+    @media (max-width: 479px) {
+      img{
+        max-width: 60px;
+      }
+
+      span{
+        font-size: 24px;
+        line-height: 24px;
+      }
+
+      small{
+        font-size: 12px;
+        line-height: 15px; 
+      }
+    }
   }
 
   .panel{
@@ -115,7 +145,7 @@ $rd-menu-width-mobile: 250px;
     padding-left: 50px;
 
     &.focus{
-      color: #000;
+      color: $color-1;
     }
   }
 

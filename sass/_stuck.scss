@@ -3,7 +3,7 @@
 	@include transition(transform .3s ease);
     padding-top: 123px;
     padding-bottom: 69px;
-	background: nth($section-schemes, 1);
+	background: $color-1;
 
 	.container {
 		position: relative;

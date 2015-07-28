@@ -1,47 +1,59 @@
-		<!-- Options General -->
-		<article id="option-general">
-			<h3>General</h3>
-			<p>The General section contains global Cherry Framework configuration settings.</p>
+<h3>General</h3>
 
-			<div class="row">
-				<div class="grid_6">
-					<figure class="img-polaroid">
-						<a href="img/cherryframework/cherry-options_general.jpg" class="pretty_image" rel="prettyPhoto[options]">
-							<img src="img/cherryframework/cherry-options_general.jpg" alt="" style="opacity: 1;"><i class="icon-search"></i><span></span>
-						</a>
-					</figure>
-				</div>
-				<div class="grid_6">
-					<dl>
-						<dt>Favicon image.</dt>
-						<dd><p>Icon image that is displayed in the browser address bar and browser tab heading. Max icon (.ico) size is 32x32 px. You can also upload favicon for retina displays. Max retina icon size: 152x152 px.</p></dd>
+<p>The General section contains global Cherry Framework configuration settings.</p>
 
-						<dt>Maintenance mode</dt>
-						<dd>
-							<p>Enable/disable maintenance mode. Logged in administrator gets full access to the site while regular visitors will be redirected to the page chosen below. You can also preview the maintenance page without enabling maintenance mode. </p>
-						</dd>
+<ul class="marked-list">
+    <li>
+        <dl class="inline-term">
+            <dt>Favicon image.</dt>
+            <dd>Icon image that is displayed in the browser address bar and browser tab heading. Max icon (.ico) size is
+                32x32 px. You can also upload favicon for retina displays. Max retina icon size: 152x152 px.
+            </dd>
+        </dl>
+    </li>
 
-						<dt>Maintenance page</dt>
-						<dd>
-							<p>Select a page that regular visitors will see if maintenance mode is enabled. You can select any WordPress page here including your custom ones. </p>
-						</dd>
+    <li>
+        <dl class="inline-term">
+            <dt>Maintenance mode</dt>
+            <dd>
+                Enable/disable maintenance mode. Logged in administrator gets full access to the site while regular
+                visitors
+                will be redirected to the page chosen below. You can also preview the maintenance page without enabling
+                maintenance mode.
+            </dd>
+        </dl>
+    </li>
 
-						<dt>Document smooth scroll</dt>
-						<dd>
-							<p>Enable/disable smooth vertical mousewheel scrolling (Chrome browser only).</p>
-						</dd>
+    <li>
+        <dl class="inline-term">
+            <dt>Maintenance page</dt>
+            <dd>
+                Select a page that regular visitors will see if maintenance mode is enabled. You can select any
+                WordPress
+                page here including your custom ones.
+            </dd>
+        </dl>
+    </li>
 
-						<!-- <dt>Page comments</dt>
-						<dd><p>Enable/disable comments by default for pages. For pages that have already been published you need to enable comments individually in page settings.</p></dd>
+    <li>
+        <dl class="inline-term">
+            <dt>Document smooth scroll</dt>
+            <dd>
+                Enable/disable smooth vertical mousewheel scrolling (Chrome browser only).
+            </dd>
+        </dl>
+    </li>
 
-						<dt>Featured images</dt>
-						<dd><p>Enable/disable displaying of featured images for pages.</p></dd> -->
+    <li>
+        <dl class="inline-term">
+            <dt>User CSS</dt>
+            <dd>
+                Define custom CSS styling.
+            </dd>
+        </dl>
+    </li>
+</ul>
 
-						<dt>User CSS</dt>
-						<dd>
-							<p>Define custom CSS styling.</p>
-						</dd>
-					</dl>
-				</div>
-			</div>
-		</article>
+<figure class="img-polaroid">
+    <img src="img/cherryframework/cherry-options_general.jpg" alt="" style="opacity: 1;">
+</figure>

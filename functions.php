@@ -43,7 +43,7 @@ function generateNavigation($sections, $lang, $section_param)
 
 			// Active class
 			$active_class = '';			
-			if ($section_id == $_GET['section']) {
+			if (isset($_GET['section']) && $section_id == $_GET['section']) {
 				$active_class = ' opened';
 			}
 
@@ -126,5 +126,74 @@ function includeSection($sections, $lang, $section_param)
 	endif;	
 }
 
+/**
+ * Documentation Search
+ * @param  string $dir 	Documentation sections directory
+ * @return array 		Array with files, that contain search request value
+ */
+function search_dir($dir)
+{
+	global $request, $seen;
 
-?>
+	$dirs = array();
+	$pages = array();
+
+	$regex = "/" . preg_quote($request,'/') . "/";
+	$seen[] = realpath($dir);
+
+	if (is_readable($dir) && ($d = dir($dir))) {
+
+		while (false != ($f = $d->read())) {
+			$path = $d->path . '/' . $f;
+
+			if (is_file($path) && is_readable($path)) {
+				$realpath = realpath($path);
+
+				if (in_array($realpath, $seen)) {
+					continue;
+				} else {
+					$seen[] = $realpath;
+				}
+
+				$file = join(' ', file($path));
+
+				if (preg_match($regex, $file)) {
+					if ('json' != substr($path, strrpos($path, '.') + 1 )) {
+						$path_array = explode('/', $path);
+						$sect_name = substr($path_array[3], 0, strpos($path_array[3], '.'));
+
+						if ($sect_name == '__description') {
+							$sect_hash = '';
+						} else {
+							$sect_hash = '#' . $sect_name;
+						}
+
+						array_push($pages, array(
+							'lang' => $path_array[2],
+							'section' => $path_array[1],
+							'hash' => $sect_hash,
+							)
+						);
+					}					
+				}
+
+			} else {
+				if (is_dir($path) && ('.' != $f) && ('..' != $f)) {
+					array_push($dirs, $path);
+				}
+			}
+		}
+		$d->close();
+	}
+
+	foreach ($dirs as $subdir) {
+		$realdir = realpath($subdir);
+
+		if (!in_array($realdir, $seen)) {
+			$seen[] = $realdir;
+			$pages = array_merge($pages, search_dir($subdir));
+		}
+	}
+
+	return $pages;
+}

@@ -1,59 +1,27 @@
-		<!-- Options Color themes -->
-		<article id="option-color-schemes">
-			<h3>Color themes</h3>
-			<p>Changes colors for various theme elements like forms, typography elements, blocks with default styling etc.</p>
-			<div class="row-fluid">
-				<div class="span6">
-					<figure class="img-polaroid">
-						<a href="img/cherryframework/cherry-options_color-themes.jpg" class="pretty_image" data-gal="prettyPhoto">
-							<img src="img/cherryframework/cherry-options_color-themes.jpg" alt="" style="opacity: 1;"><i class="icon-search"></i><span></span>
-						</a>
-					</figure>
-				</div>
-				<div class="span6">
-					<dl>
-						<dt>Primary color</dt>
-						<dd>
-							<p></p>
-						</dd>
+<h3>Color schemes</h3>
 
-						<dt>Secondary color</dt>
-						<dd>
-							<p></p>
-						</dd>
+<p>Changes colors for various theme elements like forms, typography elements, blocks with default styling, etc.</p>
 
-						<dt>Success color</dt>
-						<dd>
-							<p></p>
-						</dd>
 
-						<dt>Info color</dt>
-						<dd>
-							<p></p>
-						</dd>
+<ul class="marked-list">
+    <li><p><strong>Primary color</strong></p></li>
+    <li><p><strong>Secondary color</strong></p></li>
+    <li><p><strong>Success color</strong></p></li>
+    <li><p><strong>Info color</strong></p></li>
+    <li><p><strong>Warning color</strong></p></li>
+    <li><p><strong>Danger color</strong></p></li>
+    <li>
+        <strong>Primary gray color</strong>. Select the main gray color hue. Additional colors will be created automatically:
+        <ul>
+            <li>gray-darker: darken(20%)</li>
+            <li>gray-dark: darken(15%)</li>
+            <li>gray-light: lighten(15%)</li>
+            <li>gray-lighter: lighten(20%).</li>
+        </ul>
+    </li>
+</ul>
 
-						<dt>Warning color</dt>
-						<dd>
-							<p></p>
-						</dd>
 
-						<dt>Danger color</dt>
-						<dd>
-							<p></p>
-						</dd>
-
-						<dt>Primary gray color</dt>
-						<dd>
-							<p>Select main gray color hue. Additional colors will be created automatically: </p>
-
-							<ul>
-								<li>gray-darker: darken(20%)</li>
-								<li>gray-dark: darken(15%)</li>
-								<li>gray-light: lighten(15%)</li>
-								<li>gray-lighter: lighten(20%)</li>
-							</ul>
-						</dd>
-					</dl>
-				</div>
-			</div>
-		</article>
+<figure class="img-polaroid">
+    <img src="img/cherryframework/cherry-options_color-themes.jpg" alt="" >
+</figure>

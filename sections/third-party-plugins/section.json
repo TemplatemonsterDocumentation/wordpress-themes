@@ -13,8 +13,14 @@
 				"en":"MotoPress Slider",
 				"ru":"MotoPress Slider"
 			}
-		}		
-		
+		},		
+		{
+			"id":"wpml-configuration",
+			"translations":{
+				"en":"WPML configuration",
+				"ru":"Настройка WPML"
+			}
+		}	
 
 	]
 }
