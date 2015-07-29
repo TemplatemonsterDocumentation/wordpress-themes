@@ -1,4 +1,3 @@
-<article id="other">
 	<h3>Other</h3>
 
 	<h4>Google map</h4>			
@@ -25,4 +24,3 @@
     <figure class="img-polaroid">
         <img alt="" src="img/wordpress/shortcode_google_map.png">
     </figure>
-</article>

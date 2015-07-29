@@ -1,4 +1,4 @@
-<h2 class="item1"><i class="icon-info-sign"></i> General info</h2>
+<h2>General info</h2>
 
 <h5>Thank you for purchasing a Monstroid Wordpress Premium Theme. This documentation consists of several parts and
     covers the entire process of installing and setting up a WordPress website starting from scratch.</h5>
@@ -42,17 +42,6 @@
                         <dd>
                             archive with the Cherry Framework theme. Contains all theme files. It must
                             be installed through WordPress extension manager.
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl class="inline-term">
-                        <dt>
-                            <i class="fa fa-file"></i> <strong>theme####.zip</strong>
-                        </dt>
-                        <dd>
-                            archive with the theme (child theme). Contains all theme files.
-                            It must be installed through WordPress extension manager.
                         </dd>
                     </dl>
                 </li>

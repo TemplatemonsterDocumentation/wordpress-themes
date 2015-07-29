@@ -1,5 +1,4 @@
-<article id="cherry-parallax-slider">
-	<h4>Cherry Social</h4>
+	<h3>Cherry Social</h3>
 	<p>This plugin adds sharing and follow lists on your website.</p>
 	<figure class="img-polaroid"><img src="img/wordpress/plugins_social_options.png" alt=""></figure>
 	<p>Choose the social networks for sharing</p>
@@ -15,4 +14,3 @@
 	</ul>
 	<p>Title will be used in static item.</p>
 	<p>You can set up the list of social accounts and edit the URL, icon and title.</p>
-</article>

@@ -1,4 +1,4 @@
-<article id="motopress-slider">
+
 	<h3>MotoPress Slider Plugin</h3>
 
 	<p><a href="http://www.getmotopress.com/blog/responsive-motopress-slider-for-wordpress/" target="_blank"><strong>MotoPress Slider</strong></a> is an easy to use and flexible solution for building compelling sliders with beautiful slides. It focuses on simplicity and functionality and offers all necessary tools to stand out among others. You can build your WordPress slider in two minutes and enjoy it from any size screen, as it looks great on any device. </p>
@@ -404,4 +404,4 @@
 	<p>Layer settings also enable to specify the text of the layer and its style. When you finish with the adding layers you can set their order simply by dragging and dropping them in any specific sequence.</p>
 	<p>For more information please click <a href="http://www.getmotopress.com/blog/responsive-motopress-slider-for-wordpress/" target="_blank"><strong>here</strong></a>.</p>
 
-</article>
+

@@ -1,4 +1,4 @@
-<article id="engine-installation">
+
     <h3>WordPress installation</h3>
 
     <p>Download the required WordPress version. You can check which release is required on the template preview page in
@@ -222,4 +222,3 @@
             </a>
         </li>
     </ul>
-</article>

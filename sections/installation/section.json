@@ -29,10 +29,10 @@
 			}
 		},
 		{
-			"id":"update-theme",
+			"id":"update-monstroid",
 			"translations":{
-				"en":"How to update the theme",
-				"ru":"Как обновить тему"
+				"en":"How to update Monstroid",
+				"ru":"Как обновить Monstroid"
 			}
 		}
 		,{
