@@ -32,11 +32,11 @@
 			<p>Delete Monstroid theme from "Appearance -> Themes" section in admin panel.</p>
 		</li>
 		<li>
-			<p>Delete Monstroid Wizard plugin and reinstall it from <a href="http://cloud.cherryframework.com/downloads/wizard/monstroid-wizard.zip">this link</a></p>
+			<p>Download theme archive and follow <a href="#manual-install">Manual Installation</a> to install new version of Monstroid theme or</p>
 		</li>
 		<li>
-			<p>Use Monstroid Wizard ("Tools > Monstroid Wizard") or download theme archive and follow <a href="#manual-install">Manual Installation</a> to install new version of Monstroid theme. </p>
-		</li>
+			<p>you can use Monstroid Wizard ("Tools > Monstroid Wizard"). <b>Make sure to delete "Monstroid Wizard" plugin and reinstall it from <a href="http://cloud.cherryframework.com/downloads/wizard/monstroid-wizard.zip">this link</a> before update.</b></p>
+		</li>		
 		<li>
 			<p>Import your updated files from the backup and import Cherry Options if required. </p>
 		</li>
