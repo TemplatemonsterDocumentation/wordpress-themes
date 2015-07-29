@@ -13,11 +13,11 @@
 	<h4>How to update Monstroid theme</h4>
 	<p>Monstroid theme itself is a child theme for Cherry Framework and it is updated in semi-automatic mode. All functionality updates you will receive with Cherry Framework and Cherry Plugins updates. Theme files should be reinstalled manually.</p>
 
-	<p>To update Monstroid theme please do the following:</p>
-
 	<div class="alert alert-warning">
         <p>Reinstalling Monstroid theme will delete your theme and cherry options changes. Please backup your data to save your changes.</p>
     </div>
+
+	<p>To update Monstroid theme please do the following:</p>
 
 	<ol class="index-list">
 		<li>
@@ -30,6 +30,9 @@
 		</li>
 		<li>
 			<p>Delete Monstroid theme from "Appearance -> Themes" section in admin panel.</p>
+		</li>
+		<li>
+			<p>Delete Monstroid Wizard plugin and reinstall it from <a href="http://cloud.cherryframework.com/downloads/wizard/monstroid-wizard.zip">this link</a></p>
 		</li>
 		<li>
 			<p>Use Monstroid Wizard ("Tools > Monstroid Wizard") or download theme archive and follow <a href="#manual-install">Manual Installation</a> to install new version of Monstroid theme. </p>
