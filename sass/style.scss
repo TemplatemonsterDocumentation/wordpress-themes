@@ -103,11 +103,6 @@ ul, ol{
   }
 }
 
-ol{
-  list-style-type: decimal;
-  list-style-position: inside;
-}
-
 article {
   margin-top: 80px;
   margin-bottom: 60px;
@@ -277,7 +272,29 @@ b, strong {
 
   & + li { margin-top: 10px; }
 }
-
+/*===============  Marked List  ==================*/
+.log-list{
+  > li { 
+    margin-top: 10px;
+    position: relative;
+    padding-left: 20px;
+    &:before{
+      content: '';
+      position: absolute;
+      top: 10px;
+      left: 2px;
+      width: 4px;
+      height: 4px;
+      border: 1px solid #000;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      border-radius: 50%;
+    }
+    p {
+      margin-top: 0;
+    }
+  }
+}
 /*===============  Index List   ==================*/
 .index-list {
   counter-reset: li;
