@@ -76,7 +76,7 @@
    		<p>Modified woo-commerce.scss</p>
 	</li>
 	<li>
-		<strong>Added yith_wcwl_wishlist_page_id key to cherry_woocommerce_is_really_woocommerce_page() function to make НШЕР wishlist page be considered as WooCommerce page.</strong>
+		<strong>Added yith_wcwl_wishlist_page_id key to cherry_woocommerce_is_really_woocommerce_page() function to make YITH wishlist page be considered as WooCommerce page.</strong>
    		<p>Modified: includes/woocommerce-functions.php</p>
 	</li>
 	<li>
