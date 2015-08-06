@@ -1,4 +1,48 @@
 <h3>Monstroid change log</h3>
+
+<h4>Monstroid version 1.0.2</h4>
+
+<p><strong>Plugin Updates:</strong> Updated MotoPress Editor to version 1.6.2</p>
+<p><strong>heme Updates:</strong> Performed theme styling fixes and updates. </p>
+<p><strong>Fixed:</strong></p>
+<ul  class="marked-list">
+	<li>hovers</li>
+    <li>slider styling issues</li>
+    <li>totop button behavior</li>
+    <li>box presets</li>
+    <li>grid layout</li>
+    <li>header layout bug in Chrome</li>
+    <li>form layous</li>
+    <li>home business page layout on mobile devices</li>
+    <li>charts on home business page</li>
+    <li>menu on mobile devices</li>
+    <li>page title on mobile devices Updated: dynamic-style.css, main.less</li>
+</ul>
+
+<p>Added check for enabled breadcrumbs to monstroid_add_pagetitle_metabox() function Updated functions.php</p>
+
+<p><strong>Improvements:</strong></p>
+
+<ul  class="marked-list">
+	<li>site frontend is loading faster now and became more reliable</li>
+    <li>performed .jpg and .png image optimization. Saved over 50 mb in sample data and theme images.</li>
+    <li>reduced number if image thumbnail sizes</li>
+    <li>run special cache settings</li>
+    <li>optimized wizard installation steps. Intallation is more stable now on low-configuration hosting servers</li>
+    <li>optimized database queries in the following plugins:
+        <ul  class="marked-list">
+			<li>testimonials</li>
+	        <li>blog-layouts</li>
+	        <li>services</li>
+	        <li>sidebar-manager</li>
+	        <li>shortcodes</li>
+	        <li>team</li>
+	    </ul>
+    </li>
+</ul>
+
+
+
 <h4>Monstroid version 1.0.1</h4>
 
 <h5>Extended change log</h5>
