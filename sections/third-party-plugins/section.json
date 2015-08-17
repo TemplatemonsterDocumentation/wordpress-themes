@@ -13,6 +13,13 @@
 				"en":"MotoPress Slider",
 				"ru":"MotoPress Slider"
 			}
+		},	
+		{
+			"id":"motopress-content-editor",
+			"translations":{
+				"en":"Motopress Content Editor",
+				"ru":"Motopress Content Editor"
+			}
 		},		
 		{
 			"id":"wpml-configuration",
@@ -20,7 +27,13 @@
 				"en":"WPML configuration",
 				"ru":"Настройка WPML"
 			}
+		},		
+		{
+			"id":"contact-form",
+			"translations":{
+				"en":"Contact form 7",
+				"ru":"Contact form 7"
+			}
 		}	
-
 	]
 }

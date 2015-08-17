@@ -308,6 +308,8 @@ b, strong {
       left: 0;
       font-weight: 500;
     }
+    pre {margin: 20px 0 40px 0;}
+    strong + pre {margin: 10px 0 40px 0;}
 
     & + li { margin-top: 10px; }
   }

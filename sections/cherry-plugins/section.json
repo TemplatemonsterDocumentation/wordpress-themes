@@ -104,7 +104,13 @@
 				"en":"Chat",
 				"ru":"Чат"
 			}
-		}
-
+		},		
+		{
+			"id":"cherry-white-label",
+			"translations":{
+				"en":"White Label",
+				"ru":"White Label"
+			}
+		}	
 	]
 }

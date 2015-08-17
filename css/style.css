@@ -310,6 +310,12 @@ b, strong {
   left: 0;
   font-weight: 500;
 }
+.index-list > li pre {
+  margin: 20px 0 40px 0;
+}
+.index-list > li strong + pre {
+  margin: 10px 0 40px 0;
+}
 .index-list > li + li {
   margin-top: 10px;
 }

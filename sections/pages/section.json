@@ -20,13 +20,6 @@
 				"en":"Setting up the home page",
 				"ru":"Настройка домашней страницы"
 			}
-		},		
-		{
-			"id":"contact-form",
-			"translations":{
-				"en":"Contact form",
-				"ru":"Форма обратной связи"
-			}
 		}
 	]
 }
