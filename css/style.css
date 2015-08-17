@@ -275,6 +275,26 @@ b, strong {
   margin-top: 10px;
 }
 
+/*===============  Marked List  ==================*/
+.log-list > li {
+  margin-top: 10px;
+  position: relative;
+  padding-left: 20px;
+}
+.log-list > li:before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: 2px;
+  width: 4px;
+  height: 4px;
+  border: 1px solid #000;
+  border-radius: 50%;
+}
+.log-list > li p {
+  margin-top: 0;
+}
+
 /*===============  Index List   ==================*/
 .index-list {
   counter-reset: li;
@@ -289,6 +309,12 @@ b, strong {
   position: absolute;
   left: 0;
   font-weight: 500;
+}
+.index-list > li pre {
+  margin: 20px 0 40px 0;
+}
+.index-list > li strong + pre {
+  margin: 10px 0 40px 0;
 }
 .index-list > li + li {
   margin-top: 10px;
@@ -362,21 +388,6 @@ blockquote {
 }
 .chapter-nav li + li {
   margin-top: 10px;
-}
-
-/*==================== Quick Guide ====================*/
-.quick-guide {
-  width: auto;
-  margin-top: 17px;
-  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-.quick-guide:hover {
-  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1), 0 8px 8px 0 rgba(0, 0, 0, 0.1);
-}
-.quick-guide:active {
-  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 /*==================   RD Mobile Menu    =====================*/

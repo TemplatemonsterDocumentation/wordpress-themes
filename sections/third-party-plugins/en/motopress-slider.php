@@ -403,3 +403,5 @@
 	</figure>
 	<p>Layer settings also enable to specify the text of the layer and its style. When you finish with the adding layers you can set their order simply by dragging and dropping them in any specific sequence.</p>
 	<p>For more information please click <a href="http://www.getmotopress.com/blog/responsive-motopress-slider-for-wordpress/" target="_blank"><strong>here</strong></a>.</p>
+
+
