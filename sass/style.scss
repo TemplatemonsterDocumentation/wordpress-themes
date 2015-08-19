@@ -104,8 +104,12 @@ ul, ol{
 }
 
 article {
-  margin-top: 80px;
-  margin-bottom: 60px;
+  padding-top: 80px; 
+
+  &:first-child{
+    padding-top: 0;
+  }
+
   article{
     padding-right: 10%;
   }
@@ -387,7 +391,19 @@ blockquote {
     & + li { margin-top: 10px; }
   }
 }
-
+/*==================== Quick Guide ====================*/
+.quick-guide {
+  width: auto;
+  margin-top: 17px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+  @include transition(0.5s);
+  &:hover {
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1), 0 8px 8px 0 rgba(0, 0, 0, 0.1);
+  }
+   &:active {
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
+  }
+}
 //==================    Imports    ======================
 @import "_navbar.scss";
 @import "_stuck.scss";

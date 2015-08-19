@@ -104,8 +104,10 @@ ul figure:last-child, ol figure:last-child {
 }
 
 article {
-  margin-top: 80px;
-  margin-bottom: 60px;
+  padding-top: 80px;
+}
+article:first-child {
+  padding-top: 0;
 }
 article article {
   padding-right: 10%;
@@ -388,6 +390,21 @@ blockquote {
 }
 .chapter-nav li + li {
   margin-top: 10px;
+}
+
+/*==================== Quick Guide ====================*/
+.quick-guide {
+  width: auto;
+  margin-top: 17px;
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1), 0 5px 5px 0 rgba(0, 0, 0, 0.1);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+.quick-guide:hover {
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1), 0 8px 8px 0 rgba(0, 0, 0, 0.1);
+}
+.quick-guide:active {
+  box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.1);
 }
 
 /*==================   RD Mobile Menu    =====================*/
