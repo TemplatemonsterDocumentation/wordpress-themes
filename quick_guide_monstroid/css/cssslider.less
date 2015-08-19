@@ -1,0 +1,863 @@
+.pagination {
+    text-align: center;
+    padding-top: 17px;
+    li {display: inline-block;
+        a{
+            position: relative;
+            display: block;
+            text-align: center;
+            text-transform: uppercase;
+            font-size: 30px;
+            margin-right: 0;
+            line-height: 53px;
+            font-family: 'Gochi Hand', cursive;
+            background: url(../images/pag1.png) 0 0 no-repeat;
+            height: 51px;
+            width: 47px;
+            color: #252525; 
+            .transition(color 0.3s ease);
+            white-space: nowrap;
+            &:hover,  {
+                background-position: 0 bottom;
+                color: #ff3923;
+            }
+
+        }
+        &.active a,  {
+                background-position: 0 bottom;
+                color: #ff3923;
+            }
+
+    }  
+    li+li {
+        margin-left: 4px;
+        a {
+            background-image: url(../images/pag2.png);
+        }
+    }  
+     li+li+li {
+        margin-left: -1px;
+        a {     
+            width: 57px;
+            background-image: url(../images/pag3.png);
+        }
+    }
+    li+li+li+li a {
+        width: 47px;
+        background-image: url(../images/pag7.png);
+    }
+    li+li+li+li+li {
+        
+        a { 
+            width: 47px;
+            background-image: url(../images/pag4.png);
+       }
+    }
+
+    li+li+li+li+li+li {
+        margin-left: -5px;
+        a { 
+            background-image: url(../images/pag5.png);
+       }
+    }
+    li+li+li+li+li+li+li {
+        margin-left: 0px;
+        a { 
+            width: 48px;
+            background-image: url(../images/pag6.png); 
+       }
+    }
+    li+li+li+li+li+li+li {
+        margin-left: -5px;
+        a {
+            width: 47px;
+            background-image: url(../images/pag7.png);
+        }
+    }    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.area{
+    height: 600px;
+    width: 1070px;
+    overflow: hidden;
+    border: 1px solid #dcdcdc;
+    position: relative;
+}
+
+
+.slides{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 600px;
+    width: 1070px;
+    overflow: hidden;
+    li{
+        height: 600px;
+        width: 1070px;
+        position: absolute;
+        display: block;
+    }
+}    
+.interactive {
+    .transition(1s ease-in all); 
+}
+.guide{
+    height: 600px;
+    width: 1070px;
+    position: absolute;
+    left:0;
+    top: 0;
+    z-index: 99;
+    li,
+    li.in,
+    li.out{
+        display: block; 
+        z-index: 99;
+        .opacity(100);
+        
+    }
+    li.out {
+        .opacity(0);        
+            .arrow {
+                opacity: 0; 
+                .transition(0.2s ease-out all); 
+            }
+        .transition(0.1s ease-out all); 
+    }
+    li.in {
+        .opacity(100);
+        .transition(0.5s ease-in all); 
+    }
+}
+
+
+
+.arrow , .stickman, .guide_link {
+        display: block;
+        position: absolute;
+}
+
+.stickman img{
+    height: 0;    
+    bottom: 0 !important;
+    position: relative;
+}
+
+
+
+.dialog {
+        font: bold 25px/25px  'Annie Use Your Telescope', cursive;
+        color: #0a0805;
+        background: url(../images/dialog.png) 0 0 no-repeat;
+        width: 292px;
+        height: 177px;
+        overflow: hidden;
+        text-transform: none;
+        position: absolute;
+        text-align: center;     
+        .box-sizing(border-box);
+    }
+.dialog_sl31 {
+        background: url(../images/dialog_2.png) 0 0 no-repeat;
+        margin-top: -500px;
+        overflow: hidden;
+    }
+.dialog_sl1 {
+        margin-top: -500px;
+        overflow: hidden;
+    }
+.guide_link_sl1{
+    
+}
+.arrow {
+    opacity: 0;  
+    em {
+        display: block;
+        font-style: normal;
+        font: bold 25px/25px  'Annie Use Your Telescope', cursive;
+        color: #ff0000;
+        position: absolute;
+        top: -10px;
+        right: -70px;
+        white-space: nowrap;
+    }
+}
+.guide_link {
+    .opacity(100); 
+    &:hover {.opacity(100); .transition(opacity .2s ease-in-out); }
+}
+/**slide-1**/
+.slide-1 {
+    .arrow {
+        width: 164px;
+        height: 58px;
+        left: 480px;
+        top: 230px;
+        em {
+            top: 40px;
+            right: -40px;
+            .rotate(-35deg);
+        }    
+    }
+
+    #arrow_sl1{
+        position: relative;
+        width: 164px;
+        height: 58px;
+        background: url(../images/arrow_sl2.png) no-repeat;
+        display: block;
+    }    
+
+    .stickman {
+        /*background: url(../images/stickman_1.png) 0 0 no-repeat;*/
+        width: 113px;
+        height: 217px;
+        left: 900px;
+        bottom: 69px;
+        &.stickman_sl1 img{
+            bottom: 0 !important;
+            vertical-align: bottom !important;
+            top: 217px;
+        }
+    }
+    .dialog {
+        padding: 37px 10px 0;
+        left: 710px;
+        top: 158px; 
+    }
+    .guide_link {
+        width: 150px;
+        height: 57px;
+        bottom: 260px;
+        left: 440px;
+    }
+    
+    #focus_1{
+        position: relative;
+        width: 150px;
+        height: 57px;
+        background: url(../images/focus_sl1.png) no-repeat;
+        display: block;
+    }
+}
+/**slide-2**/
+.slide-2 {
+    .arrow {
+        width: 101px;
+        height: 38px;
+        left: 400px;
+        top: 54px;  
+        em {
+            top: 5px;
+            right: -70px;
+        }    
+    }
+    
+    #arrow_sl2{
+        position: relative;
+        width: 101px;
+        height: 38px;
+        background: url(../images/arrow_sl3.png) no-repeat;
+        display: block;
+    }  
+    
+    .stickman {
+        width: 148px;
+        height: 181px;
+        left: 849px;
+        bottom: 42px;
+        &.stickman_sl2 img{
+            bottom: 0 !important;
+            vertical-align: bottom !important;
+            top: 181px;
+        }
+    }
+    .dialog {
+        padding: 37px 10px 0;
+        left: 640px;
+        top: 168px; 
+    }
+    .guide_link {
+        width: 160px;
+        height: 55px;
+        top: 40px;
+        left: 230px;
+    }
+    
+    #focus_2{
+        position: relative;
+        width: 160px;
+        height: 55px;
+        background: url(../images/focus_sl3.png) no-repeat;
+        display: block;
+    }
+}
+/**slide-3**/
+.slide-3 {
+    .arrow {
+        width: 57px;
+        height: 66px;
+        left: 710px;
+        top: 290px;
+        em {
+            display: block;
+            top: 0px;
+            right: 70px;
+            .rotate(-15deg);
+        }     
+    }
+    
+    #arrow_sl3{
+        position: relative;
+        width: 57px;
+        height: 66px;
+        background: url(../images/arrow_sl5.png) no-repeat;
+        display: block;
+    }  
+    
+    .stickman {
+        width: 96px;
+        height: 191px;
+        left: 202px;
+        bottom: 30px;
+        &.stickman_sl3 img{
+            bottom: 0 !important;
+            vertical-align: bottom !important;
+            top: 191px;
+        }
+    }
+    .dialog {
+            background: url(../images/dialog_2.png) 0 0 no-repeat;
+            padding: 37px 0px 0;
+            left: 303px;
+            top: 270px; 
+    }   
+    .guide_link {
+        width: 150px;
+        height: 57px;
+        left: 650px;
+        top: 212px;
+    }
+    #focus_3{
+        position: relative;
+        width: 150px;
+        height: 57px;
+        background: url(../images/focus_sl5.png) no-repeat;
+        display: block;
+    }
+}
+/**slide-4**/
+.slide-4 {
+    .arrow {
+        width: 39px;
+        height: 68px;
+        left: 200px;
+        top: 238px;   
+        em {
+            top: 60px;
+            right: -60px;
+        }    
+    }
+    
+    #arrow_sl4{
+        position: relative;
+        width: 39px;
+        height: 68px;
+        background: url(../images/arrow_sl6.png) no-repeat;
+        display: block;
+    }  
+    
+    .stickman {
+        width: 126px;
+        height: 189px;
+        left: 773px;
+        bottom: 65px;
+        &.stickman_sl4 img{
+            bottom: 0 !important;
+            vertical-align: bottom !important;
+            top: 126px;
+        }
+    }
+    .dialog {
+        padding: 37px 10px 0;
+        left: 616px;
+        top: 145px; 
+    }
+    .guide_link {
+        width: 150px;
+        height: 57px;
+        bottom: 370px;
+        left: 150px;
+    }
+    
+    #focus_4{
+        position: relative;
+        width: 150px;
+        height: 57px;
+        background: url(../images/focus_sl1.png) no-repeat;
+        display: block;
+    }
+}
+
+
+
+
+
+/*************slider 2**************/
+.slider_2 {
+    
+/**slide-1**/
+.slide-21 {
+    .arrow {
+        width: 68px;
+        height: 57px;
+        left: 272px;
+        top: 450px;   
+    }
+
+    #arrow_sl2_1{
+        position: relative;
+        width: 68px;
+        height: 57px;
+        background: url(../images/arrow_sl1.png) no-repeat;
+        display: block;
+    }    
+
+    .stickman {
+        /*background: url(../images/stickman_1.png) 0 0 no-repeat;*/
+        width: 113px;
+        height: 217px;
+        left: 883px;
+        bottom: 39px;
+        &.stickman_sl21 img{
+            bottom: 0 !important;
+            vertical-align: bottom !important;
+            top: 217px;
+        }
+    }
+    .dialog {
+        padding: 43px 10px 0;
+        left: 610px;
+        top: 218px; 
+    }
+    .guide_link {
+        width: 160px;
+        height: 55px;
+        bottom: 29px;
+        left: 145px;
+    }
+    
+    #focus2_1{
+        position: relative;
+        width: 160px;
+        height: 55px;
+        background: url(../images/focus_sl3.png) no-repeat;
+        display: block;
+    }
+        
+}
+/**slide-2**/
+    .slide-22 {
+        .arrow {
+            width: 68px;
+            height: 57px;
+            left: 500px;
+            top: 180px;    
+            em {
+                right: -80px;
+                top: -20px;
+                .rotate(0deg);
+            }    
+        }
+
+        #arrow_sl2_2{
+            position: relative;
+            width: 68px;
+            height: 57px;
+            background: url(../images/arrow_sl1.png) no-repeat;
+            display: block;
+        }    
+        
+        .stickman {
+            width: 113px;
+            height: 217px;
+            left: 844px;
+            bottom: 39px;
+            &.stickman_sl22 img{
+                bottom: 0 !important;
+                vertical-align: bottom !important;
+                top: 191px;
+            }
+        }
+        .dialog {        
+            padding: 37px 10px 0;
+            left: 670px;
+            top: 194px; 
+        }
+        .guide_link {
+            bottom: 270px;
+            left: 340px;
+        }
+    
+        #focus2_2{
+            position: relative;
+            width: 165px;
+            height: 65px;
+            background: url(../images/focus_sl3_2.png) no-repeat;
+            display: block;
+        }    
+    }
+    
+    /**slide-23**/
+    .slide-23 {
+        .arrow {
+            left: 455px;
+            top: 255px;  
+            em {
+                right: -70px;
+                top: 80px;
+                .rotate(-5deg);
+            }  
+        }
+
+        #arrow_sl2_3{
+            position: relative;
+            width: 65px;
+            height: 91px;
+            background: url(../images/arrow_sl4.png) no-repeat;
+            display: block;
+        }    
+    
+        .stickman {
+            width: 96px;
+            height: 191px;
+            left: 920px;
+            bottom: 30px;
+            &.stickman_sl23 img{
+                bottom: 0 !important;
+                vertical-align: bottom !important;
+                top: 217px;
+            }
+        }
+        
+        .dialog {        
+            padding: 37px 10px 0;
+            left: 700px;
+            top: 206px; 
+        }
+        .guide_link {           
+            bottom: 360px;
+            left: 295px;
+        }
+        
+        #focus2_3{
+            position: relative;
+            width: 299px;
+            height: 108px;
+            background: url(../images/focus_sl2.png) no-repeat;
+            display: block;
+            .rotate(7deg);
+        }
+    
+    }
+        
+    
+
+    
+    /**slide-4**/
+        .slide-24 {
+            .arrow {
+                width: 101px;
+                height: 38px;
+                left: 440px;
+                top: 234px;
+                em {
+                    top: 5px;
+                    right: -70px;
+                }    
+            }
+            
+            #arrow_sl24{
+                position: relative;
+                width: 101px;
+                height: 38px;
+                background: url(../images/arrow_sl3.png) no-repeat;
+                display: block;
+            }  
+            
+            .stickman {
+                width: 148px;
+                height: 181px;
+                left: 879px;
+                bottom: 42px;
+                &.stickman_sl24 img{
+                    bottom: 0 !important;
+                    vertical-align: bottom !important;
+                    top: 181px;
+                }
+            }
+            .dialog {
+                padding: 37px 10px 0;
+                left: 700px;
+                top: 188px; 
+            }
+            .guide_link {
+                width: 160px;
+                height: 55px;
+                left: 280px;
+                top: 225px;
+            }
+            
+            #focus2_4{
+                position: relative;
+                width: 160px;
+                height: 55px;
+                background: url(../images/focus_sl3.png) no-repeat;
+                display: block;
+            }
+        }
+    
+
+    /**slide-5**/
+    .slide-25 {
+        .arrow {
+            width: 68px;
+            height: 57px;
+            left: 455px;
+            top: 475px;
+            .rotate(35deg);
+            em {
+                right: -60px;
+                top: 0px;
+                .rotate(-45deg);
+            }  
+            
+        }
+
+        #arrow_sl2_5{
+            position: relative;
+            width: 68px;
+            height: 57px;
+            background: url(../images/arrow_sl1.png) no-repeat;
+            display: block;
+        }    
+
+        .stickman {
+            /*background: url(../images/stickman_1.png) 0 0 no-repeat;*/
+            width: 113px;
+            height: 217px;
+            left: 903px;
+            bottom: 69px;
+            &.stickman_sl25 img{
+                bottom: 0 !important;
+                vertical-align: bottom !important;
+                top: 217px;
+            }
+        }
+        .dialog {
+            padding: 37px 10px 0;
+            left: 695px;
+            top: 158px; 
+        }
+        .guide_link {
+            width: 160px;
+            height: 55px;
+            bottom: 64px;
+            left: 280px;
+        }
+        
+        #focus2_5{
+            position: relative;
+            width: 165px;
+            height: 65px;
+            background: url(../images/focus_sl3_2.png) no-repeat;
+            display: block;
+        }
+        
+    }    
+    
+}
+
+
+.slider_3 {
+    
+    /**slide-31**/
+    .slide-31 {
+        .arrow {
+            left: 185px;
+            top: 465px; 
+            .rotate(75deg);  
+            em {
+                right: -50px;
+                top: 60px;
+                .rotate(-95deg);
+            }  
+        }
+
+        #arrow_sl3_1{
+            position: relative;
+            width: 65px;
+            height: 91px;
+            background: url(../images/arrow_sl4.png) no-repeat;
+            display: block;
+        }    
+    
+        .stickman {
+            width: 96px;
+            height: 191px;
+            left: 920px;
+            bottom: 50px;
+            &.stickman_sl1 img{
+                bottom: 0 !important;
+                vertical-align: bottom !important;
+                top: 217px;
+            }
+        }
+        
+        .dialog {        
+            padding: 37px 10px 0;
+            left: 700px;
+            top: 156px; 
+        }
+        .guide_link {           
+            bottom: 35px;
+            left: 255px;
+        }
+        
+        #focus3_1{
+            position: relative;
+            width: 299px;
+            height: 108px;
+            background: url(../images/focus_sl2.png) no-repeat;
+            display: block;
+        }
+    }
+    
+    
+    /**slide-32**/
+    .slide-32 {
+        .arrow {
+            width: 101px;
+            height: 38px;
+            left: 400px;
+            top: 510px;  
+            em {
+                top: 5px;
+                right: -70px;
+            }    
+        }
+        
+        #arrow_sl32{
+            position: relative;
+            width: 101px;
+            height: 38px;
+            background: url(../images/arrow_sl3.png) no-repeat;
+            display: block;
+        }  
+        
+        .stickman {
+            width: 148px;
+            height: 181px;
+            left: 900px;
+            bottom: 42px;
+            &.stickman_sl32 img{
+                bottom: 0 !important;
+                vertical-align: bottom !important;
+                top: 181px;
+            }
+        }
+        .dialog {
+            padding: 43px 10px 0;
+            left: 680px;
+            top: 208px; 
+        }
+        .guide_link {
+            width: 165px;
+            height: 65px;
+             left: 210px;
+            top: 496px;
+        }
+        
+        #focus3_2{
+            position: relative;
+            width: 165px;
+            height: 65px;
+            background: url(../images/focus_sl3_2.png) no-repeat;
+            display: block;
+        }
+        
+    }
+    
+    
+    
+    /**slide-33**/
+    .slide-33 {
+        
+        .stickman {
+            width: 126px;
+            height: 189px;
+            left: 900px;
+            bottom: 75px;
+            &.stickman_sl4 img{
+                bottom: 0 !important;
+                vertical-align: bottom !important;
+                top: 189px;
+            }
+        }
+        
+        .dialog {
+            background: url(../images/dialog.png) 0 0 no-repeat;
+            padding: 37px 40px 0;
+            left: 703px;
+            top: 126px; 
+        }   
+         
+        .fire {
+            width: 180px;
+            height: 152px;
+            left: 209px;
+            top: 89px;
+            position: absolute;
+        }  
+        
+        #fire{
+            position: relative;
+            width: 180px;
+            height: 152px;
+            background: url(../images/fire.png) no-repeat;
+            display: block;
+        }
+         
+    }
+    
+    .the_end {
+        font: 40px/40px 'Annie Use Your Telescope', cursive;
+        background: url(../images/f_sep.png) 0 center repeat-x;
+        text-align: center;
+        bottom: 27px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        display: block;
+        z-index: 999;
+         span {
+            display: inline-block;
+            padding: 0 11px;
+            background-color: #ffffff;
+        }
+        
+    }
+    
+
+}
+/**********/
+
+
+/**slide-2**/
+@import "mixins.less";
