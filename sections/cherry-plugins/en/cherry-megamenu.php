@@ -3,6 +3,10 @@
 <p>This plugin allows you to create multi-column menu drop-downs. It also lets you display necessary information in the
    main menu.</p>
 
+<div class="alert alert-warning">If the WPML plugin is used, you should turn off mega menu caching. The Mega Menu plugin has a caching option: Cherry Options -> Optimization -> Mega menu caching enabled -> Off.
+
+ </div>
+
 <figure class="img-polaroid">
     <img src="img/cherryframework/plugins/megamenu_item.jpg" alt="" style="opacity: 1;"><i
         class="icon-search"></i><span></span>
