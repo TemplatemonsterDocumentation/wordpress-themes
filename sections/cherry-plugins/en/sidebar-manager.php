@@ -1,6 +1,6 @@
-<h3>Custom Sidebars</h3>
+<h3>Cherry Sidebar Manager</h3>
 
-<p>The plugin is used to create custom sidebars with specific sets of widgets.</p>
+<p><a href="https://github.com/CherryFramework/cherry-sidebar-manager" target="_blank">Cherry Sidebar Manager</a> plugin is used to create custom sidebars with specific sets of widgets.</p>
 
 <p>To add a new sidebar, go to the <b>Appearance > Widgets</b> section and click <strong>Create a new sidebar</strong>.
 </p>
