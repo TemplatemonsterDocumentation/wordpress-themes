@@ -1,7 +1,7 @@
-<h3>Charts Plugin</h3>
+<h3>Cherry Charts</h3>
 
 <p>
-    The Charts plugin is used to create various charts and diagrams. The plugin's rich collection of diagram and chart
+    <a href="https://github.com/CherryFramework/cherry-charts" target="_blank">Cherry Charts</a> plugin is used to create various charts and diagrams. The plugin's rich collection of diagram and chart
     types enhanced by advanced settings allows you to create a chart that fully fits your requirements.
 </p>
 
