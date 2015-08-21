@@ -64,13 +64,13 @@
 <p>To install Cherry Plugins manually, please do the following:</p>
 
 <ol class="index-list">
-    <li>Download all required plugins. You can download them <a href="index.php?lang=en&section=cherry-plugins">here</a>.<li>
+    <li>Download all required plugins. You can find them <a href="index.php?lang=en&section=cherry-plugins">here</a>.</li>
     <li>Open the WordPress admin panel.</li>
     <li>Go to "<b>Plugins > Add New</b>."</li>
     <li>Click the "<b>Upload Plugin</b>" button.</li>
     <li>Search for plugins in your downloaded template package in the "<b>source</b>" directory.</li>
     <li>When you have all plugins uploaded, you need to activate them.</li>
-    <li>Go to the Plugins section and click the Activate links under each plugin.</li>
+    <li>Go to the <b>Plugins</b> section and click the <a>Activate</a> links under each plugin.</li>
 </ol>
 
 <h4>Install Sample Data</h4>
