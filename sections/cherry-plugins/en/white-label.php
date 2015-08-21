@@ -1,7 +1,7 @@
 
 	<h3>Cherry White Label</h3>
 
-	<p>This plugin lets you customize your site’s administration panel.</p> 
+	<p><a href="https://github.com/CherryFramework/cherry-white-label" target="_blank">Cherry White Label</a> plugin lets you customize your site’s administration panel.</p> 
 
 	<figure class="img-polaroid">
 		<img src="img/cherryframework/third-party-plugins/white-label.png" alt="">
