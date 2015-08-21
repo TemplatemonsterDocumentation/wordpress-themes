@@ -70,7 +70,7 @@
     <li>Click the "<b>Upload Plugin</b>" button.</li>
     <li>Search for plugins in your downloaded template package in the "<b>source</b>" directory.</li>
     <li>When you have all plugins uploaded, you need to activate them.</li>
-    <li>Go to the <b>Plugins</b> section and click the <a>Activate</a> links under each plugin.</li>
+    <li>Go to the <b>Plugins</b> section and click the <b>Activate</b> links under each plugin.</li>
 </ol>
 
 <h4>Install Sample Data</h4>
