@@ -1,9 +1,49 @@
 <h3>Monstroid change log</h3>
 
-<h4>Monstroid version 1.0.2</h4>
+<h4>Monstroid Update 1.0.3</h4>
+
+<p><strong>Theme Updates:</strong> Styling fixes and updates.</p>
+<p><strong>Fixed:</strong></p>
+<ul  class="marked-list">
+	<li>active menu item on first load</li>
+    <li>main navigation fixes on mobile devices</li>
+    <li>fixed theme dependence from "Cherry Shortcodes" plugin</li>
+    <li>fixed accordion animation style</li>
+    <li>optimized main navigation styling</li>
+    <li>fixed equal height script issue in Chrome browser</li>
+    <li>fixed grid columns</li>
+    <li>WPML-compatibility updates</li>
+    <li>fixed styling for:
+    	<ul  class="marked-list">
+			<li>shop pages</li>
+	        <li>shop home</li>
+	        <li>common elements page</li>
+	        <li>infographics page</li>
+	        <li>testimonials page</li>
+	        <li>home business page</li>
+	        <li>home parallax page</li>
+	        <li>landing page</li>
+	        <li>one page page</li>
+	        <li>pricing tables page</li>
+	        <li>interactive elements page</li>
+	        <li>home video page</li>
+	        <li>services page</li>
+	    </ul>
+    </li>
+</ul>
+<p><strong>Improvements:</strong></p>
+
+<ul  class="marked-list">
+	<li>Fixed Cherry footer text option behaviour.</li>
+    <li>Renamed Statisc Editor into Static Area Builder.</li>
+    <li>Add Google analytics option.</li>
+    <li>Font Awesome update ver 4.3 -> ver 4.4.</li>
+</ul>
+
+<h4>Monstroid Update 1.0.2</h4>
 
 <p><strong>Plugin Updates:</strong> Updated MotoPress Editor to version 1.6.2</p>
-<p><strong>heme Updates:</strong> Performed theme styling fixes and updates. </p>
+<p><strong>Theme Updates:</strong> Performed theme styling fixes and updates. </p>
 <p><strong>Fixed:</strong></p>
 <ul  class="marked-list">
 	<li>hovers</li>
@@ -43,7 +83,7 @@
 
 
 
-<h4>Monstroid version 1.0.1</h4>
+<h4>Monstroid Update 1.0.1</h4>
 
 <h5>Extended change log</h5>
 <ul class="log-list">
