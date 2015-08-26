@@ -18,7 +18,7 @@ foreach ($sections as $key => $section) {
 
 <!DOCTYPE html>
 <head>
-    <title><?php echo $doc_title; ?></title>
+    <title><?php echo $doc_title; ?> v4-0</title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no"/>
     <link rel="icon" href="<?php echo $path; ?>/img/favicon.ico" type="image/x-icon">
