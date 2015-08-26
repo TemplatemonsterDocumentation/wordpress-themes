@@ -38,6 +38,7 @@
     <li>Renamed Statisc Editor into Static Area Builder.</li>
     <li>Add Google analytics option.</li>
     <li>Font Awesome update ver 4.3 -> ver 4.4.</li>
+    <li>CssHero plugin ready.</li>
 </ul>
 
 <h4>Monstroid Update 1.0.2</h4>
