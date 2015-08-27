@@ -5,7 +5,7 @@
 
 <p>You can verify this by clicking on the link below:</p>
 <figure class="quick-guide">
-	<a target="_blank" href="quick_guide_monstroid/index_en.html">
+	<a target="_blank" href="quick_guide/index_en.html">
 		<img alt="" src="img/cherryframework/quick-guide-monstroid.jpg">
 	</a>
 </figure>
