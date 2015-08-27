@@ -1,5 +1,4 @@
-
-<h3>Statics Editor</h3>
+<h2>Statics Editor </h2>
 <p>Statics Editor is arrange static blocks (statics) in atatic areas. You can manage such blocks as: logo, header menu, header sidebar, search form, footer menu, footer info and footer sidebars.  </p>
 <figure class="img-polaroid">
 	<img src="img/cherryframework/static-editor-menu.jpg" alt="" >
