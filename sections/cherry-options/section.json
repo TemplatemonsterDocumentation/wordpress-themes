@@ -90,13 +90,6 @@
 				"en":"Cookie Banner",
 				"ru":"Cookie Баннер"
 			}
-		},
-		{
-			"id":"option-static-editor",
-			"translations":{
-				"en":"Static Editor",
-				"ru":"Static Editor"
-			}
-		}	
+		}
 	]
 }
