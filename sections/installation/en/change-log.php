@@ -1,5 +1,85 @@
 <h3>Monstroid change log</h3>
 
+<h4>Monstroid Update 1.0.4</h4>
+
+<p><strong>Add:</strong></p>
+<p>Theme:</p>
+<ul  class="marked-list">
+	<li>Default yith settings	</li>
+    <li>Support plugin CSS Hero</li>
+</ul>
+<p>Framework:</p>
+<ul  class="marked-list">
+	<li>Ui-typography charset multiselect</li>
+    <li>Style registration</li>
+    <li>Support plugin Olark Live Chat</li>
+    <li>Formatting the chat post format</li>
+	<li>Hidden value for ui-repeater element</li>
+</ul>
+<p>Plugins:</p>
+<ul  class="marked-list">
+	<li>Cherry-style-switcher</li>
+    <li>WooCommerce Products Quick View</li>
+    <li>YITH WooCommerce Zoom Magnifier</li>
+    <li>Monstroid dashboard</li>
+	<li>Motopress-cherryframework4 
+		<ul  class="marked-list">
+			<li>Filter for bg-type attributes</li>
+		</ul>
+	</li>
+</ul>
+
+<p><strong>Fix:</strong></p>
+<p>Theme:</p>
+<ul  class="marked-list">
+	<li>Fix: Images optimized</li>
+</ul>
+<p>Framework:</p>
+<ul  class="marked-list">
+	<li>Del: dependent stylesheet in drop-downs.css</li>
+    <li>Upd: improvements in css registration</li>
+    <li>Upd: options fields slave/master relation</li>
+    <li>Upd: typography refactoring</li>
+	<li>Fix: prevent PHP errors caused by CSS compiler</li>
+	<li>Fix: css for drop-downs marker</li>
+	<li>Fix:cherry-post-styls single option on post page (blog)</li>
+</ul>
+<p>Plugins:</p>
+<ul  class="marked-list">
+	<li>Cherry-white label 
+		<ul  class="marked-list">
+			<li>Fix login page</li>
+		</ul>
+	</li>
+    <li>Cherry-shortcode 
+		<ul  class="marked-list">
+			<li>Fix style</li>
+		</ul>
+	</li>
+	<li>Cherry-social 
+		<ul  class="marked-list">
+			<li>Fix: Follow Us networks option</li>
+		</ul>
+	</li>
+	<li>Woocommerce
+		<ul  class="marked-list">
+			<li>Fix: Thumbnail sizes</li>
+			<li>Fix: Products Quick View styles</li>
+			<li>Fix: Search widget</li>
+			<li>Fix: Product thumbnail active class</li>
+			<li>Fix: notice</li>
+		</ul>
+	</li>
+</ul>
+<p>Browser:</p>
+<ul  class="marked-list">
+	<li>Safari 
+		<ul  class="marked-list">
+			<li>Fix: transition bug</li>
+		</ul>
+	</li>
+</ul>
+
 <h4>Monstroid Update 1.0.3</h4>
 
 <p><strong>Theme Updates:</strong> Styling fixes and updates.</p>
