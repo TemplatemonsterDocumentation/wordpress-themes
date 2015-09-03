@@ -258,6 +258,28 @@ b, strong {
 /*=======================================================
                         Components
 =========================================================*/
+/*===============  Table  ==================*/
+.table thead {
+  background: #f0f0f0;
+}
+.table th {
+  font-weight: 500;
+}
+.table table, .table td, .table th {
+  border: 1px solid #f0f0f0;
+}
+.table td {
+  text-align: center;
+  width: 20%;
+  vertical-align: middle;
+}
+.table td, .table th {
+  padding: 10px;
+}
+.table tr th {
+  text-align: left;
+}
+
 /*===============  Marked List  ==================*/
 .marked-list > li {
   position: relative;

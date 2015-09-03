@@ -254,7 +254,31 @@ b, strong {
 /*=======================================================
                         Components
 =========================================================*/
+/*===============  Table  ==================*/
+.table{
+  thead{
+     background: #f0f0f0;
+  }
+  th{
+    font-weight: 500;
+  }
 
+  table, td, th{
+    border: 1px solid #f0f0f0;
+  }
+  td {
+    text-align: center;
+    width: 20%;
+    vertical-align: middle;
+  }
+  td, th{
+    padding: 10px;
+  }
+  tr th {
+    text-align: left;
+
+  }
+}
 /*===============  Marked List  ==================*/
 .marked-list{
   > li {

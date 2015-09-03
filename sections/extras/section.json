@@ -34,6 +34,13 @@
 				"en":"Google Services",
 				"ru":"Google Сервисы"
 			}
+		},
+		{
+			"id":"license-faqs",
+			"translations":{
+				"en":"License FAQs",
+				"ru":"License FAQs"
+			}
 		}		
 	]
 }
