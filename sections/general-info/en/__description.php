@@ -151,13 +151,6 @@
     </p>
 
     <ol class="index-list">
-        <li>First of all, you will need the right software to extract files from the password protected
-            sources_#########.zip archive. You can use WinZip 9 or a later version (if you have Windows OS) or Stuffit
-            Expander 10 or a later version (if you have Mac OS).
-        </li>
-        <li>You might also need Adobe Photoshop. It is used to edit the source .PSD files in case you need to change the
-            graphic design and images of the template.
-        </li>
         <li>To edit the template source code, you can use code editors like Adobe Dreamweaver, Notepad++, Sublime Text,
             etc.
         </li>
