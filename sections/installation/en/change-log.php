@@ -1,5 +1,150 @@
 <h3>Monstroid change log</h3>
 
+<h4>Monstroid Update 1.0.5</h4>
+
+<p>Theme:</p>
+<ul  class="marked-list">
+	<li>ADD: First critical screen css &amp; scripts</li>
+    <li>ADD: Contact form scripts/styles load if necessary</li>
+    <li>ADD: Dark Preset</li>
+    <li>UPD: Default.options</li>
+    <li>FIX: To top button</li>
+    <li>FIX: Fancy forms in bottom</li>
+    <li>FIX: Contact form issues</li>
+    <li>FIX: Menu hover boxed bug</li>
+    <li>FIX: Breadcrumbs issues</li>
+    <li>FIX: Shortcode styles</li>
+    <li>FIX: Woocommerce issues</li>
+    <li>FIX: Woocommerce notices</li>
+    <li>FIX: Woocommerce image size</li>
+    <li>FIX: Blog issues</li>
+</ul>
+<p>CherryFramework4</p>
+<ul  class="marked-list">
+	<li>ADD: Filter cherry_option_value_source_array</li>
+    <li>UPD: Removed spaces in header.php</li>
+    <li>UPD: Better description in breadcrumbs.</li>
+    <li>UPD: UI.css no-theme replaced</li>
+    <li>UPD: UI-elements optimization</li>
+    <li>DEL: Empty hints</li>
+    <li>FIX: Static page assets include</li>
+</ul>
+<p>Plugins</p>
+<ul  class="marked-list">
+	<li>cherry-simple-slider
+		<ul  class="marked-list">
+			<li>UPD: Optimize assets in interface builder</li>
+		</ul>
+	</li>
+	
+    <li>cherry-shortcodes
+		<ul  class="marked-list">
+			<li>UPD: Set of default attributes in posts shortcode.</li>
+			<li>UPD: Optimized CSS and JavaScript.</li>
+			<li>ADD: Get_image_url static method to shortcodes tools</li>
+			<li>ADD: Attribute in box shortcode - background-size</li>
+			<li>ADD: Attribute in box_inner shortcode - background-size</li>
+			<li>FIX: Correctly get image URL for image icon in list shortcode</li>
+		</ul>
+	</li>
+	<li>cherry-sidebar-manager
+		<ul  class="marked-list">
+			<li>UPD: Optimized CSS and JavaScript</li>
+			<li>FIX: UI elements</li>
+		</ul>
+	</li>
+	<li>cherry-grid
+		<ul  class="marked-list">
+			<li>UPD: improve performance for macros callbacks</li>
+			<li>UPD: minify assets</li>
+			<li>UPD: translation files</li>
+			<li>UPD: Text to translate</li>
+			<li>FIX: base update class</li>
+			<li>FIX: restore data after loop iteration</li>
+		</ul>
+	</li>
+	<li>cherry-charts
+		<ul  class="marked-list">
+			<li>FIX: 'show_title' control handling.</li>
+			<li>FIX: Show label, show title and show legend controls.</li>
+			<li>FIX: Plugin updater</li>
+			<li>UPD: Enqueue charts scripts only if shortcode used on page.</li>
+		</ul>
+	</li>
+	<li>cherry-rank
+		<ul  class="marked-list">
+			<li>UPD: Enqueue scripts only if some of callbacks was rendered on page.</li>
+			<li>UPD: Minify JS and CSS.</li>
+			<li>UPD: Remove empty lines.</li>
+			<li>FIX: Base update class</li>
+		</ul>
+	</li>
+	<li>cherry-social
+		<ul  class="marked-list">
+			<li>UPD: Minify CSS.</li>
+			<li>ADD: Filter for a follow item</li>
+		</ul>
+	</li>
+	<li>cherry-white-label
+		<ul  class="marked-list">
+			<li>UPD: Optimized CSS and JavaScript.</li>
+			<li>FIX: Plugin updater</li>
+		</ul>
+	</li>
+	<li>cherry-team
+		<ul  class="marked-list">
+			<li>FIX: Base update class</li>
+			<li>FIX: Set columns for team widget</li>
+			<li>UPD: Font Awesome to 4.4.0</li>
+			<li>UPD: Set of default attributes</li>
+			<li>UPD: Modify macros callbacks logic to improve performance</li>
+			<li>UPD: Css for .team-listing class: added a flex feature</li>
+		</ul>
+	</li>
+	<li>cherry-services
+		<ul  class="marked-list">
+			<li>FIX: Base update class</li>
+			<li>UPD: Set of default attributes</li>
+			<li>UPD: Modify callbacks logic to improve performance</li>
+			<li>UPD: Minify CSS</li>
+		</ul>
+	</li>
+	<li>cherry-portfolio
+		<ul  class="marked-list">
+			<li>UPD: Assets include</li>
+			<li>UPD: Interface builder class assets include</li>
+			<li>FIX: Crop image trouble</li>
+			<li>FIX: Plugin updater</li>
+			<li>FIX: Single post crop image</li>
+		</ul>
+	</li>
+	<li>motopress-cherryframework4
+		<ul  class="marked-list">
+			<li>UPD: Updater logic</li>
+			<li>ADD: Attribute in row shortcode - background-size</li>
+			<li>FIX: Plugin updater</li>
+		</ul>
+	</li>
+	<li>cherry-mega-menu
+		<ul  class="marked-list">
+			<li>UPD: Minify CSS and JS</li>
+			<li>UPD: Change default mobile trigger to 768px</li>
+		</ul>
+	</li>
+	<li>cherry-blog-layouts
+		<ul  class="marked-list">
+			<li>ADD: Style handle to CSS compiler</li>
+		</ul>
+	</li>
+	<li>cherry-style-switcher
+		<ul  class="marked-list">
+			<li>ADD: Checked active preset in each group</li>
+			<li>ADD: Demo mode option</li>
+			<li>FIX: Active presets saving</li>
+		</ul>
+	</li>
+</ul>
+
 <h4>Monstroid Update 1.0.4</h4>
 
 <p><strong>Add:</strong></p>
