@@ -30,7 +30,7 @@
             <dd>
                 Select a page that regular visitors will see if maintenance mode is enabled. You can select any
                 WordPress
-                page here including your custom ones.
+                page from here, including your custom ones.
             </dd>
         </dl>
     </li>
@@ -49,6 +49,42 @@
             <dt>User CSS</dt>
             <dd>
                 Define custom CSS styling.
+            </dd>
+        </dl>
+    </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>Landing page</dt>
+            <dd>
+                Define the page in which will be use landing navigation.
+            </dd>
+        </dl>
+    </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>To Top</dt>
+            <dd>
+                Define - display or hide "To top" button.
+            </dd>
+        </dl>
+    </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>404 content</dt>
+            <dd>
+                Visual editor for crating 404 page content.
+            </dd>
+        </dl>
+    </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>Google Analytics Code</dt>
+            <dd>
+                Text area for Google Analytics code. For more information, how to add Google Analytics code, please visit our <a href="http://info.template-help.com/help/monstroid-how-to-add-google-analytics-code.html#prettyPhoto/0/" target="blank">video tutorial</a>
             </dd>
         </dl>
     </li>

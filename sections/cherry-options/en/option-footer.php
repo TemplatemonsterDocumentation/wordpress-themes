@@ -7,7 +7,7 @@
         <dl class="inline-term">
             <dt>Footer background</dt>
             <dd>
-                Footer background settings. You can select background color, upload footer background image, set its
+                Footer background settings. You can select the background color, upload footer background image, set the
                 background
                 position, attachment and repeat.
             </dd>
@@ -27,7 +27,7 @@
         <dl class="inline-term">
             <dt>Grid type</dt>
             <dd>
-                Select the layout pattern for website footer. Wide layout will fit window width. Boxed layout will have
+                Select the layout pattern for website footer. Wide layout will fit the window width. Boxed layout has
                 fixed
                 width.
             </dd>
@@ -37,7 +37,7 @@
     <li>
         <dl class="inline-term">
             <dt>Boxed width</dt>
-            <dd>Header section width if boxed layout is active. Should not be more than the Grid -> Container width value.
+            <dd>Header section width (if boxed layout is active). Should not be more than the Grid -> Container width value.
             </dd>
         </dl>
     </li>
@@ -67,11 +67,9 @@
         <dl class="inline-term">
             <dt>Logo type</dt>
             <dd>
-                Select whether you want your main logo to be an image or text. If you select 'image,' you can choose a
+                Select whether you want the main logo to be an image or text. If you select "image", you can choose a
                 logo
-                image from the media library in the next option, and if you select 'text,' your WordPress Site Title
-                will be
-                shown instead.
+                image from the media library in the next option. The "text" type displays the  WordPress Site Title instead.
             </dd>
         </dl>
     </li>
@@ -80,7 +78,7 @@
         <dl class="inline-term">
             <dt>Image</dt>
             <dd>
-                Click the Choose Media button to select logo image from the media library or upload your image.
+                Click the "Choose Media" button to select the logo image from the media library or upload your image.
             </dd>
         </dl>
     </li>
@@ -89,7 +87,7 @@
         <dl class="inline-term">
             <dt>Logo typography</dt>
             <dd>
-                Configuration settings for text logo. Here you can select the logo font family, size, color, etc.
+                Configuration settings for text logo. Here you can select the logo, font family, size, color, etc.
             </dd>
         </dl>
     </li>

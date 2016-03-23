@@ -2,19 +2,19 @@
 
 	<h3>MotoPress Content Editor</h3>
 
-	<p><a href="http://www.getmotopress.com/plugins/content-editor/" target="_blank"><strong>MotoPress Content Editor</strong></a> enhances the standard WordPress builder and enables to create websites visually. It’s the complete solution for building responsive pages without coding simply by dragging and dropping content elements.</p>
+	<p><a href="http://www.getmotopress.com/plugins/content-editor/" target="_blank"><strong>MotoPress Content Editor</strong></a> enhances the standard WordPress builder features and allows to create websites visually. It’s the complete solution for building responsive pages without coding, by simply dragging and dropping content elements.</p>
 
 
-	<p> You have two ways of creating or editing content: in the visual MotoPress Content Editor or in the default WordPress editor. </p>
+	<p> You have two ways of creating or editing the content: in the visual MotoPress Content Editor or in the default WordPress editor. </p>
 
-	<p> If you prefer to create/edit content in the default WordPress editor, but would like to have it viewable and editable in the MotoPress editor, you need to follow the rules below.</p>
+	<p> If you prefer to create/edit content in the default WordPress editor, but would like to have it viewable and editable in the MotoPress editor, you need to follow the steps listed  below.</p>
  
 
 	<h4>Basic rules of organizing shortcodes:</h4>
 
 
 	<ol class="index-list">
-		<li><p>The grid shortcode should come first. The Row → Column structure should always be kept.</p>
+		<li><p>The grid shortcode should come first. The Row → Column structure should always remain unchanged.</p>
 <pre class="prettyprint">
 [cherry_row]
 	[cherry_col]
@@ -81,7 +81,7 @@
 [/cherry_row]</pre>
 		</li>
 		<li><p>Several objects in a column</p>
-			<p>Each object in a column should be placed into a grid. Unless this is done, all the objects in the column will be interpreted as one block. Consequently, it will be impossible to customize objects individually. For example, in the second column, the "Content" text and the “cherry_button” shortcode are not separated by grid elements.</p>
+			<p>Each object in a column should be placed into a grid. In other case, all the objects in the column will be interpreted as one block. Consequently, it will be impossible to customize objects individually. For example, in the second column, the "Content" text and the “cherry_button” shortcode are not separated by grid elements.</p>
 			<strong>Incorrect:</strong>
 <pre class="prettyprint">
 [cherry_row]
@@ -95,7 +95,7 @@
 [/cherry_row]</pre>
 <p>In the visual editor, this block looks like a single object.</p>
 <figure class="img-polaroid">
-    <img alt="" src="img/cherryframework/third-party-plugins/moto-editor-1.png">
+    <img alt="" src="img/third-party-plugins/moto-editor-1.png">
 </figure>
 <p>You should add a new row and insert “Content” and the “cherry_button” shortcode into separate columns: cherry_row_inner → cherry_col_inner.</p>
 <strong>Cоrrect:</strong>
@@ -119,7 +119,7 @@
 [/cherry_row]</pre>
 <p>Now each of the objects can be selected and customized separately in the visual editor.</p>
 <figure class="img-polaroid">
-    <img alt="" src="img/cherryframework/third-party-plugins/moto-editor-2.png">
+    <img alt="" src="img/third-party-plugins/moto-editor-2.png">
 </figure>
 		</li>
 		<li><p>Using Inner-Row. The following structure should be kept: row → col → row_inner → col_inner.</p>
@@ -171,7 +171,7 @@
 		[/cherry_box]
 	[/cherry_col]
 [/cherry_row]</pre>		
-<p>If "cherry_box" wrapped in a grid is placed into row_inner, you can't use another row_inner inside of it.</p>	
+<p>If "cherry_box" is wrapped in a grid is placed into row_inner, you can't use another row_inner inside of it.</p>		
 		</li>
 		<li><p>The number of columns in a row should not exceed twelve (the default value).</p></li>
 	</ol>

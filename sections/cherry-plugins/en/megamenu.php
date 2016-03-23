@@ -13,7 +13,7 @@
 </figure>
 
 <p>After the plugin is installed and activated, you can navigate to "Appearance > Menus" in the WordPress dashboard.
-   Hover over the menu tab and click the Mega Menu icon. </p>
+   Hover over the menu tab and click the "Mega Menu" tab. </p>
 
 <figure class="img-polaroid">
     <img src="img/cherryframework/plugins/megamenu_step1.jpg" alt="" style="opacity: 1;"><i

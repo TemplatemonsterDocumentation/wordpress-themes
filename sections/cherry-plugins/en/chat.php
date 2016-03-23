@@ -1,19 +1,20 @@
 <h3>Cherry Chat</h3>
 <p>Cherry Chat plugin adds live chat application to your WordPress administration panel. Using this live chat you can
-   get 24/7 assistance on working with Cherry Framework and Cherry plugins. </p>
+   get 24/7 support on working with Cherry Framework and Cherry plugins. </p>
 <figure class="img-polaroid">
     <img src="img/cherryframework/plugins/chat_open.jpg" alt="">
 </figure>
-<p>Live Chat is available in right bottom corner of the WordPress admin panel. </p>
-<p>If you purchased Cherry Framework theme, you can use your order ID to contact technical support team and get
-   immediate assistance. </p>
+<p>Live Chat is available in the right bottom corner of the WordPress admin panel. </p>
+<p>If you purchased Cherry Framework theme, you can use your order ID to contact technical support team and get an
+   immediate support. </p>
+
 
 <figure class="img-polaroid">
     <img src="img/cherryframework/plugins/chat_new.jpg" alt="">
 </figure>
 
 <p>If you do not have an order ID, you can also contact live chat support by entering your name and email.</p>
-<p>On clicking "Start Chat" button, you'll be connected to the first available operator.</p>
+<p>Clicking "Start Chat" button, you'll be connected to the first available operator.</p>
 
 <figure class="img-polaroid">
     <img src="img/cherryframework/plugins/chat_session.jpg" alt="">

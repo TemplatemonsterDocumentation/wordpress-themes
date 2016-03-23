@@ -7,7 +7,7 @@
     <li>
         <dl class="inline-term">
             <dt>Background</dt>
-            <dd>Page background settings. You can select background color, upload page background image, set its
+            <dd>Page background settings. You can select the background color, upload page background image, set the
                 background
                 position, attachment and repeat.
             </dd>
@@ -17,7 +17,7 @@
     <li>
         <dl class="inline-term">
             <dt>Grid type</dt>
-            <dd>Select the layout pattern for the main website container. Wide layout will fit window width. Boxed
+            <dd>Select the layout pattern for the main website container. Wide layout will fit the window width. Boxed
                 layout
                 will
                 have fixed width and left/right indents.
@@ -28,7 +28,7 @@
     <li>
         <dl class="inline-term">
             <dt>Boxed width</dt>
-            <dd>Header section width if boxed layout is active. Should not be more than the Grid -> Container width
+            <dd>Header section width  (if boxed layout is active). Should not be more than the Grid -> Container width
                 value.
             </dd>
         </dl>
@@ -50,6 +50,7 @@
         </dl>
     </li>
 </ul>
+
 
 
 <figure class="img-polaroid">

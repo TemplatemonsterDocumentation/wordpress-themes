@@ -101,6 +101,15 @@
             </dd>
         </dl>
     </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>Webfonts</dt>
+            <dd>
+                Define custom Font style and Character Sets for selected web font.
+            </dd>
+        </dl>
+    </li>
 </ul>
 
 

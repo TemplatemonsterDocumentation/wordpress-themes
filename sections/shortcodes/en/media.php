@@ -1,6 +1,6 @@
 <h3>Media</h3>
 
-<h4>Banner</h4>
+<h4>Banners</h4>
 
 <p>Displays banner</p>
 
@@ -10,7 +10,7 @@
     <li><strong>banner url:</strong> – banner URL</li>
     <li><strong>text color:</strong> – banner color</li>
     <li><strong>background color:</strong> – banner background color</li>
-    <li><strong>template:</strong> – shortcode template</li>
+    <li><strong>template:</strong> – shortcode template to display shortcode content, for more information, please visit our <a href="./index.php?project=monstroid&lang=en&section=cherry-plugins#" target="blank">tutorial</a></li>
     <li><strong>class:</strong> – shortcode custom class</li>
 </ul>
 
@@ -34,28 +34,28 @@
     <li><strong>authors:</strong> – coma-separated list of authors</li>
     <li><strong>offset:</strong> – indent value</li>
     <li><strong>order:</strong> – ascending/descending order</li>
-    <li><strong>order by:</strong> – order by one of parameters</li>
+    <li><strong>order by:</strong> – order by one of the parameters</li>
     <li><strong>post parent:</strong> – parent container can be set in this field</li>
     <li><strong>post status:</strong> – display posts with specific status only</li>
     <li><strong>ignore sticky:</strong> – defines whether ignore sticky posts or not</li>
     <li><strong>linked title:</strong> – linked title description</li>
     <li><strong>linked featured image:</strong> – linked featured image description</li>
     <li><strong>post content:</strong> – post content value</li>
-    <li><strong>Content Length:</strong> – number of words per displayed posts</li>
+    <li><strong>content Length:</strong> – number of words per displayed posts</li>
     <li><strong>button text:</strong> – button text</li>
     <li><strong>using cropped image:</strong> – to use/not to use cropped images</li>
     <li><strong>cropping image width:</strong> – cropped image width</li>
     <li><strong>cropping image height:</strong> – cropped image height</li>
     <li><strong>number slides per view:</strong> – number of slides displayed per view</li>
-    <li><strong>multi Row Slides Layout:</strong> – number of rows</li>
-    <li><strong>space Between Slides:</strong> – slides indent value</li>
+    <li><strong>multi row slides Layout:</strong> – number of rows</li>
+    <li><strong>space between slides:</strong> – slides indent value</li>
     <li><strong>duration of transition:</strong> – slides transition duration value</li>
-    <li><strong>slider Infinite Loop:</strong> – enable/disable infinite loop</li>
-    <li><strong>free Mode sliding:</strong> – enable/disable slides fixed position</li>
-    <li><strong>grab Cursor:</strong> – enable/disable grab cursor for slider</li>
-    <li><strong>mousewheel Control:</strong> – enable/disable mousewheel control mode</li>
-    <li><strong>centered Slides:</strong> – enable/disable slides alignment</li>
-    <li><strong>effect Layout:</strong> – slides transition effect</li>
+    <li><strong>slider infinite loop:</strong> – enable/disable infinite loop</li>
+    <li><strong>free mode sliding:</strong> – enable/disable slides fixed position</li>
+    <li><strong>grab cursor:</strong> – enable/disable grab cursor for slider</li>
+    <li><strong>mousewheel control:</strong> – enable/disable mousewheel control mode</li>
+    <li><strong>centered slides:</strong> – enable/disable slides alignment</li>
+    <li><strong>effect layout:</strong> – slides transition effect</li>
     <li><strong>slider pagination:</strong> – display/hide slider pagination</li>
     <li><strong>slider navigation:</strong> – display/hide slider navigation</li>
     <li><strong>class:</strong> – shortcode custom class</li>

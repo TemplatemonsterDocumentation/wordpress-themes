@@ -58,13 +58,13 @@
     <li>Under <b>Appearance -> Themes</b> you will see a warning saying that your theme requires certain plugins to be installed for its proper working. Click on <b>Begin Installing Plugins</b>.</li>
     <li>Check all the plugins and select Install in the drop-down menu. Click <b>Apply</b>.</li>
     <li>Wait until the installation is complete.</li>
-    <li>Activate plugins.</li>
+    <li>Activate the plugins.</li>
 </ol>
 
 <p>To install Cherry Plugins manually, please do the following:</p>
 
 <ol class="index-list">
-    <li>Download all required plugins. You can find them <a href="index.php?lang=en&section=cherry-plugins">here</a>.</li>
+    <li>Download all the required plugins. You can find them <a href="index.php?lang=en&section=cherry-plugins">here</a>.</li>
     <li>Open the WordPress admin panel.</li>
     <li>Go to "<b>Plugins > Add New</b>."</li>
     <li>Click the "<b>Upload Plugin</b>" button.</li>
@@ -115,7 +115,7 @@
 <figure class="img-polaroid"><img src="img/cherryframework/sample_data_import_install.jpg" alt=""></figure>
 
 <p>
-    When the installation process is done, you can view your website. It should be as at the live demo.
+    When the installation process is done, you can view your website. It should be as on the live demo.
 </p>
 
 
@@ -134,4 +134,4 @@
     <li>Now you can import this file through <strong>phpMyAdmin</strong> or another database management tool.</li>
 </ol>
 
-<p><strong>Congratulations, now you have completely installed Cherry Theme.</strong></p>
+<p><strong>Congratulations, now you have completely installed the Cherry Theme.</strong></p>

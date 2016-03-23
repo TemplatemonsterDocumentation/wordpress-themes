@@ -17,7 +17,7 @@
         <dl class="inline-term">
             <dt>Container width</dt>
             <dd>
-                The width of main website container in pixels.
+                 Width of the main website container in pixels.
             </dd>
         </dl>
     </li>

@@ -1,7 +1,7 @@
 <h3>WordPress installation</h3>
 
 <p>Download the required WordPress version. You can check which release is required on the template preview page in
-   the requirements list. Make sure you download the correct version.</p>
+   the requirements list. Make sure you've downloaded the correct version.</p>
 
 <p>
     You can download the WordPress platform at the official WordPress.org website:
@@ -11,8 +11,7 @@
     . If you need another release, follow this link:
     <a href="http://WordPress.org/download/release-archive/" target="_blank">
         <strong>WordPress versions archive</strong></a>
-    . Once the platform is downloaded, you'll need to unpack files. You can use any file archiver that support ZIP
-    format to unpack the <strong>ZIP</strong> file.
+    . Once the platform is downloaded, you'll need to unpack the files. You can use any tool for extracting <strong>ZIP</strong> files.
 </p>
 
 <p>
@@ -159,7 +158,9 @@
 <h4>
     Database details.
 </h4>
-
+<div class="alert alert-info">
+Please note that the prefix of WordPress database tables should be <strong>wp_</strong>.
+</div>
 <p>
     You need to enter the WordPress database connection details here.
 </p>

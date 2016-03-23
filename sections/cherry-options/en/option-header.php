@@ -8,9 +8,8 @@
         <dl class="inline-term">
             <dt>Header background</dt>
             <dd>
-                Header background settings. You can select background color, upload header background image, set
-                itsbackground
-                position, attachment and repeat.
+                Header background settings. You can select the background color, upload the header background image, set
+                background position, attachment and repeat.
             </dd>
         </dl>
     </li>
@@ -19,8 +18,8 @@
         <dl class="inline-term">
             <dt>Grid type</dt>
             <dd>
-                Select the layout pattern for the website header. Wide layout will fit window width. Boxed layout will
-                havefixed
+                Select the layout pattern for the website header. Wide layout will fit the window width. Boxed layout will
+                have fixed
                 width.
             </dd>
         </dl>

@@ -19,8 +19,16 @@
             </dd>
         </dl>
     </li>
-</ul>
 
+    <li>
+        <dl class="inline-term">
+            <dt>Mega menu caching enabled</dt>
+            <dd>
+                Enable / Disable caching of mega menu navigation
+            </dd>
+        </dl>
+    </li>
+</ul>
 
 <figure class="img-polaroid">
     <img src="img/cherryframework/cherry-options_optimization.jpg" alt="" style="opacity: 1;"><i

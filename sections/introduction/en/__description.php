@@ -18,175 +18,123 @@
     <h3>Template Structure</h3>
     <p>The template package includes several folders. Let's check what's inside:</p>
 
-    <ul class="files_structure">
+<ul class="files_structure">
     <li>
-    	<dl class="inline-term">
-    		<dt><i class="fa fa-folder"></i> <strong>documentation</strong></dt>
-    		<dd> contains documentation.</dd>
-    	</dl>
-    	<ul>
-            <li>
-                <dl class="inline-term">
-                    <dt><i class="fa fa-file"></i> <strong>documentation.html</strong></dt>
-            		<dd>the main documentation file that you are reading at the moment :)</dd>
-        		</dl>
-    		</li>               		
-    	</ul>
-    </li>
-    <li>
-    	<dl class="inline-term">
-    		<dt><i class="fa fa-folder"></i> <strong>screenshots</strong></dt>
-    		<dd> contains screen-shots of the template. However, they are not required to edit the template.</dd>
-    	</dl>
-    </li>
-    <li>
-    	<dl class="inline-term">
-    		<dt><i class="fa fa-folder"></i> <strong>sources.zip</strong></dt>
-    		<dd> contains theme source files.</dd>
-    	</dl>
-    	<ul>
-            <li>
-                <dl class="inline-term">
-                    <dt><i class="fa fa-folder"></i> <strong>psd</strong></dt>
-            		<dd>contains Adobe Photoshop source files (.psd).</dd>
-            	</dl>
-            </li>
-    	</ul>
+        <dl class="inline-term">
+            <dt><i class="fa fa-folder"></i> <strong>screenshots</strong></dt>
+            <dd> contains screen-shots of the template. However, they are not required to edit the template.</dd>
+        </dl>
     </li>
     <li>
         <dl class="inline-term">
             <dt><i class="fa fa-folder"></i> <strong>theme</strong></dt>
             <dd> contains WordPress theme files.</dd>
         </dl>
-        <ul>
-            <li>
-                <dl class="inline-term">
-                    <dt><i class="fa fa-folder"></i> <strong>CherryFramework.zip</strong></dt>
-                    <dd>
-                        archive with the Cherry Framework theme. Contains all theme files. It must
-                        be installed through WordPress extension manager.
-                    </dd>
-                </dl>
-            </li>
-            <li>
-                <dl class="inline-term">
-                    <dt>
-                        <i class="fa fa-folder"></i> <strong>theme####.zip</strong>
-                    </dt>
-                    <dd>
-                        archive with the theme (child theme). Contains all theme files.
-                        It must be installed through WordPress extension manager.
-                    </dd>
-                </dl>
-            </li>
-            <li>
-                <dl class="inline-term">
-                    <dt>
-                        <i class="fa fa-folder"></i> <strong>sample_data</strong>
-                    </dt>
-                    <dd>
-                        contains the files that make the WordPress website look like our live
-                        demo.
-                    </dd>
-                </dl>
-
-                <ul>
-                    <li>
-                        <dl class="inline-term">
-                            <dt>
-                                <i class="fa fa-file"></i> <strong>sample_data.xml</strong>
-                            </dt>
+            <ul>
+                <li>
+                    <dl class="inline-term">
+                        <dt>
+                        <i class="fa fa-folder"></i> <strong>theme-name.zip</strong>
+                        </dt>
                             <dd>
-                                contains all template sample data (posts, pages, categories, etc).
+                            archive with the theme (child theme). Contains all theme files.
+                            It must be installed through WordPress extension manager.
                             </dd>
-                        </dl>
-                    </li>
-                    <li>
-                        <dl class="inline-term">
-                            <dt>
-                                <i class="fa fa-file"></i> <strong>widgets.json</strong>
-                            </dt>
+                    </dl>
+                </li>
+                <li>
+                    <dl class="inline-term">
+                        <dt>
+                            <i class="fa fa-folder"></i> <strong>sample_data</strong>
+                        </dt>
                             <dd>
-                                contains widgets settings.
+                            contains the files that make the WordPress website look like our live
+                            demo.
                             </dd>
-                        </dl>
-                    </li>
-                    <li>
-                        <dl class="inline-term">
-                            <dt>
-                                <i class="fa fa-file"></i> <strong>various images and media files</strong>.
-                            </dt>
-                        </dl>
-                    </li>
-                </ul>
-            </li>
-            <li class="folder">
-                <dl class="inline-term">
-                    <dt>
-                        <i class="fa fa-folder"></i> <strong>manual_install</strong>
-                    </dt>
-                    <dd>
-                        contains files that make the WordPress website look like our live demo.
-                    </dd>
-                </dl>
-
-                <ul>
-                    <li>
-                        <dl class="inline-term">
-                            <dt>
-                                <i class="fa fa-folder"></i> <strong>uploads</strong>
-                            </dt>
+                    </dl>
+                    <ul>
+                        <li>
+                            <dl class="inline-term">
+                                <dt>
+                                    <i class="fa fa-file"></i> <strong>content.xml</strong>
+                                </dt>
+                                    <dd>
+                                    contains all template sample data (posts, pages, categories, etc).
+                                    </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="inline-term">
+                                <dt>
+                                    <i class="fa fa-file"></i> <strong>widgets.wie</strong>
+                                </dt>
+                                    <dd>
+                                    contains widgets settings.
+                                    </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </li>
+                <li class="folder">
+                    <dl class="inline-term">
+                        <dt>
+                            <i class="fa fa-folder"></i> <strong>manual_install</strong>
+                        </dt>
                             <dd>
-                                contains theme images.
+                            contains files that make the WordPress website look like our live demo.
                             </dd>
-                        </dl>
-                    </li>
-                    <li>
-                        <dl class="inline-term">
-                            <dt>
-                                <i class="fa fa-file"></i> <strong>theme#####.sql</strong>
-                            </dt>
-                            <dd>
-                                database file (contains theme content).
-                            </dd>
-                        </dl>
-                    </li>
-                </ul>
-            </li>
-        </ul>
+                    </dl>
+                    <ul>
+                        <li>
+                            <dl class="inline-term">
+                                <dt>
+                                    <i class="fa fa-folder"></i> <strong>uploads</strong>
+                                </dt>
+                                    <dd>
+                                    contains theme images.
+                                    </dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl class="inline-term">
+                                <dt>
+                                    <i class="fa fa-file"></i> <strong>theme-name.sql</strong>
+                                </dt>
+                                    <dd>
+                                    database file (contains theme content).
+                                    </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
     </li>
     <li>
         <dl class="inline-term">
-            <dt><i class="fa fa-file"></i> <strong>license.txt</strong></dt>
-            <dd> contains license information.</dd>
-        </dl>
-    </li>
-    <li>
-        <dl class="inline-term">
-            <dt><i class="fa fa-file"></i> <strong>fonts_info.txt</strong></dt>
-            <dd> contains links to download fonts used in the template.</dd>
+            <dt><i class="fa fa-file"></i> <strong>documentation.txt</strong></dt>
+                <dd> contains documentation link information.</dd>
         </dl>
     </li>
     <li>
         <dl class="inline-term">
             <dt><i class="fa fa-file"></i> <strong>info.txt</strong></dt>
-            <dd> instructions on how to extract source files.</dd>
+                <dd> instructions on how to extract source files.</dd>
         </dl>
     </li>
-    </ul>
+</ul>
 </article>
 <article id="preparation">
     <h3>Preparation</h3>
-    <h6>Before installing a WordPress website, you need to get fully prepared. We recommend that you get the following aspects covered:</h6>
+    <h6>Before installing a WordPress website, you need to get fully prepared. We recommend you to get the following aspects covered:</h6>
 
     <h4>Software</h4>
-    <p>Before you even start working with the WordPress template, you should download the required software. You can check the required software on the template preview page.<br>
+    <p>Before you start working with the WordPress template, you should download the required software. You can check the required software on the template preview page.<br>
     Requirements can alter from template to template, so we will list the most important ones:</p>
     <ol class="index-list">
-    	<li>First of all, you will need the right software to extract files from the password protected sources_#########.zip archive. You can use WinZip 9 or a later version (if you have Windows OS) or Stuffit Expander 10 or a later version (if you have Mac OS).</li>
+    	<li>First of all, you will need the right software to extract the files from the password protected sources_#########.zip archive. You can use WinZip 9 or a later version (if you have Windows OS) or Stuffit Expander 10 or a later version (if you have Mac OS).</li>
     	<li>You might also need Adobe Photoshop. It is used to edit the source .PSD files in case you need to change the graphic design and images of the template.</li>
     	<li>To edit the template source code, you can use code editors like Adobe Dreamweaver, Notepad++, Sublime Text, etc.</li>
-    	<li>To upload files to a hosting server, you will need an FTP manager like Total Commander, FileZilla, CuteFTP, etc.</li>
+    	<li>To upload the files to a hosting server, you will need an FTP manager like Total Commander, FileZilla, CuteFTP, etc.</li>
     </ol>
 
     	<h4>Hosting</h4>

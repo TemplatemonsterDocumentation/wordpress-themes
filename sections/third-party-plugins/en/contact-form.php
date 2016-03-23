@@ -5,17 +5,17 @@
 
 <h4>Displaying a Form</h4>
 
-<p>Let’s start with displaying a form on your page. First, open the <strong>'Contact -> Contact Forms'</strong> menu in your WordPress administration panel.</p> 
+<p>Let’s start with displaying a contact form on your page. First, open the <strong>'Contact -> Contact Forms'</strong> menu in your WordPress administration panel.</p> 
 <p>You can manage multiple contact forms there.</p>
 <figure class="img-polaroid">
-    <img alt="" src="img/cherryframework/third-party-plugins/contact-form-0.png">
+    <img alt="" src="img/third-party-plugins/contact-form-0.png">
 </figure>
 
 
-<p>Just after installing the Contact Form 7 plugin, you’ll see a default form named <strong>“Contact form 1″</strong> and a code like this:</p>
+<p>Just after installing the Contact Form 7 plugin, you’ll see a default form named <strong>“Contact form 1″</strong> and a code that will look  like this:</p>
 <pre class="prettyprint">[contact-form-7 id="1234" title="Contact form 1"]</pre>
 
-<p>Copy this code. Then open the edit menu (<strong>'Pages -> Edit'</strong>) of the page where you wish to place the contact form. A popular practice is creating a page named 'Contact' for the contact form page. Paste the code you copied into the contents of the page.</p>
+<p>Copy this code. Then open "Edit menu" (<strong>'Pages -> Edit'</strong>) of the page where you wish to place the contact form. A popular practice is creating a page named 'Contact' for the contact form page. Paste the code you've copied into the contents of the page.</p>
 
 <p>Now your contact form setup is complete. Your site visitors can now find the form and start submitting messages to you.</p>
 
@@ -26,13 +26,13 @@
 
 <p>Shortcode for this contact form (<strong>2</strong>). Copy this code and paste it into your post, page or text widget where you want to place this contact form.</p>
 <figure class="img-polaroid">
-    <img alt="" src="img/cherryframework/third-party-plugins/contact-form-1.png">
+    <img alt="" src="img/third-party-plugins/contact-form-1.png">
 </figure>
 
 
 <h5>Form Tab</h5>
 
-<p>Form editing field (<strong>4</strong>). You can customize form content here using HTML and <a href="http://contactform7.com/tag-syntax/#form_tag" target="_blank">form-tags</a>. Line breaks and blank lines in this field are automatically formatted with &lt;br/&gt; and &lt;p&gt; HTML tags.</p>
+<p>Form editing field (<strong>4</strong>). You can customize form content in this section using HTML and <a href="http://contactform7.com/tag-syntax/#form_tag" target="_blank">form-tags</a>. Line breaks and blank lines in this field are automatically formatted with &lt;br/&gt; and &lt;p&gt; HTML tags.</p>
 
 <p>Tag generators (<strong>3</strong>). By using these tag generators, you can generate form-tags without knowledge of them.</p>
 

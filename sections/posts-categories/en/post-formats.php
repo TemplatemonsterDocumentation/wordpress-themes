@@ -35,7 +35,7 @@
 <h4 id="post_format_aside">Aside</h4>
 
 <p>
-    Aside is a simplified standard post format. In other words there is only a content field, so you don't need to enter
+    Aside is a simplified standard post format. In other words there is only a content field, so you don't need to enter the
     title and other options.
 </p>
 
@@ -77,7 +77,7 @@
 
 <h4 id="post_format_gallery">Gallery</h4>
 
-<p>The main feature of this post format is the possibility to add an unlimited number of images.</p>
+<p>The main feature of this post format is the ability to add an unlimited number of images.</p>
 
 <figure class="img-polaroid"><img src="img/wordpress/gallery_post_type.jpg" alt=""></figure>
 
@@ -91,15 +91,15 @@
 
 <figure class="img-polaroid"><img src="img/wordpress/insert-media.png" alt=""></figure>
 
-<p>After images are uploaded, you can find them in Media Library. Click <strong>Uploaded to this post</strong> to
+<p>After the images are uploaded, you can find them in Media Library. Click <strong>Uploaded to this post</strong> to
    view the images.</p>
 
 <figure class="img-polaroid"><img src="img/wordpress/uploaded-images.png" alt=""></figure>
 
-<p>After editing you can close the media library. Uploaded images will be added automatically.</p>
+<p>After editing close the media library. The uploaded images will be added automatically.</p>
 
 
-<p>Gallery post format has the same fields that the standard post format has (e.g. title, content, category, etc).</p>
+<p>Gallery post format has the same fields that the standard post format (e.g. title, content, category, etc).</p>
 
 
 <h4 id="post_format_image">Image</h4>

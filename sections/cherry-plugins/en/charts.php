@@ -11,12 +11,12 @@
 </p>
 
 <p>
-    Click <b>"Charts > Add New Chart"</b> to create a new diagram. Enter title and required settings on the chart page.
+    Click <b>"Charts > Add New Chart"</b> to create a new diagram. Enter the title and required settings on the chart page.
 </p>
 
 <p>
     Four types of diagrams are available: progress bar, pie, doughnut, bar. You can choose the one you need by clicking
-    <b>Chart type</b>. Diagram settings depend on the diagram type you have chosen. Let's take a closer look at each
+    <b>"Chart type"</b>. Diagram settings depend on the diagram type you have chosen. Let's take a closer look at each
     one.
 </p>
 
@@ -82,7 +82,7 @@
 <h4>Pie and doughnut</h4>
 
 <h5>Chart settings</h5>
-<p>Pie and doughnut has these settings:</p>
+<p>Pie and doughnut has the following settings:</p>
 
 <ul>
     <li><b>Width</b> - diagram width.</li>
@@ -108,7 +108,7 @@
 
 <h4>Bar</h4>
 
-<p>Bar diagram settings match pie and doughnut settings (check description above). The only difference is the diagram
+<p>Bar diagram settings match with pie and doughnut settings (check description above). The only difference is the diagram
    data table.</p>
 
 <h5>Chart data</h5>
@@ -121,7 +121,7 @@
 
 <h4>Chart Style</h4>
 
-<p>In this section you can set up the color formatting of the diagram. You can change elements, background colors and
+<p>In this section you can set up the color formatting of the diagram. You can change the elements, background colors.
    opacity, thickness and color of lines. </p>
 
 <figure class="img-polaroid">
@@ -131,7 +131,7 @@
 
 <h4>Chart Shortcode</h4>
 
-<p>After you are done with the chart settings, you can embed it into post or page content using a shortcode.</p>
+<p>After you are done with the chart settings, you can embed it into the post or page content using a shortcode.</p>
 
 <figure class="img-polaroid">
     <img src="img/cherryframework/plugins/charts_shortcode.jpg" alt="" style="opacity: 1;">

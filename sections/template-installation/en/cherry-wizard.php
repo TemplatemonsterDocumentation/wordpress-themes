@@ -14,7 +14,7 @@
 <figure class="img-polaroid">
 	<img src="img/wordpress/1Activate.png" alt="">
 </figure>
-<p>Click <strong>Activate</strong> under the "Cherry Wizard" plugin. Click <b>Begin installation</b> in the notification box that has appeared. </p>
+<p>Click <strong>Activate</strong> under the "Cherry Wizard" plugin. Click <b>Begin installation</b> in the popup notification box. </p>
 
 <figure class="img-polaroid">
 	<img src="img/wordpress/1License_input.png" alt="">
@@ -22,11 +22,11 @@
 <ol class="index-list">
 	<li>Enter the name of the theme in the <strong>Theme Name</strong> field.</li>
 	<li>Enter the activation key in the <strong>Activation key</strong> field.</li>
-	<li>If you did not purchase the theme, you can choose <strong><u>try a Demo theme</u></strong> to test the demo theme.</li>
+	<li>If you did not purchase the theme, you can choose <strong><u>try a Demo theme</u></strong> to get a clear picture of the product.</li>
 </ol>
 
 <h4>Downloading and installing framework and plugins</h4>
-<p>Cherry Wizard will automatically install all required plugins. In case there are incompatibilities with server recommended settings, you will see the following notification:</p>
+<p>Cherry Wizard will automatically install all the required plugins. In case there are incompatibilities with server recommended settings, you will see the following notification:</p>
 <figure class="img-polaroid"><img src="img/wordpress/1warning_notice.png" alt=""></figure>
 <p>This message shows your current hosting server settings and recommended ones. Please contact your hosting to make your server compatible with Cherry Plugins. </p>
 <p>You can check the installation details of each plugin and component during the installation process.</p>
@@ -34,7 +34,7 @@
 <p>When the installation is complete, you will be automatically redirected to the next step.</p>
 
 <h4>Downloading and installing the theme files </h4>
-<p>The next step can be the sample data installation. Sample data is a set of demo content that will make your theme appear as on the preview page. It can be installed from the cloud, the local computer or you can skip this step.</p>
+<p>The next step is the sample data installation. Sample data is a set of demo content that will make your theme appear as on the preview page. It can be installed from the cloud, local computer or you can skip this step.</p>
 <figure class="img-polaroid"><img src="img/wordpress/1sample-data-step.png" alt=""></figure>
 <p>If you choose installation from cloud, the installation process will begin.</p>
 <figure class="img-polaroid"><img src="img/wordpress/1sample-media.png" alt=""></figure>
