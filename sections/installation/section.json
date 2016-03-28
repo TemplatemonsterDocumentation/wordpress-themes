@@ -2,7 +2,7 @@
 	"id":"installation",
 	"translations":
 	{
-		"en":"Installation",
+		"en":"Template Installation",
 		"ru":"Установка"
 	},
 	"articles":
@@ -35,12 +35,6 @@
 				"ru":"Как обновить Monstroid"
 			}
 		}
-		,{
-			"id":"change-log",
-			"translations":{
-				"en":"Monstroid change log",
-				"ru":"Журнал изменений Monstroid"
-			}
-		}
+
 	]
 }

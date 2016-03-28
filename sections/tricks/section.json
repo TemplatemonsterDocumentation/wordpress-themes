@@ -1,0 +1,30 @@
+{
+	"id": "tricks",
+	"translations": {
+		"en": "Tricks",
+		"ru": "Полезные приемы"
+	},
+	"articles":  [
+			{
+				"id": "icon-tricks",
+				"translations": {
+					"en": "Icon tricks",
+					"ru": "Полезные приемы для иконок"
+				}
+			},
+			{
+				"id": "appearance-tricks",
+				"translations": {
+					"en": "Apperance tricks",
+					"ru": "Полезные приемы для оформления"
+				}
+			},
+			{
+				"id": "wizard-tricks",
+				"translations": {
+					"en": "Wizard tricks",
+					"ru": "Полезные приемы для установщика"
+				}
+			}
+		]
+	}

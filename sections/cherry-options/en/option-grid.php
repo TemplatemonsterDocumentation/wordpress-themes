@@ -7,7 +7,7 @@
         <dl class="inline-term">
             <dt>Responsive grid</dt>
             <dd>
-                Enable/disable responsive grid. If for any reason you want to disable responsive layout for your site,
+                Enable/disable responsive grid. If for any reason you want to disable the responsive layout for your site,
                 you
                 are able to turn it off here.
             </dd>
@@ -17,7 +17,7 @@
         <dl class="inline-term">
             <dt>Container width</dt>
             <dd>
-                The width of main website container in pixels.
+                 Width of the main website container in pixels.
             </dd>
         </dl>
     </li>
@@ -34,7 +34,7 @@
         <dl class="inline-term">
             <dt>Pages</dt>
             <dd>
-                You can choose if you want to display sidebars and how you want to display them.
+                Choose the way you want to display the pages.
             </dd>
         </dl>
     </li>
@@ -42,7 +42,7 @@
         <dl class="inline-term">
             <dt>Blog posts</dt>
             <dd>
-                You can choose if you want to display sidebars and how you want to display them.
+                Choose the way you want to display the blog posts.
             </dd>
         </dl>
     </li>

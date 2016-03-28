@@ -11,7 +11,7 @@
     <li>Navigate to Pages and click Add New</li>
     <li>Input a new name for your page, then find the Page Attributes box on the right side</li>
     <li>Set your Parent page; it’s usually set to No Parent</li>
-    <li>Set your template from the dropdown list. See list of page templates below</li>
+    <li>Set your template from the dropdown list. See the list of page templates below</li>
     <li>Post Sidebars</li>
     <li>Config Page Setting</li>
     <li>Grid Options</li>

@@ -8,8 +8,8 @@
         <dl class="inline-term">
             <dt>Header background</dt>
             <dd>
-                Header background settings. You can select background color, upload header background image, set
-                itsbackground
+                Header background settings. You can select the background color, upload the header background image, set
+                the background
                 position, attachment and repeat.
             </dd>
         </dl>
@@ -19,8 +19,8 @@
         <dl class="inline-term">
             <dt>Grid type</dt>
             <dd>
-                Select the layout pattern for the website header. Wide layout will fit window width. Boxed layout will
-                havefixed
+                Select the layout pattern for the website header. Wide layout will fit the window width. Boxed layout will
+                have fixed
                 width.
             </dd>
         </dl>
@@ -30,7 +30,7 @@
         <dl class="inline-term">
             <dt>Boxed width</dt>
             <dd>
-                Header section width if boxed layout is active. Should not be more than the Grid -> Container width
+                Header section width if boxed layout is active, should not be more than the Grid -> Container width
                 value.
             </dd>
         </dl>
@@ -49,7 +49,7 @@
         <dl class="inline-term">
             <dt>Sticky selector</dt>
             <dd>
-                Select the block selector that will be used to build sticky panel. You can use tag name, class name or id.
+                Select the block selector that will be used to build a sticky panel. You can use tag name, class name or id.
             </dd>
         </dl>
     </li>
@@ -69,9 +69,9 @@
         <dl class="inline-term">
             <dt>Logo type</dt>
             <dd>
-                Select whether you want your main logo to be an image or text. If you select 'image,' you can choose a
+                Select whether you want your main logo to be an image or text. If you select "image", you can choose a
                 logo
-                image from the media library in the next option, and if you select 'text,' your WordPress Site Title
+                image from the media library in the next option, and if you select "text", your WordPress Site Title
                 will be
                 shown instead.
             </dd>

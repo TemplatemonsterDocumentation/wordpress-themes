@@ -20,7 +20,7 @@
     <li>Enter your categories in the “Product Categories” box and enter your tags in the
         “Product Tags” box.
     </li>
-    <li>When all your data is entered, click “Publish” and the item will now show on your main
-        shop page.
+    <li>When all your data is entered, click “Publish” and the item will now show on your
+        shop homepage.
     </li>
 </ul>

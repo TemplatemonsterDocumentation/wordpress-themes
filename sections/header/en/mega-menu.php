@@ -1,6 +1,6 @@
 <h3>Using the mega menu</h3>
 
-<p>This plugin allows you to create multi-column menu drop-downs. It also lets you display necessary information in the
+<p>This plugin allows you to create multi-column menu drop-downs. It also allows you to display necessary information in the
    main menu.</p>
 
 <figure class="img-polaroid">
@@ -8,7 +8,7 @@
 </figure>
 
 <p>After the plugin is installed and activated, you can navigate to "Appearance > Menus" in the WordPress dashboard.
-   Hover over the menu tab and click the Mega Menu icon. </p>
+   Hover on the menu tab and click the Mega Menu icon. </p>
 
 <figure class="img-polaroid">
     <img src="img/cherryframework/plugins/megamenu_step1.jpg" alt="">
@@ -21,7 +21,7 @@
 
 <h4>Mega Menu</h4>
 
-<p>You can place necessary widgets in the drop down block of the current menu item in the Mega Menu section. Each widget
+<p>You can place the necessary widgets in the drop down block of the current menu item in the Mega Menu section. Each widget
    can have its own width and height.</p>
 
 <figure class="img-polaroid">

@@ -19,6 +19,15 @@
             </dd>
         </dl>
     </li>
+    
+    <li>
+        <dl class="inline-term">
+            <dt>Mega menu caching enabled</dt>
+            <dd>
+                Enable / Disable caching of mega menu navigation. 
+            </dd>
+        </dl>
+    </li>
 </ul>
 
 

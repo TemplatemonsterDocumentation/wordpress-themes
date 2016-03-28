@@ -13,7 +13,7 @@
 </figure>
 
 <p>After the plugin is installed and activated, you can navigate to "Appearance > Menus" in the WordPress dashboard.
-   Hover over the menu tab and click the Mega Menu icon. </p>
+   Hover over the menu tab and click the "Mega Menu" tab. </p>
 
 <figure class="img-polaroid">
     <img src="img/cherryframework/plugins/megamenu_step1.jpg" alt="" style="opacity: 1;"><i
@@ -27,7 +27,7 @@
 
 <h4>Mega Menu</h4>
 
-<p>You can place necessary widgets in the drop down block of the current menu item in the Mega Menu section. Each widget
+<p>You can place the necessary widgets in the drop down block of the current menu item in the Mega Menu section. Each widget
    can have its own width and height.</p>
 
 <figure class="img-polaroid">
@@ -38,9 +38,9 @@
 
 <h4>Settings</h4>
 
-<p>Here you can find menu item settings. </p>
+<p>Here you can find the menu item settings. </p>
 
-<p>A menu item has the following settings: </p>
+<p>The menu item has the following settings: </p>
 <ul class="marked-list">
     <li><b>Group sub items to columns</b> - group sub-menu items into columns</li>
     <li><b>Columns number</b> - number of columns in megamenu</li>

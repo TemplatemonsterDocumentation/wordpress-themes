@@ -1,7 +1,7 @@
 
     <h3>WordPress installation</h3>
 
-    <p>Download the required WordPress version. You can check which release is required on the template preview page in
+    <p>Download the required WordPress version. You can check which version is recommended on the template preview page in
        the requirements list. Make sure you download the correct version.</p>
 
     <p>
@@ -12,12 +12,12 @@
         . If you need another release, follow this link:
         <a href="http://WordPress.org/download/release-archive/" target="_blank">
             <strong>WordPress versions archive</strong></a>
-        . Once the platform is downloaded, you'll need to unpack files. You can use any file archiver that support ZIP
+        . Once the platform is downloaded, you'll need to unpack the files. You can use any file archiver tool that support ZIP
         format to unpack the <strong>ZIP</strong> file.
     </p>
 
     <p>
-        These tutorials will show you how to unpack archived file, if you have
+        These tutorials will show you how to unpack the archived file, if you have
         <a target="_blank" href="http://info.template-help.com/help/unzipping-your-template.html">
             <strong>Windows OS (using WinZip)</strong>
         </a>
@@ -73,18 +73,18 @@
     </div>
 
     <p>
-        You can also take a look at these tutorials that contain detailed information on how to upload files to a
+        You can also take a look at these tutorials that contain detailed information on how to upload the files to a
         hosting server:
     </p>
 
     <ul class="marked-list">
         <li>
             <a target="_blank" href="http://info.template-help.com/help/how-upload-files-server-2.html">
-                How to upload files to server
+                How to upload the files to server
             </a>
         <li>
             <a target="_blank" href="http://info.template-help.com/help/how-to-upload-files-to-a-server-using-cpanel-webhost-manager-whm.html">
-                How to upload files to server using cPanel (WebHost Manager, WHM)
+                How to upload the files to server using cPanel (WebHost Manager, WHM)
             </a>
         </li>
     </ul>
@@ -94,7 +94,7 @@
     </p>
 
     <p>
-        You can create it using the database management tool in the hosting cpanel (<em>usually it is PhpMyAdmin</em>).
+        You can create it using the database management tool in the hosting cpanel (<em>as arule it is PhpMyAdmin</em>).
         With the help of phpMyAdmin you can create a new database in 3 simple steps (check the slides below):
     </p>
 
@@ -119,7 +119,7 @@
         </li>
     </ol>
 
-    <p>You will see the new database in the list now. Click on its name to access it.</p>
+    <p>You will see the new database in the list now. Click on the title to access it.</p>
 
     <p class="alert alert-info">If you face any difficulties while creating the database, contact your hosting provider
                                 for tech support.</p>
@@ -160,6 +160,10 @@
     <h4>
         Database details.
     </h4>
+
+    <div class="alert alert-info">
+        Please note that the prefix of WordPress database tables should be <strong>wp_</strong>.
+    </div>
 
     <p>
         You need to enter the WordPress database connection details here.

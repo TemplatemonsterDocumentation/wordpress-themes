@@ -17,7 +17,7 @@
 </p>
 
 <ol class="index-list">
-    <li>Fill out all necessary fields (<strong>title</strong>, <strong>content</strong>).</li>
+    <li>Fill in all necessary fields (<strong>title</strong>, <strong>content</strong>).</li>
     <li>Upload an image using the <strong>Featured Image</strong> option (click<strong> Set featured image</strong>).
     </li>
     <li>Click<strong> Publish</strong>.</li>
@@ -40,14 +40,14 @@
     <li>
         <dl class="inline-term">
             <dt>Slideshow</dt>
-            <dd>gallery project is displayed in a slideshow. This gallery post type can contain unlimited number of images.</dd>
+            <dd>gallery project is displayed in a slideshow. This gallery post type can contain an unlimited number of images.</dd>
         </dl>
 
     </li>
     <li>
         <dl class="inline-term">
             <dt>Gallery</dt>
-            <dd>post images are displayed in a grid gallery. This gallery post type can contain unlimited images.</dd>
+            <dd>post images are displayed in a grid gallery. This gallery post type can contain unlimited number of images.</dd>
         </dl>
         <figure class="img-polaroid"><img src="img/wordpress/portfolio_post_type_format_gallery.png" alt=""></figure>
     </li>

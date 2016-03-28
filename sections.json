@@ -1,18 +1,18 @@
 [
 	"general-info",
 	"installation",
-	"posts-categories",
 	"header",
+	"footer",
 	"pages",
-	"blog",
 	"portfolio",
+	"blog",
 	"shop",
-	"styling-options",
+	"posts-categories",
 	"cherry-options",
 	"static-area-builder",
-	"cherry-plugins",
 	"shortcodes",
-	"footer",
+	"cherry-plugins",
 	"third-party-plugins",
-	"extras"
+	"extras",
+	"tricks"
 ]

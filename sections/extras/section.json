@@ -41,6 +41,13 @@
 				"en":"License FAQs",
 				"ru":"License FAQs"
 			}
-		}		
+		},
+		{
+			"id": "change-log",
+			"translations": {
+				"en": "Monstroid change log",
+				"ru": "Журнал изменений Monstroid"
+			}
+		}
 	]
 }

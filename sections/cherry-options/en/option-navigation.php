@@ -1,5 +1,5 @@
 <h3>Navigation</h3>
-<p>Define website navigation settings. Menus typography and colors, pagination and breadcrumbs settings. </p>
+<p>Define the website navigation settings. Menus typography and colors, pagination and breadcrumbs settings. </p>
 
 <ul class="marked-list">
     <li>
@@ -34,6 +34,9 @@
         class="icon-search"></i><span></span>
 </figure>
 
+<div class="alert alert-info">
+    To finding out, how to disable/enable arrows markup, please visit our <a href="http://info.template-help.com/help/monstroid-how-to-disableenable-arrows-markup.html#prettyPhoto/0/" target="blank">video tutorial</a>
+</div>
 
 <h4>Pagination</h4>
 
@@ -98,7 +101,7 @@
         <dl class="inline-term">
             <dt>End size</dt>
             <dd>
-                How many numbers to display on either the start or the end list edges.
+                How many pages to display on either the start or the end list edges.
             </dd>
         </dl>
     </li>
@@ -107,7 +110,7 @@
         <dl class="inline-term">
             <dt>Mid size</dt>
             <dd>
-                How many numbers to display to either side of the current page, but not including the current page.
+                How many pages to display to either side of the current page, but not including the current page.
             </dd>
         </dl>
     </li>

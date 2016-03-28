@@ -68,11 +68,40 @@
     <li><strong>class:</strong> – shortcode custom class</li>
 </ul>
 
-<pre
-    class="prettyprint">[cherry_counter counter_value="100.00" delay="10" time="1000" custom_class="counter-class"]</pre>
+<pre class="prettyprint">[cherry_counter counter_value="100.00" delay="10" time="1000" custom_class="counter-class"]</pre>
 
 <figure class="img-polaroid">
     <img alt="" src="img/wordpress/shortcode_counter.png">
+</figure>
+
+<h4>Countdown</h4>
+
+<p>Displays animated countdown counters</p>
+
+<ul class="marked-list">
+    <li><strong>start date:</strong> – to insert shortcode date</li>
+    <li><strong>countdown date:</strong> – to select countdown date</li>
+    <li><strong>countdown hours:</strong> – to select countdown hours</li>
+    <li><strong>countdown minutes:</strong> – to select countdown minutes</li>
+    <li><strong>countdown seconds:</strong> – to select countdown seconds</li>
+    <li><strong>circle mode:</strong> – if true, then show circle progress</li>
+    <li><strong>show year:</strong> – if true, then show the year counter</li>
+    <li><strong>show month:</strong> – if true, then show the month counter</li>
+    <li><strong>show week:</strong> – if true, then show the week counter</li>
+    <li><strong>show day:</strong> – if true, then show the day counter</li>
+    <li><strong>show hour:</strong> – if true, then show the hours counter</li>
+    <li><strong>show minute:</strong> – if true, then show the minute counter</li>
+    <li><strong>show second:</strong> – if true, then show the second counter</li>
+    <li><strong>countdown item size:</strong> – item container size(px)</li>
+    <li><strong>stroke width:</strong> – stroke width(px)</li>
+    <li><strong>stroke color:</strong> – select stroke color</li>
+    <li><strong>class:</strong> – shortcode custom class</li>
+</ul>
+
+<pre class="prettyprint">[cherry_countdown countdown_date="26/11/2015" countdown_hour="1" countdown_minutes="1" countdown_seconds="1" circle_mode="no" show_year="no" show_month="no" show_week="no" show_day="no" item_size="200" stroke_width="6" stroke_color="#dd8282"]</pre>
+
+<figure class="img-polaroid">
+    <img alt="" src="img/wordpress/shortcode_countdown.png">
 </figure>
 
 

@@ -1,7 +1,7 @@
 <h3>Assigning the blog page</h3>
 
 <p>
-    The first blog method we will cover is the standard WordPress method, setting up an assigned blog or “post” page.
+    The first method we will cover is the standard WordPress method, setting up an assigned blog or “post” page.
     It’s as simple as making a new page, and then telling WordPress to use that page as the post page.
 </p>
 
@@ -15,7 +15,7 @@
     </li>
     <li>Select the Default page template from the dropdown list.</li>
     <li>Select any number of page options in the Page Options Box.</li>
-    <li>Click Publish to save the page.</li>
+    <li>Click "Publish" to save the page.</li>
     <li>To set the page as your posts page, navigate to Settings > Reading and select your
         blog page name for the Posts Page. Doing this will automatically pull your blog posts
         and place them on the page.

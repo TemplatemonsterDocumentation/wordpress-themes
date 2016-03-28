@@ -1,4 +1,4 @@
-<h2>General info</h2>
+<h2>Introduction</h2>
 
 <h5>Thank you for purchasing a Monstroid Wordpress Premium Theme. This documentation consists of several parts and
     covers the entire process of installing and setting up a WordPress website starting from scratch.</h5>
@@ -8,17 +8,17 @@
 
     <p>WordPress is a free open-source blogging tool and content management system (CMS) based on PHP and MySQL. With
        its help you can create and administrate websites or powerful on-line applications without possessing any special
-       technical skills or knowledge. Due to its ease of use and flexibility WordPress has become the most popular
+       technical skills or knowledge. Thanks to a splendid performance and flexibility, WordPress has become the most popular
        platform for website development.
         <a href="http://wordpress.org/about/" target="_blank">Learn More</a>
     </p>
 </article>
 
 <article id="whatismonstroid">
-    <h3>What is Monstroid Premium Theme</h3>
+    <h3>What is Monstroid Premium Theme?</h3>
 
     <p>Monstroid is a design tool that helps you build a website with any possible content, style and complexity without
-       the need to write a single line of code. Due to the inbuilt visual content editor anyone can build website of any
+       the need to write a single line of code. Due to the inbuilt visual content editor anyone can design a professional website of any
        level of complexity not even getting sweaty. Using this multi-purpose theme, you can build a website of any kind,
        business niche or style. Whether you are a pro or non-tech savvy, the whole process won’t take much of your time
        due to a rich set of developer-oriented features, multiple extensions and shortcodes. </p>
@@ -29,120 +29,196 @@
 
     <p>The template package includes several folders. Let's check what's inside:</p>
 
-    <ul class="files_structure">
-        <li>
-            <dl class="inline-term">
-                <dt><i class="fa fa-folder"></i> <strong>theme</strong></dt>
-                <dd> contains WordPress theme files.</dd>
-            </dl>
-            <ul>
-                <li>
-                    <dl class="inline-term">
-                        <dt><i class="fa fa-file"></i> <strong>CherryFramework.zip</strong></dt>
-                        <dd>
-                            archive with the Cherry Framework theme. Contains all theme files. It must
-                            be installed through WordPress extension manager.
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl class="inline-term">
-                        <dt>
-                            <i class="fa fa-file"></i> <strong>theme####.zip</strong>
-                        </dt>
-                        <dd>
-                            archive with the theme (child theme). Contains all theme files.
-                            It must be installed through WordPress extension manager.
-                        </dd>
-                    </dl>
-                </li>
-                <li>
-                    <dl class="inline-term">
-                        <dt>
-                            <i class="fa fa-folder"></i> <strong>sample_data</strong>
-                        </dt>
-                        <dd>
-                            contains the files that make the WordPress website look like our live
-                            demo.
-                        </dd>
-                    </dl>
-
-                    <ul>
-                        <li>
-                            <dl class="inline-term">
-                                <dt>
-                                    <i class="fa fa-file"></i> <strong>sample_data.xml</strong>
-                                </dt>
+<ul class="files_structure">
+    <li>
+        <dl class="inline-term">
+            <dt><i class="fa fa-folder"></i> <strong>documentation</strong></dt>
+            <dd> contains documentation.</dd>
+        </dl>
+        <ul>
+            <li>
+                <dl class="inline-term">
+                    <dt><i class="fa fa-file"></i> <strong>documentation.html</strong></dt>
+                    <dd>the main documentation file that you are reading at the moment :)</dd>
+                </dl>
+            </li>                       
+        </ul>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt><i class="fa fa-folder"></i> <strong>manual_install</strong></dt>
+            <dd> contains files that make the WordPress website look like our live demo.</dd>
+        </dl>
+        <ul>
+            <li>
+                <ul>
+                    <li>
+                        <dl class="inline-term">
+                            <dt><i class="fa fa-folder"></i> <strong>plugins</strong></dt>
                                 <dd>
-                                    contains all template sample data (posts, pages, categories, etc).
+                                    contains all Monstroid plugins.
                                 </dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl class="inline-term">
-                                <dt>
-                                    <i class="fa fa-file"></i> <strong>widgets.json</strong>
-                                </dt>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl class="inline-term">
+                            <dt><i class="fa fa-folder"></i> <strong>uploads</strong></dt>
+                                <dd>
+                                    default upload directory.
+                                </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl class="inline-term">
+                            <dt><i class="fa fa-file"></i> <strong>sample_data.sql</strong></dt>
+                                <dd>
+                                    database sql file.
+                                </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt><i class="fa fa-folder"></i> <strong>newsletter</strong></dt>
+            <dd> contains three predesigned newsletter templates.</dd>
+        </dl>
+        <ul>
+            <li>
+                <ul>
+                    <li>
+                        <dl class="inline-term">
+                            <dt><i class="fa fa-folder"></i> <strong>campaignmonitor</strong></dt>
+                                <dd>
+                                    contains fully editable newsletter template for Campaignmonitor. 
+                                </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl class="inline-term">
+                            <dt><i class="fa fa-folder"></i> <strong>mailchimp</strong></dt>
+                                <dd>
+                                    contains fully editable newsletter template for MailChimp.
+                                </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl class="inline-term">
+                            <dt><i class="fa fa-folder"></i> <strong>responsive</strong></dt>
+                                <dd>
+                                    contains responsive newsletter template for Mailchimp.
+                                </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+     <li>
+        <dl class="inline-term">
+            <dt><i class="fa fa-folder"></i> <strong>sample_data</strong></dt>
+                <dd> contains the files that make Monstroid look like on our live demo.</dd>
+        </dl>
+        <ul>
+            <li>
+                <ul>
+                    <li>
+                        <dl class="inline-term">
+                            <dt><i class="fa fa-file"></i> <strong>lato.css</strong></dt>
+                                <dd>
+                                    css file with fonts.
+                                </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl class="inline-term">
+                            <dt><i class="fa fa-folder"></i> <strong>options.json</strong></dt>
+                                <dd>
+                                    json file with options.
+                                </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl class="inline-term">
+                            <dt><i class="fa fa-file"></i> <strong>rewrite-ids.json</strong></dt>
+                                <dd>
+                                    contains the ids of all elements of the theme before export.
+                                </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl class="inline-term">
+                            <dt><i class="fa fa-file"></i> <strong>tables.json</strong></dt>
+                                <dd>
+                                    contains tables settings.
+                                </dd>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl class="inline-term">
+                            <dt><i class="fa fa-file"></i> <strong>widgets.json</strong></dt>
                                 <dd>
                                     contains widgets settings.
                                 </dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl class="inline-term">
-                                <dt>
-                                    <i class="fa fa-file"></i> <strong>various images and media files</strong>.
-                                </dt>
-                            </dl>
-                        </li>
-                    </ul>
-                </li>
-                <li class="folder">
-                    <dl class="inline-term">
-                        <dt>
-                            <i class="fa fa-folder"></i> <strong>manual_install</strong>
-                        </dt>
-                        <dd>
-                            contains files that make the WordPress website look like our live demo.
-                        </dd>
-                    </dl>
-
-                    <ul>
-                        <li>
-                            <dl class="inline-term">
-                                <dt>
-                                    <i class="fa fa-folder"></i> <strong>uploads</strong>
-                                </dt>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl class="inline-term">
+                            <dt><i class="fa fa-file"></i> <strong>sample_data.xml</strong></dt>
                                 <dd>
-                                    contains theme images.
+                                    contains all template sample data (posts, pages, categories, etc).
                                 </dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl class="inline-term">
-                                <dt>
-                                    <i class="fa fa-file"></i> <strong>theme#####.sql</strong>
-                                </dt>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl class="inline-term">
+                            <dt><i class="fa fa-folder"></i> <strong>templates.zip</strong></dt>
                                 <dd>
-                                    database file (contains theme content).
+                                    contains shortcodes for various elements of the theme.
                                 </dd>
-                            </dl>
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </li>
-    </ul>
+                        </dl>
+                    </li>
+                    <li>
+                        <dl class="inline-term">
+                            <dt><i class="fa fa-folder"></i> <strong>cherry-style-switcher.zip</strong></dt>
+                                <dd>
+                                    contains shortcodes for various elements of the theme.
+                                </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt><i class="fa fa-folder"></i> <strong>cherryframework4.zip</strong></dt>
+                <dd>
+                    archive with the Cherry Framework theme. Contains all theme files.
+                </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt><i class="fa fa-folder"></i> <strong>theme55555.zip</strong></dt>
+                <dd>
+                   archive with the theme . Contains all theme files.
+                </dd>
+        </dl>
+    </li>
+</ul>        
 </article>
 
 <article id="preparation">
     <h3>Preparation</h3>
-    <h6>Before installing a WordPress website, you need to get fully prepared. We recommend that you get the following
+    <h6>Before installing Monstroid, you need to get fully prepared. We recommend that you get the following
         aspects covered:</h6>
 
     <h4>Software</h4>
 
-    <p>Before you even start working with the WordPress template, you should download the required software. You can
+    <p>Before you start working with Monstroid template, you should download the required software. You can
        check the required software on the template preview page.
     </p>
 

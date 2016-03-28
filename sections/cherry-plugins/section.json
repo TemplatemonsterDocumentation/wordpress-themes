@@ -1,116 +1,149 @@
-{	
-	"id":"cherry-plugins",
-	"translations":
-	{
-		"en":"Cherry Plugins",
-		"ru":"Плагины Cherry"
+{
+	"id": "cherry-plugins",
+	"translations": {
+		"en": "Cherry Plugins",
+		"ru": "Плагины Cherry"
 	},
-	"articles":
-	[				
-		{
-			"id":"shortcodes-templater",
-			"translations":{
-				"en":"Cherry Shortcodes Templater",
-				"ru":"Cherry Shortcodes Templater"
+	"articles": [
+			{
+				"id": "shortcodes-templater",
+				"translations": {
+					"en": "Cherry Shortcodes Templater",
+					"ru": "Cherry Shortcodes Templater"
+				}
+			},
+			{
+				"id": "shortcodes",
+				"translations": {
+					"en": "Cherry Shortcodes",
+					"ru": "Cherry Shortcodes"
+				}
+			},
+			{
+				"id": "blog-layouts",
+				"translations": {
+					"en": "Cherry Blog Layouts",
+					"ru": "Cherry Blog Layouts"
+				}
+			},
+			{
+				"id": "services",
+				"translations": {
+					"en": "Cherry Services",
+					"ru": "Cherry Services"
+				}
+			},
+			{
+				"id": "charts",
+				"translations": {
+					"en": "Cherry Charts",
+					"ru": "Cherry Charts"
+				}
+			},
+			{
+				"id": "data-manager",
+				"translations": {
+					"en": "Cherry Data Manager",
+					"ru": "Cherry Data Manager"
+				}
+			},
+			{
+				"id": "team",
+				"translations": {
+					"en": "Cherry Team",
+					"ru": "Cherry Team"
+				}
+			},
+			{
+				"id": "testimonials",
+				"translations": {
+					"en": "Cherry Testimonials",
+					"ru": "Cherry Testimonials"
+				}
+			},
+			{
+				"id": "portfolio",
+				"translations": {
+					"en": "Cherry Portfolio Plugin",
+					"ru": "Cherry Portfolio Plugin"
+				}
+			},
+			{
+				"id": "megamenu",
+				"translations": {
+					"en": "Cherry Megamenu",
+					"ru": "Cherry Megamenu"
+				}
+			},
+			{
+				"id": "simple-slider",
+				"translations": {
+					"en": "Cherry Simple Slider",
+					"ru": "Cherry Simple Slider"
+				}
+			},
+			{
+				"id": "sidebar-manager",
+				"translations": {
+					"en": "Cherry Sidebar Manager",
+					"ru": "Cherry Sidebar Manager"
+				}
+			},
+			{
+				"id": "social",
+				"translations": {
+					"en": "Cherry Social",
+					"ru": "Cherry Social"
+				}
+			},
+			{
+				"id": "grid",
+				"translations": {
+					"en": "Cherry Grid",
+					"ru": "Cherry Grid"
+				}
+			},
+			{
+				"id": "mailer",
+				"translations": {
+					"en": "Cherry Mailer",
+					"ru": "Cherry Mailer"
+				}
+			},
+			{
+				"id": "chat",
+				"translations": {
+					"en": "Cherry Chat",
+					"ru": "Cherry Chat"
+				}
+			},
+			{
+				"id": "rank",
+				"translations": {
+					"en": "Cherry Rank",
+					"ru": "Cherry Rank"
+				}
+			},
+			{
+				"id": "white-label",
+				"translations": {
+					"en": "Cherry White Label",
+					"ru": "Cherry White Label"
+				}
+			},
+			{
+				"id": "monstroid-dashboard",
+				"translations": {
+					"en": "Monstroid dashboard",
+					"ru": "Monstroid dashboard"
+				}
+			},
+			{
+				"id": "style-switcher",
+				"translations": {
+					"en": "Cherry Style Switcher",
+					"ru": "Cherry Style Switcher"
+				}
 			}
-		},		
-		{
-			"id":"shortcodes",
-			"translations":{
-				"en":"Cherry Shortcodes",
-				"ru":"Cherry Shortcodes"
-			}
-		},
-		{
-			"id":"services",
-			"translations":{
-				"en":"Cherry Services",
-				"ru":"Cherry Services"
-			}
-		},		
-		{
-			"id":"charts",
-			"translations":{
-				"en":"Cherry Charts",
-				"ru":"Cherry Charts"
-			}
-		},		
-		{
-			"id":"data-manager",
-			"translations":{
-				"en":"Cherry Data Manager",
-				"ru":"Cherry Data Manager"
-			}
-		},
-		{
-			"id":"team",
-			"translations":{
-				"en":"Cherry Team",
-				"ru":"Cherry Team"
-			}
-		},
-		{
-			"id":"testimonials",
-			"translations":{
-				"en":"Cherry Testimonials",
-				"ru":"Cherry Testimonials"
-			}
-		},
-		{
-			"id":"portfolio",
-			"translations":{
-				"en":"Cherry Portfolio Plugin",
-				"ru":"Cherry Portfolio Plugin"
-			}
-		},
-		{
-			"id":"megamenu",
-			"translations":{
-				"en":"Cherry Megamenu",
-				"ru":"Cherry Megamenu"
-			}
-		},
-		{
-			"id":"simple-slider",
-			"translations":{
-				"en":"Cherry Simple Slider",
-				"ru":"Cherry Simple Slider"
-			}
-		},
-		{
-			"id":"sidebar-manager",
-			"translations":{
-				"en":"Cherry Sidebar Manager",
-				"ru":"Cherry Sidebar Manager"
-			}
-		},
-		{
-			"id":"social",
-			"translations":{
-				"en":"Cherry Social",
-				"ru":"Cherry Social"
-			}
-		},
-		{
-			"id":"grid",
-			"translations":{
-				"en":"Cherry Grid",
-				"ru":"Cherry Grid"
-			}
-		},
-		{
-			"id":"chat",
-			"translations":{
-				"en":"Cherry Chat",
-				"ru":"Cherry Chat"
-			}
-		},		
-		{
-			"id":"white-label",
-			"translations":{
-				"en":"Cherry White Label",
-				"ru":"Cherry White Label"
-			}
-		}	
-	]
-}
+		]
+	}

@@ -1,5 +1,5 @@
 <h2>Installation</h2>
-<p>Monstroid theme installation has never been this quick and easy. The installation process includes 3 steps only: install and work with Monstroid Wizard, chose and install Monstroid or any child theme, sample data installation.</p>
+<p>Monstroid theme installation has never been this quick and easy. The installation process includes 3 steps only: Monstroid Wizard installation, installation of Monstroid or any child theme, sample data installation.</p>
 
 <p>All installation steps can be completed through the WordPress dashboard, which speeds up the whole process.</p>
 

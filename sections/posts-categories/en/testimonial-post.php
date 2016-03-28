@@ -6,7 +6,7 @@
 </p>
 
 <p>
-    As Testimonials posts are a variation of default WordPress post, creating new posts should not be a problem. You can
+    As Testimonials posts are a variation of a default WordPress post, creating new posts should not be a problem. You can
     <a href="http://codex.wordpress.org/Post_Types#Custom_Types"> learn more</a>
     about WordPress custom posts.
 </p>
@@ -14,8 +14,8 @@
 <ol class="index-list">
     <li>Click the <strong>Testimonials</strong> tab.</li>
     <li>Click <strong>Add New</strong>.</li>
-    <li>Fill out all necessary fields (<strong>title</strong>, <strong>content</strong>).</li>
-    <li>Upload image using the <strong>Featured Image</strong> option (click<strong> Set featured image</strong>).</li>
+    <li>Fill out all the required fields (<strong>title</strong>, <strong>content</strong>).</li>
+    <li>Upload the image using the <strong>Featured Image</strong> option (click<strong> Set featured image</strong>).</li>
     <li>You can use the following settings in a testimonials post:
         <ul class="marked-list">
             <li><strong>Name</strong> - author's name</li>

@@ -108,7 +108,7 @@
 
 <h4>Bar</h4>
 
-<p>Bar diagram settings match pie and doughnut settings (check description above). The only difference is the diagram
+<p>Bar diagram settings match with pie and doughnut settings (check description above). The only difference is the diagram
    data table.</p>
 
 <h5>Chart data</h5>
@@ -121,7 +121,7 @@
 
 <h4>Chart Style</h4>
 
-<p>In this section you can set up the color formatting of the diagram. You can change elements, background colors and
+<p>In this section you can set up the color formatting of the diagram. You can change elements, background colors,
    opacity, thickness and color of lines. </p>
 
 <figure class="img-polaroid">
@@ -131,7 +131,7 @@
 
 <h4>Chart Shortcode</h4>
 
-<p>After you are done with the chart settings, you can embed it into post or page content using a shortcode.</p>
+<p>After you are done with the chart settings, you can embed it into the post or page content using a shortcode.</p>
 
 <figure class="img-polaroid">
     <img src="img/cherryframework/plugins/charts_shortcode.jpg" alt="" style="opacity: 1;">

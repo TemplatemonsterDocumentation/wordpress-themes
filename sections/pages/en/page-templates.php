@@ -6,7 +6,7 @@
     <li>
         <dl class="inline-term">
             <dt>Default Template</dt>
-            <dd>this is the default page template that automatically has the sidebar with it.
+            <dd>this is the default page template that comes with sidebar by default.
                 Choose this template for your blog
             </dd>
         </dl>
@@ -19,7 +19,7 @@
     <li>
         <dl class="inline-term">
             <dt>Blog Masonry Layout</dt>
-            <dd> this is the page which displays list of post with the masonry layout</dd>
+            <dd> this is the page which displays list of posts in the masonry layout</dd>
         </dl>
     </li>
     <li>

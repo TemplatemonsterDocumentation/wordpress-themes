@@ -101,11 +101,20 @@
             </dd>
         </dl>
     </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>Webfonts </dt>
+            <dd>
+                Define custom Font style and Character Sets for selected web font. 
+            </dd>
+        </dl>
+    </li>
 </ul>
 
 
 <figure class="img-polaroid">
-    <img src="img/cherryframework/cherry-options_typography.jpg" alt="" style="opacity: 1;"><i
+    <img src="img/cherryframework/cherry-options-typography.png" alt="" style="opacity: 1;"><i
         class="icon-search"></i><span></span>
 </figure>
 

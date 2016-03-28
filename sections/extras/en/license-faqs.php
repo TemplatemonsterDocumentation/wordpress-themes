@@ -37,7 +37,7 @@
 	<ol class="index-list">
         <li>
              <strong>What is a one time usage license?</strong><br>
-              When you buy the template at usual price you automatically get the one time usage license. It enables you to use each individual product on a single website only, belonging to either you or your client. You have to purchase the same template again if you plan to use the same design in connection with another or other projects. When passing files to your client please delete the template files from your computer.
+              When you buy the template at usual price you automatically get the one time usage license. It enables you to use each individual product on a single website only, belonging to either you or your client. You have to purchase the same template again if you plan to use the same design in connection with another or other projects. When transfering the files to your client please delete the template files from your computer.
         </li>
         <li>
              <strong>Can I resell the template as is?</strong><br>
@@ -77,8 +77,8 @@
         </li>
     </ol>
     <h5>Plugins licenses:</h5>
-    <p>The licenses for most software are designed to take away your freedom to share and change it. By contrast, the GNU General Public License is intended to guarantee your freedom to share and change free software — to make sure the software is free for all its users. This General Public License applies to most of the Free Software Foundation’s software and to any other program whose authors commit to using it. (Some other Free Software Foundation software is covered by the GNU Library General Public License instead.) You can apply it to your programs, too.</p>
-    <p>The 100% GPL means others are free to deal with, sell or distribute the item, as long as they follow the requirements of the GPL. </p>
+    <p>The licenses for most software are designed to take away your freedom to share and change it. By contrast, the GNU General Public License is intended to guarantee your freedom to share and change the free software — to make sure the software is free for all users. This General Public License applies to most of the Free Software Foundation’s software and to any other program which authors commit to using it. (Some other Free Software Foundation software is covered by the GNU Library General Public License instead.) You can apply it to your programs, too.</p>
+    <p>The 100% GPL means that users are absolutely free to deal with the products, sell or distribute the item, as long as they follow the requirements of the GPL. </p>
 
     <ul class="marked-list">
         <li>MotoPress Content Editor is released under the GPLv2 license</li>
@@ -96,22 +96,22 @@
     <ol class="index-list">
         <li>
             <strong>Frequently Asked Questions</strong><br>
-            We recommend you to review our Frequently Asked Questions whether you’ve already purchased a template or just planning to do so.<br>
+            We recommend you to review our Frequently Asked Questions whether you’ve already purchased a template or just planning to.<br>
             <a href="http://www.templatemonster.com/faq.php" target="_blank">Go to FAQ</a>
         </li>
         <li>
             <strong>Terms of Use</strong><br>
-            Please read carefully this section because it contains the information on usage of our templates after the purchase.<br>
+            Please read carefully this section because it contains the information on using our templates after the purchase.<br>
             <a href="http://www.templatemonster.com/terms.php" target="_blank">Go to Terms of Use</a>
         </li>
         <li>
             <strong>Refund Policy</strong><br>
-            You are strongly urged to review and acknowledge the conditions under which you may apply for a Refund/Exchange of the product you purchased from us. Every customer is obliged to agree with the terms of our Refund/Exchange policy upon placing an order with our company.<br>
+            You are strongly urged to review and acknowledge the conditions under which you may apply for a Refund/Exchange of the product you've purchased from us. Every customer is obliged to agree with the terms of our Refund/Exchange policy upon placing an order with our company.<br>
             <a href="http://www.templatemonster.com/refund-policy.php" target="_blank">Read Refund Policy</a>
         </li>
         <li>
             <strong>Privacy Policy</strong><br>
-            Please read our privacy policy to learn more how we treat personally identifiable information collected from our visitors and users.<br>
+            Please read our privacy policy to learn more how do we treat personally identifiable information collected from our visitors and users.<br>
             <a href="http://www.templatemonster.com/privacy-policy.php" target="_blank">Read Privacy Policy</a>
         </li>
         <li>

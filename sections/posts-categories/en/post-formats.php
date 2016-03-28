@@ -87,11 +87,11 @@
 
 <figure class="img-polaroid"><img src="img/wordpress/add_media.png" alt=""></figure>
 
-<p>Drag files or click <strong>Select Files</strong> to add images from local computer.</p>
+<p>Drag the files or click <strong>Select Files</strong> to add images from the local computer.</p>
 
 <figure class="img-polaroid"><img src="img/wordpress/insert-media.png" alt=""></figure>
 
-<p>After images are uploaded, you can find them in Media Library. Click <strong>Uploaded to this post</strong> to
+<p>After the images are uploaded, you can find them in Media Library. Click <strong>Uploaded to this post</strong> to
    view the images.</p>
 
 <figure class="img-polaroid"><img src="img/wordpress/uploaded-images.png" alt=""></figure>
@@ -157,17 +157,17 @@
 
 <figure class="img-polaroid"><img src="img/wordpress/post_format_video.png" alt=""></figure>
 
-<p>There are two ways to add video into the post:</p>
+<p>There are two ways of adding video into the post:</p>
 
 <ul class="marked-list">
-    <li><strong>Embedded Code</strong> - used to add video from external sources like Youtube, Vimeo, etc.</li>
-    <li>Add video through media library.</li>
+    <li><strong>Embedded Code</strong> - used to add video from the external sources like Youtube, Vimeo, etc.</li>
+    <li>Add video through the media library.</li>
 </ul>
 
 <p>You can edit the following fields in settings:</p>
 
 <ul class="marked-list">
-    <li><strong>M4V</strong> - direct link to video in m4v format with possibility to delete</li>
+    <li><strong>M4V</strong> - direct link to the video in m4v format with possibility to delete</li>
     <li><strong>Add alternative source for maximum HTML5 playback </strong> - alternative source of various video
                                                                             formats (mp4, ogv, webm)
     </li>

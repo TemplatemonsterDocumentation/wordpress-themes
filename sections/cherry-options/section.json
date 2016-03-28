@@ -48,6 +48,13 @@
 				"en":"Navigation",
 				"ru":"Навигация"
 			}
+		},  
+		{
+			"id":"option-megamenu",
+			"translations":{
+				"en":"Megamenu",
+				"ru":"Мега Меню"
+			}
 		},
 		{
 			"id":"option-header",
@@ -78,6 +85,13 @@
 			}
 		},
 		{
+			"id":"option-portfolio",
+			"translations":{
+				"en":"Portfolio",
+				"ru":"Портфолио"
+			}
+		},
+		{
 			"id":"option-optimization",
 			"translations":{
 				"en":"Optimization",
@@ -96,6 +110,27 @@
 			"translations":{
 				"en":"Landing Page",
 				"ru":"Landing Page"
+			}
+		},
+		{
+			"id":"option-simple-slider",
+			"translations":{
+				"en":"Simple Slider",
+				"ru":"Слайдер"
+			}
+		},
+		{
+			"id":"option-olark",
+			"translations":{
+				"en":"Olark live chat",
+				"ru":"Olark live chat"
+			}
+		},
+		{
+			"id":"option-style-switcher",
+			"translations":{
+				"en":"Style switcher",
+				"ru":"Стайл Свичер"
 			}
 		}
 	]

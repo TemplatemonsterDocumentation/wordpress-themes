@@ -7,7 +7,7 @@
         <dl class="inline-term">
             <dt>Body background</dt>
             <dd>
-                Set the background for body container. You can specify background image or color, set background repeat,
+                Set the background for body container. You can specify the background image or color, set background repeat,
                 position and attachment.
             </dd>
         </dl>

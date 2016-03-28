@@ -32,52 +32,190 @@
 
     <li>
         <dl class="inline-term">
-            <dt>Author bio</dt>
+            <dt>Post content</dt>
             <dd>
-                Enable/disable author bio block. Author bio block is displayed on the post page.
+                Select how you want to display post content in blog listing 
             </dd>
         </dl>
     </li>
 
     <li>
         <dl class="inline-term">
-            <dt>Related posts</dt>
+            <dt>Content Part length
+            </dt>
             <dd>
-                Enable/disable related posts block. Related posts block is displayed on the post page.
+                Specify the number of words displayed in blog listing content part. Will not work if post has an excerpt. 
             </dd>
         </dl>
     </li>
 
     <li>
         <dl class="inline-term">
-            <dt>Allow comments</dt>
+            <dt>More button</dt>
             <dd>
-                Enable/disable comments for blog posts.
+                Enable/Disable read more button in blog listing. 
             </dd>
         </dl>
     </li>
 
     <li>
         <dl class="inline-term">
-            <dt>Gallery slider</dt>
+            <dt>More button label</dt>
             <dd>
-                Replace default Wordpress gallery shortcode with enhanced jQuery carousel.
+                Specify the "Read More" button label text. 
             </dd>
         </dl>
     </li>
 
-    <li>
-        <dl class="inline-term">
-            <dt>Lightbox for images and videos</dt>
-            <dd>
-                Automatically adds lightbox for images and videos
-            </dd>
-        </dl>
-    </li>
 </ul>
 
-<figure class="img-polaroid"><img src="img/cherryframework/cherry-options_blog.jpg" alt=""></figure>
+<figure class="img-polaroid"><img src="img/cherryframework/cherry-options_blog.png" alt=""></figure>
 
+
+<h4>Blog > Layout</h4>
+
+
+<ul class="marked-list">
+    <li>
+        <dl class="inline-term">
+            <dt>Enable custom blog layout</dt>
+            <dd>
+                Enable/disable custom blog layout.
+            </dd>
+        </dl>
+    </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>Filter type</dt>
+            <dd>
+                Select if you want to filter posts by tag or by category.
+            </dd>
+        </dl>
+    </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>Custom blog filter type</dt>
+            <dd>
+                Select blog filter type.
+            </dd>
+        </dl>
+    </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>Use on pages</dt>
+            <dd>
+                Please specify pages that will use custom blog layout.
+            </dd>
+        </dl>
+    </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>Grid columns</dt>
+            <dd>
+                Select grid layout pattern for pages with custom blog layout.
+            </dd>
+        </dl>
+    </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>Masonry columns number</dt>
+            <dd>
+                Specify custom masonry layout columns number.
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Masonry columns gutter</dt>
+            <dd>
+                Specify custom masonry layout columns gutter(px).
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Timeline item width</dt>
+            <dd>
+                Specify custom item width for Timeline blog layout(%).
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Enable timeline breakpoints</dt>
+            <dd>
+                Enable/disable timeline breakpoints.
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Timeline breakpoint</dt>
+            <dd>
+                Select timeline breakpoint type.
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Timeline breakpoint date format</dt>
+            <dd>
+                Specify the date format.
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Enable marker's date label</dt>
+            <dd>
+                Enable/disable marker's date label.
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Timeline marker date format</dt>
+            <dd>
+                Specify the date format.
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Grid type</dt>
+            <dd>
+                Select layout pattern for pages with custom blog layout. Wide layout will fit for window width. Boxed layout will have fixed width.
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Custom Blog sidebars</dt>
+            <dd>
+                You can choose if you want to display sidebars and how you want to display them.
+            </dd>
+        </dl>
+    </li>
+    <li>
+        <dl class="inline-term">
+            <dt>Template type</dt>
+            <dd>
+                Select template type for blog posts.
+            </dd>
+        </dl>
+    </li>
+
+</ul>
+
+
+<figure class="img-polaroid">
+    <img src="img/cherryframework/cherry-options_blog-layout.png" alt="" style="opacity: 1;">
+</figure>
 
 <h4>Blog > Meta</h4>
 
@@ -126,9 +264,18 @@
             </dd>
         </dl>
     </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>Additional post meta</dt>
+            <dd>
+                Enable/disable additional post meta. 
+            </dd>
+        </dl>
+    </li>
 </ul>
 
-<figure class="img-polaroid"><img src="img/cherryframework/cherry-options_blog-meta.jpg" alt=""></figure>
+<figure class="img-polaroid"><img src="img/cherryframework/cherry-options_blog-meta.png" alt=""></figure>
 
 
 <h4>Blog > Post</h4>
@@ -145,7 +292,7 @@
 
     <li>
         <dl class="inline-term">
-            <dt>Featured Image Size</dt>
+            <dt>Size of Featured Image</dt>
             <dd>
                 Set dimensions for single post featured images in pixels.
             </dd>
@@ -154,9 +301,18 @@
 
     <li>
         <dl class="inline-term">
-            <dt>Featured Image Alignment</dt>
+            <dt>Alignment of Featured Image </dt>
             <dd>
                 Set alignment for single post featured images.
+            </dd>
+        </dl>
+    </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>Navigation  </dt>
+            <dd>
+               Enable/disable post navigation block. 
             </dd>
         </dl>
     </li>
@@ -183,9 +339,7 @@
         <dl class="inline-term">
             <dt>Allow Comments</dt>
             <dd>
-                Enable/disable comments for blog posts. Make sure comments are enabled in WordPress
-                \'settings->discussion\'.
-                For posts that have already been published you need to enable comments individually in post settings.
+                Enable/disable comments for blog posts. 
             </dd>
         </dl>
     </li>
@@ -194,19 +348,28 @@
         <dl class="inline-term">
             <dt>Gallery Slider</dt>
             <dd>
-                Replace the default WordPress gallery shortcode with enhanced jQuery carousel.
+                Replace the default WordPress gallery shortcode with an enhanced jQuery carousel.
             </dd>
         </dl>
     </li>
 
     <li>
         <dl class="inline-term">
-            <dt>Lightbox for images and videos</dt>
+            <dt>Lightbox for images in a content</dt>
             <dd>
-                Adds a lightbox for images and videos.
+                Automatically adds lightbox for images in a post content. 
+            </dd>
+        </dl>
+    </li>
+
+    <li>
+        <dl class="inline-term">
+            <dt>Additional post meta</dt>
+            <dd>
+                Enable/disable additional post meta.
             </dd>
         </dl>
     </li>
 </ul>
 
-<figure class="img-polaroid"><img src="img/cherryframework/cherry-options_blog-post.jpg" alt=""></figure>
+<figure class="img-polaroid"><img src="img/cherryframework/cherry-options_blog-post.png" alt=""></figure>

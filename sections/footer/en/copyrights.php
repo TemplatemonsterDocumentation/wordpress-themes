@@ -7,7 +7,7 @@
         <dl class="inline-term">
             <dt>Footer background</dt>
             <dd>
-                Footer background settings. You can select background color, upload footer background image, set its
+                Footer background settings. You can select the background color, upload the footer background image, set its
                 background position, attachment and repeat.
             </dd>
         </dl>
@@ -26,7 +26,7 @@
         <dl class="inline-term">
             <dt>Grid type</dt>
             <dd>
-                Select the layout pattern for website footer. Wide layout will fit window width. Boxed layout will have
+                Select the layout pattern for website footer. Wide layout will fit the window width. Boxed layout will have
                 fixed
                 width.
             </dd>

@@ -1,7 +1,7 @@
 <h3>Setting up the home page</h3>
 
 <p>
-    Monstroid content is coded via MotoPress Content Editor which is included within your purchase.
+    Monstroid content is coded via MotoPress Content Editor which is included in the purchased Monstroid package.
    In order to setup any page including the home page one, please go to:
 </p>
 

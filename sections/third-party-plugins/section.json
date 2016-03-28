@@ -8,32 +8,46 @@
 	"articles":
 	[				
 		{
-			"id":"motopress-slider",
-			"translations":{
-				"en":"MotoPress Slider",
-				"ru":"MotoPress Slider"
+				"id": "motopress-slider",
+				"translations": {
+					"en": "MotoPress Slider",
+					"ru": "MotoPress Slider"
+				}
+			},
+			{
+				"id": "motopress-content-editor",
+				"translations": {
+					"en": "Motopress Content Editor",
+					"ru": "Motopress Content Editor"
+				}
+			},
+			{
+				"id": "wpml-configuration",
+				"translations": {
+					"en": "WPML configuration",
+					"ru": "Настройка WPML"
+				}
+			},
+			{
+				"id": "contact-form",
+				"translations": {
+					"en": "Contact form 7",
+					"ru": "Contact form 7"
+				}
+			},
+			{
+				"id": "mailchimp-for-wordpress",
+				"translations": {
+					"en": "MailChimp for WordPress",
+					"ru": "MailChimp for WordPress"
+				}
+			},
+			{
+				"id": "homepage-pop-up",
+				"translations": {
+					"en": "Homepage Pop-up",
+					"ru": "Homepage Pop-up"
+				}
 			}
-		},	
-		{
-			"id":"motopress-content-editor",
-			"translations":{
-				"en":"Motopress Content Editor",
-				"ru":"Motopress Content Editor"
-			}
-		},		
-		{
-			"id":"wpml-configuration",
-			"translations":{
-				"en":"WPML configuration",
-				"ru":"Настройка WPML"
-			}
-		},		
-		{
-			"id":"contact-form",
-			"translations":{
-				"en":"Contact form 7",
-				"ru":"Contact form 7"
-			}
-		}	
-	]
+		]
 }

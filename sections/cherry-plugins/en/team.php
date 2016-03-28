@@ -1,11 +1,11 @@
 <h3>Cherry Team</h3>
 <p><a href="https://github.com/CherryFramework/cherry-team" target="_blank">Cherry Team</a> plugin adds a new post type called "
     <a href="./index.php?lang=en&section=posts-categories#team-post">Team</a>
-   ." "Team" posts have additional settings for your team members posts formatting. You can work with team posts in the
-   same way as you would work with regular posts. Team posts can be arranged into categories for better navigation.
+   ." "Team" posts have some additional settings for your team members posts formatting. You can work with team posts in the
+   same way as you would work with the regular posts. Team posts can be arranged into the categories for better navigation.
 </p>
 
-<p>After the plugin is installed and activated, you will see the Team tab in the WordPress dashboard where you can work
+<p>After the plugin is installed and activated, you will see the "Team tab" in the WordPress dashboard where you can work
    with posts and categories. </p>
 
 <p>Team posts have the following settings: </p>

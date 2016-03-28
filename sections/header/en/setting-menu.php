@@ -4,5 +4,5 @@
     areas of the theme where you can assign a menu: Shop, Landing, Primary and Secondary. Each of these menu locations
     can have a custom menu assigned. Once a menu is created and assigned to the location, it will show up on the site.
     There are also several theme options to customize the menu. Please see below for the menu locations, how to create a
-    new menu and the menu theme options.
+    new menu and menu options.
 </p>

@@ -1,6 +1,6 @@
 <h3>Cherry Shortcodes</h3>
 
-<p><a href="https://github.com/CherryFramework/cherry-shortcodes" target="_blank">Cherry Shortcodes</a> plugin that helps you to work with shortcodes (pre-set shortcodes are used by default). Moreover, modified
+<p><a href="https://github.com/CherryFramework/cherry-shortcodes" target="_blank">Cherry Shortcodes</a> plugin that helps you work with shortcodes (pre-set shortcodes are used by default). Moreover, modified
    and new shortcodes are described in
     <a href="index.php?lang=en&section=shortcodes">Shortcodes</a>.
 </p>

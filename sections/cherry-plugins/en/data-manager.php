@@ -17,17 +17,17 @@
         (hot keys CTRL+A or Command+A), drag and drop them into the field.
     </li>
 
-    <li>Upload files located in the sample_data folder including .JSON and .XML. Once files are uploaded, click
+    <li>Upload the files located in the sample_data folder including .JSON and .XML. Once files are uploaded, click
         "Continue Install." <br>
 
-        <p class="alert alert-info"><span>ATTENTION: .JSON and .XML files are required for sample data installation. The Continue Install button will activate only after you upload .XML and .JSON files.</span>
+        <p class="alert alert-info"><span>ATTENTION: .JSON and .XML files are required for sample data installation. The Continue Install button will be active only after you upload .XML and .JSON files.</span>
         </p>
 
         <span></span>
     </li>
 
     <li>"Continue Install" button will start the process of sample data installation. Installation will take some time
-        (depending on the server settings). Please wait till it is done.
+        (depending on the server settings). Please wait untill it is done.
     </li>
     <li><span><strong>Congratulations!</strong> You have successfully installed Cherry WordPress theme and now you can check how it looks.</span>
     </li>

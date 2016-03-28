@@ -29,7 +29,7 @@
 </ol>
 
 <p>
-    If you have difficulties installing the theme through the WordPress admin panel, you can upload it through the FTP
+    If you have difficulties with installing the theme through the WordPress admin panel, you can upload it through the FTP
     File Manager.
 </p>
 
@@ -51,11 +51,11 @@
 <h4>Install Cherry Plugins</h4>
 
 <p>
-    To make a Cherry based website fully functional, you need to install all the required plugins. Plugins provide
+    To make a Cherry based website fully functional, you need to install all the required plugins that provide
     additional functionality to the default WordPress engine.
 </p>
 <ol class="index-list">
-    <li>Under <b>Appearance -> Themes</b> you will see a warning saying that your theme requires certain plugins to be installed for its proper working. Click on <b>Begin Installing Plugins</b>.</li>
+    <li>Under <b>Appearance -> Themes</b> you will see a warning message saying that your theme requires certain plugins to be installed for its proper working. Click on <b>Begin Installing Plugins</b>.</li>
     <li>Check all the plugins and select Install in the drop-down menu. Click <b>Apply</b>.</li>
     <li>Wait until the installation is complete.</li>
     <li>Activate plugins.</li>
@@ -64,11 +64,11 @@
 <p>To install Cherry Plugins manually, please do the following:</p>
 
 <ol class="index-list">
-    <li>Download all required plugins. You can find them <a href="index.php?lang=en&section=cherry-plugins">here</a>.</li>
+    <li>Download all the required plugins. You can find them <a href="index.php?lang=en&section=cherry-plugins">here</a>.</li>
     <li>Open the WordPress admin panel.</li>
     <li>Go to "<b>Plugins > Add New</b>."</li>
     <li>Click the "<b>Upload Plugin</b>" button.</li>
-    <li>Search for plugins in your downloaded template package in the "<b>source</b>" directory.</li>
+    <li>Search for the plugins in your downloaded template package in the "<b>source</b>" directory.</li>
     <li>When you have all plugins uploaded, you need to activate them.</li>
     <li>Go to the <b>Plugins</b> section and click the <b>Activate</b> links under each plugin.</li>
 </ol>
@@ -76,8 +76,8 @@
 <h4>Install Sample Data</h4>
 
 <p>
-    To make your theme appear as on the template live demo, please install the sample data. You can do this using Data
-    Manager tool or manually.
+    To make your theme look similar with the template live demo, please install sample data. You can do this manually or using Data
+    Manager tool.
 </p>
 
 <h5>Data Manager</h5>
@@ -115,7 +115,7 @@
 <figure class="img-polaroid"><img src="img/cherryframework/sample_data_import_install.jpg" alt=""></figure>
 
 <p>
-    When the installation process is done, you can view your website. It should be as at the live demo.
+    When the installation process is done, you can preview your website. It should be as on the live demo.
 </p>
 
 
@@ -130,8 +130,8 @@
         to your website URL via <strong>Find and Replace</strong> (hot keys - Ctrl+H). E.g.: http://www.mywebsite.com
     </li>
     <li>There should be no forward slash "/" at the end of the URL.</li>
-    <li>Save the changes and close the file.</li>
+    <li>Save changes and close the file.</li>
     <li>Now you can import this file through <strong>phpMyAdmin</strong> or another database management tool.</li>
 </ol>
 
-<p><strong>Congratulations, now you have completely installed Cherry Theme.</strong></p>
+<p><strong>Congratulations, now you have completely installed the Cherry Theme.</strong></p>
