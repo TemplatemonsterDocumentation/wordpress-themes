@@ -1,8 +1,6 @@
 <?php 
 
-$path = dirname($_SERVER['PHP_SELF']);
-
-//$path = 111;
+$path = 'http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['SCRIPT_NAME']);
 
 // Variables
 $product_name = "Monstroid Theme";
