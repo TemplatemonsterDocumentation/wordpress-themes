@@ -6,7 +6,7 @@ if (strpos($_SERVER['REQUEST_URI'], 'index.php')) {
 	$path = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 }
 
-//$path = 111;
+$path = 'http://' . $_SERVER['HTTP_HOST'] . dirname($_SERVER['SCRIPT_NAME']);
 
 // Variables
 $product_name = "WordPress Themes";

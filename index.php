@@ -50,7 +50,7 @@ foreach ($sections as $key => $section) {
 <div class="page-wrap">
     <div class="rd-mobilemenu active">
         <div class="logo">
-            <a href="<?php echo $path; ?>"><img src="<?php echo $path; ?>/img/logo.png" alt=""></a>
+            <a href="<?php echo $path; ?>/"><img src="<?php echo $path; ?>/img/logo.png" alt=""></a>
         </div>
         <div class="panel">
             <!-- <div class="select select-version">
