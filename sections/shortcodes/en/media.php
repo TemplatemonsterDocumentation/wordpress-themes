@@ -60,6 +60,9 @@
     <li><strong>Slider navigation:</strong> – display/hide slider navigation</li>
     <li><strong>Class:</strong> – extra CSS class</li>
     <li><strong>Template:</strong> – shortcode template to display shortcode content, for more information, please visit our <a href="./index.php?project=monstroid&lang=en&section=cherry-plugins#" target="blank">tutorial</a></li>
+    <li><strong>Autoplay</strong> – Enable/disable autoplay</li>
+    <li><strong>Autoplay delay</strong> – Delay between transitions (in ms)</li>
+    <li><strong>Stop Autoplay on Interaction</strong> – Set to false and autoplay will not be disabled after user interactions</li>
 </ul>
 
 <pre class="prettyprint">[cherry_swiper_carousel posts_per_page="10" post_type="post" taxonomy="category" tax_operator="0" offset="0" order="desc" orderby="date" post_status="publish" ignore_sticky_posts="no" linked_title="yes" linked_image="yes" content_type="part" content_length="55" button_text="read more" template="default.tmpl" crop_image="no" crop_width="540" crop_height="320" slides_per_view="3" slides_per_column="1" space_between_slides="10" swiper_duration_speed="300" swiper_loop="yes" swiper_free_mode="no" swiper_grab_cursor="no" swiper_mouse_wheel="no" swiper_centered_slide="no" swiper_effect="slide" swiper_pagination="yes" swiper_navigation="yes" swiper_navigation_position="inner"]</pre>

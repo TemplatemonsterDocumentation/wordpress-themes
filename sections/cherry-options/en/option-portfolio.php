@@ -80,6 +80,22 @@
         </li>
         <li>
             <dl class="inline-term">
+                <dt>Order filter default value</dt>
+                <dd>
+                    Specify the order filter value
+                </dd>
+            </dl>
+        </li>
+        <li>
+            <dl class="inline-term">
+                <dt>Order by filter default value</dt>
+                <dd>
+                    Choose the order criteria
+                </dd>
+            </dl>
+        </li>
+        <li>
+            <dl class="inline-term">
                 <dt>Column number</dt>
                 <dd>
                     Defines the number of columns in post listing for masonry and grid view.

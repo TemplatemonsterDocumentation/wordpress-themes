@@ -67,3 +67,8 @@
         <figure class="img-polaroid"><img src="img/wordpress/portfolio_post_type_format_audio.png" alt=""></figure>
     </li>
 </ul>
+
+<h5>Portfolio Category Filter</h5>
+<p>
+    This option allows you to change categories display order. The categories are ordered alphabetically no matter how they were added to the Cherry Portfolio. 
+</p>
