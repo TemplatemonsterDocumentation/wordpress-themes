@@ -40,7 +40,7 @@ if (!isset($sections)) {
 <div class="page-wrap">
     <div class="rd-mobilemenu active">
         <div class="logo">
-            <a href="<?php echo $path; ?>"><img src="<?php echo $path; ?>/img/logo.png" alt=""><span>Monstroid</span><small>premium theme</small></a>
+            <a href="<?php echo $path; ?>/"><img src="<?php echo $path; ?>/img/logo.png" alt=""><span>Monstroid</span><small>premium theme</small></a>
         </div>        
         <div class="panel">
             <!-- <div class="select select-version">

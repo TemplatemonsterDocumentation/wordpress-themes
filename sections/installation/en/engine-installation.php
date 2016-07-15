@@ -128,7 +128,7 @@
 
     <ul class="marked-list">
         <li class="first"><i class="icon-info-sign"></i>
-            <a target="_blank" href="http://info.template-help.com/help/how-create-database.html">How to create
+            <a target="_blank" href="http://info.template-help.com/help/how-to-create-a-database.html ">How to create
                                                                                                   database
             </a>
         </li>
