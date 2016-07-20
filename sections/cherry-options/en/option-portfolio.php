@@ -152,6 +152,23 @@
         </li>
         <li>
             <dl class="inline-term">
+                <dt>Prev page text</dt>
+                <dd>
+                   Set text for portfolio `Prev page` buttons.
+                </dd>
+            </dl>
+        </li>
+
+        <li>
+            <dl class="inline-term">
+                <dt>Next page text</dt>
+                <dd>
+                   Set text for portfolio `Next page` buttons.
+                </dd>
+            </dl>
+        </li>
+        <li>
+            <dl class="inline-term">
                 <dt>More button text</dt>
                 <dd>
                     Defines “More” button text.

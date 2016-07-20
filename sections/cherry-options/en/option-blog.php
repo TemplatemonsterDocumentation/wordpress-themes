@@ -1,6 +1,6 @@
 <h3>Blog</h3>
 
-<p>The section contains settings for WordPress blog pages (listing and single post post types).
+<p>The section contains settings for WordPress blog pages (listing and single post types).</p>
 
 
 
@@ -202,7 +202,7 @@
         <dl class="inline-term">
             <dt>Custom Blog sidebars</dt>
             <dd>
-                You can choose if you want to display sidebars and how you want to display them.
+                You can choose if you want to display sidebars and how you want to display them. The latest Monstroid update allows you to switch between 1/3 and 1/4 layout types. 
             </dd>
         </dl>
     </li>

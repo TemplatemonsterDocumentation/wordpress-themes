@@ -137,7 +137,7 @@
         <dl class="inline-term">
             <dt>Slider navigation</dt>
             <dd>
-                Enable / Disable slider navigation.
+                Enable / Disable slider navigation. You also can change name of the navigation buttons.
             </dd>
         </dl>
     </li>
@@ -155,7 +155,7 @@
         <dl class="inline-term">
             <dt>Slider pagination</dt>
             <dd>
-                Enable / Disable slider pagination.
+                Enable / Disable slider pagination. 
             </dd>
         </dl>
     </li>
