@@ -8,5 +8,5 @@
 	<pre class="prettyprint">
 add_filter( 'cherry_google_fonts_cdn', 'cherry_china_fonts_url' );
 function cherry_china_fonts_url( $url ) {
-    return '//china.fonts.url.com/'
+    return '//china.fonts.url.com/';
 }</pre>
