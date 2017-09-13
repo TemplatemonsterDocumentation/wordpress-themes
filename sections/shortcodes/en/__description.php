@@ -22,5 +22,3 @@
 </ul>
 
 <figure class="img-polaroid"><img src="img/wordpress/shorcode_ultimate_board.png" alt=""></figure>
-
-
