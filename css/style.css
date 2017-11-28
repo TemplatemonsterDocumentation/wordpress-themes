@@ -1018,6 +1018,10 @@ ol li figure.img-paraloid {
 	border:1px solid #f4511e;
 }
 
+.zemez-chat-wrap .box-info{
+	    background: linear-gradient(-45deg, #23A6D5, #23D5AB);
+}
+
 @keyframes bounceInRight {
 	from, 60%, 75%, 90%, to {
 		animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
