@@ -988,7 +988,7 @@ ol li figure.img-paraloid {
     display: block;
     background: #f4511e;
     padding: 5px;
-    width: 75px;
+    max-width: 75px;
     text-align: center;
 	cursor:pointer;
 	color:#fff;
