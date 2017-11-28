@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/bootstrap.css" media="screen">
   <link rel="stylesheet" href="css/responsive.css" media="screen">
-  <link rel="stylesheet" href="css/style.css" media="screen">
+  <link rel="stylesheet" href="css/style.css?v=1" media="screen">
   <link rel="stylesheet" href="css/flexslider.css"  media="screen">
   <link rel="stylesheet" href="css/prettify.css"  media="screen">
    <link rel="stylesheet" href="css/prettyPhoto.css"  media="screen">
@@ -16,7 +16,7 @@
   <script src="js/prettify.js"></script>
   <script src="js/jquery.flexslider.js"></script>
   <script src="js/bootstrap-affix.js"></script>
-  <script src="js/script.js"></script>
+  <script src="js/script.js?v=1"></script>
   <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
   <link href="google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
   <script type="text/javascript" src="google-code-prettify/prettify.js"></script>
@@ -289,6 +289,15 @@
      
   
     <h2 class="item2"><i class="icon-check"></i> Instalaci&oacute;n de la plantilla</h2>
+	
+	<div class="zemez-chat-wrap">
+	<p class="box-info"><span>Si no quieres pasar el tiempo instalando la plantilla, no dudes en <span class="label label-warning opener" onclick="showChat()">solicitar</span> el servicio de instalación utilizando nuestro chat en vivo.</span></p>
+	<form class="zemez-chat" id="zemez-chat" method="GET">
+			<input type="text" placeholder="Nombre:" name="uname" id="uname">
+			<input type="email" placeholder="Dirección de Email:" name="umail" id="umail">
+			<span onclick="startChat()">Comenzar Chat</span>
+		</form>
+	</div>
     
     <p>La instalaci&oacute;n de la plantilla nunca ha sido tan f&aacute;cil. El proceso de instalaci&oacute;n consta de tres sencillos pasos: la instalaci&oacute;n de Cherry framework, la instalaci&oacute;n del tema hijo (child-theme) y los datos de ejemplo.</p>
      <p>Todos los pasos de la instalaci&oacute;n se pueden realizar en la interfaz de WordPress. Esto hace que el proceso sea c&oacute;modo y r&aacute;pido.</p>
@@ -362,6 +371,7 @@
         </li>
       </ol>      
     </article>
+	<p class="box-info"><span>Si no quieres pasar el tiempo instalando la plantilla, no dudes en <span class="label label-warning opener" onclick="showChat()">solicitar</span> el servicio de instalación utilizando nuestro chat en vivo.</span></p>
   </section>
 
 

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/bootstrap.css" media="screen">
   <link rel="stylesheet" href="css/responsive.css" media="screen">
-  <link rel="stylesheet" href="css/style.css" media="screen">
+  <link rel="stylesheet" href="css/style.css?v=1" media="screen">
   <link rel="stylesheet" href="css/flexslider.css"  media="screen">
   <link rel="stylesheet" href="css/prettify.css"  media="screen">
    <link rel="stylesheet" href="css/prettyPhoto.css"  media="screen">
@@ -16,7 +16,7 @@
   <script src="js/prettify.js"></script>
   <script src="js/jquery.flexslider.js"></script>
   <script src="js/bootstrap-affix.js"></script>
-  <script src="js/script.js"></script>
+  <script src="js/script.js?v=1"></script>
   <script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
   <link href="google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
   <script type="text/javascript" src="google-code-prettify/prettify.js"></script>
@@ -289,6 +289,15 @@
      
   
     <h2 class="item2"><i class="icon-check"></i> Template installation</h2>
+	
+	<div class="zemez-chat-wrap">
+	<p class="box-info"><span>Wenn Sie einiges an Zeit sparen möchten, <span class="label label-warning opener" onclick="showChat()">bestellen</span> Sie den Installationsservice für Ihr Theme in unserem Online-Chat.</span></p>
+	<form class="zemez-chat" id="zemez-chat" method="GET">
+			<input type="text" placeholder="Name:" name="uname" id="uname">
+			<input type="email" placeholder="E-Mail-Addresse:" name="umail" id="umail">
+			<span onclick="startChat()">Chat starten</span>
+		</form>
+	</div>
     
 
 <p>Template-Installation war noch nie einfacher. Die Installation umfasst nur drei einfachen Schritten: Cherry Framework der Installation, Unterthema Installation und Beispieldaten-Installation.</p>
@@ -363,7 +372,7 @@
         </li>
       </ol>      
     </article>
-    
+    <p class="box-info"><span>Wenn Sie einiges an Zeit sparen möchten, <span class="label label-warning opener" onclick="showChat()">bestellen</span> Sie den Installationsservice für Ihr Theme in unserem Online-Chat.</span></p>
   </section>
 <!-- Getting started --> 
   <section class="block-templates" id="getting_started">  
