@@ -1091,3 +1091,115 @@ footer:after {
 .copyright {
   margin: 0;
 }
+
+/*CHAT*/
+
+.zemez-chat-wrap * {
+    box-sizing: border-box;
+}
+
+.zemez-chat {
+	display:none;
+    position: fixed;
+	max-width:260px;
+    display:none;
+    bottom: 110px;
+    z-index: 99;
+    padding: 12px;
+	background: linear-gradient(-45deg, #23A6D5, #23D5AB);
+}
+
+.zemez-chat-wrap {
+	position: relative;
+    z-index: 9999999;
+}
+
+.label.opener {
+    display: inline;
+    cursor: pointer;
+    position: relative;
+    padding: 7px 10px;
+    top: -2px;
+}
+
+#zemez-chat input {
+	margin-bottom: 20px;
+    padding: 10px;
+	width: 100%;
+    background-color: #f8f8f8;
+	border:none;
+	outline:none;
+}
+
+#zemez-chat span {
+    display: block;
+    background: #f4511e;
+    padding: 5px;
+    max-width: 100px;
+    text-align: center;
+	cursor:pointer;
+	color:#fff;
+	margin: 0 auto;
+}
+
+#zemez-chat input:focus {
+	border-color: rgba(82, 168, 236, 0.8);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6) inset;
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6) inset;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(82, 168, 236, 0.6) inset;
+	-webkit-transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+
+.zemez-chat-shown {
+	right: 20px;
+	display:block;
+	-webkit-animation: bounceInRight 700ms 1 linear alternate;
+    animation: bounceInRight 700ms 1 linear alternate
+}
+
+.zemez-chat-wrap .alert-info .label, .alert.alert-info.custom  .label{
+	cursor:pointer;
+	background: #f4511e;
+    padding: 3px 8px;
+}
+
+#zemez-chat .zemez-chat-error {
+	border:1px solid #f4511e;
+}
+
+.zemez-chat-wrap .alert-info, .alert.alert-info.custom{
+	    background: linear-gradient(-45deg, #23A6D5, #23D5AB);
+		color: #fff;
+}
+
+@keyframes bounceInRight {
+	from, 60%, 75%, 90%, to {
+		animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+	}
+	
+	from {
+		opacity: 0;
+		transform: translate3d(3000px, 0, 0);
+	}
+	
+	60% {
+		opacity: 1;
+		transform: translate3d(-25px, 0, 0);
+	}
+	
+	75% {
+		transform: translate3d(10px, 0, 0);
+	}
+	
+	90% {
+		transform: translate3d(-5px, 0, 0);
+	}
+	
+	to {
+		transform: none;
+	}
+}
+
+.bounceInRight {
+	animation-name: bounceInRight;
+}
