@@ -247,7 +247,7 @@
     <li><i class="icon-angle-right"></i> <strong>Preload</strong></li>
     <li><i class="icon-angle-right"></i> <strong>Custom class</strong> –  extra CSS class</li>
 </ul>
-<pre class="prettyprint">[cherry_slider posts_per_page="4" slider_width="90%" slider_height="560" slider_orientation="vertical" slider_slide_distance="15" slider_navigation="no" slider_pagination="no" slider_autoplay="no" slider_fullScreen="no" custom_class="custom_class"]</pre>
+<pre class="prettyprint">[cherry_video_preview source="https://www.youtube.com/watch?v=III3hRaLpgs" poster="link" muted="yes" loop="yes"][/cherry_video_preview]</pre>
 
 <figure class="img-polaroid">
     <img alt="" src="img/wordpress/video_preview.jpg">
