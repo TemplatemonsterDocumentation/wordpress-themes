@@ -3,6 +3,8 @@
 <p>If for some reason installation using Cherry Wizard is not an option, you can install Cherry Framework and the theme
    manually.</p>
 
+<p class="alert alert-info custom">If you don't want to spend your time installing the template, don't hesitate to <span class="label label-warning opener" onclick="showChat()">order</span> installation service using our live-chat.</p>
+
 <h4>Install Cherry Framework</h4>
 
 <ol class="index-list">
