@@ -278,3 +278,60 @@ document.write('<meta name="viewport" content="width=device-width,initial-scale=
         
     });
 })(jQuery);
+
+/* Chat
+ ========================================================*/
+
+function showChat() {
+
+    var zemezchat = document.getElementById("zemez-chat");
+    zemezchat.classList.add("zemez-chat-shown");
+}
+
+function closeChat() {
+
+    var zemezchat = document.getElementById("zemez-chat");
+    zemezchat.classList.remove("zemez-chat-shown");
+}
+
+function startChat() {
+
+    var uname = document.getElementById("uname");
+    var umail = document.getElementById("umail");
+
+    isValid = true;
+
+    if ( ! uname.value ) {
+        isValid = false;
+        uname.classList.add("zemez-chat-error");
+    } else {
+        uname.classList.remove("zemez-chat-error");
+    }
+
+    if ( ! umail.value || ! umail.validity.valid) {
+        isValid = false;
+        umail.classList.add("zemez-chat-error");
+    } else {
+        umail.classList.remove("zemez-chat-error");
+    }
+
+    if ( ! isValid ) {
+        return;
+    }
+
+    jQuery.ajax({
+        url:     'chat.php',
+        type:     "GET",
+        dataType: "html",
+        async:false,
+        data: jQuery('#zemez-chat').serialize(),
+        success: function(response) {
+            window.open(response, '_blank', 'height=700,width=800');
+
+        },
+        error: function(response) {
+            window.location = 'http://chat.template-help.com/';
+        }
+    });
+
+}
