@@ -2,6 +2,14 @@
 
 <p class="alert alert-info custom">If you don't want to spend your time installing the template, don't hesitate to <span class="label label-warning opener" onclick="showChat()">order</span> installation service using our live-chat.</p>
 
+<h4>Need a solid hosting provider? We recommend SiteGround!</h4>
+	
+	<p style="text-align:center;">
+		<a class="leadlink" target="_blank" href="https://goo.gl/VyS3yQ"><img src="https://www.templatemonster.com/help/wp-content/uploads/2018/01/SG_banner.png" alt="SiteGround Hosting">
+			</a>
+	</p>
+	<h5 style="text-align:center;"><strong> High performance platform suitable for projects of all sizes</strong></h5>
+
 <p>Cherry Framework is built as a WordPress theme, so you need to have WordPress engine installed first. If you have not installed it yet, please refer to the <a href="#engine-installation">Engine Installation</a> section.</p>
 
 <p>To fully appreciate the Cherry Framework power we highly recommend to use Cherry Framework based theme. It can be both premium or free.</p>
